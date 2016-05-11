@@ -1,6 +1,7 @@
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO_DIR = os.path.join(BASE_DIR, os.pardir)
 SECRET_KEY = 'd7lg-3a2yc6t3anqr!rhhcd)u!a^-j9r4o7j5_@yibmmuz55h3'
 
 DEBUG = False

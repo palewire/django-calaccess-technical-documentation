@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'calaccess_raw',
+    'doc_bakery',
 ]
 
 MIDDLEWARE_CLASSES = [

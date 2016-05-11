@@ -1,0 +1,14 @@
+*.egg/
+*.egg-info*
+.eggs/
+*.pyc
+*.swp
+.DS_Store
+build
+dist/
+*.swo
+docs/_build
+.coverage
+.tox/
+example/settings_local.py
+data/

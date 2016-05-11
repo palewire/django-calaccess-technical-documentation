@@ -51,6 +51,6 @@ class Command(CalAccessCommand):
             'model_count': len(model_list),
             'empty_files': empty_files,
         }
-        rendered = render_to_string('toolbox/models.rst', context)
+        rendered = render_to_string('models.rst', context)
         with open(self.target_path, 'w') as target_file:
             target_file.write(rendered)

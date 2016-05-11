@@ -31,7 +31,7 @@ class Command(CalAccessCommand):
             'group_list': group_list,
         }
         
-        rendered = render_to_string('toolbox/filingforms.rst', context)
+        rendered = render_to_string('filingforms.rst', context)
 
         with open(self.target_path, 'w') as target_file:
             target_file.write(rendered)

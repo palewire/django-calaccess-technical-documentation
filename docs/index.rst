@@ -1,22 +1,38 @@
-.. django-calaccess documentation master file, created by
-   sphinx-quickstart on Wed May 11 12:57:18 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+django-calaccess
+================
 
-Welcome to django-calaccess's documentation!
-============================================
+A Django app to download, extract and load campaign finance and lobbying activity data
+from the California Secretary of State's `CAL-ACCESS <http://www.sos.ca.gov/prd/cal-access/>`_  database
 
-Contents:
+Documentation
+-------------
 
 .. toctree::
    :maxdepth: 2
 
+   howtouseit
+   managementcommands
+   models
+   tracking
+   filingforms
+   faq
+   officialdocumentation
+   howtocontribute
+   changelog
+   releasechecklist
 
+Open-source resources
+---------------------
 
-Indices and tables
-==================
+* Code: `github.com/california-civic-data-coalition/django-calaccess-raw-data <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_
+* Issues: `github.com/california-civic-data-coalition/django-calaccess-raw-data/issues <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues>`_
+* Packaging: `pypi.python.org/pypi/django-calaccess-raw-data <https://pypi.python.org/pypi/django-calaccess-raw-data>`_
+* Testing: `travis-ci.org/california-civic-data-coalition/django-calaccess-raw-data <https://travis-ci.org/california-civic-data-coalition/django-calaccess-raw-data>`_
+* Coverage: `coveralls.io/r/california-civic-data-coalition/django-calaccess-raw-data <https://coveralls.io/r/california-civic-data-coalition/django-calaccess-raw-data>`_
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+About
+-----
 
+This library is maintained by The California Civic Data Coalition,
+a team of journalists leading the development of open-source software to access
+and analyze public data. Read more at `californiacivicdata.org <http://www.californiacivicdata.org>`_.

@@ -14,6 +14,7 @@
 
 import sys
 import os
+from datetime import date
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -46,8 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'django-calaccess'
-copyright = u'2016, California Civic Data Coalition'
-author = u'California Civic Data Coalition'
+copyright = u'%s, California Civic Data Coalition' % date.today().year
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -108,7 +108,26 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-html_theme = 'alabaster'
+# html_theme = 'alabaster'
+
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+
+if not on_rtd:  # only import and set the theme if we're building docs locally
+    import sphinx_rtd_theme
+    # The theme to use for HTML and HTML Help pages.  See the documentation for
+    # a list of builtin themes.
+    html_theme = 'sphinx_rtd_theme'
+    # Add any paths that contain custom themes here, relative to this directory.
+    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+    html_style = 'css/custom.css'
+else:
+    html_context = { 
+        'css_files': [
+            'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
+            'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
+            '_static/css/custom.css',
+        ],
+    }
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -254,8 +273,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'django-calaccess', u'django-calaccess Documentation',
-     [author], 1)
+    ('index', 'django-calaccess-raw-data', u'django-calaccess Documentation',
+     [u'California Civic Data Coalition'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -268,9 +287,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'django-calaccess', u'django-calaccess Documentation',
-     author, 'django-calaccess', 'One line description of project.',
-     'Miscellaneous'),
+  ('index', 'django-calaccess', u'django-calaccess Documentation',
+   u'California Civic Data Coalition', 'django-calaccess-raw-data', 'One line description of project.',
+   'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.

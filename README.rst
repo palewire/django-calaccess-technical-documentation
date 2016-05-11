@@ -1,7 +1,7 @@
 django-calaccess-technical-documentation
 ========================================
 
-A Django app for building and deploying the `documentation <https://django-calaccess.readthedocs.org/>` related to the California Civic Data Coalition's efforts to open the CAL-ACCESS campaign finance and lobbyist disclosure database.
+A Django app for building and deploying the `documentation <https://django-calaccess.readthedocs.org/>`__ related to the California Civic Data Coalition's efforts to open the CAL-ACCESS campaign finance and lobbyist disclosure database.
 
 |Documentation Status|
 

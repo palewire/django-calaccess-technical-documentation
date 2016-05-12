@@ -1,38 +1,39 @@
 django-calaccess
 ================
 
-A Django app to download, extract and load campaign finance and lobbying activity data
-from the California Secretary of State's `CAL-ACCESS <http://www.sos.ca.gov/prd/cal-access/>`_  database
-
-Documentation
--------------
+Welcome to our documentation! If you are a data power user eager to dig into California's campaign finance and lobbyist disclosure data, then you've come to the right place.
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
 
-   howtouseit
-   managementcommands
+   calaccess_raw
    models
-   tracking
    filingforms
-   faq
-   officialdocumentation
-   howtocontribute
-   changelog
-   releasechecklist
+   officialdocumentation    
 
-Open-source resources
----------------------
 
-* Code: `github.com/california-civic-data-coalition/django-calaccess-raw-data <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_
-* Issues: `github.com/california-civic-data-coalition/django-calaccess-raw-data/issues <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues>`_
-* Packaging: `pypi.python.org/pypi/django-calaccess-raw-data <https://pypi.python.org/pypi/django-calaccess-raw-data>`_
-* Testing: `travis-ci.org/california-civic-data-coalition/django-calaccess-raw-data <https://travis-ci.org/california-civic-data-coalition/django-calaccess-raw-data>`_
-* Coverage: `coveralls.io/r/california-civic-data-coalition/django-calaccess-raw-data <https://coveralls.io/r/california-civic-data-coalition/django-calaccess-raw-data>`_
+Guide
+-----
+
+`Raw Data App <calaccess_raw.html>`_
+   A how-to guide for downloading, extracting and loading the raw CAL-ACCESS data.
+
+`CAL-ACCESS Record Layout <models.html>`_
+   Our comprehensive description of the tables and fields the CAL-ACCESS database.
+
+`Filing Forms <filingforms.html>`_
+   A list of official campaign finance and lobbyist disclosure forms along with descriptions and PDFs of sample forms.
+
+`Official CAL-ACCESS Documentation <officialdocumentation.html>`_
+   A collection of docs published by the California state government describing CAL-ACCESS.
 
 About
 -----
 
-This library is maintained by The California Civic Data Coalition,
-a team of journalists leading the development of open-source software to access
-and analyze public data. Read more at `californiacivicdata.org <http://www.californiacivicdata.org>`_.
+These resources are maintained by The California Civic Data Coalition, a team of journalists leading the development of open-source software to access and analyze public data. Read more at `californiacivicdata.org <http://www.californiacivicdata.org>`_.
+
+
+
+
+

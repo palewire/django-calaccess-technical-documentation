@@ -18401,8 +18401,7 @@ Common tables
 CvrE530Cd
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Probably Cover Pages for Electronic Form 530. This table is listed in the record
-layouts, but neither table nor any of its columns are labeled.
+This table method is undocumented.
 
 **Sample:** `CVR_E530_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_E530_CD.TSV>`_
 
@@ -21771,7 +21770,7 @@ Look-up Codes
 HeaderCd
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lookup table used to report Form 460 information in the Agency Management System.
+Lookup table used to report Form 460 information in the AMS.
 
 **Sample:** `HEADER_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HEADER_CD.TSV>`_
 
@@ -38787,15 +38786,6 @@ Look-up Codes
 *form_id*
 
 
-*Overview*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/4.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p4-thumbnail.gif'></a><p>p. 4</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/5.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p5-thumbnail.gif'></a><p>p. 5</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/6.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p6-thumbnail.gif'></a><p>p. 6</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/7.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p7-thumbnail.gif'></a><p>p. 7</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p8-thumbnail.gif'></a><p>p. 8</p></div></div>
-
-
-
-
 .. raw:: html
 
     <div class="wy-table-responsive">
@@ -39148,11 +39138,6 @@ The following tables are described in the official documentation, but the .TSV f
         <tr>
             <td>lobbying</td>
             <td>LobbyistFirmHistoryCd</td>
-        </tr>
-    
-        <tr>
-            <td>common</td>
-            <td>SpltCd</td>
         </tr>
     
     </tbody>

@@ -8,14 +8,14 @@ from calaccess_raw.management.commands import CalAccessCommand
 
 
 class Command(CalAccessCommand):
-    help = 'Generate documentation for raw CAL-ACCESS database models'
+    help = 'Generate documentation for raw CAL-ACCESS database tables'
 
     def handle(self, *args, **kwargs):
         self.docs_dir = os.path.join(
             settings.REPO_DIR,
             'docs'
         )
-        self.target_path = os.path.join(self.docs_dir, 'models.rst')
+        self.target_path = os.path.join(self.docs_dir, 'calaccess/dbtables.rst')
         model_list = sorted(get_model_list(), key=lambda x:x().klass_name)
         group_list = {}
         empty_files = []
@@ -51,6 +51,6 @@ class Command(CalAccessCommand):
             'model_count': len(model_list),
             'empty_files': empty_files,
         }
-        rendered = render_to_string('models.rst', context)
+        rendered = render_to_string('dbtables.rst', context)
         with open(self.target_path, 'w') as target_file:
             target_file.write(rendered)

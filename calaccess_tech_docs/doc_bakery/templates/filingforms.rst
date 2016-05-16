@@ -19,6 +19,9 @@ Similar documentation and background info can also be found in the `Campaign Fin
 --------------------------
 
 {% for form in form_list %}
+
+------------
+
 {{ form.type_and_num|safe }}
 ~~~~~~~~~~~~~
 
@@ -72,4 +75,7 @@ Data collected via {{ form.type_and_num|safe }} filings are written to the follo
 {% endif %}
 
 {% endfor %}
+
+------------
+
 {% endfor %}

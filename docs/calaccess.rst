@@ -2,9 +2,8 @@ CAL-ACCESS
 ==========
 
 .. toctree::
-   :hidden:
-   :maxdepth: 4
+   :maxdepth: 2
 
    calaccess/filingforms
-   calaccess/models
+   calaccess/dbtables
    calaccess/officialdocumentation

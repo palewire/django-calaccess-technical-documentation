@@ -15,7 +15,7 @@ class Command(CalAccessCommand):
             'docs'
         )
 
-        self.target_path = os.path.join(self.docs_dir, 'filingforms.rst')
+        self.target_path = os.path.join(self.docs_dir, 'calaccess/filingforms.rst')
 
         group_dict = {}
 

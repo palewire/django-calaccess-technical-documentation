@@ -16,6 +16,9 @@ The categories for these tables are based on what's found in the `ReadMe <offici
 ---------------------------
 
 {% for object in model_list %}
+
+------------
+
 {{ object.klass_name }}
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -124,6 +127,9 @@ Look-up Codes
 
 {% endif %}
 {% endfor %}
+
+------------
+
 {% endfor %}
 
 Empty files

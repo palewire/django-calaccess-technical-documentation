@@ -7,6 +7,8 @@ Generally speaking, much of this documentation is incomplete, inconsistent and o
 
 Much of what ends up in CAL-ACCESS is submitted in an electronic file format known as .CAL, which is specifically designed to interface with CAL-ACCESS. These .CAL specifications, along with the required campaign and lobbyist disclosure forms, are also helpful in understanding the lifecycle of information flowing into CAL-ACCESS.
 
+---------------
+
 Overview
 --------
 
@@ -33,6 +35,7 @@ Includes explanations of the flow of information into the CAL-ACCESS database an
       <a href="http://s3.documentcloud.org/documents/2711624/Overview.txt">CAL-ACCESS: Overview (Text)</a>
     </noscript>
 
+---------------
 
 Database Info
 -------------
@@ -146,6 +149,8 @@ Includes a mapping of .CAL file format fields to the CAL-ACCESS database fields.
       <br />
       <a href="http://s3.documentcloud.org/documents/2711616/MapCalFormat2Fields.txt">CAL-ACCESS: MapCalFormat2Fields (Text)</a>
     </noscript>
+
+---------------
 
 .CAL file format
 ----------------

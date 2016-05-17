@@ -15,6 +15,8 @@ This app also keeps track of each version of the CAL-ACCESS database released by
 
 The tracking information is written into the following tables in the calaccess raw database:
 
+----------------------
+
 RawDataVersion
 ~~~~~~~~~~~~~~
 
@@ -67,6 +69,8 @@ Versions of CAL-ACCESS raw source data, typically released every day.
     </tbody>
     </table>
     </div>
+
+----------------------
 
 RawDataFile
 ~~~~~~~~~~~
@@ -174,6 +178,8 @@ Data files included in the given version of the CAL-ACCESS raw source data.
    	</tbody>
     </table>
     </div>
+
+----------------------
 
 RawDataCommand
 ~~~~~~~~~~~~~~

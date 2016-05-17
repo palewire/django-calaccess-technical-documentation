@@ -1,9 +1,6 @@
 Management commands
 ===================
 
-Updating the database
----------------------
-
 updatecalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -92,6 +89,7 @@ Options
                             Name of Django app with models into which data will be
                             imported (if other not calaccess_raw)
 
+----------------------
 
 cleancalaccessrawfile
 ~~~~~~~~~~~~~~~~~~~~~
@@ -153,6 +151,8 @@ Options
 .. note::
     The ``cleancalaccessrawfile`` command overwrites the .CSV files previously processed from the original .TSV files.
 
+----------------------
+
 downloadcalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -207,6 +207,8 @@ Options
 
 .. note::
     The ``downloadcalaccessrawdata`` command overwrites the previously downloaded files.
+
+----------------------
 
 loadcalaccessrawfile
 ~~~~~~~~~~~~~~~~~~~~
@@ -272,9 +274,7 @@ Options
 .. note::
     The ``loadcalaccessrawfile`` command deletes any data previously loaded into the calaccess models before loading in the current data.
 
-
-Inspecting the data
--------------------
+----------------------
 
 reportcalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -359,6 +359,7 @@ Options
       --traceback           Raise on CommandError exceptions
       --no-color            Don't colorize the command output.
 
+----------------------
 
 verifycalaccessrawfile
 ~~~~~~~~~~~~~~~~~~~~~~

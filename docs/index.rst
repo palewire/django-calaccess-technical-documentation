@@ -3,8 +3,11 @@ Django CAL-ACCESS Project
 
 A collection of apps and resources developed and distributed to open up California's campaign finance and lobbyist disclosure data.
 
+Table of Contents
+-----------------
+
 .. toctree::
-   :hidden:
+   :maxdepth: 2
 
    howtouseit
    apps

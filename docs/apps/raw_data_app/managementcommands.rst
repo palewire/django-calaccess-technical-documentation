@@ -1,6 +1,12 @@
 Management commands
 ===================
 
+The raw-data app includes the following commands for processing and verifying the raw data released in the CAL-ACCESS `nightly exports <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_.
+
+As with any Django app management command, these can be invoked on the command line or `called within your Python code <https://docs.djangoproject.com/en/1.9/ref/django-admin/#running-management-commands-from-your-code>`_.
+
+----------------------
+
 updatecalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~
 

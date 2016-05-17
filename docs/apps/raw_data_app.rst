@@ -4,12 +4,11 @@ django-calaccess-raw-data
 A Django app to download, extract and load campaign finance and lobbying activity data from the California Secretary of State's `CAL-ACCESS <http://www.sos.ca.gov/prd/cal-access/>`_  database
 
 .. toctree::
-   :hidden:
-   :maxdepth: 1
+   :maxdepth: 2
 
-   raw_app/managementcommands
-   raw_app/tracking
-   raw_app/changelog
+   raw_data_app/managementcommands
+   raw_data_app/tracking
+   raw_data_app/changelog
 
 Open-source resources
 ---------------------

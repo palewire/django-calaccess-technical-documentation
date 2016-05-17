@@ -1,6 +1,12 @@
 Tracking updates
 ================
 
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+
+   managementcommands
+
 This app also keeps track of each version of the CAL-ACCESS database released by the California Secretary of State, including its release date and byte size, as well as the activity of the `management commands <http://django-calaccess-raw-data.californiacivicdata.org/en/latest/managementcommands.html>`_ that process this data.
 
 .. note::

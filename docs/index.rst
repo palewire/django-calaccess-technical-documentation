@@ -31,7 +31,7 @@ That's not just our opinion; it's the universal consensus of statehouse reporter
 
 Still, a few journalists have wrestled with this behemoth in the past and reported incredible public interest stories:
 
-* About Speaker John Pérez `doling out the choicest committee assignments <http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501>`_ to the biggest campaign donors (from the Center for Investigative Reporting)
+* About Speaker John Pérez `doling out the choicest committee assignments <http://cironline.org/reports/california-speaker-gives-assemblys-juiciest-jobs-biggest-fundraisers-4501>`_ to the biggest campaign donors (from The Center for Investigative Reporting)
 * About Gov. Jerry Brown's `switch from big money hater to big money taker <http://www.latimes.com/local/politics/la-me-pol-brown-money-20141031-story.html#page=1>`_ (from the Los Angeles Times)
 * About political party committees `circumventing candidate contribution limits <http://www.sacbee.com/news/investigations/the-public-eye/article9471695.html>`_ (from the Sacramento Bee)
 
@@ -59,4 +59,8 @@ Where to go next?
 Who is this?
 ------------
 
-These resources are maintained by The California Civic Data Coalition, a team of journalists leading the development of open-source software to access and analyze public data. Read more at `californiacivicdata.org <http://www.californiacivicdata.org>`_.
+This project is authored and maintained by the California Civic Data Coalition, a team of journalists from the Los Angeles Times Data Desk, the Washington Post, The Center for Investigative Reporting and Stanford's Computational Journalism Lab.
+
+In 2015 the coalition was named a winner of the Knight News Challenge and awarded $250,000 in philanthropic funding from the Knight Foundation, the Democracy Fund, the William and Flora Hewlett Foundation and the Rita Allen Foundation.
+
+Read more about us at `californiacivicdata.org <http://www.californiacivicdata.org>`_. Find us on the #california-civic-data channel of the `News Nerdery Slack <http://newsnerdery.org/>`_.

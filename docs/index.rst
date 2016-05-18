@@ -1,5 +1,5 @@
-Django CAL-ACCESS project documentation
-=======================================
+Django CAL-ACCESS documentation
+===============================
 
 A collection of apps and resources developed and distributed to open up California's campaign finance and lobbyist disclosure data.
 

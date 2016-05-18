@@ -43,8 +43,6 @@ class Command(CalAccessCommand):
                 group_list[m().klass_group].append(m)
             except KeyError:
                 group_list[m().klass_group] = [m]
-            if m.objects.count() == 0:
-                empty_files.append(m)
         group_list = sorted(group_list.items(), key=lambda x:x[0])
         context = {
             'group_list': group_list,

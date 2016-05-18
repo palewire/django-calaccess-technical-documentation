@@ -39372,26 +39372,6 @@ The following tables are described in the official documentation, but the .TSV f
     </thead>
     <tbody valign="top">
     
-        <tr>
-            <td>campaign</td>
-            <td>CvrF470Cd</td>
-        </tr>
-    
-        <tr>
-            <td>other</td>
-            <td>FilerTypePeriodsCd</td>
-        </tr>
-    
-        <tr>
-            <td>lobbying</td>
-            <td>LobbyistEmployerHistoryCd</td>
-        </tr>
-    
-        <tr>
-            <td>lobbying</td>
-            <td>LobbyistFirmHistoryCd</td>
-        </tr>
-    
     </tbody>
     </table>
     </div>

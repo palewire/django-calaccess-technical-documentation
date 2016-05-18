@@ -36,19 +36,10 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'calaccess_tech_docs.urls'
-WSGI_APPLICATION = 'calaccess_tech_docs.wsgi.application'
+ROOT_URLCONF = 'project.urls'
+WSGI_APPLICATION = 'project.wsgi.application'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'calaccess_raw',
-        'USER': 'postgres',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '5432'
-    },
-}
+DATABASES = {}
 CALACCESS_DAT_SOURCE = ''
 CALACCESS_STORE_ARCHIVE = False
 
@@ -58,8 +49,3 @@ USE_I18N = True
 USE_L10N = True
 USE_TZ = True
 STATIC_URL = '/static/'
-
-try:
-    from settings_local import *
-except ImportError:
-    pass

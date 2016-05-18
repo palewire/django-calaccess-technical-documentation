@@ -1,5 +1,5 @@
-SoS Documentation
-=================
+Official state documentation
+============================
 
 The California Secretary of State `has published <http://www.sos.ca.gov/prd/cal-access/>`_ the following documents related to CAL-ACCESS. You'll also find these .PDF files in various sub-directories of the database export .ZIP file.
 

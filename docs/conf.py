@@ -121,7 +121,7 @@ if not on_rtd:  # only import and set the theme if we're building docs locally
     html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
     html_style = 'css/custom.css'
 else:
-    html_context = { 
+    html_context = {
         'css_files': [
             'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
             'https://media.readthedocs.org/css/readthedocs-doc-embed.css',
@@ -273,7 +273,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'django-calaccess-raw-data', u'django-calaccess Documentation',
+    ('index', 'django-calaccess-technical-documentation', u'django-calaccess Documentation',
      [u'California Civic Data Coalition'], 1)
 ]
 
@@ -288,7 +288,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'django-calaccess', u'django-calaccess Documentation',
-   u'California Civic Data Coalition', 'django-calaccess-raw-data', 'One line description of project.',
+   u'California Civic Data Coalition', 'django-calaccess-technical-documentation', 'One line description of project.',
    'Miscellaneous'),
 ]
 

@@ -1,5 +1,5 @@
-Getting started
-===============
+Getting started guide
+=====================
 
 This guide will walk users through the process of installing the latest official release of `django-calaccess-raw-data <apps/raw_data_app.html>`_, which is available on the `Python Package Index <https://pypi.python.org/pypi/django-calaccess-raw-data/>`_. If you want to install the raw source code or contribute as a developer refer to the `"How to contribute" <howtocontribute.html>`__ page.
 

@@ -2,8 +2,8 @@ The CAL-ACCESS database
 =======================
 
 This section includes resources that describe the inner-workings of the CAL-ACCESS,
-the California state government system for collecting, storing and reporting
-campaign-finance and lobbying-activity data.
+the California state government database for collecting, storing and reporting
+campaign-finance and lobbying-activity information.
 
 CAL-ACCESS is maintained by the California Secretary of State. In addition to the
 (clunky and crash-prone) `website <http://dbsearch.ss.ca.gov/>`_ for searching and exploring this data,

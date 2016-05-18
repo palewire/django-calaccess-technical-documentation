@@ -1,4 +1,4 @@
-Filing Forms
+Filing forms
 ============
 
 The data in CAL-ACCESS originates from forms filed by public office candidates, campaign committees, lobbyists and lobbyist employers. These filing forms are outlined below.
@@ -2512,4 +2512,5 @@ Data collected via Form 690 filings are written to the following tables:
 
 
 ------------
+
 

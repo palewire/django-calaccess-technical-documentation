@@ -39354,24 +39354,3 @@ Look-up Codes
 ------------
 
 
-
-Empty files
------------
-
-The following tables are described in the official documentation, but the .TSV files of the same name are empty.
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Group</th>
-            <th class="head">File Name</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    </tbody>
-    </table>
-    </div>

@@ -5,8 +5,8 @@ Technical documentation for a collection of applications built with the `Django
 web framework <https://www.djangoproject.com/>`_ that open up `CAL-ACCESS <http://cal-access.ss.ca.gov/>`_, the jumbled, dirty and difficult government
 database that tracks campaign finance and lobbying activity in California politics.
 
-Developed and maintained by the `California Civic Data Coalition <http://www.californiacivicdata.org/about/>`_, a team of journalists
-and web developers from news organizations across America. An active work-in-progress.
+An active work-in-progress. Developed and maintained by the `California Civic Data Coalition <http://www.californiacivicdata.org/about/>`_, a team of journalists
+and web developers from news organizations across America.
 
 
 Table of contents

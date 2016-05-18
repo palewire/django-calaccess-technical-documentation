@@ -62,36 +62,140 @@ When we `reached out <https://github.com/california-civic-data-coalition/django-
 
 Here's a sampling of missing tables we think should be made public:
 
-* CASH_RECON_REPORT_WRK - Table description contains this mysterious comment: "J M needs to describe this table. Cox - 4/28/2000"
-* CODE_LIST - This table contains a list of CAL file codes. Examples include entity codes, office codes and expense codes
-* CORRESPONDENCE - Table description contains this mysterious comment: "J M needs to describe this table. Cox - 4/28/2000"
-* DISCLOSURE_PROCEDURES - Table description contains this mysterious comment: "J M needs to describe this table."
-* ELECTION_CANDIDATES - This table indicates if a candidate for a given race is an incumbent.
-* ELECTION_LINKS - No description
-* ELECTION_RACES - No description
-* ELECTION_TYPES - This table links election types and their descriptions. 
-* ELECTIONS - No description
-* ERRORS_AND_OMISSIONS - This table contains results of audit checks and the validation process.
-* FEDERAL_FORMS - Table used to log reciept of federal filings. 
-* FEES - Fees, descriptions and their value
-* FILER_CORRESPONDENCE_BUILD2 - Table description contains this mysterious comment: "J M needs to describe this table."
-* FILER_ELECTIONS - Table description contains this mysterious comment: "J M needs to describe this table. He indicates it is for future use."
-* FILER_NOTICE_GENERATION_DEF - "J M needs to describe this table. He indicates it is for future use."
-* FILER_OBLIGATIONS - Table description contains this mysterious comment: "J M needs to describe this table. He indicates it is for future use."
-* FILER_TYPES_TO_FORMS - Table description contains this mysterious comment: "J M needs to describe this table. It is in his list of tables designed for future releases."
-* FILING_ERROR_TYPES - This lookup table provides a cross reference for errors and their and messages.
-* FILING_ERRORS - This table contains the errors assocated with a given filing and each of it's amendments.
-* FILING_ID_TEMP - No description
-* FORM_CODES - This lookup table assocates record types to forms. 
-* FORMS - This table describes the form set.
-* LATE_CONT_IND_EXP_REPORT - Table description contains this mysterious comment: "J M needs to describe this table."
-* LOCAL_FORMS This table is used to log reciept of local paper filings.
-* PRD_DATA_AUDIT - No description
-* PRD_FINE_DETAIL - Detail information on how a fine was calculated.
-* PRD_FINES - Fine summary data table.
-* PRD_LIMITS - Table description contains this mysterious comment: "J M needs to describe this table."
-* PRD_WAIVERS - Table description contains this mysterious comment: "J Mo needs to describe this table."
-* TVIEW_CONTRIBUTIONS3 - Campaign Disclosure reporting tables. "Need to get DH's Documentation to describe."
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Description</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+        <tr>
+            <td>CASH_RECON_REPORT_WRK</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table. Cox - 4/28/2000"</td>
+        </tr>
+        <tr>
+            <td>CODE_LIST</td>
+            <td>This table contains a list of CAL file codes. Examples include entity codes, office codes and expense codes</td>
+        </tr>
+        <tr>
+            <td>CORRESPONDENCE</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table. Cox - 4/28/2000"</td>
+        </tr>
+        <tr>
+            <td>DISCLOSURE_PROCEDURES</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table."</td>
+        </tr>
+        <tr>
+            <td>ELECTION_CANDIDATES</td>
+            <td>This table indicates if a candidate for a given race is an incumbent.</td>
+        </tr>
+        <tr>
+            <td>ELECTION_LINKS</td>
+            <td>No description</td>
+        </tr>
+        <tr>
+            <td>ELECTION_RACES</td>
+            <td>No description</td>
+        </tr>
+        <tr>
+            <td>ELECTION_TYPES</td>
+            <td>This table links election types and their descriptions.</td>
+        </tr>
+        <tr>
+            <td>ELECTIONS</td>
+            <td>No description</td>
+        </tr>
+        <tr>
+            <td>ERRORS_AND_OMISSIONS</td>
+            <td>This table contains results of audit checks and the validation process.</td>
+        </tr>
+        <tr>
+            <td>FEDERAL_FORMS</td>
+            <td>Table used to log reciept of federal filings.</td>
+        </tr>
+        <tr>
+            <td>FEES</td>
+            <td>Fees, descriptions and their value</td>
+        </tr>
+        <tr>
+            <td>FILER_CORRESPONDENCE_BUILD2</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table."</td>
+        </tr>
+        <tr>
+            <td>FILER_ELECTIONS</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table. He indicates it is for future use."</td>
+        </tr>
+        <tr>
+            <td>FILER_NOTICE_GENERATION_DEF</td>
+            <td>"J M needs to describe this table. He indicates it is for future use."</td>
+        </tr>
+        <tr>
+            <td>FILER_OBLIGATIONS</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table. He indicates it is for future use."</td>
+        </tr>
+        <tr>
+            <td>FILER_TYPES_TO_FORMS</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table. It is in his list of tables designed for future releases."</td>
+        </tr>
+        <tr>
+            <td>FILING_ERROR_TYPES</td>
+            <td>This lookup table provides a cross reference for errors and their and messages.</td>
+        </tr>
+        <tr>
+            <td>FILING_ERRORS</td>
+            <td>This table contains the errors assocated with a given filing and each of it's amendments.</td>
+        </tr>
+        <tr>
+            <td>FILING_ID_TEMP</td>
+            <td>No description</td>
+        </tr>
+        <tr>
+            <td>FORM_CODES</td>
+            <td>This lookup table assocates record types to forms.</td>
+        </tr>
+        <tr>
+            <td>FORMS</td>
+            <td>This table describes the form set.</td>
+        </tr>
+        <tr>
+            <td>LATE_CONT_IND_EXP_REPORT</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table."</td>
+        </tr>
+        <tr>
+            <td>LOCAL_FORMS</td>
+            <td>This table is used to log reciept of local paper filings.</td>
+        </tr>
+        <tr>
+            <td>PRD_DATA_AUDIT</td>
+            <td>No description</td>
+        </tr>
+        <tr>
+            <td>PRD_FINE_DETAIL</td>
+            <td>Detail information on how a fine was calculated.</td>
+        </tr>
+        <tr>
+            <td>PRD_FINES</td>
+            <td>Fine summary data table.</td>
+        </tr>
+        <tr>
+            <td>PRD_LIMITS</td>
+            <td>Table description contains this mysterious comment: "J M needs to describe this table."</td>
+        </tr>
+        <tr>
+            <td>PRD_WAIVERS</td>
+            <td>Table description contains this mysterious comment: "J Mo needs to describe this table."</td>
+        </tr>
+        <tr>
+            <td>TVIEW_CONTRIBUTIONS3</td>
+            <td>Campaign Disclosure reporting tables. "Need to get DH's Documentation to describe."</td>
+        </tr>
+    </tbody>
+    </table>
+
 
 ----------------------
 

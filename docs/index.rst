@@ -1,9 +1,9 @@
-Django CAL-ACCESS Project
+Django CAL-ACCESS project
 =========================
 
 A collection of apps and resources developed and distributed to open up California's campaign finance and lobbyist disclosure data.
 
-Table of Contents
+Table of contents
 -----------------
 
 .. toctree::
@@ -37,9 +37,9 @@ Journalists have reported incredible public interest stories out of data found i
 * About Gov. Jerry Brown's `switch from big money hater to big money taker <http://www.latimes.com/local/politics/la-me-pol-brown-money-20141031-story.html#page=1>`_ (from the Los Angeles Times)
 * About political party committees `circumventing candidate contribution limits <http://www.sacbee.com/news/investigations/the-public-eye/article9471695.html>`_ (from the Sacramento Bee)
 
-Yet each of these investigations required months of dedicated time by already overworked newsroom staff. That's because, even among state govenment information systems which are notoriously archaic and challenging to use, CAL-ACCESS is `widely-considered <http://www.sacbee.com/opinion/opn-columns-blogs/joyce-terhaar/article31239362.html>`_ to be the worst. 
+Yet each of these investigations required months of dedicated time by already overworked newsroom staff. That's because, even among state govenment information systems which are notoriously archaic and challenging to use, CAL-ACCESS is `widely-considered <http://www.sacbee.com/opinion/opn-columns-blogs/joyce-terhaar/article31239362.html>`_ to be the worst.
 
-The nightly dumps of data `published <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_ by the Secretary of State's office include over 36 million records spread out across 76 files, with cryptic column names and the occasional missing delimiter or escape character. 
+The nightly dumps of data `published <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_ by the Secretary of State's office include over 36 million records spread out across 76 files, with cryptic column names and the occasional missing delimiter or escape character.
 
 But why should every newsroom waste resources on this boring, time-consuming work? Why should each of us suffer the solitary pain of preparing these data for the creative, analytical work we would all rather be doing? Why have dozens of mediocre versions of scripts to extract, transform and load CAL-ACCESS data, when we could have one stable, user-friendly and open-source API?
 

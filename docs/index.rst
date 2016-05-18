@@ -1,7 +1,13 @@
 Django CAL-ACCESS documentation
 ===============================
 
-A collection of apps and resources developed and distributed to open up California's campaign finance and lobbyist disclosure data.
+Technical documentation for a collection of applications built with the `Django
+web framework <https://www.djangoproject.com/>`_ that open up `CAL-ACCESS <http://cal-access.ss.ca.gov/>`_, the jumbled, dirty and difficult government
+database that tracks campaign finance and lobbying activity in California politics.
+
+Developed and maintained by the `California Civic Data Coalition <http://www.californiacivicdata.org/about/>`_, a team of journalists
+and web developers from news organizations across America. An active work-in-progress.
+
 
 Table of contents
 -----------------
@@ -17,16 +23,6 @@ Table of contents
 
 ----------------------
 
-What is this?
--------------
-
-This is the complete documentation for an open civic data project focused on making California state campaign finance and lobbyist disclosure data more easily available and usable.
-
-The project includes a suite of apps, developed in Python's popular `Django <https://www.djangoproject.com/>`_ framework, that together form a pipeline to download, extract, load, clean, transform and republish data stored in the `CAL-ACCESS <http://cal-access.ss.ca.gov/>`_ system, which is maintained by the California Secretary of State.
-
-This is an open-source, community-driven project. It's also an active work-in-progress.
-
-----------------------
 
 Why?
 ----

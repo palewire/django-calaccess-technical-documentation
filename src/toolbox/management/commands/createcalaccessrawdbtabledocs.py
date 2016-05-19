@@ -13,12 +13,14 @@ class Command(CalAccessCommand):
     def handle(self, *args, **kwargs):
         self.docs_dir = os.path.join(
             settings.REPO_DIR,
-            'docs'
+            'docs',
+            'calaccess',
+            'dbtables',
         )
-        self.target_path = os.path.join(self.docs_dir, 'calaccess/dbtables.rst')
+        os.path.exists(self.docs_dir) or os.makedirs(self.docs_dir)
+
         model_list = sorted(get_model_list(), key=lambda x:x().klass_name)
         group_list = {}
-        empty_files = []
         for m in model_list:
             # add doc_title (key) and list of pages (value) to each model
             m.docs = {}
@@ -43,12 +45,20 @@ class Command(CalAccessCommand):
                 group_list[m().klass_group].append(m)
             except KeyError:
                 group_list[m().klass_group] = [m]
-        group_list = sorted(group_list.items(), key=lambda x:x[0])
-        context = {
-            'group_list': group_list,
-            'model_count': len(model_list),
-            'empty_files': empty_files,
-        }
-        rendered = render_to_string('dbtables.rst', context)
-        with open(self.target_path, 'w') as target_file:
-            target_file.write(rendered)
+        
+        for group, models in group_list.iteritems():
+            context = {
+                'group_name': group,
+                'model_list': models,
+                'model_count': len(models),
+            }
+
+            template_name = '{}_tables.rst'.format(group)
+            rendered = render_to_string(template_name, context)
+            target_file = os.path.join(
+                self.docs_dir,
+                template_name,
+            )
+
+            with open(target_file, 'w') as f:
+                f.write(rendered)

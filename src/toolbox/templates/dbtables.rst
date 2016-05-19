@@ -1,20 +1,12 @@
-Database tables
-===============
+{{ group_name|capfirst }} tables
+================================
 
-The {{ model_count }} tab-delimited database exports published by California's Secretary of State and loaded by this Django application.
-
+{% block content %}{% endblock %}
 .. warning::
 
     Most definitions below are drawn from the spotty and incomplete `official documentation <officialdocumentation.html>`_ verbatim. As we continue our research, we plan to improve the descriptions.
 
     For the time being, to be absolutely certain about what each table and field contains, you should compare the electronic data back to the original paper records published by the state.
-
-The categories for these tables are based on what's found in the `ReadMe <officialdocumentation.html#readme-zip>`_ file for the .ZIP database export file and the `mapping <officialdocumentation.html#mapcalformat2fields>`_ of .CAL format to database fields. However, in cases where this official documentation was incomplete or inconsistent, we've either listed the table under whichever category is most obviously relevant or listed it under "Other".
-
-{% for group, model_list in group_list %}
-{{ group|capfirst }} tables
----------------------------
-
 {% for object in model_list %}
 
 ------------
@@ -126,8 +118,4 @@ Look-up Codes
 {% endfor %}
 
 {% endif %}
-{% endfor %}
-
-------------
-
 {% endfor %}

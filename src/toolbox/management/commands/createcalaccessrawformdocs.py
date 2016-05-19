@@ -12,26 +12,33 @@ class Command(CalAccessCommand):
     def handle(self, *args, **kwargs):
         self.docs_dir = os.path.join(
             settings.REPO_DIR,
-            'docs'
+            'docs',
+            'calaccess',
+            'filingforms',
         )
-
-        self.target_path = os.path.join(self.docs_dir, 'calaccess/filingforms.rst')
+        os.path.exists(self.docs_dir) or os.makedirs(self.docs_dir)
 
         group_dict = {}
 
         for form in all_filing_forms:
             try:
-                group_dict[form.group].append(form)
+                group_dict[form.group.lower()].append(form)
             except KeyError:
-                group_dict[form.group] = [form]
+                group_dict[form.group.lower()] = [form]
 
-        group_list = sorted(group_dict.items(), key=lambda x:x[0])
+        for group, forms in group_dict.iteritems():
+            context = {
+                'group_name': group,
+                'form_list': forms,
+                'form_count': len(forms),
+            }
 
-        context = {
-            'group_list': group_list,
-        }
-        
-        rendered = render_to_string('filingforms.rst', context)
+            template_name = '{}_forms.rst'.format(group.replace(' ', '_'))
+            rendered = render_to_string(template_name, context)
+            target_file = os.path.join(
+                self.docs_dir,
+                template_name,
+            )
 
-        with open(self.target_path, 'w') as target_file:
-            target_file.write(rendered)
+            with open(target_file, 'w') as f:
+                f.write(rendered)

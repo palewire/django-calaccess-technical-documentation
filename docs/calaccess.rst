@@ -12,7 +12,6 @@ These exports are the source data of this project.
 
 .. toctree::
    :maxdepth: 2
+   :glob:
 
-   calaccess/filingforms
-   calaccess/dbtables
-   calaccess/officialdocumentation
+   calaccess/*

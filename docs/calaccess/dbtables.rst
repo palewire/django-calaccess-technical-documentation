@@ -7,8 +7,6 @@ The categories for these tables are based on what's found in the `ReadMe <offici
 
 .. toctree::
    :maxdepth: 2
+   :glob:
 
-   dbtables/campaign_tables
-   dbtables/lobbying_tables
-   dbtables/common_tables
-   dbtables/other_tables
+   dbtables/*

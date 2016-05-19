@@ -1,7 +1,7 @@
 The CAL-ACCESS database
 =======================
 
-This section includes resources that describe the inner-workings of the CAL-ACCESS,
+This section includes details about the inner-workings of the CAL-ACCESS,
 the California state government database for collecting, storing and reporting
 campaign-finance and lobbying-activity information.
 

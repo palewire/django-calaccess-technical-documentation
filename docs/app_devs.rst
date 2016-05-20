@@ -127,5 +127,4 @@ Our code is tested using `Django's built-in unittesting <https://docs.djangoproj
 
 In addition, prior to the Django unittests, code is evaluated using Python's `pep8 <https://pypi.python.org/pypi/pep8>`_ and `pyflakes <https://pypi.python.org/pypi/pyflakes>`_ style guide enforcement tools.
 
-When a commit or pull request is made with our repository, those tests are rerun with the latest code.
-We try not to be too uptight, but we generally expect the tests to be pass before we will merge a request.
+When a commit or pull request is made with our repository, those tests are rerun with the latest code. We try not to be too uptight, but we generally expect the tests to be pass before we will merge a request.

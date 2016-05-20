@@ -8,3 +8,4 @@ This section dives into the full set of features available in each of our apps. 
 
    apps/raw_data_app
    apps/processed_data_app
+   apps/calaccess_downloads_site

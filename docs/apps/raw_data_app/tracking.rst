@@ -16,7 +16,7 @@ This tracking information is stored in the data tables outlined below.
         # in settings.py
         CALACCESS_STORE_ARCHIVE = True
 
-    The older versions of these files then be saved to the path specified by your Django project's ``MEDIA_ROOT`` setting (more on that `here <https://docs.djangoproject.com/en/1.9/ref/settings/#media-root>`_).
+    The older versions of these files will then be saved to the path specified by your Django project's ``MEDIA_ROOT`` setting (more on that `here <https://docs.djangoproject.com/en/1.9/ref/settings/#media-root>`_).
 
 ----------------------
 

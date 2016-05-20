@@ -95,6 +95,9 @@ Options
                             Name of Django app with models into which data will be
                             imported (if other not calaccess_raw)
 
+.. note::
+    The ``updatecalaccessrawdata`` command overwrites the previously downloaded, extracted and cleaned files, unless you invoke the ``--keep-files`` option.
+
 ----------------------
 
 cleancalaccessrawfile
@@ -174,6 +177,10 @@ Here is how to run the command.
 
     $ python manage.py downloadcalaccessrawdata
 
+You will then see a prompt notifying you about the release date and size of the currently available version of the CAL-ACCESS database and how long ago you last download completed.
+
+If your previous download did not complete, and the same version of CAL-ACCESS is still available, you will be prompted to resume you previous download.
+
 You can skip the download's confirmation prompt using Django's standard ``--noinput`` option.
 
 .. code-block:: bash
@@ -190,6 +197,7 @@ Options
                                               [--pythonpath PYTHONPATH]
                                               [--traceback] [--no-color]
                                               [--keep-files] [--noinput]
+                                              [--force-restart]
 
     Download, unzip and prep the latest CAL-ACCESS database ZIP
 
@@ -210,9 +218,11 @@ Options
       --no-color            Don't colorize the command output.
       --keep-files          Keep downloaded zip and unzipped files
       --noinput             Download the ZIP archive without asking permission
+      --force-restart, --restart
+                            Force re-start (overrides auto-resume).
 
 .. note::
-    The ``downloadcalaccessrawdata`` command overwrites the previously downloaded files.
+    The ``downloadcalaccessrawdata`` command overwrites the previously downloaded files, unless you invoke the ``--keep-files`` option.
 
 ----------------------
 
@@ -303,7 +313,6 @@ Options
                                             [--settings SETTINGS]
                                             [--pythonpath PYTHONPATH]
                                             [--traceback] [--no-color]
-                                            [--d DATABASE]
 
     Generate report outlining the number / proportion of files / records cleaned
     and loaded
@@ -393,7 +402,7 @@ Options
                                             [-a APP_NAME]
                                             model_name
 
-    Logs given model's row count and compares against line count in cleaned CSV
+    Logs row count of given model and compares against line count in cleaned CSV
 
     positional arguments:
       model_name            Name of model to verify

@@ -60,7 +60,7 @@ Once that's handled, add a database connection string like this to your ``settin
         }
     }
 
-Return the command line. This will create a MySQL database to store the data.
+Return to the command line. This will create a MySQL database to store the data.
 
 .. code-block:: bash
 
@@ -111,7 +111,7 @@ For a variety of reasons, some users may prefer not to store all CAL-ACCESS data
 
 With these users in mind, django-calaccess-raw-data supports the use of automatic database routing, which Django's own documentation describes as "The easiest way to use multiple databases".
 
-If you fall into this category, first of all, be sure you've carefully read through Django's `Multiple database <https://docs.djangoproject.com/en/1.9/topics/db/multi-db/>`_ topic guide.
+If you fall into this category, first of all, be sure you've carefully read through Django's `Multiple databases <https://docs.djangoproject.com/en/1.9/topics/db/multi-db/>`_ topic guide.
 
 Next, configure your additional databases in ``settings.py``. For the sake of example, let's assume you want two PostgreSQL databases: One for all CAL-ACCESS data called ``calaccess_raw``, and a default ``my_project`` database for everything else:
 
@@ -136,7 +136,7 @@ Next, configure your additional databases in ``settings.py``. For the sake of ex
         },
     }
 
-Then, create a ``routers.py`` file in your Django project's directory (same place as ``manage.py`` and ``settings.py``). Following from the above example, here's how you could implement a router to send calaccess-related models to their own database and everything else to `default`:
+Then, create a ``routers.py`` file in your Django project's directory (same place as ``manage.py`` and ``settings.py``). Following from the above example, here's how you could implement a router to send calaccess-raw model data to their own database and everything else to ``default``:
 
 .. code-block:: python
 
@@ -195,7 +195,7 @@ Now you're ready to create the database tables with Django using its ``manage.py
     $ python manage.py makemigrations calaccess_raw
     $ python manage.py migrate
 
-Once everything is set up, this management command will download the latest bulk data release from the state and load it in the database. It'll take a while. Go grab some coffee.
+Once everything is set up, this management command will download the latest bulk data release from the Secretary of State's website and load it into your database. It'll take a while. Go grab some coffee.
 
 .. code-block:: bash
 

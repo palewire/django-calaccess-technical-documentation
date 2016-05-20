@@ -8,23 +8,19 @@ Do I need to know Python (or Django)?
 
 No. But you should be familiar with the syntax of `reStructuredText <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_, since that's the format in which these documents are written.
 
-We then use Python's `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ framework to compile these documents before hosting them on ReadTheDocs.
-
 Which files should I edit?
 --------------------------
 
-Generally, you should be editing the ``.rst`` files in ``docs/`` directory, rather than any of the ``.html`` files in the ``_build/`` directory. The ``.html`` are compiled using Python's `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation framework (for more on this, see `Viewing Local Changes <#viewing-local-changes>`_).
+Generally, you should be editing the ``.rst`` files in ``docs/`` directory, rather than any of the ``.html`` files in the ``_build/`` directory. The ``.html`` files are compiled using Python's `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation framework (for more on this, see `Viewing Local Changes <#viewing-local-changes>`_).
 
 Editing Database Tables or Filing Forms Docs
 --------------------------------------------
 
-The docs inside the `Database tables <calaccess/dbtables.html>`_ and `Filing forms <filingforms.html>`_ sections are generated programmatically, rather than being typed out.
-
-So, for instance, if you make a change to ``./docs/calaccess/db_tablescampaign_tables.rst``, that change will likely be over-written. 
+The docs inside the `Database tables <calaccess/dbtables.html>`_ and `Filing forms <filingforms.html>`_ sections are generated programmatically, rather than being typed out. So, for instance, if you make a change to ``./docs/calaccess/db_tablescampaign_tables.rst``, that change will likely be over-written. 
 
 Probably your edit will require a change somewhere in the `raw-data <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_ app. If you can't figure it out on your own, feel free to `file an issue <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation/issues>`_ with us, and we'll get on it.
 
-(If you interested in how this works, check out the management commands in ``src/toolbox`` inside this repo).
+(If you interested in how this works, check out the management commands in ``src/toolbox`` inside the `technical documentation <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_ repo).
 
 Preparing a local environment
 -----------------------------
@@ -62,11 +58,11 @@ After you make changes to your local versions of the ``.rst`` files in the ``doc
 
 This will invoke the sphinx command to compile the ``.html`` and ``.doctree`` files as they will be when deployed to ReadTheDocs. These files are then saved in ``docs/_build/html``, where you can open them with your favorite web browser and see how they look.
 
-However, you might instead prefer to check out these changes as you are making them:
+However, you might instead prefer to see your edits as you're making them:
 
 .. code-block:: bash
 
     $ make livehtml
 
-This will start serving the docs on http://127.0.0.1:8000, where you can point your favorite web browser. Sphinx will also start detecting any changes to the ``.rst`` files and automatically re-build those on save.
+This will start serving the docs on http://127.0.0.1:8000, where you can point your favorite web browser. While the server is running, Sphinx will also detect any change you make to the ``.rst`` files and, on save, automatically re-build the ``.html`` files.
 

@@ -6,9 +6,9 @@ A Django app to download, extract and load campaign-finance and lobbying-activit
 .. toctree::
    :maxdepth: 2
 
-   raw_data_app/managementcommands
-   raw_data_app/tracking
-   raw_data_app/changelog
+   calaccess_raw/managementcommands
+   calaccess_raw/tracking
+   calaccess_raw/changelog
 
 Open-source resources
 ---------------------

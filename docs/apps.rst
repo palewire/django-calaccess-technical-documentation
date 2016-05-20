@@ -6,6 +6,6 @@ This section dives into the full set of features available in each of our apps. 
 .. toctree::
    :maxdepth: 1
 
-   apps/raw_data_app
-   apps/processed_data_app
+   apps/calaccess_raw
+   apps/calaccess_processed
    apps/calaccess_downloads_site

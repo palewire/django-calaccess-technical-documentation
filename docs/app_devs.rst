@@ -119,3 +119,13 @@ You might start by loading the data dump from the web.
 .. code-block:: bash
 
     $ python example/manage.py updatecalaccessrawdata
+
+Testing
+~~~~~~~
+
+Our code is tested using `Django's built-in unittesting <https://docs.djangoproject.com/en/1.9/topics/testing/>`_ system via the `TravisCI <https://travis-ci.org/california-civic-data-coalition/django-calaccess-raw-data>`_ continuous integration service.
+
+In addition, prior to the Django unittests, code is evaluated using Python's `pep8 <https://pypi.python.org/pypi/pep8>`_ and `pyflakes <https://pypi.python.org/pypi/pyflakes>`_ style guide enforcement tools.
+
+When a commit or pull request is made with our repository, those tests are rerun with the latest code.
+We try not to be too uptight, but we generally expect the tests to be pass before we will merge a request.

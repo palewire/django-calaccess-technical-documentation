@@ -6,19 +6,15 @@ This walkthrough is for developers who want to contribute to the various Django 
 Preparing a development environment
 -----------------------------------
 
-It is not required, but it is recommended that development of the library
-be done from within a contained virtual environment.
+It is not required, but it is recommended that development of the library be done from within a contained virtual environment.
 
-One way to accomplish is with Python's ``virtualenv`` tool and its helpful
-companion ``virtualenvwrapper``. If you have that installed, a new project can be started with
-the following:
+One way to accomplish is with Python's ``virtualenv`` tool and its helpful companion ``virtualenvwrapper``. If you have that installed, a new project can be started with the following:
 
 .. code-block:: bash
 
     $ mkproject django-calaccess-raw-data
 
-That will jump into a new folder in your code directory, where you can clone
-our code repository from `GitHub <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_ after you make a fork of your own. Don't know what that means? `Read this <https://guides.github.com/activities/forking/>`_.
+That will jump into a new folder in your code directory, where you can clone our code repository from `GitHub <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_ after you make a fork of your own. Don't know what that means? `Read this <https://guides.github.com/activities/forking/>`_.
 
 .. code-block:: bash
 
@@ -33,12 +29,9 @@ Next install the other Python libraries our code depends on.
 Connecting to a local database
 ------------------------------
 
-Unlike a typical Django project, this application only supports the MySQL and
-PostgreSQL database backends. This is because we enlist specialized tools to
-load the immense amount of source data more quickly than Django typically allows.
+Unlike a typical Django project, this application only supports the MySQL and PostgreSQL database backends. This is because we enlist specialized tools to load the immense amount of source data more quickly than Django typically allows.
 
-We haven't developed similar routines for SQLite and the other Django backends
-yet, but we're working on it. This might be something you could work on!
+We haven't developed similar routines for SQLite and the other Django backends yet, but we're working on it. This might be something you could work on!
 
 If you choose MySQL
 ~~~~~~~~~~~~~~~~~~~

@@ -16,7 +16,8 @@ The CAL-ACCESS database contains 9 tables that, according to the official docume
 CvrE530Cd
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This table method is undocumented.
+Probably Cover Pages for Electronic Form 530. This table is listed in the record
+layouts, but neither table nor any of its columns are labeled.
 
 **Sample:** `CVR_E530_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_E530_CD.TSV>`_
 
@@ -3400,7 +3401,7 @@ Look-up Codes
 HeaderCd
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lookup table used to report Form 460 information in the AMS.
+Lookup table used to report Form 460 information in the Agency Management System.
 
 **Sample:** `HEADER_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HEADER_CD.TSV>`_
 

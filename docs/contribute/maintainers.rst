@@ -1,7 +1,10 @@
-Release checklist
-=================
+For app maintainers
+===================
 
-The steps to follow each time release a new version of this package.
+Release checklist
+-----------------
+
+The steps to follow each time release a new version of a Django package.
 
 * Update docs/changelog.rst
 * Update setup.py with new version and any new dependencies

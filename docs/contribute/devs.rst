@@ -1,7 +1,9 @@
 For app developers
 ==================
 
-This walkthrough is for developers who want to contribute to the various Django apps in our CAL-ACCESS data pipeline, starting with `django-calaccess-raw-data <apps/calaccess_raw.html>`_. We will show you how to install the source code of this application to fix bugs and develop new features.
+This walkthrough is for developers who want to contribute to the Django apps
+in our CAL-ACCESS data pipeline, starting with `django-calaccess-raw-data <apps/calaccess_raw.html>`_.
+It will show you how to install the source code of this application to fix bugs and develop new features.
 
 Preparing a development environment
 -----------------------------------

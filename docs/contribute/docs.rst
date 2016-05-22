@@ -1,5 +1,5 @@
-For document writers
-====================
+For documentation writers
+=========================
 
 We're maintaining a single `repository <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_ for all documents related to the Django CAL-ACCESS project. This section is for anyone who wants to contribute to these documents.
 

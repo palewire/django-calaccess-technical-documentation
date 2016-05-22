@@ -14,6 +14,9 @@ the :doc:`"How to contribute" </howtocontribute>` tutorial.
     framework. Before you can begin, you'll need to have one up and running.
     If you don't know how, `check out the official Django documentation <https://docs.djangoproject.com/en/dev/intro/tutorial01/>`_.
 
+------------------
+
+
 Installing the Django app
 -------------------------
 
@@ -33,6 +36,9 @@ Like most Django applications, the app then needs to be added to the
         'calaccess_raw',
     )
 
+------------------
+
+
 Connecting to a local database
 ------------------------------
 
@@ -41,6 +47,9 @@ Also in the ``settings.py`` file, you will need to configure Django so it can co
 Unlike a typical Django project, this application only supports the MySQL and PostgreSQL database backends. This is because we enlist specialized tools to load the immense amount of source data more quickly than Django typically allows. We haven't developed those routines for SQLite and the other Django backends yet, but we're working on it.
 
 Pick one of the two and continue below.
+
+~~~~~~~~~~~~~~~~~~~
+
 
 If you choose MySQL
 ~~~~~~~~~~~~~~~~~~~
@@ -77,6 +86,9 @@ And, if you don't have it already, you'll need to install a Python library that 
 .. code-block:: sh
 
     $ pip install mysqlclient
+
+~~~~~~~~~~~~~~~~~~
+
 
 If you choose PostgreSQL
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -116,6 +128,9 @@ If you don't have it already, you'll need to install a Python library that can a
     out our guide to working with Django's system for
     :ref:`multiple databases <faq-multi-databases>`.
 
+------------------
+
+
 Loading the data
 ----------------
 
@@ -139,6 +154,9 @@ bulk data release from `the Secretary of State's website <http://www.sos.ca.gov/
 
     This will take a while. Go grab some coffee.
 
+------------------
+
+
 Exploring the data
 ------------------
 
@@ -153,6 +171,8 @@ If you don't have a super user that can log into the admin you might need to ret
 .. code-block:: bash
 
     $ python manage.py createsuperuser
+
+------------------
 
 
 Now what?

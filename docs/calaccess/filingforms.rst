@@ -1,7 +1,7 @@
 Filing forms
 ============
 
-The data in CAL-ACCESS originates from forms filed by public office candidates, campaign committees, lobbyists and lobbyist employers. These filing forms are outlined below.
+The data in CAL-ACCESS originates from forms filed by public office candidates, campaign committees, lobbyists and lobbyist employers. These filing forms are outlined in this section.
 
 Much of the documents and descriptions included here were gathered from the `Forms <http://www.fppc.ca.gov/forms.html>`_ section of the California Fair Political Practices Commission (FPPC) website, where you can find even more detailed filing instructions and requirements.
 

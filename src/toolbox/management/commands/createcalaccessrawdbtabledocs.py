@@ -19,7 +19,7 @@ class Command(CalAccessCommand):
         )
         os.path.exists(self.docs_dir) or os.makedirs(self.docs_dir)
 
-        model_list = sorted(get_model_list(), key=lambda x:x().klass_name)
+        model_list = get_model_list()
         group_list = {}
         for m in model_list:
             # add doc_title (key) and list of pages (value) to each model

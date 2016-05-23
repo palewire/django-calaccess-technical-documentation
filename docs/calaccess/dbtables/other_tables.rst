@@ -640,6 +640,54 @@ Source Docs
 ------------
 
 *********************
+FILERS_CD
+*********************
+
+This table is the parent table from which all links and associations
+to a filer are derived.
+
+**Sample:** `FILERS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERS_CD.TSV>`_
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td>filer_id</td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Filer&#39;s unique identification number</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
 FILER_ACRONYMS_CD
 *********************
 
@@ -3768,157 +3816,6 @@ Source Docs
 ------------
 
 *********************
-FILER_TYPE_PERIODS_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "J M needs
-to document. This is in his list of tables designed for future enhancements."
-
-**Sample:** `FILER_TYPE_PERIODS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPE_PERIODS_CD.TSV>`_
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td>election_type</td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Election type</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td>filer_type</td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Foreign key referencing FilerTypesCd.filer_type</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td>period_id</td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Foreign key referencing FilingPeriodCd.period_id</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Look-up Codes
-=============
-
-
-election_type
-----------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td>0</td>
-                <td>N/A</td>
-            </tr>
-        
-            <tr>
-                <td>3001</td>
-                <td>GENERAL</td>
-            </tr>
-        
-            <tr>
-                <td>3002</td>
-                <td>PRIMARY</td>
-            </tr>
-        
-            <tr>
-                <td>3003</td>
-                <td>RECALL</td>
-            </tr>
-        
-            <tr>
-                <td>3004</td>
-                <td>SPECIAL ELECTION</td>
-            </tr>
-        
-            <tr>
-                <td>3005</td>
-                <td>OFFICEHOLDER</td>
-            </tr>
-        
-            <tr>
-                <td>3006</td>
-                <td>SPECIAL RUNOFF</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/3.html">3</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/4.html">4</a>)
-           </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-
-
-
-
-
-------------
-
-*********************
 FILER_TYPES_CD
 *********************
 
@@ -4132,54 +4029,6 @@ Fields
             <td>String (up to 50)</td>
             <td>No</td>
             <td>Source of the XREF_ID. Migration or generated by the AMS.</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-FILERS_CD
-*********************
-
-This table is the parent table from which all links and associations
-to a filer are derived.
-
-**Sample:** `FILERS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERS_CD.TSV>`_
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td>filer_id</td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Filer&#39;s unique identification number</td>
         </tr>
     
     
@@ -5446,6 +5295,157 @@ Source Docs
 .. raw:: html
 
     <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/122.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p122-thumbnail.gif'></a><p>p. 122</p></div></div>
+
+
+
+
+
+
+
+------------
+
+*********************
+FILER_TYPE_PERIODS_CD
+*********************
+
+This table and its fields are listed in the official CAL-ACCESS documentation,
+but is not fully explained. The table's description contains this note: "J M needs
+to document. This is in his list of tables designed for future enhancements."
+
+**Sample:** `FILER_TYPE_PERIODS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPE_PERIODS_CD.TSV>`_
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td>election_type</td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Election type</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td>filer_type</td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Foreign key referencing FilerTypesCd.filer_type</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td>period_id</td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Foreign key referencing FilingPeriodCd.period_id</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Look-up Codes
+=============
+
+
+election_type
+----------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>0</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>3001</td>
+                <td>GENERAL</td>
+            </tr>
+        
+            <tr>
+                <td>3002</td>
+                <td>PRIMARY</td>
+            </tr>
+        
+            <tr>
+                <td>3003</td>
+                <td>RECALL</td>
+            </tr>
+        
+            <tr>
+                <td>3004</td>
+                <td>SPECIAL ELECTION</td>
+            </tr>
+        
+            <tr>
+                <td>3005</td>
+                <td>OFFICEHOLDER</td>
+            </tr>
+        
+            <tr>
+                <td>3006</td>
+                <td>SPECIAL RUNOFF</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/3.html">3</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/4.html">4</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
 
 
 

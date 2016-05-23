@@ -6,26 +6,13 @@
 
 ------------
 
-{{ object.klass_name }}
+{{ object.db_table }}
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {{ object.doc.strip|safe }}
 
 **Sample:** `{{ object.get_tsv_name }} <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/{{ object.get_tsv_name }}>`_
 
-{% if object.DOCUMENTCLOUD_PAGES|length > 0 %}
-Source Docs
-^^^^^^^^^^^
-{% for doc, pages in object.docs.items %}
-*{{ doc }}*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container">{% for page in pages %}<div class="doc_page_frame"><a class="reference external image-reference" href="{{ page.canonical_url }}"><img class='doc_page' src='{{ page.thumbnail_url }}'></a><p>p. {{ page.num }}</p></div>{% endfor %}</div>
-
-{% endfor %}
-{% endif %}
 {% if object.FILING_FORMS|length > 0 %}
 Filing Forms
 ^^^^^^^^^^^^
@@ -74,6 +61,7 @@ Fields
     </tbody>
     </table>
     </div>
+
 {% if object.choice_fields|length > 0 %}
 Look-up Codes
 ^^^^^^^^^^^^^
@@ -111,6 +99,19 @@ Look-up Codes
     </table>
     </div>
 {% endfor %}
+
+{% if object.DOCUMENTCLOUD_PAGES|length > 0 %}
+Source Docs
+^^^^^^^^^^^
+{% for doc, pages in object.docs.items %}
+*{{ doc }}*
+
+.. raw:: html
+
+    <div class="doc_pages_container">{% for page in pages %}<div class="doc_page_frame"><a class="reference external image-reference" href="{{ page.canonical_url }}"><img class='doc_page' src='{{ page.thumbnail_url }}'></a><p>p. {{ page.num }}</p></div>{% endfor %}</div>
+
+{% endfor %}
+{% endif %}
 
 {% endif %}
 {% endfor %}

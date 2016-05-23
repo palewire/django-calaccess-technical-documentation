@@ -8,25 +8,12 @@ The CAL-ACCESS database contains 23 tables not categorized anywhere in the `offi
 
 ------------
 
-AcronymsCd
+ACRONYMS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Contains acronyms and their meaning.
 
 **Sample:** `ACRONYMS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ACRONYMS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/7.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p7-thumbnail.gif'></a><p>p. 7</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/16.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p16-thumbnail.gif'></a><p>p. 16</p></div></div>
-
-
 
 
 
@@ -91,9 +78,10 @@ Fields
 
 
 
+
 ------------
 
-AddressCd
+ADDRESS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table holds all addresses for the system. This table can be used
@@ -101,19 +89,6 @@ for address-based searches and formes the bases for address information
 desplayed by the AMS.
 
 **Sample:** `ADDRESS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ADDRESS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/7.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p7-thumbnail.gif'></a><p>p. 7</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/16.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p16-thumbnail.gif'></a><p>p. 16</p></div></div>
-
-
 
 
 
@@ -205,27 +180,15 @@ Fields
 
 
 
+
 ------------
 
-BallotMeasuresCd
+BALLOT_MEASURES_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ballot measure dates and times
 
 **Sample:** `BALLOT_MEASURES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/BALLOT_MEASURES_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/7.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p7-thumbnail.gif'></a><p>p. 7</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p19-thumbnail.gif'></a><p>p. 19</p></div></div>
-
-
 
 
 
@@ -308,35 +271,15 @@ Fields
 
 
 
+
 ------------
 
-EfsFilingLogCd
+EFS_FILING_LOG_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Electronic Filing Subsystem Log. The EFS accepts and validates electronic filings.
 
 **Sample:** `EFS_FILING_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EFS_FILING_LOG_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*Overview*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/1.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p1-thumbnail.gif'></a><p>p. 1</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
-
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p49-thumbnail.gif'></a><p>p. 49</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/50.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p50-thumbnail.gif'></a><p>p. 50</p></div></div>
-
-
 
 
 Filing Forms
@@ -511,6 +454,7 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
 ^^^^^^^^^^^^^
 
@@ -664,29 +608,36 @@ Look-up Codes
 
 
 
+Source Docs
+^^^^^^^^^^^
+
+*Overview*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/1.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p1-thumbnail.gif'></a><p>p. 1</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711624/pages/Overview-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
+
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p49-thumbnail.gif'></a><p>p. 49</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/50.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p50-thumbnail.gif'></a><p>p. 50</p></div></div>
+
+
+
+
+
 
 
 ------------
 
-FilerAcronymsCd
+FILER_ACRONYMS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Links acronyms to filers
 
 **Sample:** `FILER_ACRONYMS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ACRONYMS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p61-thumbnail.gif'></a><p>p. 61</p></div></div>
-
-
 
 
 
@@ -733,28 +684,16 @@ Fields
 
 
 
+
 ------------
 
-FilerAddressCd
+FILER_ADDRESS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Links filers and addresses. This table maintains a history of when
 addresses change.
 
 **Sample:** `FILER_ADDRESS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ADDRESS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p61-thumbnail.gif'></a><p>p. 61</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p62-thumbnail.gif'></a><p>p. 62</p></div></div>
-
-
 
 
 
@@ -826,6 +765,7 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
 ^^^^^^^^^^^^^
 
@@ -889,29 +829,29 @@ Look-up Codes
 
 
 
-
-
-------------
-
-FilerEthicsClassCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This table stores lobbyist ethics training dates.
-
-**Sample:** `FILER_ETHICS_CLASS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ETHICS_CLASS_CD.TSV>`_
-
-
 Source Docs
 ^^^^^^^^^^^
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p61-thumbnail.gif'></a><p>p. 61</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p62-thumbnail.gif'></a><p>p. 62</p></div></div>
 
 
+
+
+
+
+
+------------
+
+FILER_ETHICS_CLASS_CD
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This table stores lobbyist ethics training dates.
+
+**Sample:** `FILER_ETHICS_CLASS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ETHICS_CLASS_CD.TSV>`_
 
 
 
@@ -967,27 +907,15 @@ Fields
 
 
 
+
 ------------
 
-FilerInterestsCd
+FILER_INTERESTS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Links a filer to their interest codes.
 
 **Sample:** `FILER_INTERESTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_INTERESTS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/66.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p66-thumbnail.gif'></a><p>p. 66</p></div></div>
-
-
 
 
 
@@ -1049,6 +977,7 @@ Fields
     </tbody>
     </table>
     </div>
+
 
 Look-up Codes
 ^^^^^^^^^^^^^
@@ -1183,29 +1112,29 @@ Look-up Codes
 
 
 
-
-
-------------
-
-FilerLinksCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Links filers to each other and records their relationship type.
-
-**Sample:** `FILER_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_LINKS_CD.TSV>`_
-
-
 Source Docs
 ^^^^^^^^^^^
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/67.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p67-thumbnail.gif'></a><p>p. 67</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/66.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p66-thumbnail.gif'></a><p>p. 66</p></div></div>
 
 
+
+
+
+
+
+------------
+
+FILER_LINKS_CD
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Links filers to each other and records their relationship type.
+
+**Sample:** `FILER_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_LINKS_CD.TSV>`_
 
 
 
@@ -1312,6 +1241,7 @@ Fields
     </tbody>
     </table>
     </div>
+
 
 Look-up Codes
 ^^^^^^^^^^^^^
@@ -1471,30 +1401,30 @@ Look-up Codes
 
 
 
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/67.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p67-thumbnail.gif'></a><p>p. 67</p></div></div>
+
+
+
+
+
 
 
 ------------
 
-FilerStatusTypesCd
+FILER_STATUS_TYPES_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This is an undocumented model that contains a small number
 of codes and definitions that map to values in FILERNAME_CD.STATUS.
 
 **Sample:** `FILER_STATUS_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_STATUS_TYPES_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p69-thumbnail.gif'></a><p>p. 69</p></div></div>
-
-
 
 
 
@@ -1541,9 +1471,10 @@ Fields
 
 
 
+
 ------------
 
-FilerToFilerTypeCd
+FILER_TO_FILER_TYPE_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table links a filer to a set of characteristics that describe the
@@ -1551,19 +1482,6 @@ filer. This table maintains a history of changes and allows the filer
 to change characteristics over time.
 
 **Sample:** `FILER_TO_FILER_TYPE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TO_FILER_TYPE_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p69-thumbnail.gif'></a><p>p. 69</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p70-thumbnail.gif'></a><p>p. 70</p></div></div>
-
-
 
 
 
@@ -1733,6 +1651,7 @@ Fields
     </tbody>
     </table>
     </div>
+
 
 Look-up Codes
 ^^^^^^^^^^^^^
@@ -3781,11 +3700,24 @@ Look-up Codes
 
 
 
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p69-thumbnail.gif'></a><p>p. 69</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p70-thumbnail.gif'></a><p>p. 70</p></div></div>
+
+
+
+
+
 
 
 ------------
 
-FilerTypePeriodsCd
+FILER_TYPE_PERIODS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
@@ -3793,19 +3725,6 @@ but is not fully explained. The table's description contains this note: "J M nee
 to document. This is in his list of tables designed for future enhancements."
 
 **Sample:** `FILER_TYPE_PERIODS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPE_PERIODS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
 
 
 
@@ -3858,6 +3777,7 @@ Fields
     </tbody>
     </table>
     </div>
+
 
 Look-up Codes
 ^^^^^^^^^^^^^
@@ -3927,29 +3847,29 @@ Look-up Codes
 
 
 
-
-
-------------
-
-FilerTypesCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This lookup table describes filer types.
-
-**Sample:** `FILER_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPES_CD.TSV>`_
-
-
 Source Docs
 ^^^^^^^^^^^
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p71-thumbnail.gif'></a><p>p. 71</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
 
 
+
+
+
+
+
+------------
+
+FILER_TYPES_CD
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This lookup table describes filer types.
+
+**Sample:** `FILER_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPES_CD.TSV>`_
 
 
 
@@ -4019,6 +3939,7 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
 ^^^^^^^^^^^^^
 
@@ -4072,11 +3993,24 @@ Look-up Codes
 
 
 
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p71-thumbnail.gif'></a><p>p. 71</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
+
+
+
+
+
 
 
 ------------
 
-FilerXrefCd
+FILER_XREF_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table maps legacy filer identification numbers to the system's filer
@@ -4084,19 +4018,6 @@ identification numbers. Although 60 percent of the FILER_ID and XREF_ID values
 are equal.
 
 **Sample:** `FILER_XREF_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_XREF_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
-
-
 
 
 
@@ -4161,28 +4082,16 @@ Fields
 
 
 
+
 ------------
 
-FilersCd
+FILERS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table is the parent table from which all links and associations
 to a filer are derived.
 
 **Sample:** `FILERS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/73.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p73-thumbnail.gif'></a><p>p. 73</p></div></div>
-
-
 
 
 
@@ -4220,28 +4129,16 @@ Fields
 
 
 
+
 ------------
 
-FilingPeriodCd
+FILING_PERIOD_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An undocumented table that contains metadata for a variety
 of filing periods.
 
 **Sample:** `FILING_PERIOD_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILING_PERIOD_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p74-thumbnail.gif'></a><p>p. 74</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
-
-
 
 
 
@@ -4331,6 +4228,7 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
 ^^^^^^^^^^^^^
 
@@ -4402,11 +4300,24 @@ Look-up Codes
 
 
 
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p74-thumbnail.gif'></a><p>p. 74</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
+
+
+
+
+
 
 
 ------------
 
-GroupTypesCd
+GROUP_TYPES_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This lookup table stores group type information. Most (but not all) of the GRP_ID/
@@ -4414,19 +4325,6 @@ GRP_NAME value pairs in this table match the FILER_TYPE/DESCRIPTION value pairs 
 the FILER_TYPE_CD table.
 
 **Sample:** `GROUP_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/GROUP_TYPES_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/78.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p78-thumbnail.gif'></a><p>p. 78</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/79.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p79-thumbnail.gif'></a><p>p. 79</p></div></div>
-
-
 
 
 
@@ -4482,27 +4380,15 @@ Fields
 
 
 
+
 ------------
 
-ImageLinksCd
+IMAGE_LINKS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table links images to filers and accounts.
 
 **Sample:** `IMAGE_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/IMAGE_LINKS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/80.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p80-thumbnail.gif'></a><p>p. 80</p></div></div>
-
-
 
 
 
@@ -4573,6 +4459,7 @@ Fields
     </tbody>
     </table>
     </div>
+
 
 Look-up Codes
 ^^^^^^^^^^^^^
@@ -4670,29 +4557,29 @@ Look-up Codes
 
 
 
-
-
-------------
-
-LegislativeSessionsCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Legislative session, begin and end dates look up table.
-
-**Sample:** `LEGISLATIVE_SESSIONS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEGISLATIVE_SESSIONS_CD.TSV>`_
-
-
 Source Docs
 ^^^^^^^^^^^
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/84.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p84-thumbnail.gif'></a><p>p. 84</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/80.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p80-thumbnail.gif'></a><p>p. 80</p></div></div>
 
 
+
+
+
+
+
+------------
+
+LEGISLATIVE_SESSIONS_CD
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Legislative session, begin and end dates look up table.
+
+**Sample:** `LEGISLATIVE_SESSIONS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEGISLATIVE_SESSIONS_CD.TSV>`_
 
 
 
@@ -4748,27 +4635,15 @@ Fields
 
 
 
+
 ------------
 
-LookupCodesCd
+LOOKUP_CODES_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The description of some lookup codes in the system.
 
 **Sample:** `LOOKUP_CODES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOOKUP_CODES_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/106.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p106-thumbnail.gif'></a><p>p. 106</p></div></div>
-
-
 
 
 
@@ -4824,28 +4699,16 @@ Fields
 
 
 
+
 ------------
 
-NamesCd
+NAMES_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The name of all entities in the system. Used for searches when
 the name has an identification number.
 
 **Sample:** `NAMES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/NAMES_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/112.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p112-thumbnail.gif'></a><p>p. 112</p></div></div>
-
-
 
 
 
@@ -4964,27 +4827,15 @@ Fields
 
 
 
+
 ------------
 
-ReceivedFilingsCd
+RECEIVED_FILINGS_CD
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This table is undocumented.
 
 **Sample:** `RECEIVED_FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RECEIVED_FILINGS_CD.TSV>`_
-
-
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/121.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p121-thumbnail.gif'></a><p>p. 121</p></div></div>
-
-
 
 
 Filing Forms
@@ -5168,6 +5019,7 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
 ^^^^^^^^^^^^^
 
@@ -5311,29 +5163,29 @@ Look-up Codes
 
 
 
-
-
-------------
-
-ReportsCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This is an undocumented model.
-
-**Sample:** `REPORTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/REPORTS_CD.TSV>`_
-
-
 Source Docs
 ^^^^^^^^^^^
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/122.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p122-thumbnail.gif'></a><p>p. 122</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/121.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p121-thumbnail.gif'></a><p>p. 121</p></div></div>
 
 
+
+
+
+
+
+------------
+
+REPORTS_CD
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is an undocumented model.
+
+**Sample:** `REPORTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/REPORTS_CD.TSV>`_
 
 
 
@@ -5432,6 +5284,7 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
 ^^^^^^^^^^^^^
 
@@ -5497,6 +5350,19 @@ Look-up Codes
     </tbody>
     </table>
     </div>
+
+
+
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/122.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p122-thumbnail.gif'></a><p>p. 122</p></div></div>
+
+
 
 
 

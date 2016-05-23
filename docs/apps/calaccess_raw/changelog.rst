@@ -1,6 +1,41 @@
 Changelog
 =========
 
+1.0.0 (May 2016)
+----------------
+
+* Enhanced resume behavior"
+  
+  * Allow previously interrupted updates to resume at any stage of the process: downloading, cleaning or loading.
+  * Users will be prompted to resume (if possible). User may decline and re-start the entire update.
+  * Removed ``--resume-download`` option from ``updatecalaccessrawdata`` and ``downloadcalaccessrawdata`` in favor of prompting the user to resume.
+  * Removed ``--database`` option from all commands. Multi-database users are encouraged to use Django's `database routers <https://docs.djangoproject.com/en/1.9/topics/db/multi-db/#using-routers>`_.
+
+* Raw data file archiving:
+
+  * Added ``CALACCESS_STORE_ARCHIVE`` setting. When enabled, management commands will save each version of the downloaded .zip file, the extracted .TSV files and cleaned .csv files to the Django project's ``MEDIA_ROOT``.
+  * Added FileFields to RawDataVersion and RawDataFile in order to link the database records with the archived files they reference.
+
+* Completed documentation of all 80 raw data models and 1,467 fields.
+
+  * Defined hundreds of choices for 80 look-up fields.
+  * Published expanded `Django CAL-ACCESS Project Documentation <>`_. Added re-directs from old app-specific documentation.
+  * Integrated references to official documents and filing forms into data models. PDFs on DocumentCloud.
+
+* Expanded unit testing of data model documentation:
+
+  * Wider scope of choice field testing.
+  * Verify that each model has a UNIQUE_KEY attribute set.
+  * Verify that each model has a document reference.
+  * Verify that each choice field has a document reference.
+  * Verify that each model with a form_type or form_id field (with a few exceptions) is linked to filing forms.
+  * Introduced ``reportcalaccessrawdata`` command, which generates a report outlining the number / proportion of files / records cleaned and loaded.
+
+* Bug fixes:
+
+  * Truncate time portions of raw datetime values (see `#1457 <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/1457>`_).
+  * Strip newlines when loading into MySQL.
+
 0.2.0 (January 2016)
 ---------------------
 

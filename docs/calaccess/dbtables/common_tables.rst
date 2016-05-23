@@ -6,9 +6,13 @@ The CAL-ACCESS database contains 9 tables that, according to the official docume
 
 .. warning::
 
-    Most definitions below are drawn from the spotty and incomplete `official documentation <officialdocumentation.html>`_ verbatim. As we continue our research, we plan to improve the descriptions.
+    Most definitions below are drawn from the spotty and incomplete
+    :doc:`state documentation </calaccess/officialdocumentation>`.
+    We cannot vouch for its accuracy in all circumstances.
 
-    For the time being, to be absolutely certain about what each table and field contains, you should compare the electronic data back to the original paper records published by the state.
+    To be absolutely certain about what each table and field contains, you should
+    compare the electronic data to the underlying paper records published by the state.
+
 
 
 ------------

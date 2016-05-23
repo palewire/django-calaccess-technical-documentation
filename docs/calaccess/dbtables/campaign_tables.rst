@@ -1,3 +1,4 @@
+================================
 Campaign tables
 ================================
 
@@ -8,8 +9,9 @@ The CAL-ACCESS database contains 16 tables that, according to the official docum
 
 ------------
 
+*********************
 CVR2_CAMPAIGN_DISCLOSURE_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Record used to carry additional names (e.g., Assistant Treasurers for the
 campaign disclosure forms below.
@@ -17,9 +19,8 @@ campaign disclosure forms below.
 **Sample:** `CVR2_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_CAMPAIGN_DISCLOSURE_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-Cvr2CampaignDisclosureCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -41,7 +42,7 @@ Cvr2CampaignDisclosureCd contains data collected from the following filing forms
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -407,790 +408,709 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/23.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p23-thumbnail.gif'></a><p>p. 23</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p24-thumbnail.gif'></a><p>p. 24</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ATR</td>
+                <td>Assistant treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>BNM</td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>Controlled committee</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td>POF</td>
+                <td>Principal officer</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>Proponent</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>FIL</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PEX</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>RDP</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/32.html">32</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/32.html">32</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/23.html">23</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html">24</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ATR</td>
-            <td>Assistant treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>BNM</td>
-            <td>Ballot measure&#39;s name/title</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>Controlled committee</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Officer</td>
-        </tr>
-    
-        <tr>
-            <td>POF</td>
-            <td>Principal officer</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>Proponent</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>FIL</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PEX</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>RDP</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*f460_part*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p24-thumbnail.gif'></a><p>p. 24</p></div></div>
-
-
-
+f460_part
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>3</td>
+                <td>Part 3: Committee Information</td>
+            </tr>
+        
+            <tr>
+                <td>4a</td>
+                <td>Part 4a: Officeholder or Candidate Controlled Committee</td>
+            </tr>
+        
+            <tr>
+                <td>4A</td>
+                <td>Part 4a: Officeholder or Candidate Controlled Committee</td>
+            </tr>
+        
+            <tr>
+                <td>4b</td>
+                <td>Part 4b: Related Committees Not Included in this Statement</td>
+            </tr>
+        
+            <tr>
+                <td>4B</td>
+                <td>Part 4b: Related Committees Not Included in this Statement</td>
+            </tr>
+        
+            <tr>
+                <td>5a</td>
+                <td>Part 5a: Officeholder or Candidate Controlled Committee</td>
+            </tr>
+        
+            <tr>
+                <td>5A</td>
+                <td>Part 5a: Officeholder or Candidate Controlled Committee</td>
+            </tr>
+        
+            <tr>
+                <td>5b</td>
+                <td>Part 5b: Related Committees Not Included in this Statement</td>
+            </tr>
+        
+            <tr>
+                <td>5B</td>
+                <td>Part 5b: Related Committees Not Included in this Statement</td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td>Part 6: Primarily Formed Committee</td>
+            </tr>
+        
+            <tr>
+                <td>6a</td>
+                <td>Part 6a: Name of Ballot Measure</td>
+            </tr>
+        
+            <tr>
+                <td>6A</td>
+                <td>Part 6a: Name of Ballot Measure</td>
+            </tr>
+        
+            <tr>
+                <td>6b</td>
+                <td>Part 6b: Name of Officeholder, Candidate, or Proponent</td>
+            </tr>
+        
+            <tr>
+                <td>6B</td>
+                <td>Part 6b: Name of Officeholder, Candidate, or Proponent</td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td>Part 7: Primarily Formed Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/32.html">32</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/32.html">32</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html">24</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>3</td>
-            <td>Part 3: Committee Information</td>
-        </tr>
-    
-        <tr>
-            <td>4a</td>
-            <td>Part 4a: Officeholder or Candidate Controlled Committee</td>
-        </tr>
-    
-        <tr>
-            <td>4A</td>
-            <td>Part 4a: Officeholder or Candidate Controlled Committee</td>
-        </tr>
-    
-        <tr>
-            <td>4b</td>
-            <td>Part 4b: Related Committees Not Included in this Statement</td>
-        </tr>
-    
-        <tr>
-            <td>4B</td>
-            <td>Part 4b: Related Committees Not Included in this Statement</td>
-        </tr>
-    
-        <tr>
-            <td>5a</td>
-            <td>Part 5a: Officeholder or Candidate Controlled Committee</td>
-        </tr>
-    
-        <tr>
-            <td>5A</td>
-            <td>Part 5a: Officeholder or Candidate Controlled Committee</td>
-        </tr>
-    
-        <tr>
-            <td>5b</td>
-            <td>Part 5b: Related Committees Not Included in this Statement</td>
-        </tr>
-    
-        <tr>
-            <td>5B</td>
-            <td>Part 5b: Related Committees Not Included in this Statement</td>
-        </tr>
-    
-        <tr>
-            <td>6</td>
-            <td>Part 6: Primarily Formed Committee</td>
-        </tr>
-    
-        <tr>
-            <td>6a</td>
-            <td>Part 6a: Name of Ballot Measure</td>
-        </tr>
-    
-        <tr>
-            <td>6A</td>
-            <td>Part 6a: Name of Ballot Measure</td>
-        </tr>
-    
-        <tr>
-            <td>6b</td>
-            <td>Part 6b: Name of Officeholder, Candidate, or Proponent</td>
-        </tr>
-    
-        <tr>
-            <td>6B</td>
-            <td>Part 6b: Name of Officeholder, Candidate, or Proponent</td>
-        </tr>
-    
-        <tr>
-            <td>7</td>
-            <td>Part 7: Primarily Formed Committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p31-thumbnail.gif'></a><p>p. 31</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/23.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p23-thumbnail.gif'></a><p>p. 23</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F425</td>
+                <td>Form 425 (Semi-Annual Statement of no Activity): Part 1, Committee Information</td>
+            </tr>
+        
+            <tr>
+                <td>F450</td>
+                <td>Form 450 (Recipient Committee Campaign Disclosure Statement - Short Form): Part 3, Committee Information</td>
+            </tr>
+        
+            <tr>
+                <td>F460</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Cover Page - Part 2</td>
+            </tr>
+        
+            <tr>
+                <td>F465</td>
+                <td>Form 465 (Supplemental Independent Expenditure Report): Part 5, Filing Officers</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/31.html">31</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/23.html">23</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F425</td>
-            <td>Form 425 (Semi-Annual Statement of no Activity): Part 1, Committee Information</td>
-        </tr>
-    
-        <tr>
-            <td>F450</td>
-            <td>Form 450 (Recipient Committee Campaign Disclosure Statement - Short Form): Part 3, Committee Information</td>
-        </tr>
-    
-        <tr>
-            <td>F460</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Cover Page - Part 2</td>
-        </tr>
-    
-        <tr>
-            <td>F465</td>
-            <td>Form 465 (Supplemental Independent Expenditure Report): Part 5, Filing Officers</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p33-thumbnail.gif'></a><p>p. 33</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p24-thumbnail.gif'></a><p>p. 24</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>sen</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>SD</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>se</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>LBC</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CA</td>
+                <td>Statewide</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/35.html">35</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/33.html">33</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html">24</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>sen</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>SD</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>se</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>LBC</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CA</td>
-            <td>Statewide</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p34-thumbnail.gif'></a><p>p. 34</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p24-thumbnail.gif'></a><p>p. 24</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>s</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>T</td>
+                <td>HELD</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/35.html">35</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/34.html">34</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html">24</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>s</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>T</td>
-            <td>HELD</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Errata-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712032/pages/Cal-Errata-201-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ST</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>PAC</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html">2</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ST</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>PAC</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p41-thumbnail.gif'></a><p>p. 41</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p31-thumbnail.gif'></a><p>p. 31</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/23.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p23-thumbnail.gif'></a><p>p. 23</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR2</td>
+                <td>Cover, Page 2</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/41.html">41</a>), MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/32.html">32</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/31.html">31</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/23.html">23</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR2</td>
-            <td>Cover, Page 2</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*sup_opp_cd*
 
-
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p41-thumbnail.gif'></a><p>p. 41</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-
+sup_opp_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td>s</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td>o</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/41.html">41</a>), MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/35.html">35</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-        <tr>
-            <td>s</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-        <tr>
-            <td>o</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -1233,8 +1153,9 @@ Source Docs
 
 ------------
 
+*********************
 CVR2_SO_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Additional names and committees information included on the second page
 of a statement of organization creation form filed
@@ -1243,9 +1164,8 @@ by a slate-mailer organization or recipient committee.
 **Sample:** `CVR2_SO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_SO_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-Cvr2SoCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -1259,7 +1179,7 @@ Cvr2SoCd contains data collected from the following filing forms, form parts and
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -1580,756 +1500,654 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p38-thumbnail.gif'></a><p>p. 38</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p58-thumbnail.gif'></a><p>p. 58</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p45-thumbnail.gif'></a><p>p. 45</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR2</td>
+                <td>Cover Page; Additional Names &amp; Addresses</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/46.html">46</a>), MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/38.html">38</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/58.html">58</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/45.html">45</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR2</td>
-            <td>Cover Page; Additional Names &amp; Addresses</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p38-thumbnail.gif'></a><p>p. 38</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p58-thumbnail.gif'></a><p>p. 58</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p59-thumbnail.gif'></a><p>p. 59</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p45-thumbnail.gif'></a><p>p. 45</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F400</td>
+                <td>Form 400 (Statement of Organization (Slate Mailer Organization)): Part 3, Individuals Who Authorize Contents Of Slate Mailers</td>
+            </tr>
+        
+            <tr>
+                <td>F410</td>
+                <td>Form 410 (Statement of Organization Recipient Committee): Part 4, Type of Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/38.html">38</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/58.html">58</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html">59</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/45.html">45</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html">46</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F400</td>
-            <td>Form 400 (Statement of Organization (Slate Mailer Organization)): Part 3, Individuals Who Authorize Contents Of Slate Mailers</td>
-        </tr>
-    
-        <tr>
-            <td>F410</td>
-            <td>Form 410 (Statement of Organization Recipient Committee): Part 4, Type of Committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p38-thumbnail.gif'></a><p>p. 38</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p62-thumbnail.gif'></a><p>p. 62</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/48.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p48-thumbnail.gif'></a><p>p. 48</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ATH</td>
+                <td>Authorizing individual</td>
+            </tr>
+        
+            <tr>
+                <td>ATR</td>
+                <td>Assistant treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>BNM</td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>Controlled committee</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td>POF</td>
+                <td>Principal officer</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>Proponent</td>
+            </tr>
+        
+            <tr>
+                <td>SPO</td>
+                <td>Sponsor</td>
+            </tr>
+        
+            <tr>
+                <td>BMN</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/38.html">38</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/62.html">62</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/48.html">48</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ATH</td>
-            <td>Authorizing individual</td>
-        </tr>
-    
-        <tr>
-            <td>ATR</td>
-            <td>Assistant treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>BNM</td>
-            <td>Ballot measure&#39;s name/title</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>Controlled committee</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Officer</td>
-        </tr>
-    
-        <tr>
-            <td>POF</td>
-            <td>Principal officer</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>Proponent</td>
-        </tr>
-    
-        <tr>
-            <td>SPO</td>
-            <td>Sponsor</td>
-        </tr>
-    
-        <tr>
-            <td>BMN</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*item_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p62-thumbnail.gif'></a><p>p. 62</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/48.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p48-thumbnail.gif'></a><p>p. 48</p></div></div>
-
-
-
+item_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ATR</td>
+                <td>Assistant Treasurer (F410)</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>Controlled Committee (F410)</td>
+            </tr>
+        
+            <tr>
+                <td>P5B</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PFC</td>
+                <td>Primarily Formed Committee Item (F410)</td>
+            </tr>
+        
+            <tr>
+                <td>Pfc</td>
+                <td>Primarily Formed Committee Item (F410)</td>
+            </tr>
+        
+            <tr>
+                <td>POF</td>
+                <td>Principal Officer (F400, F410</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>Proponent</td>
+            </tr>
+        
+            <tr>
+                <td>SMA</td>
+                <td>Slate Mailer Authorizer (F400)</td>
+            </tr>
+        
+            <tr>
+                <td>SPO</td>
+                <td>Sponsored Committee Itemization (F410)</td>
+            </tr>
+        
+            <tr>
+                <td>n/a</td>
+                <td>Not Applicable</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CST</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/62.html">62</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/48.html">48</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ATR</td>
-            <td>Assistant Treasurer (F410)</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>Controlled Committee (F410)</td>
-        </tr>
-    
-        <tr>
-            <td>P5B</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PFC</td>
-            <td>Primarily Formed Committee Item (F410)</td>
-        </tr>
-    
-        <tr>
-            <td>Pfc</td>
-            <td>Primarily Formed Committee Item (F410)</td>
-        </tr>
-    
-        <tr>
-            <td>POF</td>
-            <td>Principal Officer (F400, F410</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>Proponent</td>
-        </tr>
-    
-        <tr>
-            <td>SMA</td>
-            <td>Slate Mailer Authorizer (F400)</td>
-        </tr>
-    
-        <tr>
-            <td>SPO</td>
-            <td>Sponsored Committee Itemization (F410)</td>
-        </tr>
-    
-        <tr>
-            <td>n/a</td>
-            <td>Not Applicable</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CST</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Errata-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712032/pages/Cal-Errata-201-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>Asm</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>LEG</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>OF</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>REP</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>05</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>PAC</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html">2</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>Asm</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>LEG</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>OF</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>REP</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>05</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>PAC</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/63.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p63-thumbnail.gif'></a><p>p. 63</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p49-thumbnail.gif'></a><p>p. 49</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>FED</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>JR</td>
+                <td>N/A</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/39.html">39</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/63.html">63</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/49.html">49</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>FED</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>JR</td>
-            <td>N/A</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/63.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p63-thumbnail.gif'></a><p>p. 63</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p49-thumbnail.gif'></a><p>p. 49</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/46.html">46</a>), MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/39.html">39</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/63.html">63</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/49.html">49</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*sup_opp_cd*
 
-
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p40-thumbnail.gif'></a><p>p. 40</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p49-thumbnail.gif'></a><p>p. 49</p></div></div>
-
-
-
+sup_opp_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>O</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/46.html">46</a>), MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/40.html">40</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/64.html">64</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/49.html">49</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>O</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -2372,17 +2190,17 @@ Source Docs
 
 ------------
 
+*********************
 CVR3_VERIFICATION_INFO_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Cover page verification information from campaign disclosure forms
 
 **Sample:** `CVR3_VERIFICATION_INFO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR3_VERIFICATION_INFO_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-Cvr3VerificationInfoCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -2432,7 +2250,7 @@ Cvr3VerificationInfoCd contains data collected from the following filing forms, 
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -2573,256 +2391,244 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p34-thumbnail.gif'></a><p>p. 34</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/25.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p25-thumbnail.gif'></a><p>p. 25</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/50.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p50-thumbnail.gif'></a><p>p. 50</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR3</td>
+                <td>Cover Page 3, Verification Information</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/34.html">34</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/64.html">64</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/25.html">25</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/50.html">50</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR3</td>
-            <td>Cover Page 3, Verification Information</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/50.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p50-thumbnail.gif'></a><p>p. 50</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F400</td>
+                <td>Form 400 (Statement of Organization (Slate Mailer Organization)): Part 5, Verification</td>
+            </tr>
+        
+            <tr>
+                <td>F401</td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Cover Page</td>
+            </tr>
+        
+            <tr>
+                <td>F402</td>
+                <td>Form 402 (Statement of Termination (Slate Mailer Organization)): Verification</td>
+            </tr>
+        
+            <tr>
+                <td>F410</td>
+                <td>Form 410 (Statement of Organization Recipient Committee): Part 3, Verification</td>
+            </tr>
+        
+            <tr>
+                <td>F425</td>
+                <td>Form 425 (Semi-Annual Statement of no Activity): Part 3, Verification</td>
+            </tr>
+        
+            <tr>
+                <td>F450</td>
+                <td>Form 450 (Recipient Committee Campaign Disclosure Statement - Short Form): Part 4, Verification</td>
+            </tr>
+        
+            <tr>
+                <td>F460</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Cover Page</td>
+            </tr>
+        
+            <tr>
+                <td>F461</td>
+                <td>Form 461 (Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement): Part 4, Verification</td>
+            </tr>
+        
+            <tr>
+                <td>F465</td>
+                <td>Form 465 (Supplemental Independent Expenditure Report): Part 6, Verification</td>
+            </tr>
+        
+            <tr>
+                <td>F511</td>
+                <td>Form 511: Paid Spokesperson Report</td>
+            </tr>
+        
+            <tr>
+                <td>F900</td>
+                <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/64.html">64</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/50.html">50</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F400</td>
-            <td>Form 400 (Statement of Organization (Slate Mailer Organization)): Part 5, Verification</td>
-        </tr>
-    
-        <tr>
-            <td>F401</td>
-            <td>Form 401 (Slate Mailer Organization Campaign Statement): Cover Page</td>
-        </tr>
-    
-        <tr>
-            <td>F402</td>
-            <td>Form 402 (Statement of Termination (Slate Mailer Organization)): Verification</td>
-        </tr>
-    
-        <tr>
-            <td>F410</td>
-            <td>Form 410 (Statement of Organization Recipient Committee): Part 3, Verification</td>
-        </tr>
-    
-        <tr>
-            <td>F425</td>
-            <td>Form 425 (Semi-Annual Statement of no Activity): Part 3, Verification</td>
-        </tr>
-    
-        <tr>
-            <td>F450</td>
-            <td>Form 450 (Recipient Committee Campaign Disclosure Statement - Short Form): Part 4, Verification</td>
-        </tr>
-    
-        <tr>
-            <td>F460</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Cover Page</td>
-        </tr>
-    
-        <tr>
-            <td>F461</td>
-            <td>Form 461 (Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement): Part 4, Verification</td>
-        </tr>
-    
-        <tr>
-            <td>F465</td>
-            <td>Form 465 (Supplemental Independent Expenditure Report): Part 6, Verification</td>
-        </tr>
-    
-        <tr>
-            <td>F511</td>
-            <td>Form 511: Paid Spokesperson Report</td>
-        </tr>
-    
-        <tr>
-            <td>F900</td>
-            <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p34-thumbnail.gif'></a><p>p. 34</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/25.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p25-thumbnail.gif'></a><p>p. 25</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ATR</td>
+                <td>Assistant treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>Proponent</td>
+            </tr>
+        
+            <tr>
+                <td>SPO</td>
+                <td>Sponsor</td>
+            </tr>
+        
+            <tr>
+                <td>atr</td>
+                <td>Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>tre</td>
+                <td>Assistant treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>cao</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>MDI</td>
+                <td>Major Donor/Ind Expenditure</td>
+            </tr>
+        
+            <tr>
+                <td>POF</td>
+                <td>Principal officer</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>COA</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>0</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>BBB</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MAI</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/34.html">34</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/25.html">25</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ATR</td>
-            <td>Assistant treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Officer</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>Proponent</td>
-        </tr>
-    
-        <tr>
-            <td>SPO</td>
-            <td>Sponsor</td>
-        </tr>
-    
-        <tr>
-            <td>atr</td>
-            <td>Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>tre</td>
-            <td>Assistant treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>cao</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>MDI</td>
-            <td>Major Donor/Ind Expenditure</td>
-        </tr>
-    
-        <tr>
-            <td>POF</td>
-            <td>Principal officer</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>COA</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>0</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>BBB</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MAI</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -2865,8 +2671,9 @@ Source Docs
 
 ------------
 
+*********************
 CVR_CAMPAIGN_DISCLOSURE_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Cover page information from campaign disclosure forms. This data comes from
 the electronic filing. The data contained herein is "as filed" by the entity
@@ -2875,9 +2682,8 @@ making the filing.
 **Sample:** `CVR_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_CAMPAIGN_DISCLOSURE_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-CvrCampaignDisclosureCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -2937,7 +2743,7 @@ CvrCampaignDisclosureCd contains data collected from the following filing forms,
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -3735,1097 +3541,1001 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*cmtte_type*
+=============
 
 
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p24-thumbnail.gif'></a><p>p. 24</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p19-thumbnail.gif'></a><p>p. 19</p></div></div>
-
-
-
+cmtte_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>C</td>
+                <td>Candidate or officeholder controlled committee</td>
+            </tr>
+        
+            <tr>
+                <td>P</td>
+                <td>Candidate or officeholder primarily formed committee</td>
+            </tr>
+        
+            <tr>
+                <td>B</td>
+                <td>Ballot-measure committee</td>
+            </tr>
+        
+            <tr>
+                <td>G</td>
+                <td>General-purpose committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/10.html">10</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/24.html">24</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/19.html">19</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>C</td>
-            <td>Candidate or officeholder controlled committee</td>
-        </tr>
-    
-        <tr>
-            <td>P</td>
-            <td>Candidate or officeholder primarily formed committee</td>
-        </tr>
-    
-        <tr>
-            <td>B</td>
-            <td>Ballot-measure committee</td>
-        </tr>
-    
-        <tr>
-            <td>G</td>
-            <td>General-purpose committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/6.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p6-thumbnail.gif'></a><p>p. 6</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p18-thumbnail.gif'></a><p>p. 18</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>BMC</td>
+                <td>Ballot measure committee</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>Controlled committee</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td>MDI</td>
+                <td>Major Donor/Ind Expenditure</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PTY</td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>SCC</td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+            <tr>
+                <td>SMO</td>
+                <td>Slate-mailer organization</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/6.html">6</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/22.html">22</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html">18</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>BMC</td>
-            <td>Ballot measure committee</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>Controlled committee</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Individual</td>
-        </tr>
-    
-        <tr>
-            <td>MDI</td>
-            <td>Major Donor/Ind Expenditure</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PTY</td>
-            <td>Political Party</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>SCC</td>
-            <td>Small Contributor Committee</td>
-        </tr>
-    
-        <tr>
-            <td>SMO</td>
-            <td>Slate-mailer organization</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p18-thumbnail.gif'></a><p>p. 18</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F401</td>
+                <td>Form 401: Slate Mailer Organization Campaign Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F425</td>
+                <td>Form 425: Semi-Annual Statement of no Activity</td>
+            </tr>
+        
+            <tr>
+                <td>F450</td>
+                <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
+            </tr>
+        
+            <tr>
+                <td>F460</td>
+                <td>Form 460: Recipient Committee Campaign Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F461</td>
+                <td>Form 461: Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F465</td>
+                <td>Form 465: Supplemental Independent Expenditure Report</td>
+            </tr>
+        
+            <tr>
+                <td>F496</td>
+                <td>Form 496: Late Independent Expenditure Report</td>
+            </tr>
+        
+            <tr>
+                <td>F497</td>
+                <td>Form 497: Late Contribution Report</td>
+            </tr>
+        
+            <tr>
+                <td>F498</td>
+                <td>Form 498: Slate Mailer Late Payment Report</td>
+            </tr>
+        
+            <tr>
+                <td>F511</td>
+                <td>Form 511: Paid Spokesperson Report</td>
+            </tr>
+        
+            <tr>
+                <td>F900</td>
+                <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/22.html">22</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html">18</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F401</td>
-            <td>Form 401: Slate Mailer Organization Campaign Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F425</td>
-            <td>Form 425: Semi-Annual Statement of no Activity</td>
-        </tr>
-    
-        <tr>
-            <td>F450</td>
-            <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
-        </tr>
-    
-        <tr>
-            <td>F460</td>
-            <td>Form 460: Recipient Committee Campaign Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F461</td>
-            <td>Form 461: Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F465</td>
-            <td>Form 465: Supplemental Independent Expenditure Report</td>
-        </tr>
-    
-        <tr>
-            <td>F496</td>
-            <td>Form 496: Late Independent Expenditure Report</td>
-        </tr>
-    
-        <tr>
-            <td>F497</td>
-            <td>Form 497: Late Contribution Report</td>
-        </tr>
-    
-        <tr>
-            <td>F498</td>
-            <td>Form 498: Slate Mailer Late Payment Report</td>
-        </tr>
-    
-        <tr>
-            <td>F511</td>
-            <td>Form 511: Paid Spokesperson Report</td>
-        </tr>
-    
-        <tr>
-            <td>F900</td>
-            <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p13-thumbnail.gif'></a><p>p. 13</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/28.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p28-thumbnail.gif'></a><p>p. 28</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/21.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p21-thumbnail.gif'></a><p>p. 21</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>sen</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>Gov</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>46</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>55</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>APP</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SD</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>OC</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>AD</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>CA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/13.html">13</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/28.html">28</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html">29</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/21.html">21</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html">22</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>sen</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>Gov</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>46</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>55</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>APP</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SD</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>OC</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>AD</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>CA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/28.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p28-thumbnail.gif'></a><p>p. 28</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/21.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p21-thumbnail.gif'></a><p>p. 21</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>s</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>h</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/28.html">28</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/21.html">21</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>s</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>h</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>Gov</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>Sen</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>LEG</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>REP</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>Mem</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>PAC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>Gov</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>Sen</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>LEG</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>REP</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>Mem</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>PAC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/25.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p25-thumbnail.gif'></a><p>p. 25</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/6.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p6-thumbnail.gif'></a><p>p. 6</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p18-thumbnail.gif'></a><p>p. 18</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR</td>
+                <td>Cover Page</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/25.html">25</a>), MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/6.html">6</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/22.html">22</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html">18</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR</td>
-            <td>Cover Page</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*reportname*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p19-thumbnail.gif'></a><p>p. 19</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/26.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p26-thumbnail.gif'></a><p>p. 26</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/15.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p15-thumbnail.gif'></a><p>p. 15</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/20.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p20-thumbnail.gif'></a><p>p. 20</p></div></div>
-
-
-
+reportname
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>450</td>
+                <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
+            </tr>
+        
+            <tr>
+                <td>460</td>
+                <td>Form 460: Recipient Committee Campaign Statement</td>
+            </tr>
+        
+            <tr>
+                <td>461</td>
+                <td>Form 461: Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/19.html">19</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/26.html">26</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/15.html">15</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/20.html">20</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>450</td>
-            <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
-        </tr>
-    
-        <tr>
-            <td>460</td>
-            <td>Form 460: Recipient Committee Campaign Statement</td>
-        </tr>
-    
-        <tr>
-            <td>461</td>
-            <td>Form 461: Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*stmt_type*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/7.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p7-thumbnail.gif'></a><p>p. 7</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/23.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p23-thumbnail.gif'></a><p>p. 23</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p18-thumbnail.gif'></a><p>p. 18</p></div></div>
-
-
-
+stmt_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>PE</td>
+                <td>Pre-Election (F450, F460)</td>
+            </tr>
+        
+            <tr>
+                <td>QT</td>
+                <td>Quarterly Stmt (F450,F460)</td>
+            </tr>
+        
+            <tr>
+                <td>SA</td>
+                <td>Semi-annual (F450, F460)</td>
+            </tr>
+        
+            <tr>
+                <td>SE</td>
+                <td>Supplemental Pre-elect (F450, F460, F495)</td>
+            </tr>
+        
+            <tr>
+                <td>SY</td>
+                <td>Special Odd-Yr. Campaign (F450, F460)</td>
+            </tr>
+        
+            <tr>
+                <td>S1</td>
+                <td>Semi-Annual (Jan1-Jun30) (F425)</td>
+            </tr>
+        
+            <tr>
+                <td>S2</td>
+                <td>Semi-Annual (Jul1-Dec31) (F425)</td>
+            </tr>
+        
+            <tr>
+                <td>TS</td>
+                <td>Termination Statement (F450, F460)</td>
+            </tr>
+        
+            <tr>
+                <td>pe</td>
+                <td>Pre-Election (F450, F460)</td>
+            </tr>
+        
+            <tr>
+                <td>qt</td>
+                <td>Quarterly Stmt (F450,F460)</td>
+            </tr>
+        
+            <tr>
+                <td>sa</td>
+                <td>Semi-annual (F450, F460)</td>
+            </tr>
+        
+            <tr>
+                <td>se</td>
+                <td>Supplemental Pre-elect (F450, F460, F495)</td>
+            </tr>
+        
+            <tr>
+                <td>sy</td>
+                <td>Special Odd-Yr. Campaign (F450, F460)</td>
+            </tr>
+        
+            <tr>
+                <td>ts</td>
+                <td>Termination Statement (F450, F460)</td>
+            </tr>
+        
+            <tr>
+                <td>**</td>
+                <td>Amendment</td>
+            </tr>
+        
+            <tr>
+                <td>1</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MD</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>NA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>QS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>x</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>YE</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/7.html">7</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/23.html">23</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html">18</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>PE</td>
-            <td>Pre-Election (F450, F460)</td>
-        </tr>
-    
-        <tr>
-            <td>QT</td>
-            <td>Quarterly Stmt (F450,F460)</td>
-        </tr>
-    
-        <tr>
-            <td>SA</td>
-            <td>Semi-annual (F450, F460)</td>
-        </tr>
-    
-        <tr>
-            <td>SE</td>
-            <td>Supplemental Pre-elect (F450, F460, F495)</td>
-        </tr>
-    
-        <tr>
-            <td>SY</td>
-            <td>Special Odd-Yr. Campaign (F450, F460)</td>
-        </tr>
-    
-        <tr>
-            <td>S1</td>
-            <td>Semi-Annual (Jan1-Jun30) (F425)</td>
-        </tr>
-    
-        <tr>
-            <td>S2</td>
-            <td>Semi-Annual (Jul1-Dec31) (F425)</td>
-        </tr>
-    
-        <tr>
-            <td>TS</td>
-            <td>Termination Statement (F450, F460)</td>
-        </tr>
-    
-        <tr>
-            <td>pe</td>
-            <td>Pre-Election (F450, F460)</td>
-        </tr>
-    
-        <tr>
-            <td>qt</td>
-            <td>Quarterly Stmt (F450,F460)</td>
-        </tr>
-    
-        <tr>
-            <td>sa</td>
-            <td>Semi-annual (F450, F460)</td>
-        </tr>
-    
-        <tr>
-            <td>se</td>
-            <td>Supplemental Pre-elect (F450, F460, F495)</td>
-        </tr>
-    
-        <tr>
-            <td>sy</td>
-            <td>Special Odd-Yr. Campaign (F450, F460)</td>
-        </tr>
-    
-        <tr>
-            <td>ts</td>
-            <td>Termination Statement (F450, F460)</td>
-        </tr>
-    
-        <tr>
-            <td>**</td>
-            <td>Amendment</td>
-        </tr>
-    
-        <tr>
-            <td>1</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>2</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MD</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>NA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>QS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>x</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>YE</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*sup_opp_cd*
 
-
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/28.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p28-thumbnail.gif'></a><p>p. 28</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/14.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p14-thumbnail.gif'></a><p>p. 14</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/28.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p28-thumbnail.gif'></a><p>p. 28</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/21.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p21-thumbnail.gif'></a><p>p. 21</p></div></div>
-
-
-
+sup_opp_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td>s</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td>o</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/28.html">28</a>), MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/14.html">14</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/28.html">28</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/21.html">21</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-        <tr>
-            <td>s</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-        <tr>
-            <td>o</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -4868,8 +4578,9 @@ Source Docs
 
 ------------
 
+*********************
 CVR_F470_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Cover page layout for Officeholder and Candidate Short and Supplement Forms
 (Form 470)
@@ -4877,9 +4588,8 @@ Cover page layout for Officeholder and Candidate Short and Supplement Forms
 **Sample:** `CVR_F470_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_F470_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-CvrF470Cd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -4889,7 +4599,7 @@ CvrF470Cd contains data collected from the following filing forms, form parts an
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -5165,436 +4875,412 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html">29</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html">22</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F470</td>
+                <td>Form 470: Officeholder and Candidate Campaign Statement, Short Form</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html">29</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html">22</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F470</td>
-            <td>Form 470: Officeholder and Candidate Campaign Statement, Short Form</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html">29</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html">22</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p30-thumbnail.gif'></a><p>p. 30</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/30.html">30</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html">22</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html">29</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html">22</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR</td>
+                <td>Cover Page</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html">29</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html">22</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR</td>
-            <td>Cover Page</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -5637,8 +5323,9 @@ Source Docs
 
 ------------
 
+*********************
 CVR_SO_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Cover page for a statement of organization creation or termination
 form filed by a slate-mailer organization or recipient committee.
@@ -5646,9 +5333,8 @@ form filed by a slate-mailer organization or recipient committee.
 **Sample:** `CVR_SO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_SO_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-CvrSoCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -5680,7 +5366,7 @@ CvrSoCd contains data collected from the following filing forms, form parts and 
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -6190,235 +5876,205 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*actvty_lvl*
+=============
 
 
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p30-thumbnail.gif'></a><p>p. 30</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/60.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p60-thumbnail.gif'></a><p>p. 60</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p47-thumbnail.gif'></a><p>p. 47</p></div></div>
-
-
-
+actvty_lvl
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CI</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CO</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>ST</td>
+                <td>State</td>
+            </tr>
+        
+            <tr>
+                <td>St</td>
+                <td>State</td>
+            </tr>
+        
+            <tr>
+                <td>st</td>
+                <td>State</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/30.html">30</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/60.html">60</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/47.html">47</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CI</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CO</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>ST</td>
-            <td>State</td>
-        </tr>
-    
-        <tr>
-            <td>St</td>
-            <td>State</td>
-        </tr>
-    
-        <tr>
-            <td>st</td>
-            <td>State</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p59-thumbnail.gif'></a><p>p. 59</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>BMC</td>
+                <td>Ballot measure committee</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>Controlled committee</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>SMO</td>
+                <td>Slate-mailer organization</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html">59</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html">46</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>BMC</td>
-            <td>Ballot measure committee</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>Controlled committee</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>SMO</td>
-            <td>Slate-mailer organization</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p59-thumbnail.gif'></a><p>p. 59</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F400</td>
+                <td>Form 400: Statement of Organization (Slate Mailer Organization)</td>
+            </tr>
+        
+            <tr>
+                <td>F402</td>
+                <td>Form 402: Statement of Termination (Slate Mailer Organization)</td>
+            </tr>
+        
+            <tr>
+                <td>F410</td>
+                <td>Form 410: Statement of Organization Recipient Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html">59</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html">46</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F400</td>
-            <td>Form 400: Statement of Organization (Slate Mailer Organization)</td>
-        </tr>
-    
-        <tr>
-            <td>F402</td>
-            <td>Form 402: Statement of Termination (Slate Mailer Organization)</td>
-        </tr>
-    
-        <tr>
-            <td>F410</td>
-            <td>Form 410: Statement of Organization Recipient Committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/28.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p28-thumbnail.gif'></a><p>p. 28</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p59-thumbnail.gif'></a><p>p. 59</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR</td>
+                <td>Cover Page for Stmt of Organization / Slate Mailer Org, Stmt of Termination / Slate Mailer Org or Stmt of Organization / Recipient Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/28.html">28</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html">59</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html">46</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR</td>
-            <td>Cover Page for Stmt of Organization / Slate Mailer Org, Stmt of Termination / Slate Mailer Org or Stmt of Organization / Recipient Committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -6461,8 +6117,9 @@ Source Docs
 
 ------------
 
+*********************
 DEBT_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Form 460 (Recipient Committee Campaign Statement) Schedule (F) Accrued
 Expenses (Unpaid Bills) records
@@ -6470,9 +6127,8 @@ Expenses (Unpaid Bills) records
 **Sample:** `DEBT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/DEBT_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-DebtCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -6482,7 +6138,7 @@ DebtCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -6803,521 +6459,505 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p45-thumbnail.gif'></a><p>p. 45</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p33-thumbnail.gif'></a><p>p. 33</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>BNM</td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PTY</td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>SCC</td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/45.html">45</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/33.html">33</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>BNM</td>
-            <td>Ballot measure&#39;s name/title</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Individual</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PTY</td>
-            <td>Political Party</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>SCC</td>
-            <td>Small Contributor Committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*expn_code*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/14.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p14-thumbnail.gif'></a><p>p. 14</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p11-thumbnail.gif'></a><p>p. 11</p></div></div>
-
-
-
+expn_code
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CMP</td>
-            <td>campaign paraphernalia/miscellaneous</td>
-        </tr>
-    
-        <tr>
-            <td>CNS</td>
-            <td>campaign consultants</td>
-        </tr>
-    
-        <tr>
-            <td>CTB</td>
-            <td>contribution (if nonmonetary, explain)*</td>
-        </tr>
-    
-        <tr>
-            <td>CVC</td>
-            <td>civic donations</td>
-        </tr>
-    
-        <tr>
-            <td>FIL</td>
-            <td>candidate filing/ballot feeds</td>
-        </tr>
-    
-        <tr>
-            <td>FND</td>
-            <td>fundraising events</td>
-        </tr>
-    
-        <tr>
-            <td>IKD</td>
-            <td>In-kind contribution (nonmonetary)</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>independent expenditure supporting/opposing others (explain)*</td>
-        </tr>
-    
-        <tr>
-            <td>LEG</td>
-            <td>legal defense</td>
-        </tr>
-    
-        <tr>
-            <td>LIT</td>
-            <td>campaign literature and mailings</td>
-        </tr>
-    
-        <tr>
-            <td>LON</td>
-            <td>loan</td>
-        </tr>
-    
-        <tr>
-            <td>MBR</td>
-            <td>member communications</td>
-        </tr>
-    
-        <tr>
-            <td>MON</td>
-            <td>monetary contribution</td>
-        </tr>
-    
-        <tr>
-            <td>MTG</td>
-            <td>meetings and appearances</td>
-        </tr>
-    
-        <tr>
-            <td>OFC</td>
-            <td>office expenses</td>
-        </tr>
-    
-        <tr>
-            <td>PET</td>
-            <td>petition circulating</td>
-        </tr>
-    
-        <tr>
-            <td>PHO</td>
-            <td>phone banks</td>
-        </tr>
-    
-        <tr>
-            <td>POL</td>
-            <td>polling and survey research</td>
-        </tr>
-    
-        <tr>
-            <td>POS</td>
-            <td>postage, delivery and messenger services</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>professional services (legal, accounting)</td>
-        </tr>
-    
-        <tr>
-            <td>PRT</td>
-            <td>print ads</td>
-        </tr>
-    
-        <tr>
-            <td>RAD</td>
-            <td>radio airtime and production costs</td>
-        </tr>
-    
-        <tr>
-            <td>RFD</td>
-            <td>returned contributions</td>
-        </tr>
-    
-        <tr>
-            <td>SAL</td>
-            <td>campaign workers salaries</td>
-        </tr>
-    
-        <tr>
-            <td>TEL</td>
-            <td>T.V. or cable airtime and production costs</td>
-        </tr>
-    
-        <tr>
-            <td>TRC</td>
-            <td>candidate travel, lodging and meals (explain)</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>staff/spouse travel, lodging and meals (explain)</td>
-        </tr>
-    
-        <tr>
-            <td>TSF</td>
-            <td>transfer between committees of the same candidate/sponsor</td>
-        </tr>
-    
-        <tr>
-            <td>VOT</td>
-            <td>voter registration</td>
-        </tr>
-    
-        <tr>
-            <td>WEB</td>
-            <td>information technology costs (internet, e-mail)</td>
-        </tr>
-    
-        <tr>
-            <td>Fnd</td>
-            <td>fundraising events</td>
-        </tr>
-    
-        <tr>
-            <td>ofc</td>
-            <td>office expenses</td>
-        </tr>
-    
-        <tr>
-            <td>&#39;CN</td>
-            <td>campaign consultants</td>
-        </tr>
-    
-        <tr>
-            <td>*</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>AIR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>BUS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>C</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CAM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CSN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>DEP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>EVE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FED</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>fns</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>G</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>GGG</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>HOT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>L</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LDF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MEE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>N</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>P</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PEN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SPE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>STA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>T</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TAX</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TRA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>V</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>X</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CMP</td>
+                <td>campaign paraphernalia/miscellaneous</td>
+            </tr>
+        
+            <tr>
+                <td>CNS</td>
+                <td>campaign consultants</td>
+            </tr>
+        
+            <tr>
+                <td>CTB</td>
+                <td>contribution (if nonmonetary, explain)*</td>
+            </tr>
+        
+            <tr>
+                <td>CVC</td>
+                <td>civic donations</td>
+            </tr>
+        
+            <tr>
+                <td>FIL</td>
+                <td>candidate filing/ballot feeds</td>
+            </tr>
+        
+            <tr>
+                <td>FND</td>
+                <td>fundraising events</td>
+            </tr>
+        
+            <tr>
+                <td>IKD</td>
+                <td>In-kind contribution (nonmonetary)</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>independent expenditure supporting/opposing others (explain)*</td>
+            </tr>
+        
+            <tr>
+                <td>LEG</td>
+                <td>legal defense</td>
+            </tr>
+        
+            <tr>
+                <td>LIT</td>
+                <td>campaign literature and mailings</td>
+            </tr>
+        
+            <tr>
+                <td>LON</td>
+                <td>loan</td>
+            </tr>
+        
+            <tr>
+                <td>MBR</td>
+                <td>member communications</td>
+            </tr>
+        
+            <tr>
+                <td>MON</td>
+                <td>monetary contribution</td>
+            </tr>
+        
+            <tr>
+                <td>MTG</td>
+                <td>meetings and appearances</td>
+            </tr>
+        
+            <tr>
+                <td>OFC</td>
+                <td>office expenses</td>
+            </tr>
+        
+            <tr>
+                <td>PET</td>
+                <td>petition circulating</td>
+            </tr>
+        
+            <tr>
+                <td>PHO</td>
+                <td>phone banks</td>
+            </tr>
+        
+            <tr>
+                <td>POL</td>
+                <td>polling and survey research</td>
+            </tr>
+        
+            <tr>
+                <td>POS</td>
+                <td>postage, delivery and messenger services</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>professional services (legal, accounting)</td>
+            </tr>
+        
+            <tr>
+                <td>PRT</td>
+                <td>print ads</td>
+            </tr>
+        
+            <tr>
+                <td>RAD</td>
+                <td>radio airtime and production costs</td>
+            </tr>
+        
+            <tr>
+                <td>RFD</td>
+                <td>returned contributions</td>
+            </tr>
+        
+            <tr>
+                <td>SAL</td>
+                <td>campaign workers salaries</td>
+            </tr>
+        
+            <tr>
+                <td>TEL</td>
+                <td>T.V. or cable airtime and production costs</td>
+            </tr>
+        
+            <tr>
+                <td>TRC</td>
+                <td>candidate travel, lodging and meals (explain)</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>staff/spouse travel, lodging and meals (explain)</td>
+            </tr>
+        
+            <tr>
+                <td>TSF</td>
+                <td>transfer between committees of the same candidate/sponsor</td>
+            </tr>
+        
+            <tr>
+                <td>VOT</td>
+                <td>voter registration</td>
+            </tr>
+        
+            <tr>
+                <td>WEB</td>
+                <td>information technology costs (internet, e-mail)</td>
+            </tr>
+        
+            <tr>
+                <td>Fnd</td>
+                <td>fundraising events</td>
+            </tr>
+        
+            <tr>
+                <td>ofc</td>
+                <td>office expenses</td>
+            </tr>
+        
+            <tr>
+                <td>&#39;CN</td>
+                <td>campaign consultants</td>
+            </tr>
+        
+            <tr>
+                <td>*</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>AIR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>BUS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>C</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CAM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CSN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>DEP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>EVE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FED</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>fns</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>G</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>GGG</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>HOT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>L</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LDF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MEE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>N</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>P</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PEN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SPE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>STA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>T</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TAX</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TRA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>V</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>X</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/13.html">13</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/14.html">14</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/11.html">11</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p45-thumbnail.gif'></a><p>p. 45</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p33-thumbnail.gif'></a><p>p. 33</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule F, Accrued Expenses (Unpaid Bills)</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/45.html">45</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/33.html">33</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule F, Accrued Expenses (Unpaid Bills)</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p45-thumbnail.gif'></a><p>p. 45</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p33-thumbnail.gif'></a><p>p. 33</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p34-thumbnail.gif'></a><p>p. 34</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>DEBT</td>
+                <td>DEBT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/45.html">45</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/46.html">46</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/33.html">33</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/34.html">34</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>DEBT</td>
-            <td>DEBT</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -7360,17 +7000,17 @@ Source Docs
 
 ------------
 
+*********************
 EXPN_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Campaign expenditures from a variety of forms
 
 **Sample:** `EXPN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EXPN_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-ExpnCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -7403,7 +7043,7 @@ ExpnCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -7904,2203 +7544,2164 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p42-thumbnail.gif'></a><p>p. 42</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p31-thumbnail.gif'></a><p>p. 31</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PTY</td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td>SCC</td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+            <tr>
+                <td>BNM</td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>MBR</td>
+                <td>Member of Associaton</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td>0</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PTH</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>RFD</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/42.html">42</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/31.html">31</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Individual</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PTY</td>
-            <td>Political Party</td>
-        </tr>
-    
-        <tr>
-            <td>SCC</td>
-            <td>Small Contributor Committee</td>
-        </tr>
-    
-        <tr>
-            <td>BNM</td>
-            <td>Ballot measure&#39;s name/title</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>MBR</td>
-            <td>Member of Associaton</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Officer</td>
-        </tr>
-    
-        <tr>
-            <td>0</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PTH</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>RFD</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*expn_code*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/14.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p14-thumbnail.gif'></a><p>p. 14</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p11-thumbnail.gif'></a><p>p. 11</p></div></div>
-
-
-
+expn_code
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CMP</td>
-            <td>campaign paraphernalia/miscellaneous</td>
-        </tr>
-    
-        <tr>
-            <td>CNS</td>
-            <td>campaign consultants</td>
-        </tr>
-    
-        <tr>
-            <td>CTB</td>
-            <td>contribution (if nonmonetary, explain)*</td>
-        </tr>
-    
-        <tr>
-            <td>CVC</td>
-            <td>civic donations</td>
-        </tr>
-    
-        <tr>
-            <td>FIL</td>
-            <td>candidate filing/ballot feeds</td>
-        </tr>
-    
-        <tr>
-            <td>FND</td>
-            <td>fundraising events</td>
-        </tr>
-    
-        <tr>
-            <td>IKD</td>
-            <td>In-kind contribution (nonmonetary)</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>independent expenditure supporting/opposing others (explain)*</td>
-        </tr>
-    
-        <tr>
-            <td>LEG</td>
-            <td>legal defense</td>
-        </tr>
-    
-        <tr>
-            <td>LIT</td>
-            <td>campaign literature and mailings</td>
-        </tr>
-    
-        <tr>
-            <td>LON</td>
-            <td>loan</td>
-        </tr>
-    
-        <tr>
-            <td>MBR</td>
-            <td>member communications</td>
-        </tr>
-    
-        <tr>
-            <td>MON</td>
-            <td>monetary contribution</td>
-        </tr>
-    
-        <tr>
-            <td>MTG</td>
-            <td>meetings and appearances</td>
-        </tr>
-    
-        <tr>
-            <td>OFC</td>
-            <td>office expenses</td>
-        </tr>
-    
-        <tr>
-            <td>PET</td>
-            <td>petition circulating</td>
-        </tr>
-    
-        <tr>
-            <td>PHO</td>
-            <td>phone banks</td>
-        </tr>
-    
-        <tr>
-            <td>POL</td>
-            <td>polling and survey research</td>
-        </tr>
-    
-        <tr>
-            <td>POS</td>
-            <td>postage, delivery and messenger services</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>professional services (legal, accounting)</td>
-        </tr>
-    
-        <tr>
-            <td>PRT</td>
-            <td>print ads</td>
-        </tr>
-    
-        <tr>
-            <td>RAD</td>
-            <td>radio airtime and production costs</td>
-        </tr>
-    
-        <tr>
-            <td>RFD</td>
-            <td>returned contributions</td>
-        </tr>
-    
-        <tr>
-            <td>SAL</td>
-            <td>campaign workers salaries</td>
-        </tr>
-    
-        <tr>
-            <td>TEL</td>
-            <td>T.V. or cable airtime and production costs</td>
-        </tr>
-    
-        <tr>
-            <td>TRC</td>
-            <td>candidate travel, lodging and meals (explain)</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>staff/spouse travel, lodging and meals (explain)</td>
-        </tr>
-    
-        <tr>
-            <td>TSF</td>
-            <td>transfer between committees of the same candidate/sponsor</td>
-        </tr>
-    
-        <tr>
-            <td>VOT</td>
-            <td>voter registration</td>
-        </tr>
-    
-        <tr>
-            <td>WEB</td>
-            <td>information technology costs (internet, e-mail)</td>
-        </tr>
-    
-        <tr>
-            <td>ctb</td>
-            <td>contribution (if nonmonetary, explain)*</td>
-        </tr>
-    
-        <tr>
-            <td>ikd</td>
-            <td>In-kind contribution (nonmonetary)</td>
-        </tr>
-    
-        <tr>
-            <td>Mon</td>
-            <td>monetary contribution</td>
-        </tr>
-    
-        <tr>
-            <td>ofc</td>
-            <td>office expenses</td>
-        </tr>
-    
-        <tr>
-            <td>OFc</td>
-            <td>office expenses</td>
-        </tr>
-    
-        <tr>
-            <td>Ofc</td>
-            <td>office expenses</td>
-        </tr>
-    
-        <tr>
-            <td></td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>*</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>0</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>001</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>011</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>200</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>401</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ADV</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ANN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>APR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>AUG</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>AUT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Ban</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>BAN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>BOO</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>BOX</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>C</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CHE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CIV</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CNT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>COP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CRE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CSN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>,CT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>.CT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CTN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CVD</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>DEC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Dem</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>DIN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Don</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>DON</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Ear</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>EIM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>EMP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FAX</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FDN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FED</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FEE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FIN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Fun</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FUN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>G</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>GEN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>GGG</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>GOT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>IEs</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>IN-</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Ina</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>INK</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ITE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>JAN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>JUL</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>JUN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>KIC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>L</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LEV</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Lit</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LN#</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LOG</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>M</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MAI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Mar</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MAR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MED</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MEE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MGT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Mis</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MRB</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>NGP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>NON</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>NOT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>NOV</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OCT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>.OF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OPE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>P</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Pac</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PAI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PAR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PAY</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PEN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PMT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>.PO</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Pos</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PRE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PRI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PRP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>R</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>.Re</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>.RE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>REF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>REI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>RFP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S-A</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Sal</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S C</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S.C</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SCU</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SEE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SEP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S.M.</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SOF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SWI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>T</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TAX</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TB</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TB,</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TIC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Tor</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TRA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TRF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>TRV</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>UN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>UTI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>V</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>VEN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>-VO</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>VOI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>VOY</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>WI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>x</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>X</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S-6</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S.M</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S-4</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SA:</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>100</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>RFN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>REN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>003</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S-1</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>08</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CMP</td>
+                <td>campaign paraphernalia/miscellaneous</td>
+            </tr>
+        
+            <tr>
+                <td>CNS</td>
+                <td>campaign consultants</td>
+            </tr>
+        
+            <tr>
+                <td>CTB</td>
+                <td>contribution (if nonmonetary, explain)*</td>
+            </tr>
+        
+            <tr>
+                <td>CVC</td>
+                <td>civic donations</td>
+            </tr>
+        
+            <tr>
+                <td>FIL</td>
+                <td>candidate filing/ballot feeds</td>
+            </tr>
+        
+            <tr>
+                <td>FND</td>
+                <td>fundraising events</td>
+            </tr>
+        
+            <tr>
+                <td>IKD</td>
+                <td>In-kind contribution (nonmonetary)</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>independent expenditure supporting/opposing others (explain)*</td>
+            </tr>
+        
+            <tr>
+                <td>LEG</td>
+                <td>legal defense</td>
+            </tr>
+        
+            <tr>
+                <td>LIT</td>
+                <td>campaign literature and mailings</td>
+            </tr>
+        
+            <tr>
+                <td>LON</td>
+                <td>loan</td>
+            </tr>
+        
+            <tr>
+                <td>MBR</td>
+                <td>member communications</td>
+            </tr>
+        
+            <tr>
+                <td>MON</td>
+                <td>monetary contribution</td>
+            </tr>
+        
+            <tr>
+                <td>MTG</td>
+                <td>meetings and appearances</td>
+            </tr>
+        
+            <tr>
+                <td>OFC</td>
+                <td>office expenses</td>
+            </tr>
+        
+            <tr>
+                <td>PET</td>
+                <td>petition circulating</td>
+            </tr>
+        
+            <tr>
+                <td>PHO</td>
+                <td>phone banks</td>
+            </tr>
+        
+            <tr>
+                <td>POL</td>
+                <td>polling and survey research</td>
+            </tr>
+        
+            <tr>
+                <td>POS</td>
+                <td>postage, delivery and messenger services</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>professional services (legal, accounting)</td>
+            </tr>
+        
+            <tr>
+                <td>PRT</td>
+                <td>print ads</td>
+            </tr>
+        
+            <tr>
+                <td>RAD</td>
+                <td>radio airtime and production costs</td>
+            </tr>
+        
+            <tr>
+                <td>RFD</td>
+                <td>returned contributions</td>
+            </tr>
+        
+            <tr>
+                <td>SAL</td>
+                <td>campaign workers salaries</td>
+            </tr>
+        
+            <tr>
+                <td>TEL</td>
+                <td>T.V. or cable airtime and production costs</td>
+            </tr>
+        
+            <tr>
+                <td>TRC</td>
+                <td>candidate travel, lodging and meals (explain)</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>staff/spouse travel, lodging and meals (explain)</td>
+            </tr>
+        
+            <tr>
+                <td>TSF</td>
+                <td>transfer between committees of the same candidate/sponsor</td>
+            </tr>
+        
+            <tr>
+                <td>VOT</td>
+                <td>voter registration</td>
+            </tr>
+        
+            <tr>
+                <td>WEB</td>
+                <td>information technology costs (internet, e-mail)</td>
+            </tr>
+        
+            <tr>
+                <td>ctb</td>
+                <td>contribution (if nonmonetary, explain)*</td>
+            </tr>
+        
+            <tr>
+                <td>ikd</td>
+                <td>In-kind contribution (nonmonetary)</td>
+            </tr>
+        
+            <tr>
+                <td>Mon</td>
+                <td>monetary contribution</td>
+            </tr>
+        
+            <tr>
+                <td>ofc</td>
+                <td>office expenses</td>
+            </tr>
+        
+            <tr>
+                <td>OFc</td>
+                <td>office expenses</td>
+            </tr>
+        
+            <tr>
+                <td>Ofc</td>
+                <td>office expenses</td>
+            </tr>
+        
+            <tr>
+                <td></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>*</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>0</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>001</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>011</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>200</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>401</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ADV</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ANN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>APR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>AUG</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>AUT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Ban</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>BAN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>BOO</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>BOX</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>C</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CHE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CIV</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CNT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>COP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CRE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CSN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>,CT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>.CT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CTN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CVD</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>DEC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Dem</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>DIN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Don</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>DON</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Ear</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>EIM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>EMP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FAX</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FDN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FED</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FEE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FIN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Fun</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FUN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>G</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>GEN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>GGG</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>GOT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>IEs</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>IN-</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Ina</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>INK</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ITE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>JAN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>JUL</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>JUN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>KIC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>L</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LEV</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Lit</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LN#</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LOG</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>M</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MAI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Mar</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MAR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MED</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MEE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MGT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Mis</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MRB</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>NGP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>NON</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>NOT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>NOV</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OCT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>.OF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OPE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>P</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Pac</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PAI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PAR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PAY</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PEN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PMT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>.PO</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Pos</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PRE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PRI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PRP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>R</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>.Re</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>.RE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>REF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>REI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>RFP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S-A</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Sal</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S C</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S.C</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SCU</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SEE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SEP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S.M.</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SOF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SWI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>T</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TAX</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TB</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TB,</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TIC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Tor</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TRA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TRF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>TRV</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>UN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>UTI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>V</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>VEN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>-VO</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>VOI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>VOY</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>WI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>x</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>X</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S-6</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S.M</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S-4</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SA:</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>100</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>RFN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>REN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>003</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S-1</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>08</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/13.html">13</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/14.html">14</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/11.html">11</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p42-thumbnail.gif'></a><p>p. 42</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p31-thumbnail.gif'></a><p>p. 31</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F450P5</td>
+                <td>Form 450 (Recipient Committee Campaign Disclosure Statement - Short Form): Part 5, Payments Made</td>
+            </tr>
+        
+            <tr>
+                <td>D</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees</td>
+            </tr>
+        
+            <tr>
+                <td>E</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule E, Payments Made</td>
+            </tr>
+        
+            <tr>
+                <td>G</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule G, Payments Made by an Agent or Independent Contractor (on Behalf of This Committee)</td>
+            </tr>
+        
+            <tr>
+                <td>F461P5</td>
+                <td>Form 461 (Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement): Part 5, Contributions (Including Loans, Forgiveness of Loans, and LoanGuarantees) and Expenditures Made</td>
+            </tr>
+        
+            <tr>
+                <td>F465P3</td>
+                <td>Form 465 (Supplemental Independent Expenditure Report): Part 3, Independent Expenditures Made</td>
+            </tr>
+        
+            <tr>
+                <td>F900</td>
+                <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/42.html">42</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/31.html">31</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F450P5</td>
-            <td>Form 450 (Recipient Committee Campaign Disclosure Statement - Short Form): Part 5, Payments Made</td>
-        </tr>
-    
-        <tr>
-            <td>D</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees</td>
-        </tr>
-    
-        <tr>
-            <td>E</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule E, Payments Made</td>
-        </tr>
-    
-        <tr>
-            <td>G</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule G, Payments Made by an Agent or Independent Contractor (on Behalf of This Committee)</td>
-        </tr>
-    
-        <tr>
-            <td>F461P5</td>
-            <td>Form 461 (Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement): Part 5, Contributions (Including Loans, Forgiveness of Loans, and LoanGuarantees) and Expenditures Made</td>
-        </tr>
-    
-        <tr>
-            <td>F465P3</td>
-            <td>Form 465 (Supplemental Independent Expenditure Report): Part 3, Independent Expenditures Made</td>
-        </tr>
-    
-        <tr>
-            <td>F900</td>
-            <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p44-thumbnail.gif'></a><p>p. 44</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>Cit</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>sen</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>Sen</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>stw</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>APP</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>ES</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>SM</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>12</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>4</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>8</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>27</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>93</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>98</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>CLB</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Boa</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>Sta</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>STA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SAN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ES </td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LBC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SB</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>WES</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>BM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>(Lo</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>(Ci</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>vty</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SM </td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ASS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>JR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ADM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SAC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>US</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>J</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LOS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>IRV</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CO</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>JRS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>NEV</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>IB</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>A</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>Ass</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SD</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>D</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SEC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>RB</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>GEN</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FED</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>R</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>Cit</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>sen</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>Sen</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>stw</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>APP</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>ES</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>SM</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>12</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>27</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>93</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>98</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>CLB</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Boa</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>Sta</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>STA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SAN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ES </td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LBC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SB</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>WES</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>BM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>(Lo</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>(Ci</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>vty</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SM </td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ASS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>JR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ADM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SAC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>US</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>J</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LOS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>IRV</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CO</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>JRS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>NEV</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>IB</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>A</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>Ass</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SD</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>D</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SEC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>RB</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>GEN</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FED</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>R</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/44.html">44</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/32.html">32</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p44-thumbnail.gif'></a><p>p. 44</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>s</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>h</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>A</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>a</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/44.html">44</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/32.html">32</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>s</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>h</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>A</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>a</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>8</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Errata-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712032/pages/Cal-Errata-201-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>Cou</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>sen</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>AtT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>May</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>Sen</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>asm</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>gov</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>Gov</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>LA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>HOU</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LAD</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>11A</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>001</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>BM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>AS1</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ASS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>73</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>HSE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>STA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>GO</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CO</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>A</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PAC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>REP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>031</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ASB</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>NAT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SWE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FED</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>STE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>DA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>AS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LEG</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ST</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PRE</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>/S</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>U S</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>8</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>C:S</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>Cou</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>sen</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>AtT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>May</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>Sen</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>asm</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>gov</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>Gov</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>LA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>HOU</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LAD</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>11A</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>001</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>BM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>AS1</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ASS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>73</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>HSE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>STA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>GO</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CO</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>A</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PAC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>REP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>031</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ASB</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>NAT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SWE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FED</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>STE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>DA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>AS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LEG</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ST</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PRE</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>/S</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>U S</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>C:S</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html">2</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p42-thumbnail.gif'></a><p>p. 42</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p31-thumbnail.gif'></a><p>p. 31</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>EXPN</td>
+                <td>Expense</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/42.html">42</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/31.html">31</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>EXPN</td>
-            <td>Expense</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*sup_opp_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p44-thumbnail.gif'></a><p>p. 44</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
-
-
+sup_opp_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>O</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td>s</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td>o</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>N</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>X</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>Y</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/44.html">44</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/32.html">32</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>O</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-        <tr>
-            <td>s</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-        <tr>
-            <td>o</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>N</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>X</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>Y</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -10143,8 +9744,9 @@ Source Docs
 
 ------------
 
+*********************
 F495P2_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Form 495 Supplemental Pre-Election Campaign Statement (attachment to
 Recipient Committee Campaign Statements (Forms 450 and 460).
@@ -10152,9 +9754,8 @@ Recipient Committee Campaign Statements (Forms 450 and 460).
 **Sample:** `F495P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F495P2_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-F495P2Cd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -10168,7 +9769,7 @@ F495P2Cd contains data collected from the following filing forms, form parts and
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -10264,91 +9865,83 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/26.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p26-thumbnail.gif'></a><p>p. 26</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F495</td>
+                <td>F495</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/35.html">35</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/26.html">26</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F495</td>
-            <td>F495</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/26.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p26-thumbnail.gif'></a><p>p. 26</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F450</td>
+                <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
+            </tr>
+        
+            <tr>
+                <td>F460</td>
+                <td>Form 460: Recipient Committee Campaign Statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/35.html">35</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/26.html">26</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F450</td>
-            <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
-        </tr>
-    
-        <tr>
-            <td>F460</td>
-            <td>Form 460: Recipient Committee Campaign Statement</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -10391,17 +9984,17 @@ Source Docs
 
 ------------
 
+*********************
 F501_502_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Candidate intention statement (Forms 501 and 502)
 
 **Sample:** `F501_502_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F501_502_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-F501502Cd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -10415,7 +10008,7 @@ F501502Cd contains data collected from the following filing forms, form parts an
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -10925,1715 +10518,1735 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p58-thumbnail.gif'></a><p>p. 58</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR</td>
+                <td>CVR</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/58.html">58</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR</td>
-            <td>CVR</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p58-thumbnail.gif'></a><p>p. 58</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F501</td>
+                <td>Form 501: Candidate Intention Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F502</td>
+                <td>Form 502: Campaign Bank Account Statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: CalAccessTablesWeb (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/58.html">58</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F501</td>
-            <td>Form 501: Candidate Intention Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F502</td>
-            <td>Form 502: Campaign Bank Account Statement</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ATH</td>
+                <td>Authorizing individual</td>
+            </tr>
+        
+            <tr>
+                <td>ATR</td>
+                <td>Assistant treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>BMC</td>
+                <td>Ballot measure committee</td>
+            </tr>
+        
+            <tr>
+                <td>BNM</td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>Controlled committee</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td>MDI</td>
+                <td>Major Donor/Ind Expenditure</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>POF</td>
+                <td>Principal officer</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>Proponent</td>
+            </tr>
+        
+            <tr>
+                <td>PTY</td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>SCC</td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+            <tr>
+                <td>SMO</td>
+                <td>Slate-mailer organization</td>
+            </tr>
+        
+            <tr>
+                <td>SPO</td>
+                <td>Sponsor</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ATH</td>
-            <td>Authorizing individual</td>
-        </tr>
-    
-        <tr>
-            <td>ATR</td>
-            <td>Assistant treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>BMC</td>
-            <td>Ballot measure committee</td>
-        </tr>
-    
-        <tr>
-            <td>BNM</td>
-            <td>Ballot measure&#39;s name/title</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>Controlled committee</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Individual</td>
-        </tr>
-    
-        <tr>
-            <td>MDI</td>
-            <td>Major Donor/Ind Expenditure</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Officer</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>POF</td>
-            <td>Principal officer</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>Proponent</td>
-        </tr>
-    
-        <tr>
-            <td>PTY</td>
-            <td>Political Party</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>SCC</td>
-            <td>Small Contributor Committee</td>
-        </tr>
-    
-        <tr>
-            <td>SMO</td>
-            <td>Slate-mailer organization</td>
-        </tr>
-    
-        <tr>
-            <td>SPO</td>
-            <td>Sponsor</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>8</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*stmt_type*
 
-
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/6.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p6-thumbnail.gif'></a><p>p. 6</p></div></div>
-
-
-
+stmt_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>10001</td>
+                <td>ORIGINAL/INITIAL</td>
+            </tr>
+        
+            <tr>
+                <td>10002</td>
+                <td>AMENDMENT</td>
+            </tr>
+        
+            <tr>
+                <td>10003</td>
+                <td>TERMINATION</td>
+            </tr>
+        
+            <tr>
+                <td>10004</td>
+                <td>REDESIGNATE THE ACCOUNT FOR FUTURE ELECTION TO THE SAME OFFICE</td>
+            </tr>
+        
+            <tr>
+                <td>10005</td>
+                <td>LOG</td>
+            </tr>
+        
+            <tr>
+                <td>10006</td>
+                <td>LOG/AMENDMENT</td>
+            </tr>
+        
+            <tr>
+                <td>10007</td>
+                <td>AS FILED BY COMMITTEE</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/6.html">6</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>10001</td>
-            <td>ORIGINAL/INITIAL</td>
-        </tr>
-    
-        <tr>
-            <td>10002</td>
-            <td>AMENDMENT</td>
-        </tr>
-    
-        <tr>
-            <td>10003</td>
-            <td>TERMINATION</td>
-        </tr>
-    
-        <tr>
-            <td>10004</td>
-            <td>REDESIGNATE THE ACCOUNT FOR FUTURE ELECTION TO THE SAME OFFICE</td>
-        </tr>
-    
-        <tr>
-            <td>10005</td>
-            <td>LOG</td>
-        </tr>
-    
-        <tr>
-            <td>10006</td>
-            <td>LOG/AMENDMENT</td>
-        </tr>
-    
-        <tr>
-            <td>10007</td>
-            <td>AS FILED BY COMMITTEE</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/20.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p20-thumbnail.gif'></a><p>p. 20</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/21.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p21-thumbnail.gif'></a><p>p. 21</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>0</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>30001</td>
-            <td>PRESIDENT</td>
-        </tr>
-    
-        <tr>
-            <td>30002</td>
-            <td>GOVERNOR</td>
-        </tr>
-    
-        <tr>
-            <td>30003</td>
-            <td>LIEUTENANT GOVERNOR</td>
-        </tr>
-    
-        <tr>
-            <td>30004</td>
-            <td>SECRETARY OF STATE</td>
-        </tr>
-    
-        <tr>
-            <td>30005</td>
-            <td>CONTROLLER</td>
-        </tr>
-    
-        <tr>
-            <td>30006</td>
-            <td>TREASURER</td>
-        </tr>
-    
-        <tr>
-            <td>30007</td>
-            <td>ATTORNEY GENERAL</td>
-        </tr>
-    
-        <tr>
-            <td>30008</td>
-            <td>SUPERINTENDENT OF PUBLIC INSTRUCTION</td>
-        </tr>
-    
-        <tr>
-            <td>30009</td>
-            <td>MEMBER BOARD OF EQUALIZATION</td>
-        </tr>
-    
-        <tr>
-            <td>30010</td>
-            <td>OXNARD HARBOR COMMISSIONER</td>
-        </tr>
-    
-        <tr>
-            <td>30011</td>
-            <td>CITY CONTROLLER</td>
-        </tr>
-    
-        <tr>
-            <td>30012</td>
-            <td>STATE SENATE</td>
-        </tr>
-    
-        <tr>
-            <td>30013</td>
-            <td>ASSEMBLY</td>
-        </tr>
-    
-        <tr>
-            <td>30014</td>
-            <td>INSURANCE COMMISSIONER</td>
-        </tr>
-    
-        <tr>
-            <td>30015</td>
-            <td>JUDGE</td>
-        </tr>
-    
-        <tr>
-            <td>30016</td>
-            <td>BOARD MEMBER</td>
-        </tr>
-    
-        <tr>
-            <td>30017</td>
-            <td>TAX COLLECTOR</td>
-        </tr>
-    
-        <tr>
-            <td>30018</td>
-            <td>TRUSTEE</td>
-        </tr>
-    
-        <tr>
-            <td>30019</td>
-            <td>SUPERVISOR</td>
-        </tr>
-    
-        <tr>
-            <td>30020</td>
-            <td>SHERIFF</td>
-        </tr>
-    
-        <tr>
-            <td>30021</td>
-            <td>CORONER</td>
-        </tr>
-    
-        <tr>
-            <td>30022</td>
-            <td>MARSHALL</td>
-        </tr>
-    
-        <tr>
-            <td>30023</td>
-            <td>CITY CLERK</td>
-        </tr>
-    
-        <tr>
-            <td>30024</td>
-            <td>SCHOOL BOARD</td>
-        </tr>
-    
-        <tr>
-            <td>30025</td>
-            <td>HARBOR COMMISSIONER</td>
-        </tr>
-    
-        <tr>
-            <td>30026</td>
-            <td>DISTRICT ATTORNEY</td>
-        </tr>
-    
-        <tr>
-            <td>30027</td>
-            <td>COUNTY CLERK</td>
-        </tr>
-    
-        <tr>
-            <td>30028</td>
-            <td>AUDITOR</td>
-        </tr>
-    
-        <tr>
-            <td>30029</td>
-            <td>MAYOR</td>
-        </tr>
-    
-        <tr>
-            <td>30030</td>
-            <td>CITY ATTORNEY</td>
-        </tr>
-    
-        <tr>
-            <td>30031</td>
-            <td>DEMOCRATIC COUNTY CENTRAL COMMITTEE</td>
-        </tr>
-    
-        <tr>
-            <td>30032</td>
-            <td>TOWN COUNCIL</td>
-        </tr>
-    
-        <tr>
-            <td>30033</td>
-            <td>ASSESSOR</td>
-        </tr>
-    
-        <tr>
-            <td>30034</td>
-            <td>CITY TREASURER</td>
-        </tr>
-    
-        <tr>
-            <td>30035</td>
-            <td>CITY COUNCIL</td>
-        </tr>
-    
-        <tr>
-            <td>30036</td>
-            <td>COMMISSIONER</td>
-        </tr>
-    
-        <tr>
-            <td>30037</td>
-            <td>REPUBLICAN COUNTY CENTRAL COMMITTEE</td>
-        </tr>
-    
-        <tr>
-            <td>30038</td>
-            <td>DIRECTOR</td>
-        </tr>
-    
-        <tr>
-            <td>30039</td>
-            <td>DIRECTOR OF ZONE 7</td>
-        </tr>
-    
-        <tr>
-            <td>30040</td>
-            <td>COMMUNITY COLLEGE BOARD</td>
-        </tr>
-    
-        <tr>
-            <td>30041</td>
-            <td>POLICE CHIEF</td>
-        </tr>
-    
-        <tr>
-            <td>30042</td>
-            <td>CHIEF OF POLICE</td>
-        </tr>
-    
-        <tr>
-            <td>30043</td>
-            <td>CENTRAL COMMITTEE</td>
-        </tr>
-    
-        <tr>
-            <td>30044</td>
-            <td>BOARD OF EDUCATION</td>
-        </tr>
-    
-        <tr>
-            <td>30045</td>
-            <td>BOARD OF DIRECTORS</td>
-        </tr>
-    
-        <tr>
-            <td>30046</td>
-            <td>COLLEGE BOARD</td>
-        </tr>
-    
-        <tr>
-            <td>30047</td>
-            <td>BART BOARD DIRECTOR</td>
-        </tr>
-    
-        <tr>
-            <td>30048</td>
-            <td>BOARD OF TRUSTEES</td>
-        </tr>
-    
-        <tr>
-            <td>30049</td>
-            <td>IRRIGATION</td>
-        </tr>
-    
-        <tr>
-            <td>30050</td>
-            <td>WATER BOARD</td>
-        </tr>
-    
-        <tr>
-            <td>30051</td>
-            <td>COMMUNITY PLANNING GROUP</td>
-        </tr>
-    
-        <tr>
-            <td>30052</td>
-            <td>BOARD OF SUPERVISORS</td>
-        </tr>
-    
-        <tr>
-            <td>30053</td>
-            <td>SUPERIOR COURT JUDGE</td>
-        </tr>
-    
-        <tr>
-            <td>30054</td>
-            <td>DISTRICT ATTORNEY/PUBLIC DEFENDER</td>
-        </tr>
-    
-        <tr>
-            <td>30055</td>
-            <td>MEASURE</td>
-        </tr>
-    
-        <tr>
-            <td>30056</td>
-            <td>CITY PROSECUTOR</td>
-        </tr>
-    
-        <tr>
-            <td>30057</td>
-            <td>SUPREME COURT JUDGE</td>
-        </tr>
-    
-        <tr>
-            <td>30058</td>
-            <td>PUBLIC EMPLOYEES RETIREMENT BOARD</td>
-        </tr>
-    
-        <tr>
-            <td>30059</td>
-            <td>APPELLATE COURT JUDGE</td>
-        </tr>
-    
-        <tr>
-            <td>50001</td>
-            <td>Ag</td>
-        </tr>
-    
-        <tr>
-            <td>50002</td>
-            <td>Assembly</td>
-        </tr>
-    
-        <tr>
-            <td>50003</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>50004</td>
-            <td>Assessor/Clerk/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50005</td>
-            <td>Assessor/County Clerk/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50006</td>
-            <td>Assessor/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50007</td>
-            <td>Associate Justice</td>
-        </tr>
-    
-        <tr>
-            <td>50008</td>
-            <td>Auditor</td>
-        </tr>
-    
-        <tr>
-            <td>50009</td>
-            <td>Auditor/Controller</td>
-        </tr>
-    
-        <tr>
-            <td>50010</td>
-            <td>Auditor/Controller/Clerk/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50011</td>
-            <td>Auditor/Controller/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50012</td>
-            <td>Auditor/Controller/Treasurer/Tax Collector</td>
-        </tr>
-    
-        <tr>
-            <td>50013</td>
-            <td>Auditor/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50014</td>
-            <td>Board Member</td>
-        </tr>
-    
-        <tr>
-            <td>50015</td>
-            <td>Board Of Director</td>
-        </tr>
-    
-        <tr>
-            <td>50016</td>
-            <td>Board Of Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>50017</td>
-            <td>Boe</td>
-        </tr>
-    
-        <tr>
-            <td>50018</td>
-            <td>Chief Justice</td>
-        </tr>
-    
-        <tr>
-            <td>50019</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>50020</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>50021</td>
-            <td>City Auditor</td>
-        </tr>
-    
-        <tr>
-            <td>50022</td>
-            <td>City Clerk</td>
-        </tr>
-    
-        <tr>
-            <td>50023</td>
-            <td>City Council</td>
-        </tr>
-    
-        <tr>
-            <td>50024</td>
-            <td>City Of Los Angeles</td>
-        </tr>
-    
-        <tr>
-            <td>50025</td>
-            <td>City Of South El Monte</td>
-        </tr>
-    
-        <tr>
-            <td>50026</td>
-            <td>City Prosecutor</td>
-        </tr>
-    
-        <tr>
-            <td>50027</td>
-            <td>City Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>50028</td>
-            <td>Clerk/Auditor</td>
-        </tr>
-    
-        <tr>
-            <td>50029</td>
-            <td>Clerk/Record/Public Admin</td>
-        </tr>
-    
-        <tr>
-            <td>50030</td>
-            <td>Clerk/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50031</td>
-            <td>Clerk/Recorder/Registar</td>
-        </tr>
-    
-        <tr>
-            <td>50032</td>
-            <td>Clerk/Recorder/Registrar</td>
-        </tr>
-    
-        <tr>
-            <td>50033</td>
-            <td>Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>50034</td>
-            <td>Controller</td>
-        </tr>
-    
-        <tr>
-            <td>50035</td>
-            <td>Costa Mesa</td>
-        </tr>
-    
-        <tr>
-            <td>50036</td>
-            <td>Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>50037</td>
-            <td>County Clerk</td>
-        </tr>
-    
-        <tr>
-            <td>50038</td>
-            <td>County Clerk/Auditor</td>
-        </tr>
-    
-        <tr>
-            <td>50039</td>
-            <td>County Clerk/Auditor/Controller</td>
-        </tr>
-    
-        <tr>
-            <td>50040</td>
-            <td>County Clerk/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50041</td>
-            <td>County Clerk/Recorder/Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>50042</td>
-            <td>County Clerk/Recorder/Public Admin</td>
-        </tr>
-    
-        <tr>
-            <td>50043</td>
-            <td>Democratic County Central Committee</td>
-        </tr>
-    
-        <tr>
-            <td>50044</td>
-            <td>Director</td>
-        </tr>
-    
-        <tr>
-            <td>50045</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>50046</td>
-            <td>District Attorney/Public Administrator</td>
-        </tr>
-    
-        <tr>
-            <td>50047</td>
-            <td>Gccc</td>
-        </tr>
-    
-        <tr>
-            <td>50048</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>50049</td>
-            <td>Harbor Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>50050</td>
-            <td>Ic</td>
-        </tr>
-    
-        <tr>
-            <td>50051</td>
-            <td>Irrigation Dist</td>
-        </tr>
-    
-        <tr>
-            <td>50052</td>
-            <td>Judge</td>
-        </tr>
-    
-        <tr>
-            <td>50053</td>
-            <td>Justice</td>
-        </tr>
-    
-        <tr>
-            <td>50054</td>
-            <td>Legislature</td>
-        </tr>
-    
-        <tr>
-            <td>50055</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>50056</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>50057</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>50058</td>
-            <td>Placentia</td>
-        </tr>
-    
-        <tr>
-            <td>50059</td>
-            <td>Public Administrator</td>
-        </tr>
-    
-        <tr>
-            <td>50060</td>
-            <td>Public Administrator/Guardian</td>
-        </tr>
-    
-        <tr>
-            <td>50061</td>
-            <td>Rent Stabilization Board</td>
-        </tr>
-    
-        <tr>
-            <td>50062</td>
-            <td>Republican Central Committee</td>
-        </tr>
-    
-        <tr>
-            <td>50063</td>
-            <td>San Francisco Dccc</td>
-        </tr>
-    
-        <tr>
-            <td>50064</td>
-            <td>Sanger</td>
-        </tr>
-    
-        <tr>
-            <td>50065</td>
-            <td>School Board</td>
-        </tr>
-    
-        <tr>
-            <td>50066</td>
-            <td>Secretary Of State</td>
-        </tr>
-    
-        <tr>
-            <td>50067</td>
-            <td>Senator</td>
-        </tr>
-    
-        <tr>
-            <td>50068</td>
-            <td>Sheriff</td>
-        </tr>
-    
-        <tr>
-            <td>50069</td>
-            <td>Sheriff/Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>50070</td>
-            <td>Sheriff/Coroner/Marshall</td>
-        </tr>
-    
-        <tr>
-            <td>50071</td>
-            <td>Sheriff/Coroner/Public Administrator</td>
-        </tr>
-    
-        <tr>
-            <td>50072</td>
-            <td>Solana Beach</td>
-        </tr>
-    
-        <tr>
-            <td>50073</td>
-            <td>Superintendent</td>
-        </tr>
-    
-        <tr>
-            <td>50074</td>
-            <td>Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>50075</td>
-            <td>Supt Of Schools</td>
-        </tr>
-    
-        <tr>
-            <td>50076</td>
-            <td>Tax Collector</td>
-        </tr>
-    
-        <tr>
-            <td>50077</td>
-            <td>Town Council</td>
-        </tr>
-    
-        <tr>
-            <td>50078</td>
-            <td>Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>50079</td>
-            <td>Treasurer/Tax Collector</td>
-        </tr>
-    
-        <tr>
-            <td>50080</td>
-            <td>Treasurer/Tax Collector/Clerk</td>
-        </tr>
-    
-        <tr>
-            <td>50081</td>
-            <td>Treasurer/Tax Collector/Public Administrator</td>
-        </tr>
-    
-        <tr>
-            <td>50082</td>
-            <td>Treasurer/Tax Collector/Public Administrator/County Clerk</td>
-        </tr>
-    
-        <tr>
-            <td>50083</td>
-            <td>Treasurer/Tax Collector/Recorder</td>
-        </tr>
-    
-        <tr>
-            <td>50084</td>
-            <td>Trustee</td>
-        </tr>
-    
-        <tr>
-            <td>50085</td>
-            <td>Weed Recreation Board Member</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>0</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>30001</td>
+                <td>PRESIDENT</td>
+            </tr>
+        
+            <tr>
+                <td>30002</td>
+                <td>GOVERNOR</td>
+            </tr>
+        
+            <tr>
+                <td>30003</td>
+                <td>LIEUTENANT GOVERNOR</td>
+            </tr>
+        
+            <tr>
+                <td>30004</td>
+                <td>SECRETARY OF STATE</td>
+            </tr>
+        
+            <tr>
+                <td>30005</td>
+                <td>CONTROLLER</td>
+            </tr>
+        
+            <tr>
+                <td>30006</td>
+                <td>TREASURER</td>
+            </tr>
+        
+            <tr>
+                <td>30007</td>
+                <td>ATTORNEY GENERAL</td>
+            </tr>
+        
+            <tr>
+                <td>30008</td>
+                <td>SUPERINTENDENT OF PUBLIC INSTRUCTION</td>
+            </tr>
+        
+            <tr>
+                <td>30009</td>
+                <td>MEMBER BOARD OF EQUALIZATION</td>
+            </tr>
+        
+            <tr>
+                <td>30010</td>
+                <td>OXNARD HARBOR COMMISSIONER</td>
+            </tr>
+        
+            <tr>
+                <td>30011</td>
+                <td>CITY CONTROLLER</td>
+            </tr>
+        
+            <tr>
+                <td>30012</td>
+                <td>STATE SENATE</td>
+            </tr>
+        
+            <tr>
+                <td>30013</td>
+                <td>ASSEMBLY</td>
+            </tr>
+        
+            <tr>
+                <td>30014</td>
+                <td>INSURANCE COMMISSIONER</td>
+            </tr>
+        
+            <tr>
+                <td>30015</td>
+                <td>JUDGE</td>
+            </tr>
+        
+            <tr>
+                <td>30016</td>
+                <td>BOARD MEMBER</td>
+            </tr>
+        
+            <tr>
+                <td>30017</td>
+                <td>TAX COLLECTOR</td>
+            </tr>
+        
+            <tr>
+                <td>30018</td>
+                <td>TRUSTEE</td>
+            </tr>
+        
+            <tr>
+                <td>30019</td>
+                <td>SUPERVISOR</td>
+            </tr>
+        
+            <tr>
+                <td>30020</td>
+                <td>SHERIFF</td>
+            </tr>
+        
+            <tr>
+                <td>30021</td>
+                <td>CORONER</td>
+            </tr>
+        
+            <tr>
+                <td>30022</td>
+                <td>MARSHALL</td>
+            </tr>
+        
+            <tr>
+                <td>30023</td>
+                <td>CITY CLERK</td>
+            </tr>
+        
+            <tr>
+                <td>30024</td>
+                <td>SCHOOL BOARD</td>
+            </tr>
+        
+            <tr>
+                <td>30025</td>
+                <td>HARBOR COMMISSIONER</td>
+            </tr>
+        
+            <tr>
+                <td>30026</td>
+                <td>DISTRICT ATTORNEY</td>
+            </tr>
+        
+            <tr>
+                <td>30027</td>
+                <td>COUNTY CLERK</td>
+            </tr>
+        
+            <tr>
+                <td>30028</td>
+                <td>AUDITOR</td>
+            </tr>
+        
+            <tr>
+                <td>30029</td>
+                <td>MAYOR</td>
+            </tr>
+        
+            <tr>
+                <td>30030</td>
+                <td>CITY ATTORNEY</td>
+            </tr>
+        
+            <tr>
+                <td>30031</td>
+                <td>DEMOCRATIC COUNTY CENTRAL COMMITTEE</td>
+            </tr>
+        
+            <tr>
+                <td>30032</td>
+                <td>TOWN COUNCIL</td>
+            </tr>
+        
+            <tr>
+                <td>30033</td>
+                <td>ASSESSOR</td>
+            </tr>
+        
+            <tr>
+                <td>30034</td>
+                <td>CITY TREASURER</td>
+            </tr>
+        
+            <tr>
+                <td>30035</td>
+                <td>CITY COUNCIL</td>
+            </tr>
+        
+            <tr>
+                <td>30036</td>
+                <td>COMMISSIONER</td>
+            </tr>
+        
+            <tr>
+                <td>30037</td>
+                <td>REPUBLICAN COUNTY CENTRAL COMMITTEE</td>
+            </tr>
+        
+            <tr>
+                <td>30038</td>
+                <td>DIRECTOR</td>
+            </tr>
+        
+            <tr>
+                <td>30039</td>
+                <td>DIRECTOR OF ZONE 7</td>
+            </tr>
+        
+            <tr>
+                <td>30040</td>
+                <td>COMMUNITY COLLEGE BOARD</td>
+            </tr>
+        
+            <tr>
+                <td>30041</td>
+                <td>POLICE CHIEF</td>
+            </tr>
+        
+            <tr>
+                <td>30042</td>
+                <td>CHIEF OF POLICE</td>
+            </tr>
+        
+            <tr>
+                <td>30043</td>
+                <td>CENTRAL COMMITTEE</td>
+            </tr>
+        
+            <tr>
+                <td>30044</td>
+                <td>BOARD OF EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td>30045</td>
+                <td>BOARD OF DIRECTORS</td>
+            </tr>
+        
+            <tr>
+                <td>30046</td>
+                <td>COLLEGE BOARD</td>
+            </tr>
+        
+            <tr>
+                <td>30047</td>
+                <td>BART BOARD DIRECTOR</td>
+            </tr>
+        
+            <tr>
+                <td>30048</td>
+                <td>BOARD OF TRUSTEES</td>
+            </tr>
+        
+            <tr>
+                <td>30049</td>
+                <td>IRRIGATION</td>
+            </tr>
+        
+            <tr>
+                <td>30050</td>
+                <td>WATER BOARD</td>
+            </tr>
+        
+            <tr>
+                <td>30051</td>
+                <td>COMMUNITY PLANNING GROUP</td>
+            </tr>
+        
+            <tr>
+                <td>30052</td>
+                <td>BOARD OF SUPERVISORS</td>
+            </tr>
+        
+            <tr>
+                <td>30053</td>
+                <td>SUPERIOR COURT JUDGE</td>
+            </tr>
+        
+            <tr>
+                <td>30054</td>
+                <td>DISTRICT ATTORNEY/PUBLIC DEFENDER</td>
+            </tr>
+        
+            <tr>
+                <td>30055</td>
+                <td>MEASURE</td>
+            </tr>
+        
+            <tr>
+                <td>30056</td>
+                <td>CITY PROSECUTOR</td>
+            </tr>
+        
+            <tr>
+                <td>30057</td>
+                <td>SUPREME COURT JUDGE</td>
+            </tr>
+        
+            <tr>
+                <td>30058</td>
+                <td>PUBLIC EMPLOYEES RETIREMENT BOARD</td>
+            </tr>
+        
+            <tr>
+                <td>30059</td>
+                <td>APPELLATE COURT JUDGE</td>
+            </tr>
+        
+            <tr>
+                <td>50001</td>
+                <td>Ag</td>
+            </tr>
+        
+            <tr>
+                <td>50002</td>
+                <td>Assembly</td>
+            </tr>
+        
+            <tr>
+                <td>50003</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>50004</td>
+                <td>Assessor/Clerk/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50005</td>
+                <td>Assessor/County Clerk/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50006</td>
+                <td>Assessor/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50007</td>
+                <td>Associate Justice</td>
+            </tr>
+        
+            <tr>
+                <td>50008</td>
+                <td>Auditor</td>
+            </tr>
+        
+            <tr>
+                <td>50009</td>
+                <td>Auditor/Controller</td>
+            </tr>
+        
+            <tr>
+                <td>50010</td>
+                <td>Auditor/Controller/Clerk/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50011</td>
+                <td>Auditor/Controller/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50012</td>
+                <td>Auditor/Controller/Treasurer/Tax Collector</td>
+            </tr>
+        
+            <tr>
+                <td>50013</td>
+                <td>Auditor/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50014</td>
+                <td>Board Member</td>
+            </tr>
+        
+            <tr>
+                <td>50015</td>
+                <td>Board Of Director</td>
+            </tr>
+        
+            <tr>
+                <td>50016</td>
+                <td>Board Of Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>50017</td>
+                <td>Boe</td>
+            </tr>
+        
+            <tr>
+                <td>50018</td>
+                <td>Chief Justice</td>
+            </tr>
+        
+            <tr>
+                <td>50019</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>50020</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>50021</td>
+                <td>City Auditor</td>
+            </tr>
+        
+            <tr>
+                <td>50022</td>
+                <td>City Clerk</td>
+            </tr>
+        
+            <tr>
+                <td>50023</td>
+                <td>City Council</td>
+            </tr>
+        
+            <tr>
+                <td>50024</td>
+                <td>City Of Los Angeles</td>
+            </tr>
+        
+            <tr>
+                <td>50025</td>
+                <td>City Of South El Monte</td>
+            </tr>
+        
+            <tr>
+                <td>50026</td>
+                <td>City Prosecutor</td>
+            </tr>
+        
+            <tr>
+                <td>50027</td>
+                <td>City Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>50028</td>
+                <td>Clerk/Auditor</td>
+            </tr>
+        
+            <tr>
+                <td>50029</td>
+                <td>Clerk/Record/Public Admin</td>
+            </tr>
+        
+            <tr>
+                <td>50030</td>
+                <td>Clerk/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50031</td>
+                <td>Clerk/Recorder/Registar</td>
+            </tr>
+        
+            <tr>
+                <td>50032</td>
+                <td>Clerk/Recorder/Registrar</td>
+            </tr>
+        
+            <tr>
+                <td>50033</td>
+                <td>Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>50034</td>
+                <td>Controller</td>
+            </tr>
+        
+            <tr>
+                <td>50035</td>
+                <td>Costa Mesa</td>
+            </tr>
+        
+            <tr>
+                <td>50036</td>
+                <td>Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>50037</td>
+                <td>County Clerk</td>
+            </tr>
+        
+            <tr>
+                <td>50038</td>
+                <td>County Clerk/Auditor</td>
+            </tr>
+        
+            <tr>
+                <td>50039</td>
+                <td>County Clerk/Auditor/Controller</td>
+            </tr>
+        
+            <tr>
+                <td>50040</td>
+                <td>County Clerk/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50041</td>
+                <td>County Clerk/Recorder/Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>50042</td>
+                <td>County Clerk/Recorder/Public Admin</td>
+            </tr>
+        
+            <tr>
+                <td>50043</td>
+                <td>Democratic County Central Committee</td>
+            </tr>
+        
+            <tr>
+                <td>50044</td>
+                <td>Director</td>
+            </tr>
+        
+            <tr>
+                <td>50045</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>50046</td>
+                <td>District Attorney/Public Administrator</td>
+            </tr>
+        
+            <tr>
+                <td>50047</td>
+                <td>Gccc</td>
+            </tr>
+        
+            <tr>
+                <td>50048</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>50049</td>
+                <td>Harbor Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>50050</td>
+                <td>Ic</td>
+            </tr>
+        
+            <tr>
+                <td>50051</td>
+                <td>Irrigation Dist</td>
+            </tr>
+        
+            <tr>
+                <td>50052</td>
+                <td>Judge</td>
+            </tr>
+        
+            <tr>
+                <td>50053</td>
+                <td>Justice</td>
+            </tr>
+        
+            <tr>
+                <td>50054</td>
+                <td>Legislature</td>
+            </tr>
+        
+            <tr>
+                <td>50055</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>50056</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>50057</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>50058</td>
+                <td>Placentia</td>
+            </tr>
+        
+            <tr>
+                <td>50059</td>
+                <td>Public Administrator</td>
+            </tr>
+        
+            <tr>
+                <td>50060</td>
+                <td>Public Administrator/Guardian</td>
+            </tr>
+        
+            <tr>
+                <td>50061</td>
+                <td>Rent Stabilization Board</td>
+            </tr>
+        
+            <tr>
+                <td>50062</td>
+                <td>Republican Central Committee</td>
+            </tr>
+        
+            <tr>
+                <td>50063</td>
+                <td>San Francisco Dccc</td>
+            </tr>
+        
+            <tr>
+                <td>50064</td>
+                <td>Sanger</td>
+            </tr>
+        
+            <tr>
+                <td>50065</td>
+                <td>School Board</td>
+            </tr>
+        
+            <tr>
+                <td>50066</td>
+                <td>Secretary Of State</td>
+            </tr>
+        
+            <tr>
+                <td>50067</td>
+                <td>Senator</td>
+            </tr>
+        
+            <tr>
+                <td>50068</td>
+                <td>Sheriff</td>
+            </tr>
+        
+            <tr>
+                <td>50069</td>
+                <td>Sheriff/Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>50070</td>
+                <td>Sheriff/Coroner/Marshall</td>
+            </tr>
+        
+            <tr>
+                <td>50071</td>
+                <td>Sheriff/Coroner/Public Administrator</td>
+            </tr>
+        
+            <tr>
+                <td>50072</td>
+                <td>Solana Beach</td>
+            </tr>
+        
+            <tr>
+                <td>50073</td>
+                <td>Superintendent</td>
+            </tr>
+        
+            <tr>
+                <td>50074</td>
+                <td>Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>50075</td>
+                <td>Supt Of Schools</td>
+            </tr>
+        
+            <tr>
+                <td>50076</td>
+                <td>Tax Collector</td>
+            </tr>
+        
+            <tr>
+                <td>50077</td>
+                <td>Town Council</td>
+            </tr>
+        
+            <tr>
+                <td>50078</td>
+                <td>Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>50079</td>
+                <td>Treasurer/Tax Collector</td>
+            </tr>
+        
+            <tr>
+                <td>50080</td>
+                <td>Treasurer/Tax Collector/Clerk</td>
+            </tr>
+        
+            <tr>
+                <td>50081</td>
+                <td>Treasurer/Tax Collector/Public Administrator</td>
+            </tr>
+        
+            <tr>
+                <td>50082</td>
+                <td>Treasurer/Tax Collector/Public Administrator/County Clerk</td>
+            </tr>
+        
+            <tr>
+                <td>50083</td>
+                <td>Treasurer/Tax Collector/Recorder</td>
+            </tr>
+        
+            <tr>
+                <td>50084</td>
+                <td>Trustee</td>
+            </tr>
+        
+            <tr>
+                <td>50085</td>
+                <td>Weed Recreation Board Member</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/20.html">20</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/21.html">21</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/22.html">22</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p19-thumbnail.gif'></a><p>p. 19</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/20.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p20-thumbnail.gif'></a><p>p. 20</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>0</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>40501</td>
+                <td>LOCAL</td>
+            </tr>
+        
+            <tr>
+                <td>40502</td>
+                <td>STATE</td>
+            </tr>
+        
+            <tr>
+                <td>40503</td>
+                <td>COUNTY</td>
+            </tr>
+        
+            <tr>
+                <td>40504</td>
+                <td>MULTI-COUNTY</td>
+            </tr>
+        
+            <tr>
+                <td>40505</td>
+                <td>CITY</td>
+            </tr>
+        
+            <tr>
+                <td>40507</td>
+                <td>SUPERIOR COURT JUDGE</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/20.html">20</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>0</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>40501</td>
-            <td>LOCAL</td>
-        </tr>
-    
-        <tr>
-            <td>40502</td>
-            <td>STATE</td>
-        </tr>
-    
-        <tr>
-            <td>40503</td>
-            <td>COUNTY</td>
-        </tr>
-    
-        <tr>
-            <td>40504</td>
-            <td>MULTI-COUNTY</td>
-        </tr>
-    
-        <tr>
-            <td>40505</td>
-            <td>CITY</td>
-        </tr>
-    
-        <tr>
-            <td>40507</td>
-            <td>SUPERIOR COURT JUDGE</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*elec_type*
 
-
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/3.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p3-thumbnail.gif'></a><p>p. 3</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/4.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p4-thumbnail.gif'></a><p>p. 4</p></div></div>
-
-
-
+elec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>0</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>3001</td>
+                <td>GENERAL</td>
+            </tr>
+        
+            <tr>
+                <td>3002</td>
+                <td>PRIMARY</td>
+            </tr>
+        
+            <tr>
+                <td>3003</td>
+                <td>RECALL</td>
+            </tr>
+        
+            <tr>
+                <td>3004</td>
+                <td>SPECIAL ELECTION</td>
+            </tr>
+        
+            <tr>
+                <td>3005</td>
+                <td>OFFICEHOLDER</td>
+            </tr>
+        
+            <tr>
+                <td>3006</td>
+                <td>SPECIAL RUNOFF</td>
+            </tr>
+        
+            <tr>
+                <td>3007</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/3.html">3</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/4.html">4</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>0</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>3001</td>
-            <td>GENERAL</td>
-        </tr>
-    
-        <tr>
-            <td>3002</td>
-            <td>PRIMARY</td>
-        </tr>
-    
-        <tr>
-            <td>3003</td>
-            <td>RECALL</td>
-        </tr>
-    
-        <tr>
-            <td>3004</td>
-            <td>SPECIAL ELECTION</td>
-        </tr>
-    
-        <tr>
-            <td>3005</td>
-            <td>OFFICEHOLDER</td>
-        </tr>
-    
-        <tr>
-            <td>3006</td>
-            <td>SPECIAL RUNOFF</td>
-        </tr>
-    
-        <tr>
-            <td>3007</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*party_cd*
 
-
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p11-thumbnail.gif'></a><p>p. 11</p></div></div>
-
-
-
+party_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>0</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>16001</td>
+                <td>DEMOCRATIC</td>
+            </tr>
+        
+            <tr>
+                <td>16002</td>
+                <td>REPUBLICAN</td>
+            </tr>
+        
+            <tr>
+                <td>16003</td>
+                <td>GREEN PARTY</td>
+            </tr>
+        
+            <tr>
+                <td>16004</td>
+                <td>REFORM PARTY</td>
+            </tr>
+        
+            <tr>
+                <td>16005</td>
+                <td>AMERICAN INDEPENDENT PARTY</td>
+            </tr>
+        
+            <tr>
+                <td>16006</td>
+                <td>PEACE AND FREEDOM</td>
+            </tr>
+        
+            <tr>
+                <td>16007</td>
+                <td>INDEPENDENT</td>
+            </tr>
+        
+            <tr>
+                <td>16008</td>
+                <td>LIBERTARIAN</td>
+            </tr>
+        
+            <tr>
+                <td>16009</td>
+                <td>NON PARTISAN</td>
+            </tr>
+        
+            <tr>
+                <td>16010</td>
+                <td>NATURAL LAW</td>
+            </tr>
+        
+            <tr>
+                <td>16011</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>16012</td>
+                <td>NO PARTY PREFERENCE</td>
+            </tr>
+        
+            <tr>
+                <td>16013</td>
+                <td>AMERICANS ELECT</td>
+            </tr>
+        
+            <tr>
+                <td>16014</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>16020</td>
+                <td>PEACE AND FREEDOM</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/11.html">11</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>0</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>16001</td>
-            <td>DEMOCRATIC</td>
-        </tr>
-    
-        <tr>
-            <td>16002</td>
-            <td>REPUBLICAN</td>
-        </tr>
-    
-        <tr>
-            <td>16003</td>
-            <td>GREEN PARTY</td>
-        </tr>
-    
-        <tr>
-            <td>16004</td>
-            <td>REFORM PARTY</td>
-        </tr>
-    
-        <tr>
-            <td>16005</td>
-            <td>AMERICAN INDEPENDENT PARTY</td>
-        </tr>
-    
-        <tr>
-            <td>16006</td>
-            <td>PEACE AND FREEDOM</td>
-        </tr>
-    
-        <tr>
-            <td>16007</td>
-            <td>INDEPENDENT</td>
-        </tr>
-    
-        <tr>
-            <td>16008</td>
-            <td>LIBERTARIAN</td>
-        </tr>
-    
-        <tr>
-            <td>16009</td>
-            <td>NON PARTISAN</td>
-        </tr>
-    
-        <tr>
-            <td>16010</td>
-            <td>NATURAL LAW</td>
-        </tr>
-    
-        <tr>
-            <td>16011</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>16012</td>
-            <td>NO PARTY PREFERENCE</td>
-        </tr>
-    
-        <tr>
-            <td>16013</td>
-            <td>AMERICANS ELECT</td>
-        </tr>
-    
-        <tr>
-            <td>16014</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>16020</td>
-            <td>PEACE AND FREEDOM</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*district_cd*
 
-
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p13-thumbnail.gif'></a><p>p. 13</p></div></div>
-
-
-
+district_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>0</td>
-            <td>N/A</td>
-        </tr>
-    
-        <tr>
-            <td>17001</td>
-            <td>01</td>
-        </tr>
-    
-        <tr>
-            <td>17002</td>
-            <td>13</td>
-        </tr>
-    
-        <tr>
-            <td>17003</td>
-            <td>24</td>
-        </tr>
-    
-        <tr>
-            <td>17004</td>
-            <td>35</td>
-        </tr>
-    
-        <tr>
-            <td>17005</td>
-            <td>46</td>
-        </tr>
-    
-        <tr>
-            <td>17006</td>
-            <td>57</td>
-        </tr>
-    
-        <tr>
-            <td>17007</td>
-            <td>68</td>
-        </tr>
-    
-        <tr>
-            <td>17008</td>
-            <td>79</td>
-        </tr>
-    
-        <tr>
-            <td>17009</td>
-            <td>02</td>
-        </tr>
-    
-        <tr>
-            <td>17010</td>
-            <td>05</td>
-        </tr>
-    
-        <tr>
-            <td>17011</td>
-            <td>04</td>
-        </tr>
-    
-        <tr>
-            <td>17013</td>
-            <td>06</td>
-        </tr>
-    
-        <tr>
-            <td>17014</td>
-            <td>07</td>
-        </tr>
-    
-        <tr>
-            <td>17015</td>
-            <td>08</td>
-        </tr>
-    
-        <tr>
-            <td>17016</td>
-            <td>19</td>
-        </tr>
-    
-        <tr>
-            <td>17017</td>
-            <td>10</td>
-        </tr>
-    
-        <tr>
-            <td>17018</td>
-            <td>11</td>
-        </tr>
-    
-        <tr>
-            <td>17019</td>
-            <td>12</td>
-        </tr>
-    
-        <tr>
-            <td>17020</td>
-            <td>14</td>
-        </tr>
-    
-        <tr>
-            <td>17021</td>
-            <td>15</td>
-        </tr>
-    
-        <tr>
-            <td>17022</td>
-            <td>16</td>
-        </tr>
-    
-        <tr>
-            <td>17023</td>
-            <td>17</td>
-        </tr>
-    
-        <tr>
-            <td>17024</td>
-            <td>18</td>
-        </tr>
-    
-        <tr>
-            <td>17026</td>
-            <td>20</td>
-        </tr>
-    
-        <tr>
-            <td>17027</td>
-            <td>21</td>
-        </tr>
-    
-        <tr>
-            <td>17028</td>
-            <td>22</td>
-        </tr>
-    
-        <tr>
-            <td>17029</td>
-            <td>23</td>
-        </tr>
-    
-        <tr>
-            <td>17030</td>
-            <td>25</td>
-        </tr>
-    
-        <tr>
-            <td>17031</td>
-            <td>26</td>
-        </tr>
-    
-        <tr>
-            <td>17032</td>
-            <td>27</td>
-        </tr>
-    
-        <tr>
-            <td>17033</td>
-            <td>28</td>
-        </tr>
-    
-        <tr>
-            <td>17034</td>
-            <td>29</td>
-        </tr>
-    
-        <tr>
-            <td>17035</td>
-            <td>30</td>
-        </tr>
-    
-        <tr>
-            <td>17036</td>
-            <td>31</td>
-        </tr>
-    
-        <tr>
-            <td>17037</td>
-            <td>32</td>
-        </tr>
-    
-        <tr>
-            <td>17038</td>
-            <td>33</td>
-        </tr>
-    
-        <tr>
-            <td>17039</td>
-            <td>34</td>
-        </tr>
-    
-        <tr>
-            <td>17040</td>
-            <td>36</td>
-        </tr>
-    
-        <tr>
-            <td>17041</td>
-            <td>37</td>
-        </tr>
-    
-        <tr>
-            <td>17042</td>
-            <td>38</td>
-        </tr>
-    
-        <tr>
-            <td>17043</td>
-            <td>39</td>
-        </tr>
-    
-        <tr>
-            <td>17044</td>
-            <td>40</td>
-        </tr>
-    
-        <tr>
-            <td>17045</td>
-            <td>41</td>
-        </tr>
-    
-        <tr>
-            <td>17046</td>
-            <td>42</td>
-        </tr>
-    
-        <tr>
-            <td>17047</td>
-            <td>43</td>
-        </tr>
-    
-        <tr>
-            <td>17048</td>
-            <td>44</td>
-        </tr>
-    
-        <tr>
-            <td>17049</td>
-            <td>45</td>
-        </tr>
-    
-        <tr>
-            <td>17050</td>
-            <td>47</td>
-        </tr>
-    
-        <tr>
-            <td>17051</td>
-            <td>48</td>
-        </tr>
-    
-        <tr>
-            <td>17052</td>
-            <td>49</td>
-        </tr>
-    
-        <tr>
-            <td>17053</td>
-            <td>50</td>
-        </tr>
-    
-        <tr>
-            <td>17054</td>
-            <td>51</td>
-        </tr>
-    
-        <tr>
-            <td>17055</td>
-            <td>52</td>
-        </tr>
-    
-        <tr>
-            <td>17056</td>
-            <td>53</td>
-        </tr>
-    
-        <tr>
-            <td>17057</td>
-            <td>54</td>
-        </tr>
-    
-        <tr>
-            <td>17058</td>
-            <td>55</td>
-        </tr>
-    
-        <tr>
-            <td>17059</td>
-            <td>56</td>
-        </tr>
-    
-        <tr>
-            <td>17060</td>
-            <td>03</td>
-        </tr>
-    
-        <tr>
-            <td>17061</td>
-            <td>59</td>
-        </tr>
-    
-        <tr>
-            <td>17062</td>
-            <td>60</td>
-        </tr>
-    
-        <tr>
-            <td>17063</td>
-            <td>61</td>
-        </tr>
-    
-        <tr>
-            <td>17064</td>
-            <td>62</td>
-        </tr>
-    
-        <tr>
-            <td>17065</td>
-            <td>63</td>
-        </tr>
-    
-        <tr>
-            <td>17066</td>
-            <td>64</td>
-        </tr>
-    
-        <tr>
-            <td>17067</td>
-            <td>65</td>
-        </tr>
-    
-        <tr>
-            <td>17068</td>
-            <td>66</td>
-        </tr>
-    
-        <tr>
-            <td>17069</td>
-            <td>67</td>
-        </tr>
-    
-        <tr>
-            <td>17070</td>
-            <td>69</td>
-        </tr>
-    
-        <tr>
-            <td>17071</td>
-            <td>70</td>
-        </tr>
-    
-        <tr>
-            <td>17072</td>
-            <td>71</td>
-        </tr>
-    
-        <tr>
-            <td>17073</td>
-            <td>72</td>
-        </tr>
-    
-        <tr>
-            <td>17074</td>
-            <td>73</td>
-        </tr>
-    
-        <tr>
-            <td>17075</td>
-            <td>74</td>
-        </tr>
-    
-        <tr>
-            <td>17076</td>
-            <td>75</td>
-        </tr>
-    
-        <tr>
-            <td>17077</td>
-            <td>76</td>
-        </tr>
-    
-        <tr>
-            <td>17078</td>
-            <td>77</td>
-        </tr>
-    
-        <tr>
-            <td>17079</td>
-            <td>78</td>
-        </tr>
-    
-        <tr>
-            <td>17080</td>
-            <td>80</td>
-        </tr>
-    
-        <tr>
-            <td>17081</td>
-            <td>09</td>
-        </tr>
-    
-        <tr>
-            <td>17090</td>
-            <td>58</td>
-        </tr>
-    
-        <tr>
-            <td>17012</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>17082</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>17025</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>0</td>
+                <td>N/A</td>
+            </tr>
+        
+            <tr>
+                <td>17001</td>
+                <td>01</td>
+            </tr>
+        
+            <tr>
+                <td>17002</td>
+                <td>13</td>
+            </tr>
+        
+            <tr>
+                <td>17003</td>
+                <td>24</td>
+            </tr>
+        
+            <tr>
+                <td>17004</td>
+                <td>35</td>
+            </tr>
+        
+            <tr>
+                <td>17005</td>
+                <td>46</td>
+            </tr>
+        
+            <tr>
+                <td>17006</td>
+                <td>57</td>
+            </tr>
+        
+            <tr>
+                <td>17007</td>
+                <td>68</td>
+            </tr>
+        
+            <tr>
+                <td>17008</td>
+                <td>79</td>
+            </tr>
+        
+            <tr>
+                <td>17009</td>
+                <td>02</td>
+            </tr>
+        
+            <tr>
+                <td>17010</td>
+                <td>05</td>
+            </tr>
+        
+            <tr>
+                <td>17011</td>
+                <td>04</td>
+            </tr>
+        
+            <tr>
+                <td>17013</td>
+                <td>06</td>
+            </tr>
+        
+            <tr>
+                <td>17014</td>
+                <td>07</td>
+            </tr>
+        
+            <tr>
+                <td>17015</td>
+                <td>08</td>
+            </tr>
+        
+            <tr>
+                <td>17016</td>
+                <td>19</td>
+            </tr>
+        
+            <tr>
+                <td>17017</td>
+                <td>10</td>
+            </tr>
+        
+            <tr>
+                <td>17018</td>
+                <td>11</td>
+            </tr>
+        
+            <tr>
+                <td>17019</td>
+                <td>12</td>
+            </tr>
+        
+            <tr>
+                <td>17020</td>
+                <td>14</td>
+            </tr>
+        
+            <tr>
+                <td>17021</td>
+                <td>15</td>
+            </tr>
+        
+            <tr>
+                <td>17022</td>
+                <td>16</td>
+            </tr>
+        
+            <tr>
+                <td>17023</td>
+                <td>17</td>
+            </tr>
+        
+            <tr>
+                <td>17024</td>
+                <td>18</td>
+            </tr>
+        
+            <tr>
+                <td>17026</td>
+                <td>20</td>
+            </tr>
+        
+            <tr>
+                <td>17027</td>
+                <td>21</td>
+            </tr>
+        
+            <tr>
+                <td>17028</td>
+                <td>22</td>
+            </tr>
+        
+            <tr>
+                <td>17029</td>
+                <td>23</td>
+            </tr>
+        
+            <tr>
+                <td>17030</td>
+                <td>25</td>
+            </tr>
+        
+            <tr>
+                <td>17031</td>
+                <td>26</td>
+            </tr>
+        
+            <tr>
+                <td>17032</td>
+                <td>27</td>
+            </tr>
+        
+            <tr>
+                <td>17033</td>
+                <td>28</td>
+            </tr>
+        
+            <tr>
+                <td>17034</td>
+                <td>29</td>
+            </tr>
+        
+            <tr>
+                <td>17035</td>
+                <td>30</td>
+            </tr>
+        
+            <tr>
+                <td>17036</td>
+                <td>31</td>
+            </tr>
+        
+            <tr>
+                <td>17037</td>
+                <td>32</td>
+            </tr>
+        
+            <tr>
+                <td>17038</td>
+                <td>33</td>
+            </tr>
+        
+            <tr>
+                <td>17039</td>
+                <td>34</td>
+            </tr>
+        
+            <tr>
+                <td>17040</td>
+                <td>36</td>
+            </tr>
+        
+            <tr>
+                <td>17041</td>
+                <td>37</td>
+            </tr>
+        
+            <tr>
+                <td>17042</td>
+                <td>38</td>
+            </tr>
+        
+            <tr>
+                <td>17043</td>
+                <td>39</td>
+            </tr>
+        
+            <tr>
+                <td>17044</td>
+                <td>40</td>
+            </tr>
+        
+            <tr>
+                <td>17045</td>
+                <td>41</td>
+            </tr>
+        
+            <tr>
+                <td>17046</td>
+                <td>42</td>
+            </tr>
+        
+            <tr>
+                <td>17047</td>
+                <td>43</td>
+            </tr>
+        
+            <tr>
+                <td>17048</td>
+                <td>44</td>
+            </tr>
+        
+            <tr>
+                <td>17049</td>
+                <td>45</td>
+            </tr>
+        
+            <tr>
+                <td>17050</td>
+                <td>47</td>
+            </tr>
+        
+            <tr>
+                <td>17051</td>
+                <td>48</td>
+            </tr>
+        
+            <tr>
+                <td>17052</td>
+                <td>49</td>
+            </tr>
+        
+            <tr>
+                <td>17053</td>
+                <td>50</td>
+            </tr>
+        
+            <tr>
+                <td>17054</td>
+                <td>51</td>
+            </tr>
+        
+            <tr>
+                <td>17055</td>
+                <td>52</td>
+            </tr>
+        
+            <tr>
+                <td>17056</td>
+                <td>53</td>
+            </tr>
+        
+            <tr>
+                <td>17057</td>
+                <td>54</td>
+            </tr>
+        
+            <tr>
+                <td>17058</td>
+                <td>55</td>
+            </tr>
+        
+            <tr>
+                <td>17059</td>
+                <td>56</td>
+            </tr>
+        
+            <tr>
+                <td>17060</td>
+                <td>03</td>
+            </tr>
+        
+            <tr>
+                <td>17061</td>
+                <td>59</td>
+            </tr>
+        
+            <tr>
+                <td>17062</td>
+                <td>60</td>
+            </tr>
+        
+            <tr>
+                <td>17063</td>
+                <td>61</td>
+            </tr>
+        
+            <tr>
+                <td>17064</td>
+                <td>62</td>
+            </tr>
+        
+            <tr>
+                <td>17065</td>
+                <td>63</td>
+            </tr>
+        
+            <tr>
+                <td>17066</td>
+                <td>64</td>
+            </tr>
+        
+            <tr>
+                <td>17067</td>
+                <td>65</td>
+            </tr>
+        
+            <tr>
+                <td>17068</td>
+                <td>66</td>
+            </tr>
+        
+            <tr>
+                <td>17069</td>
+                <td>67</td>
+            </tr>
+        
+            <tr>
+                <td>17070</td>
+                <td>69</td>
+            </tr>
+        
+            <tr>
+                <td>17071</td>
+                <td>70</td>
+            </tr>
+        
+            <tr>
+                <td>17072</td>
+                <td>71</td>
+            </tr>
+        
+            <tr>
+                <td>17073</td>
+                <td>72</td>
+            </tr>
+        
+            <tr>
+                <td>17074</td>
+                <td>73</td>
+            </tr>
+        
+            <tr>
+                <td>17075</td>
+                <td>74</td>
+            </tr>
+        
+            <tr>
+                <td>17076</td>
+                <td>75</td>
+            </tr>
+        
+            <tr>
+                <td>17077</td>
+                <td>76</td>
+            </tr>
+        
+            <tr>
+                <td>17078</td>
+                <td>77</td>
+            </tr>
+        
+            <tr>
+                <td>17079</td>
+                <td>78</td>
+            </tr>
+        
+            <tr>
+                <td>17080</td>
+                <td>80</td>
+            </tr>
+        
+            <tr>
+                <td>17081</td>
+                <td>09</td>
+            </tr>
+        
+            <tr>
+                <td>17090</td>
+                <td>58</td>
+            </tr>
+        
+            <tr>
+                <td>17012</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>17082</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>17025</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/12.html">12</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/13.html">13</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -12655,17 +12268,17 @@ Source Docs
 
 ------------
 
+*********************
 LOAN_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Loans received and made
 
 **Sample:** `LOAN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOAN_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-LoanCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -12690,7 +12303,7 @@ LoanCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -13155,256 +12768,240 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p47-thumbnail.gif'></a><p>p. 47</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PTY</td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>SCC</td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html">47</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html">35</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Individual</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PTY</td>
-            <td>Political Party</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>SCC</td>
-            <td>Small Contributor Committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p47-thumbnail.gif'></a><p>p. 47</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>B1</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 1, Loans Received</td>
+            </tr>
+        
+            <tr>
+                <td>B2</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 2, Loan Guarantors</td>
+            </tr>
+        
+            <tr>
+                <td>B3</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 3, Outstanding Bal</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H, Loans Made to Others</td>
+            </tr>
+        
+            <tr>
+                <td>H1</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H - Part 1, Loans Made</td>
+            </tr>
+        
+            <tr>
+                <td>H2</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H- Part 2, Repayments Rcvd</td>
+            </tr>
+        
+            <tr>
+                <td>H3</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H - Part 3, Outstanding Loans</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html">47</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html">35</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>B1</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 1, Loans Received</td>
-        </tr>
-    
-        <tr>
-            <td>B2</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 2, Loan Guarantors</td>
-        </tr>
-    
-        <tr>
-            <td>B3</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 3, Outstanding Bal</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule H, Loans Made to Others</td>
-        </tr>
-    
-        <tr>
-            <td>H1</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule H - Part 1, Loans Made</td>
-        </tr>
-    
-        <tr>
-            <td>H2</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule H- Part 2, Repayments Rcvd</td>
-        </tr>
-    
-        <tr>
-            <td>H3</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule H - Part 3, Outstanding Loans</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*loan_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p47-thumbnail.gif'></a><p>p. 47</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-
+loan_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>H2T</td>
+                <td>Third party payment</td>
+            </tr>
+        
+            <tr>
+                <td>H2F</td>
+                <td>Forgiven</td>
+            </tr>
+        
+            <tr>
+                <td>H2R</td>
+                <td>Repay</td>
+            </tr>
+        
+            <tr>
+                <td>B2T</td>
+                <td>Third party payment</td>
+            </tr>
+        
+            <tr>
+                <td>B2F</td>
+                <td>Forgiven</td>
+            </tr>
+        
+            <tr>
+                <td>B2R</td>
+                <td>Repay</td>
+            </tr>
+        
+            <tr>
+                <td>B1G</td>
+                <td>Guarantor</td>
+            </tr>
+        
+            <tr>
+                <td>B1L</td>
+                <td>Lender</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html">47</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html">35</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>H2T</td>
-            <td>Third party payment</td>
-        </tr>
-    
-        <tr>
-            <td>H2F</td>
-            <td>Forgiven</td>
-        </tr>
-    
-        <tr>
-            <td>H2R</td>
-            <td>Repay</td>
-        </tr>
-    
-        <tr>
-            <td>B2T</td>
-            <td>Third party payment</td>
-        </tr>
-    
-        <tr>
-            <td>B2F</td>
-            <td>Forgiven</td>
-        </tr>
-    
-        <tr>
-            <td>B2R</td>
-            <td>Repay</td>
-        </tr>
-    
-        <tr>
-            <td>B1G</td>
-            <td>Guarantor</td>
-        </tr>
-    
-        <tr>
-            <td>B1L</td>
-            <td>Lender</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p47-thumbnail.gif'></a><p>p. 47</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>LOAN</td>
+                <td>LOAN</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html">47</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html">35</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>LOAN</td>
-            <td>LOAN</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -13447,8 +13044,9 @@ Source Docs
 
 ------------
 
+*********************
 RCPT_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Receipts schedules for Slate Mailer Organization and Recipient Committee
 Campaign Statements (Forms 401 and 460).
@@ -13456,9 +13054,8 @@ Campaign Statements (Forms 401 and 460).
 **Sample:** `RCPT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RCPT_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-RcptCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -13493,7 +13090,7 @@ RcptCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -14084,825 +13681,744 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p37-thumbnail.gif'></a><p>p. 37</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p29-thumbnail.gif'></a><p>p. 29</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td>PTY</td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>SCC</td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+            <tr>
+                <td>Com</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>BNM</td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td>0</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PTH</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>RFD</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>MBR</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/71.html">71</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/37.html">37</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/29.html">29</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Individual</td>
-        </tr>
-    
-        <tr>
-            <td>PTY</td>
-            <td>Political Party</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>SCC</td>
-            <td>Small Contributor Committee</td>
-        </tr>
-    
-        <tr>
-            <td>Com</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>BNM</td>
-            <td>Ballot measure&#39;s name/title</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Officer</td>
-        </tr>
-    
-        <tr>
-            <td>0</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PTH</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>RFD</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>MBR</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p37-thumbnail.gif'></a><p>p. 37</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>E530</td>
+                <td>Electronic Form 530: Electronic Issue Advocacy Report</td>
+            </tr>
+        
+            <tr>
+                <td>F900</td>
+                <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
+            </tr>
+        
+            <tr>
+                <td>F401A</td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule A, Payments Received</td>
+            </tr>
+        
+            <tr>
+                <td>A</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule A, Monetary Contributions Received</td>
+            </tr>
+        
+            <tr>
+                <td>A-1</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule A-1, Contributions Transferred to Special Election Commitee</td>
+            </tr>
+        
+            <tr>
+                <td>C</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule C, Non-Monetary Contributions Received</td>
+            </tr>
+        
+            <tr>
+                <td>I</td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule I, miscellanous increases to cash</td>
+            </tr>
+        
+            <tr>
+                <td>F496P3</td>
+                <td>Form 496 (Late Independent Expenditure Report): Part 3, Contributions &gt; $100 Received</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/37.html">37</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/29.html">29</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>E530</td>
-            <td>Electronic Form 530: Electronic Issue Advocacy Report</td>
-        </tr>
-    
-        <tr>
-            <td>F900</td>
-            <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
-        </tr>
-    
-        <tr>
-            <td>F401A</td>
-            <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule A, Payments Received</td>
-        </tr>
-    
-        <tr>
-            <td>A</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule A, Monetary Contributions Received</td>
-        </tr>
-    
-        <tr>
-            <td>A-1</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule A-1, Contributions Transferred to Special Election Commitee</td>
-        </tr>
-    
-        <tr>
-            <td>C</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule C, Non-Monetary Contributions Received</td>
-        </tr>
-    
-        <tr>
-            <td>I</td>
-            <td>Form 460 (Recipient Committee Campaign Statement): Schedule I, miscellanous increases to cash</td>
-        </tr>
-    
-        <tr>
-            <td>F496P3</td>
-            <td>Form 496 (Late Independent Expenditure Report): Part 3, Contributions &gt; $100 Received</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p40-thumbnail.gif'></a><p>p. 40</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p30-thumbnail.gif'></a><p>p. 30</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>CLB</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>CO</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SAC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>SF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>AL</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CA</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/74.html">74</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/40.html">40</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/30.html">30</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>CLB</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>CO</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SAC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>SF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>AL</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>4</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CA</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p40-thumbnail.gif'></a><p>p. 40</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p30-thumbnail.gif'></a><p>p. 30</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/75.html">75</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/40.html">40</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/30.html">30</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Errata-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712032/pages/Cal-Errata-201-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>asm</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>gov</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>OTh</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>oth</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>csu</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>HOU</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ASS</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html">2</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>asm</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>gov</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>OTh</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>oth</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>csu</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>HOU</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ASS</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p37-thumbnail.gif'></a><p>p. 37</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>E530</td>
+                <td>Electronic Form 530: Electronic Issue Advocacy Report</td>
+            </tr>
+        
+            <tr>
+                <td>RCPT</td>
+                <td>Receipt</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/71.html">71</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html">29</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/37.html">37</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>E530</td>
-            <td>Electronic Form 530: Electronic Issue Advocacy Report</td>
-        </tr>
-    
-        <tr>
-            <td>RCPT</td>
-            <td>Receipt</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*sup_opp_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p40-thumbnail.gif'></a><p>p. 40</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p30-thumbnail.gif'></a><p>p. 30</p></div></div>
-
-
-
+sup_opp_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/74.html">74</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/40.html">40</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/30.html">30</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*tran_type*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p38-thumbnail.gif'></a><p>p. 38</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
-
-
-
+tran_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F</td>
+                <td>Forgiven Loan</td>
+            </tr>
+        
+            <tr>
+                <td>I</td>
+                <td>Intermediary</td>
+            </tr>
+        
+            <tr>
+                <td>R</td>
+                <td>Returned (Negative Amount?)</td>
+            </tr>
+        
+            <tr>
+                <td>T</td>
+                <td>Third Party Repayment</td>
+            </tr>
+        
+            <tr>
+                <td>X</td>
+                <td>Transfer</td>
+            </tr>
+        
+            <tr>
+                <td>0</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>I</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>M</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>N</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>R</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>T</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/72.html">72</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/38.html">38</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/29.html">29</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F</td>
-            <td>Forgiven Loan</td>
-        </tr>
-    
-        <tr>
-            <td>I</td>
-            <td>Intermediary</td>
-        </tr>
-    
-        <tr>
-            <td>R</td>
-            <td>Returned (Negative Amount?)</td>
-        </tr>
-    
-        <tr>
-            <td>T</td>
-            <td>Third Party Repayment</td>
-        </tr>
-    
-        <tr>
-            <td>X</td>
-            <td>Transfer</td>
-        </tr>
-    
-        <tr>
-            <td>0</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>I</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>M</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>N</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>R</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>T</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -14945,8 +14461,9 @@ Source Docs
 
 ------------
 
+*********************
 S401_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 This table contains Form 401 (Slate Mailer Organization) payment and other
 disclosure schedules (F401B, F401B-1, F401C, F401D) information. Does not
@@ -14955,9 +14472,8 @@ include Form 401, Schedule A (Payments Received).
 **Sample:** `S401_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S401_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-S401Cd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -14976,7 +14492,7 @@ S401Cd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -15333,565 +14849,527 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/51.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p51-thumbnail.gif'></a><p>p. 51</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S401</td>
+                <td>S401</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/51.html">51</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html">39</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S401</td>
-            <td>S401</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/51.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p51-thumbnail.gif'></a><p>p. 51</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F401B</td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule B, Payments Made</td>
+            </tr>
+        
+            <tr>
+                <td>F401B-1</td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule B-1, Payments Made by Agent or Independent Contractor</td>
+            </tr>
+        
+            <tr>
+                <td>F401C</td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule C, Persons Receiving $1,000 or More</td>
+            </tr>
+        
+            <tr>
+                <td>F401D</td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule D, Candidates and Measures Not Listed on Schedule A</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/51.html">51</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html">39</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F401B</td>
-            <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule B, Payments Made</td>
-        </tr>
-    
-        <tr>
-            <td>F401B-1</td>
-            <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule B-1, Payments Made by Agent or Independent Contractor</td>
-        </tr>
-    
-        <tr>
-            <td>F401C</td>
-            <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule C, Persons Receiving $1,000 or More</td>
-        </tr>
-    
-        <tr>
-            <td>F401D</td>
-            <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule D, Candidates and Measures Not Listed on Schedule A</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Errata-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712032/pages/Cal-Errata-201-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>asm</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ltg</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>OTh</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>att</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>oth</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>tre</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>con</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>boe</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>sos</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>sup</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html">2</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>asm</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ltg</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>OTh</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>att</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>oth</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>tre</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>con</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>boe</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>sos</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>sup</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/77.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p77-thumbnail.gif'></a><p>p. 77</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/52.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p52-thumbnail.gif'></a><p>p. 52</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>SAC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>ca</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CAL</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OR</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>AL</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/77.html">77</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/52.html">52</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html">39</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>SAC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>ca</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CAL</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OR</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>AL</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>10</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/52.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p52-thumbnail.gif'></a><p>p. 52</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/52.html">52</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html">39</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*sup_opp_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/52.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p52-thumbnail.gif'></a><p>p. 52</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
-
-
+sup_opp_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td>O</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/52.html">52</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html">39</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-        <tr>
-            <td>O</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -15934,17 +15412,17 @@ Source Docs
 
 ------------
 
+*********************
 S496_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Form 496 Late Independent Expenditures
 
 **Sample:** `S496_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S496_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-S496Cd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -15954,7 +15432,7 @@ S496Cd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -16086,86 +15564,78 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p53-thumbnail.gif'></a><p>p. 53</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p40-thumbnail.gif'></a><p>p. 40</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S496</td>
+                <td>S496</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/53.html">53</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/40.html">40</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S496</td>
-            <td>S496</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p53-thumbnail.gif'></a><p>p. 53</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p40-thumbnail.gif'></a><p>p. 40</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F496</td>
+                <td>Form 496: Late Independent Expenditure Report</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/53.html">53</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/40.html">40</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F496</td>
-            <td>Form 496: Late Independent Expenditure Report</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -16208,17 +15678,17 @@ Source Docs
 
 ------------
 
+*********************
 S497_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Form 497: Late Contributions Received/Made
 
 **Sample:** `S497_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S497_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-S497Cd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -16233,7 +15703,7 @@ S497Cd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -16626,791 +16096,763 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p54-thumbnail.gif'></a><p>p. 54</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p41-thumbnail.gif'></a><p>p. 41</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S497</td>
+                <td>S497</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/54.html">54</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/41.html">41</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S497</td>
-            <td>S497</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p54-thumbnail.gif'></a><p>p. 54</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p41-thumbnail.gif'></a><p>p. 41</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F497P1</td>
+                <td>Form 497 (Late Contribution Report): Part 1, Contribution(s) Received</td>
+            </tr>
+        
+            <tr>
+                <td>F497P2</td>
+                <td>Form 497 (Late Contribution Report): Part 2, Contribution(s) Made</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/54.html">54</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/41.html">41</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F497P1</td>
-            <td>Form 497 (Late Contribution Report): Part 1, Contribution(s) Received</td>
-        </tr>
-    
-        <tr>
-            <td>F497P2</td>
-            <td>Form 497 (Late Contribution Report): Part 2, Contribution(s) Made</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p54-thumbnail.gif'></a><p>p. 54</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p41-thumbnail.gif'></a><p>p. 41</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>BNM</td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>Controlled committee</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>com</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PTY</td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td>SCC</td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+            <tr>
+                <td>0</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/54.html">54</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/41.html">41</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>BNM</td>
-            <td>Ballot measure&#39;s name/title</td>
-        </tr>
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>Controlled committee</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>com</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Individual</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Officer</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PTY</td>
-            <td>Political Party</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-        <tr>
-            <td>SCC</td>
-            <td>Small Contributor Committee</td>
-        </tr>
-    
-        <tr>
-            <td>0</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Errata-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712032/pages/Cal-Errata-201-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>asm</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>sen</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>Asm</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>May</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>ASm</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>oth</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>csu</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>Oth</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>H</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>HOU</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LEG</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>P</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LTV</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>LT</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>REP</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>N/A</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html">2</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>asm</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>sen</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>Asm</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>May</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>ASm</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>oth</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>csu</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>Oth</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>H</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>HOU</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LEG</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>P</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LTV</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>LT</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>REP</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>N/A</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/55.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p55-thumbnail.gif'></a><p>p. 55</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p42-thumbnail.gif'></a><p>p. 42</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>asm</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>sen</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>cit</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>CLB</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>IRV</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>Fon</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>JRS</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>CO</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>Riv</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>SNE</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>83</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FED</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>CA</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>JR</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/55.html">55</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/42.html">42</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>asm</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>sen</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>cit</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>CLB</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>IRV</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>Fon</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>JRS</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>CO</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>Riv</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>SNE</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>83</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FED</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>CA</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>JR</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/55.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p55-thumbnail.gif'></a><p>p. 55</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p42-thumbnail.gif'></a><p>p. 42</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>s</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td>h</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>F</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+            <tr>
+                <td>T</td>
+                <td>UNKNOWN</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/55.html">55</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/42.html">42</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>s</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-        <tr>
-            <td>h</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>F</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-        <tr>
-            <td>T</td>
-            <td>UNKNOWN</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*sup_opp_cd*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p82-thumbnail.gif'></a><p>p. 82</p></div></div>
-
-
-
+sup_opp_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>O</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/82.html">82</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>O</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 
@@ -17453,17 +16895,17 @@ Source Docs
 
 ------------
 
+*********************
 S498_CD
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
 
 Form 498: Slate Mailer Late Independent Expenditures Made
 
 **Sample:** `S498_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S498_CD.TSV>`_
 
 
-Filing Forms
-^^^^^^^^^^^^
-S498Cd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -17478,7 +16920,7 @@ S498Cd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -17835,533 +17277,498 @@ Fields
 
 
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p56-thumbnail.gif'></a><p>p. 56</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p43-thumbnail.gif'></a><p>p. 43</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S498</td>
+                <td>S498</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/56.html">56</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html">43</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S498</td>
-            <td>S498</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p56-thumbnail.gif'></a><p>p. 56</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p43-thumbnail.gif'></a><p>p. 43</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F498-A</td>
+                <td>Form 498 (Slate Mailer Late Payment Report): Part A, Late Payments Attributed To</td>
+            </tr>
+        
+            <tr>
+                <td>F498-R</td>
+                <td>Form 498 (Slate Mailer Late Payment Report): Part R, Late Payments Received From</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/56.html">56</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html">43</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F498-A</td>
-            <td>Form 498 (Slate Mailer Late Payment Report): Part A, Late Payments Attributed To</td>
-        </tr>
-    
-        <tr>
-            <td>F498-R</td>
-            <td>Form 498 (Slate Mailer Late Payment Report): Part R, Late Payments Received From</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p56-thumbnail.gif'></a><p>p. 56</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p43-thumbnail.gif'></a><p>p. 43</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CAO</td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/56.html">56</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/8.html">8</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/9.html">9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html">43</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CAO</td>
-            <td>Candidate/officeholder</td>
-        </tr>
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Individual</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*office_cd*
 
-
-*Cal-Errata-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712032/pages/Cal-Errata-201-p2-thumbnail.gif'></a><p>p. 2</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p12-thumbnail.gif'></a><p>p. 12</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p10-thumbnail.gif'></a><p>p. 10</p></div></div>
-
-
-
+office_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>APP</td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>ASM</td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td>ASR</td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td>ATT</td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td>BED</td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td>BSU</td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td>CAT</td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>CCB</td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td>CCM</td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td>CON</td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td>CSU</td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td>CTR</td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td>DAT</td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>INS</td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>LTG</td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td>MAY</td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PDR</td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td>PER</td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td>PLN</td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td>SCJ</td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td>SHC</td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td>SOS</td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td>SPM</td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td>SUP</td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td>TRE</td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>TRS</td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td>gov</td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td>oth</td>
+                <td>Other</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201/pages/2.html">2</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/12.html">12</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/10.html">10</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>APP</td>
-            <td>State Appellate Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>ASM</td>
-            <td>State Assembly Person</td>
-        </tr>
-    
-        <tr>
-            <td>ASR</td>
-            <td>Assessor</td>
-        </tr>
-    
-        <tr>
-            <td>ATT</td>
-            <td>Attorney General</td>
-        </tr>
-    
-        <tr>
-            <td>BED</td>
-            <td>Board of Education</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization Member</td>
-        </tr>
-    
-        <tr>
-            <td>BSU</td>
-            <td>Board of Supervisors</td>
-        </tr>
-    
-        <tr>
-            <td>CAT</td>
-            <td>City Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>CCB</td>
-            <td>Community College Board</td>
-        </tr>
-    
-        <tr>
-            <td>CCM</td>
-            <td>City Council Member</td>
-        </tr>
-    
-        <tr>
-            <td>CON</td>
-            <td>State Controller</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County Counsel</td>
-        </tr>
-    
-        <tr>
-            <td>CSU</td>
-            <td>County Supervisor</td>
-        </tr>
-    
-        <tr>
-            <td>CTR</td>
-            <td>Local Controller</td>
-        </tr>
-    
-        <tr>
-            <td>DAT</td>
-            <td>District Attorney</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>INS</td>
-            <td>Insurance Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>LTG</td>
-            <td>Lieutenant Governor</td>
-        </tr>
-    
-        <tr>
-            <td>MAY</td>
-            <td>Mayor</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PDR</td>
-            <td>Public Defender</td>
-        </tr>
-    
-        <tr>
-            <td>PER</td>
-            <td>Public Employees Retirement System</td>
-        </tr>
-    
-        <tr>
-            <td>PLN</td>
-            <td>Planning Commissioner</td>
-        </tr>
-    
-        <tr>
-            <td>SCJ</td>
-            <td>Superior Court Judge</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>State Senator</td>
-        </tr>
-    
-        <tr>
-            <td>SHC</td>
-            <td>Sheriff-Coroner</td>
-        </tr>
-    
-        <tr>
-            <td>SOS</td>
-            <td>Secretary of State</td>
-        </tr>
-    
-        <tr>
-            <td>SPM</td>
-            <td>Supreme Court Justice</td>
-        </tr>
-    
-        <tr>
-            <td>SUP</td>
-            <td>Superintendent of Public Instruction</td>
-        </tr>
-    
-        <tr>
-            <td>TRE</td>
-            <td>State Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>TRS</td>
-            <td>Local Treasurer</td>
-        </tr>
-    
-        <tr>
-            <td>gov</td>
-            <td>Governor</td>
-        </tr>
-    
-        <tr>
-            <td>oth</td>
-            <td>Other</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*juris_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p43-thumbnail.gif'></a><p>p. 43</p></div></div>
-
-
-
+juris_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ASM</td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td>BOE</td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td>CIT</td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td>CTY</td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td>LOC</td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>SEN</td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td>STW</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td>COU</td>
+                <td>County</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/57.html">57</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html">43</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ASM</td>
-            <td>Assembly District</td>
-        </tr>
-    
-        <tr>
-            <td>BOE</td>
-            <td>Board of Equalization District</td>
-        </tr>
-    
-        <tr>
-            <td>CIT</td>
-            <td>City</td>
-        </tr>
-    
-        <tr>
-            <td>CTY</td>
-            <td>County</td>
-        </tr>
-    
-        <tr>
-            <td>LOC</td>
-            <td>Local</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>SEN</td>
-            <td>Senate District</td>
-        </tr>
-    
-        <tr>
-            <td>STW</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Statewide</td>
-        </tr>
-    
-        <tr>
-            <td>COU</td>
-            <td>County</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*off_s_h_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p44-thumbnail.gif'></a><p>p. 44</p></div></div>
-
-
-
+off_s_h_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>H</td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SOUGHT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/57.html">57</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/44.html">44</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>H</td>
-            <td>HELD</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SOUGHT</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*sup_opp_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p43-thumbnail.gif'></a><p>p. 43</p></div></div>
-
-
-
+sup_opp_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>O</td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td>S</td>
+                <td>SUPPORT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/57.html">57</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html">43</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>O</td>
-            <td>OPPOSITION</td>
-        </tr>
-    
-        <tr>
-            <td>S</td>
-            <td>SUPPORT</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
 

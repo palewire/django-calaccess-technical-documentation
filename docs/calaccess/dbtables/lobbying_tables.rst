@@ -1,66 +1,25 @@
+================================
 Lobbying tables
 ================================
 
 
 The CAL-ACCESS database contains 32 tables that, according to the official documentation (see `here <https://www.documentcloud.org/documents/2711617-ReadMe-Zip/pages/1.html>`_ and `here <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/4.html>`_), store information specific to lobbying disclosure filings. These tables are outlined below.
 
-.. warning::
-
-    Most definitions below are drawn from the spotty and incomplete `official documentation <officialdocumentation.html>`_ verbatim. As we continue our research, we plan to improve the descriptions.
-
-    For the time being, to be absolutely certain about what each table and field contains, you should compare the electronic data back to the original paper records published by the state.
 
 
 ------------
 
-Cvr2LobbyDisclosureCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+CVR2_LOBBY_DISCLOSURE_CD
+*********************
 
 Additional data from lobbyist disclosure forms (615, 625, 635, and 645)
 
 **Sample:** `CVR2_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_LOBBY_DISCLOSURE_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p43-thumbnail.gif'></a><p>p. 43</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p44-thumbnail.gif'></a><p>p. 44</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/36.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p36-thumbnail.gif'></a><p>p. 36</p></div></div>
-
-
-*Cal-Format-201*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-
-
-Filing Forms
-^^^^^^^^^^^^
-Cvr2LobbyDisclosureCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -74,7 +33,7 @@ Cvr2LobbyDisclosureCd contains data collected from the following filing forms, f
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -213,161 +172,138 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>EMP</td>
+                <td>Employer</td>
+            </tr>
+        
+            <tr>
+                <td>OFF</td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td>OWN</td>
+                <td>Owner</td>
+            </tr>
+        
+            <tr>
+                <td>PTN</td>
+                <td>Partner</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html">71</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html">57</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>EMP</td>
-            <td>Employer</td>
-        </tr>
-    
-        <tr>
-            <td>OFF</td>
-            <td>Officer</td>
-        </tr>
-    
-        <tr>
-            <td>OWN</td>
-            <td>Owner</td>
-        </tr>
-    
-        <tr>
-            <td>PTN</td>
-            <td>Partner</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F625</td>
+                <td>Form 625: Report of Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td>F635</td>
+                <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html">71</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html">57</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F625</td>
-            <td>Form 625: Report of Lobbying Firm</td>
-        </tr>
-    
-        <tr>
-            <td>F635</td>
-            <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR2</td>
+                <td>CVR2</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html">71</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html">57</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR2</td>
-            <td>CVR2</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-Cvr2RegistrationCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Cover page of lobbying disclosure forms
-
-**Sample:** `CVR2_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_REGISTRATION_CD.TSV>`_
 
 
 Source Docs
@@ -375,41 +311,50 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p44-thumbnail.gif'></a><p>p. 44</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p45-thumbnail.gif'></a><p>p. 45</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p43-thumbnail.gif'></a><p>p. 43</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p44-thumbnail.gif'></a><p>p. 44</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p37-thumbnail.gif'></a><p>p. 37</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/36.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p36-thumbnail.gif'></a><p>p. 36</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p87-thumbnail.gif'></a><p>p. 87</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p88-thumbnail.gif'></a><p>p. 88</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p72-thumbnail.gif'></a><p>p. 72</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/73.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p73-thumbnail.gif'></a><p>p. 73</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-Cvr2RegistrationCd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+CVR2_REGISTRATION_CD
+*********************
+
+Cover page of lobbying disclosure forms
+
+**Sample:** `CVR2_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_REGISTRATION_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -427,7 +372,7 @@ Cvr2RegistrationCd contains data collected from the following filing forms, form
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -557,176 +502,153 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p87-thumbnail.gif'></a><p>p. 87</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR2</td>
+                <td>CVR2</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html">87</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html">72</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR2</td>
-            <td>CVR2</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p87-thumbnail.gif'></a><p>p. 87</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F601</td>
+                <td>Form 601: Lobbying Firm Registration Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F602</td>
+                <td>Form 602: Lobbying Firm Activity Authorization</td>
+            </tr>
+        
+            <tr>
+                <td>F603</td>
+                <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html">87</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html">72</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F601</td>
-            <td>Form 601: Lobbying Firm Registration Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F602</td>
-            <td>Form 602: Lobbying Firm Activity Authorization</td>
-        </tr>
-    
-        <tr>
-            <td>F603</td>
-            <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p87-thumbnail.gif'></a><p>p. 87</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>AGY</td>
+                <td>State Agency</td>
+            </tr>
+        
+            <tr>
+                <td>EMP</td>
+                <td>Employer</td>
+            </tr>
+        
+            <tr>
+                <td>FRM</td>
+                <td>Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td>LBY</td>
+                <td>Lobbyist (an individual)</td>
+            </tr>
+        
+            <tr>
+                <td>MBR</td>
+                <td>Member of Associaton</td>
+            </tr>
+        
+            <tr>
+                <td>SCL</td>
+                <td>Subcontracted Client</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html">87</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html">72</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>AGY</td>
-            <td>State Agency</td>
-        </tr>
-    
-        <tr>
-            <td>EMP</td>
-            <td>Employer</td>
-        </tr>
-    
-        <tr>
-            <td>FRM</td>
-            <td>Lobbying Firm</td>
-        </tr>
-    
-        <tr>
-            <td>LBY</td>
-            <td>Lobbyist (an individual)</td>
-        </tr>
-    
-        <tr>
-            <td>MBR</td>
-            <td>Member of Associaton</td>
-        </tr>
-    
-        <tr>
-            <td>SCL</td>
-            <td>Subcontracted Client</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-CvrLobbyDisclosureCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Cover page information for lobbying disclosure forms
-
-**Sample:** `CVR_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_LOBBY_DISCLOSURE_CD.TSV>`_
 
 
 Source Docs
@@ -734,41 +656,50 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p32-thumbnail.gif'></a><p>p. 32</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p33-thumbnail.gif'></a><p>p. 33</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p34-thumbnail.gif'></a><p>p. 34</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p44-thumbnail.gif'></a><p>p. 44</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p45-thumbnail.gif'></a><p>p. 45</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/17.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p17-thumbnail.gif'></a><p>p. 17</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/18.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p18-thumbnail.gif'></a><p>p. 18</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p19-thumbnail.gif'></a><p>p. 19</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/20.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p20-thumbnail.gif'></a><p>p. 20</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/21.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p21-thumbnail.gif'></a><p>p. 21</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p37-thumbnail.gif'></a><p>p. 37</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/66.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p66-thumbnail.gif'></a><p>p. 66</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/67.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p67-thumbnail.gif'></a><p>p. 67</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p68-thumbnail.gif'></a><p>p. 68</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p69-thumbnail.gif'></a><p>p. 69</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p70-thumbnail.gif'></a><p>p. 70</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p87-thumbnail.gif'></a><p>p. 87</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p88-thumbnail.gif'></a><p>p. 88</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p53-thumbnail.gif'></a><p>p. 53</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p54-thumbnail.gif'></a><p>p. 54</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/55.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p55-thumbnail.gif'></a><p>p. 55</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p56-thumbnail.gif'></a><p>p. 56</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p72-thumbnail.gif'></a><p>p. 72</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/73.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p73-thumbnail.gif'></a><p>p. 73</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-CvrLobbyDisclosureCd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+CVR_LOBBY_DISCLOSURE_CD
+*********************
+
+Cover page information for lobbying disclosure forms
+
+**Sample:** `CVR_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_LOBBY_DISCLOSURE_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -790,7 +721,7 @@ CvrLobbyDisclosureCd contains data collected from the following filing forms, fo
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -1280,186 +1211,163 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/67.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p67-thumbnail.gif'></a><p>p. 67</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p53-thumbnail.gif'></a><p>p. 53</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CLI</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FRM</td>
+                <td>Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Person (spending &gt; $5000)</td>
+            </tr>
+        
+            <tr>
+                <td>LBY</td>
+                <td>Lobbyist (an individual)</td>
+            </tr>
+        
+            <tr>
+                <td>LCO</td>
+                <td>Lobbying Coalition</td>
+            </tr>
+        
+            <tr>
+                <td>LEM</td>
+                <td>Lobbying Employer</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/67.html">67</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html">53</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CLI</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FRM</td>
-            <td>Lobbying Firm</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Person (spending &gt; $5000)</td>
-        </tr>
-    
-        <tr>
-            <td>LBY</td>
-            <td>Lobbyist (an individual)</td>
-        </tr>
-    
-        <tr>
-            <td>LCO</td>
-            <td>Lobbying Coalition</td>
-        </tr>
-    
-        <tr>
-            <td>LEM</td>
-            <td>Lobbying Employer</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/66.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p66-thumbnail.gif'></a><p>p. 66</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p53-thumbnail.gif'></a><p>p. 53</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F615</td>
+                <td>Form 615: Lobbyist Report</td>
+            </tr>
+        
+            <tr>
+                <td>F625</td>
+                <td>Form 625: Report of Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td>F635</td>
+                <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
+            </tr>
+        
+            <tr>
+                <td>F645</td>
+                <td>Form 645: Report of Person Spending $5,000 or More</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/66.html">66</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html">53</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F615</td>
-            <td>Form 615: Lobbyist Report</td>
-        </tr>
-    
-        <tr>
-            <td>F625</td>
-            <td>Form 625: Report of Lobbying Firm</td>
-        </tr>
-    
-        <tr>
-            <td>F635</td>
-            <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
-        </tr>
-    
-        <tr>
-            <td>F645</td>
-            <td>Form 645: Report of Person Spending $5,000 or More</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/66.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p66-thumbnail.gif'></a><p>p. 66</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p53-thumbnail.gif'></a><p>p. 53</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR</td>
+                <td>CVR</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/66.html">66</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html">53</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR</td>
-            <td>CVR</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-CvrRegistrationCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Cover page of lobbying disclosure forms (601, 602, 603, 604, 606, and 607)
-
-**Sample:** `CVR_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_REGISTRATION_CD.TSV>`_
 
 
 Source Docs
@@ -1467,41 +1375,50 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p35-thumbnail.gif'></a><p>p. 35</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/36.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p36-thumbnail.gif'></a><p>p. 36</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p37-thumbnail.gif'></a><p>p. 37</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p38-thumbnail.gif'></a><p>p. 38</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p32-thumbnail.gif'></a><p>p. 32</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p33-thumbnail.gif'></a><p>p. 33</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p34-thumbnail.gif'></a><p>p. 34</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p22-thumbnail.gif'></a><p>p. 22</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/23.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p23-thumbnail.gif'></a><p>p. 23</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p24-thumbnail.gif'></a><p>p. 24</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/25.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p25-thumbnail.gif'></a><p>p. 25</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/26.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p26-thumbnail.gif'></a><p>p. 26</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/27.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p27-thumbnail.gif'></a><p>p. 27</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/17.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p17-thumbnail.gif'></a><p>p. 17</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/18.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p18-thumbnail.gif'></a><p>p. 18</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p19-thumbnail.gif'></a><p>p. 19</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/20.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p20-thumbnail.gif'></a><p>p. 20</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/21.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p21-thumbnail.gif'></a><p>p. 21</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p82-thumbnail.gif'></a><p>p. 82</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/83.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p83-thumbnail.gif'></a><p>p. 83</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/84.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p84-thumbnail.gif'></a><p>p. 84</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/85.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p85-thumbnail.gif'></a><p>p. 85</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/86.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p86-thumbnail.gif'></a><p>p. 86</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/66.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p66-thumbnail.gif'></a><p>p. 66</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/67.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p67-thumbnail.gif'></a><p>p. 67</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p68-thumbnail.gif'></a><p>p. 68</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p69-thumbnail.gif'></a><p>p. 69</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p70-thumbnail.gif'></a><p>p. 70</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p68-thumbnail.gif'></a><p>p. 68</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p69-thumbnail.gif'></a><p>p. 69</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p70-thumbnail.gif'></a><p>p. 70</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p53-thumbnail.gif'></a><p>p. 53</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p54-thumbnail.gif'></a><p>p. 54</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/55.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p55-thumbnail.gif'></a><p>p. 55</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p56-thumbnail.gif'></a><p>p. 56</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-CvrRegistrationCd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+CVR_REGISTRATION_CD
+*********************
+
+Cover page of lobbying disclosure forms (601, 602, 603, 604, 606, and 607)
+
+**Sample:** `CVR_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_REGISTRATION_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -1531,7 +1448,7 @@ CvrRegistrationCd contains data collected from the following filing forms, form 
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -2192,481 +2109,442 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*bus_class*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p82-thumbnail.gif'></a><p>p. 82</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p70-thumbnail.gif'></a><p>p. 70</p></div></div>
-
-
-
+bus_class
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>ENT</td>
+                <td>Entertainment/Recreation</td>
+            </tr>
+        
+            <tr>
+                <td>FIN</td>
+                <td>Finance/Insurance</td>
+            </tr>
+        
+            <tr>
+                <td>LOG</td>
+                <td>Lodging/Restaurants</td>
+            </tr>
+        
+            <tr>
+                <td>MAN</td>
+                <td>Manufacturing/Industrial</td>
+            </tr>
+        
+            <tr>
+                <td>MER</td>
+                <td>Merchandise/Retail</td>
+            </tr>
+        
+            <tr>
+                <td>OIL</td>
+                <td>Oil and Gas</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>PRO</td>
+                <td>Professional/Trade</td>
+            </tr>
+        
+            <tr>
+                <td>REA</td>
+                <td>Real Estate</td>
+            </tr>
+        
+            <tr>
+                <td>TRN</td>
+                <td>Transportation</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html">82</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/70.html">70</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>ENT</td>
-            <td>Entertainment/Recreation</td>
-        </tr>
-    
-        <tr>
-            <td>FIN</td>
-            <td>Finance/Insurance</td>
-        </tr>
-    
-        <tr>
-            <td>LOG</td>
-            <td>Lodging/Restaurants</td>
-        </tr>
-    
-        <tr>
-            <td>MAN</td>
-            <td>Manufacturing/Industrial</td>
-        </tr>
-    
-        <tr>
-            <td>MER</td>
-            <td>Merchandise/Retail</td>
-        </tr>
-    
-        <tr>
-            <td>OIL</td>
-            <td>Oil and Gas</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>PRO</td>
-            <td>Professional/Trade</td>
-        </tr>
-    
-        <tr>
-            <td>REA</td>
-            <td>Real Estate</td>
-        </tr>
-    
-        <tr>
-            <td>TRN</td>
-            <td>Transportation</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*entity_cd*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p82-thumbnail.gif'></a><p>p. 82</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p68-thumbnail.gif'></a><p>p. 68</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>BUS</td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td>FRM</td>
+                <td>Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td>LBY</td>
+                <td>Lobbyist (an individual)</td>
+            </tr>
+        
+            <tr>
+                <td>LCO</td>
+                <td>Lobbying Coalition</td>
+            </tr>
+        
+            <tr>
+                <td>LEM</td>
+                <td>Lobbying Employer</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html">82</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html">68</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>BUS</td>
-            <td>Unknown</td>
-        </tr>
-    
-        <tr>
-            <td>FRM</td>
-            <td>Lobbying Firm</td>
-        </tr>
-    
-        <tr>
-            <td>LBY</td>
-            <td>Lobbyist (an individual)</td>
-        </tr>
-    
-        <tr>
-            <td>LCO</td>
-            <td>Lobbying Coalition</td>
-        </tr>
-    
-        <tr>
-            <td>LEM</td>
-            <td>Lobbying Employer</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p82-thumbnail.gif'></a><p>p. 82</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p68-thumbnail.gif'></a><p>p. 68</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F601</td>
+                <td>Form 601: Lobbying Firm Registration Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F602</td>
+                <td>Form 602: Lobbying Firm Activity Authorization</td>
+            </tr>
+        
+            <tr>
+                <td>F603</td>
+                <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F604</td>
+                <td>Form 604: Lobbyist Certification Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F606</td>
+                <td>Form 606: Notice of Termination</td>
+            </tr>
+        
+            <tr>
+                <td>F607</td>
+                <td>Form 607: Notice of Withdrawal</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html">82</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html">68</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F601</td>
-            <td>Form 601: Lobbying Firm Registration Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F602</td>
-            <td>Form 602: Lobbying Firm Activity Authorization</td>
-        </tr>
-    
-        <tr>
-            <td>F603</td>
-            <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F604</td>
-            <td>Form 604: Lobbyist Certification Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F606</td>
-            <td>Form 606: Notice of Termination</td>
-        </tr>
-    
-        <tr>
-            <td>F607</td>
-            <td>Form 607: Notice of Withdrawal</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*ind_class*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/85.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p85-thumbnail.gif'></a><p>p. 85</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p70-thumbnail.gif'></a><p>p. 70</p></div></div>
-
-
-
+ind_class
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>AGR</td>
+                <td>Agriculture</td>
+            </tr>
+        
+            <tr>
+                <td>EDU</td>
+                <td>Education</td>
+            </tr>
+        
+            <tr>
+                <td>GOV</td>
+                <td>Government</td>
+            </tr>
+        
+            <tr>
+                <td>HEA</td>
+                <td>Health</td>
+            </tr>
+        
+            <tr>
+                <td>LAB</td>
+                <td>Labor Unions</td>
+            </tr>
+        
+            <tr>
+                <td>LEG</td>
+                <td>Legal</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>POL</td>
+                <td>Political Organizations</td>
+            </tr>
+        
+            <tr>
+                <td>PUB</td>
+                <td>Public Employees</td>
+            </tr>
+        
+            <tr>
+                <td>UTL</td>
+                <td>Utilities</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/85.html">85</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/70.html">70</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>AGR</td>
-            <td>Agriculture</td>
-        </tr>
-    
-        <tr>
-            <td>EDU</td>
-            <td>Education</td>
-        </tr>
-    
-        <tr>
-            <td>GOV</td>
-            <td>Government</td>
-        </tr>
-    
-        <tr>
-            <td>HEA</td>
-            <td>Health</td>
-        </tr>
-    
-        <tr>
-            <td>LAB</td>
-            <td>Labor Unions</td>
-        </tr>
-    
-        <tr>
-            <td>LEG</td>
-            <td>Legal</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>POL</td>
-            <td>Political Organizations</td>
-        </tr>
-    
-        <tr>
-            <td>PUB</td>
-            <td>Public Employees</td>
-        </tr>
-    
-        <tr>
-            <td>UTL</td>
-            <td>Utilities</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*influen_yn*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/86.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p86-thumbnail.gif'></a><p>p. 86</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-
+influen_yn
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>Y</td>
+                <td>Yes</td>
+            </tr>
+        
+            <tr>
+                <td>y</td>
+                <td>Yes</td>
+            </tr>
+        
+            <tr>
+                <td>N</td>
+                <td>No</td>
+            </tr>
+        
+            <tr>
+                <td>n</td>
+                <td>No</td>
+            </tr>
+        
+            <tr>
+                <td>X</td>
+                <td>Yes</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/86.html">86</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/71.html">71</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>Y</td>
-            <td>Yes</td>
-        </tr>
-    
-        <tr>
-            <td>y</td>
-            <td>Yes</td>
-        </tr>
-    
-        <tr>
-            <td>N</td>
-            <td>No</td>
-        </tr>
-    
-        <tr>
-            <td>n</td>
-            <td>No</td>
-        </tr>
-    
-        <tr>
-            <td>X</td>
-            <td>Yes</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p82-thumbnail.gif'></a><p>p. 82</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p68-thumbnail.gif'></a><p>p. 68</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>CVR</td>
+                <td>CVR</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html">82</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html">68</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>CVR</td>
-            <td>CVR</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*st_leg_yn*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/86.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p86-thumbnail.gif'></a><p>p. 86</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
-
-
-
+st_leg_yn
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>Y</td>
+                <td>Yes</td>
+            </tr>
+        
+            <tr>
+                <td>y</td>
+                <td>Yes</td>
+            </tr>
+        
+            <tr>
+                <td>N</td>
+                <td>No</td>
+            </tr>
+        
+            <tr>
+                <td>n</td>
+                <td>No</td>
+            </tr>
+        
+            <tr>
+                <td>X</td>
+                <td>Yes</td>
+            </tr>
+        
+            <tr>
+                <td>x</td>
+                <td>Yes</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/86.html">86</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/71.html">71</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>Y</td>
-            <td>Yes</td>
-        </tr>
-    
-        <tr>
-            <td>y</td>
-            <td>Yes</td>
-        </tr>
-    
-        <tr>
-            <td>N</td>
-            <td>No</td>
-        </tr>
-    
-        <tr>
-            <td>n</td>
-            <td>No</td>
-        </tr>
-    
-        <tr>
-            <td>X</td>
-            <td>Yes</td>
-        </tr>
-    
-        <tr>
-            <td>x</td>
-            <td>Yes</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-F690P2Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Amends lobbying disclosure filings (Form 690)
-
-**Sample:** `F690P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F690P2_CD.TSV>`_
 
 
 Source Docs
@@ -2674,41 +2552,50 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p59-thumbnail.gif'></a><p>p. 59</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/60.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p60-thumbnail.gif'></a><p>p. 60</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p35-thumbnail.gif'></a><p>p. 35</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/36.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p36-thumbnail.gif'></a><p>p. 36</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p37-thumbnail.gif'></a><p>p. 37</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p38-thumbnail.gif'></a><p>p. 38</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/50.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p50-thumbnail.gif'></a><p>p. 50</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/51.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p51-thumbnail.gif'></a><p>p. 51</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p22-thumbnail.gif'></a><p>p. 22</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/23.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p23-thumbnail.gif'></a><p>p. 23</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p24-thumbnail.gif'></a><p>p. 24</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/25.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p25-thumbnail.gif'></a><p>p. 25</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/26.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p26-thumbnail.gif'></a><p>p. 26</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/27.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p27-thumbnail.gif'></a><p>p. 27</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p82-thumbnail.gif'></a><p>p. 82</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/83.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p83-thumbnail.gif'></a><p>p. 83</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/84.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p84-thumbnail.gif'></a><p>p. 84</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/85.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p85-thumbnail.gif'></a><p>p. 85</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/86.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p86-thumbnail.gif'></a><p>p. 86</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p58-thumbnail.gif'></a><p>p. 58</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p68-thumbnail.gif'></a><p>p. 68</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p69-thumbnail.gif'></a><p>p. 69</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p70-thumbnail.gif'></a><p>p. 70</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p71-thumbnail.gif'></a><p>p. 71</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-F690P2Cd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+F690P2_CD
+*********************
+
+Amends lobbying disclosure filings (Form 690)
+
+**Sample:** `F690P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F690P2_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -2730,7 +2617,7 @@ F690P2Cd contains data collected from the following filing forms, form parts and
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -2851,116 +2738,97 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p58-thumbnail.gif'></a><p>p. 58</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F690</td>
+                <td>F690</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/72.html">72</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/58.html">58</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F690</td>
-            <td>F690</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p58-thumbnail.gif'></a><p>p. 58</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F615</td>
+                <td>Form 615: Lobbyist Report</td>
+            </tr>
+        
+            <tr>
+                <td>F625</td>
+                <td>Form 625: Report of Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td>F635</td>
+                <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
+            </tr>
+        
+            <tr>
+                <td>F645</td>
+                <td>Form 645: Report of Person Spending $5,000 or More</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/72.html">72</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/58.html">58</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F615</td>
-            <td>Form 615: Lobbyist Report</td>
-        </tr>
-    
-        <tr>
-            <td>F625</td>
-            <td>Form 625: Report of Lobbying Firm</td>
-        </tr>
-    
-        <tr>
-            <td>F635</td>
-            <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
-        </tr>
-    
-        <tr>
-            <td>F645</td>
-            <td>Form 645: Report of Person Spending $5,000 or More</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-LattCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Lobbyist disclosure attachment schedules for payments
-
-**Sample:** `LATT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LATT_CD.TSV>`_
 
 
 Source Docs
@@ -2968,41 +2836,50 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/81.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p81-thumbnail.gif'></a><p>p. 81</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p82-thumbnail.gif'></a><p>p. 82</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p59-thumbnail.gif'></a><p>p. 59</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/60.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p60-thumbnail.gif'></a><p>p. 60</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/52.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p52-thumbnail.gif'></a><p>p. 52</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p53-thumbnail.gif'></a><p>p. 53</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/50.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p50-thumbnail.gif'></a><p>p. 50</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/51.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p51-thumbnail.gif'></a><p>p. 51</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p79-thumbnail.gif'></a><p>p. 79</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/80.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p80-thumbnail.gif'></a><p>p. 80</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p72-thumbnail.gif'></a><p>p. 72</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p65-thumbnail.gif'></a><p>p. 65</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p58-thumbnail.gif'></a><p>p. 58</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-LattCd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+LATT_CD
+*********************
+
+Lobbyist disclosure attachment schedules for payments
+
+**Sample:** `LATT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LATT_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -3020,7 +2897,7 @@ LattCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -3222,189 +3099,158 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/80.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p80-thumbnail.gif'></a><p>p. 80</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p65-thumbnail.gif'></a><p>p. 65</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>FRM</td>
+                <td>Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td>IND</td>
+                <td>Person (spending &gt; $5000)</td>
+            </tr>
+        
+            <tr>
+                <td>LBY</td>
+                <td>Lobbyist (an individual)</td>
+            </tr>
+        
+            <tr>
+                <td>LCO</td>
+                <td>Lobbying Coalition</td>
+            </tr>
+        
+            <tr>
+                <td>LEM</td>
+                <td>Lobbying Employer</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/80.html">80</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html">65</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>FRM</td>
-            <td>Lobbying Firm</td>
-        </tr>
-    
-        <tr>
-            <td>IND</td>
-            <td>Person (spending &gt; $5000)</td>
-        </tr>
-    
-        <tr>
-            <td>LBY</td>
-            <td>Lobbyist (an individual)</td>
-        </tr>
-    
-        <tr>
-            <td>LCO</td>
-            <td>Lobbying Coalition</td>
-        </tr>
-    
-        <tr>
-            <td>LEM</td>
-            <td>Lobbying Employer</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient Committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/52.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p52-thumbnail.gif'></a><p>p. 52</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p79-thumbnail.gif'></a><p>p. 79</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p65-thumbnail.gif'></a><p>p. 65</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>S630</td>
+                <td>Schedule 630: Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) </td>
+            </tr>
+        
+            <tr>
+                <td>S635-C</td>
+                <td>Schedule 635C: Payments Received by Lobbying Coalitions</td>
+            </tr>
+        
+            <tr>
+                <td>S640</td>
+                <td>Schedule 640: Governmental Agencies Reporting (Attachment to Form 635 or Form 645)</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/52.html">52</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html">79</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html">65</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>S630</td>
-            <td>Schedule 630: Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) </td>
-        </tr>
-    
-        <tr>
-            <td>S635-C</td>
-            <td>Schedule 635C: Payments Received by Lobbying Coalitions</td>
-        </tr>
-    
-        <tr>
-            <td>S640</td>
-            <td>Schedule 640: Governmental Agencies Reporting (Attachment to Form 635 or Form 645)</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p79-thumbnail.gif'></a><p>p. 79</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p65-thumbnail.gif'></a><p>p. 65</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>LATT</td>
+                <td>LATT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html">79</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html">65</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>LATT</td>
-            <td>LATT</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-LccmCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Lobbying campaign contributions reported on Forms 615 Part 2,
-625 Part 4B, 635 Part 4B and the 645 Part 3B.
-
-**Sample:** `LCCM_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LCCM_CD.TSV>`_
 
 
 Source Docs
@@ -3412,41 +3258,51 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/83.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p83-thumbnail.gif'></a><p>p. 83</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/84.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p84-thumbnail.gif'></a><p>p. 84</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/81.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p81-thumbnail.gif'></a><p>p. 81</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p82-thumbnail.gif'></a><p>p. 82</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p54-thumbnail.gif'></a><p>p. 54</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/55.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p55-thumbnail.gif'></a><p>p. 55</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/52.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p52-thumbnail.gif'></a><p>p. 52</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p53-thumbnail.gif'></a><p>p. 53</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p78-thumbnail.gif'></a><p>p. 78</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p79-thumbnail.gif'></a><p>p. 79</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p79-thumbnail.gif'></a><p>p. 79</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/80.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p80-thumbnail.gif'></a><p>p. 80</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p65-thumbnail.gif'></a><p>p. 65</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-LccmCd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+LCCM_CD
+*********************
+
+Lobbying campaign contributions reported on Forms 615 Part 2,
+625 Part 4B, 635 Part 4B and the 645 Part 3B.
+
+**Sample:** `LCCM_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LCCM_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -3468,7 +3324,7 @@ LccmCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -3706,60 +3562,160 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p78-thumbnail.gif'></a><p>p. 78</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>COM</td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td>RCP</td>
+                <td>Recipient Committee</td>
+            </tr>
+        
+            <tr>
+                <td>CTL</td>
+                <td>Controlled committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html">78</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html">64</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>COM</td>
-            <td>Committee</td>
-        </tr>
-    
-        <tr>
-            <td>RCP</td>
-            <td>Recipient Committee</td>
-        </tr>
-    
-        <tr>
-            <td>CTL</td>
-            <td>Controlled committee</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
+
+form_type
+----------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F615P2</td>
+                <td>Form 615 (Lobbyist Report): Part 2, Campaign Contributions Made or Delivered</td>
+            </tr>
+        
+            <tr>
+                <td>F625P4B</td>
+                <td>Form 625 (Report of Lobbying Firm): Part 4: Campaign Contributions Made</td>
+            </tr>
+        
+            <tr>
+                <td>F635P4B</td>
+                <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 4: Campaign Contributions Made</td>
+            </tr>
+        
+            <tr>
+                <td>F645P3B</td>
+                <td>Form 645 (Report of Person Spending $5,000 or More): Part 3: Campaign Contributions Made</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html">78</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html">79</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html">64</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+rec_type
+----------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>LCCM</td>
+                <td>LCCM</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html">78</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html">64</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/83.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p83-thumbnail.gif'></a><p>p. 83</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/84.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p84-thumbnail.gif'></a><p>p. 84</p></div></div>
+
+
+*MapCalFormat2Fields*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p54-thumbnail.gif'></a><p>p. 54</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/55.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p55-thumbnail.gif'></a><p>p. 55</p></div></div>
 
 
 *Cal-Format-201*
@@ -3778,136 +3734,22 @@ Look-up Codes
 
 
 
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F615P2</td>
-            <td>Form 615 (Lobbyist Report): Part 2, Campaign Contributions Made or Delivered</td>
-        </tr>
-    
-        <tr>
-            <td>F625P4B</td>
-            <td>Form 625 (Report of Lobbying Firm): Part 4: Campaign Contributions Made</td>
-        </tr>
-    
-        <tr>
-            <td>F635P4B</td>
-            <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 4: Campaign Contributions Made</td>
-        </tr>
-    
-        <tr>
-            <td>F645P3B</td>
-            <td>Form 645 (Report of Person Spending $5,000 or More): Part 3: Campaign Contributions Made</td>
-        </tr>
-    
-    </tbody>
-    </table>
-    </div>
-
-*rec_type*
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p78-thumbnail.gif'></a><p>p. 78</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
-
-
-
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>LCCM</td>
-            <td>LCCM</td>
-        </tr>
-    
-    </tbody>
-    </table>
-    </div>
-
-
 
 
 
 ------------
 
-LempCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LEMP_CD
+*********************
 
 Lobbyist employers and subcontracted clients (Form 601)
 
 **Sample:** `LEMP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEMP_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/85.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p85-thumbnail.gif'></a><p>p. 85</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/86.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p86-thumbnail.gif'></a><p>p. 86</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p56-thumbnail.gif'></a><p>p. 56</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-*Cal-Format-201*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/90.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p90-thumbnail.gif'></a><p>p. 90</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/91.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p91-thumbnail.gif'></a><p>p. 91</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
-
-
-
-
-Filing Forms
-^^^^^^^^^^^^
-LempCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -3922,7 +3764,7 @@ LempCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -4160,107 +4002,87 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*form_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/90.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p90-thumbnail.gif'></a><p>p. 90</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F601P2A</td>
+                <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section A, Lobbyist Employers</td>
+            </tr>
+        
+            <tr>
+                <td>F601P2B</td>
+                <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section B: Subcontracted Clients</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/90.html">90</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/75.html">75</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F601P2A</td>
-            <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section A, Lobbyist Employers</td>
-        </tr>
-    
-        <tr>
-            <td>F601P2B</td>
-            <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section B: Subcontracted Clients</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/90.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p90-thumbnail.gif'></a><p>p. 90</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>LEMP</td>
+                <td>LEMP</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/90.html">90</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/75.html">75</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>LEMP</td>
-            <td>LEMP</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-LexpCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Lobbying activity expenditures schedule information, reported in
-Forms 615 Part 1, 625 Part 3A, 635 Part 3C, and 645 Part 2A.
-
-**Sample:** `LEXP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEXP_CD.TSV>`_
 
 
 Source Docs
@@ -4268,41 +4090,51 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/86.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p86-thumbnail.gif'></a><p>p. 86</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/87.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p87-thumbnail.gif'></a><p>p. 87</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/85.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p85-thumbnail.gif'></a><p>p. 85</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/86.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p86-thumbnail.gif'></a><p>p. 86</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p58-thumbnail.gif'></a><p>p. 58</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p59-thumbnail.gif'></a><p>p. 59</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p56-thumbnail.gif'></a><p>p. 56</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p74-thumbnail.gif'></a><p>p. 74</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/90.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p90-thumbnail.gif'></a><p>p. 90</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/91.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p91-thumbnail.gif'></a><p>p. 91</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p61-thumbnail.gif'></a><p>p. 61</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-LexpCd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+LEXP_CD
+*********************
+
+Lobbying activity expenditures schedule information, reported in
+Forms 615 Part 1, 625 Part 3A, 635 Part 3C, and 645 Part 2A.
+
+**Sample:** `LEXP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEXP_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -4324,7 +4156,7 @@ LexpCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -4571,206 +4403,179 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*entity_cd*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p61-thumbnail.gif'></a><p>p. 61</p></div></div>
-
-
-
+entity_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>IND</td>
+                <td>Person (spending &gt; $5000)</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/75.html">75</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html">61</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>IND</td>
-            <td>Person (spending &gt; $5000)</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p61-thumbnail.gif'></a><p>p. 61</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F615P1</td>
+                <td>Form 615 (Lobbyist Report): Part 1, Activity Expenses Paid, Incurred, Arranged or Provided by the Lobbyist</td>
+            </tr>
+        
+            <tr>
+                <td>F625P3A</td>
+                <td>Form 625 (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section A: Activity Expenses</td>
+            </tr>
+        
+            <tr>
+                <td>F635P3C</td>
+                <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section C: Activity Expenses</td>
+            </tr>
+        
+            <tr>
+                <td>F645P2A</td>
+                <td>Form 645 (Report of Person Spending $5,000 or More): Part 2 (Payments Made this Period), Section A: Activity Expenses</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html">74</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html">61</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F615P1</td>
-            <td>Form 615 (Lobbyist Report): Part 1, Activity Expenses Paid, Incurred, Arranged or Provided by the Lobbyist</td>
-        </tr>
-    
-        <tr>
-            <td>F625P3A</td>
-            <td>Form 625 (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section A: Activity Expenses</td>
-        </tr>
-    
-        <tr>
-            <td>F635P3C</td>
-            <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section C: Activity Expenses</td>
-        </tr>
-    
-        <tr>
-            <td>F645P2A</td>
-            <td>Form 645 (Report of Person Spending $5,000 or More): Part 2 (Payments Made this Period), Section A: Activity Expenses</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p61-thumbnail.gif'></a><p>p. 61</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>LEXP</td>
+                <td>LEXP</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html">74</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html">61</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>LEXP</td>
-            <td>LEXP</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*recsubtype*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p61-thumbnail.gif'></a><p>p. 61</p></div></div>
-
-
-
+recsubtype
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>1</td>
+                <td>Main</td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td>Detail</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html">74</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html">61</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>1</td>
-            <td>Main</td>
-        </tr>
-    
-        <tr>
-            <td>2</td>
-            <td>Detail</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-LobbyAmendmentsCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Lobbyist registration amendment information (Form 605 Part I).
-
-**Sample:** `LOBBY_AMENDMENTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBY_AMENDMENTS_CD.TSV>`_
 
 
 Source Docs
@@ -4778,41 +4583,50 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/90.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p90-thumbnail.gif'></a><p>p. 90</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/91.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p91-thumbnail.gif'></a><p>p. 91</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/86.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p86-thumbnail.gif'></a><p>p. 86</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/87.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p87-thumbnail.gif'></a><p>p. 87</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p64-thumbnail.gif'></a><p>p. 64</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/65.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p65-thumbnail.gif'></a><p>p. 65</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/66.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p66-thumbnail.gif'></a><p>p. 66</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p58-thumbnail.gif'></a><p>p. 58</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p59-thumbnail.gif'></a><p>p. 59</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p88-thumbnail.gif'></a><p>p. 88</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/89.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p89-thumbnail.gif'></a><p>p. 89</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p74-thumbnail.gif'></a><p>p. 74</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p61-thumbnail.gif'></a><p>p. 61</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-LobbyAmendmentsCd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+LOBBY_AMENDMENTS_CD
+*********************
+
+Lobbyist registration amendment information (Form 605 Part I).
+
+**Sample:** `LOBBY_AMENDMENTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBY_AMENDMENTS_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -4826,7 +4640,7 @@ LobbyAmendmentsCd contains data collected from the following filing forms, form 
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -5226,106 +5040,87 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*rec_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p88-thumbnail.gif'></a><p>p. 88</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F605</td>
+                <td>F605</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html">88</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/74.html">74</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F605</td>
-            <td>F605</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*form_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p88-thumbnail.gif'></a><p>p. 88</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F601</td>
+                <td>Form 601: Lobbying Firm Registration Statement</td>
+            </tr>
+        
+            <tr>
+                <td>F603</td>
+                <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html">88</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/74.html">74</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F601</td>
-            <td>Form 601: Lobbying Firm Registration Statement</td>
-        </tr>
-    
-        <tr>
-            <td>F603</td>
-            <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-LobbyingChgLogCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Holds lobbyist log data for web display
-
-**Sample:** `LOBBYING_CHG_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYING_CHG_LOG_CD.TSV>`_
 
 
 Source Docs
@@ -5333,17 +5128,51 @@ Source Docs
 
 *CalAccessTablesWeb*
 
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/90.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p90-thumbnail.gif'></a><p>p. 90</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/91.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p91-thumbnail.gif'></a><p>p. 91</p></div></div>
+
+
+*MapCalFormat2Fields*
 
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/91.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p91-thumbnail.gif'></a><p>p. 91</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/92.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p92-thumbnail.gif'></a><p>p. 92</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p64-thumbnail.gif'></a><p>p. 64</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/65.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p65-thumbnail.gif'></a><p>p. 65</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/66.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p66-thumbnail.gif'></a><p>p. 66</p></div></div>
 
 
+*Cal-Format-201*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p88-thumbnail.gif'></a><p>p. 88</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/89.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p89-thumbnail.gif'></a><p>p. 89</p></div></div>
+
+
+*Cal-Format-1-05-02*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p74-thumbnail.gif'></a><p>p. 74</p></div></div>
+
+
+
+
+
+
+
+------------
+
+*********************
+LOBBYING_CHG_LOG_CD
+*********************
+
+Holds lobbyist log data for web display
+
+**Sample:** `LOBBYING_CHG_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYING_CHG_LOG_CD.TSV>`_
 
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -5581,80 +5410,71 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
+=============
 
-*entity_type*
 
+entity_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>0</td>
-            <td>n/a</td>
-        </tr>
-    
-        <tr>
-            <td>1</td>
-            <td>Client</td>
-        </tr>
-    
-        <tr>
-            <td>2</td>
-            <td>Employer</td>
-        </tr>
-    
-        <tr>
-            <td>3</td>
-            <td>Firm</td>
-        </tr>
-    
-        <tr>
-            <td>4</td>
-            <td>Lobbyist</td>
-        </tr>
-    
-        <tr>
-            <td>10</td>
-            <td>Major Donor</td>
-        </tr>
-    
-        <tr>
-            <td>16</td>
-            <td>Recipient Committee</td>
-        </tr>
-    
-        <tr>
-            <td>20</td>
-            <td>Treasurer/Responsible Officer</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>0</td>
+                <td>n/a</td>
+            </tr>
+        
+            <tr>
+                <td>1</td>
+                <td>Client</td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td>Employer</td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td>Firm</td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td>Lobbyist</td>
+            </tr>
+        
+            <tr>
+                <td>10</td>
+                <td>Major Donor</td>
+            </tr>
+        
+            <tr>
+                <td>16</td>
+                <td>Recipient Committee</td>
+            </tr>
+        
+            <tr>
+                <td>20</td>
+                <td>Treasurer/Responsible Officer</td>
+            </tr>
+        
+        </tbody>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-LobbyistContributions1Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Lobbyist contribution disclosure table.
-
-**Sample:** `LOBBYIST_CONTRIBUTIONS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS1_CD.TSV>`_
 
 
 Source Docs
@@ -5662,17 +5482,30 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/92.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p92-thumbnail.gif'></a><p>p. 92</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/93.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p93-thumbnail.gif'></a><p>p. 93</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/91.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p91-thumbnail.gif'></a><p>p. 91</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/92.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p92-thumbnail.gif'></a><p>p. 92</p></div></div>
 
 
+
+
+
+
+
+------------
+
+*********************
+LOBBYIST_CONTRIBUTIONS1_CD
+*********************
+
+Lobbyist contribution disclosure table.
+
+**Sample:** `LOBBYIST_CONTRIBUTIONS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS1_CD.TSV>`_
 
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -5759,10 +5592,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistContributions2Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_CONTRIBUTIONS2_CD
+*********************
 
 Lobbyist contribution disclosure table. Temporary table used to generate
 disclosure table (Lobbyist Contributions 3)
@@ -5770,22 +5605,9 @@ disclosure table (Lobbyist Contributions 3)
 **Sample:** `LOBBYIST_CONTRIBUTIONS2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS2_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/93.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p93-thumbnail.gif'></a><p>p. 93</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/94.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p94-thumbnail.gif'></a><p>p. 94</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -5872,32 +5694,21 @@ Fields
 
 
 
+
 ------------
 
-LobbyistContributions3Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_CONTRIBUTIONS3_CD
+*********************
 
 Lobbyist contribution disclosure table.
 
 **Sample:** `LOBBYIST_CONTRIBUTIONS3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS3_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/94.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p94-thumbnail.gif'></a><p>p. 94</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -5984,10 +5795,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistEmpLobbyist1Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_EMP_LOBBYIST1_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -5997,22 +5810,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_EMP_LOBBYIST1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST1_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/94.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p94-thumbnail.gif'></a><p>p. 94</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/95.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p95-thumbnail.gif'></a><p>p. 95</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -6090,10 +5890,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistEmpLobbyist2Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_EMP_LOBBYIST2_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -6103,22 +5905,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_EMP_LOBBYIST2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST2_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/95.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p95-thumbnail.gif'></a><p>p. 95</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -6196,32 +5985,21 @@ Fields
 
 
 
+
 ------------
 
-LobbyistEmployer1Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_EMPLOYER1_CD
+*********************
 
 Information for lobbyist's primary employer
 
 **Sample:** `LOBBYIST_EMPLOYER1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER1_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/97.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p97-thumbnail.gif'></a><p>p. 97</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/98.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p98-thumbnail.gif'></a><p>p. 98</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -6423,131 +6201,148 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*interest_cd*
+=============
 
 
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p19-thumbnail.gif'></a><p>p. 19</p></div></div>
-
-
-
+interest_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>40301</td>
+                <td>AGRICULTURE</td>
+            </tr>
+        
+            <tr>
+                <td>40302</td>
+                <td>EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td>40303</td>
+                <td>ENTERTAINMENT/RECREATION</td>
+            </tr>
+        
+            <tr>
+                <td>40304</td>
+                <td>FINANCE/INSURANCE</td>
+            </tr>
+        
+            <tr>
+                <td>40305</td>
+                <td>GOVERNMENT</td>
+            </tr>
+        
+            <tr>
+                <td>40306</td>
+                <td>HEALTH</td>
+            </tr>
+        
+            <tr>
+                <td>40307</td>
+                <td>LABOR UNIONS</td>
+            </tr>
+        
+            <tr>
+                <td>40308</td>
+                <td>LEGAL</td>
+            </tr>
+        
+            <tr>
+                <td>40309</td>
+                <td>LODGING/RESTAURANTS</td>
+            </tr>
+        
+            <tr>
+                <td>40310</td>
+                <td>MANUFACTURING/INDUSTRIAL</td>
+            </tr>
+        
+            <tr>
+                <td>40311</td>
+                <td>MERCHANDISE/RETAIL</td>
+            </tr>
+        
+            <tr>
+                <td>40312</td>
+                <td>MISCELLANEOUS</td>
+            </tr>
+        
+            <tr>
+                <td>40313</td>
+                <td>OIL AND GAS</td>
+            </tr>
+        
+            <tr>
+                <td>40314</td>
+                <td>POLITICAL ORGANIZATIONS</td>
+            </tr>
+        
+            <tr>
+                <td>40315</td>
+                <td>PROFESSIONAL/TRADE</td>
+            </tr>
+        
+            <tr>
+                <td>40316</td>
+                <td>PUBLIC EMPLOYEES</td>
+            </tr>
+        
+            <tr>
+                <td>40317</td>
+                <td>REAL ESTATE</td>
+            </tr>
+        
+            <tr>
+                <td>40318</td>
+                <td>TRANSPORTATION</td>
+            </tr>
+        
+            <tr>
+                <td>40319</td>
+                <td>UTILITIES</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>40301</td>
-            <td>AGRICULTURE</td>
-        </tr>
-    
-        <tr>
-            <td>40302</td>
-            <td>EDUCATION</td>
-        </tr>
-    
-        <tr>
-            <td>40303</td>
-            <td>ENTERTAINMENT/RECREATION</td>
-        </tr>
-    
-        <tr>
-            <td>40304</td>
-            <td>FINANCE/INSURANCE</td>
-        </tr>
-    
-        <tr>
-            <td>40305</td>
-            <td>GOVERNMENT</td>
-        </tr>
-    
-        <tr>
-            <td>40306</td>
-            <td>HEALTH</td>
-        </tr>
-    
-        <tr>
-            <td>40307</td>
-            <td>LABOR UNIONS</td>
-        </tr>
-    
-        <tr>
-            <td>40308</td>
-            <td>LEGAL</td>
-        </tr>
-    
-        <tr>
-            <td>40309</td>
-            <td>LODGING/RESTAURANTS</td>
-        </tr>
-    
-        <tr>
-            <td>40310</td>
-            <td>MANUFACTURING/INDUSTRIAL</td>
-        </tr>
-    
-        <tr>
-            <td>40311</td>
-            <td>MERCHANDISE/RETAIL</td>
-        </tr>
-    
-        <tr>
-            <td>40312</td>
-            <td>MISCELLANEOUS</td>
-        </tr>
-    
-        <tr>
-            <td>40313</td>
-            <td>OIL AND GAS</td>
-        </tr>
-    
-        <tr>
-            <td>40314</td>
-            <td>POLITICAL ORGANIZATIONS</td>
-        </tr>
-    
-        <tr>
-            <td>40315</td>
-            <td>PROFESSIONAL/TRADE</td>
-        </tr>
-    
-        <tr>
-            <td>40316</td>
-            <td>PUBLIC EMPLOYEES</td>
-        </tr>
-    
-        <tr>
-            <td>40317</td>
-            <td>REAL ESTATE</td>
-        </tr>
-    
-        <tr>
-            <td>40318</td>
-            <td>TRANSPORTATION</td>
-        </tr>
-    
-        <tr>
-            <td>40319</td>
-            <td>UTILITIES</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
+
+
+
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/97.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p97-thumbnail.gif'></a><p>p. 97</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/98.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p98-thumbnail.gif'></a><p>p. 98</p></div></div>
+
+
 
 
 
@@ -6555,8 +6350,9 @@ Look-up Codes
 
 ------------
 
-LobbyistEmployer2Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_EMPLOYER2_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -6566,22 +6362,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_EMPLOYER2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER2_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/98.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p98-thumbnail.gif'></a><p>p. 98</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/99.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p99-thumbnail.gif'></a><p>p. 99</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -6783,131 +6566,148 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*interest_cd*
+=============
 
 
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p19-thumbnail.gif'></a><p>p. 19</p></div></div>
-
-
-
+interest_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>40301</td>
+                <td>AGRICULTURE</td>
+            </tr>
+        
+            <tr>
+                <td>40302</td>
+                <td>EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td>40303</td>
+                <td>ENTERTAINMENT/RECREATION</td>
+            </tr>
+        
+            <tr>
+                <td>40304</td>
+                <td>FINANCE/INSURANCE</td>
+            </tr>
+        
+            <tr>
+                <td>40305</td>
+                <td>GOVERNMENT</td>
+            </tr>
+        
+            <tr>
+                <td>40306</td>
+                <td>HEALTH</td>
+            </tr>
+        
+            <tr>
+                <td>40307</td>
+                <td>LABOR UNIONS</td>
+            </tr>
+        
+            <tr>
+                <td>40308</td>
+                <td>LEGAL</td>
+            </tr>
+        
+            <tr>
+                <td>40309</td>
+                <td>LODGING/RESTAURANTS</td>
+            </tr>
+        
+            <tr>
+                <td>40310</td>
+                <td>MANUFACTURING/INDUSTRIAL</td>
+            </tr>
+        
+            <tr>
+                <td>40311</td>
+                <td>MERCHANDISE/RETAIL</td>
+            </tr>
+        
+            <tr>
+                <td>40312</td>
+                <td>MISCELLANEOUS</td>
+            </tr>
+        
+            <tr>
+                <td>40313</td>
+                <td>OIL AND GAS</td>
+            </tr>
+        
+            <tr>
+                <td>40314</td>
+                <td>POLITICAL ORGANIZATIONS</td>
+            </tr>
+        
+            <tr>
+                <td>40315</td>
+                <td>PROFESSIONAL/TRADE</td>
+            </tr>
+        
+            <tr>
+                <td>40316</td>
+                <td>PUBLIC EMPLOYEES</td>
+            </tr>
+        
+            <tr>
+                <td>40317</td>
+                <td>REAL ESTATE</td>
+            </tr>
+        
+            <tr>
+                <td>40318</td>
+                <td>TRANSPORTATION</td>
+            </tr>
+        
+            <tr>
+                <td>40319</td>
+                <td>UTILITIES</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>40301</td>
-            <td>AGRICULTURE</td>
-        </tr>
-    
-        <tr>
-            <td>40302</td>
-            <td>EDUCATION</td>
-        </tr>
-    
-        <tr>
-            <td>40303</td>
-            <td>ENTERTAINMENT/RECREATION</td>
-        </tr>
-    
-        <tr>
-            <td>40304</td>
-            <td>FINANCE/INSURANCE</td>
-        </tr>
-    
-        <tr>
-            <td>40305</td>
-            <td>GOVERNMENT</td>
-        </tr>
-    
-        <tr>
-            <td>40306</td>
-            <td>HEALTH</td>
-        </tr>
-    
-        <tr>
-            <td>40307</td>
-            <td>LABOR UNIONS</td>
-        </tr>
-    
-        <tr>
-            <td>40308</td>
-            <td>LEGAL</td>
-        </tr>
-    
-        <tr>
-            <td>40309</td>
-            <td>LODGING/RESTAURANTS</td>
-        </tr>
-    
-        <tr>
-            <td>40310</td>
-            <td>MANUFACTURING/INDUSTRIAL</td>
-        </tr>
-    
-        <tr>
-            <td>40311</td>
-            <td>MERCHANDISE/RETAIL</td>
-        </tr>
-    
-        <tr>
-            <td>40312</td>
-            <td>MISCELLANEOUS</td>
-        </tr>
-    
-        <tr>
-            <td>40313</td>
-            <td>OIL AND GAS</td>
-        </tr>
-    
-        <tr>
-            <td>40314</td>
-            <td>POLITICAL ORGANIZATIONS</td>
-        </tr>
-    
-        <tr>
-            <td>40315</td>
-            <td>PROFESSIONAL/TRADE</td>
-        </tr>
-    
-        <tr>
-            <td>40316</td>
-            <td>PUBLIC EMPLOYEES</td>
-        </tr>
-    
-        <tr>
-            <td>40317</td>
-            <td>REAL ESTATE</td>
-        </tr>
-    
-        <tr>
-            <td>40318</td>
-            <td>TRANSPORTATION</td>
-        </tr>
-    
-        <tr>
-            <td>40319</td>
-            <td>UTILITIES</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
+
+
+
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/98.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p98-thumbnail.gif'></a><p>p. 98</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/99.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p99-thumbnail.gif'></a><p>p. 99</p></div></div>
+
+
 
 
 
@@ -6915,8 +6715,9 @@ Look-up Codes
 
 ------------
 
-LobbyistEmployer3Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_EMPLOYER3_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -6926,22 +6727,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_EMPLOYER3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER3_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/99.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p99-thumbnail.gif'></a><p>p. 99</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -7143,131 +6931,148 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*interest_cd*
+=============
 
 
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p19-thumbnail.gif'></a><p>p. 19</p></div></div>
-
-
-
+interest_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>40301</td>
+                <td>AGRICULTURE</td>
+            </tr>
+        
+            <tr>
+                <td>40302</td>
+                <td>EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td>40303</td>
+                <td>ENTERTAINMENT/RECREATION</td>
+            </tr>
+        
+            <tr>
+                <td>40304</td>
+                <td>FINANCE/INSURANCE</td>
+            </tr>
+        
+            <tr>
+                <td>40305</td>
+                <td>GOVERNMENT</td>
+            </tr>
+        
+            <tr>
+                <td>40306</td>
+                <td>HEALTH</td>
+            </tr>
+        
+            <tr>
+                <td>40307</td>
+                <td>LABOR UNIONS</td>
+            </tr>
+        
+            <tr>
+                <td>40308</td>
+                <td>LEGAL</td>
+            </tr>
+        
+            <tr>
+                <td>40309</td>
+                <td>LODGING/RESTAURANTS</td>
+            </tr>
+        
+            <tr>
+                <td>40310</td>
+                <td>MANUFACTURING/INDUSTRIAL</td>
+            </tr>
+        
+            <tr>
+                <td>40311</td>
+                <td>MERCHANDISE/RETAIL</td>
+            </tr>
+        
+            <tr>
+                <td>40312</td>
+                <td>MISCELLANEOUS</td>
+            </tr>
+        
+            <tr>
+                <td>40313</td>
+                <td>OIL AND GAS</td>
+            </tr>
+        
+            <tr>
+                <td>40314</td>
+                <td>POLITICAL ORGANIZATIONS</td>
+            </tr>
+        
+            <tr>
+                <td>40315</td>
+                <td>PROFESSIONAL/TRADE</td>
+            </tr>
+        
+            <tr>
+                <td>40316</td>
+                <td>PUBLIC EMPLOYEES</td>
+            </tr>
+        
+            <tr>
+                <td>40317</td>
+                <td>REAL ESTATE</td>
+            </tr>
+        
+            <tr>
+                <td>40318</td>
+                <td>TRANSPORTATION</td>
+            </tr>
+        
+            <tr>
+                <td>40319</td>
+                <td>UTILITIES</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>40301</td>
-            <td>AGRICULTURE</td>
-        </tr>
-    
-        <tr>
-            <td>40302</td>
-            <td>EDUCATION</td>
-        </tr>
-    
-        <tr>
-            <td>40303</td>
-            <td>ENTERTAINMENT/RECREATION</td>
-        </tr>
-    
-        <tr>
-            <td>40304</td>
-            <td>FINANCE/INSURANCE</td>
-        </tr>
-    
-        <tr>
-            <td>40305</td>
-            <td>GOVERNMENT</td>
-        </tr>
-    
-        <tr>
-            <td>40306</td>
-            <td>HEALTH</td>
-        </tr>
-    
-        <tr>
-            <td>40307</td>
-            <td>LABOR UNIONS</td>
-        </tr>
-    
-        <tr>
-            <td>40308</td>
-            <td>LEGAL</td>
-        </tr>
-    
-        <tr>
-            <td>40309</td>
-            <td>LODGING/RESTAURANTS</td>
-        </tr>
-    
-        <tr>
-            <td>40310</td>
-            <td>MANUFACTURING/INDUSTRIAL</td>
-        </tr>
-    
-        <tr>
-            <td>40311</td>
-            <td>MERCHANDISE/RETAIL</td>
-        </tr>
-    
-        <tr>
-            <td>40312</td>
-            <td>MISCELLANEOUS</td>
-        </tr>
-    
-        <tr>
-            <td>40313</td>
-            <td>OIL AND GAS</td>
-        </tr>
-    
-        <tr>
-            <td>40314</td>
-            <td>POLITICAL ORGANIZATIONS</td>
-        </tr>
-    
-        <tr>
-            <td>40315</td>
-            <td>PROFESSIONAL/TRADE</td>
-        </tr>
-    
-        <tr>
-            <td>40316</td>
-            <td>PUBLIC EMPLOYEES</td>
-        </tr>
-    
-        <tr>
-            <td>40317</td>
-            <td>REAL ESTATE</td>
-        </tr>
-    
-        <tr>
-            <td>40318</td>
-            <td>TRANSPORTATION</td>
-        </tr>
-    
-        <tr>
-            <td>40319</td>
-            <td>UTILITIES</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
+
+
+
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/99.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p99-thumbnail.gif'></a><p>p. 99</p></div></div>
+
+
 
 
 
@@ -7275,8 +7080,9 @@ Look-up Codes
 
 ------------
 
-LobbyistEmployerFirms1Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_EMPLOYER_FIRMS1_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -7286,22 +7092,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_EMPLOYER_FIRMS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS1_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/95.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p95-thumbnail.gif'></a><p>p. 95</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/96.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p96-thumbnail.gif'></a><p>p. 96</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -7370,10 +7163,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistEmployerFirms2Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_EMPLOYER_FIRMS2_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -7383,22 +7178,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_EMPLOYER_FIRMS2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS2_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/96.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p96-thumbnail.gif'></a><p>p. 96</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -7467,10 +7249,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistEmployerHistoryCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_EMPLOYER_HISTORY_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -7480,22 +7264,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_EMPLOYER_HISTORY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_HISTORY_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/96.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p96-thumbnail.gif'></a><p>p. 96</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/97.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p97-thumbnail.gif'></a><p>p. 97</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -7697,131 +7468,148 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*interest_cd*
+=============
 
 
-*Lookup-Codes-Cd*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2774529/pages/Lookup-Codes-Cd-p19-thumbnail.gif'></a><p>p. 19</p></div></div>
-
-
-
+interest_cd
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>40301</td>
+                <td>AGRICULTURE</td>
+            </tr>
+        
+            <tr>
+                <td>40302</td>
+                <td>EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td>40303</td>
+                <td>ENTERTAINMENT/RECREATION</td>
+            </tr>
+        
+            <tr>
+                <td>40304</td>
+                <td>FINANCE/INSURANCE</td>
+            </tr>
+        
+            <tr>
+                <td>40305</td>
+                <td>GOVERNMENT</td>
+            </tr>
+        
+            <tr>
+                <td>40306</td>
+                <td>HEALTH</td>
+            </tr>
+        
+            <tr>
+                <td>40307</td>
+                <td>LABOR UNIONS</td>
+            </tr>
+        
+            <tr>
+                <td>40308</td>
+                <td>LEGAL</td>
+            </tr>
+        
+            <tr>
+                <td>40309</td>
+                <td>LODGING/RESTAURANTS</td>
+            </tr>
+        
+            <tr>
+                <td>40310</td>
+                <td>MANUFACTURING/INDUSTRIAL</td>
+            </tr>
+        
+            <tr>
+                <td>40311</td>
+                <td>MERCHANDISE/RETAIL</td>
+            </tr>
+        
+            <tr>
+                <td>40312</td>
+                <td>MISCELLANEOUS</td>
+            </tr>
+        
+            <tr>
+                <td>40313</td>
+                <td>OIL AND GAS</td>
+            </tr>
+        
+            <tr>
+                <td>40314</td>
+                <td>POLITICAL ORGANIZATIONS</td>
+            </tr>
+        
+            <tr>
+                <td>40315</td>
+                <td>PROFESSIONAL/TRADE</td>
+            </tr>
+        
+            <tr>
+                <td>40316</td>
+                <td>PUBLIC EMPLOYEES</td>
+            </tr>
+        
+            <tr>
+                <td>40317</td>
+                <td>REAL ESTATE</td>
+            </tr>
+        
+            <tr>
+                <td>40318</td>
+                <td>TRANSPORTATION</td>
+            </tr>
+        
+            <tr>
+                <td>40319</td>
+                <td>UTILITIES</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>40301</td>
-            <td>AGRICULTURE</td>
-        </tr>
-    
-        <tr>
-            <td>40302</td>
-            <td>EDUCATION</td>
-        </tr>
-    
-        <tr>
-            <td>40303</td>
-            <td>ENTERTAINMENT/RECREATION</td>
-        </tr>
-    
-        <tr>
-            <td>40304</td>
-            <td>FINANCE/INSURANCE</td>
-        </tr>
-    
-        <tr>
-            <td>40305</td>
-            <td>GOVERNMENT</td>
-        </tr>
-    
-        <tr>
-            <td>40306</td>
-            <td>HEALTH</td>
-        </tr>
-    
-        <tr>
-            <td>40307</td>
-            <td>LABOR UNIONS</td>
-        </tr>
-    
-        <tr>
-            <td>40308</td>
-            <td>LEGAL</td>
-        </tr>
-    
-        <tr>
-            <td>40309</td>
-            <td>LODGING/RESTAURANTS</td>
-        </tr>
-    
-        <tr>
-            <td>40310</td>
-            <td>MANUFACTURING/INDUSTRIAL</td>
-        </tr>
-    
-        <tr>
-            <td>40311</td>
-            <td>MERCHANDISE/RETAIL</td>
-        </tr>
-    
-        <tr>
-            <td>40312</td>
-            <td>MISCELLANEOUS</td>
-        </tr>
-    
-        <tr>
-            <td>40313</td>
-            <td>OIL AND GAS</td>
-        </tr>
-    
-        <tr>
-            <td>40314</td>
-            <td>POLITICAL ORGANIZATIONS</td>
-        </tr>
-    
-        <tr>
-            <td>40315</td>
-            <td>PROFESSIONAL/TRADE</td>
-        </tr>
-    
-        <tr>
-            <td>40316</td>
-            <td>PUBLIC EMPLOYEES</td>
-        </tr>
-    
-        <tr>
-            <td>40317</td>
-            <td>REAL ESTATE</td>
-        </tr>
-    
-        <tr>
-            <td>40318</td>
-            <td>TRANSPORTATION</td>
-        </tr>
-    
-        <tr>
-            <td>40319</td>
-            <td>UTILITIES</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
+
+
+
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/96.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p96-thumbnail.gif'></a><p>p. 96</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/97.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p97-thumbnail.gif'></a><p>p. 97</p></div></div>
+
+
 
 
 
@@ -7829,8 +7617,9 @@ Look-up Codes
 
 ------------
 
-LobbyistFirm1Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_FIRM1_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -7840,22 +7629,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_FIRM1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM1_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/103.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p103-thumbnail.gif'></a><p>p. 103</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/104.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p104-thumbnail.gif'></a><p>p. 104</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -8041,10 +7817,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistFirm2Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_FIRM2_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -8054,22 +7832,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_FIRM2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM2_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/104.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p104-thumbnail.gif'></a><p>p. 104</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -8255,10 +8020,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistFirm3Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_FIRM3_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -8268,22 +8035,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_FIRM3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM3_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/105.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p105-thumbnail.gif'></a><p>p. 105</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -8469,10 +8223,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistFirmEmployer1Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_FIRM_EMPLOYER1_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -8482,22 +8238,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_FIRM_EMPLOYER1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER1_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/100.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p100-thumbnail.gif'></a><p>p. 100</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -8620,10 +8363,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistFirmEmployer2Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_FIRM_EMPLOYER2_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -8633,22 +8378,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_FIRM_EMPLOYER2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER2_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/100.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p100-thumbnail.gif'></a><p>p. 100</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/101.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p101-thumbnail.gif'></a><p>p. 101</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -8771,10 +8503,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistFirmHistoryCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_FIRM_HISTORY_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -8784,22 +8518,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_FIRM_HISTORY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_HISTORY_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/101.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p101-thumbnail.gif'></a><p>p. 101</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/102.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p102-thumbnail.gif'></a><p>p. 102</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -8985,10 +8706,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistFirmLobbyist1Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_FIRM_LOBBYIST1_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -8998,22 +8721,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_FIRM_LOBBYIST1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST1_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/102.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p102-thumbnail.gif'></a><p>p. 102</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -9091,10 +8801,12 @@ Fields
 
 
 
+
 ------------
 
-LobbyistFirmLobbyist2Cd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOBBYIST_FIRM_LOBBYIST2_CD
+*********************
 
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
@@ -9104,22 +8816,9 @@ should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 **Sample:** `LOBBYIST_FIRM_LOBBYIST2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST2_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/102.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p102-thumbnail.gif'></a><p>p. 102</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/103.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p103-thumbnail.gif'></a><p>p. 103</p></div></div>
-
-
-
-
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -9197,56 +8896,20 @@ Fields
 
 
 
+
 ------------
 
-LothCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+LOTH_CD
+*********************
 
 Payment to other lobbying firms listed of Form 625 Part 3B
 
 **Sample:** `LOTH_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOTH_CD.TSV>`_
 
 
-Source Docs
-^^^^^^^^^^^
-
-*CalAccessTablesWeb*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/106.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p106-thumbnail.gif'></a><p>p. 106</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/107.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p107-thumbnail.gif'></a><p>p. 107</p></div></div>
-
-
-*MapCalFormat2Fields*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/67.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p67-thumbnail.gif'></a><p>p. 67</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p68-thumbnail.gif'></a><p>p. 68</p></div></div>
-
-
-*Cal-Format-201*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p77-thumbnail.gif'></a><p>p. 77</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p78-thumbnail.gif'></a><p>p. 78</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/63.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p63-thumbnail.gif'></a><p>p. 63</p></div></div>
-
-
-
-
-Filing Forms
-^^^^^^^^^^^^
-LothCd contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 
 
@@ -9256,7 +8919,7 @@ LothCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -9458,102 +9121,82 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
-
-*form_type*
+=============
 
 
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p77-thumbnail.gif'></a><p>p. 77</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/63.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p63-thumbnail.gif'></a><p>p. 63</p></div></div>
-
-
-
+form_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F625P3B</td>
+                <td>Form 625 (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html">77</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/63.html">63</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F625P3B</td>
-            <td>Form 625 (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-*rec_type*
 
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p77-thumbnail.gif'></a><p>p. 77</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/63.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p63-thumbnail.gif'></a><p>p. 63</p></div></div>
-
-
-
+rec_type
+----------------
 
 .. raw:: html
 
     <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>LOTH</td>
+                <td>LOTH</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
         <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html">77</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/63.html">63</a>)
+           </small>
+        </td>
         </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>LOTH</td>
-            <td>LOTH</td>
-        </tr>
-    
-    </tbody>
-    </table>
+        </tfoot>
+        
+        </table>
     </div>
 
-
-
-
-
-------------
-
-LpayCd
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Payments made or received by lobbying firms, reported on
-Form 625 Part 2 and 635 Part 3B
-
-**Sample:** `LPAY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LPAY_CD.TSV>`_
 
 
 Source Docs
@@ -9561,41 +9204,51 @@ Source Docs
 
 *CalAccessTablesWeb*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/107.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p107-thumbnail.gif'></a><p>p. 107</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/108.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p108-thumbnail.gif'></a><p>p. 108</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/109.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p109-thumbnail.gif'></a><p>p. 109</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/106.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p106-thumbnail.gif'></a><p>p. 106</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/107.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p107-thumbnail.gif'></a><p>p. 107</p></div></div>
 
 
 *MapCalFormat2Fields*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p69-thumbnail.gif'></a><p>p. 69</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p70-thumbnail.gif'></a><p>p. 70</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/67.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p67-thumbnail.gif'></a><p>p. 67</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/68.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p68-thumbnail.gif'></a><p>p. 68</p></div></div>
 
 
 *Cal-Format-201*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p76-thumbnail.gif'></a><p>p. 76</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p77-thumbnail.gif'></a><p>p. 77</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p77-thumbnail.gif'></a><p>p. 77</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p78-thumbnail.gif'></a><p>p. 78</p></div></div>
 
 
 *Cal-Format-1-05-02*
 
-
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p62-thumbnail.gif'></a><p>p. 62</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/63.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p63-thumbnail.gif'></a><p>p. 63</p></div></div>
 
 
 
 
-Filing Forms
-^^^^^^^^^^^^
-LpayCd contains data collected from the following filing forms, form parts and schedules:
+
+
+
+------------
+
+*********************
+LPAY_CD
+*********************
+
+Payments made or received by lobbying firms, reported on
+Form 625 Part 2 and 635 Part 3B
+
+**Sample:** `LPAY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LPAY_CD.TSV>`_
+
+
+Filing forms
+============
 
 
 
@@ -9609,7 +9262,7 @@ LpayCd contains data collected from the following filing forms, form parts and s
 
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -9865,17 +9518,167 @@ Fields
     </table>
     </div>
 
+
 Look-up Codes
-^^^^^^^^^^^^^
+=============
 
-*entity_cd*
+
+entity_cd
+----------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>FRM</td>
+                <td>Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td>LCO</td>
+                <td>Lobbying Coalition</td>
+            </tr>
+        
+            <tr>
+                <td>LEM</td>
+                <td>Lobbying Employer</td>
+            </tr>
+        
+            <tr>
+                <td>OTH</td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td>128</td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html">76</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html">62</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+form_type
+----------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>F625P2</td>
+                <td>Form 625 (Report of Lobbying Firm): Part 2, Payments Received in Connection with Lobbying Activity</td>
+            </tr>
+        
+            <tr>
+                <td>F635P3B</td>
+                <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section B: Payments To Lobbying Firms</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html">76</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html">62</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+rec_type
+----------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td>LPAY</td>
+                <td>LPAY</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html">76</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html">62</a>)
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+Source Docs
+^^^^^^^^^^^
+
+*CalAccessTablesWeb*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/107.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p107-thumbnail.gif'></a><p>p. 107</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/108.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p108-thumbnail.gif'></a><p>p. 108</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/109.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p109-thumbnail.gif'></a><p>p. 109</p></div></div>
+
+
+*MapCalFormat2Fields*
+
+.. raw:: html
+
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/69.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p69-thumbnail.gif'></a><p>p. 69</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/70.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p70-thumbnail.gif'></a><p>p. 70</p></div></div>
 
 
 *Cal-Format-201*
 
 .. raw:: html
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p76-thumbnail.gif'></a><p>p. 76</p></div></div>
+    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p76-thumbnail.gif'></a><p>p. 76</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p77-thumbnail.gif'></a><p>p. 77</p></div></div>
 
 
 *Cal-Format-1-05-02*
@@ -9885,133 +9688,6 @@ Look-up Codes
     <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p62-thumbnail.gif'></a><p>p. 62</p></div></div>
 
 
-
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>FRM</td>
-            <td>Lobbying Firm</td>
-        </tr>
-    
-        <tr>
-            <td>LCO</td>
-            <td>Lobbying Coalition</td>
-        </tr>
-    
-        <tr>
-            <td>LEM</td>
-            <td>Lobbying Employer</td>
-        </tr>
-    
-        <tr>
-            <td>OTH</td>
-            <td>Other</td>
-        </tr>
-    
-        <tr>
-            <td>128</td>
-            <td>Unknown</td>
-        </tr>
-    
-    </tbody>
-    </table>
-    </div>
-
-*form_type*
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p76-thumbnail.gif'></a><p>p. 76</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p62-thumbnail.gif'></a><p>p. 62</p></div></div>
-
-
-
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>F625P2</td>
-            <td>Form 625 (Report of Lobbying Firm): Part 2, Payments Received in Connection with Lobbying Activity</td>
-        </tr>
-    
-        <tr>
-            <td>F635P3B</td>
-            <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section B: Payments To Lobbying Firms</td>
-        </tr>
-    
-    </tbody>
-    </table>
-    </div>
-
-*rec_type*
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p76-thumbnail.gif'></a><p>p. 76</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p62-thumbnail.gif'></a><p>p. 62</p></div></div>
-
-
-
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-        <tr>
-            <td>LPAY</td>
-            <td>LPAY</td>
-        </tr>
-    
-    </tbody>
-    </table>
-    </div>
 
 
 

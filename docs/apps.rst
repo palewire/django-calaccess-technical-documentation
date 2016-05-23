@@ -1,7 +1,7 @@
 The Django apps
 ===============
 
-This section dives into the full set of features available in each of our apps. It may only be appropriate for advanced users interested in using individual components of the CAL-ACCESS data pipeline.
+The full set of features available in each of our Django applications.
 
 .. toctree::
    :maxdepth: 1

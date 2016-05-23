@@ -1,40 +1,23 @@
+================================
 {{ group_name|capfirst }} tables
 ================================
 
 {% block content %}{% endblock %}
-.. warning::
-
-    Most definitions below are drawn from the spotty and incomplete `official documentation <officialdocumentation.html>`_ verbatim. As we continue our research, we plan to improve the descriptions.
-
-    For the time being, to be absolutely certain about what each table and field contains, you should compare the electronic data back to the original paper records published by the state.
 {% for object in model_list %}
 
 ------------
 
-{{ object.klass_name }}
-~~~~~~~~~~~~~~~~~~~~~~~~~
+*********************
+{{ object.db_table }}
+*********************
 
 {{ object.doc.strip|safe }}
 
 **Sample:** `{{ object.get_tsv_name }} <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/{{ object.get_tsv_name }}>`_
 
-{% if object.DOCUMENTCLOUD_PAGES|length > 0 %}
-Source Docs
-^^^^^^^^^^^
-{% for doc, pages in object.docs.items %}
-*{{ doc }}*
-
-
-.. raw:: html
-
-    <div class="doc_pages_container">{% for page in pages %}<div class="doc_page_frame"><a class="reference external image-reference" href="{{ page.canonical_url }}"><img class='doc_page' src='{{ page.thumbnail_url }}'></a><p>p. {{ page.num }}</p></div>{% endfor %}</div>
-
-{% endfor %}
-{% endif %}
 {% if object.FILING_FORMS|length > 0 %}
-Filing Forms
-^^^^^^^^^^^^
-{{ object.klass_name }} contains data collected from the following filing forms, form parts and schedules:
+Filing forms
+============
 
 {% for form, sections in object.get_filing_forms_w_sections %}
 {% if sections|length > 1 %}
@@ -51,7 +34,7 @@ Filing Forms
 {% endif %}
 
 Fields
-^^^^^^
+======
 
 .. raw:: html
 
@@ -79,13 +62,52 @@ Fields
     </tbody>
     </table>
     </div>
+
 {% if object.choice_fields|length > 0 %}
 Look-up Codes
-^^^^^^^^^^^^^
+=============
 {% for field in object.choice_fields %}
-*{{ field.name }}*
-{% if field.documentcloud_pages|length > 0%}
-{% for doc, pages in field.docs.items %}
+
+{{ field.name }}
+----------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        {% for choice in field.choices %}
+            <tr>
+                <td>{{ choice.0 }}</td>
+                <td>{{ choice.1 }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+        {% if field.documentcloud_pages|length > 0%}
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources: {% for doc, pages in field.docs.items %}{{ doc }} ({% for page in pages %}<a class="reference external image-reference" href="{{ page.canonical_url }}">{{ page.num }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}){% if not forloop.last %}, {% endif %}{% endfor %}
+           </small>
+        </td>
+        </tr>
+        </tfoot>
+        {% endif %}
+        </table>
+    </div>
+{% endfor %}
+
+{% if object.DOCUMENTCLOUD_PAGES|length > 0 %}
+Source Docs
+^^^^^^^^^^^
+{% for doc, pages in object.docs.items %}
 *{{ doc }}*
 
 .. raw:: html
@@ -94,28 +116,6 @@ Look-up Codes
 
 {% endfor %}
 {% endif %}
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Code</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    {% for choice in field.choices %}
-        <tr>
-            <td>{{ choice.0 }}</td>
-            <td>{{ choice.1 }}</td>
-        </tr>
-    {% endfor %}
-    </tbody>
-    </table>
-    </div>
-{% endfor %}
 
 {% endif %}
 {% endfor %}

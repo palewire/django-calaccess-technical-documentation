@@ -7,6 +7,8 @@ As with any Django app management command, these can be invoked on the command l
 
 ----------------------
 
+.. _updatecalaccessrawdata:
+
 updatecalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -177,7 +179,8 @@ Here is how to run the command.
 
     $ python manage.py downloadcalaccessrawdata
 
-You will then see a prompt notifying you about the release date and size of the currently available version of the CAL-ACCESS database and how long ago you last download completed.
+You will then see a prompt notifying you about the release date and size of the
+currently available version of the CAL-ACCESS database and how long ago your last download completed.
 
 If your previous download did not complete, and the same version of CAL-ACCESS is still available, you will be prompted to resume you previous download.
 

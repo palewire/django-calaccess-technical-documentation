@@ -1,17 +1,28 @@
-For Document Writers
-====================
+For documentation writers
+=========================
 
-We're maintaining a single `repository <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_ for all documents related to the Django CAL-ACCESS project. This section is for anyone who wants to contribute to these documents.
+We're maintaining a single `repository <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_
+for all documents related to the Django CAL-ACCESS project. This section is for
+anyone who wants to contribute to these documents.
+
+---------------
+
 
 Do I need to know Python (or Django)?
 -------------------------------------
 
 No. But you should be familiar with the syntax of `reStructuredText <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`_, since that's the format in which these documents are written.
 
+---------------
+
+
 Which files should I edit?
 --------------------------
 
 Generally, you should be editing the ``.rst`` files in ``docs/`` directory, rather than any of the ``.html`` files in the ``_build/`` directory. The ``.html`` files are compiled using Python's `Sphinx <http://www.sphinx-doc.org/en/stable/>`_ documentation framework (for more on this, see `Viewing Local Changes <#viewing-local-changes>`_).
+
+---------------
+
 
 Editing Database Tables or Filing Forms Docs
 --------------------------------------------
@@ -21,6 +32,9 @@ The docs inside the `Database tables <calaccess/dbtables.html>`_ and `Filing for
 Probably your edit will require a change somewhere in the `raw-data <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_ app. If you can't figure it out on your own, feel free to `file an issue <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation/issues>`_ with us, and we'll get on it.
 
 (If you interested in how this works, check out the management commands in ``src/toolbox`` inside the `technical documentation <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_ repo).
+
+---------------
+
 
 Preparing a local environment
 -----------------------------
@@ -46,6 +60,9 @@ Next install the other Python libraries our code depends on.
 .. code-block:: bash
 
     $ pip install -r requirements.txt
+
+---------------
+
 
 Viewing changes locally
 -----------------------

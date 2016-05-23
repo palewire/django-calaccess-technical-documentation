@@ -2,15 +2,6 @@
 ================================
 
 {% block content %}{% endblock %}
-.. warning::
-
-    Most definitions below are drawn from the spotty and incomplete
-    :doc:`state documentation </calaccess/officialdocumentation>`.
-    We cannot vouch for its accuracy in all circumstances.
-
-    To be absolutely certain about what each table and field contains, you should
-    compare the electronic data to the underlying paper records published by the state.
-
 {% for object in model_list %}
 
 ------------

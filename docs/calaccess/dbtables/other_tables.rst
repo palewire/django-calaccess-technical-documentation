@@ -4,15 +4,6 @@ Other tables
 
 The CAL-ACCESS database contains 23 tables not categorized anywhere in the `official documentation <calaccess/officialdocumentation.html>`_ as being specific to campaign finance filings, specific to lobbyist disclosure or common to both domains. These tables are outlined below.
 
-.. warning::
-
-    Most definitions below are drawn from the spotty and incomplete
-    :doc:`state documentation </calaccess/officialdocumentation>`.
-    We cannot vouch for its accuracy in all circumstances.
-
-    To be absolutely certain about what each table and field contains, you should
-    compare the electronic data to the underlying paper records published by the state.
-
 
 
 ------------

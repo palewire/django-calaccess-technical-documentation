@@ -4,15 +4,6 @@ Campaign tables
 
 The CAL-ACCESS database contains 16 tables that, according to the official documentation (see `here <https://www.documentcloud.org/documents/2711617-ReadMe-Zip/pages/1.html>`_ and `here <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/3.html>`_), store information specific to campaign finance disclosure filings. These tables are outlined below.
 
-.. warning::
-
-    Most definitions below are drawn from the spotty and incomplete
-    :doc:`state documentation </calaccess/officialdocumentation>`.
-    We cannot vouch for its accuracy in all circumstances.
-
-    To be absolutely certain about what each table and field contains, you should
-    compare the electronic data to the underlying paper records published by the state.
-
 
 
 ------------

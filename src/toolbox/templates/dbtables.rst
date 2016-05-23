@@ -107,13 +107,8 @@ Look-up Codes
 {% if object.DOCUMENTCLOUD_PAGES|length > 0 %}
 Source Docs
 ^^^^^^^^^^^
-{% for doc, pages in object.docs.items %}
-*{{ doc }}*
-
-.. raw:: html
-
-    <div class="doc_pages_container">{% for page in pages %}<div class="doc_page_frame"><a class="reference external image-reference" href="{{ page.canonical_url }}"><img class='doc_page' src='{{ page.thumbnail_url }}'></a><p>p. {{ page.num }}</p></div>{% endfor %}</div>
-
+{% for doc, objects in object.docs.items %}
+* {{ doc }} ({% for object in objects %}`{{ object.start_page }} <{{ object.canonical_url }}>`_{% if object.end_page %}-`{{ object.end_page }} <{{ object.metadata.canonical_url }}#document/p{{ object.end_page }}>`_{% endif %}{% if not forloop.last %}, {% endif %}{% endfor %})
 {% endfor %}
 {% endif %}
 

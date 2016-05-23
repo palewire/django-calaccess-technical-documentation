@@ -768,33 +768,13 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`39 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p39>`_-`41 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p41>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`28 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p28>`_-`31 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p31>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p39-thumbnail.gif'></a><p>p. 39</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p40-thumbnail.gif'></a><p>p. 40</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p41-thumbnail.gif'></a><p>p. 41</p></div></div>
+* Cal-Format-201 (`59 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p59>`_-`61 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p61>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/28.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p28-thumbnail.gif'></a><p>p. 28</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p29-thumbnail.gif'></a><p>p. 29</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p30-thumbnail.gif'></a><p>p. 30</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p31-thumbnail.gif'></a><p>p. 31</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p59-thumbnail.gif'></a><p>p. 59</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/60.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p60-thumbnail.gif'></a><p>p. 60</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p61-thumbnail.gif'></a><p>p. 61</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p46-thumbnail.gif'></a><p>p. 46</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p47-thumbnail.gif'></a><p>p. 47</p></div></div>
-
+* Cal-Format-1-05-02 (`46 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p46>`_-`47 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p47>`_)
 
 
 
@@ -1805,33 +1785,13 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `45 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p45>`_-`46 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p46>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`38 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p38>`_-`40 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p40>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p45-thumbnail.gif'></a><p>p. 45</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
+* Cal-Format-201 (`62 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p62>`_-`64 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p64>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p38-thumbnail.gif'></a><p>p. 38</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p39-thumbnail.gif'></a><p>p. 39</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p40-thumbnail.gif'></a><p>p. 40</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p62-thumbnail.gif'></a><p>p. 62</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/63.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p63-thumbnail.gif'></a><p>p. 63</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/48.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p48-thumbnail.gif'></a><p>p. 48</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p49-thumbnail.gif'></a><p>p. 49</p></div></div>
-
+* Cal-Format-1-05-02 (`48 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p48>`_-`49 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p49>`_)
 
 
 
@@ -3712,33 +3672,13 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`7 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p7>`_, `25 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p25>`_-`29 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p29>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`6 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p6>`_-`14 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p14>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/7.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p7-thumbnail.gif'></a><p>p. 7</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/25.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p25-thumbnail.gif'></a><p>p. 25</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/26.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p26-thumbnail.gif'></a><p>p. 26</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/27.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p27-thumbnail.gif'></a><p>p. 27</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/28.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p28-thumbnail.gif'></a><p>p. 28</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p29-thumbnail.gif'></a><p>p. 29</p></div></div>
+* Cal-Format-201 (`22 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p22>`_-`30 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p30>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/6.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p6-thumbnail.gif'></a><p>p. 6</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/7.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p7-thumbnail.gif'></a><p>p. 7</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/9.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p9-thumbnail.gif'></a><p>p. 9</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/10.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p10-thumbnail.gif'></a><p>p. 10</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/11.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p11-thumbnail.gif'></a><p>p. 11</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/12.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p12-thumbnail.gif'></a><p>p. 12</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/14.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p14-thumbnail.gif'></a><p>p. 14</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p22-thumbnail.gif'></a><p>p. 22</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/23.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p23-thumbnail.gif'></a><p>p. 23</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p24-thumbnail.gif'></a><p>p. 24</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/25.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p25-thumbnail.gif'></a><p>p. 25</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/26.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p26-thumbnail.gif'></a><p>p. 26</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/27.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p27-thumbnail.gif'></a><p>p. 27</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/28.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p28-thumbnail.gif'></a><p>p. 28</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p30-thumbnail.gif'></a><p>p. 30</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/18.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p18-thumbnail.gif'></a><p>p. 18</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/19.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p19-thumbnail.gif'></a><p>p. 19</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/20.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p20-thumbnail.gif'></a><p>p. 20</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/21.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p21-thumbnail.gif'></a><p>p. 21</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
+* Cal-Format-1-05-02 (`18 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p18>`_-`22 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22>`_)
 
 
 
@@ -4856,33 +4796,13 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `41 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p41>`_-`43 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p43>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`32 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p32>`_-`35 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p35>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p41-thumbnail.gif'></a><p>p. 41</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p42-thumbnail.gif'></a><p>p. 42</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p43-thumbnail.gif'></a><p>p. 43</p></div></div>
+* Cal-Format-201 (`31 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p31>`_-`34 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p34>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p32-thumbnail.gif'></a><p>p. 32</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p33-thumbnail.gif'></a><p>p. 33</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p34-thumbnail.gif'></a><p>p. 34</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p31-thumbnail.gif'></a><p>p. 31</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p32-thumbnail.gif'></a><p>p. 32</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p33-thumbnail.gif'></a><p>p. 33</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p34-thumbnail.gif'></a><p>p. 34</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/23.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p23-thumbnail.gif'></a><p>p. 23</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/24.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p24-thumbnail.gif'></a><p>p. 24</p></div></div>
-
+* Cal-Format-1-05-02 (`23 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p23>`_-`24 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p24>`_)
 
 
 
@@ -6273,33 +6193,13 @@ tran_type
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `118 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p118>`_-`121 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p121>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`71 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71>`_-`75 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p75>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/13.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p13-thumbnail.gif'></a><p>p. 13</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/118.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p118-thumbnail.gif'></a><p>p. 118</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/119.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p119-thumbnail.gif'></a><p>p. 119</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/120.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p120-thumbnail.gif'></a><p>p. 120</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/121.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p121-thumbnail.gif'></a><p>p. 121</p></div></div>
+* Cal-Format-201 (`37 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37>`_-`41 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p41>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/71.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p71-thumbnail.gif'></a><p>p. 71</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/72.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p72-thumbnail.gif'></a><p>p. 72</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/73.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p73-thumbnail.gif'></a><p>p. 73</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/74.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p74-thumbnail.gif'></a><p>p. 74</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/75.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p75-thumbnail.gif'></a><p>p. 75</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p37-thumbnail.gif'></a><p>p. 37</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p38-thumbnail.gif'></a><p>p. 38</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p39-thumbnail.gif'></a><p>p. 39</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p40-thumbnail.gif'></a><p>p. 40</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p41-thumbnail.gif'></a><p>p. 41</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p29-thumbnail.gif'></a><p>p. 29</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p30-thumbnail.gif'></a><p>p. 30</p></div></div>
-
+* Cal-Format-1-05-02 (`29 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29>`_-`30 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p30>`_)
 
 
 
@@ -6754,33 +6654,13 @@ entity_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`46 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p46>`_-`47 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p47>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`41 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p41>`_-`42 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p42>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p46-thumbnail.gif'></a><p>p. 46</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p47-thumbnail.gif'></a><p>p. 47</p></div></div>
+* Cal-Format-201 (`34 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p34>`_, `64 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p64>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p41-thumbnail.gif'></a><p>p. 41</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p42-thumbnail.gif'></a><p>p. 42</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p34-thumbnail.gif'></a><p>p. 34</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/64.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p64-thumbnail.gif'></a><p>p. 64</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/25.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p25-thumbnail.gif'></a><p>p. 25</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/50.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p50-thumbnail.gif'></a><p>p. 50</p></div></div>
-
+* Cal-Format-1-05-02 (`25 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p25>`_, `50 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p50>`_)
 
 
 
@@ -7530,33 +7410,13 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`87 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p87>`_-`90 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p90>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`60 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p60>`_-`63 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p63>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/87.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p87-thumbnail.gif'></a><p>p. 87</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/88.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p88-thumbnail.gif'></a><p>p. 88</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/89.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p89-thumbnail.gif'></a><p>p. 89</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/90.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p90-thumbnail.gif'></a><p>p. 90</p></div></div>
+* Cal-Format-201 (`47 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47>`_-`50 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p50>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/60.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p60-thumbnail.gif'></a><p>p. 60</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/61.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p61-thumbnail.gif'></a><p>p. 61</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/62.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p62-thumbnail.gif'></a><p>p. 62</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/63.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p63-thumbnail.gif'></a><p>p. 63</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p47-thumbnail.gif'></a><p>p. 47</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/48.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p48-thumbnail.gif'></a><p>p. 48</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p49-thumbnail.gif'></a><p>p. 49</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/50.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p50-thumbnail.gif'></a><p>p. 50</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p35-thumbnail.gif'></a><p>p. 35</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/36.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p36-thumbnail.gif'></a><p>p. 36</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/37.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p37-thumbnail.gif'></a><p>p. 37</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/38.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p38-thumbnail.gif'></a><p>p. 38</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
+* Cal-Format-1-05-02 (`35 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35>`_-`39 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39>`_)
 
 
 
@@ -8481,33 +8341,13 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`123 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p123>`_-`124 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p124>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`76 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p76>`_-`78 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p78>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/123.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p123-thumbnail.gif'></a><p>p. 123</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/124.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p124-thumbnail.gif'></a><p>p. 124</p></div></div>
+* Cal-Format-201 (`51 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p51>`_-`52 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p52>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/76.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p76-thumbnail.gif'></a><p>p. 76</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/77.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p77-thumbnail.gif'></a><p>p. 77</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/78.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p78-thumbnail.gif'></a><p>p. 78</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/51.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p51-thumbnail.gif'></a><p>p. 51</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/52.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p52-thumbnail.gif'></a><p>p. 52</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/39.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p39-thumbnail.gif'></a><p>p. 39</p></div></div>
-
+* Cal-Format-1-05-02 (`39 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39>`_)
 
 
 
@@ -11225,33 +11065,13 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`53 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p53>`_-`56 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p56>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`45 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p45>`_-`48 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p48>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p53-thumbnail.gif'></a><p>p. 53</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p54-thumbnail.gif'></a><p>p. 54</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/55.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p55-thumbnail.gif'></a><p>p. 55</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p56-thumbnail.gif'></a><p>p. 56</p></div></div>
+* Cal-Format-201 (`42 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p42>`_-`44 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p44>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p45-thumbnail.gif'></a><p>p. 45</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p46-thumbnail.gif'></a><p>p. 46</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p47-thumbnail.gif'></a><p>p. 47</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/48.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p48-thumbnail.gif'></a><p>p. 48</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p42-thumbnail.gif'></a><p>p. 42</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p43-thumbnail.gif'></a><p>p. 43</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p44-thumbnail.gif'></a><p>p. 44</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p31-thumbnail.gif'></a><p>p. 31</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
-
+* Cal-Format-1-05-02 (`31 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p31>`_-`32 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p32>`_)
 
 
 
@@ -11465,33 +11285,13 @@ form_type
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`56 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p56>`_-`57 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p57>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`49 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p49>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p56-thumbnail.gif'></a><p>p. 56</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
+* Cal-Format-201 (`35 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p35>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p49-thumbnail.gif'></a><p>p. 49</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/35.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p35-thumbnail.gif'></a><p>p. 35</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/26.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p26-thumbnail.gif'></a><p>p. 26</p></div></div>
-
+* Cal-Format-1-05-02 (`26 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p26>`_)
 
 
 
@@ -12348,33 +12148,13 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`47 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p47>`_-`49 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p49>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`49 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p49>`_-`48 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p48>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/47.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p47-thumbnail.gif'></a><p>p. 47</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/48.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p48-thumbnail.gif'></a><p>p. 48</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/49.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p49-thumbnail.gif'></a><p>p. 49</p></div></div>
+* Cal-Format-201 (`45 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45>`_-`46 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p46>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/45.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p45-thumbnail.gif'></a><p>p. 45</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/46.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p46-thumbnail.gif'></a><p>p. 46</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/33.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p33-thumbnail.gif'></a><p>p. 33</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/34.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p34-thumbnail.gif'></a><p>p. 34</p></div></div>
-
+* Cal-Format-1-05-02 (`33 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33>`_-`34 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p34>`_)
 
 
 
@@ -12614,33 +12394,13 @@ form_type
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`124 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p124>`_-`125 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p125>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`79 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p79>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/124.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p124-thumbnail.gif'></a><p>p. 124</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/125.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p125-thumbnail.gif'></a><p>p. 125</p></div></div>
+* Cal-Format-201 (`53 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p53>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/79.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p79-thumbnail.gif'></a><p>p. 79</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/53.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p53-thumbnail.gif'></a><p>p. 53</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/40.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p40-thumbnail.gif'></a><p>p. 40</p></div></div>
-
+* Cal-Format-1-05-02 (`40 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p40>`_)
 
 
 
@@ -13831,33 +13591,13 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`125 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p125>`_-`127 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p127>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`80 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p80>`_-`82 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p82>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/125.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p125-thumbnail.gif'></a><p>p. 125</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/126.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p126-thumbnail.gif'></a><p>p. 126</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/127.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p127-thumbnail.gif'></a><p>p. 127</p></div></div>
+* Cal-Format-201 (`54 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p54>`_-`55 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p55>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/80.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p80-thumbnail.gif'></a><p>p. 80</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/81.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p81-thumbnail.gif'></a><p>p. 81</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/82.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p82-thumbnail.gif'></a><p>p. 82</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/54.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p54-thumbnail.gif'></a><p>p. 54</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/55.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p55-thumbnail.gif'></a><p>p. 55</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/41.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p41-thumbnail.gif'></a><p>p. 41</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/42.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p42-thumbnail.gif'></a><p>p. 42</p></div></div>
-
+* Cal-Format-1-05-02 (`41 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p41>`_-`42 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p42>`_)
 
 
 
@@ -16136,12 +15876,7 @@ district_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/8.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p8-thumbnail.gif'></a><p>p. 8</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p57-thumbnail.gif'></a><p>p. 57</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/58.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p58-thumbnail.gif'></a><p>p. 58</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/59.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p59-thumbnail.gif'></a><p>p. 59</p></div></div>
-
+* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `57 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p57>`_-`59 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p59>`_)
 
 
 
@@ -17031,33 +16766,13 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`127 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p127>`_-`129 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p129>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`83 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p83>`_-`85 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p85>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/127.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p127-thumbnail.gif'></a><p>p. 127</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/128.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p128-thumbnail.gif'></a><p>p. 128</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/129.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p129-thumbnail.gif'></a><p>p. 129</p></div></div>
+* Cal-Format-201 (`56 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56>`_-`57 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p57>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/83.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p83-thumbnail.gif'></a><p>p. 83</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/84.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p84-thumbnail.gif'></a><p>p. 84</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/85.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p85-thumbnail.gif'></a><p>p. 85</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/56.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p56-thumbnail.gif'></a><p>p. 56</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/57.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p57-thumbnail.gif'></a><p>p. 57</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/43.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p43-thumbnail.gif'></a><p>p. 43</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/44.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p44-thumbnail.gif'></a><p>p. 44</p></div></div>
-
+* Cal-Format-1-05-02 (`43 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43>`_-`44 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p44>`_)
 
 
 
@@ -17776,33 +17491,13 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-*CalAccessTablesWeb*
+* CalAccessTablesWeb (`30 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p30>`_-`32 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p32>`_)
 
-.. raw:: html
+* MapCalFormat2Fields (`15 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p15>`_-`16 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p16>`_)
 
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p30-thumbnail.gif'></a><p>p. 30</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/31.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p31-thumbnail.gif'></a><p>p. 31</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb/pages/32.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711614/pages/CalAccessTablesWeb-p32-thumbnail.gif'></a><p>p. 32</p></div></div>
+* Cal-Format-201 (`29 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29>`_-`30 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p30>`_)
 
-
-*MapCalFormat2Fields*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/15.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p15-thumbnail.gif'></a><p>p. 15</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/16.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2711616/pages/MapCalFormat2Fields-p16-thumbnail.gif'></a><p>p. 16</p></div></div>
-
-
-*Cal-Format-201*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/29.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p29-thumbnail.gif'></a><p>p. 29</p></div><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/30.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712034/pages/Cal-Format-201-p30-thumbnail.gif'></a><p>p. 30</p></div></div>
-
-
-*Cal-Format-1-05-02*
-
-.. raw:: html
-
-    <div class="doc_pages_container"><div class="doc_page_frame"><a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/22.html"><img class='doc_page' src='https://assets.documentcloud.org/documents/2712033/pages/Cal-Format-1-05-02-p22-thumbnail.gif'></a><p>p. 22</p></div></div>
-
+* Cal-Format-1-05-02 (`22 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22>`_)
 
 
 

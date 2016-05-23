@@ -22,13 +22,13 @@ class Command(CalAccessCommand):
         model_list = get_model_list()
         group_list = {}
         for m in model_list:
-            # add doc_title (key) and list of pages (value) to each model
+            # add doc_title (key) and list of documentcloud objects (value) to each model
             m.docs = {}
             for doc in m().DOCUMENTCLOUD_PAGES:
                 try:
-                    m.docs[doc.title].extend(doc.pages)
+                    m.docs[doc.title].append(doc)
                 except KeyError:
-                    m.docs[doc.title] = doc.pages
+                    m.docs[doc.title] = [doc]
             # add choice field list to model
             m.choice_fields = []
             for field in m._meta.fields:

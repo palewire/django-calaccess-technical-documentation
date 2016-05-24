@@ -27,9 +27,9 @@ Generally, you should be editing the ``.rst`` files in ``docs/`` directory, rath
 Editing Database Tables or Filing Forms Docs
 --------------------------------------------
 
-The docs inside the `Database tables <calaccess/dbtables.html>`_ and `Filing forms <filingforms.html>`_ sections are generated programmatically, rather than being typed out. So, for instance, if you make a change to ``./docs/calaccess/db_tablescampaign_tables.rst``, that change will likely be over-written. 
+The docs inside the `Database tables <calaccess/dbtables.html>`_ and `Filing forms <filingforms.html>`_ sections are generated programmatically, rather than being typed out. So, for instance, if you make a change to ``./docs/calaccess/db_tablescampaign_tables.rst``, that change will be over-written the next time the document is generated.
 
-Probably your edit will require a change somewhere in the `raw-data <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_ app. If you can't figure it out on your own, feel free to `file an issue <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation/issues>`_ with us, and we'll get on it.
+Probably your edit will require a change to either the template file (found in ``./src/toolbox/templates/``) used to render the document or the `raw-data <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_ app. If you can't figure it out on your own, feel free to `file an issue <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation/issues>`_ with us, and we'll get on it.
 
 (If you interested in how this works, check out the management commands in ``src/toolbox`` inside the `technical documentation <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_ repo).
 

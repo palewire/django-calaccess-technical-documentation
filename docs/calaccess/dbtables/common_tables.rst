@@ -54,7 +54,7 @@ Fields
     
     
         <tr>
-            <td>xref_filer_id</td>
+            <td>XREF_FILER_ID</td>
             <td>String (up to 15)</td>
             <td>No</td>
             <td>Alternative filer ID found on many forms</td>
@@ -63,7 +63,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -72,7 +72,7 @@ Fields
     
     
         <tr>
-            <td>filer_type</td>
+            <td>FILER_TYPE</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>The type of filer. These values are found FILER_TYPES_CD.DESCRIPTION</td>
@@ -81,7 +81,7 @@ Fields
     
     
         <tr>
-            <td>status</td>
+            <td>STATUS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>The status of the filer. Includes a mixture of values found in the STATUS_TYPE and STATUS_DESC columns on FILER_STATUS_TYPES_CD</td>
@@ -90,7 +90,7 @@ Fields
     
     
         <tr>
-            <td>effect_dt</td>
+            <td>EFFECT_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective date for status</td>
@@ -99,7 +99,7 @@ Fields
     
     
         <tr>
-            <td>naml</td>
+            <td>NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Last name, sometimes full name</td>
@@ -108,7 +108,7 @@ Fields
     
     
         <tr>
-            <td>namf</td>
+            <td>NAMF</td>
             <td>String (up to 55)</td>
             <td>No</td>
             <td>First name</td>
@@ -117,7 +117,7 @@ Fields
     
     
         <tr>
-            <td>namt</td>
+            <td>NAMT</td>
             <td>String (up to 70)</td>
             <td>No</td>
             <td>Name prefix or title</td>
@@ -126,7 +126,7 @@ Fields
     
     
         <tr>
-            <td>nams</td>
+            <td>NAMS</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Name suffix</td>
@@ -135,7 +135,7 @@ Fields
     
     
         <tr>
-            <td>adr1</td>
+            <td>ADR1</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>First line of street address</td>
@@ -144,7 +144,7 @@ Fields
     
     
         <tr>
-            <td>adr2</td>
+            <td>ADR2</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Second line of street address</td>
@@ -153,7 +153,7 @@ Fields
     
     
         <tr>
-            <td>city</td>
+            <td>CITY</td>
             <td>String (up to 55)</td>
             <td>No</td>
             <td>City address</td>
@@ -162,7 +162,7 @@ Fields
     
     
         <tr>
-            <td>st</td>
+            <td>ST</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>State</td>
@@ -171,7 +171,7 @@ Fields
     
     
         <tr>
-            <td>zip4</td>
+            <td>ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>ZIP Code</td>
@@ -180,7 +180,7 @@ Fields
     
     
         <tr>
-            <td>phon</td>
+            <td>PHON</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Phone number</td>
@@ -189,7 +189,7 @@ Fields
     
     
         <tr>
-            <td>fax</td>
+            <td>FAX</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Fax number</td>
@@ -198,7 +198,7 @@ Fields
     
     
         <tr>
-            <td>email</td>
+            <td>EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Email address</td>
@@ -646,7 +646,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -655,7 +655,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -664,7 +664,7 @@ Fields
     
     
         <tr>
-            <td>period_id</td>
+            <td>PERIOD_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identifies the period when the filing was recieved.</td>
@@ -673,7 +673,7 @@ Fields
     
     
         <tr>
-            <td>form_id</td>
+            <td>FORM_ID</td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Form identification code</td>
@@ -682,7 +682,7 @@ Fields
     
     
         <tr>
-            <td>filing_sequence</td>
+            <td>FILING_SEQUENCE</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment number where 0 is an original filing and 1 to 999 are amendments</td>
@@ -691,7 +691,7 @@ Fields
     
     
         <tr>
-            <td>filing_date</td>
+            <td>FILING_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date the filing entered into the system</td>
@@ -700,7 +700,7 @@ Fields
     
     
         <tr>
-            <td>stmnt_type</td>
+            <td>STMNT_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of statement</td>
@@ -709,7 +709,7 @@ Fields
     
     
         <tr>
-            <td>stmnt_status</td>
+            <td>STMNT_STATUS</td>
             <td>Integer</td>
             <td>No</td>
             <td>The status of the statement. If the filing has been reviewed or not reviewed.</td>
@@ -718,7 +718,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -727,7 +727,7 @@ Fields
     
     
         <tr>
-            <td>user_id</td>
+            <td>USER_ID</td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>User identifier of the PRD user who logged the filing</td>
@@ -736,7 +736,7 @@ Fields
     
     
         <tr>
-            <td>special_audit</td>
+            <td>SPECIAL_AUDIT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Denotes whether the filing has been audited for money laundering or other special condition.</td>
@@ -745,7 +745,7 @@ Fields
     
     
         <tr>
-            <td>fine_audit</td>
+            <td>FINE_AUDIT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Indicates whether a filing has been audited for a fine</td>
@@ -754,7 +754,7 @@ Fields
     
     
         <tr>
-            <td>rpt_start</td>
+            <td>RPT_START</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Starting date for the period the filing represents</td>
@@ -763,7 +763,7 @@ Fields
     
     
         <tr>
-            <td>rpt_end</td>
+            <td>RPT_END</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ending date for the period the filing represents</td>
@@ -772,7 +772,7 @@ Fields
     
     
         <tr>
-            <td>rpt_date</td>
+            <td>RPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date filing received</td>
@@ -781,7 +781,7 @@ Fields
     
     
         <tr>
-            <td>filing_type</td>
+            <td>FILING_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>The type of filing</td>
@@ -1322,7 +1322,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -1331,7 +1331,7 @@ Fields
     
     
         <tr>
-            <td>filing_type</td>
+            <td>FILING_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>The type of filing</td>
@@ -1456,7 +1456,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -1465,7 +1465,7 @@ Fields
     
     
         <tr>
-            <td>cal_ver</td>
+            <td>CAL_VER</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>CAL Version number the filing was made using</td>
@@ -1474,7 +1474,7 @@ Fields
     
     
         <tr>
-            <td>ef_type</td>
+            <td>EF_TYPE</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Electronic filing type. This will always have the         value of &quot;CAL&quot;.</td>
@@ -1483,7 +1483,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -1492,7 +1492,7 @@ Fields
     
     
         <tr>
-            <td>hdr_comment</td>
+            <td>HDRCOMMENT</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Typically used for development and test filings</td>
@@ -1501,7 +1501,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Record Type. Value: HDR</td>
@@ -1510,7 +1510,7 @@ Fields
     
     
         <tr>
-            <td>soft_name</td>
+            <td>SOFT_NAME</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Filing software name used to electronically file</td>
@@ -1519,7 +1519,7 @@ Fields
     
     
         <tr>
-            <td>soft_ver</td>
+            <td>SOFT_VER</td>
             <td>String (up to 16)</td>
             <td>No</td>
             <td>Filing software version number</td>
@@ -1528,7 +1528,7 @@ Fields
     
     
         <tr>
-            <td>state_cd</td>
+            <td>STATE_CD</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>The state code value entered in the electronic filing</td>
@@ -1707,7 +1707,7 @@ Fields
     
     
         <tr>
-            <td>line_number</td>
+            <td>LINE_NUMBER</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>This field is undocumented</td>
@@ -1716,7 +1716,7 @@ Fields
     
     
         <tr>
-            <td>form_id</td>
+            <td>FORM_ID</td>
             <td>String (up to 5)</td>
             <td>Yes</td>
             <td>Form identification code</td>
@@ -1725,7 +1725,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 11)</td>
             <td>Yes</td>
             <td>Record Type</td>
@@ -1734,7 +1734,7 @@ Fields
     
     
         <tr>
-            <td>section_label</td>
+            <td>SECTION_LABEL</td>
             <td>String (up to 58)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1743,7 +1743,7 @@ Fields
     
     
         <tr>
-            <td>comments1</td>
+            <td>COMMENTS1</td>
             <td>String (up to 48)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1752,7 +1752,7 @@ Fields
     
     
         <tr>
-            <td>comments2</td>
+            <td>COMMENTS2</td>
             <td>String (up to 48)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1761,7 +1761,7 @@ Fields
     
     
         <tr>
-            <td>label</td>
+            <td>LABEL</td>
             <td>String (up to 98)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1770,7 +1770,7 @@ Fields
     
     
         <tr>
-            <td>column_a</td>
+            <td>COLUMN_A</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1779,7 +1779,7 @@ Fields
     
     
         <tr>
-            <td>column_b</td>
+            <td>COLUMN_B</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1788,7 +1788,7 @@ Fields
     
     
         <tr>
-            <td>column_c</td>
+            <td>COLUMN_C</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1797,7 +1797,7 @@ Fields
     
     
         <tr>
-            <td>show_c</td>
+            <td>SHOW_C</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1806,7 +1806,7 @@ Fields
     
     
         <tr>
-            <td>show_b</td>
+            <td>SHOW_B</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2096,7 +2096,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -2105,7 +2105,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -2114,7 +2114,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>String (up to 8)</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -2123,7 +2123,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: SMRY</td>
@@ -2132,7 +2132,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 8)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -2141,7 +2141,7 @@ Fields
     
     
         <tr>
-            <td>amount_a</td>
+            <td>AMOUNT_A</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Summary amount from column A</td>
@@ -2150,7 +2150,7 @@ Fields
     
     
         <tr>
-            <td>amount_b</td>
+            <td>AMOUNT_B</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Summary amount from column B</td>
@@ -2159,7 +2159,7 @@ Fields
     
     
         <tr>
-            <td>amount_c</td>
+            <td>AMOUNT_C</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Summary amount from column C</td>
@@ -2168,7 +2168,7 @@ Fields
     
     
         <tr>
-            <td>elec_dt</td>
+            <td>ELEC_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Election date</td>
@@ -2520,7 +2520,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -2529,7 +2529,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -2538,7 +2538,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Record Type</td>
@@ -2547,7 +2547,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Name of the source filing form or schedule</td>
@@ -2556,7 +2556,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Entity code</td>
@@ -2565,7 +2565,7 @@ Fields
     
     
         <tr>
-            <td>filer_naml</td>
+            <td>FILER_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Filer last name</td>
@@ -2574,7 +2574,7 @@ Fields
     
     
         <tr>
-            <td>filer_namf</td>
+            <td>FILER_NAMF</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Filer first name</td>
@@ -2583,7 +2583,7 @@ Fields
     
     
         <tr>
-            <td>filer_namt</td>
+            <td>FILER_NAMT</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Filer title or prefix</td>
@@ -2592,7 +2592,7 @@ Fields
     
     
         <tr>
-            <td>filer_nams</td>
+            <td>FILER_NAMS</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Filer suffix</td>
@@ -2601,7 +2601,7 @@ Fields
     
     
         <tr>
-            <td>report_num</td>
+            <td>REPORT_NUM</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2610,7 +2610,7 @@ Fields
     
     
         <tr>
-            <td>rpt_date</td>
+            <td>RPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2619,7 +2619,7 @@ Fields
     
     
         <tr>
-            <td>filer_city</td>
+            <td>FILER_CITY</td>
             <td>String (up to 16)</td>
             <td>No</td>
             <td>Filer city</td>
@@ -2628,7 +2628,7 @@ Fields
     
     
         <tr>
-            <td>filer_st</td>
+            <td>FILER_ST</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Filer state</td>
@@ -2637,7 +2637,7 @@ Fields
     
     
         <tr>
-            <td>filer_zip4</td>
+            <td>FILER_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer ZIP Code</td>
@@ -2646,7 +2646,7 @@ Fields
     
     
         <tr>
-            <td>occupation</td>
+            <td>OCCUPATION</td>
             <td>String (up to 15)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2655,7 +2655,7 @@ Fields
     
     
         <tr>
-            <td>employer</td>
+            <td>EMPLOYER</td>
             <td>String (up to 13)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2664,7 +2664,7 @@ Fields
     
     
         <tr>
-            <td>cand_naml</td>
+            <td>CAND_NAML</td>
             <td>String (up to 46)</td>
             <td>No</td>
             <td>Candidate last name</td>
@@ -2673,7 +2673,7 @@ Fields
     
     
         <tr>
-            <td>cand_namf</td>
+            <td>CAND_NAMF</td>
             <td>String (up to 21)</td>
             <td>No</td>
             <td>Candidate first name</td>
@@ -2682,7 +2682,7 @@ Fields
     
     
         <tr>
-            <td>cand_namt</td>
+            <td>CAND_NAMT</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Candidate title or prefix</td>
@@ -2691,7 +2691,7 @@ Fields
     
     
         <tr>
-            <td>cand_nams</td>
+            <td>CAND_NAMS</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Candidate suffix</td>
@@ -2700,7 +2700,7 @@ Fields
     
     
         <tr>
-            <td>district_cd</td>
+            <td>DISTRICT_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>District Code</td>
@@ -2709,7 +2709,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -2718,7 +2718,7 @@ Fields
     
     
         <tr>
-            <td>pmnt_dt</td>
+            <td>PMNT_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2727,7 +2727,7 @@ Fields
     
     
         <tr>
-            <td>pmnt_amount</td>
+            <td>PMNT_AMOUNT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2736,7 +2736,7 @@ Fields
     
     
         <tr>
-            <td>type_literature</td>
+            <td>TYPE_LITERATURE</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2745,7 +2745,7 @@ Fields
     
     
         <tr>
-            <td>type_printads</td>
+            <td>TYPE_PRINTADS</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2754,7 +2754,7 @@ Fields
     
     
         <tr>
-            <td>type_radio</td>
+            <td>TYPE_RADIO</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2763,7 +2763,7 @@ Fields
     
     
         <tr>
-            <td>type_tv</td>
+            <td>TYPE_TV</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2772,7 +2772,7 @@ Fields
     
     
         <tr>
-            <td>type_it</td>
+            <td>TYPE_IT</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2781,7 +2781,7 @@ Fields
     
     
         <tr>
-            <td>type_billboards</td>
+            <td>TYPE_BILLBOARDS</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2790,7 +2790,7 @@ Fields
     
     
         <tr>
-            <td>type_other</td>
+            <td>TYPE_OTHER</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -2799,7 +2799,7 @@ Fields
     
     
         <tr>
-            <td>other_desc</td>
+            <td>OTHER_DESC</td>
             <td>String (up to 49)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -4256,7 +4256,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -4265,7 +4265,7 @@ Fields
     
     
         <tr>
-            <td>elec_amount</td>
+            <td>ELEC_AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Per Election to Date Amount</td>
@@ -4274,7 +4274,7 @@ Fields
     
     
         <tr>
-            <td>elec_code</td>
+            <td>ELEC_CODE</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Per Election to Date Code</td>
@@ -4283,7 +4283,7 @@ Fields
     
     
         <tr>
-            <td>elec_date</td>
+            <td>ELEC_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of Election</td>
@@ -4292,7 +4292,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -4301,7 +4301,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -4310,7 +4310,7 @@ Fields
     
     
         <tr>
-            <td>pform_type</td>
+            <td>PFORM_TYPE</td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Parent Schedule Type</td>
@@ -4319,7 +4319,7 @@ Fields
     
     
         <tr>
-            <td>ptran_id</td>
+            <td>PTRAN_ID</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Parent transaction ID</td>
@@ -4669,7 +4669,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -4678,7 +4678,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -4687,7 +4687,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -4696,7 +4696,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: TEXT</td>
@@ -4705,7 +4705,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 8)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -4714,7 +4714,7 @@ Fields
     
     
         <tr>
-            <td>ref_no</td>
+            <td>REF_NO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Links text memo to a specific record</td>
@@ -4723,7 +4723,7 @@ Fields
     
     
         <tr>
-            <td>text4000</td>
+            <td>TEXT4000</td>
             <td>String (up to 4000)</td>
             <td>No</td>
             <td>Contents of the text memo</td>

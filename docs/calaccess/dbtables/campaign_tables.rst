@@ -76,7 +76,7 @@ Fields
     
     
         <tr>
-            <td>acct_opendt</td>
+            <td>ACCT_OPENDT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date Account Opened</td>
@@ -85,7 +85,7 @@ Fields
     
     
         <tr>
-            <td>actvty_lvl</td>
+            <td>ACTVTY_LVL</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Organization&#39;s level of activity</td>
@@ -94,7 +94,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -103,7 +103,7 @@ Fields
     
     
         <tr>
-            <td>bank_adr1</td>
+            <td>BANK_ADR1</td>
             <td>String (up to 55)</td>
             <td>No</td>
             <td>Street 1 of Financial Institution</td>
@@ -112,7 +112,7 @@ Fields
     
     
         <tr>
-            <td>bank_adr2</td>
+            <td>BANK_ADR2</td>
             <td>String (up to 55)</td>
             <td>No</td>
             <td>Street 2 of Financial Institution</td>
@@ -121,7 +121,7 @@ Fields
     
     
         <tr>
-            <td>bank_city</td>
+            <td>BANK_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>City of Financial Institution</td>
@@ -130,7 +130,7 @@ Fields
     
     
         <tr>
-            <td>bank_nam</td>
+            <td>BANK_NAM</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of Financial Institution</td>
@@ -139,7 +139,7 @@ Fields
     
     
         <tr>
-            <td>bank_phon</td>
+            <td>BANK_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Phone of Financial Institution</td>
@@ -148,7 +148,7 @@ Fields
     
     
         <tr>
-            <td>bank_st</td>
+            <td>BANK_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>State of Financial Institution</td>
@@ -157,7 +157,7 @@ Fields
     
     
         <tr>
-            <td>bank_zip4</td>
+            <td>BANK_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>ZIP+4 of Financial Institution</td>
@@ -166,7 +166,7 @@ Fields
     
     
         <tr>
-            <td>brdbase_cb</td>
+            <td>BRDBASE_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Broad Based Committee Check-box</td>
@@ -175,7 +175,7 @@ Fields
     
     
         <tr>
-            <td>city</td>
+            <td>CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>City of Org / Committee / Candidate or Office holder</td>
@@ -184,7 +184,7 @@ Fields
     
     
         <tr>
-            <td>cmte_email</td>
+            <td>CMTE_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Optional Committee EMAIL address</td>
@@ -193,7 +193,7 @@ Fields
     
     
         <tr>
-            <td>cmte_fax</td>
+            <td>CMTE_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Optional Committee FAX number</td>
@@ -202,7 +202,7 @@ Fields
     
     
         <tr>
-            <td>com82013id</td>
+            <td>COM82013ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>ID of 82013 Committee (if Com82013Nm is a RCP cmtte)</td>
@@ -211,7 +211,7 @@ Fields
     
     
         <tr>
-            <td>com82013nm</td>
+            <td>COM82013NM</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of 82013 Committee (F400; when Com82013YN=Y)</td>
@@ -220,7 +220,7 @@ Fields
     
     
         <tr>
-            <td>com82013yn</td>
+            <td>COM82013YN</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Is this SMO a 82013 &quot;Committee&quot;? (Yes/No) (F400)</td>
@@ -229,7 +229,7 @@ Fields
     
     
         <tr>
-            <td>control_cb</td>
+            <td>CONTROL_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Controlled Committee Check-box</td>
@@ -238,7 +238,7 @@ Fields
     
     
         <tr>
-            <td>county_act</td>
+            <td>COUNTY_ACT</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>County where Active (F410)</td>
@@ -247,7 +247,7 @@ Fields
     
     
         <tr>
-            <td>county_res</td>
+            <td>COUNTY_RES</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>County of Domicile, Residence, or Location</td>
@@ -256,7 +256,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code of the Filer. Values: SMO - Slate Mailer Organization (F400,402) [COM|RCP] - Recipient Committee (F410)</td>
@@ -265,7 +265,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -274,7 +274,7 @@ Fields
     
     
         <tr>
-            <td>filer_namf</td>
+            <td>FILER_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Filer first name</td>
@@ -283,7 +283,7 @@ Fields
     
     
         <tr>
-            <td>filer_naml</td>
+            <td>FILER_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Filer last name</td>
@@ -292,7 +292,7 @@ Fields
     
     
         <tr>
-            <td>filer_nams</td>
+            <td>FILER_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer name suffix</td>
@@ -301,7 +301,7 @@ Fields
     
     
         <tr>
-            <td>filer_namt</td>
+            <td>FILER_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer name title</td>
@@ -310,7 +310,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -319,7 +319,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -328,7 +328,7 @@ Fields
     
     
         <tr>
-            <td>genpurp_cb</td>
+            <td>GENPURP_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>General Purpose Committee Check-box</td>
@@ -337,7 +337,7 @@ Fields
     
     
         <tr>
-            <td>gpc_descr</td>
+            <td>GPC_DESCR</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Brief description of Activity of GPC</td>
@@ -346,7 +346,7 @@ Fields
     
     
         <tr>
-            <td>mail_city</td>
+            <td>MAIL_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Mailing Address of Filing Committee - City</td>
@@ -355,7 +355,7 @@ Fields
     
     
         <tr>
-            <td>mail_st</td>
+            <td>MAIL_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Mailing Address of Filing Committee - State</td>
@@ -364,7 +364,7 @@ Fields
     
     
         <tr>
-            <td>mail_zip4</td>
+            <td>MAIL_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Mailing Address of Filing Committee - ZIP+4</td>
@@ -373,7 +373,7 @@ Fields
     
     
         <tr>
-            <td>phone</td>
+            <td>PHONE</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Phone Number of Org / Committee / Candidate or Office holder</td>
@@ -382,7 +382,7 @@ Fields
     
     
         <tr>
-            <td>primfc_cb</td>
+            <td>PRIMFC_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Primarily Formed Committee Check-box</td>
@@ -391,7 +391,7 @@ Fields
     
     
         <tr>
-            <td>qualfy_dt</td>
+            <td>QUALFY_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date qualified as an organization</td>
@@ -400,7 +400,7 @@ Fields
     
     
         <tr>
-            <td>qual_cb</td>
+            <td>QUAL_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Qualified Committee check-box (Req. if SMO)</td>
@@ -409,7 +409,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR</td>
@@ -418,7 +418,7 @@ Fields
     
     
         <tr>
-            <td>report_num</td>
+            <td>REPORT_NUM</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Report Number - Values: 000 - Original Report 001 thru 999 - Amended Rpt #1-#999</td>
@@ -427,7 +427,7 @@ Fields
     
     
         <tr>
-            <td>rpt_date</td>
+            <td>RPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this report is filed</td>
@@ -436,7 +436,7 @@ Fields
     
     
         <tr>
-            <td>smcont_qualdt</td>
+            <td>SMCONT_QUALDT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date Small Contributor Committee Qualified</td>
@@ -445,7 +445,7 @@ Fields
     
     
         <tr>
-            <td>sponsor_cb</td>
+            <td>SPONSOR_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Sponsored Committee Check-box</td>
@@ -454,7 +454,7 @@ Fields
     
     
         <tr>
-            <td>st</td>
+            <td>ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>State of Org / Committee / Candidate or Office holder</td>
@@ -463,7 +463,7 @@ Fields
     
     
         <tr>
-            <td>surplusdsp</td>
+            <td>SURPLUSDSP</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Disposition of Surplus Funds</td>
@@ -472,7 +472,7 @@ Fields
     
     
         <tr>
-            <td>term_date</td>
+            <td>TERM_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Termination Effective Date (Req. if F402)</td>
@@ -481,7 +481,7 @@ Fields
     
     
         <tr>
-            <td>tres_city</td>
+            <td>TRES_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Treasurer&#39;s city</td>
@@ -490,7 +490,7 @@ Fields
     
     
         <tr>
-            <td>tres_namf</td>
+            <td>TRES_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Treasurer&#39;s first name</td>
@@ -499,7 +499,7 @@ Fields
     
     
         <tr>
-            <td>tres_naml</td>
+            <td>TRES_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Treasurer&#39;s last name</td>
@@ -508,7 +508,7 @@ Fields
     
     
         <tr>
-            <td>tres_nams</td>
+            <td>TRES_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer&#39;s name suffix</td>
@@ -517,7 +517,7 @@ Fields
     
     
         <tr>
-            <td>tres_namt</td>
+            <td>TRES_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer&#39;s name title</td>
@@ -526,7 +526,7 @@ Fields
     
     
         <tr>
-            <td>tres_phon</td>
+            <td>TRES_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Treasurer&#39;s phone number</td>
@@ -535,7 +535,7 @@ Fields
     
     
         <tr>
-            <td>tres_st</td>
+            <td>TRES_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Treasurer&#39;s street</td>
@@ -544,7 +544,7 @@ Fields
     
     
         <tr>
-            <td>tres_zip4</td>
+            <td>TRES_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer&#39;s ZIP Code</td>
@@ -553,7 +553,7 @@ Fields
     
     
         <tr>
-            <td>zip4</td>
+            <td>ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>ZIP+4 for Org / Committee / Candidate or Office holder</td>
@@ -839,7 +839,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -848,7 +848,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -857,7 +857,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -866,7 +866,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Type of record. This column will always contain &quot;CVR2&quot;.</td>
@@ -875,7 +875,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Form type of the filing the record is included in. This must equal the form_type of the parent filing&#39;s cover (CVR) record.</td>
@@ -884,7 +884,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -893,7 +893,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code of the entity described by the record.</td>
@@ -902,7 +902,7 @@ Fields
     
     
         <tr>
-            <td>enty_naml</td>
+            <td>ENTY_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Entity&#39;s business name or last name if the entity is an individual</td>
@@ -911,7 +911,7 @@ Fields
     
     
         <tr>
-            <td>enty_namf</td>
+            <td>ENTY_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Entity&#39;s first name if the entity is an individual</td>
@@ -920,7 +920,7 @@ Fields
     
     
         <tr>
-            <td>enty_namt</td>
+            <td>ENTY_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity&#39;s name prefix or title if the entity is an individual</td>
@@ -929,7 +929,7 @@ Fields
     
     
         <tr>
-            <td>enty_nams</td>
+            <td>ENTY_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity&#39;s name suffix if the entity is an individual</td>
@@ -938,7 +938,7 @@ Fields
     
     
         <tr>
-            <td>item_cd</td>
+            <td>ITEM_CD</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Section of the Statement of Organization this itemization relates to. See CAL document for the definition of legal values for this column.</td>
@@ -947,7 +947,7 @@ Fields
     
     
         <tr>
-            <td>mail_city</td>
+            <td>MAIL_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>City portion of the entity&#39;s mailing address</td>
@@ -956,7 +956,7 @@ Fields
     
     
         <tr>
-            <td>mail_st</td>
+            <td>MAIL_ST</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>State portion of the entity&#39;s mailing address</td>
@@ -965,7 +965,7 @@ Fields
     
     
         <tr>
-            <td>mail_zip4</td>
+            <td>MAIL_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Zipcode portion of the entity&#39;s mailing address</td>
@@ -974,7 +974,7 @@ Fields
     
     
         <tr>
-            <td>day_phone</td>
+            <td>DAY_PHONE</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Entity&#39;s daytime phone number</td>
@@ -983,7 +983,7 @@ Fields
     
     
         <tr>
-            <td>fax_phone</td>
+            <td>FAX_PHONE</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Entity&#39;s fax number</td>
@@ -992,7 +992,7 @@ Fields
     
     
         <tr>
-            <td>email_adr</td>
+            <td>EMAIL_ADR</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Email address. Not contained in current forms.</td>
@@ -1001,7 +1001,7 @@ Fields
     
     
         <tr>
-            <td>cmte_id</td>
+            <td>CMTE_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Entity&#39;s identification number</td>
@@ -1010,7 +1010,7 @@ Fields
     
     
         <tr>
-            <td>ind_group</td>
+            <td>IND_GROUP</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Industry group/affiliation description</td>
@@ -1019,7 +1019,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -1028,7 +1028,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office sought description used if the office sought code (OFFICE_CD) equals other (OTH).</td>
@@ -1037,7 +1037,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Office jurisdiction code. See CAL document for a list of legal values.</td>
@@ -1046,7 +1046,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office jurisdiction description provided if the         jurisdiction code (JURIS_CD) equals other (OTH).</td>
@@ -1055,7 +1055,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Office district number for Senate, Assembly, and Board of Equalization districts.</td>
@@ -1064,7 +1064,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office sought/held code. Legal values are &quot;S&quot; for sought and &quot;H&quot; for held</td>
@@ -1073,7 +1073,7 @@ Fields
     
     
         <tr>
-            <td>non_pty_cb</td>
+            <td>NON_PTY_CB</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Non-partisan check-box. Legal values are &#39;X&#39; and null.</td>
@@ -1082,7 +1082,7 @@ Fields
     
     
         <tr>
-            <td>party_name</td>
+            <td>PARTY_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of party (if partisan)</td>
@@ -1091,7 +1091,7 @@ Fields
     
     
         <tr>
-            <td>bal_num</td>
+            <td>BAL_NUM</td>
             <td>String (up to 7)</td>
             <td>No</td>
             <td>Ballot measure number or letter</td>
@@ -1100,7 +1100,7 @@ Fields
     
     
         <tr>
-            <td>bal_juris</td>
+            <td>BAL_JURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Jurisdiction of ballot measure</td>
@@ -1109,7 +1109,7 @@ Fields
     
     
         <tr>
-            <td>sup_opp_cd</td>
+            <td>SUP_OPP_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Support or opposition code</td>
@@ -1118,7 +1118,7 @@ Fields
     
     
         <tr>
-            <td>year_elect</td>
+            <td>YEAR_ELECT</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Year of election</td>
@@ -1127,7 +1127,7 @@ Fields
     
     
         <tr>
-            <td>pof_title</td>
+            <td>POF_TITLE</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Position/title of the principal officer</td>
@@ -1912,7 +1912,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -1921,7 +1921,7 @@ Fields
     
     
         <tr>
-            <td>amendexp_1</td>
+            <td>AMENDEXP_1</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Amendment explanation line 1</td>
@@ -1930,7 +1930,7 @@ Fields
     
     
         <tr>
-            <td>amendexp_2</td>
+            <td>AMENDEXP_2</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Amendment explanation line 2</td>
@@ -1939,7 +1939,7 @@ Fields
     
     
         <tr>
-            <td>amendexp_3</td>
+            <td>AMENDEXP_3</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Amendment explanation line 3</td>
@@ -1948,7 +1948,7 @@ Fields
     
     
         <tr>
-            <td>assoc_cb</td>
+            <td>ASSOC_CB</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Association Interests info included check-box. Legal values are &#39;X&#39; and null.</td>
@@ -1957,7 +1957,7 @@ Fields
     
     
         <tr>
-            <td>assoc_int</td>
+            <td>ASSOC_INT</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Description of association interests</td>
@@ -1966,7 +1966,7 @@ Fields
     
     
         <tr>
-            <td>bal_id</td>
+            <td>BAL_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>.CAL format to db tables doc says: &quot;Not Used-AMS KDE&quot;</td>
@@ -1975,7 +1975,7 @@ Fields
     
     
         <tr>
-            <td>bal_juris</td>
+            <td>BAL_JURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Ballot measure jurisdiction</td>
@@ -1984,7 +1984,7 @@ Fields
     
     
         <tr>
-            <td>bal_name</td>
+            <td>BAL_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Ballot measure name</td>
@@ -1993,7 +1993,7 @@ Fields
     
     
         <tr>
-            <td>bal_num</td>
+            <td>BAL_NUM</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Ballot measure number or letter</td>
@@ -2002,7 +2002,7 @@ Fields
     
     
         <tr>
-            <td>brdbase_yn</td>
+            <td>BRDBASE_YN</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Broad Base Committee (yes/no) check box. Legal values are &#39;Y&#39; or &#39;N&#39;.</td>
@@ -2011,7 +2011,7 @@ Fields
     
     
         <tr>
-            <td>bus_city</td>
+            <td>BUS_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Employer/business address city</td>
@@ -2020,7 +2020,7 @@ Fields
     
     
         <tr>
-            <td>bus_inter</td>
+            <td>BUS_INTER</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Employer/business interest description</td>
@@ -2029,7 +2029,7 @@ Fields
     
     
         <tr>
-            <td>bus_name</td>
+            <td>BUS_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of employer/business. Applies to the form 461.</td>
@@ -2038,7 +2038,7 @@ Fields
     
     
         <tr>
-            <td>bus_st</td>
+            <td>BUS_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Employer/business address state</td>
@@ -2047,7 +2047,7 @@ Fields
     
     
         <tr>
-            <td>bus_zip4</td>
+            <td>BUS_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employer/business address ZIP Code</td>
@@ -2056,7 +2056,7 @@ Fields
     
     
         <tr>
-            <td>busact_cb</td>
+            <td>BUSACT_CB</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Business activity info included check-box. Valid values are &#39;X&#39; and null</td>
@@ -2065,7 +2065,7 @@ Fields
     
     
         <tr>
-            <td>busactvity</td>
+            <td>BUSACTVITY</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Business activity description</td>
@@ -2074,7 +2074,7 @@ Fields
     
     
         <tr>
-            <td>cand_city</td>
+            <td>CAND_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Candidate/officeholder city</td>
@@ -2083,7 +2083,7 @@ Fields
     
     
         <tr>
-            <td>cand_email</td>
+            <td>CAND_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Candidate/officeholder email. This field is not contained on the forms.</td>
@@ -2092,7 +2092,7 @@ Fields
     
     
         <tr>
-            <td>cand_fax</td>
+            <td>CAND_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Candidate/officeholder fax. This field is not contained on the forms.</td>
@@ -2101,7 +2101,7 @@ Fields
     
     
         <tr>
-            <td>cand_id</td>
+            <td>CAND_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>.CAL format to db tables doc says: &quot;Not Used-AMS KDE&quot;</td>
@@ -2110,7 +2110,7 @@ Fields
     
     
         <tr>
-            <td>cand_namf</td>
+            <td>CAND_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Candidate/officeholder first name</td>
@@ -2119,7 +2119,7 @@ Fields
     
     
         <tr>
-            <td>cand_naml</td>
+            <td>CAND_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s last name. Applies to forms 460, 465, and 496.</td>
@@ -2128,7 +2128,7 @@ Fields
     
     
         <tr>
-            <td>cand_nams</td>
+            <td>CAND_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s name suffix</td>
@@ -2137,7 +2137,7 @@ Fields
     
     
         <tr>
-            <td>cand_namt</td>
+            <td>CAND_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s prefix or title</td>
@@ -2146,7 +2146,7 @@ Fields
     
     
         <tr>
-            <td>cand_phon</td>
+            <td>CAND_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Candidate/officeholder phone</td>
@@ -2155,7 +2155,7 @@ Fields
     
     
         <tr>
-            <td>cand_st</td>
+            <td>CAND_ST</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s state</td>
@@ -2164,7 +2164,7 @@ Fields
     
     
         <tr>
-            <td>cand_zip4</td>
+            <td>CAND_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s ZIP Code</td>
@@ -2173,7 +2173,7 @@ Fields
     
     
         <tr>
-            <td>cmtte_id</td>
+            <td>CMTTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Committee ID (Filer_id) of recipient Committee who&#39;s campaign statement is attached. This field applies to the form 401.</td>
@@ -2182,7 +2182,7 @@ Fields
     
     
         <tr>
-            <td>cmtte_type</td>
+            <td>CMTTE_TYPE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Type of Recipient Committee. Applies to the 450/460.</td>
@@ -2191,7 +2191,7 @@ Fields
     
     
         <tr>
-            <td>control_yn</td>
+            <td>CONTROL_YN</td>
             <td>Integer</td>
             <td>No</td>
             <td>Controlled Committee (yes/no) check box. Legal values are &#39;Y&#39; or &#39;N&#39;.</td>
@@ -2200,7 +2200,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
@@ -2209,7 +2209,7 @@ Fields
     
     
         <tr>
-            <td>elect_date</td>
+            <td>ELECT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of the General Election</td>
@@ -2218,7 +2218,7 @@ Fields
     
     
         <tr>
-            <td>emplbus_cb</td>
+            <td>EMPLBUS_CB</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Employer/Business Info included check-box. Legal values are &#39;X&#39; or null. Applies to the Form 461.</td>
@@ -2227,7 +2227,7 @@ Fields
     
     
         <tr>
-            <td>employer</td>
+            <td>EMPLOYER</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Employer. This field is most likely unused.</td>
@@ -2236,7 +2236,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>The entity type of the filer. These codes vary by form type.</td>
@@ -2245,7 +2245,7 @@ Fields
     
     
         <tr>
-            <td>file_email</td>
+            <td>FILE_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Filer&#39;s email address</td>
@@ -2254,7 +2254,7 @@ Fields
     
     
         <tr>
-            <td>filer_city</td>
+            <td>FILER_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer&#39;s city</td>
@@ -2263,7 +2263,7 @@ Fields
     
     
         <tr>
-            <td>filer_fax</td>
+            <td>FILER_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer&#39;s fax</td>
@@ -2272,7 +2272,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>String (up to 15)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -2281,7 +2281,7 @@ Fields
     
     
         <tr>
-            <td>filer_namf</td>
+            <td>FILER_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Filer&#39;s first name, if an individual</td>
@@ -2290,7 +2290,7 @@ Fields
     
     
         <tr>
-            <td>filer_naml</td>
+            <td>FILER_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>The committee&#39;s or organization&#39;s name or if an individual the filer&#39;s last name.</td>
@@ -2299,7 +2299,7 @@ Fields
     
     
         <tr>
-            <td>filer_nams</td>
+            <td>FILER_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer&#39;s suffix, if an individual</td>
@@ -2308,7 +2308,7 @@ Fields
     
     
         <tr>
-            <td>filer_namt</td>
+            <td>FILER_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer&#39;s title or prefix, if an individual</td>
@@ -2317,7 +2317,7 @@ Fields
     
     
         <tr>
-            <td>filer_phon</td>
+            <td>FILER_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer phone number</td>
@@ -2326,7 +2326,7 @@ Fields
     
     
         <tr>
-            <td>filer_st</td>
+            <td>FILER_ST</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Filer state</td>
@@ -2335,7 +2335,7 @@ Fields
     
     
         <tr>
-            <td>filer_zip4</td>
+            <td>FILER_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer ZIP Code</td>
@@ -2344,7 +2344,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Unique filing identificiation number</td>
@@ -2353,7 +2353,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Name of the source filing form or schedule</td>
@@ -2362,7 +2362,7 @@ Fields
     
     
         <tr>
-            <td>from_date</td>
+            <td>FROM_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period from date</td>
@@ -2371,7 +2371,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office jurisdiction code</td>
@@ -2380,7 +2380,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office Jurisdiction description if the field JURIS_CD is set to city (CIT), county (CTY), local (LOC), or other (OTH).</td>
@@ -2389,7 +2389,7 @@ Fields
     
     
         <tr>
-            <td>late_rptno</td>
+            <td>LATE_RPTNO</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Identifying Report Number used to distinguish multiple reports filed during the same filing period. For example, this field allows for multiple form 497s to be filed on the same day.</td>
@@ -2398,7 +2398,7 @@ Fields
     
     
         <tr>
-            <td>mail_city</td>
+            <td>MAIL_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer mailing address city</td>
@@ -2407,7 +2407,7 @@ Fields
     
     
         <tr>
-            <td>mail_st</td>
+            <td>MAIL_ST</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Filer mailing address state</td>
@@ -2416,7 +2416,7 @@ Fields
     
     
         <tr>
-            <td>mail_zip4</td>
+            <td>MAIL_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer mailing address ZIP Code</td>
@@ -2425,7 +2425,7 @@ Fields
     
     
         <tr>
-            <td>occupation</td>
+            <td>OCCUPATION</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Occupation. This field is most likely unused.</td>
@@ -2434,7 +2434,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office is sought or held code</td>
@@ -2443,7 +2443,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office sought description if the field OFFICE_CD is set to other (OTH)</td>
@@ -2452,7 +2452,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -2461,7 +2461,7 @@ Fields
     
     
         <tr>
-            <td>other_cb</td>
+            <td>OTHER_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Other entity interests info included check-box. Legal values are &#39;X&#39; and null.</td>
@@ -2470,7 +2470,7 @@ Fields
     
     
         <tr>
-            <td>other_int</td>
+            <td>OTHER_INT</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Other entity interests description</td>
@@ -2479,7 +2479,7 @@ Fields
     
     
         <tr>
-            <td>primfrm_yn</td>
+            <td>PRIMFRM_YN</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Primarily Formed Committee (yes/no) checkbox. Legal values are &#39;Y&#39; or &#39;N&#39;.</td>
@@ -2488,7 +2488,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Record Type Value: CVR</td>
@@ -2497,7 +2497,7 @@ Fields
     
     
         <tr>
-            <td>report_num</td>
+            <td>REPORT_NUM</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Amendment number, as reported by the filer Report Number 000 represents an original filing. 001-999 are amendments.</td>
@@ -2506,7 +2506,7 @@ Fields
     
     
         <tr>
-            <td>reportname</td>
+            <td>REPORTNAME</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Attached campaign disclosure statement type. Legal values are 450, 460, and 461.</td>
@@ -2515,7 +2515,7 @@ Fields
     
     
         <tr>
-            <td>rpt_att_cb</td>
+            <td>RPT_ATT_CB</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Committee Report Attached check-box. Legal values are &#39;X&#39; or null. This field applies to the form 401.</td>
@@ -2524,7 +2524,7 @@ Fields
     
     
         <tr>
-            <td>rpt_date</td>
+            <td>RPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this report was filed, according to the filer</td>
@@ -2533,7 +2533,7 @@ Fields
     
     
         <tr>
-            <td>rptfromdt</td>
+            <td>RPTFROMDT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Attached campaign disclosure statement - Period from date.</td>
@@ -2542,7 +2542,7 @@ Fields
     
     
         <tr>
-            <td>rptthrudt</td>
+            <td>RPTTHRUDT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Attached campaign disclosure statement - Period through date.</td>
@@ -2551,7 +2551,7 @@ Fields
     
     
         <tr>
-            <td>selfemp_cb</td>
+            <td>SELFEMP_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Self employed check-box. CAL format to db tables doc says: &quot;Not Used-AMS KDE&quot;</td>
@@ -2560,7 +2560,7 @@ Fields
     
     
         <tr>
-            <td>sponsor_yn</td>
+            <td>SPONSOR_YN</td>
             <td>Integer</td>
             <td>No</td>
             <td>Sponsored Committee (yes/no) checkbox. Legal values are &#39;Y&#39; or &#39;N&#39;.</td>
@@ -2569,7 +2569,7 @@ Fields
     
     
         <tr>
-            <td>stmt_type</td>
+            <td>STMT_TYPE</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Type of statement</td>
@@ -2578,7 +2578,7 @@ Fields
     
     
         <tr>
-            <td>sup_opp_cd</td>
+            <td>SUP_OPP_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Support or opposition code</td>
@@ -2587,7 +2587,7 @@ Fields
     
     
         <tr>
-            <td>thru_date</td>
+            <td>THRU_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period through date</td>
@@ -2596,7 +2596,7 @@ Fields
     
     
         <tr>
-            <td>tres_city</td>
+            <td>TRES_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>City portion of the treasurer or responsible officer&#39;s street address.</td>
@@ -2605,7 +2605,7 @@ Fields
     
     
         <tr>
-            <td>tres_email</td>
+            <td>TRES_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s email</td>
@@ -2614,7 +2614,7 @@ Fields
     
     
         <tr>
-            <td>tres_fax</td>
+            <td>TRES_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s fax number</td>
@@ -2623,7 +2623,7 @@ Fields
     
     
         <tr>
-            <td>tres_namf</td>
+            <td>TRES_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s first name</td>
@@ -2632,7 +2632,7 @@ Fields
     
     
         <tr>
-            <td>tres_naml</td>
+            <td>TRES_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s last name</td>
@@ -2641,7 +2641,7 @@ Fields
     
     
         <tr>
-            <td>tres_nams</td>
+            <td>TRES_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s suffix</td>
@@ -2650,7 +2650,7 @@ Fields
     
     
         <tr>
-            <td>tres_namt</td>
+            <td>TRES_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s prefix or title</td>
@@ -2659,7 +2659,7 @@ Fields
     
     
         <tr>
-            <td>tres_phon</td>
+            <td>TRES_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s phone number</td>
@@ -2668,7 +2668,7 @@ Fields
     
     
         <tr>
-            <td>tres_st</td>
+            <td>TRES_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s state</td>
@@ -2677,7 +2677,7 @@ Fields
     
     
         <tr>
-            <td>tres_zip4</td>
+            <td>TRES_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s ZIP Code</td>
@@ -3772,7 +3772,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -3781,7 +3781,7 @@ Fields
     
     
         <tr>
-            <td>bal_juris</td>
+            <td>BAL_JURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Ballot measure jurisdiction</td>
@@ -3790,7 +3790,7 @@ Fields
     
     
         <tr>
-            <td>bal_name</td>
+            <td>BAL_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Ballot measure name</td>
@@ -3799,7 +3799,7 @@ Fields
     
     
         <tr>
-            <td>bal_num</td>
+            <td>BAL_NUM</td>
             <td>String (up to 7)</td>
             <td>No</td>
             <td>Ballot measure number or letter</td>
@@ -3808,7 +3808,7 @@ Fields
     
     
         <tr>
-            <td>cmte_id</td>
+            <td>CMTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Commitee identification number, when the entity is a committee</td>
@@ -3817,7 +3817,7 @@ Fields
     
     
         <tr>
-            <td>control_yn</td>
+            <td>CONTROL_YN</td>
             <td>Integer</td>
             <td>No</td>
             <td>Controlled Committee (yes/no) checkbox. Legal values are &quot;Y&quot; or &quot;N&quot;.</td>
@@ -3826,7 +3826,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
@@ -3835,7 +3835,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code used to identify the type of entity being described with in the record.</td>
@@ -3844,7 +3844,7 @@ Fields
     
     
         <tr>
-            <td>enty_city</td>
+            <td>ENTY_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Entity city</td>
@@ -3853,7 +3853,7 @@ Fields
     
     
         <tr>
-            <td>enty_email</td>
+            <td>ENTY_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Entity email address</td>
@@ -3862,7 +3862,7 @@ Fields
     
     
         <tr>
-            <td>enty_fax</td>
+            <td>ENTY_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Entity fax number</td>
@@ -3871,7 +3871,7 @@ Fields
     
     
         <tr>
-            <td>enty_namf</td>
+            <td>ENTY_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Entity first name, if an individual</td>
@@ -3880,7 +3880,7 @@ Fields
     
     
         <tr>
-            <td>enty_naml</td>
+            <td>ENTY_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Entity name, or last name if an individual</td>
@@ -3889,7 +3889,7 @@ Fields
     
     
         <tr>
-            <td>enty_nams</td>
+            <td>ENTY_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity suffix, if an individual</td>
@@ -3898,7 +3898,7 @@ Fields
     
     
         <tr>
-            <td>enty_namt</td>
+            <td>ENTY_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity prefix or title, if an individual</td>
@@ -3907,7 +3907,7 @@ Fields
     
     
         <tr>
-            <td>enty_phon</td>
+            <td>ENTY_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Entity phone number</td>
@@ -3916,7 +3916,7 @@ Fields
     
     
         <tr>
-            <td>enty_st</td>
+            <td>ENTY_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Entity state</td>
@@ -3925,7 +3925,7 @@ Fields
     
     
         <tr>
-            <td>enty_zip4</td>
+            <td>ENTY_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity ZIP code</td>
@@ -3934,7 +3934,7 @@ Fields
     
     
         <tr>
-            <td>f460_part</td>
+            <td>F460_PART</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Part of 460 cover page coded on ths cvr2 record</td>
@@ -3943,7 +3943,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -3952,7 +3952,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -3961,7 +3961,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office jurisdiction code</td>
@@ -3970,7 +3970,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office jurisdiction description</td>
@@ -3979,7 +3979,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -3988,7 +3988,7 @@ Fields
     
     
         <tr>
-            <td>mail_city</td>
+            <td>MAIL_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer&#39;s mailing city</td>
@@ -3997,7 +3997,7 @@ Fields
     
     
         <tr>
-            <td>mail_st</td>
+            <td>MAIL_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Filer&#39;s mailing state</td>
@@ -4006,7 +4006,7 @@ Fields
     
     
         <tr>
-            <td>mail_zip4</td>
+            <td>MAIL_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer&#39;s mailing ZIP Code</td>
@@ -4015,7 +4015,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office is sought or held code</td>
@@ -4024,7 +4024,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office sought description</td>
@@ -4033,7 +4033,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -4042,7 +4042,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR2</td>
@@ -4051,7 +4051,7 @@ Fields
     
     
         <tr>
-            <td>sup_opp_cd</td>
+            <td>SUP_OPP_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Support or opposition code</td>
@@ -4060,7 +4060,7 @@ Fields
     
     
         <tr>
-            <td>title</td>
+            <td>TITLE</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Official title of filing officer. Applies to the form 465.</td>
@@ -4069,7 +4069,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -4078,7 +4078,7 @@ Fields
     
     
         <tr>
-            <td>tres_namf</td>
+            <td>TRES_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s first name</td>
@@ -4087,7 +4087,7 @@ Fields
     
     
         <tr>
-            <td>tres_naml</td>
+            <td>TRES_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s last name</td>
@@ -4096,7 +4096,7 @@ Fields
     
     
         <tr>
-            <td>tres_nams</td>
+            <td>TRES_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s suffix</td>
@@ -4105,7 +4105,7 @@ Fields
     
     
         <tr>
-            <td>tres_namt</td>
+            <td>TRES_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s prefix or title</td>
@@ -4919,7 +4919,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -4928,7 +4928,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount Received (Monetary, Inkkind, Promise)</td>
@@ -4937,7 +4937,7 @@ Fields
     
     
         <tr>
-            <td>bakref_tid</td>
+            <td>BAKREF_TID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Back Reference to a transaction identifier of a parent record</td>
@@ -4946,7 +4946,7 @@ Fields
     
     
         <tr>
-            <td>bal_juris</td>
+            <td>BAL_JURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Jurisdiction of ballot measure. Used on the Form 401 Schedule A</td>
@@ -4955,7 +4955,7 @@ Fields
     
     
         <tr>
-            <td>bal_name</td>
+            <td>BAL_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Ballot measure name. Used on the Form 401 Schedule A</td>
@@ -4964,7 +4964,7 @@ Fields
     
     
         <tr>
-            <td>bal_num</td>
+            <td>BAL_NUM</td>
             <td>String (up to 7)</td>
             <td>No</td>
             <td>Ballot measure number or letter. Used on the Form 401 Schedule A</td>
@@ -4973,7 +4973,7 @@ Fields
     
     
         <tr>
-            <td>cand_namf</td>
+            <td>CAND_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s first name. Used on the Form 401 Schedule A</td>
@@ -4982,7 +4982,7 @@ Fields
     
     
         <tr>
-            <td>cand_naml</td>
+            <td>CAND_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s last name. Used on the Form 401 Schedule A</td>
@@ -4991,7 +4991,7 @@ Fields
     
     
         <tr>
-            <td>cand_nams</td>
+            <td>CAND_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s name suffix. Used on the Form 401 Schedule A</td>
@@ -5000,7 +5000,7 @@ Fields
     
     
         <tr>
-            <td>cand_namt</td>
+            <td>CAND_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s name prefix or title. Used on the Form 401 Schedule A</td>
@@ -5009,7 +5009,7 @@ Fields
     
     
         <tr>
-            <td>cmte_id</td>
+            <td>CMTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Committee Identification number</td>
@@ -5018,7 +5018,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_city</td>
+            <td>CTRIB_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Contributor&#39;s City</td>
@@ -5027,7 +5027,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_dscr</td>
+            <td>CTRIB_DSCR</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Description of goods/services received</td>
@@ -5036,7 +5036,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_emp</td>
+            <td>CTRIB_EMP</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Employer</td>
@@ -5045,7 +5045,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_namf</td>
+            <td>CTRIB_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Contributor&#39;s First Name</td>
@@ -5054,7 +5054,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_naml</td>
+            <td>CTRIB_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Contributor&#39;s last name or business name</td>
@@ -5063,7 +5063,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_nams</td>
+            <td>CTRIB_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Contributor&#39;s Suffix</td>
@@ -5072,7 +5072,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_namt</td>
+            <td>CTRIB_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Contributor&#39;s Prefix or Title</td>
@@ -5081,7 +5081,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_occ</td>
+            <td>CTRIB_OCC</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Occupation</td>
@@ -5090,7 +5090,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_self</td>
+            <td>CTRIB_SELF</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Self Employed Check-box</td>
@@ -5099,7 +5099,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_st</td>
+            <td>CTRIB_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Contributor&#39;s State</td>
@@ -5108,7 +5108,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_zip4</td>
+            <td>CTRIB_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Contributor&#39;s ZIP+4</td>
@@ -5117,7 +5117,7 @@ Fields
     
     
         <tr>
-            <td>cum_oth</td>
+            <td>CUM_OTH</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative Other (Sched A, A-1)</td>
@@ -5126,7 +5126,7 @@ Fields
     
     
         <tr>
-            <td>cum_ytd</td>
+            <td>CUM_YTD</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative year to date amount (Form 460 Schedule A and Form 401 Schedule A, A-1)</td>
@@ -5135,7 +5135,7 @@ Fields
     
     
         <tr>
-            <td>date_thru</td>
+            <td>DATE_THRU</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End of date range for items received</td>
@@ -5144,7 +5144,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office District Number (used on F401A)</td>
@@ -5153,7 +5153,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code describing the contributor</td>
@@ -5162,7 +5162,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -5171,7 +5171,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 9)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -5180,7 +5180,7 @@ Fields
     
     
         <tr>
-            <td>int_rate</td>
+            <td>INT_RATE</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5189,7 +5189,7 @@ Fields
     
     
         <tr>
-            <td>intr_city</td>
+            <td>INTR_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Intermediary&#39;s City</td>
@@ -5198,7 +5198,7 @@ Fields
     
     
         <tr>
-            <td>intr_cmteid</td>
+            <td>INTR_CMTEID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5207,7 +5207,7 @@ Fields
     
     
         <tr>
-            <td>intr_emp</td>
+            <td>INTR_EMP</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Intermediary&#39;s Employer</td>
@@ -5216,7 +5216,7 @@ Fields
     
     
         <tr>
-            <td>intr_namf</td>
+            <td>INTR_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Intermediary&#39;s First Name</td>
@@ -5225,7 +5225,7 @@ Fields
     
     
         <tr>
-            <td>intr_naml</td>
+            <td>INTR_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Intermediary&#39;s Last Name</td>
@@ -5234,7 +5234,7 @@ Fields
     
     
         <tr>
-            <td>intr_nams</td>
+            <td>INTR_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Intermediary&#39;s Suffix</td>
@@ -5243,7 +5243,7 @@ Fields
     
     
         <tr>
-            <td>intr_namt</td>
+            <td>INTR_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Intermediary&#39;s Prefix or Title</td>
@@ -5252,7 +5252,7 @@ Fields
     
     
         <tr>
-            <td>intr_occ</td>
+            <td>INTR_OCC</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Intermediary&#39;s Occupation</td>
@@ -5261,7 +5261,7 @@ Fields
     
     
         <tr>
-            <td>intr_self</td>
+            <td>INTR_SELF</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Intermediary&#39;s self employed check box</td>
@@ -5270,7 +5270,7 @@ Fields
     
     
         <tr>
-            <td>intr_st</td>
+            <td>INTR_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Intermediary&#39;s state</td>
@@ -5279,7 +5279,7 @@ Fields
     
     
         <tr>
-            <td>intr_zip4</td>
+            <td>INTR_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Intermediary&#39;s zip code</td>
@@ -5288,7 +5288,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office jurisdiction code. See the CAL document for the list of legal values. Used on Form 401 Schedule A</td>
@@ -5297,7 +5297,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office Jurisdiction Description (used on F401A)</td>
@@ -5306,7 +5306,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -5315,7 +5315,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag (Date/Amount are informational only)</td>
@@ -5324,7 +5324,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in a TEXT record</td>
@@ -5333,7 +5333,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office is sought or held code</td>
@@ -5342,7 +5342,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office Sought Description (used on F401A)</td>
@@ -5351,7 +5351,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -5360,7 +5360,7 @@ Fields
     
     
         <tr>
-            <td>rcpt_date</td>
+            <td>RCPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date item received</td>
@@ -5369,7 +5369,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR</td>
@@ -5378,7 +5378,7 @@ Fields
     
     
         <tr>
-            <td>sup_opp_cd</td>
+            <td>SUP_OPP_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Support or opposition code</td>
@@ -5387,7 +5387,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -5396,7 +5396,7 @@ Fields
     
     
         <tr>
-            <td>tran_type</td>
+            <td>TRAN_TYPE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Transaction Type</td>
@@ -5405,7 +5405,7 @@ Fields
     
     
         <tr>
-            <td>tres_city</td>
+            <td>TRES_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>City portion of the treasurer or responsible officer&#39;s street address</td>
@@ -5414,7 +5414,7 @@ Fields
     
     
         <tr>
-            <td>tres_namf</td>
+            <td>TRES_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s first name</td>
@@ -5423,7 +5423,7 @@ Fields
     
     
         <tr>
-            <td>tres_naml</td>
+            <td>TRES_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s last name</td>
@@ -5432,7 +5432,7 @@ Fields
     
     
         <tr>
-            <td>tres_nams</td>
+            <td>TRES_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s suffix</td>
@@ -5441,7 +5441,7 @@ Fields
     
     
         <tr>
-            <td>tres_namt</td>
+            <td>TRES_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s prefix or title</td>
@@ -5450,7 +5450,7 @@ Fields
     
     
         <tr>
-            <td>tres_st</td>
+            <td>TRES_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>State portion of the treasurer or responsible officer&#39;s address</td>
@@ -5459,7 +5459,7 @@ Fields
     
     
         <tr>
-            <td>tres_zip4</td>
+            <td>TRES_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Zip code portion of the treasurer or responsible officer&#39;s address</td>
@@ -5468,7 +5468,7 @@ Fields
     
     
         <tr>
-            <td>xref_match</td>
+            <td>XREF_MATCH</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Related item on other schedule has same transaction identifier. &#39;X&#39; indicates this condition is true</td>
@@ -5477,7 +5477,7 @@ Fields
     
     
         <tr>
-            <td>xref_schnm</td>
+            <td>XREF_SCHNM</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Related record is included on Sched &#39;B2&#39; or &#39;F&#39;</td>
@@ -6340,7 +6340,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -6349,7 +6349,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -6358,7 +6358,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -6367,7 +6367,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR3</td>
@@ -6376,7 +6376,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -6385,7 +6385,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -6394,7 +6394,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code</td>
@@ -6403,7 +6403,7 @@ Fields
     
     
         <tr>
-            <td>sig_date</td>
+            <td>SIG_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date when signed</td>
@@ -6412,7 +6412,7 @@ Fields
     
     
         <tr>
-            <td>sig_loc</td>
+            <td>SIG_LOC</td>
             <td>String (up to 39)</td>
             <td>No</td>
             <td>City and state where signed</td>
@@ -6421,7 +6421,7 @@ Fields
     
     
         <tr>
-            <td>sig_naml</td>
+            <td>SIG_NAML</td>
             <td>String (up to 56)</td>
             <td>No</td>
             <td>Last name of the signer</td>
@@ -6430,7 +6430,7 @@ Fields
     
     
         <tr>
-            <td>sig_namf</td>
+            <td>SIG_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>First name of the signer</td>
@@ -6439,7 +6439,7 @@ Fields
     
     
         <tr>
-            <td>sig_namt</td>
+            <td>SIG_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Title of the signer</td>
@@ -6448,7 +6448,7 @@ Fields
     
     
         <tr>
-            <td>sig_nams</td>
+            <td>SIG_NAMS</td>
             <td>String (up to 8)</td>
             <td>No</td>
             <td>Suffix of the signer</td>
@@ -6781,7 +6781,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -6790,7 +6790,7 @@ Fields
     
     
         <tr>
-            <td>bakref_tid</td>
+            <td>BAKREF_TID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Back Reference to transaction identifier of parent record</td>
@@ -6799,7 +6799,7 @@ Fields
     
     
         <tr>
-            <td>cmte_id</td>
+            <td>CMTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Committee identification number</td>
@@ -6808,7 +6808,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code describing the lender</td>
@@ -6817,7 +6817,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -6826,7 +6826,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 2)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -6835,7 +6835,7 @@ Fields
     
     
         <tr>
-            <td>intr_city</td>
+            <td>INTR_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Intermediary&#39;s city</td>
@@ -6844,7 +6844,7 @@ Fields
     
     
         <tr>
-            <td>intr_namf</td>
+            <td>INTR_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Intermediary&#39;s first name</td>
@@ -6853,7 +6853,7 @@ Fields
     
     
         <tr>
-            <td>intr_naml</td>
+            <td>INTR_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Intermediary&#39;s last name</td>
@@ -6862,7 +6862,7 @@ Fields
     
     
         <tr>
-            <td>intr_nams</td>
+            <td>INTR_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Intermediary&#39;s suffix</td>
@@ -6871,7 +6871,7 @@ Fields
     
     
         <tr>
-            <td>intr_namt</td>
+            <td>INTR_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Intermediary&#39;s title or prefix</td>
@@ -6880,7 +6880,7 @@ Fields
     
     
         <tr>
-            <td>intr_st</td>
+            <td>INTR_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Intermediary&#39;s state</td>
@@ -6889,7 +6889,7 @@ Fields
     
     
         <tr>
-            <td>intr_zip4</td>
+            <td>INTR_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Intermediary&#39;s ZIP Code</td>
@@ -6898,7 +6898,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -6907,7 +6907,7 @@ Fields
     
     
         <tr>
-            <td>lndr_namf</td>
+            <td>LNDR_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Lender&#39;s first name</td>
@@ -6916,7 +6916,7 @@ Fields
     
     
         <tr>
-            <td>lndr_naml</td>
+            <td>LNDR_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Lender&#39;s last name or business name</td>
@@ -6925,7 +6925,7 @@ Fields
     
     
         <tr>
-            <td>lndr_nams</td>
+            <td>LNDR_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Lender&#39;s suffix</td>
@@ -6934,7 +6934,7 @@ Fields
     
     
         <tr>
-            <td>lndr_namt</td>
+            <td>LNDR_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Lender&#39;s title or prefix</td>
@@ -6943,7 +6943,7 @@ Fields
     
     
         <tr>
-            <td>loan_amt1</td>
+            <td>LOAN_AMT1</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Repaid or forgiven amount; Original loan amount. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
@@ -6952,7 +6952,7 @@ Fields
     
     
         <tr>
-            <td>loan_amt2</td>
+            <td>LOAN_AMT2</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Outstanding Principal; unpaid balance. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
@@ -6961,7 +6961,7 @@ Fields
     
     
         <tr>
-            <td>loan_amt3</td>
+            <td>LOAN_AMT3</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Interest Paid; Unpaid interest; Interest received. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
@@ -6970,7 +6970,7 @@ Fields
     
     
         <tr>
-            <td>loan_amt4</td>
+            <td>LOAN_AMT4</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative Amount/Other. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
@@ -6979,7 +6979,7 @@ Fields
     
     
         <tr>
-            <td>loan_amt5</td>
+            <td>LOAN_AMT5</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -6988,7 +6988,7 @@ Fields
     
     
         <tr>
-            <td>loan_amt6</td>
+            <td>LOAN_AMT6</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -6997,7 +6997,7 @@ Fields
     
     
         <tr>
-            <td>loan_amt7</td>
+            <td>LOAN_AMT7</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -7006,7 +7006,7 @@ Fields
     
     
         <tr>
-            <td>loan_amt8</td>
+            <td>LOAN_AMT8</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -7015,7 +7015,7 @@ Fields
     
     
         <tr>
-            <td>loan_city</td>
+            <td>LOAN_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Lender&#39;s city</td>
@@ -7024,7 +7024,7 @@ Fields
     
     
         <tr>
-            <td>loan_date1</td>
+            <td>LOAN_DATE1</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date the loan was made or recieved. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value.</td>
@@ -7033,7 +7033,7 @@ Fields
     
     
         <tr>
-            <td>loan_date2</td>
+            <td>LOAN_DATE2</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date repaid/forgiven; date loan due. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
@@ -7042,7 +7042,7 @@ Fields
     
     
         <tr>
-            <td>loan_emp</td>
+            <td>LOAN_EMP</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Loan employer. Applies to the Form 460 Schedule B Part 1.</td>
@@ -7051,7 +7051,7 @@ Fields
     
     
         <tr>
-            <td>loan_occ</td>
+            <td>LOAN_OCC</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Loan occupation. Applies to the Form 460 Schedule B Part 1.</td>
@@ -7060,7 +7060,7 @@ Fields
     
     
         <tr>
-            <td>loan_rate</td>
+            <td>LOAN_RATE</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Interest Rate. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
@@ -7069,7 +7069,7 @@ Fields
     
     
         <tr>
-            <td>loan_self</td>
+            <td>LOAN_SELF</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Self-employed checkbox</td>
@@ -7078,7 +7078,7 @@ Fields
     
     
         <tr>
-            <td>loan_st</td>
+            <td>LOAN_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Lender&#39;s state</td>
@@ -7087,7 +7087,7 @@ Fields
     
     
         <tr>
-            <td>loan_type</td>
+            <td>LOAN_TYPE</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Type of loan</td>
@@ -7096,7 +7096,7 @@ Fields
     
     
         <tr>
-            <td>loan_zip4</td>
+            <td>LOAN_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Lender&#39;s ZIP Code</td>
@@ -7105,7 +7105,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -7114,7 +7114,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in a TEXT record</td>
@@ -7123,7 +7123,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LOAN</td>
@@ -7132,7 +7132,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -7141,7 +7141,7 @@ Fields
     
     
         <tr>
-            <td>tres_city</td>
+            <td>TRES_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s city</td>
@@ -7150,7 +7150,7 @@ Fields
     
     
         <tr>
-            <td>tres_namf</td>
+            <td>TRES_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s first name</td>
@@ -7159,7 +7159,7 @@ Fields
     
     
         <tr>
-            <td>tres_naml</td>
+            <td>TRES_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s last name</td>
@@ -7168,7 +7168,7 @@ Fields
     
     
         <tr>
-            <td>tres_nams</td>
+            <td>TRES_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s suffix</td>
@@ -7177,7 +7177,7 @@ Fields
     
     
         <tr>
-            <td>tres_namt</td>
+            <td>TRES_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s title or prefix</td>
@@ -7186,7 +7186,7 @@ Fields
     
     
         <tr>
-            <td>tres_st</td>
+            <td>TRES_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s street address</td>
@@ -7195,7 +7195,7 @@ Fields
     
     
         <tr>
-            <td>tres_zip4</td>
+            <td>TRES_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s ZIP Code</td>
@@ -7204,7 +7204,7 @@ Fields
     
     
         <tr>
-            <td>xref_match</td>
+            <td>XREF_MATCH</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Related item on other schedule has same transaction identifier. &quot;X&quot; indicates this condition is true.</td>
@@ -7213,7 +7213,7 @@ Fields
     
     
         <tr>
-            <td>xref_schnm</td>
+            <td>XREF_SCHNM</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Related record is included on Form 460 Schedule &#39;A&#39; or &#39;E&#39;</td>
@@ -7539,7 +7539,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -7548,7 +7548,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -7557,7 +7557,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>No</td>
             <td>Line item number of this record</td>
@@ -7566,7 +7566,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: S401</td>
@@ -7575,7 +7575,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -7584,7 +7584,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -7593,7 +7593,7 @@ Fields
     
     
         <tr>
-            <td>agent_naml</td>
+            <td>AGENT_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Agent or independent contractor&#39;s last name</td>
@@ -7602,7 +7602,7 @@ Fields
     
     
         <tr>
-            <td>agent_namf</td>
+            <td>AGENT_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Agent or independent contractor&#39;s first name</td>
@@ -7611,7 +7611,7 @@ Fields
     
     
         <tr>
-            <td>agent_namt</td>
+            <td>AGENT_NAMT</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Agent or independent contractor&#39;s title or prefix</td>
@@ -7620,7 +7620,7 @@ Fields
     
     
         <tr>
-            <td>agent_nams</td>
+            <td>AGENT_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Agent or independent contractor&#39;s suffix</td>
@@ -7629,7 +7629,7 @@ Fields
     
     
         <tr>
-            <td>payee_naml</td>
+            <td>PAYEE_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Payee&#39;s business name or last name if the payee is an individual</td>
@@ -7638,7 +7638,7 @@ Fields
     
     
         <tr>
-            <td>payee_namf</td>
+            <td>PAYEE_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Payee&#39;s first name if the payee is an individual</td>
@@ -7647,7 +7647,7 @@ Fields
     
     
         <tr>
-            <td>payee_namt</td>
+            <td>PAYEE_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee&#39;s title or prefix if the payee is an individual</td>
@@ -7656,7 +7656,7 @@ Fields
     
     
         <tr>
-            <td>payee_nams</td>
+            <td>PAYEE_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee&#39;s suffix if the payee is an individual</td>
@@ -7665,7 +7665,7 @@ Fields
     
     
         <tr>
-            <td>payee_city</td>
+            <td>PAYEE_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Payee&#39;s city address</td>
@@ -7674,7 +7674,7 @@ Fields
     
     
         <tr>
-            <td>payee_st</td>
+            <td>PAYEE_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Payee state address</td>
@@ -7683,7 +7683,7 @@ Fields
     
     
         <tr>
-            <td>payee_zip4</td>
+            <td>PAYEE_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee ZIP Code</td>
@@ -7692,7 +7692,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount (Sched F401B, 401B-1, 401C)</td>
@@ -7701,7 +7701,7 @@ Fields
     
     
         <tr>
-            <td>aggregate</td>
+            <td>AGGREGATE</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Aggregate year-to-date amount (Sched 401C)</td>
@@ -7710,7 +7710,7 @@ Fields
     
     
         <tr>
-            <td>expn_dscr</td>
+            <td>EXPN_DSCR</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Purpose of expense and/or description/explanation</td>
@@ -7719,7 +7719,7 @@ Fields
     
     
         <tr>
-            <td>cand_naml</td>
+            <td>CAND_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Candidate/officeholder last name</td>
@@ -7728,7 +7728,7 @@ Fields
     
     
         <tr>
-            <td>cand_namf</td>
+            <td>CAND_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Candidate/officeholder first name</td>
@@ -7737,7 +7737,7 @@ Fields
     
     
         <tr>
-            <td>cand_namt</td>
+            <td>CAND_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder title or prefix</td>
@@ -7746,7 +7746,7 @@ Fields
     
     
         <tr>
-            <td>cand_nams</td>
+            <td>CAND_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder suffix</td>
@@ -7755,7 +7755,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -7764,7 +7764,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office sought description</td>
@@ -7773,7 +7773,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office jurisdiction code</td>
@@ -7782,7 +7782,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office jurisdiction description</td>
@@ -7791,7 +7791,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
@@ -7800,7 +7800,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office is sought or held code</td>
@@ -7809,7 +7809,7 @@ Fields
     
     
         <tr>
-            <td>bal_name</td>
+            <td>BAL_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Ballot measure name</td>
@@ -7818,7 +7818,7 @@ Fields
     
     
         <tr>
-            <td>bal_num</td>
+            <td>BAL_NUM</td>
             <td>String (up to 7)</td>
             <td>No</td>
             <td>Ballot measure number or letter</td>
@@ -7827,7 +7827,7 @@ Fields
     
     
         <tr>
-            <td>bal_juris</td>
+            <td>BAL_JURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Ballot measure jurisdiction</td>
@@ -7836,7 +7836,7 @@ Fields
     
     
         <tr>
-            <td>sup_opp_cd</td>
+            <td>SUP_OPP_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Support or opposition code</td>
@@ -7845,7 +7845,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -7854,7 +7854,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in the TEXT record</td>
@@ -7863,7 +7863,7 @@ Fields
     
     
         <tr>
-            <td>bakref_tid</td>
+            <td>BAKREF_TID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Back reference to transaction identifier of parent record</td>
@@ -8491,7 +8491,7 @@ Fields
     
     
         <tr>
-            <td>agent_namf</td>
+            <td>AGENT_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Agent of Ind. Contractor&#39;s First name</td>
@@ -8500,7 +8500,7 @@ Fields
     
     
         <tr>
-            <td>agent_naml</td>
+            <td>AGENT_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Agent of Ind. Contractor&#39;s Last name (Sched G)</td>
@@ -8509,7 +8509,7 @@ Fields
     
     
         <tr>
-            <td>agent_nams</td>
+            <td>AGENT_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Agent of Ind. Contractor&#39;s Suffix</td>
@@ -8518,7 +8518,7 @@ Fields
     
     
         <tr>
-            <td>agent_namt</td>
+            <td>AGENT_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Agent of Ind. Contractor&#39;s Prefix or Title</td>
@@ -8527,7 +8527,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -8536,7 +8536,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of Payment</td>
@@ -8545,7 +8545,7 @@ Fields
     
     
         <tr>
-            <td>bakref_tid</td>
+            <td>BAKREF_TID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Back Reference to a Tran_ID of a &#39;parent&#39; record</td>
@@ -8554,7 +8554,7 @@ Fields
     
     
         <tr>
-            <td>bal_juris</td>
+            <td>BAL_JURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Jurisdiction</td>
@@ -8563,7 +8563,7 @@ Fields
     
     
         <tr>
-            <td>bal_name</td>
+            <td>BAL_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Ballot Measure Name</td>
@@ -8572,7 +8572,7 @@ Fields
     
     
         <tr>
-            <td>bal_num</td>
+            <td>BAL_NUM</td>
             <td>String (up to 7)</td>
             <td>No</td>
             <td>Ballot Number or Letter</td>
@@ -8581,7 +8581,7 @@ Fields
     
     
         <tr>
-            <td>cand_namf</td>
+            <td>CAND_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Candidate&#39;s First name</td>
@@ -8590,7 +8590,7 @@ Fields
     
     
         <tr>
-            <td>cand_naml</td>
+            <td>CAND_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Candidate&#39;s Last name</td>
@@ -8599,7 +8599,7 @@ Fields
     
     
         <tr>
-            <td>cand_nams</td>
+            <td>CAND_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate&#39;s Suffix</td>
@@ -8608,7 +8608,7 @@ Fields
     
     
         <tr>
-            <td>cand_namt</td>
+            <td>CAND_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate&#39;s Prefix or Title</td>
@@ -8617,7 +8617,7 @@ Fields
     
     
         <tr>
-            <td>cmte_id</td>
+            <td>CMTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Committee ID (If [COM|RCP] &amp; no ID#, Treas info Req.)</td>
@@ -8626,7 +8626,7 @@ Fields
     
     
         <tr>
-            <td>cum_oth</td>
+            <td>CUM_OTH</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative / &#39;Other&#39; (No Cumulative on Sched E &amp; G)</td>
@@ -8635,7 +8635,7 @@ Fields
     
     
         <tr>
-            <td>cum_ytd</td>
+            <td>CUM_YTD</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative / Year-to-date amount         (No Cumulative on Sched E &amp; G)</td>
@@ -8644,7 +8644,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office District Number (Req. if Juris_Cd=[SEN|ASM|BOE]</td>
@@ -8653,7 +8653,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code describing payee</td>
@@ -8662,7 +8662,7 @@ Fields
     
     
         <tr>
-            <td>expn_chkno</td>
+            <td>EXPN_CHKNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Check Number (Optional)</td>
@@ -8671,7 +8671,7 @@ Fields
     
     
         <tr>
-            <td>expn_code</td>
+            <td>EXPN_CODE</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>CTB &amp; IND need explanation &amp; listing on Sched D TRC &amp; TRS require explanation</td>
@@ -8680,7 +8680,7 @@ Fields
     
     
         <tr>
-            <td>expn_date</td>
+            <td>EXPN_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of Expenditure (Note: Date not on Sched E &amp; G)</td>
@@ -8689,7 +8689,7 @@ Fields
     
     
         <tr>
-            <td>expn_dscr</td>
+            <td>EXPN_DSCR</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Purpose of expense and/or description/explanation</td>
@@ -8698,7 +8698,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -8707,7 +8707,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 6)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -8716,7 +8716,7 @@ Fields
     
     
         <tr>
-            <td>g_from_e_f</td>
+            <td>G_FROM_E_F</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Back Reference from Sched G to Sched &#39;E&#39; or &#39;F&#39;?</td>
@@ -8725,7 +8725,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office Jurisdiction Code</td>
@@ -8734,7 +8734,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office Jurisdiction Description         (Req. if Juris_Cd=[CIT|CTY|LOC|OTH]</td>
@@ -8743,7 +8743,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -8752,7 +8752,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo Amount? (Date/Amount are informational only)</td>
@@ -8761,7 +8761,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in a TEXT record.</td>
@@ -8770,7 +8770,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office is sought or held code</td>
@@ -8779,7 +8779,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office Sought Description (Req. if Office_Cd=OTH)</td>
@@ -8788,7 +8788,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -8797,7 +8797,7 @@ Fields
     
     
         <tr>
-            <td>payee_city</td>
+            <td>PAYEE_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Payee City</td>
@@ -8806,7 +8806,7 @@ Fields
     
     
         <tr>
-            <td>payee_namf</td>
+            <td>PAYEE_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Payee&#39;s First name</td>
@@ -8815,7 +8815,7 @@ Fields
     
     
         <tr>
-            <td>payee_naml</td>
+            <td>PAYEE_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Payee&#39;s Last name</td>
@@ -8824,7 +8824,7 @@ Fields
     
     
         <tr>
-            <td>payee_nams</td>
+            <td>PAYEE_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee&#39;s Suffix</td>
@@ -8833,7 +8833,7 @@ Fields
     
     
         <tr>
-            <td>payee_namt</td>
+            <td>PAYEE_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee&#39;s Prefix or Title</td>
@@ -8842,7 +8842,7 @@ Fields
     
     
         <tr>
-            <td>payee_st</td>
+            <td>PAYEE_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>State code</td>
@@ -8851,7 +8851,7 @@ Fields
     
     
         <tr>
-            <td>payee_zip4</td>
+            <td>PAYEE_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Zip+4</td>
@@ -8860,7 +8860,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: EXPN</td>
@@ -8869,7 +8869,7 @@ Fields
     
     
         <tr>
-            <td>sup_opp_cd</td>
+            <td>SUP_OPP_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Support or opposition code</td>
@@ -8878,7 +8878,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -8887,7 +8887,7 @@ Fields
     
     
         <tr>
-            <td>tres_city</td>
+            <td>TRES_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Treasurer City</td>
@@ -8896,7 +8896,7 @@ Fields
     
     
         <tr>
-            <td>tres_namf</td>
+            <td>TRES_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Treasurer&#39;s First name (Req if [COM|RCP] &amp; no ID#)</td>
@@ -8905,7 +8905,7 @@ Fields
     
     
         <tr>
-            <td>tres_naml</td>
+            <td>TRES_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Treasurer&#39;s Last name (Req if [COM|RCP] &amp; no ID#)</td>
@@ -8914,7 +8914,7 @@ Fields
     
     
         <tr>
-            <td>tres_nams</td>
+            <td>TRES_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer&#39;s Suffix</td>
@@ -8923,7 +8923,7 @@ Fields
     
     
         <tr>
-            <td>tres_namt</td>
+            <td>TRES_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer&#39;s Prefix or Title</td>
@@ -8932,7 +8932,7 @@ Fields
     
     
         <tr>
-            <td>tres_st</td>
+            <td>TRES_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Treasurer State</td>
@@ -8941,7 +8941,7 @@ Fields
     
     
         <tr>
-            <td>tres_zip4</td>
+            <td>TRES_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer ZIP+4</td>
@@ -8950,7 +8950,7 @@ Fields
     
     
         <tr>
-            <td>xref_match</td>
+            <td>XREF_MATCH</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>X = Related item on other Sched has same Tran_ID</td>
@@ -8959,7 +8959,7 @@ Fields
     
     
         <tr>
-            <td>xref_schnm</td>
+            <td>XREF_SCHNM</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Related item is included on Sched &#39;C&#39; or &#39;H2&#39;</td>
@@ -11207,7 +11207,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -11216,7 +11216,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -11225,7 +11225,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -11234,7 +11234,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Record Type Value: F495</td>
@@ -11243,7 +11243,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form to which the Form 495 is attached (must equal Form_Type in CVR record)</td>
@@ -11252,7 +11252,7 @@ Fields
     
     
         <tr>
-            <td>elect_date</td>
+            <td>ELECT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of the General Election This date will be the same as on the filing&#39;s cover (CVR) record.</td>
@@ -11261,7 +11261,7 @@ Fields
     
     
         <tr>
-            <td>electjuris</td>
+            <td>ELECTJURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Jurisdiction of the election</td>
@@ -11270,7 +11270,7 @@ Fields
     
     
         <tr>
-            <td>contribamt</td>
+            <td>CONTRIBAMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Contribution amount (For the period of 6 months prior to 17 days before the election)</td>
@@ -11427,7 +11427,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -11436,7 +11436,7 @@ Fields
     
     
         <tr>
-            <td>amt_incur</td>
+            <td>AMT_INCUR</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount incurred this period</td>
@@ -11445,7 +11445,7 @@ Fields
     
     
         <tr>
-            <td>amt_paid</td>
+            <td>AMT_PAID</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount paid this period.</td>
@@ -11454,7 +11454,7 @@ Fields
     
     
         <tr>
-            <td>bakref_tid</td>
+            <td>BAKREF_TID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Back reference to a transaction identifier of a parent record.</td>
@@ -11463,7 +11463,7 @@ Fields
     
     
         <tr>
-            <td>beg_bal</td>
+            <td>BEG_BAL</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Outstanding balance at beginning of period</td>
@@ -11472,7 +11472,7 @@ Fields
     
     
         <tr>
-            <td>cmte_id</td>
+            <td>CMTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Committee identification number</td>
@@ -11481,7 +11481,7 @@ Fields
     
     
         <tr>
-            <td>end_bal</td>
+            <td>END_BAL</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Outstanding balance at close of this period</td>
@@ -11490,7 +11490,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code describing the payee</td>
@@ -11499,7 +11499,7 @@ Fields
     
     
         <tr>
-            <td>expn_code</td>
+            <td>EXPN_CODE</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Expense Code</td>
@@ -11508,7 +11508,7 @@ Fields
     
     
         <tr>
-            <td>expn_dscr</td>
+            <td>EXPN_DSCR</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Purpose of expense and/or description/explanation</td>
@@ -11517,7 +11517,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number of the parent filing</td>
@@ -11526,7 +11526,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 1)</td>
             <td>Yes</td>
             <td>Schedule Name/ID: (F - Sched F / Accrued Expenses)</td>
@@ -11535,7 +11535,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Record line item number</td>
@@ -11544,7 +11544,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -11553,7 +11553,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in a TEXT record.</td>
@@ -11562,7 +11562,7 @@ Fields
     
     
         <tr>
-            <td>payee_city</td>
+            <td>PAYEE_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>First line of the payee&#39;s street address</td>
@@ -11571,7 +11571,7 @@ Fields
     
     
         <tr>
-            <td>payee_namf</td>
+            <td>PAYEE_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Payee&#39;s first name if the payee is an individual</td>
@@ -11580,7 +11580,7 @@ Fields
     
     
         <tr>
-            <td>payee_naml</td>
+            <td>PAYEE_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Payee&#39;s business name or last name if the payee is an individual.</td>
@@ -11589,7 +11589,7 @@ Fields
     
     
         <tr>
-            <td>payee_nams</td>
+            <td>PAYEE_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee&#39;s name suffix if the payee is an individual</td>
@@ -11598,7 +11598,7 @@ Fields
     
     
         <tr>
-            <td>payee_namt</td>
+            <td>PAYEE_NAMT</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Payee&#39;s prefix or title if the payee is an individual</td>
@@ -11607,7 +11607,7 @@ Fields
     
     
         <tr>
-            <td>payee_st</td>
+            <td>PAYEE_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Payee&#39;s state</td>
@@ -11616,7 +11616,7 @@ Fields
     
     
         <tr>
-            <td>payee_zip4</td>
+            <td>PAYEE_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee&#39;s ZIP Code</td>
@@ -11625,7 +11625,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record type value: DEBT</td>
@@ -11634,7 +11634,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Transaction identifier - permanent value unique to this item</td>
@@ -11643,7 +11643,7 @@ Fields
     
     
         <tr>
-            <td>tres_city</td>
+            <td>TRES_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>City portion of the treasurer or responsible officer&#39;s street address</td>
@@ -11652,7 +11652,7 @@ Fields
     
     
         <tr>
-            <td>tres_namf</td>
+            <td>TRES_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s first name</td>
@@ -11661,7 +11661,7 @@ Fields
     
     
         <tr>
-            <td>tres_naml</td>
+            <td>TRES_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s last name</td>
@@ -11670,7 +11670,7 @@ Fields
     
     
         <tr>
-            <td>tres_nams</td>
+            <td>TRES_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s suffix</td>
@@ -11679,7 +11679,7 @@ Fields
     
     
         <tr>
-            <td>tres_namt</td>
+            <td>TRES_NAMT</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Treasurer or responsible officer&#39;s prefix or title</td>
@@ -11688,7 +11688,7 @@ Fields
     
     
         <tr>
-            <td>tres_st</td>
+            <td>TRES_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>State portion of the treasurer or responsible officer&#39;s address</td>
@@ -11697,7 +11697,7 @@ Fields
     
     
         <tr>
-            <td>tres_zip4</td>
+            <td>TRES_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>ZIP Code portion of the treasurer or responsible officer&#39;s address</td>
@@ -11706,7 +11706,7 @@ Fields
     
     
         <tr>
-            <td>xref_match</td>
+            <td>XREF_MATCH</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Related item on other schedule has same transaction identifier. /&quot;X/&quot; indicates this condition is true</td>
@@ -11715,7 +11715,7 @@ Fields
     
     
         <tr>
-            <td>xref_schnm</td>
+            <td>XREF_SCHNM</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Related record is included on Schedule C.</td>
@@ -12296,7 +12296,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -12305,7 +12305,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -12314,7 +12314,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -12323,7 +12323,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: S496</td>
@@ -12332,7 +12332,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -12341,7 +12341,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -12350,7 +12350,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Expenditure amount</td>
@@ -12359,7 +12359,7 @@ Fields
     
     
         <tr>
-            <td>exp_date</td>
+            <td>EXP_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Expenditure dates</td>
@@ -12368,7 +12368,7 @@ Fields
     
     
         <tr>
-            <td>expn_dscr</td>
+            <td>EXPN_DSCR</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Purpose of expense and/or description/explanation</td>
@@ -12377,7 +12377,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -12386,7 +12386,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in a TEXT record</td>
@@ -12395,7 +12395,7 @@ Fields
     
     
         <tr>
-            <td>date_thru</td>
+            <td>DATE_THRU</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End of date range for items paid</td>
@@ -12552,7 +12552,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -12561,7 +12561,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -12570,7 +12570,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -12579,7 +12579,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: S497</td>
@@ -12588,7 +12588,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 6)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -12597,7 +12597,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -12606,7 +12606,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code describing the Contributor/Recipient</td>
@@ -12615,7 +12615,7 @@ Fields
     
     
         <tr>
-            <td>enty_naml</td>
+            <td>ENTY_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Last name of Contributor/Recipient</td>
@@ -12624,7 +12624,7 @@ Fields
     
     
         <tr>
-            <td>enty_namf</td>
+            <td>ENTY_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>First name of Contributor/Recipient</td>
@@ -12633,7 +12633,7 @@ Fields
     
     
         <tr>
-            <td>enty_namt</td>
+            <td>ENTY_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Name title or prefix of Contributor/Recipient</td>
@@ -12642,7 +12642,7 @@ Fields
     
     
         <tr>
-            <td>enty_nams</td>
+            <td>ENTY_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Name suffix of Contributor/Recipient</td>
@@ -12651,7 +12651,7 @@ Fields
     
     
         <tr>
-            <td>enty_city</td>
+            <td>ENTY_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>City address of Contributor/Recipient</td>
@@ -12660,7 +12660,7 @@ Fields
     
     
         <tr>
-            <td>enty_st</td>
+            <td>ENTY_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>State address of Contributor/Recipient</td>
@@ -12669,7 +12669,7 @@ Fields
     
     
         <tr>
-            <td>enty_zip4</td>
+            <td>ENTY_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>ZIP Code of Contributor/Recipient</td>
@@ -12678,7 +12678,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_emp</td>
+            <td>CTRIB_EMP</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Employer of Contributor (populated for some Recipients as well)</td>
@@ -12687,7 +12687,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_occ</td>
+            <td>CTRIB_OCC</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Occupation of Contributor (populated for some Recipients as well)</td>
@@ -12696,7 +12696,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_self</td>
+            <td>CTRIB_SELF</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Contributor self-employed checkbox. &quot;X&quot; indicates the contributor is self-employed.</td>
@@ -12705,7 +12705,7 @@ Fields
     
     
         <tr>
-            <td>elec_date</td>
+            <td>ELEC_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of election</td>
@@ -12714,7 +12714,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_date</td>
+            <td>CTRIB_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date item received/made</td>
@@ -12723,7 +12723,7 @@ Fields
     
     
         <tr>
-            <td>date_thru</td>
+            <td>DATE_THRU</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End of date range for items received</td>
@@ -12732,7 +12732,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount received/made</td>
@@ -12741,7 +12741,7 @@ Fields
     
     
         <tr>
-            <td>cmte_id</td>
+            <td>CMTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Committee identification number</td>
@@ -12750,7 +12750,7 @@ Fields
     
     
         <tr>
-            <td>cand_naml</td>
+            <td>CAND_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s last name</td>
@@ -12759,7 +12759,7 @@ Fields
     
     
         <tr>
-            <td>cand_namf</td>
+            <td>CAND_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s first name</td>
@@ -12768,7 +12768,7 @@ Fields
     
     
         <tr>
-            <td>cand_namt</td>
+            <td>CAND_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s title or prefix</td>
@@ -12777,7 +12777,7 @@ Fields
     
     
         <tr>
-            <td>cand_nams</td>
+            <td>CAND_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s suffix</td>
@@ -12786,7 +12786,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -12795,7 +12795,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office sought description</td>
@@ -12804,7 +12804,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Jurisdiction code describing the office being sought</td>
@@ -12813,7 +12813,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office jurisdiction description</td>
@@ -12822,7 +12822,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
@@ -12831,7 +12831,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office is sought or held code</td>
@@ -12840,7 +12840,7 @@ Fields
     
     
         <tr>
-            <td>bal_name</td>
+            <td>BAL_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Ballot measure name</td>
@@ -12849,7 +12849,7 @@ Fields
     
     
         <tr>
-            <td>bal_num</td>
+            <td>BAL_NUM</td>
             <td>String (up to 7)</td>
             <td>No</td>
             <td>Ballot measure number</td>
@@ -12858,7 +12858,7 @@ Fields
     
     
         <tr>
-            <td>bal_juris</td>
+            <td>BAL_JURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Ballot measure jurisdiction</td>
@@ -12867,7 +12867,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -12876,7 +12876,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in TEXT code</td>
@@ -12885,7 +12885,7 @@ Fields
     
     
         <tr>
-            <td>bal_id</td>
+            <td>BAL_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -12894,7 +12894,7 @@ Fields
     
     
         <tr>
-            <td>cand_id</td>
+            <td>CAND_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -12903,7 +12903,7 @@ Fields
     
     
         <tr>
-            <td>sup_off_cd</td>
+            <td>SUP_OFF_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -12912,7 +12912,7 @@ Fields
     
     
         <tr>
-            <td>sup_opp_cd</td>
+            <td>SUP_OPP_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Support or opposition code</td>
@@ -13758,7 +13758,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -13767,7 +13767,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -13776,7 +13776,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Record Type</td>
@@ -13785,7 +13785,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Name of the source filing form or schedule</td>
@@ -13794,7 +13794,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -13803,7 +13803,7 @@ Fields
     
     
         <tr>
-            <td>committee_id</td>
+            <td>COMMITTEE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Committee identification number</td>
@@ -13812,7 +13812,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Entity code</td>
@@ -13821,7 +13821,7 @@ Fields
     
     
         <tr>
-            <td>report_num</td>
+            <td>REPORT_NUM</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Report Number; 000 Original; 001-999 Amended</td>
@@ -13830,7 +13830,7 @@ Fields
     
     
         <tr>
-            <td>rpt_date</td>
+            <td>RPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this report is filed</td>
@@ -13839,7 +13839,7 @@ Fields
     
     
         <tr>
-            <td>stmt_type</td>
+            <td>STMT_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of statement</td>
@@ -13848,7 +13848,7 @@ Fields
     
     
         <tr>
-            <td>from_date</td>
+            <td>FROM_DATE</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Reporting period from date</td>
@@ -13857,7 +13857,7 @@ Fields
     
     
         <tr>
-            <td>thru_date</td>
+            <td>THRU_DATE</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Reporting period through date</td>
@@ -13866,7 +13866,7 @@ Fields
     
     
         <tr>
-            <td>elect_date</td>
+            <td>ELECT_DATE</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Date of election</td>
@@ -13875,7 +13875,7 @@ Fields
     
     
         <tr>
-            <td>cand_naml</td>
+            <td>CAND_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Candidate/officerholder last name</td>
@@ -13884,7 +13884,7 @@ Fields
     
     
         <tr>
-            <td>cand_namf</td>
+            <td>CAND_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Candidate/officerholder first name</td>
@@ -13893,7 +13893,7 @@ Fields
     
     
         <tr>
-            <td>can_namm</td>
+            <td>CAN_NAMM</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Candidate/officeholder middle name</td>
@@ -13902,7 +13902,7 @@ Fields
     
     
         <tr>
-            <td>cand_namt</td>
+            <td>CAND_NAMT</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Candidate/officerholder title or prefix</td>
@@ -13911,7 +13911,7 @@ Fields
     
     
         <tr>
-            <td>cand_nams</td>
+            <td>CAND_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder suffix</td>
@@ -13920,7 +13920,7 @@ Fields
     
     
         <tr>
-            <td>moniker_pos</td>
+            <td>MONIKER_POS</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Location of the candidate/officeholder&#39;s moniker</td>
@@ -13929,7 +13929,7 @@ Fields
     
     
         <tr>
-            <td>moniker</td>
+            <td>MONIKER</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Candidate/officeholder&#39;s moniker</td>
@@ -13938,7 +13938,7 @@ Fields
     
     
         <tr>
-            <td>cand_city</td>
+            <td>CAND_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Candidate/officerholder city</td>
@@ -13947,7 +13947,7 @@ Fields
     
     
         <tr>
-            <td>cand_st</td>
+            <td>CAND_ST</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Candidate/officeholder state</td>
@@ -13956,7 +13956,7 @@ Fields
     
     
         <tr>
-            <td>cand_zip4</td>
+            <td>CAND_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officeholder zip +4</td>
@@ -13965,7 +13965,7 @@ Fields
     
     
         <tr>
-            <td>cand_phon</td>
+            <td>CAND_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Candidate/officeholder phone number</td>
@@ -13974,7 +13974,7 @@ Fields
     
     
         <tr>
-            <td>cand_fax</td>
+            <td>CAND_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Candidate/officerholder fax</td>
@@ -13983,7 +13983,7 @@ Fields
     
     
         <tr>
-            <td>cand_email</td>
+            <td>CAND_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Candidate/officeholder email address</td>
@@ -13992,7 +13992,7 @@ Fields
     
     
         <tr>
-            <td>fin_naml</td>
+            <td>FIN_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Financial institution&#39;s business name</td>
@@ -14001,7 +14001,7 @@ Fields
     
     
         <tr>
-            <td>fin_namf</td>
+            <td>FIN_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Unused. Financial institution&#39;s first name.</td>
@@ -14010,7 +14010,7 @@ Fields
     
     
         <tr>
-            <td>fin_namt</td>
+            <td>FIN_NAMT</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Unused. Financial institution&#39;s title.</td>
@@ -14019,7 +14019,7 @@ Fields
     
     
         <tr>
-            <td>fin_nams</td>
+            <td>FIN_NAMS</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Unused. Financial institution&#39;s suffix.</td>
@@ -14028,7 +14028,7 @@ Fields
     
     
         <tr>
-            <td>fin_city</td>
+            <td>FIN_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Financial institution&#39;s city.</td>
@@ -14037,7 +14037,7 @@ Fields
     
     
         <tr>
-            <td>fin_st</td>
+            <td>FIN_ST</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Financial institution&#39;s state.</td>
@@ -14046,7 +14046,7 @@ Fields
     
     
         <tr>
-            <td>fin_zip4</td>
+            <td>FIN_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Financial institution&#39;s zip code.</td>
@@ -14055,7 +14055,7 @@ Fields
     
     
         <tr>
-            <td>fin_phon</td>
+            <td>FIN_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Financial institution&#39;s phone number.</td>
@@ -14064,7 +14064,7 @@ Fields
     
     
         <tr>
-            <td>fin_fax</td>
+            <td>FIN_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Financial institution&#39;s FAX Number.</td>
@@ -14073,7 +14073,7 @@ Fields
     
     
         <tr>
-            <td>fin_email</td>
+            <td>FIN_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Financial institution&#39;s e-mail address.</td>
@@ -14082,7 +14082,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -14091,7 +14091,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 80)</td>
             <td>No</td>
             <td>Office sought description</td>
@@ -14100,7 +14100,7 @@ Fields
     
     
         <tr>
-            <td>agency_nam</td>
+            <td>AGENCY_NAM</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Agency name</td>
@@ -14109,7 +14109,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Office jurisdiction code</td>
@@ -14118,7 +14118,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Office jurisdiction description</td>
@@ -14127,7 +14127,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>District number for the office being sought. Populated for Senate, Assembly or Board of Equalization races.</td>
@@ -14136,7 +14136,7 @@ Fields
     
     
         <tr>
-            <td>party</td>
+            <td>PARTY</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Political party</td>
@@ -14145,7 +14145,7 @@ Fields
     
     
         <tr>
-            <td>yr_of_elec</td>
+            <td>YR_OF_ELEC</td>
             <td>Integer</td>
             <td>No</td>
             <td>Year of election</td>
@@ -14154,7 +14154,7 @@ Fields
     
     
         <tr>
-            <td>elec_type</td>
+            <td>ELEC_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Election type</td>
@@ -14163,7 +14163,7 @@ Fields
     
     
         <tr>
-            <td>execute_dt</td>
+            <td>EXECUTE_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Execution date</td>
@@ -14172,7 +14172,7 @@ Fields
     
     
         <tr>
-            <td>can_sig</td>
+            <td>CAN_SIG</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Candidate signature</td>
@@ -14181,7 +14181,7 @@ Fields
     
     
         <tr>
-            <td>account_no</td>
+            <td>ACCOUNT_NO</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Account number</td>
@@ -14190,7 +14190,7 @@ Fields
     
     
         <tr>
-            <td>acct_op_dt</td>
+            <td>ACCT_OP_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Account open date</td>
@@ -14199,7 +14199,7 @@ Fields
     
     
         <tr>
-            <td>party_cd</td>
+            <td>PARTY_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Party code</td>
@@ -14208,7 +14208,7 @@ Fields
     
     
         <tr>
-            <td>district_cd</td>
+            <td>DISTRICT_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
@@ -14217,7 +14217,7 @@ Fields
     
     
         <tr>
-            <td>accept_limit_yn</td>
+            <td>ACCEPT_LIMIT_YN</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -14226,7 +14226,7 @@ Fields
     
     
         <tr>
-            <td>did_exceed_dt</td>
+            <td>DID_EXCEED_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -14235,7 +14235,7 @@ Fields
     
     
         <tr>
-            <td>cntrb_prsnl_fnds_dt</td>
+            <td>CNTRB_PRSNL_FNDS_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -16050,7 +16050,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -16059,7 +16059,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -16068,7 +16068,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -16077,7 +16077,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: S498</td>
@@ -16086,7 +16086,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 9)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -16095,7 +16095,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -16104,7 +16104,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code</td>
@@ -16113,7 +16113,7 @@ Fields
     
     
         <tr>
-            <td>cmte_id</td>
+            <td>CMTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Committee identification number</td>
@@ -16122,7 +16122,7 @@ Fields
     
     
         <tr>
-            <td>payor_naml</td>
+            <td>PAYOR_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Payor&#39;s last name or business name</td>
@@ -16131,7 +16131,7 @@ Fields
     
     
         <tr>
-            <td>payor_namf</td>
+            <td>PAYOR_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Payor&#39;s first name.</td>
@@ -16140,7 +16140,7 @@ Fields
     
     
         <tr>
-            <td>payor_namt</td>
+            <td>PAYOR_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payor&#39;s Prefix or title.</td>
@@ -16149,7 +16149,7 @@ Fields
     
     
         <tr>
-            <td>payor_nams</td>
+            <td>PAYOR_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payor&#39;s suffix.</td>
@@ -16158,7 +16158,7 @@ Fields
     
     
         <tr>
-            <td>payor_city</td>
+            <td>PAYOR_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Payor&#39;s city.</td>
@@ -16167,7 +16167,7 @@ Fields
     
     
         <tr>
-            <td>payor_st</td>
+            <td>PAYOR_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Payor&#39;s State.</td>
@@ -16176,7 +16176,7 @@ Fields
     
     
         <tr>
-            <td>payor_zip4</td>
+            <td>PAYOR_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payor&#39;s zip code</td>
@@ -16185,7 +16185,7 @@ Fields
     
     
         <tr>
-            <td>date_rcvd</td>
+            <td>DATE_RCVD</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date received</td>
@@ -16194,7 +16194,7 @@ Fields
     
     
         <tr>
-            <td>amt_rcvd</td>
+            <td>AMT_RCVD</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount received</td>
@@ -16203,7 +16203,7 @@ Fields
     
     
         <tr>
-            <td>cand_naml</td>
+            <td>CAND_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Candidate/officerholder last name</td>
@@ -16212,7 +16212,7 @@ Fields
     
     
         <tr>
-            <td>cand_namf</td>
+            <td>CAND_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Candidate/officerholder first name</td>
@@ -16221,7 +16221,7 @@ Fields
     
     
         <tr>
-            <td>cand_namt</td>
+            <td>CAND_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officerholder title or prefix</td>
@@ -16230,7 +16230,7 @@ Fields
     
     
         <tr>
-            <td>cand_nams</td>
+            <td>CAND_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Candidate/officerholder suffix</td>
@@ -16239,7 +16239,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Identifies the office being sought</td>
@@ -16248,7 +16248,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Description of office sought</td>
@@ -16257,7 +16257,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office jurisdiction code</td>
@@ -16266,7 +16266,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office jurisdiction description</td>
@@ -16275,7 +16275,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
@@ -16284,7 +16284,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office is sought or held code</td>
@@ -16293,7 +16293,7 @@ Fields
     
     
         <tr>
-            <td>bal_name</td>
+            <td>BAL_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Ballot measure name</td>
@@ -16302,7 +16302,7 @@ Fields
     
     
         <tr>
-            <td>bal_num</td>
+            <td>BAL_NUM</td>
             <td>String (up to 7)</td>
             <td>No</td>
             <td>Ballot measure number or letter.</td>
@@ -16311,7 +16311,7 @@ Fields
     
     
         <tr>
-            <td>bal_juris</td>
+            <td>BAL_JURIS</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Jurisdiction of ballot measure</td>
@@ -16320,7 +16320,7 @@ Fields
     
     
         <tr>
-            <td>sup_opp_cd</td>
+            <td>SUP_OPP_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Support or opposition code</td>
@@ -16329,7 +16329,7 @@ Fields
     
     
         <tr>
-            <td>amt_attrib</td>
+            <td>AMT_ATTRIB</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount attributed (only if Form_type = &#39;F498-A&#39;)</td>
@@ -16338,7 +16338,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flat</td>
@@ -16347,7 +16347,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference text contained in TEXT record</td>
@@ -16356,7 +16356,7 @@ Fields
     
     
         <tr>
-            <td>employer</td>
+            <td>EMPLOYER</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -16365,7 +16365,7 @@ Fields
     
     
         <tr>
-            <td>occupation</td>
+            <td>OCCUPATION</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -16374,7 +16374,7 @@ Fields
     
     
         <tr>
-            <td>selfemp_cb</td>
+            <td>SELFEMP_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Self-employed checkbox</td>
@@ -16951,7 +16951,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment Identification number. A number of 0 is an original filing and 1 to 999 amendments.</td>
@@ -16960,7 +16960,7 @@ Fields
     
     
         <tr>
-            <td>cand_adr1</td>
+            <td>CAND_ADR1</td>
             <td>String (up to 55)</td>
             <td>No</td>
             <td>First line of the filer&#39;s street address.</td>
@@ -16969,7 +16969,7 @@ Fields
     
     
         <tr>
-            <td>cand_adr2</td>
+            <td>CAND_ADR2</td>
             <td>String (up to 55)</td>
             <td>No</td>
             <td>Second line of the filer&#39;s street address. </td>
@@ -16978,7 +16978,7 @@ Fields
     
     
         <tr>
-            <td>cand_city</td>
+            <td>CAND_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Candidate/Officeholder&#39;s City.</td>
@@ -16987,7 +16987,7 @@ Fields
     
     
         <tr>
-            <td>cand_email</td>
+            <td>CAND_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Candidate/Officeholder&#39;s EMail address. Not required by the form.</td>
@@ -16996,7 +16996,7 @@ Fields
     
     
         <tr>
-            <td>cand_fax</td>
+            <td>CAND_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Candidate/Officeholder&#39;s FAX Phone Number. Not required by the form.</td>
@@ -17005,7 +17005,7 @@ Fields
     
     
         <tr>
-            <td>cand_phon</td>
+            <td>CAND_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Candidate/Officeholder&#39;s phone number.</td>
@@ -17014,7 +17014,7 @@ Fields
     
     
         <tr>
-            <td>cand_st</td>
+            <td>CAND_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Filer&#39;s State</td>
@@ -17023,7 +17023,7 @@ Fields
     
     
         <tr>
-            <td>cand_zip4</td>
+            <td>CAND_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer&#39;s zipcode</td>
@@ -17032,7 +17032,7 @@ Fields
     
     
         <tr>
-            <td>date_1000</td>
+            <td>DATE_1000</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date contributions totaling $1,000 or more. (For the 470-S)</td>
@@ -17041,7 +17041,7 @@ Fields
     
     
         <tr>
-            <td>dist_no</td>
+            <td>DIST_NO</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
@@ -17050,7 +17050,7 @@ Fields
     
     
         <tr>
-            <td>elect_date</td>
+            <td>ELECT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of the general election. Required for filings in even years.</td>
@@ -17059,7 +17059,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>The filer&#39;s entity code. The value of this column will always be Candidate/Office Holder (CAO) for this table.</td>
@@ -17068,7 +17068,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number.</td>
@@ -17077,7 +17077,7 @@ Fields
     
     
         <tr>
-            <td>filer_namf</td>
+            <td>FILER_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Filer&#39;s First Name(s) - required for individuals</td>
@@ -17086,7 +17086,7 @@ Fields
     
     
         <tr>
-            <td>filer_naml</td>
+            <td>FILER_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Filer&#39;s Last Name/Committee name</td>
@@ -17095,7 +17095,7 @@ Fields
     
     
         <tr>
-            <td>filer_nams</td>
+            <td>FILER_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer&#39;s Name Suffix</td>
@@ -17104,7 +17104,7 @@ Fields
     
     
         <tr>
-            <td>filer_namt</td>
+            <td>FILER_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>The filer&#39;s prefix or title that preceeds their name if they are an individual.</td>
@@ -17113,7 +17113,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identification number.</td>
@@ -17122,7 +17122,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Type of Filing or Formset. The value of this column will always be equal to F470.</td>
@@ -17131,7 +17131,7 @@ Fields
     
     
         <tr>
-            <td>juris_cd</td>
+            <td>JURIS_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Office Jurisdiction Code</td>
@@ -17140,7 +17140,7 @@ Fields
     
     
         <tr>
-            <td>juris_dscr</td>
+            <td>JURIS_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office jurisdiction description text reqired if the jurisdiction code (Juris_cd) is equal to CIT, CTY, LOC, or OTH.</td>
@@ -17149,7 +17149,7 @@ Fields
     
     
         <tr>
-            <td>off_s_h_cd</td>
+            <td>OFF_S_H_CD</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Office Sought/Held code. Legal values are &quot;S&quot; for sought and &quot;H&quot; for held.</td>
@@ -17158,7 +17158,7 @@ Fields
     
     
         <tr>
-            <td>offic_dscr</td>
+            <td>OFFIC_DSCR</td>
             <td>String (up to 40)</td>
             <td>No</td>
             <td>Office sought description used if the office code is other (OTH).</td>
@@ -17167,7 +17167,7 @@ Fields
     
     
         <tr>
-            <td>office_cd</td>
+            <td>OFFICE_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Code that identifies the office being sought. See the CAL document for a list of valid codes.</td>
@@ -17176,7 +17176,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 3)</td>
             <td>Yes</td>
             <td>Type of CAL record. This column will always contain CVR.</td>
@@ -17185,7 +17185,7 @@ Fields
     
     
         <tr>
-            <td>report_num</td>
+            <td>REPORT_NUM</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Report Number; 000 Original; 001-999 Amended as reported in the filing.</td>
@@ -17194,7 +17194,7 @@ Fields
     
     
         <tr>
-            <td>rpt_date</td>
+            <td>RPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this report is filed as reported by the filer.</td>

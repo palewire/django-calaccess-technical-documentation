@@ -73,7 +73,7 @@ Fields
     
     
         <tr>
-            <td>a_b_city</td>
+            <td>A_B_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Individual or business entity city</td>
@@ -82,7 +82,7 @@ Fields
     
     
         <tr>
-            <td>a_b_name</td>
+            <td>A_B_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of individual or business entity</td>
@@ -91,7 +91,7 @@ Fields
     
     
         <tr>
-            <td>a_b_st</td>
+            <td>A_B_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Individual or business entity state</td>
@@ -100,7 +100,7 @@ Fields
     
     
         <tr>
-            <td>a_b_zip4</td>
+            <td>A_B_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Individual or business entity ZIP Code.</td>
@@ -109,7 +109,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -118,7 +118,7 @@ Fields
     
     
         <tr>
-            <td>auth_city</td>
+            <td>AUTH_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Authorized lobbying firm business address city</td>
@@ -127,7 +127,7 @@ Fields
     
     
         <tr>
-            <td>auth_name</td>
+            <td>AUTH_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Authorized lobbying firm business name. Applies to Form 602.</td>
@@ -136,7 +136,7 @@ Fields
     
     
         <tr>
-            <td>auth_st</td>
+            <td>AUTH_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Authorized lobbying firm business address state</td>
@@ -145,7 +145,7 @@ Fields
     
     
         <tr>
-            <td>auth_zip4</td>
+            <td>AUTH_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Authorized lobbying firm business address ZIP Code</td>
@@ -154,7 +154,7 @@ Fields
     
     
         <tr>
-            <td>bus_cb</td>
+            <td>BUS_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Business included activity checkbox</td>
@@ -163,7 +163,7 @@ Fields
     
     
         <tr>
-            <td>bus_city</td>
+            <td>BUS_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer business address city</td>
@@ -172,7 +172,7 @@ Fields
     
     
         <tr>
-            <td>bus_class</td>
+            <td>BUS_CLASS</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Classifiction values of business related entities. This field is exclusive of the business class field. One these must be populated but not both.</td>
@@ -181,7 +181,7 @@ Fields
     
     
         <tr>
-            <td>bus_descr</td>
+            <td>BUS_DESCR</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of business classification if coded as other</td>
@@ -190,7 +190,7 @@ Fields
     
     
         <tr>
-            <td>bus_email</td>
+            <td>BUS_EMAIL</td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Filer business address email</td>
@@ -199,7 +199,7 @@ Fields
     
     
         <tr>
-            <td>bus_fax</td>
+            <td>BUS_FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer business address fax number</td>
@@ -208,7 +208,7 @@ Fields
     
     
         <tr>
-            <td>bus_phon</td>
+            <td>BUS_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer business address phone number</td>
@@ -217,7 +217,7 @@ Fields
     
     
         <tr>
-            <td>bus_st</td>
+            <td>BUS_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Filer business address state</td>
@@ -226,7 +226,7 @@ Fields
     
     
         <tr>
-            <td>bus_zip4</td>
+            <td>BUS_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer business address ZIP Code</td>
@@ -235,7 +235,7 @@ Fields
     
     
         <tr>
-            <td>c_less50</td>
+            <td>C_LESS50</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Industry associations with fewer than 50 members check this box</td>
@@ -244,7 +244,7 @@ Fields
     
     
         <tr>
-            <td>c_more50</td>
+            <td>C_MORE50</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Industry associations with more than 50 check this box.</td>
@@ -253,7 +253,7 @@ Fields
     
     
         <tr>
-            <td>complet_dt</td>
+            <td>COMPLET_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ethics orientation class completion date. Applies to Form 604. As filed by the lobbyist.</td>
@@ -262,7 +262,7 @@ Fields
     
     
         <tr>
-            <td>descrip_1</td>
+            <td>DESCRIP_1</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Description of business activity, industry or other</td>
@@ -271,7 +271,7 @@ Fields
     
     
         <tr>
-            <td>descrip_2</td>
+            <td>DESCRIP_2</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Description of specific or other lobbying interest</td>
@@ -280,7 +280,7 @@ Fields
     
     
         <tr>
-            <td>eff_date</td>
+            <td>EFF_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective date of authoarization or termination</td>
@@ -289,7 +289,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code describing the filer</td>
@@ -298,7 +298,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -307,7 +307,7 @@ Fields
     
     
         <tr>
-            <td>filer_namf</td>
+            <td>FILER_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Filer first name</td>
@@ -316,7 +316,7 @@ Fields
     
     
         <tr>
-            <td>filer_naml</td>
+            <td>FILER_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Filer last name</td>
@@ -325,7 +325,7 @@ Fields
     
     
         <tr>
-            <td>filer_nams</td>
+            <td>FILER_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer suffix</td>
@@ -334,7 +334,7 @@ Fields
     
     
         <tr>
-            <td>filer_namt</td>
+            <td>FILER_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer title or prefix</td>
@@ -343,7 +343,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -352,7 +352,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of the lobbyist employer or firm. Applies to Forms 604, 606, 607.</td>
@@ -361,7 +361,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -370,7 +370,7 @@ Fields
     
     
         <tr>
-            <td>ind_cb</td>
+            <td>IND_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Individual checkbox</td>
@@ -379,7 +379,7 @@ Fields
     
     
         <tr>
-            <td>ind_class</td>
+            <td>IND_CLASS</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Classification values to category industry related entities. This field is exclusive of the business class field. One these must be populated but not both.</td>
@@ -388,7 +388,7 @@ Fields
     
     
         <tr>
-            <td>ind_descr</td>
+            <td>IND_DESCR</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of industry classification if coded as other</td>
@@ -397,7 +397,7 @@ Fields
     
     
         <tr>
-            <td>influen_yn</td>
+            <td>INFLUEN_YN</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Attempt to influence state legislation</td>
@@ -406,7 +406,7 @@ Fields
     
     
         <tr>
-            <td>l_firm_cb</td>
+            <td>L_FIRM_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying firm within the ... &#39; checkbox. Applies to Form 607.</td>
@@ -415,7 +415,7 @@ Fields
     
     
         <tr>
-            <td>lby_604_cb</td>
+            <td>LBY_604_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying Agency in this 604 statement&#39; checkbox. Applies to Form 604.</td>
@@ -424,7 +424,7 @@ Fields
     
     
         <tr>
-            <td>lby_reg_cb</td>
+            <td>LBY_REG_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying Agency in form 601/603 registration statement&#39; checkbox. Applies to Form 604.</td>
@@ -433,7 +433,7 @@ Fields
     
     
         <tr>
-            <td>lobby_cb</td>
+            <td>LOBBY_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying within the meaning...&#39; checkbox. Applies to Form 607.</td>
@@ -442,7 +442,7 @@ Fields
     
     
         <tr>
-            <td>lobby_int</td>
+            <td>LOBBY_INT</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Description of Part III lobbying interests. Applies to Form 603</td>
@@ -451,7 +451,7 @@ Fields
     
     
         <tr>
-            <td>ls_beg_yr</td>
+            <td>LS_BEG_YR</td>
             <td>String (up to 5)</td>
             <td>No</td>
             <td>Year legislative session begins</td>
@@ -460,7 +460,7 @@ Fields
     
     
         <tr>
-            <td>ls_end_yr</td>
+            <td>LS_END_YR</td>
             <td>String (up to 5)</td>
             <td>No</td>
             <td>Year legislative sessions ends</td>
@@ -469,7 +469,7 @@ Fields
     
     
         <tr>
-            <td>mail_city</td>
+            <td>MAIL_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer mailing address city</td>
@@ -478,7 +478,7 @@ Fields
     
     
         <tr>
-            <td>mail_phon</td>
+            <td>MAIL_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer mailing address phone number</td>
@@ -487,7 +487,7 @@ Fields
     
     
         <tr>
-            <td>mail_st</td>
+            <td>MAIL_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Filer mailing address state</td>
@@ -496,7 +496,7 @@ Fields
     
     
         <tr>
-            <td>mail_zip4</td>
+            <td>MAIL_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer mailing address ZIP Code</td>
@@ -505,7 +505,7 @@ Fields
     
     
         <tr>
-            <td>newcert_cb</td>
+            <td>NEWCERT_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Will require a new certification checkbox. Applies to Form 604.</td>
@@ -514,7 +514,7 @@ Fields
     
     
         <tr>
-            <td>oth_cb</td>
+            <td>OTH_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Other checkbox</td>
@@ -523,7 +523,7 @@ Fields
     
     
         <tr>
-            <td>prn_namf</td>
+            <td>PRN_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer first name</td>
@@ -532,7 +532,7 @@ Fields
     
     
         <tr>
-            <td>prn_naml</td>
+            <td>PRN_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Signer last name</td>
@@ -541,7 +541,7 @@ Fields
     
     
         <tr>
-            <td>prn_nams</td>
+            <td>PRN_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer suffix</td>
@@ -550,7 +550,7 @@ Fields
     
     
         <tr>
-            <td>prn_namt</td>
+            <td>PRN_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer title or prefix</td>
@@ -559,7 +559,7 @@ Fields
     
     
         <tr>
-            <td>qual_date</td>
+            <td>QUAL_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date qualified. Applies to forms 601 and 603. Only occurs once in lobbying filings.</td>
@@ -568,7 +568,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR</td>
@@ -577,7 +577,7 @@ Fields
     
     
         <tr>
-            <td>rencert_cb</td>
+            <td>RENCERT_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Will take a renewel certification checkbox. Applies to Form 604.</td>
@@ -586,7 +586,7 @@ Fields
     
     
         <tr>
-            <td>report_num</td>
+            <td>REPORT_NUM</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Amendment number as reported by the filer. 000 is the original. 001-999 are amendments.</td>
@@ -595,7 +595,7 @@ Fields
     
     
         <tr>
-            <td>rpt_date</td>
+            <td>RPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this report or amendment is filed, as reported by the filer</td>
@@ -604,7 +604,7 @@ Fields
     
     
         <tr>
-            <td>sender_id</td>
+            <td>SENDER_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of the lobbyist entity submitting this report. This is equal to the filer ID if the filer is the submitting the report and the firm or employer if they are submitting the report.</td>
@@ -613,7 +613,7 @@ Fields
     
     
         <tr>
-            <td>sig_date</td>
+            <td>SIG_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date signed</td>
@@ -622,7 +622,7 @@ Fields
     
     
         <tr>
-            <td>sig_loc</td>
+            <td>SIG_LOC</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer city and state</td>
@@ -631,7 +631,7 @@ Fields
     
     
         <tr>
-            <td>sig_namf</td>
+            <td>SIG_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer first name</td>
@@ -640,7 +640,7 @@ Fields
     
     
         <tr>
-            <td>sig_naml</td>
+            <td>SIG_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Signer last name</td>
@@ -649,7 +649,7 @@ Fields
     
     
         <tr>
-            <td>sig_nams</td>
+            <td>SIG_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer suffix</td>
@@ -658,7 +658,7 @@ Fields
     
     
         <tr>
-            <td>sig_namt</td>
+            <td>SIG_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer title or prefix</td>
@@ -667,7 +667,7 @@ Fields
     
     
         <tr>
-            <td>sig_title</td>
+            <td>SIG_TITLE</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Title of signer</td>
@@ -676,7 +676,7 @@ Fields
     
     
         <tr>
-            <td>st_agency</td>
+            <td>ST_AGENCY</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>List of identified state agencies. Applies to Form 604.</td>
@@ -685,7 +685,7 @@ Fields
     
     
         <tr>
-            <td>st_leg_yn</td>
+            <td>ST_LEG_YN</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Will lobby state legislature checkbox. Applies to Form 604.</td>
@@ -694,7 +694,7 @@ Fields
     
     
         <tr>
-            <td>stmt_firm</td>
+            <td>STMT_FIRM</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Lobby firm named in &#39;Statement of Responsible Officer&#39;This field only applies to Form 601.</td>
@@ -703,7 +703,7 @@ Fields
     
     
         <tr>
-            <td>trade_cb</td>
+            <td>TRADE_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Industry, trade or professional checkbox</td>
@@ -1227,7 +1227,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -1236,7 +1236,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -1245,7 +1245,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -1254,7 +1254,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR2</td>
@@ -1263,7 +1263,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 10)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -1272,7 +1272,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -1281,7 +1281,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code of the entity described by the record</td>
@@ -1290,7 +1290,7 @@ Fields
     
     
         <tr>
-            <td>entity_id</td>
+            <td>ENTITY_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of the entity described by the record</td>
@@ -1299,7 +1299,7 @@ Fields
     
     
         <tr>
-            <td>enty_naml</td>
+            <td>ENTY_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Entity last name</td>
@@ -1308,7 +1308,7 @@ Fields
     
     
         <tr>
-            <td>enty_namf</td>
+            <td>ENTY_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Entity first name</td>
@@ -1317,7 +1317,7 @@ Fields
     
     
         <tr>
-            <td>enty_namt</td>
+            <td>ENTY_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity title or suffix</td>
@@ -1326,7 +1326,7 @@ Fields
     
     
         <tr>
-            <td>enty_nams</td>
+            <td>ENTY_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity suffix</td>
@@ -1561,7 +1561,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -1570,7 +1570,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_n_cb</td>
+            <td>CTRIB_N_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Campaign contribtions? P4 attached&#39; checkbox. Applies to forms 625, 635, 645.</td>
@@ -1579,7 +1579,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_y_cb</td>
+            <td>CTRIB_Y_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Campaign contribtions? P4 attached&#39; checkbox. Applies to forms 625, 635, 645.</td>
@@ -1588,7 +1588,7 @@ Fields
     
     
         <tr>
-            <td>cum_beg_dt</td>
+            <td>CUM_BEG_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Cumulative period beginning date</td>
@@ -1597,7 +1597,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code describing the filer</td>
@@ -1606,7 +1606,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -1615,7 +1615,7 @@ Fields
     
     
         <tr>
-            <td>filer_namf</td>
+            <td>FILER_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Filer first name</td>
@@ -1624,7 +1624,7 @@ Fields
     
     
         <tr>
-            <td>filer_naml</td>
+            <td>FILER_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Filer last name or business name</td>
@@ -1633,7 +1633,7 @@ Fields
     
     
         <tr>
-            <td>filer_nams</td>
+            <td>FILER_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer suffix</td>
@@ -1642,7 +1642,7 @@ Fields
     
     
         <tr>
-            <td>filer_namt</td>
+            <td>FILER_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer title or prefix</td>
@@ -1651,7 +1651,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -1660,7 +1660,7 @@ Fields
     
     
         <tr>
-            <td>firm_city</td>
+            <td>FIRM_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Firm, employer or coalition business city</td>
@@ -1669,7 +1669,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of firm, employer or coalition</td>
@@ -1678,7 +1678,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -1687,7 +1687,7 @@ Fields
     
     
         <tr>
-            <td>firm_phon</td>
+            <td>FIRM_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Firm, employer or coalition business phone number</td>
@@ -1696,7 +1696,7 @@ Fields
     
     
         <tr>
-            <td>firm_st</td>
+            <td>FIRM_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Firm, employer or coalition business state</td>
@@ -1705,7 +1705,7 @@ Fields
     
     
         <tr>
-            <td>firm_zip4</td>
+            <td>FIRM_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Form, employer or coalition business ZIP Code</td>
@@ -1714,7 +1714,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -1723,7 +1723,7 @@ Fields
     
     
         <tr>
-            <td>from_date</td>
+            <td>FROM_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period from date</td>
@@ -1732,7 +1732,7 @@ Fields
     
     
         <tr>
-            <td>lby_actvty</td>
+            <td>LBY_ACTVTY</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Description of lobbying activity. Applies to forms 635 and 645. Additional description may be provided in text records.</td>
@@ -1741,7 +1741,7 @@ Fields
     
     
         <tr>
-            <td>lobby_n_cb</td>
+            <td>LOBBY_N_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying activity none&#39; checkbox. Applies only to Form 625.</td>
@@ -1750,7 +1750,7 @@ Fields
     
     
         <tr>
-            <td>lobby_y_cb</td>
+            <td>LOBBY_Y_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying activity Form 630 attached&#39; checkbox. Applies only to Form 625.</td>
@@ -1759,7 +1759,7 @@ Fields
     
     
         <tr>
-            <td>mail_city</td>
+            <td>MAIL_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer mailing address city</td>
@@ -1768,7 +1768,7 @@ Fields
     
     
         <tr>
-            <td>mail_phon</td>
+            <td>MAIL_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer mailing address phone number</td>
@@ -1777,7 +1777,7 @@ Fields
     
     
         <tr>
-            <td>mail_st</td>
+            <td>MAIL_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Filer mailing address state</td>
@@ -1786,7 +1786,7 @@ Fields
     
     
         <tr>
-            <td>mail_zip4</td>
+            <td>MAIL_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer mailing address ZIP Code</td>
@@ -1795,7 +1795,7 @@ Fields
     
     
         <tr>
-            <td>major_namf</td>
+            <td>MAJOR_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Major donor first name. Applies only to individuals and forms 625, 635, 645.</td>
@@ -1804,7 +1804,7 @@ Fields
     
     
         <tr>
-            <td>major_naml</td>
+            <td>MAJOR_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Major donor last name. Applies only to individuals and forms 625, 635, 645.</td>
@@ -1813,7 +1813,7 @@ Fields
     
     
         <tr>
-            <td>major_nams</td>
+            <td>MAJOR_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Major donor suffix. Applies only to individuals and forms 625, 635, 645.</td>
@@ -1822,7 +1822,7 @@ Fields
     
     
         <tr>
-            <td>major_namt</td>
+            <td>MAJOR_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Major donor title or prefix. Applies only to individuals and forms 625, 635, 645.</td>
@@ -1831,7 +1831,7 @@ Fields
     
     
         <tr>
-            <td>nopart1_cb</td>
+            <td>NOPART1_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;No Part I information&#39; checkbox. Applies only to Form 615.</td>
@@ -1840,7 +1840,7 @@ Fields
     
     
         <tr>
-            <td>nopart2_cb</td>
+            <td>NOPART2_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;No Part II information&#39; checkbox. Applies only to Form 615.</td>
@@ -1849,7 +1849,7 @@ Fields
     
     
         <tr>
-            <td>part1_1_cb</td>
+            <td>PART1_1_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Partners, owners Form 615 attached ...&#39; checkbox. Applies only to form 625.</td>
@@ -1858,7 +1858,7 @@ Fields
     
     
         <tr>
-            <td>part1_2_cb</td>
+            <td>PART1_2_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Partners, owners listed below ...&#39; checkbox. Applies only to Form 625.</td>
@@ -1867,7 +1867,7 @@ Fields
     
     
         <tr>
-            <td>prn_namf</td>
+            <td>PRN_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer first name</td>
@@ -1876,7 +1876,7 @@ Fields
     
     
         <tr>
-            <td>prn_naml</td>
+            <td>PRN_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Signer last name</td>
@@ -1885,7 +1885,7 @@ Fields
     
     
         <tr>
-            <td>prn_nams</td>
+            <td>PRN_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer suffix</td>
@@ -1894,7 +1894,7 @@ Fields
     
     
         <tr>
-            <td>prn_namt</td>
+            <td>PRN_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer title or prefix</td>
@@ -1903,7 +1903,7 @@ Fields
     
     
         <tr>
-            <td>rcpcmte_id</td>
+            <td>RCPCMTE_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Recipient committee or major donor identification number</td>
@@ -1912,7 +1912,7 @@ Fields
     
     
         <tr>
-            <td>rcpcmte_nm</td>
+            <td>RCPCMTE_NM</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Recipient committee name</td>
@@ -1921,7 +1921,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR</td>
@@ -1930,7 +1930,7 @@ Fields
     
     
         <tr>
-            <td>report_num</td>
+            <td>REPORT_NUM</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Amendment number. 000 is the original. 001-999 are amendments.</td>
@@ -1939,7 +1939,7 @@ Fields
     
     
         <tr>
-            <td>rpt_date</td>
+            <td>RPT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this report was filed, as reported by the filer</td>
@@ -1948,7 +1948,7 @@ Fields
     
     
         <tr>
-            <td>sender_id</td>
+            <td>SENDER_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of lobbyist entity that is submitting this report. The field is used to authenticate the filer and allows the firm to submit forms for its lobbyists.</td>
@@ -1957,7 +1957,7 @@ Fields
     
     
         <tr>
-            <td>sig_date</td>
+            <td>SIG_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date when signed</td>
@@ -1966,7 +1966,7 @@ Fields
     
     
         <tr>
-            <td>sig_loc</td>
+            <td>SIG_LOC</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer city and state</td>
@@ -1975,7 +1975,7 @@ Fields
     
     
         <tr>
-            <td>sig_namf</td>
+            <td>SIG_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer first name</td>
@@ -1984,7 +1984,7 @@ Fields
     
     
         <tr>
-            <td>sig_naml</td>
+            <td>SIG_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Signer last name</td>
@@ -1993,7 +1993,7 @@ Fields
     
     
         <tr>
-            <td>sig_nams</td>
+            <td>SIG_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer suffix</td>
@@ -2002,7 +2002,7 @@ Fields
     
     
         <tr>
-            <td>sig_namt</td>
+            <td>SIG_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer title or prefix</td>
@@ -2011,7 +2011,7 @@ Fields
     
     
         <tr>
-            <td>sig_title</td>
+            <td>SIG_TITLE</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Title of signer</td>
@@ -2020,7 +2020,7 @@ Fields
     
     
         <tr>
-            <td>thru_date</td>
+            <td>THRU_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period through date</td>
@@ -2257,7 +2257,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -2266,7 +2266,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code of the entity described by the record</td>
@@ -2275,7 +2275,7 @@ Fields
     
     
         <tr>
-            <td>entity_id</td>
+            <td>ENTITY_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Entity identification number</td>
@@ -2284,7 +2284,7 @@ Fields
     
     
         <tr>
-            <td>enty_namf</td>
+            <td>ENTY_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Entity first name</td>
@@ -2293,7 +2293,7 @@ Fields
     
     
         <tr>
-            <td>enty_naml</td>
+            <td>ENTY_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Entity last name or business name</td>
@@ -2302,7 +2302,7 @@ Fields
     
     
         <tr>
-            <td>enty_nams</td>
+            <td>ENTY_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity suffix</td>
@@ -2311,7 +2311,7 @@ Fields
     
     
         <tr>
-            <td>enty_namt</td>
+            <td>ENTY_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity title or prefix</td>
@@ -2320,7 +2320,7 @@ Fields
     
     
         <tr>
-            <td>enty_title</td>
+            <td>ENTY_TITLE</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Title of partner, owner, officer, employer if the entity is an individual. Only required by Form 635.</td>
@@ -2329,7 +2329,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -2338,7 +2338,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -2347,7 +2347,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -2356,7 +2356,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR2</td>
@@ -2365,7 +2365,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -2577,7 +2577,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -2586,7 +2586,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -2595,7 +2595,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: F605</td>
@@ -2604,7 +2604,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 9)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -2613,7 +2613,7 @@ Fields
     
     
         <tr>
-            <td>exec_date</td>
+            <td>EXEC_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this amendment executed on</td>
@@ -2622,7 +2622,7 @@ Fields
     
     
         <tr>
-            <td>from_date</td>
+            <td>FROM_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period from date of original report</td>
@@ -2631,7 +2631,7 @@ Fields
     
     
         <tr>
-            <td>thru_date</td>
+            <td>THRU_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting date to/through date of original</td>
@@ -2640,7 +2640,7 @@ Fields
     
     
         <tr>
-            <td>add_l_cb</td>
+            <td>ADD_L_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Add lobbyist checkbox</td>
@@ -2649,7 +2649,7 @@ Fields
     
     
         <tr>
-            <td>add_l_eff</td>
+            <td>ADD_L_EFF</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Add lobbyist effective date</td>
@@ -2658,7 +2658,7 @@ Fields
     
     
         <tr>
-            <td>a_l_naml</td>
+            <td>A_L_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Add lobbyist last name</td>
@@ -2667,7 +2667,7 @@ Fields
     
     
         <tr>
-            <td>a_l_namf</td>
+            <td>A_L_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Add lobbyist first name</td>
@@ -2676,7 +2676,7 @@ Fields
     
     
         <tr>
-            <td>a_l_namt</td>
+            <td>A_L_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Add lobbyist title or prefix</td>
@@ -2685,7 +2685,7 @@ Fields
     
     
         <tr>
-            <td>a_l_nams</td>
+            <td>A_L_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Add lobbyist suffix</td>
@@ -2694,7 +2694,7 @@ Fields
     
     
         <tr>
-            <td>del_l_cb</td>
+            <td>DEL_L_CB</td>
             <td>String (up to 8)</td>
             <td>No</td>
             <td>Delete lobbyist checkbox</td>
@@ -2703,7 +2703,7 @@ Fields
     
     
         <tr>
-            <td>del_l_eff</td>
+            <td>DEL_L_EFF</td>
             <td>String (up to 22)</td>
             <td>No</td>
             <td>Delete lobbyist effective date</td>
@@ -2712,7 +2712,7 @@ Fields
     
     
         <tr>
-            <td>d_l_naml</td>
+            <td>D_L_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Delete lobbyist last name</td>
@@ -2721,7 +2721,7 @@ Fields
     
     
         <tr>
-            <td>d_l_namf</td>
+            <td>D_L_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Delete lobbyist first name</td>
@@ -2730,7 +2730,7 @@ Fields
     
     
         <tr>
-            <td>d_l_namt</td>
+            <td>D_L_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Delete lobbyist title or prefix</td>
@@ -2739,7 +2739,7 @@ Fields
     
     
         <tr>
-            <td>d_l_nams</td>
+            <td>D_L_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Delete lobbyiest suffix</td>
@@ -2748,7 +2748,7 @@ Fields
     
     
         <tr>
-            <td>add_le_cb</td>
+            <td>ADD_LE_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Add lobbyiest employer checkbox</td>
@@ -2757,7 +2757,7 @@ Fields
     
     
         <tr>
-            <td>add_le_eff</td>
+            <td>ADD_LE_EFF</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Add lobbyist employer effective date</td>
@@ -2766,7 +2766,7 @@ Fields
     
     
         <tr>
-            <td>a_le_naml</td>
+            <td>A_LE_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Add lobbyist employer last name</td>
@@ -2775,7 +2775,7 @@ Fields
     
     
         <tr>
-            <td>a_le_namf</td>
+            <td>A_LE_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Add lobbyist or employer first name</td>
@@ -2784,7 +2784,7 @@ Fields
     
     
         <tr>
-            <td>a_le_namt</td>
+            <td>A_LE_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Add lobbyist employer title or prefix</td>
@@ -2793,7 +2793,7 @@ Fields
     
     
         <tr>
-            <td>a_le_nams</td>
+            <td>A_LE_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Add lobbyist employer suffix</td>
@@ -2802,7 +2802,7 @@ Fields
     
     
         <tr>
-            <td>del_le_cb</td>
+            <td>DEL_LE_CB</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Delete lobbyist employer check box</td>
@@ -2811,7 +2811,7 @@ Fields
     
     
         <tr>
-            <td>del_le_eff</td>
+            <td>DEL_LE_EFF</td>
             <td>String (up to 22)</td>
             <td>No</td>
             <td>Delete lobbyist employer effective date</td>
@@ -2820,7 +2820,7 @@ Fields
     
     
         <tr>
-            <td>d_le_naml</td>
+            <td>D_LE_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Delete lobbyist employer last name</td>
@@ -2829,7 +2829,7 @@ Fields
     
     
         <tr>
-            <td>d_le_namf</td>
+            <td>D_LE_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Delete lobbyiest employer first name</td>
@@ -2838,7 +2838,7 @@ Fields
     
     
         <tr>
-            <td>d_le_namt</td>
+            <td>D_LE_NAMT</td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>Delete lobbyist employer name title or prefix</td>
@@ -2847,7 +2847,7 @@ Fields
     
     
         <tr>
-            <td>d_le_nams</td>
+            <td>D_LE_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Delete lobbyist employer name</td>
@@ -2856,7 +2856,7 @@ Fields
     
     
         <tr>
-            <td>add_lf_cb</td>
+            <td>ADD_LF_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Add lobbying firm checkbox</td>
@@ -2865,7 +2865,7 @@ Fields
     
     
         <tr>
-            <td>add_lf_eff</td>
+            <td>ADD_LF_EFF</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Add lobbying firm effective date</td>
@@ -2874,7 +2874,7 @@ Fields
     
     
         <tr>
-            <td>a_lf_name</td>
+            <td>A_LF_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Add lobbying firm name</td>
@@ -2883,7 +2883,7 @@ Fields
     
     
         <tr>
-            <td>del_lf_cb</td>
+            <td>DEL_LF_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Delete lobbying firm checkbox</td>
@@ -2892,7 +2892,7 @@ Fields
     
     
         <tr>
-            <td>del_lf_eff</td>
+            <td>DEL_LF_EFF</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Delete lobbying firm effective date</td>
@@ -2901,7 +2901,7 @@ Fields
     
     
         <tr>
-            <td>d_lf_name</td>
+            <td>D_LF_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Delete lobbying firm name</td>
@@ -2910,7 +2910,7 @@ Fields
     
     
         <tr>
-            <td>other_cb</td>
+            <td>OTHER_CB</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Other amendments checkbox</td>
@@ -2919,7 +2919,7 @@ Fields
     
     
         <tr>
-            <td>other_eff</td>
+            <td>OTHER_EFF</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Other amendments effective date</td>
@@ -2928,7 +2928,7 @@ Fields
     
     
         <tr>
-            <td>other_desc</td>
+            <td>OTHER_DESC</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of changes</td>
@@ -2937,7 +2937,7 @@ Fields
     
     
         <tr>
-            <td>f606_yes</td>
+            <td>F606_YES</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Lobbyist ceasing all activity</td>
@@ -2946,7 +2946,7 @@ Fields
     
     
         <tr>
-            <td>f606_no</td>
+            <td>F606_NO</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Lobbyist ceasing employment but staying active</td>
@@ -3114,7 +3114,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -3123,7 +3123,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -3132,7 +3132,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -3141,7 +3141,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: F690</td>
@@ -3150,7 +3150,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -3159,7 +3159,7 @@ Fields
     
     
         <tr>
-            <td>exec_date</td>
+            <td>EXEC_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date the original report (or prior amendment to the original report) was executed on.</td>
@@ -3168,7 +3168,7 @@ Fields
     
     
         <tr>
-            <td>from_date</td>
+            <td>FROM_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period from date of original report</td>
@@ -3177,7 +3177,7 @@ Fields
     
     
         <tr>
-            <td>thru_date</td>
+            <td>THRU_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Report period to/through date of original.</td>
@@ -3186,7 +3186,7 @@ Fields
     
     
         <tr>
-            <td>chg_parts</td>
+            <td>CHG_PARTS</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Amended into affects items on part(s) text description.</td>
@@ -3195,7 +3195,7 @@ Fields
     
     
         <tr>
-            <td>chg_sects</td>
+            <td>CHG_SECTS</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Amended into affects items on sections(s) text description.</td>
@@ -3204,7 +3204,7 @@ Fields
     
     
         <tr>
-            <td>amend_txt1</td>
+            <td>AMEND_TXT1</td>
             <td>String (up to 330)</td>
             <td>No</td>
             <td>Description of changes to the filing</td>
@@ -3378,7 +3378,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -3387,7 +3387,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of payment</td>
@@ -3396,7 +3396,7 @@ Fields
     
     
         <tr>
-            <td>cum_amt</td>
+            <td>CUM_AMT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -3405,7 +3405,7 @@ Fields
     
     
         <tr>
-            <td>cumbeg_dt</td>
+            <td>CUMBEG_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Cumulative period beginning to date</td>
@@ -3414,7 +3414,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code of the Payment Recipient/Payee</td>
@@ -3423,7 +3423,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -3432,7 +3432,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 6)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -3441,7 +3441,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -3450,7 +3450,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -3459,7 +3459,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to the text in a TEXT record</td>
@@ -3468,7 +3468,7 @@ Fields
     
     
         <tr>
-            <td>pmt_date</td>
+            <td>PMT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of payment</td>
@@ -3477,7 +3477,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LATT</td>
@@ -3486,7 +3486,7 @@ Fields
     
     
         <tr>
-            <td>recip_city</td>
+            <td>RECIP_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Recipient city</td>
@@ -3495,7 +3495,7 @@ Fields
     
     
         <tr>
-            <td>recip_namf</td>
+            <td>RECIP_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Recipient first name</td>
@@ -3504,7 +3504,7 @@ Fields
     
     
         <tr>
-            <td>recip_naml</td>
+            <td>RECIP_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Recipient last name or business name</td>
@@ -3513,7 +3513,7 @@ Fields
     
     
         <tr>
-            <td>recip_nams</td>
+            <td>RECIP_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient suffix</td>
@@ -3522,7 +3522,7 @@ Fields
     
     
         <tr>
-            <td>recip_namt</td>
+            <td>RECIP_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient title or prefix</td>
@@ -3531,7 +3531,7 @@ Fields
     
     
         <tr>
-            <td>recip_st</td>
+            <td>RECIP_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Recipient state</td>
@@ -3540,7 +3540,7 @@ Fields
     
     
         <tr>
-            <td>recip_zip4</td>
+            <td>RECIP_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient ZIP Code</td>
@@ -3549,7 +3549,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -3790,7 +3790,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -3799,7 +3799,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of payment</td>
@@ -3808,7 +3808,7 @@ Fields
     
     
         <tr>
-            <td>bakref_tid</td>
+            <td>BAKREF_TID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Backreference to the tranaction identifer of parent record</td>
@@ -3817,7 +3817,7 @@ Fields
     
     
         <tr>
-            <td>bene_amt</td>
+            <td>BENE_AMT</td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>Amount benefiting benficiary</td>
@@ -3826,7 +3826,7 @@ Fields
     
     
         <tr>
-            <td>bene_name</td>
+            <td>BENE_NAME</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Name of the person beneifiting</td>
@@ -3835,7 +3835,7 @@ Fields
     
     
         <tr>
-            <td>bene_posit</td>
+            <td>BENE_POSIT</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Official position of the person beneifiting</td>
@@ -3844,7 +3844,7 @@ Fields
     
     
         <tr>
-            <td>credcardco</td>
+            <td>CREDCARDCO</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of the credit card company, if paid using a card</td>
@@ -3853,7 +3853,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code of the Payee</td>
@@ -3862,7 +3862,7 @@ Fields
     
     
         <tr>
-            <td>expn_date</td>
+            <td>EXPN_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of expenditure</td>
@@ -3871,7 +3871,7 @@ Fields
     
     
         <tr>
-            <td>expn_dscr</td>
+            <td>EXPN_DSCR</td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Purpose of the expense and a description or explanation</td>
@@ -3880,7 +3880,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -3889,7 +3889,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -3898,7 +3898,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -3907,7 +3907,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -3916,7 +3916,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to the text in a TEXT record</td>
@@ -3925,7 +3925,7 @@ Fields
     
     
         <tr>
-            <td>payee_city</td>
+            <td>PAYEE_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Payee city</td>
@@ -3934,7 +3934,7 @@ Fields
     
     
         <tr>
-            <td>payee_namf</td>
+            <td>PAYEE_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Payee first name</td>
@@ -3943,7 +3943,7 @@ Fields
     
     
         <tr>
-            <td>payee_naml</td>
+            <td>PAYEE_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Payee last name or business name</td>
@@ -3952,7 +3952,7 @@ Fields
     
     
         <tr>
-            <td>payee_nams</td>
+            <td>PAYEE_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee suffix</td>
@@ -3961,7 +3961,7 @@ Fields
     
     
         <tr>
-            <td>payee_namt</td>
+            <td>PAYEE_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee title or prefix</td>
@@ -3970,7 +3970,7 @@ Fields
     
     
         <tr>
-            <td>payee_st</td>
+            <td>PAYEE_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Payee state</td>
@@ -3979,7 +3979,7 @@ Fields
     
     
         <tr>
-            <td>payee_zip4</td>
+            <td>PAYEE_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee ZIP Code</td>
@@ -3988,7 +3988,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LEXP</td>
@@ -3997,7 +3997,7 @@ Fields
     
     
         <tr>
-            <td>recsubtype</td>
+            <td>RECSUBTYPE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Record Subtype</td>
@@ -4006,7 +4006,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -4269,7 +4269,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -4278,7 +4278,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of contribution</td>
@@ -4287,7 +4287,7 @@ Fields
     
     
         <tr>
-            <td>bakref_tid</td>
+            <td>BAKREF_TID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Back reference to transaction identifier of parent record</td>
@@ -4296,7 +4296,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_date</td>
+            <td>CTRIB_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of contribution</td>
@@ -4305,7 +4305,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_namf</td>
+            <td>CTRIB_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Contributor first name</td>
@@ -4314,7 +4314,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_naml</td>
+            <td>CTRIB_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Contributor last name or business name</td>
@@ -4323,7 +4323,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_nams</td>
+            <td>CTRIB_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Contributor suffix</td>
@@ -4332,7 +4332,7 @@ Fields
     
     
         <tr>
-            <td>ctrib_namt</td>
+            <td>CTRIB_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Contributor prefix or title.</td>
@@ -4341,7 +4341,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code for Recipient of the Campaign Contribution Value</td>
@@ -4350,7 +4350,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -4359,7 +4359,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -4368,7 +4368,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -4377,7 +4377,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -4386,7 +4386,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to the text contained in the TEXT record</td>
@@ -4395,7 +4395,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LCCM</td>
@@ -4404,7 +4404,7 @@ Fields
     
     
         <tr>
-            <td>recip_city</td>
+            <td>RECIP_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Recipient city</td>
@@ -4413,7 +4413,7 @@ Fields
     
     
         <tr>
-            <td>recip_id</td>
+            <td>RECIP_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Recipient identification number</td>
@@ -4422,7 +4422,7 @@ Fields
     
     
         <tr>
-            <td>recip_namf</td>
+            <td>RECIP_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Recipient first name</td>
@@ -4431,7 +4431,7 @@ Fields
     
     
         <tr>
-            <td>recip_naml</td>
+            <td>RECIP_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Recipient last name</td>
@@ -4440,7 +4440,7 @@ Fields
     
     
         <tr>
-            <td>recip_nams</td>
+            <td>RECIP_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient name suffix</td>
@@ -4449,7 +4449,7 @@ Fields
     
     
         <tr>
-            <td>recip_namt</td>
+            <td>RECIP_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient name prefix or title</td>
@@ -4458,7 +4458,7 @@ Fields
     
     
         <tr>
-            <td>recip_st</td>
+            <td>RECIP_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Recipient state</td>
@@ -4467,7 +4467,7 @@ Fields
     
     
         <tr>
-            <td>recip_zip4</td>
+            <td>RECIP_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient ZIP Code</td>
@@ -4476,7 +4476,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -4694,7 +4694,7 @@ Fields
     
     
         <tr>
-            <td>agencylist</td>
+            <td>AGENCYLIST</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Agencies to be lobbied</td>
@@ -4703,7 +4703,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -4712,7 +4712,7 @@ Fields
     
     
         <tr>
-            <td>cli_city</td>
+            <td>CLI_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Employing client city</td>
@@ -4721,7 +4721,7 @@ Fields
     
     
         <tr>
-            <td>cli_namf</td>
+            <td>CLI_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Employing client first name</td>
@@ -4730,7 +4730,7 @@ Fields
     
     
         <tr>
-            <td>cli_naml</td>
+            <td>CLI_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Employing client last name</td>
@@ -4739,7 +4739,7 @@ Fields
     
     
         <tr>
-            <td>cli_nams</td>
+            <td>CLI_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employing client suffix</td>
@@ -4748,7 +4748,7 @@ Fields
     
     
         <tr>
-            <td>cli_namt</td>
+            <td>CLI_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employing client prefix or title</td>
@@ -4757,7 +4757,7 @@ Fields
     
     
         <tr>
-            <td>cli_phon</td>
+            <td>CLI_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Employing client phone number</td>
@@ -4766,7 +4766,7 @@ Fields
     
     
         <tr>
-            <td>cli_st</td>
+            <td>CLI_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Employing client state</td>
@@ -4775,7 +4775,7 @@ Fields
     
     
         <tr>
-            <td>cli_zip4</td>
+            <td>CLI_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employing client ZIP Code</td>
@@ -4784,7 +4784,7 @@ Fields
     
     
         <tr>
-            <td>client_id</td>
+            <td>CLIENT_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of the Part 2A employer or Part 2B Client/Employer</td>
@@ -4793,7 +4793,7 @@ Fields
     
     
         <tr>
-            <td>con_period</td>
+            <td>CON_PERIOD</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Period of the contract</td>
@@ -4802,7 +4802,7 @@ Fields
     
     
         <tr>
-            <td>descrip</td>
+            <td>DESCRIP</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of employer/client lobbying interest</td>
@@ -4811,7 +4811,7 @@ Fields
     
     
         <tr>
-            <td>eff_date</td>
+            <td>EFF_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective Date of Lobbying Contract</td>
@@ -4820,7 +4820,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -4829,7 +4829,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -4838,7 +4838,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -4847,7 +4847,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LEMP</td>
@@ -4856,7 +4856,7 @@ Fields
     
     
         <tr>
-            <td>sub_city</td>
+            <td>SUB_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Subcontracting lobbying firm city</td>
@@ -4865,7 +4865,7 @@ Fields
     
     
         <tr>
-            <td>sub_name</td>
+            <td>SUB_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Subcontracting lobbying firms name</td>
@@ -4874,7 +4874,7 @@ Fields
     
     
         <tr>
-            <td>sub_phon</td>
+            <td>SUB_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Subcontracting lobbying firm phone number</td>
@@ -4883,7 +4883,7 @@ Fields
     
     
         <tr>
-            <td>sub_st</td>
+            <td>SUB_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Subcontracting lobbying firm state</td>
@@ -4892,7 +4892,7 @@ Fields
     
     
         <tr>
-            <td>sub_zip4</td>
+            <td>SUB_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Subcontracting lobbying firm ZIP Code</td>
@@ -4901,7 +4901,7 @@ Fields
     
     
         <tr>
-            <td>subfirm_id</td>
+            <td>SUBFIRM_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of subcontracting lobbying firm</td>
@@ -5048,7 +5048,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -5057,7 +5057,7 @@ Fields
     
     
         <tr>
-            <td>change_no</td>
+            <td>CHANGE_NO</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Number of changes this session</td>
@@ -5066,7 +5066,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -5075,7 +5075,7 @@ Fields
     
     
         <tr>
-            <td>log_dt</td>
+            <td>LOG_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5084,7 +5084,7 @@ Fields
     
     
         <tr>
-            <td>filer_type</td>
+            <td>FILER_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Foreign key referencing FilerTypesCd.filer_type</td>
@@ -5093,7 +5093,7 @@ Fields
     
     
         <tr>
-            <td>correction_flag</td>
+            <td>CORRECTION_FLG</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5102,7 +5102,7 @@ Fields
     
     
         <tr>
-            <td>action</td>
+            <td>ACTION</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5111,7 +5111,7 @@ Fields
     
     
         <tr>
-            <td>attribute_changed</td>
+            <td>ATTRIBUTE_CHANGED</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5120,7 +5120,7 @@ Fields
     
     
         <tr>
-            <td>ethics_dt</td>
+            <td>ETHICS_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5129,7 +5129,7 @@ Fields
     
     
         <tr>
-            <td>interests</td>
+            <td>INTERESTS</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5138,7 +5138,7 @@ Fields
     
     
         <tr>
-            <td>filer_full_name</td>
+            <td>FILER_FULL_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Full name of filer</td>
@@ -5147,7 +5147,7 @@ Fields
     
     
         <tr>
-            <td>filer_city</td>
+            <td>FILER_CITY</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>City address of filer</td>
@@ -5156,7 +5156,7 @@ Fields
     
     
         <tr>
-            <td>filer_st</td>
+            <td>FILER_ST</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>State address of filer</td>
@@ -5165,7 +5165,7 @@ Fields
     
     
         <tr>
-            <td>filer_zip</td>
+            <td>FILER_ZIP</td>
             <td>Integer</td>
             <td>No</td>
             <td>ZIP Code of filer</td>
@@ -5174,7 +5174,7 @@ Fields
     
     
         <tr>
-            <td>filer_phone</td>
+            <td>FILER_PHONE</td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>Phone number of filer</td>
@@ -5183,7 +5183,7 @@ Fields
     
     
         <tr>
-            <td>entity_type</td>
+            <td>ENTITY_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented. The values might refer to either FILER_TYPES_CD.FILER_TYPE or GROUP_TYPES_CD.GRP_ID, but that&#39;s just a guess.</td>
@@ -5192,7 +5192,7 @@ Fields
     
     
         <tr>
-            <td>entity_name</td>
+            <td>ENTITY_NAME</td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5201,7 +5201,7 @@ Fields
     
     
         <tr>
-            <td>entity_city</td>
+            <td>ENTITY_CITY</td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5210,7 +5210,7 @@ Fields
     
     
         <tr>
-            <td>entity_st</td>
+            <td>ENTITY_ST</td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5219,7 +5219,7 @@ Fields
     
     
         <tr>
-            <td>entity_zip</td>
+            <td>ENTITY_ZIP</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5228,7 +5228,7 @@ Fields
     
     
         <tr>
-            <td>entity_phone</td>
+            <td>ENTITY_PHONE</td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>Entity phone number</td>
@@ -5237,7 +5237,7 @@ Fields
     
     
         <tr>
-            <td>entity_id</td>
+            <td>ENTITY_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Entity identification number</td>
@@ -5246,7 +5246,7 @@ Fields
     
     
         <tr>
-            <td>responsible_officer</td>
+            <td>RESPONSIBLE_OFFICER</td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5255,7 +5255,7 @@ Fields
     
     
         <tr>
-            <td>effect_dt</td>
+            <td>EFFECT_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5378,7 +5378,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -5387,7 +5387,7 @@ Fields
     
     
         <tr>
-            <td>filing_period_start_dt</td>
+            <td>FILING_PERIOD_START_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Start date of filing period</td>
@@ -5396,7 +5396,7 @@ Fields
     
     
         <tr>
-            <td>filing_period_end_dt</td>
+            <td>FILING_PERIOD_END_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End date of filing period</td>
@@ -5405,7 +5405,7 @@ Fields
     
     
         <tr>
-            <td>contribution_dt</td>
+            <td>CONTRIBUTION_DT</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Date of contribution</td>
@@ -5414,7 +5414,7 @@ Fields
     
     
         <tr>
-            <td>recipient_name</td>
+            <td>RECIPIENT_NAME</td>
             <td>String (up to 106)</td>
             <td>No</td>
             <td>Recipient&#39;s name</td>
@@ -5423,7 +5423,7 @@ Fields
     
     
         <tr>
-            <td>recipient_id</td>
+            <td>RECIPIENT_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Recipient&#39;s identification number</td>
@@ -5432,7 +5432,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Amount received</td>
@@ -5482,7 +5482,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -5491,7 +5491,7 @@ Fields
     
     
         <tr>
-            <td>filing_period_start_dt</td>
+            <td>FILING_PERIOD_START_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Start date of filing period</td>
@@ -5500,7 +5500,7 @@ Fields
     
     
         <tr>
-            <td>filing_period_end_dt</td>
+            <td>FILING_PERIOD_END_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End date of filing period</td>
@@ -5509,7 +5509,7 @@ Fields
     
     
         <tr>
-            <td>contribution_dt</td>
+            <td>CONTRIBUTION_DT</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Date of contribution</td>
@@ -5518,7 +5518,7 @@ Fields
     
     
         <tr>
-            <td>recipient_name</td>
+            <td>RECIPIENT_NAME</td>
             <td>String (up to 106)</td>
             <td>No</td>
             <td>Recipient&#39;s name</td>
@@ -5527,7 +5527,7 @@ Fields
     
     
         <tr>
-            <td>recipient_id</td>
+            <td>RECIPIENT_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Recipient&#39;s identification number</td>
@@ -5536,7 +5536,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Amount received</td>
@@ -5585,7 +5585,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -5594,7 +5594,7 @@ Fields
     
     
         <tr>
-            <td>filing_period_start_dt</td>
+            <td>FILING_PERIOD_START_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Start date of filing period</td>
@@ -5603,7 +5603,7 @@ Fields
     
     
         <tr>
-            <td>filing_period_end_dt</td>
+            <td>FILING_PERIOD_END_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End date of filing period</td>
@@ -5612,7 +5612,7 @@ Fields
     
     
         <tr>
-            <td>contribution_dt</td>
+            <td>CONTRIBUTION_DT</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Date of contribution</td>
@@ -5621,7 +5621,7 @@ Fields
     
     
         <tr>
-            <td>recipient_name</td>
+            <td>RECIPIENT_NAME</td>
             <td>String (up to 106)</td>
             <td>No</td>
             <td>Recipient&#39;s name</td>
@@ -5630,7 +5630,7 @@ Fields
     
     
         <tr>
-            <td>recipient_id</td>
+            <td>RECIPIENT_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Recipient&#39;s identification number</td>
@@ -5639,7 +5639,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Amount received</td>
@@ -5688,7 +5688,7 @@ Fields
     
     
         <tr>
-            <td>employer_id</td>
+            <td>EMPLOYER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -5697,7 +5697,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -5706,7 +5706,7 @@ Fields
     
     
         <tr>
-            <td>employer_name</td>
+            <td>EMPLOYER_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -5715,7 +5715,7 @@ Fields
     
     
         <tr>
-            <td>current_qtr_amt</td>
+            <td>CURRENT_QTR_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -5724,7 +5724,7 @@ Fields
     
     
         <tr>
-            <td>session_total_amt</td>
+            <td>SESSION_TOTAL_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -5733,7 +5733,7 @@ Fields
     
     
         <tr>
-            <td>contributor_id</td>
+            <td>CONTRIBUTOR_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -5742,7 +5742,7 @@ Fields
     
     
         <tr>
-            <td>interest_cd</td>
+            <td>INTEREST_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Interest Code</td>
@@ -5751,7 +5751,7 @@ Fields
     
     
         <tr>
-            <td>interest_name</td>
+            <td>INTEREST_NAME</td>
             <td>String (up to 24)</td>
             <td>No</td>
             <td>Interest name</td>
@@ -5760,7 +5760,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_1</td>
+            <td>SESSION_YR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -5769,7 +5769,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_2</td>
+            <td>SESSION_YR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -5778,7 +5778,7 @@ Fields
     
     
         <tr>
-            <td>yr_1_ytd_amt</td>
+            <td>YR_1_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -5787,7 +5787,7 @@ Fields
     
     
         <tr>
-            <td>yr_2_ytd_amt</td>
+            <td>YR_2_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -5796,7 +5796,7 @@ Fields
     
     
         <tr>
-            <td>qtr_1</td>
+            <td>QTR_1</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5805,7 +5805,7 @@ Fields
     
     
         <tr>
-            <td>qtr_2</td>
+            <td>QTR_2</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5814,7 +5814,7 @@ Fields
     
     
         <tr>
-            <td>qtr_3</td>
+            <td>QTR_3</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5823,7 +5823,7 @@ Fields
     
     
         <tr>
-            <td>qtr_4</td>
+            <td>QTR_4</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5832,7 +5832,7 @@ Fields
     
     
         <tr>
-            <td>qtr_5</td>
+            <td>QTR_5</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5841,7 +5841,7 @@ Fields
     
     
         <tr>
-            <td>qtr_6</td>
+            <td>QTR_6</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5850,7 +5850,7 @@ Fields
     
     
         <tr>
-            <td>qtr_7</td>
+            <td>QTR_7</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5859,7 +5859,7 @@ Fields
     
     
         <tr>
-            <td>qtr_8</td>
+            <td>QTR_8</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6051,7 +6051,7 @@ Fields
     
     
         <tr>
-            <td>employer_id</td>
+            <td>EMPLOYER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6060,7 +6060,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -6069,7 +6069,7 @@ Fields
     
     
         <tr>
-            <td>employer_name</td>
+            <td>EMPLOYER_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -6078,7 +6078,7 @@ Fields
     
     
         <tr>
-            <td>current_qtr_amt</td>
+            <td>CURRENT_QTR_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -6087,7 +6087,7 @@ Fields
     
     
         <tr>
-            <td>session_total_amt</td>
+            <td>SESSION_TOTAL_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -6096,7 +6096,7 @@ Fields
     
     
         <tr>
-            <td>contributor_id</td>
+            <td>CONTRIBUTOR_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -6105,7 +6105,7 @@ Fields
     
     
         <tr>
-            <td>interest_cd</td>
+            <td>INTEREST_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Interest Code</td>
@@ -6114,7 +6114,7 @@ Fields
     
     
         <tr>
-            <td>interest_name</td>
+            <td>INTEREST_NAME</td>
             <td>String (up to 24)</td>
             <td>No</td>
             <td>Interest name</td>
@@ -6123,7 +6123,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_1</td>
+            <td>SESSION_YR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -6132,7 +6132,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_2</td>
+            <td>SESSION_YR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -6141,7 +6141,7 @@ Fields
     
     
         <tr>
-            <td>yr_1_ytd_amt</td>
+            <td>YR_1_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -6150,7 +6150,7 @@ Fields
     
     
         <tr>
-            <td>yr_2_ytd_amt</td>
+            <td>YR_2_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -6159,7 +6159,7 @@ Fields
     
     
         <tr>
-            <td>qtr_1</td>
+            <td>QTR_1</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 1 total amount</td>
@@ -6168,7 +6168,7 @@ Fields
     
     
         <tr>
-            <td>qtr_2</td>
+            <td>QTR_2</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 2 total amount</td>
@@ -6177,7 +6177,7 @@ Fields
     
     
         <tr>
-            <td>qtr_3</td>
+            <td>QTR_3</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 3 total amount</td>
@@ -6186,7 +6186,7 @@ Fields
     
     
         <tr>
-            <td>qtr_4</td>
+            <td>QTR_4</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 4 total amount</td>
@@ -6195,7 +6195,7 @@ Fields
     
     
         <tr>
-            <td>qtr_5</td>
+            <td>QTR_5</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 5 total amount</td>
@@ -6204,7 +6204,7 @@ Fields
     
     
         <tr>
-            <td>qtr_6</td>
+            <td>QTR_6</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 6 total amount</td>
@@ -6213,7 +6213,7 @@ Fields
     
     
         <tr>
-            <td>qtr_7</td>
+            <td>QTR_7</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 7 total amount</td>
@@ -6222,7 +6222,7 @@ Fields
     
     
         <tr>
-            <td>qtr_8</td>
+            <td>QTR_8</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 8 total amount</td>
@@ -6414,7 +6414,7 @@ Fields
     
     
         <tr>
-            <td>employer_id</td>
+            <td>EMPLOYER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6423,7 +6423,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -6432,7 +6432,7 @@ Fields
     
     
         <tr>
-            <td>employer_name</td>
+            <td>EMPLOYER_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -6441,7 +6441,7 @@ Fields
     
     
         <tr>
-            <td>current_qtr_amt</td>
+            <td>CURRENT_QTR_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -6450,7 +6450,7 @@ Fields
     
     
         <tr>
-            <td>session_total_amt</td>
+            <td>SESSION_TOTAL_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -6459,7 +6459,7 @@ Fields
     
     
         <tr>
-            <td>contributor_id</td>
+            <td>CONTRIBUTOR_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -6468,7 +6468,7 @@ Fields
     
     
         <tr>
-            <td>interest_cd</td>
+            <td>INTEREST_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Interest Code</td>
@@ -6477,7 +6477,7 @@ Fields
     
     
         <tr>
-            <td>interest_name</td>
+            <td>INTEREST_NAME</td>
             <td>String (up to 24)</td>
             <td>No</td>
             <td>Interest name</td>
@@ -6486,7 +6486,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_1</td>
+            <td>SESSION_YR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -6495,7 +6495,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_2</td>
+            <td>SESSION_YR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -6504,7 +6504,7 @@ Fields
     
     
         <tr>
-            <td>yr_1_ytd_amt</td>
+            <td>YR_1_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -6513,7 +6513,7 @@ Fields
     
     
         <tr>
-            <td>yr_2_ytd_amt</td>
+            <td>YR_2_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -6522,7 +6522,7 @@ Fields
     
     
         <tr>
-            <td>qtr_1</td>
+            <td>QTR_1</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6531,7 +6531,7 @@ Fields
     
     
         <tr>
-            <td>qtr_2</td>
+            <td>QTR_2</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6540,7 +6540,7 @@ Fields
     
     
         <tr>
-            <td>qtr_3</td>
+            <td>QTR_3</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6549,7 +6549,7 @@ Fields
     
     
         <tr>
-            <td>qtr_4</td>
+            <td>QTR_4</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6558,7 +6558,7 @@ Fields
     
     
         <tr>
-            <td>qtr_5</td>
+            <td>QTR_5</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6567,7 +6567,7 @@ Fields
     
     
         <tr>
-            <td>qtr_6</td>
+            <td>QTR_6</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6576,7 +6576,7 @@ Fields
     
     
         <tr>
-            <td>qtr_7</td>
+            <td>QTR_7</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6585,7 +6585,7 @@ Fields
     
     
         <tr>
-            <td>qtr_8</td>
+            <td>QTR_8</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6777,7 +6777,7 @@ Fields
     
     
         <tr>
-            <td>employer_id</td>
+            <td>EMPLOYER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6786,7 +6786,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -6795,7 +6795,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -6804,7 +6804,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -6813,7 +6813,7 @@ Fields
     
     
         <tr>
-            <td>termination_dt</td>
+            <td>TERMINATION_DT</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Termination effective date</td>
@@ -6865,7 +6865,7 @@ Fields
     
     
         <tr>
-            <td>employer_id</td>
+            <td>EMPLOYER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6874,7 +6874,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -6883,7 +6883,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -6892,7 +6892,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -6901,7 +6901,7 @@ Fields
     
     
         <tr>
-            <td>termination_dt</td>
+            <td>TERMINATION_DT</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Termination effective date</td>
@@ -6953,7 +6953,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_id</td>
+            <td>LOBBYIST_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Lobbyist identification number</td>
@@ -6962,7 +6962,7 @@ Fields
     
     
         <tr>
-            <td>employer_id</td>
+            <td>EMPLOYER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6971,7 +6971,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_last_name</td>
+            <td>LOBBYIST_LAST_NAME</td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist last name</td>
@@ -6980,7 +6980,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_first_name</td>
+            <td>LOBBYIST_FIRST_NAME</td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist first name</td>
@@ -6989,7 +6989,7 @@ Fields
     
     
         <tr>
-            <td>employer_name</td>
+            <td>EMPLOYER_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -6998,7 +6998,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7050,7 +7050,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_id</td>
+            <td>LOBBYIST_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Lobbyist identification number</td>
@@ -7059,7 +7059,7 @@ Fields
     
     
         <tr>
-            <td>employer_id</td>
+            <td>EMPLOYER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -7068,7 +7068,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_last_name</td>
+            <td>LOBBYIST_LAST_NAME</td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist last name</td>
@@ -7077,7 +7077,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_first_name</td>
+            <td>LOBBYIST_FIRST_NAME</td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist first name</td>
@@ -7086,7 +7086,7 @@ Fields
     
     
         <tr>
-            <td>employer_name</td>
+            <td>EMPLOYER_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -7095,7 +7095,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7147,7 +7147,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7156,7 +7156,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7165,7 +7165,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7174,7 +7174,7 @@ Fields
     
     
         <tr>
-            <td>current_qtr_amt</td>
+            <td>CURRENT_QTR_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -7183,7 +7183,7 @@ Fields
     
     
         <tr>
-            <td>session_total_amt</td>
+            <td>SESSION_TOTAL_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -7192,7 +7192,7 @@ Fields
     
     
         <tr>
-            <td>contributor_id</td>
+            <td>CONTRIBUTOR_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -7201,7 +7201,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_1</td>
+            <td>SESSION_YR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -7210,7 +7210,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_2</td>
+            <td>SESSION_YR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -7219,7 +7219,7 @@ Fields
     
     
         <tr>
-            <td>yr_1_ytd_amt</td>
+            <td>YR_1_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -7228,7 +7228,7 @@ Fields
     
     
         <tr>
-            <td>yr_2_ytd_amt</td>
+            <td>YR_2_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -7237,7 +7237,7 @@ Fields
     
     
         <tr>
-            <td>qtr_1</td>
+            <td>QTR_1</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7246,7 +7246,7 @@ Fields
     
     
         <tr>
-            <td>qtr_2</td>
+            <td>QTR_2</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7255,7 +7255,7 @@ Fields
     
     
         <tr>
-            <td>qtr_3</td>
+            <td>QTR_3</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7264,7 +7264,7 @@ Fields
     
     
         <tr>
-            <td>qtr_4</td>
+            <td>QTR_4</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7273,7 +7273,7 @@ Fields
     
     
         <tr>
-            <td>qtr_5</td>
+            <td>QTR_5</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7282,7 +7282,7 @@ Fields
     
     
         <tr>
-            <td>qtr_6</td>
+            <td>QTR_6</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7291,7 +7291,7 @@ Fields
     
     
         <tr>
-            <td>qtr_7</td>
+            <td>QTR_7</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7300,7 +7300,7 @@ Fields
     
     
         <tr>
-            <td>qtr_8</td>
+            <td>QTR_8</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7352,7 +7352,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7361,7 +7361,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7370,7 +7370,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7379,7 +7379,7 @@ Fields
     
     
         <tr>
-            <td>current_qtr_amt</td>
+            <td>CURRENT_QTR_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -7388,7 +7388,7 @@ Fields
     
     
         <tr>
-            <td>session_total_amt</td>
+            <td>SESSION_TOTAL_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -7397,7 +7397,7 @@ Fields
     
     
         <tr>
-            <td>contributor_id</td>
+            <td>CONTRIBUTOR_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -7406,7 +7406,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_1</td>
+            <td>SESSION_YR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -7415,7 +7415,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_2</td>
+            <td>SESSION_YR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -7424,7 +7424,7 @@ Fields
     
     
         <tr>
-            <td>yr_1_ytd_amt</td>
+            <td>YR_1_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -7433,7 +7433,7 @@ Fields
     
     
         <tr>
-            <td>yr_2_ytd_amt</td>
+            <td>YR_2_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -7442,7 +7442,7 @@ Fields
     
     
         <tr>
-            <td>qtr_1</td>
+            <td>QTR_1</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7451,7 +7451,7 @@ Fields
     
     
         <tr>
-            <td>qtr_2</td>
+            <td>QTR_2</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7460,7 +7460,7 @@ Fields
     
     
         <tr>
-            <td>qtr_3</td>
+            <td>QTR_3</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7469,7 +7469,7 @@ Fields
     
     
         <tr>
-            <td>qtr_4</td>
+            <td>QTR_4</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7478,7 +7478,7 @@ Fields
     
     
         <tr>
-            <td>qtr_5</td>
+            <td>QTR_5</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7487,7 +7487,7 @@ Fields
     
     
         <tr>
-            <td>qtr_6</td>
+            <td>QTR_6</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7496,7 +7496,7 @@ Fields
     
     
         <tr>
-            <td>qtr_7</td>
+            <td>QTR_7</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7505,7 +7505,7 @@ Fields
     
     
         <tr>
-            <td>qtr_8</td>
+            <td>QTR_8</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7557,7 +7557,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7566,7 +7566,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7575,7 +7575,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7584,7 +7584,7 @@ Fields
     
     
         <tr>
-            <td>current_qtr_amt</td>
+            <td>CURRENT_QTR_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -7593,7 +7593,7 @@ Fields
     
     
         <tr>
-            <td>session_total_amt</td>
+            <td>SESSION_TOTAL_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -7602,7 +7602,7 @@ Fields
     
     
         <tr>
-            <td>contributor_id</td>
+            <td>CONTRIBUTOR_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -7611,7 +7611,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_1</td>
+            <td>SESSION_YR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -7620,7 +7620,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_2</td>
+            <td>SESSION_YR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -7629,7 +7629,7 @@ Fields
     
     
         <tr>
-            <td>yr_1_ytd_amt</td>
+            <td>YR_1_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -7638,7 +7638,7 @@ Fields
     
     
         <tr>
-            <td>yr_2_ytd_amt</td>
+            <td>YR_2_YTD_AMT</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -7647,7 +7647,7 @@ Fields
     
     
         <tr>
-            <td>qtr_1</td>
+            <td>QTR_1</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7656,7 +7656,7 @@ Fields
     
     
         <tr>
-            <td>qtr_2</td>
+            <td>QTR_2</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7665,7 +7665,7 @@ Fields
     
     
         <tr>
-            <td>qtr_3</td>
+            <td>QTR_3</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7674,7 +7674,7 @@ Fields
     
     
         <tr>
-            <td>qtr_4</td>
+            <td>QTR_4</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7683,7 +7683,7 @@ Fields
     
     
         <tr>
-            <td>qtr_5</td>
+            <td>QTR_5</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7692,7 +7692,7 @@ Fields
     
     
         <tr>
-            <td>qtr_6</td>
+            <td>QTR_6</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7701,7 +7701,7 @@ Fields
     
     
         <tr>
-            <td>qtr_7</td>
+            <td>QTR_7</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7710,7 +7710,7 @@ Fields
     
     
         <tr>
-            <td>qtr_8</td>
+            <td>QTR_8</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7762,7 +7762,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7771,7 +7771,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Unique filing identificiation number</td>
@@ -7780,7 +7780,7 @@ Fields
     
     
         <tr>
-            <td>filing_sequence</td>
+            <td>FILING_SEQUENCE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Amendment number. 0 is the original filing. 1 to 999 are amendments</td>
@@ -7789,7 +7789,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7798,7 +7798,7 @@ Fields
     
     
         <tr>
-            <td>employer_name</td>
+            <td>EMPLOYER_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -7807,7 +7807,7 @@ Fields
     
     
         <tr>
-            <td>rpt_start</td>
+            <td>RPT_START</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Starting date for the period the report covers</td>
@@ -7816,7 +7816,7 @@ Fields
     
     
         <tr>
-            <td>rpt_end</td>
+            <td>RPT_END</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ending date for the period the report covers</td>
@@ -7825,7 +7825,7 @@ Fields
     
     
         <tr>
-            <td>per_total</td>
+            <td>PER_TOTAL</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total this reporting period</td>
@@ -7834,7 +7834,7 @@ Fields
     
     
         <tr>
-            <td>cum_total</td>
+            <td>CUM_TOTAL</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -7843,7 +7843,7 @@ Fields
     
     
         <tr>
-            <td>lby_actvty</td>
+            <td>LBY_ACTVTY</td>
             <td>String (up to 182)</td>
             <td>No</td>
             <td>Description of lobbying activity</td>
@@ -7852,7 +7852,7 @@ Fields
     
     
         <tr>
-            <td>ext_lby_actvty</td>
+            <td>EXT_LBY_ACTVTY</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -7904,7 +7904,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7913,7 +7913,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Unique filing identificiation number</td>
@@ -7922,7 +7922,7 @@ Fields
     
     
         <tr>
-            <td>filing_sequence</td>
+            <td>FILING_SEQUENCE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Amendment number. 0 is the original filing. 1 to 999 are amendments</td>
@@ -7931,7 +7931,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7940,7 +7940,7 @@ Fields
     
     
         <tr>
-            <td>employer_name</td>
+            <td>EMPLOYER_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -7949,7 +7949,7 @@ Fields
     
     
         <tr>
-            <td>rpt_start</td>
+            <td>RPT_START</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Starting date for the period the report covers</td>
@@ -7958,7 +7958,7 @@ Fields
     
     
         <tr>
-            <td>rpt_end</td>
+            <td>RPT_END</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ending date for the period the report covers</td>
@@ -7967,7 +7967,7 @@ Fields
     
     
         <tr>
-            <td>per_total</td>
+            <td>PER_TOTAL</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total this reporting period</td>
@@ -7976,7 +7976,7 @@ Fields
     
     
         <tr>
-            <td>cum_total</td>
+            <td>CUM_TOTAL</td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -7985,7 +7985,7 @@ Fields
     
     
         <tr>
-            <td>lby_actvty</td>
+            <td>LBY_ACTVTY</td>
             <td>String (up to 182)</td>
             <td>No</td>
             <td>Description of lobbying activity</td>
@@ -7994,7 +7994,7 @@ Fields
     
     
         <tr>
-            <td>ext_lby_actvty</td>
+            <td>EXT_LBY_ACTVTY</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -8046,7 +8046,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_id</td>
+            <td>LOBBYIST_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Lobbyist identification number</td>
@@ -8055,7 +8055,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -8064,7 +8064,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_last_name</td>
+            <td>LOBBYIST_LAST_NAME</td>
             <td>String (up to 15)</td>
             <td>No</td>
             <td>Lobbyist last name</td>
@@ -8073,7 +8073,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_first_name</td>
+            <td>LOBBYIST_FIRST_NAME</td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist first name</td>
@@ -8082,7 +8082,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -8091,7 +8091,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -8143,7 +8143,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_id</td>
+            <td>LOBBYIST_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Lobbyist identification number</td>
@@ -8152,7 +8152,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -8161,7 +8161,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_last_name</td>
+            <td>LOBBYIST_LAST_NAME</td>
             <td>String (up to 15)</td>
             <td>No</td>
             <td>Lobbyist last name</td>
@@ -8170,7 +8170,7 @@ Fields
     
     
         <tr>
-            <td>lobbyist_first_name</td>
+            <td>LOBBYIST_FIRST_NAME</td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist first name</td>
@@ -8179,7 +8179,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -8188,7 +8188,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -8246,7 +8246,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -8255,7 +8255,7 @@ Fields
     
     
         <tr>
-            <td>amount</td>
+            <td>AMOUNT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of payment</td>
@@ -8264,7 +8264,7 @@ Fields
     
     
         <tr>
-            <td>cum_amt</td>
+            <td>CUM_AMT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -8273,7 +8273,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -8282,7 +8282,7 @@ Fields
     
     
         <tr>
-            <td>firm_city</td>
+            <td>FIRM_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Firm, employer or coalition&#39;s city</td>
@@ -8291,7 +8291,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Firm, employer or coalition&#39;s name</td>
@@ -8300,7 +8300,7 @@ Fields
     
     
         <tr>
-            <td>firm_phon</td>
+            <td>FIRM_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Firm, employer or coalition&#39;s phone number</td>
@@ -8309,7 +8309,7 @@ Fields
     
     
         <tr>
-            <td>firm_st</td>
+            <td>FIRM_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Firm, employer or coalition&#39;s ZIP Code</td>
@@ -8318,7 +8318,7 @@ Fields
     
     
         <tr>
-            <td>firm_zip4</td>
+            <td>FIRM_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Firm ZIP Code</td>
@@ -8327,7 +8327,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -8336,7 +8336,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -8345,7 +8345,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -8354,7 +8354,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in a TEXT record</td>
@@ -8363,7 +8363,7 @@ Fields
     
     
         <tr>
-            <td>pmt_date</td>
+            <td>PMT_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of payment</td>
@@ -8372,7 +8372,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LOTH</td>
@@ -8381,7 +8381,7 @@ Fields
     
     
         <tr>
-            <td>subj_namf</td>
+            <td>SUBJ_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>First name of employer/client subject of lobbying</td>
@@ -8390,7 +8390,7 @@ Fields
     
     
         <tr>
-            <td>subj_naml</td>
+            <td>SUBJ_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Last name of employer/client subject of lobbying</td>
@@ -8399,7 +8399,7 @@ Fields
     
     
         <tr>
-            <td>subj_nams</td>
+            <td>SUBJ_NAMS</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Suffix of employer/client subject of lobbying</td>
@@ -8408,7 +8408,7 @@ Fields
     
     
         <tr>
-            <td>subj_namt</td>
+            <td>SUBJ_NAMT</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Prefix or title of employer/client subject of lobbying</td>
@@ -8417,7 +8417,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -8573,7 +8573,7 @@ Fields
     
     
         <tr>
-            <td>advan_amt</td>
+            <td>ADVAN_AMT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Advance and other payments amount</td>
@@ -8582,7 +8582,7 @@ Fields
     
     
         <tr>
-            <td>advan_dscr</td>
+            <td>ADVAN_DSCR</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of advance and other payments</td>
@@ -8591,7 +8591,7 @@ Fields
     
     
         <tr>
-            <td>amend_id</td>
+            <td>AMEND_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -8600,7 +8600,7 @@ Fields
     
     
         <tr>
-            <td>bakref_tid</td>
+            <td>BAKREF_TID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Backreference to transaction identifer of parent record</td>
@@ -8609,7 +8609,7 @@ Fields
     
     
         <tr>
-            <td>cum_total</td>
+            <td>CUM_TOTAL</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -8618,7 +8618,7 @@ Fields
     
     
         <tr>
-            <td>emplr_city</td>
+            <td>EMPLR_CITY</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Employer city</td>
@@ -8627,7 +8627,7 @@ Fields
     
     
         <tr>
-            <td>emplr_id</td>
+            <td>EMPLR_ID</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -8636,7 +8636,7 @@ Fields
     
     
         <tr>
-            <td>emplr_namf</td>
+            <td>EMPLR_NAMF</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Employer first name</td>
@@ -8645,7 +8645,7 @@ Fields
     
     
         <tr>
-            <td>emplr_naml</td>
+            <td>EMPLR_NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -8654,7 +8654,7 @@ Fields
     
     
         <tr>
-            <td>emplr_nams</td>
+            <td>EMPLR_NAMS</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employer suffix</td>
@@ -8663,7 +8663,7 @@ Fields
     
     
         <tr>
-            <td>emplr_namt</td>
+            <td>EMPLR_NAMT</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employer title or prefix</td>
@@ -8672,7 +8672,7 @@ Fields
     
     
         <tr>
-            <td>emplr_phon</td>
+            <td>EMPLR_PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Employer phone number</td>
@@ -8681,7 +8681,7 @@ Fields
     
     
         <tr>
-            <td>emplr_st</td>
+            <td>EMPLR_ST</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Employer state</td>
@@ -8690,7 +8690,7 @@ Fields
     
     
         <tr>
-            <td>emplr_zip4</td>
+            <td>EMPLR_ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employer ZIP Code</td>
@@ -8699,7 +8699,7 @@ Fields
     
     
         <tr>
-            <td>entity_cd</td>
+            <td>ENTITY_CD</td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code of the Employer Values</td>
@@ -8708,7 +8708,7 @@ Fields
     
     
         <tr>
-            <td>fees_amt</td>
+            <td>FEES_AMT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Fees and retainers amount</td>
@@ -8717,7 +8717,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -8726,7 +8726,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -8735,7 +8735,7 @@ Fields
     
     
         <tr>
-            <td>lby_actvty</td>
+            <td>LBY_ACTVTY</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Description of lobbying activity</td>
@@ -8744,7 +8744,7 @@ Fields
     
     
         <tr>
-            <td>line_item</td>
+            <td>LINE_ITEM</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -8753,7 +8753,7 @@ Fields
     
     
         <tr>
-            <td>memo_code</td>
+            <td>MEMO_CODE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -8762,7 +8762,7 @@ Fields
     
     
         <tr>
-            <td>memo_refno</td>
+            <td>MEMO_REFNO</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to the text contained in a TEXT record</td>
@@ -8771,7 +8771,7 @@ Fields
     
     
         <tr>
-            <td>per_total</td>
+            <td>PER_TOTAL</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Total this reporting period</td>
@@ -8780,7 +8780,7 @@ Fields
     
     
         <tr>
-            <td>rec_type</td>
+            <td>REC_TYPE</td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LPAY</td>
@@ -8789,7 +8789,7 @@ Fields
     
     
         <tr>
-            <td>reimb_amt</td>
+            <td>REIMB_AMT</td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Reimbursements of expense amount</td>
@@ -8798,7 +8798,7 @@ Fields
     
     
         <tr>
-            <td>tran_id</td>
+            <td>TRAN_ID</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -9005,7 +9005,7 @@ Fields
     
     
         <tr>
-            <td>contributor_id</td>
+            <td>CONTRIBUTOR_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number.</td>
@@ -9014,7 +9014,7 @@ Fields
     
     
         <tr>
-            <td>current_qtr_amt</td>
+            <td>CURRENT_QTR_AMT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Current Quarter Amount</td>
@@ -9023,7 +9023,7 @@ Fields
     
     
         <tr>
-            <td>employer_id</td>
+            <td>EMPLOYER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number.</td>
@@ -9032,7 +9032,7 @@ Fields
     
     
         <tr>
-            <td>employer_name</td>
+            <td>EMPLOYER_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer Name</td>
@@ -9041,7 +9041,7 @@ Fields
     
     
         <tr>
-            <td>interest_cd</td>
+            <td>INTEREST_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Interest Code</td>
@@ -9050,7 +9050,7 @@ Fields
     
     
         <tr>
-            <td>interest_name</td>
+            <td>INTEREST_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Interest name.</td>
@@ -9059,7 +9059,7 @@ Fields
     
     
         <tr>
-            <td>qtr_1</td>
+            <td>QTR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 1 total amount.</td>
@@ -9068,7 +9068,7 @@ Fields
     
     
         <tr>
-            <td>qtr_2</td>
+            <td>QTR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 2 total amount.</td>
@@ -9077,7 +9077,7 @@ Fields
     
     
         <tr>
-            <td>qtr_3</td>
+            <td>QTR_3</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 3 total amount.</td>
@@ -9086,7 +9086,7 @@ Fields
     
     
         <tr>
-            <td>qtr_4</td>
+            <td>QTR_4</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 4 total amount.</td>
@@ -9095,7 +9095,7 @@ Fields
     
     
         <tr>
-            <td>qtr_5</td>
+            <td>QTR_5</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 5 total amount.</td>
@@ -9104,7 +9104,7 @@ Fields
     
     
         <tr>
-            <td>qtr_6</td>
+            <td>QTR_6</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 6 total amount.</td>
@@ -9113,7 +9113,7 @@ Fields
     
     
         <tr>
-            <td>qtr_7</td>
+            <td>QTR_7</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 7 total amount.</td>
@@ -9122,7 +9122,7 @@ Fields
     
     
         <tr>
-            <td>qtr_8</td>
+            <td>QTR_8</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 8 total amount.</td>
@@ -9131,7 +9131,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Session identification number.</td>
@@ -9140,7 +9140,7 @@ Fields
     
     
         <tr>
-            <td>session_total_amt</td>
+            <td>SESSION_TOTAL_AMT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for the session.</td>
@@ -9149,7 +9149,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_1</td>
+            <td>SESSION_YR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for year 1 of the session.</td>
@@ -9158,7 +9158,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_2</td>
+            <td>SESSION_YR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for year 2 of the session.</td>
@@ -9167,7 +9167,7 @@ Fields
     
     
         <tr>
-            <td>yr_1_ytd_amt</td>
+            <td>YR_1_YTD_AMT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Year 1 year to date amount.</td>
@@ -9176,7 +9176,7 @@ Fields
     
     
         <tr>
-            <td>yr_2_ytd_amt</td>
+            <td>YR_2_YTD_AMT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Year 2 year to date amount.</td>
@@ -9368,7 +9368,7 @@ Fields
     
     
         <tr>
-            <td>contributor_id</td>
+            <td>CONTRIBUTOR_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number.</td>
@@ -9377,7 +9377,7 @@ Fields
     
     
         <tr>
-            <td>current_qtr_amt</td>
+            <td>CURRENT_QTR_AMT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Current Quarter Amount</td>
@@ -9386,7 +9386,7 @@ Fields
     
     
         <tr>
-            <td>firm_id</td>
+            <td>FIRM_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the Firm/Employer/Coalition.</td>
@@ -9395,7 +9395,7 @@ Fields
     
     
         <tr>
-            <td>firm_name</td>
+            <td>FIRM_NAME</td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Name of Firm/Employer/Coalition</td>
@@ -9404,7 +9404,7 @@ Fields
     
     
         <tr>
-            <td>qtr_1</td>
+            <td>QTR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9413,7 +9413,7 @@ Fields
     
     
         <tr>
-            <td>qtr_2</td>
+            <td>QTR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9422,7 +9422,7 @@ Fields
     
     
         <tr>
-            <td>qtr_3</td>
+            <td>QTR_3</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9431,7 +9431,7 @@ Fields
     
     
         <tr>
-            <td>qtr_4</td>
+            <td>QTR_4</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9440,7 +9440,7 @@ Fields
     
     
         <tr>
-            <td>qtr_5</td>
+            <td>QTR_5</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9449,7 +9449,7 @@ Fields
     
     
         <tr>
-            <td>qtr_6</td>
+            <td>QTR_6</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9458,7 +9458,7 @@ Fields
     
     
         <tr>
-            <td>qtr_7</td>
+            <td>QTR_7</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9467,7 +9467,7 @@ Fields
     
     
         <tr>
-            <td>qtr_8</td>
+            <td>QTR_8</td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9476,7 +9476,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Session identification number.</td>
@@ -9485,7 +9485,7 @@ Fields
     
     
         <tr>
-            <td>session_total_amt</td>
+            <td>SESSION_TOTAL_AMT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for the session.</td>
@@ -9494,7 +9494,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_1</td>
+            <td>SESSION_YR_1</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for year 1 of the session.</td>
@@ -9503,7 +9503,7 @@ Fields
     
     
         <tr>
-            <td>session_yr_2</td>
+            <td>SESSION_YR_2</td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for year 2 of the session.</td>
@@ -9512,7 +9512,7 @@ Fields
     
     
         <tr>
-            <td>yr_1_ytd_amt</td>
+            <td>YR_1_YTD_AMT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Year 1 year to date amount.</td>
@@ -9521,7 +9521,7 @@ Fields
     
     
         <tr>
-            <td>yr_2_ytd_amt</td>
+            <td>YR_2_YTD_AMT</td>
             <td>Integer</td>
             <td>No</td>
             <td>Year 2 year to date amount</td>

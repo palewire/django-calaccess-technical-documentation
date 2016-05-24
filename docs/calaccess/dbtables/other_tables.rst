@@ -44,7 +44,7 @@ Fields
     
     
         <tr>
-            <td>acronym</td>
+            <td>ACRONYM</td>
             <td>String (up to 40)</td>
             <td>Yes</td>
             <td>Acronym text value</td>
@@ -53,7 +53,7 @@ Fields
     
     
         <tr>
-            <td>stands_for</td>
+            <td>STANDS_FOR</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Definition of the acronym</td>
@@ -62,7 +62,7 @@ Fields
     
     
         <tr>
-            <td>effect_dt</td>
+            <td>EFFECT_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective date for the acronym</td>
@@ -71,7 +71,7 @@ Fields
     
     
         <tr>
-            <td>a_desc</td>
+            <td>A_DESC</td>
             <td>String (up to 50)</td>
             <td>No</td>
             <td>Description of the acronym</td>
@@ -122,7 +122,7 @@ Fields
     
     
         <tr>
-            <td>adrid</td>
+            <td>ADRID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Address indentification number</td>
@@ -131,7 +131,7 @@ Fields
     
     
         <tr>
-            <td>city</td>
+            <td>CITY</td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>Address city</td>
@@ -140,7 +140,7 @@ Fields
     
     
         <tr>
-            <td>st</td>
+            <td>ST</td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>Address state</td>
@@ -149,7 +149,7 @@ Fields
     
     
         <tr>
-            <td>zip4</td>
+            <td>ZIP4</td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Address ZIP Code</td>
@@ -158,7 +158,7 @@ Fields
     
     
         <tr>
-            <td>phon</td>
+            <td>PHON</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Address phone number</td>
@@ -167,7 +167,7 @@ Fields
     
     
         <tr>
-            <td>fax</td>
+            <td>FAX</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Address fax number</td>
@@ -176,7 +176,7 @@ Fields
     
     
         <tr>
-            <td>email</td>
+            <td>EMAIL</td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>Address email</td>
@@ -225,7 +225,7 @@ Fields
     
     
         <tr>
-            <td>election_date</td>
+            <td>ELECTION_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ballot measure election date</td>
@@ -234,7 +234,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -243,7 +243,7 @@ Fields
     
     
         <tr>
-            <td>measure_no</td>
+            <td>MEASURE_NO</td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Ballot measure number</td>
@@ -252,7 +252,7 @@ Fields
     
     
         <tr>
-            <td>measure_name</td>
+            <td>MEASURE_NAME</td>
             <td>String (up to 163)</td>
             <td>No</td>
             <td>Ballot measure full name</td>
@@ -261,7 +261,7 @@ Fields
     
     
         <tr>
-            <td>measure_short_name</td>
+            <td>MEASURE_SHORT_NAME</td>
             <td>String (up to 50)</td>
             <td>No</td>
             <td>Ballot measure short name</td>
@@ -270,7 +270,7 @@ Fields
     
     
         <tr>
-            <td>jurisdiction</td>
+            <td>JURISDICTION</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -412,7 +412,7 @@ Fields
     
     
         <tr>
-            <td>filing_date</td>
+            <td>FILING_DATE</td>
             <td>Date (without time)</td>
             <td>Yes</td>
             <td>Date of filing</td>
@@ -421,7 +421,7 @@ Fields
     
     
         <tr>
-            <td>filingstatus</td>
+            <td>FILINGSTATUS</td>
             <td>Integer</td>
             <td>No</td>
             <td>Status of filing. This field is described in the docs as beingVARCHAR. However, its distinct values are 0, 1, 2 and 7.</td>
@@ -430,7 +430,7 @@ Fields
     
     
         <tr>
-            <td>vendor</td>
+            <td>VENDOR</td>
             <td>String (up to 250)</td>
             <td>Yes</td>
             <td>Software vendor who submitted the electronic filing</td>
@@ -439,7 +439,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>String (up to 250)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -448,7 +448,7 @@ Fields
     
     
         <tr>
-            <td>form_type</td>
+            <td>FORM_TYPE</td>
             <td>String (up to 250)</td>
             <td>No</td>
             <td>Name of the source filing form or schedule</td>
@@ -457,7 +457,7 @@ Fields
     
     
         <tr>
-            <td>error_no</td>
+            <td>ERROR_NO</td>
             <td>String (up to 250)</td>
             <td>No</td>
             <td>Most records have a value of &quot;ACCEPTED&quot;. Other records include &quot;ERROR&quot;or &quot;BADFORMAT&quot; and a three-digit number.</td>
@@ -674,7 +674,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -723,7 +723,7 @@ Fields
     
     
         <tr>
-            <td>acronym</td>
+            <td>ACRONYM</td>
             <td>String (up to 32)</td>
             <td>Yes</td>
             <td>AMS acronym</td>
@@ -732,7 +732,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -782,7 +782,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -791,7 +791,7 @@ Fields
     
     
         <tr>
-            <td>adrid</td>
+            <td>ADRID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Address identification number</td>
@@ -800,7 +800,7 @@ Fields
     
     
         <tr>
-            <td>effect_dt</td>
+            <td>EFFECT_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Address effective date</td>
@@ -809,7 +809,7 @@ Fields
     
     
         <tr>
-            <td>add_type</td>
+            <td>ADD_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Address type</td>
@@ -818,7 +818,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -942,7 +942,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -951,7 +951,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -960,7 +960,7 @@ Fields
     
     
         <tr>
-            <td>ethics_date</td>
+            <td>ETHICS_DATE</td>
             <td>Date (without time)</td>
             <td>Yes</td>
             <td>Date ethics training was accomplished</td>
@@ -1009,7 +1009,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -1018,7 +1018,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -1027,7 +1027,7 @@ Fields
     
     
         <tr>
-            <td>interest_cd</td>
+            <td>INTEREST_CD</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Interest code linked to the filer</td>
@@ -1036,7 +1036,7 @@ Fields
     
     
         <tr>
-            <td>effect_date</td>
+            <td>EFFECT_DATE</td>
             <td>Date (without time)</td>
             <td>Yes</td>
             <td>Effective date</td>
@@ -1230,7 +1230,7 @@ Fields
     
     
         <tr>
-            <td>filer_id_a</td>
+            <td>FILER_ID_A</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique identification number for the first filer in the relationship</td>
@@ -1239,7 +1239,7 @@ Fields
     
     
         <tr>
-            <td>filer_id_b</td>
+            <td>FILER_ID_B</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique identification number for the second filer in the relationship</td>
@@ -1248,7 +1248,7 @@ Fields
     
     
         <tr>
-            <td>active_flg</td>
+            <td>ACTIVE_FLG</td>
             <td>String (up to 1)</td>
             <td>Yes</td>
             <td>Indicates if the link is active</td>
@@ -1257,7 +1257,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -1266,7 +1266,7 @@ Fields
     
     
         <tr>
-            <td>link_type</td>
+            <td>LINK_TYPE</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Denotes the type of the link</td>
@@ -1275,7 +1275,7 @@ Fields
     
     
         <tr>
-            <td>link_desc</td>
+            <td>LINK_DESC</td>
             <td>String (up to 255)</td>
             <td>No</td>
             <td>Unused</td>
@@ -1284,7 +1284,7 @@ Fields
     
     
         <tr>
-            <td>effect_dt</td>
+            <td>EFFECT_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date the link became active</td>
@@ -1293,7 +1293,7 @@ Fields
     
     
         <tr>
-            <td>dominate_filer</td>
+            <td>DOMINATE_FILER</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Unused</td>
@@ -1302,7 +1302,7 @@ Fields
     
     
         <tr>
-            <td>termination_dt</td>
+            <td>TERMINATION_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Termination effective date</td>
@@ -1522,7 +1522,7 @@ Fields
     
     
         <tr>
-            <td>status_type</td>
+            <td>STATUS_TYPE</td>
             <td>String (up to 11)</td>
             <td>Yes</td>
             <td>This field is undocumented</td>
@@ -1531,7 +1531,7 @@ Fields
     
     
         <tr>
-            <td>status_desc</td>
+            <td>STATUS_DESC</td>
             <td>String (up to 11)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1582,7 +1582,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -1591,7 +1591,7 @@ Fields
     
     
         <tr>
-            <td>filer_type</td>
+            <td>FILER_TYPE</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Foreign key referencing FilerTypesCd.filer_type</td>
@@ -1600,7 +1600,7 @@ Fields
     
     
         <tr>
-            <td>active</td>
+            <td>ACTIVE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Indicates if the filer is currently active</td>
@@ -1609,7 +1609,7 @@ Fields
     
     
         <tr>
-            <td>race</td>
+            <td>RACE</td>
             <td>Integer</td>
             <td>No</td>
             <td>If applicable indicates the race in which the filer is running</td>
@@ -1618,7 +1618,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -1627,7 +1627,7 @@ Fields
     
     
         <tr>
-            <td>category</td>
+            <td>CATEGORY</td>
             <td>Integer</td>
             <td>No</td>
             <td>Defines the filer&#39;s category such as controlled, jointly controlled, etc. (subset of filer&#39;s type)</td>
@@ -1636,7 +1636,7 @@ Fields
     
     
         <tr>
-            <td>category_type</td>
+            <td>CATEGORY_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>When applicable, the category type specifies additional information about the category. (e.g. state, local, etc.)</td>
@@ -1645,7 +1645,7 @@ Fields
     
     
         <tr>
-            <td>sub_category</td>
+            <td>SUB_CATEGORY</td>
             <td>Integer</td>
             <td>No</td>
             <td>When applicable specifies general purpose, primarily formed, etc.</td>
@@ -1654,7 +1654,7 @@ Fields
     
     
         <tr>
-            <td>effect_dt</td>
+            <td>EFFECT_DT</td>
             <td>Date (without time)</td>
             <td>Yes</td>
             <td>The date the filer assumed the current class or type</td>
@@ -1663,7 +1663,7 @@ Fields
     
     
         <tr>
-            <td>sub_category_type</td>
+            <td>SUB_CATEGORY_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>When applicable specifies broad based or small contributor</td>
@@ -1672,7 +1672,7 @@ Fields
     
     
         <tr>
-            <td>election_type</td>
+            <td>ELECTION_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Indicates type of election (general, primary, special)</td>
@@ -1681,7 +1681,7 @@ Fields
     
     
         <tr>
-            <td>sub_category_a</td>
+            <td>SUB_CATEGORY_A</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Indicates if sponsored or not</td>
@@ -1690,7 +1690,7 @@ Fields
     
     
         <tr>
-            <td>nyq_dt</td>
+            <td>NYQ_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Indicates the date when a committee reached its qualifying level of activity</td>
@@ -1699,7 +1699,7 @@ Fields
     
     
         <tr>
-            <td>party_cd</td>
+            <td>PARTY_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s political party</td>
@@ -1708,7 +1708,7 @@ Fields
     
     
         <tr>
-            <td>county_cd</td>
+            <td>COUNTY_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s county code</td>
@@ -1717,7 +1717,7 @@ Fields
     
     
         <tr>
-            <td>district_cd</td>
+            <td>DISTRICT_CD</td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s district number for the office being sought. Populated for Senate, Assembly or Board of Equalization races</td>
@@ -3855,7 +3855,7 @@ Fields
     
     
         <tr>
-            <td>filer_type</td>
+            <td>FILER_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer type identification number</td>
@@ -3864,7 +3864,7 @@ Fields
     
     
         <tr>
-            <td>description</td>
+            <td>DESCRIPTION</td>
             <td>String (up to 255)</td>
             <td>No</td>
             <td>Description of the filer type</td>
@@ -3873,7 +3873,7 @@ Fields
     
     
         <tr>
-            <td>grp_type</td>
+            <td>GRP_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Group type assocated with the filer type</td>
@@ -3882,7 +3882,7 @@ Fields
     
     
         <tr>
-            <td>calc_use</td>
+            <td>CALC_USE</td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Use checkbox flag</td>
@@ -3891,7 +3891,7 @@ Fields
     
     
         <tr>
-            <td>grace_period</td>
+            <td>GRACE_PERIOD</td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -4007,7 +4007,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -4016,7 +4016,7 @@ Fields
     
     
         <tr>
-            <td>xref_id</td>
+            <td>XREF_ID</td>
             <td>String (up to 32)</td>
             <td>Yes</td>
             <td>Alternative filer ID found on many forms</td>
@@ -4025,7 +4025,7 @@ Fields
     
     
         <tr>
-            <td>effect_dt</td>
+            <td>EFFECT_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective date</td>
@@ -4034,7 +4034,7 @@ Fields
     
     
         <tr>
-            <td>migration_source</td>
+            <td>MIGRATION_SOURCE</td>
             <td>String (up to 50)</td>
             <td>No</td>
             <td>Source of the XREF_ID. Migration or generated by the AMS.</td>
@@ -4084,7 +4084,7 @@ Fields
     
     
         <tr>
-            <td>period_id</td>
+            <td>PERIOD_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique period identification number</td>
@@ -4093,7 +4093,7 @@ Fields
     
     
         <tr>
-            <td>start_date</td>
+            <td>START_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Starting date for period</td>
@@ -4102,7 +4102,7 @@ Fields
     
     
         <tr>
-            <td>end_date</td>
+            <td>END_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ending date of period</td>
@@ -4111,7 +4111,7 @@ Fields
     
     
         <tr>
-            <td>period_type</td>
+            <td>PERIOD_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of filing period</td>
@@ -4120,7 +4120,7 @@ Fields
     
     
         <tr>
-            <td>per_grp_type</td>
+            <td>PER_GRP_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Period group type</td>
@@ -4129,7 +4129,7 @@ Fields
     
     
         <tr>
-            <td>period_desc</td>
+            <td>PERIOD_DESC</td>
             <td>String (up to 255)</td>
             <td>No</td>
             <td>Period description</td>
@@ -4138,7 +4138,7 @@ Fields
     
     
         <tr>
-            <td>deadline</td>
+            <td>DEADLINE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Deadline date</td>
@@ -4276,7 +4276,7 @@ Fields
     
     
         <tr>
-            <td>grp_id</td>
+            <td>GRP_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Group identification number</td>
@@ -4285,7 +4285,7 @@ Fields
     
     
         <tr>
-            <td>grp_name</td>
+            <td>GRP_NAME</td>
             <td>String (up to 28)</td>
             <td>No</td>
             <td>Group name. Many of the values in this column are empty strings.</td>
@@ -4294,7 +4294,7 @@ Fields
     
     
         <tr>
-            <td>grp_desc</td>
+            <td>GRP_DESC</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Group Description. This column contains only empty strings.</td>
@@ -4343,7 +4343,7 @@ Fields
     
     
         <tr>
-            <td>img_link_id</td>
+            <td>IMG_LINK_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Image link identification number</td>
@@ -4352,7 +4352,7 @@ Fields
     
     
         <tr>
-            <td>img_link_type</td>
+            <td>IMG_LINK_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of image link</td>
@@ -4361,7 +4361,7 @@ Fields
     
     
         <tr>
-            <td>img_id</td>
+            <td>IMG_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Image identification number</td>
@@ -4370,7 +4370,7 @@ Fields
     
     
         <tr>
-            <td>img_type</td>
+            <td>IMG_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of image</td>
@@ -4379,7 +4379,7 @@ Fields
     
     
         <tr>
-            <td>img_dt</td>
+            <td>IMG_DT</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Image date</td>
@@ -4540,7 +4540,7 @@ Fields
     
     
         <tr>
-            <td>session_id</td>
+            <td>SESSION_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -4549,7 +4549,7 @@ Fields
     
     
         <tr>
-            <td>begin_date</td>
+            <td>BEGIN_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Session start date</td>
@@ -4558,7 +4558,7 @@ Fields
     
     
         <tr>
-            <td>end_date</td>
+            <td>END_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Session end date</td>
@@ -4607,7 +4607,7 @@ Fields
     
     
         <tr>
-            <td>code_type</td>
+            <td>CODE_TYPE</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>This field is undocumented</td>
@@ -4616,7 +4616,7 @@ Fields
     
     
         <tr>
-            <td>code_id</td>
+            <td>CODE_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>The code&#39;s identification number</td>
@@ -4625,7 +4625,7 @@ Fields
     
     
         <tr>
-            <td>code_desc</td>
+            <td>CODE_DESC</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Code description</td>
@@ -4675,7 +4675,7 @@ Fields
     
     
         <tr>
-            <td>namid</td>
+            <td>NAMID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number unique to the name</td>
@@ -4684,7 +4684,7 @@ Fields
     
     
         <tr>
-            <td>naml</td>
+            <td>NAML</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Last name</td>
@@ -4693,7 +4693,7 @@ Fields
     
     
         <tr>
-            <td>namf</td>
+            <td>NAMF</td>
             <td>String (up to 50)</td>
             <td>No</td>
             <td>First name</td>
@@ -4702,7 +4702,7 @@ Fields
     
     
         <tr>
-            <td>namt</td>
+            <td>NAMT</td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Name title or prefix</td>
@@ -4711,7 +4711,7 @@ Fields
     
     
         <tr>
-            <td>nams</td>
+            <td>NAMS</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Name suffix</td>
@@ -4720,7 +4720,7 @@ Fields
     
     
         <tr>
-            <td>moniker</td>
+            <td>MONIKER</td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Entity&#39;s moniker</td>
@@ -4729,7 +4729,7 @@ Fields
     
     
         <tr>
-            <td>moniker_pos</td>
+            <td>MONIKER_POS</td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Location of the entity&#39;s moniker</td>
@@ -4738,7 +4738,7 @@ Fields
     
     
         <tr>
-            <td>namm</td>
+            <td>NAMM</td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Middle name</td>
@@ -4747,7 +4747,7 @@ Fields
     
     
         <tr>
-            <td>fullname</td>
+            <td>FULLNAME</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Full name</td>
@@ -4756,7 +4756,7 @@ Fields
     
     
         <tr>
-            <td>naml_search</td>
+            <td>NAML_SEARCH</td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Last name</td>
@@ -4898,7 +4898,7 @@ Fields
     
     
         <tr>
-            <td>filer_id</td>
+            <td>FILER_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -4907,7 +4907,7 @@ Fields
     
     
         <tr>
-            <td>filing_file_name</td>
+            <td>FILING_FILE_NAME</td>
             <td>String (up to 14)</td>
             <td>No</td>
             <td>The field is undocumented</td>
@@ -4916,7 +4916,7 @@ Fields
     
     
         <tr>
-            <td>received_date</td>
+            <td>RECEIVED_DATE</td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date received</td>
@@ -4925,7 +4925,7 @@ Fields
     
     
         <tr>
-            <td>filing_directory</td>
+            <td>FILING_DIRECTORY</td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -4934,7 +4934,7 @@ Fields
     
     
         <tr>
-            <td>filing_id</td>
+            <td>FILING_ID</td>
             <td>Integer</td>
             <td>No</td>
             <td>Unique filing identificiation number</td>
@@ -4943,7 +4943,7 @@ Fields
     
     
         <tr>
-            <td>form_id</td>
+            <td>FORM_ID</td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Form identification code</td>
@@ -4952,7 +4952,7 @@ Fields
     
     
         <tr>
-            <td>receive_comment</td>
+            <td>RECEIVE_COMMENT</td>
             <td>String (up to 51)</td>
             <td>No</td>
             <td>A comment</td>
@@ -5156,7 +5156,7 @@ Fields
     
     
         <tr>
-            <td>rpt_id</td>
+            <td>RPT_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique identification number</td>
@@ -5165,7 +5165,7 @@ Fields
     
     
         <tr>
-            <td>rpt_name</td>
+            <td>RPT_NAME</td>
             <td>String (up to 74)</td>
             <td>No</td>
             <td>Name of the report</td>
@@ -5174,7 +5174,7 @@ Fields
     
     
         <tr>
-            <td>rpt_desc_field</td>
+            <td>RPT_DESC_</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Description of the report</td>
@@ -5183,7 +5183,7 @@ Fields
     
     
         <tr>
-            <td>path</td>
+            <td>PATH</td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Report path</td>
@@ -5192,7 +5192,7 @@ Fields
     
     
         <tr>
-            <td>data_object</td>
+            <td>DATA_OBJECT</td>
             <td>String (up to 38)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5201,7 +5201,7 @@ Fields
     
     
         <tr>
-            <td>parms_flg_y_n</td>
+            <td>PARMS_FLG_Y_N</td>
             <td>Integer</td>
             <td>No</td>
             <td>Parameters indication flag</td>
@@ -5210,7 +5210,7 @@ Fields
     
     
         <tr>
-            <td>rpt_type</td>
+            <td>RPT_TYPE</td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of the report</td>
@@ -5219,7 +5219,7 @@ Fields
     
     
         <tr>
-            <td>parm_definition</td>
+            <td>PARM_DEFINITION</td>
             <td>Integer</td>
             <td>No</td>
             <td>Parameter definition</td>
@@ -5350,7 +5350,7 @@ Fields
     
     
         <tr>
-            <td>election_type</td>
+            <td>ELECTION_TYPE</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Election type</td>
@@ -5359,7 +5359,7 @@ Fields
     
     
         <tr>
-            <td>filer_type</td>
+            <td>FILER_TYPE</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Foreign key referencing FilerTypesCd.filer_type</td>
@@ -5368,7 +5368,7 @@ Fields
     
     
         <tr>
-            <td>period_id</td>
+            <td>PERIOD_ID</td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Foreign key referencing FilingPeriodCd.period_id</td>

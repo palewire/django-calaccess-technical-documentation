@@ -56,7 +56,7 @@ Fields
     {% for field in object.get_field_list %}
     {% if field.name != "id" %}
         <tr>
-            <td>{{ field.name }}</td>
+            <td>{{ field.db_column }}</td>
             <td>{{ field.description }}</td>
             <td>{% if field.is_unique_key %}Yes{% else %}No{% endif %}</td>
             <td>{{ field.definition|capfirst }}</td>

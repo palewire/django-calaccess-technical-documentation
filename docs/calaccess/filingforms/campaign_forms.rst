@@ -71,17 +71,17 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 400 filings are written to the following tables:
 
-* `CvrSoCd <models.html#cvrsocd>`_
+* `CvrSoCd <../dbtables/campaign_tables.html#cvr-so-cd>`_
 
-* `Cvr2SoCd <models.html#cvr2socd>`_
+* `Cvr2SoCd <../dbtables/campaign_tables.html#cvr2-so-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -150,23 +150,23 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 401 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `RcptCd <models.html#rcptcd>`_
+* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `S401Cd <models.html#s401cd>`_
+* `S401Cd <../dbtables/campaign_tables.html#s401-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -223,15 +223,15 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 402 filings are written to the following tables:
 
-* `CvrSoCd <models.html#cvrsocd>`_
+* `CvrSoCd <../dbtables/campaign_tables.html#cvr-so-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -278,9 +278,9 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 405 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
 
 
@@ -343,19 +343,19 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 410 filings are written to the following tables:
 
-* `CvrSoCd <models.html#cvrsocd>`_
+* `CvrSoCd <../dbtables/campaign_tables.html#cvr-so-cd>`_
 
-* `Cvr2SoCd <models.html#cvr2socd>`_
+* `Cvr2SoCd <../dbtables/campaign_tables.html#cvr2-so-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -415,19 +415,19 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 425 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `Cvr2CampaignDisclosureCd <models.html#cvr2campaigndisclosurecd>`_
+* `Cvr2CampaignDisclosureCd <../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -499,27 +499,27 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 450 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `Cvr2CampaignDisclosureCd <models.html#cvr2campaigndisclosurecd>`_
+* `Cvr2CampaignDisclosureCd <../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `ExpnCd <models.html#expncd>`_
+* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
 
-* `F495P2Cd <models.html#f495p2cd>`_
+* `F495P2Cd <../dbtables/campaign_tables.html#f495p2-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `SpltCd <models.html#spltcd>`_
+* `SpltCd <../dbtables/common_tables.html#splt-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -624,33 +624,33 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 460 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `Cvr2CampaignDisclosureCd <models.html#cvr2campaigndisclosurecd>`_
+* `Cvr2CampaignDisclosureCd <../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd>`_
 
-* `RcptCd <models.html#rcptcd>`_
+* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `LoanCd <models.html#loancd>`_
+* `LoanCd <../dbtables/campaign_tables.html#loan-cd>`_
 
-* `ExpnCd <models.html#expncd>`_
+* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
 
-* `F495P2Cd <models.html#f495p2cd>`_
+* `F495P2Cd <../dbtables/campaign_tables.html#f495p2-cd>`_
 
-* `DebtCd <models.html#debtcd>`_
+* `DebtCd <../dbtables/campaign_tables.html#debt-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `SpltCd <models.html#spltcd>`_
+* `SpltCd <../dbtables/common_tables.html#splt-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -716,21 +716,21 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 461 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `ExpnCd <models.html#expncd>`_
+* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -799,23 +799,23 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 465 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `Cvr2CampaignDisclosureCd <models.html#cvr2campaigndisclosurecd>`_
+* `Cvr2CampaignDisclosureCd <../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `ExpnCd <models.html#expncd>`_
+* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -862,9 +862,9 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 470 filings are written to the following tables:
 
-* `CvrF470Cd <models.html#cvrf470cd>`_
+* `CvrF470Cd <../dbtables/campaign_tables.html#cvr-f470-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -911,7 +911,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 495 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -971,19 +971,19 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 496 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `RcptCd <models.html#rcptcd>`_
+* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
 
-* `S496Cd <models.html#s496cd>`_
+* `S496Cd <../dbtables/campaign_tables.html#s496-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -1040,17 +1040,17 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 497 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `S497Cd <models.html#s497cd>`_
+* `S497Cd <../dbtables/campaign_tables.html#s497-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -1107,17 +1107,17 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 498 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `S498Cd <models.html#s498cd>`_
+* `S498Cd <../dbtables/campaign_tables.html#s498-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -1164,9 +1164,9 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 501 filings are written to the following tables:
 
-* `F501502Cd <models.html#f501502cd>`_
+* `F501502Cd <../dbtables/campaign_tables.html#f501-502-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -1191,9 +1191,9 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 502 filings are written to the following tables:
 
-* `F501502Cd <models.html#f501502cd>`_
+* `F501502Cd <../dbtables/campaign_tables.html#f501-502-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -1240,11 +1240,11 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 511 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -1291,11 +1291,11 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Electronic Form 530 filings are written to the following tables:
 
-* `RcptCd <models.html#rcptcd>`_
+* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `CvrE530Cd <models.html#cvre530cd>`_
+* `CvrE530Cd <../dbtables/common_tables.html#cvr-e530-cd>`_
 
 
 
@@ -1320,17 +1320,17 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 900 filings are written to the following tables:
 
-* `CvrCampaignDisclosureCd <models.html#cvrcampaigndisclosurecd>`_
+* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
 
-* `RcptCd <models.html#rcptcd>`_
+* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
 
-* `Cvr3VerificationInfoCd <models.html#cvr3verificationinfocd>`_
+* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
 
-* `ExpnCd <models.html#expncd>`_
+* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
 
 

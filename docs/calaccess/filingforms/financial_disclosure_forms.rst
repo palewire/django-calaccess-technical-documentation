@@ -49,7 +49,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 700 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 

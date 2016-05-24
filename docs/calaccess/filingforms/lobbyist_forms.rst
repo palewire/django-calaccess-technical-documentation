@@ -65,21 +65,21 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 601 filings are written to the following tables:
 
-* `CvrRegistrationCd <models.html#cvrregistrationcd>`_
+* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
 
-* `Cvr2RegistrationCd <models.html#cvr2registrationcd>`_
+* `Cvr2RegistrationCd <../dbtables/lobbying_tables.html#cvr2-registration-cd>`_
 
-* `LobbyAmendmentsCd <models.html#lobbyamendmentscd>`_
+* `LobbyAmendmentsCd <../dbtables/lobbying_tables.html#lobby-amendments-cd>`_
 
-* `LempCd <models.html#lempcd>`_
+* `LempCd <../dbtables/lobbying_tables.html#lemp-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -126,17 +126,17 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 602 filings are written to the following tables:
 
-* `CvrRegistrationCd <models.html#cvrregistrationcd>`_
+* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
 
-* `Cvr2RegistrationCd <models.html#cvr2registrationcd>`_
+* `Cvr2RegistrationCd <../dbtables/lobbying_tables.html#cvr2-registration-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -183,19 +183,19 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 603 filings are written to the following tables:
 
-* `CvrRegistrationCd <models.html#cvrregistrationcd>`_
+* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
 
-* `Cvr2RegistrationCd <models.html#cvr2registrationcd>`_
+* `Cvr2RegistrationCd <../dbtables/lobbying_tables.html#cvr2-registration-cd>`_
 
-* `LobbyAmendmentsCd <models.html#lobbyamendmentscd>`_
+* `LobbyAmendmentsCd <../dbtables/lobbying_tables.html#lobby-amendments-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -242,15 +242,15 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 604 filings are written to the following tables:
 
-* `CvrRegistrationCd <models.html#cvrregistrationcd>`_
+* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -297,9 +297,9 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 605 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
 
 
@@ -346,15 +346,15 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 606 filings are written to the following tables:
 
-* `CvrRegistrationCd <models.html#cvrregistrationcd>`_
+* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -401,15 +401,15 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 607 filings are written to the following tables:
 
-* `CvrRegistrationCd <models.html#cvrregistrationcd>`_
+* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -466,21 +466,21 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 615 filings are written to the following tables:
 
-* `CvrLobbyDisclosureCd <models.html#cvrlobbydisclosurecd>`_
+* `CvrLobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd>`_
 
-* `F690P2Cd <models.html#f690p2cd>`_
+* `F690P2Cd <../dbtables/lobbying_tables.html#f690p2-cd>`_
 
-* `LexpCd <models.html#lexpcd>`_
+* `LexpCd <../dbtables/lobbying_tables.html#lexp-cd>`_
 
-* `LccmCd <models.html#lccmcd>`_
+* `LccmCd <../dbtables/lobbying_tables.html#lccm-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -549,29 +549,29 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 625 filings are written to the following tables:
 
-* `CvrLobbyDisclosureCd <models.html#cvrlobbydisclosurecd>`_
+* `CvrLobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd>`_
 
-* `Cvr2LobbyDisclosureCd <models.html#cvr2lobbydisclosurecd>`_
+* `Cvr2LobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr2-lobby-disclosure-cd>`_
 
-* `F690P2Cd <models.html#f690p2cd>`_
+* `F690P2Cd <../dbtables/lobbying_tables.html#f690p2-cd>`_
 
-* `LexpCd <models.html#lexpcd>`_
+* `LexpCd <../dbtables/lobbying_tables.html#lexp-cd>`_
 
-* `LccmCd <models.html#lccmcd>`_
+* `LccmCd <../dbtables/lobbying_tables.html#lccm-cd>`_
 
-* `LothCd <models.html#lothcd>`_
+* `LothCd <../dbtables/lobbying_tables.html#loth-cd>`_
 
-* `LpayCd <models.html#lpaycd>`_
+* `LpayCd <../dbtables/lobbying_tables.html#lpay-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -618,11 +618,11 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Schedule 630 filings are written to the following tables:
 
-* `LattCd <models.html#lattcd>`_
+* `LattCd <../dbtables/lobbying_tables.html#latt-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
 
 
@@ -697,27 +697,27 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 635 filings are written to the following tables:
 
-* `CvrLobbyDisclosureCd <models.html#cvrlobbydisclosurecd>`_
+* `CvrLobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd>`_
 
-* `Cvr2LobbyDisclosureCd <models.html#cvr2lobbydisclosurecd>`_
+* `Cvr2LobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr2-lobby-disclosure-cd>`_
 
-* `F690P2Cd <models.html#f690p2cd>`_
+* `F690P2Cd <../dbtables/lobbying_tables.html#f690p2-cd>`_
 
-* `LexpCd <models.html#lexpcd>`_
+* `LexpCd <../dbtables/lobbying_tables.html#lexp-cd>`_
 
-* `LccmCd <models.html#lccmcd>`_
+* `LccmCd <../dbtables/lobbying_tables.html#lccm-cd>`_
 
-* `LpayCd <models.html#lpaycd>`_
+* `LpayCd <../dbtables/lobbying_tables.html#lpay-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -764,11 +764,11 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Schedule 635C filings are written to the following tables:
 
-* `LattCd <models.html#lattcd>`_
+* `LattCd <../dbtables/lobbying_tables.html#latt-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
 
 
@@ -815,13 +815,13 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Schedule 640 filings are written to the following tables:
 
-* `LattCd <models.html#lattcd>`_
+* `LattCd <../dbtables/lobbying_tables.html#latt-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
 
 
@@ -887,23 +887,23 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 645 filings are written to the following tables:
 
-* `CvrLobbyDisclosureCd <models.html#cvrlobbydisclosurecd>`_
+* `CvrLobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd>`_
 
-* `F690P2Cd <models.html#f690p2cd>`_
+* `F690P2Cd <../dbtables/lobbying_tables.html#f690p2-cd>`_
 
-* `LexpCd <models.html#lexpcd>`_
+* `LexpCd <../dbtables/lobbying_tables.html#lexp-cd>`_
 
-* `LccmCd <models.html#lccmcd>`_
+* `LccmCd <../dbtables/lobbying_tables.html#lccm-cd>`_
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
-* `SmryCd <models.html#smrycd>`_
+* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
-* `TextMemoCd <models.html#textmemocd>`_
+* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
 
-* `EfsFilingLogCd <models.html#efsfilinglogcd>`_
+* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
 
-* `ReceivedFilingsCd <models.html#receivedfilingscd>`_
+* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
 
 
 
@@ -950,7 +950,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 690 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 

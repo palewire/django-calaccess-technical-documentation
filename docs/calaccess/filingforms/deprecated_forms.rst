@@ -28,7 +28,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 415 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -53,7 +53,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 416 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -78,7 +78,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 419 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -103,7 +103,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 420 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -128,7 +128,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 430 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -153,7 +153,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via Form 490 filings are written to the following tables:
 
-* `FilerFilingsCd <models.html#filerfilingscd>`_
+* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 

@@ -1,4 +1,5 @@
 {% extends "base.rst" %}
+{% load misc_tags %}
 {% block content %}
 {{ group_name|capfirst }} forms
 ===============================
@@ -57,7 +58,7 @@ Database Tables
 ^^^^^^^^^^^^^^^
 Data collected via {{ form.type_and_num|safe }} filings are written to the following tables:
 {% for model in form.get_models %}
-* `{{ model.klass_name }} <models.html#{{ model.klass_name|slugify }}>`_
+* `{{ model.klass_name }} <../dbtables/{{ model.klass_group }}_tables.html#{{ model.db_table|format_page_anchor }}>`_
 {% endfor %}
 {% endif %}
 

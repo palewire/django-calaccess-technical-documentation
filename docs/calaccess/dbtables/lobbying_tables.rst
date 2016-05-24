@@ -786,8 +786,9 @@ bus_class
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html">82</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/70.html">70</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82">82</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p70">70</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -842,8 +843,9 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html">82</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html">68</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82">82</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p68">68</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -903,8 +905,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html">82</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html">68</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82">82</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p68">68</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -984,8 +987,9 @@ ind_class
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/85.html">85</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/70.html">70</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p85">85</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p70">70</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -1040,8 +1044,9 @@ influen_yn
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/86.html">86</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/71.html">71</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p86">86</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p71">71</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -1076,8 +1081,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/82.html">82</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/68.html">68</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82">82</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p68">68</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -1137,8 +1143,9 @@ st_leg_yn
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/86.html">86</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/71.html">71</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p86">86</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p71">71</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -1355,8 +1362,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html">87</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html">72</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87">87</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72">72</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -1401,8 +1409,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html">87</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html">72</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87">87</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72">72</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -1462,8 +1471,9 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/87.html">87</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/72.html">72</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87">87</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72">72</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2074,8 +2084,9 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/67.html">67</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html">53</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p67">67</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53">53</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2125,8 +2136,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/66.html">66</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html">53</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p66">66</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53">53</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2161,8 +2173,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/66.html">66</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/53.html">53</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p66">66</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53">53</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2399,8 +2412,9 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html">71</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html">57</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p71">71</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p57">57</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2440,8 +2454,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html">71</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html">57</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p71">71</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p57">57</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2476,8 +2491,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/71.html">71</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/57.html">57</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p71">71</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p57">57</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2960,8 +2976,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html">88</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/74.html">74</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88">88</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74">74</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3001,8 +3018,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/88.html">88</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/74.html">74</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88">88</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74">74</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3214,8 +3232,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/72.html">72</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/58.html">58</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p72">72</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p58">58</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3265,8 +3284,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/72.html">72</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/58.html">58</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p72">72</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p58">58</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3585,8 +3605,9 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/80.html">80</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html">65</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p80">80</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p65">65</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3631,8 +3652,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/52.html">52</a>), Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html">79</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html">65</a>)
-           </small>
+            Sources: 
+                 MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p52">52</a>),  Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p79">79</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p65">65</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3667,8 +3689,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html">79</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/65.html">65</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p79">79</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p65">65</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4012,8 +4035,9 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/75.html">75</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html">61</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p75">75</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61">61</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4063,8 +4087,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html">74</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html">61</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74">74</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61">61</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4099,8 +4124,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html">74</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html">61</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74">74</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61">61</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4140,8 +4166,9 @@ recsubtype
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/74.html">74</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/61.html">61</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74">74</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61">61</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4481,8 +4508,9 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html">78</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html">64</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78">78</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p64">64</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4532,8 +4560,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html">78</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/79.html">79</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html">64</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78">78-79</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p64">64</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4568,8 +4597,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/78.html">78</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/64.html">64</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78">78</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p64">64</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4896,8 +4926,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/90.html">90</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/75.html">75</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90">90</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75">75</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4932,8 +4963,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/90.html">90</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/75.html">75</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90">90</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75">75</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -5927,8 +5959,9 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -6287,8 +6320,9 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -6647,8 +6681,9 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -8364,8 +8399,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html">77</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/63.html">63</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77">77</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63">63</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -8400,8 +8436,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/77.html">77</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/63.html">63</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77">77</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63">63</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -8761,8 +8798,9 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html">76</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html">62</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76">76</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p62">62</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -8802,8 +8840,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html">76</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html">62</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76">76</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p62">62</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -8838,8 +8877,9 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201/pages/76.html">76</a>), Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02/pages/62.html">62</a>)
-           </small>
+            Sources: 
+                 Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76">76</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p62">62</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -9204,8 +9244,9 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
         </td>
         </tr>
         </tfoot>

@@ -604,8 +604,9 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/4.html">4</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/5.html">5</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/6.html">6</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/7.html">7</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/8.html">8</a>)
-           </small>
+            Sources: 
+                 Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -868,8 +869,9 @@ add_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/5.html">5</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p5">5</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -1151,8 +1153,9 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -1439,8 +1442,9 @@ link_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/6.html">6</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/7.html">7</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p6">6-7</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2444,8 +2448,9 @@ race
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/16.html">16</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/17.html">17</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/18.html">18</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/20.html">20</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/21.html">21</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/22.html">22</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p16">16-18</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p20">20-22</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2505,8 +2510,9 @@ category
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/18.html">18</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p18">18</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2576,8 +2582,9 @@ category_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/20.html">20</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19-20</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2642,8 +2649,9 @@ sub_category
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/18.html">18</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p18">18</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2718,8 +2726,9 @@ sub_category_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/18.html">18</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/19.html">19</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p18">18-19</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2794,8 +2803,9 @@ election_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/3.html">3</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/4.html">4</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3-4</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -2910,8 +2920,9 @@ party_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/10.html">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/11.html">11</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p10">10-11</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3236,8 +3247,9 @@ county_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/13.html">13</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/14.html">14</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/15.html">15</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p13">13-15</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3762,8 +3774,9 @@ district_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/11.html">11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/12.html">12</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/13.html">13</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p11">11-13</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -3907,8 +3920,9 @@ grp_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/4.html">4</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p4">4</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4134,8 +4148,9 @@ period_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/3.html">3</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4170,8 +4185,9 @@ per_grp_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/3.html">3</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4374,8 +4390,9 @@ img_link_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/5.html">5</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p5">5</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -4430,8 +4447,9 @@ img_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/4.html">4</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p4">4</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -5037,8 +5055,9 @@ form_id
         <tr>
         <td colspan=2>
            <small>
-            Sources: Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/4.html">4</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/5.html">5</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/6.html">6</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/7.html">7</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview/pages/8.html">8</a>)
-           </small>
+            Sources: 
+                 Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -5226,8 +5245,9 @@ rpt_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/2.html">2</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p2">2</a>)
+            </small>
         </td>
         </tr>
         </tfoot>
@@ -5372,8 +5392,9 @@ election_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/3.html">3</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd/pages/4.html">4</a>)
-           </small>
+            Sources: 
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3-4</a>)
+            </small>
         </td>
         </tr>
         </tfoot>

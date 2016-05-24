@@ -37,9 +37,9 @@ class Command(CalAccessCommand):
                     field.docs = {}
                     for doc in field.documentcloud_pages:
                         try:
-                            field.docs[doc.title].extend(doc.pages)
+                            field.docs[doc.title].append(doc)
                         except KeyError:
-                            field.docs[doc.title] = doc.pages
+                            field.docs[doc.title] = [doc]
                     m.choice_fields.append(field)
             try:
                 group_list[m().klass_group].append(m)

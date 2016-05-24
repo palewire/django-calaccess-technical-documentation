@@ -94,8 +94,9 @@ Look-up Codes
         <tr>
         <td colspan=2>
            <small>
-            Sources: {% for doc, pages in field.docs.items %}{{ doc }} ({% for page in pages %}<a class="reference external image-reference" href="{{ page.canonical_url }}">{{ page.num }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}){% if not forloop.last %}, {% endif %}{% endfor %}
-           </small>
+            Sources: 
+                {% for doc, objects in field.docs.items %} {{ doc }} ({% for object in objects %}<a class="reference external image-reference" href="{{ object.canonical_url }}">{{ object.formatted_page_nums }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}){% if not forloop.last %}, {% endif %}{% endfor %}
+            </small>
         </td>
         </tr>
         </tfoot>

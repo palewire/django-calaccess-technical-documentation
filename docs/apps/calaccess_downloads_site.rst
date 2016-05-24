@@ -1,7 +1,8 @@
 django-calaccess-downloads-website
 ==================================
 
-**COMING SOON**: A public-facing website were users can download current and archived versions of raw or processed CAL-ACCESS data files.
+An open-source archive of campaign finance and lobbying disclosure data from
+the California Secretary of State's :doc:`CAL-ACCESS </calaccess>` database.
 
 Open-source resources
 ---------------------

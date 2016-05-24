@@ -15,6 +15,8 @@
 
 {{ object.doc.strip|safe }}
 
+{% if object.get_unique_key_list|length > 0 %}The records in {{ object.db_table }} are unique by {% if object.get_unique_key_list|length_is:"1" %}{{ object.get_unique_key_list.0 }}{% else %}{% for field in object.get_unique_key_list %}{% if forloop.last %}and {{ field }}{% elif forloop.revcounter0 == 1 %}{{ field }} {% else %}{{ field }}, {% endif %}{% endfor %}{% endif %}.{% endif %}
+
 **Sample:** `{{ object.get_tsv_name }} <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/{{ object.get_tsv_name }}>`_
 
 {% if object.FILING_FORMS|length > 0 %}

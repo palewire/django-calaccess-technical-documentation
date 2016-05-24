@@ -17,6 +17,8 @@ CVR_REGISTRATION_CD
 
 Cover page of lobbying disclosure forms (601, 602, 603, 604, 606, and 607)
 
+The records in CVR_REGISTRATION_CD are unique by FILING_ID, AMEND_ID, REC_TYPE and FORM_TYPE.
+
 **Sample:** `CVR_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_REGISTRATION_CD.TSV>`_
 
 
@@ -1181,6 +1183,8 @@ CVR2_REGISTRATION_CD
 
 Cover page of lobbying disclosure forms
 
+The records in CVR2_REGISTRATION_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `CVR2_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_REGISTRATION_CD.TSV>`_
 
 
@@ -1508,6 +1512,8 @@ CVR_LOBBY_DISCLOSURE_CD
 *********************
 
 Cover page information for lobbying disclosure forms
+
+The records in CVR_LOBBY_DISCLOSURE_CD are unique by FILING_ID, AMEND_ID, REC_TYPE and FORM_TYPE.
 
 **Sample:** `CVR_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_LOBBY_DISCLOSURE_CD.TSV>`_
 
@@ -2211,6 +2217,8 @@ CVR2_LOBBY_DISCLOSURE_CD
 
 Additional data from lobbyist disclosure forms (615, 625, 635, and 645)
 
+The records in CVR2_LOBBY_DISCLOSURE_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `CVR2_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_LOBBY_DISCLOSURE_CD.TSV>`_
 
 
@@ -2528,6 +2536,8 @@ LOBBY_AMENDMENTS_CD
 *********************
 
 Lobbyist registration amendment information (Form 605 Part I).
+
+The records in LOBBY_AMENDMENTS_CD are unique by FILING_ID, AMEND_ID, REC_TYPE and FORM_TYPE.
 
 **Sample:** `LOBBY_AMENDMENTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBY_AMENDMENTS_CD.TSV>`_
 
@@ -3056,6 +3066,8 @@ F690P2_CD
 
 Amends lobbying disclosure filings (Form 690)
 
+The records in F690P2_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `F690P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F690P2_CD.TSV>`_
 
 
@@ -3321,6 +3333,8 @@ LATT_CD
 *********************
 
 Lobbyist disclosure attachment schedules for payments
+
+The records in LATT_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `LATT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LATT_CD.TSV>`_
 
@@ -3727,6 +3741,8 @@ LEXP_CD
 
 Lobbying activity expenditures schedule information, reported in
 Forms 615 Part 1, 625 Part 3A, 635 Part 3C, and 645 Part 2A.
+
+The records in LEXP_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `LEXP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEXP_CD.TSV>`_
 
@@ -4205,6 +4221,8 @@ LCCM_CD
 Lobbying campaign contributions reported on Forms 615 Part 2,
 625 Part 4B, 635 Part 4B and the 645 Part 3B.
 
+The records in LCCM_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `LCCM_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LCCM_CD.TSV>`_
 
 
@@ -4635,6 +4653,8 @@ LEMP_CD
 
 Lobbyist employers and subcontracted clients (Form 601)
 
+The records in LEMP_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `LEMP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEMP_CD.TSV>`_
 
 
@@ -5001,6 +5021,8 @@ LOBBYING_CHG_LOG_CD
 
 Holds lobbyist log data for web display
 
+The records in LOBBYING_CHG_LOG_CD are unique by FILER_ID and CHANGE_NO.
+
 **Sample:** `LOBBYING_CHG_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYING_CHG_LOG_CD.TSV>`_
 
 
@@ -5329,6 +5351,8 @@ LOBBYIST_CONTRIBUTIONS1_CD
 
 Lobbyist contribution disclosure table.
 
+
+
 **Sample:** `LOBBYIST_CONTRIBUTIONS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS1_CD.TSV>`_
 
 
@@ -5431,6 +5455,8 @@ LOBBYIST_CONTRIBUTIONS2_CD
 Lobbyist contribution disclosure table. Temporary table used to generate
 disclosure table (Lobbyist Contributions 3)
 
+
+
 **Sample:** `LOBBYIST_CONTRIBUTIONS2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS2_CD.TSV>`_
 
 
@@ -5532,6 +5558,8 @@ LOBBYIST_CONTRIBUTIONS3_CD
 
 Lobbyist contribution disclosure table.
 
+
+
 **Sample:** `LOBBYIST_CONTRIBUTIONS3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS3_CD.TSV>`_
 
 
@@ -5632,6 +5660,8 @@ LOBBYIST_EMPLOYER1_CD
 *********************
 
 Information for lobbyist's primary employer
+
+
 
 **Sample:** `LOBBYIST_EMPLOYER1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER1_CD.TSV>`_
 
@@ -5994,6 +6024,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_EMPLOYER2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER2_CD.TSV>`_
 
 
@@ -6354,6 +6386,8 @@ This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
+
+
 
 **Sample:** `LOBBYIST_EMPLOYER3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER3_CD.TSV>`_
 
@@ -6716,6 +6750,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_EMPLOYER_FIRMS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS1_CD.TSV>`_
 
 
@@ -6802,6 +6838,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_EMPLOYER_FIRMS2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS2_CD.TSV>`_
 
 
@@ -6887,6 +6925,8 @@ This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
+
+
 
 **Sample:** `LOBBYIST_EMP_LOBBYIST1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST1_CD.TSV>`_
 
@@ -6983,6 +7023,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_EMP_LOBBYIST2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST2_CD.TSV>`_
 
 
@@ -7077,6 +7119,8 @@ This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
+
+
 
 **Sample:** `LOBBYIST_FIRM1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM1_CD.TSV>`_
 
@@ -7281,6 +7325,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_FIRM2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM2_CD.TSV>`_
 
 
@@ -7483,6 +7529,8 @@ This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
+
+
 
 **Sample:** `LOBBYIST_FIRM3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM3_CD.TSV>`_
 
@@ -7687,6 +7735,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_FIRM_EMPLOYER1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER1_CD.TSV>`_
 
 
@@ -7826,6 +7876,8 @@ This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
+
+
 
 **Sample:** `LOBBYIST_FIRM_EMPLOYER2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER2_CD.TSV>`_
 
@@ -7967,6 +8019,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_FIRM_LOBBYIST1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST1_CD.TSV>`_
 
 
@@ -8062,6 +8116,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_FIRM_LOBBYIST2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST2_CD.TSV>`_
 
 
@@ -8153,6 +8209,8 @@ LOTH_CD
 *********************
 
 Payment to other lobbying firms listed of Form 625 Part 3B
+
+The records in LOTH_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `LOTH_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOTH_CD.TSV>`_
 
@@ -8474,6 +8532,8 @@ LPAY_CD
 
 Payments made or received by lobbying firms, reported on
 Form 625 Part 2 and 635 Part 3B
+
+The records in LPAY_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `LPAY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LPAY_CD.TSV>`_
 
@@ -8918,6 +8978,8 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
+
+
 **Sample:** `LOBBYIST_EMPLOYER_HISTORY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_HISTORY_CD.TSV>`_
 
 
@@ -9278,6 +9340,8 @@ This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
+
+
 
 **Sample:** `LOBBYIST_FIRM_HISTORY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_HISTORY_CD.TSV>`_
 

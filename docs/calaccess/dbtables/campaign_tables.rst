@@ -18,6 +18,8 @@ CVR_SO_CD
 Cover page for a statement of organization creation or termination
 form filed by a slate-mailer organization or recipient committee.
 
+The records in CVR_SO_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `CVR_SO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_SO_CD.TSV>`_
 
 
@@ -796,6 +798,8 @@ CVR2_SO_CD
 Additional names and committee information included on the second page
 of a statement of organization creation form filed
 by a slate-mailer organization or recipient committee.
+
+The records in CVR2_SO_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `CVR2_SO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_SO_CD.TSV>`_
 
@@ -1821,6 +1825,8 @@ CVR_CAMPAIGN_DISCLOSURE_CD
 Cover page information from campaign disclosure forms. This data comes from
 the electronic filing. The data contained herein is "as filed" by the entity
 making the filing.
+
+The records in CVR_CAMPAIGN_DISCLOSURE_CD are unique by filing_id and amend_id.
 
 **Sample:** `CVR_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_CAMPAIGN_DISCLOSURE_CD.TSV>`_
 
@@ -3718,6 +3724,8 @@ CVR2_CAMPAIGN_DISCLOSURE_CD
 Record used to carry additional names (e.g., Assistant Treasurers) for the
 campaign disclosure forms below.
 
+The records in CVR2_CAMPAIGN_DISCLOSURE_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `CVR2_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_CAMPAIGN_DISCLOSURE_CD.TSV>`_
 
 
@@ -4849,6 +4857,8 @@ RCPT_CD
 
 Contribution records from receipts schedules for Slate Mailer Organization
 and Recipient Committee Campaign Statements.
+
+The records in RCPT_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `RCPT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RCPT_CD.TSV>`_
 
@@ -6254,6 +6264,8 @@ CVR3_VERIFICATION_INFO_CD
 
 Cover page verification information from campaign disclosure forms
 
+The records in CVR3_VERIFICATION_INFO_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `CVR3_VERIFICATION_INFO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR3_VERIFICATION_INFO_CD.TSV>`_
 
 
@@ -6717,6 +6729,8 @@ LOAN_CD
 *********************
 
 Loans received and made by recepient committees
+
+The records in LOAN_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `LOAN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOAN_CD.TSV>`_
 
@@ -7479,6 +7493,8 @@ S401_CD
 Form 401 (Slate Mailer Organization) payment and other
 disclosure schedules (F401B, F401B-1, F401C, F401D) information. Does not
 include Form 401, Schedule A (Payments Received).
+
+The records in S401_CD are unique by FILING_ID, AMEND_ID, LINE_ID, REC_TYPE and FORM_TYPE.
 
 **Sample:** `S401_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S401_CD.TSV>`_
 
@@ -8415,6 +8431,8 @@ EXPN_CD
 
 Campaign expenditures from a variety of forms, excluding Late Independent
 Expenditures (from Form 496)
+
+The records in EXPN_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `EXPN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EXPN_CD.TSV>`_
 
@@ -11149,6 +11167,8 @@ F495P2_CD
 Form 495 Supplemental Pre-Election Campaign Statement, attached to
 Recipient Committee Campaign Statements (Forms 450 and 460).
 
+The records in F495P2_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_ITEM and FORM_TYPE.
+
 **Sample:** `F495P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F495P2_CD.TSV>`_
 
 
@@ -11370,6 +11390,8 @@ DEBT_CD
 
 Records of unpaid bills accrued by Recipient Campaigns, as listed on
 Form 460, Schedule F (Accrued Expenses).
+
+The records in DEBT_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `DEBT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/DEBT_CD.TSV>`_
 
@@ -12238,6 +12260,8 @@ S496_CD
 Records of expenditures made by Independent Expenditure Committees in the 90
 days preceding an election.
 
+The records in S496_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `S496_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S496_CD.TSV>`_
 
 
@@ -12486,6 +12510,8 @@ S497_CD
 
 Campaign Committee contributions received or made in the 90 days before an
 election, as reported on Form 497.
+
+The records in S497_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `S497_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S497_CD.TSV>`_
 
@@ -13691,6 +13717,8 @@ F501_502_CD
 
 Candidate Intention Statements (Forms 501 and 502), including a record
 for the original filing and each amendment.
+
+The records in F501_502_CD are unique by FILING_ID and AMEND_ID.
 
 **Sample:** `F501_502_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F501_502_CD.TSV>`_
 
@@ -15981,6 +16009,8 @@ S498_CD
 Payments received by Slate Mailer Organizations within 90 days of an election,
 as reported on Form 498.
 
+The records in S498_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
+
 **Sample:** `S498_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S498_CD.TSV>`_
 
 
@@ -16884,6 +16914,8 @@ CVR_F470_CD
 
 Cover page information for Officeholder and Candidate Short and Supplement Forms
 (Form 470)
+
+The records in CVR_F470_CD are unique by FILING_ID, AMEND_ID, REC_TYPE and FORM_TYPE.
 
 **Sample:** `CVR_F470_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_F470_CD.TSV>`_
 

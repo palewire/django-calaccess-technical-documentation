@@ -17,6 +17,8 @@ ACRONYMS_CD
 
 Contains acronyms and their meaning.
 
+The records in ACRONYMS_CD are unique by ACRONYM.
+
 **Sample:** `ACRONYMS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ACRONYMS_CD.TSV>`_
 
 
@@ -92,6 +94,8 @@ ADDRESS_CD
 This table holds all addresses for the system. This table can be used
 for address-based searches and formes the bases for address information
 desplayed by the AMS.
+
+The records in ADDRESS_CD are unique by ADRID.
 
 **Sample:** `ADDRESS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ADDRESS_CD.TSV>`_
 
@@ -194,6 +198,8 @@ BALLOT_MEASURES_CD
 
 Ballot measure dates and times
 
+The records in BALLOT_MEASURES_CD are unique by FILER_ID.
+
 **Sample:** `BALLOT_MEASURES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/BALLOT_MEASURES_CD.TSV>`_
 
 
@@ -285,6 +291,8 @@ EFS_FILING_LOG_CD
 *********************
 
 Electronic Filing Subsystem Log. The EFS accepts and validates electronic filings.
+
+The records in EFS_FILING_LOG_CD are unique by FILING_DATE and VENDOR.
 
 **Sample:** `EFS_FILING_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EFS_FILING_LOG_CD.TSV>`_
 
@@ -639,6 +647,8 @@ FILERS_CD
 This table is the parent table from which all links and associations
 to a filer are derived.
 
+The records in FILERS_CD are unique by FILER_ID.
+
 **Sample:** `FILERS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERS_CD.TSV>`_
 
 
@@ -685,6 +695,8 @@ FILER_ACRONYMS_CD
 *********************
 
 Links acronyms to filers
+
+The records in FILER_ACRONYMS_CD are unique by ACRONYM and FILER_ID.
 
 **Sample:** `FILER_ACRONYMS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ACRONYMS_CD.TSV>`_
 
@@ -742,6 +754,8 @@ FILER_ADDRESS_CD
 
 Links filers and addresses. This table maintains a history of when
 addresses change.
+
+The records in FILER_ADDRESS_CD are unique by FILER_ID and ADRID.
 
 **Sample:** `FILER_ADDRESS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ADDRESS_CD.TSV>`_
 
@@ -901,6 +915,8 @@ FILER_ETHICS_CLASS_CD
 
 This table stores lobbyist ethics training dates.
 
+The records in FILER_ETHICS_CLASS_CD are unique by FILER_ID, SESSION_ID and ETHICS_DATE.
+
 **Sample:** `FILER_ETHICS_CLASS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ETHICS_CLASS_CD.TSV>`_
 
 
@@ -965,6 +981,8 @@ FILER_INTERESTS_CD
 *********************
 
 Links a filer to their interest codes.
+
+The records in FILER_INTERESTS_CD are unique by FILER_ID, INTEREST_CD, EFFECT_DATE and SESSION_ID.
 
 **Sample:** `FILER_INTERESTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_INTERESTS_CD.TSV>`_
 
@@ -1184,6 +1202,8 @@ FILER_LINKS_CD
 *********************
 
 Links filers to each other and records their relationship type.
+
+The records in FILER_LINKS_CD are unique by FILER_ID_A, FILER_ID_B, ACTIVE_FLG, SESSION_ID and LINK_TYPE.
 
 **Sample:** `FILER_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_LINKS_CD.TSV>`_
 
@@ -1475,6 +1495,8 @@ FILER_STATUS_TYPES_CD
 This is an undocumented model that contains a small number
 of codes and definitions that map to values in FILERNAME_CD.STATUS.
 
+The records in FILER_STATUS_TYPES_CD are unique by STATUS_TYPE.
+
 **Sample:** `FILER_STATUS_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_STATUS_TYPES_CD.TSV>`_
 
 
@@ -1532,6 +1554,8 @@ FILER_TO_FILER_TYPE_CD
 This table links a filer to a set of characteristics that describe the
 filer. This table maintains a history of changes and allows the filer
 to change characteristics over time.
+
+The records in FILER_TO_FILER_TYPE_CD are unique by FILER_ID, FILER_TYPE, SESSION_ID and EFFECT_DT.
 
 **Sample:** `FILER_TO_FILER_TYPE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TO_FILER_TYPE_CD.TSV>`_
 
@@ -3806,6 +3830,8 @@ FILER_TYPES_CD
 
 This lookup table describes filer types.
 
+The records in FILER_TYPES_CD are unique by FILTER_TYPE.
+
 **Sample:** `FILER_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPES_CD.TSV>`_
 
 
@@ -3954,6 +3980,8 @@ This table maps legacy filer identification numbers to the system's filer
 identification numbers. Although 60 percent of the FILER_ID and XREF_ID values
 are equal.
 
+The records in FILER_XREF_CD are unique by FILER_ID and XREF_ID.
+
 **Sample:** `FILER_XREF_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_XREF_CD.TSV>`_
 
 
@@ -4028,6 +4056,8 @@ FILING_PERIOD_CD
 
 An undocumented table that contains metadata for a variety
 of filing periods.
+
+The records in FILING_PERIOD_CD are unique by PERIOD_ID.
 
 **Sample:** `FILING_PERIOD_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILING_PERIOD_CD.TSV>`_
 
@@ -4219,6 +4249,8 @@ This lookup table stores group type information. Most (but not all) of the GRP_I
 GRP_NAME value pairs in this table match the FILER_TYPE/DESCRIPTION value pairs in
 the FILER_TYPE_CD table.
 
+The records in GROUP_TYPES_CD are unique by GRP_ID.
+
 **Sample:** `GROUP_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/GROUP_TYPES_CD.TSV>`_
 
 
@@ -4283,6 +4315,8 @@ IMAGE_LINKS_CD
 *********************
 
 This table links images to filers and accounts.
+
+The records in IMAGE_LINKS_CD are unique by IMG_LINK_ID and IMG_ID.
 
 **Sample:** `IMAGE_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/IMAGE_LINKS_CD.TSV>`_
 
@@ -4479,6 +4513,8 @@ LEGISLATIVE_SESSIONS_CD
 
 Legislative session, begin and end dates look up table.
 
+The records in LEGISLATIVE_SESSIONS_CD are unique by SESSION_ID.
+
 **Sample:** `LEGISLATIVE_SESSIONS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEGISLATIVE_SESSIONS_CD.TSV>`_
 
 
@@ -4543,6 +4579,8 @@ LOOKUP_CODES_CD
 *********************
 
 The description of some lookup codes in the system.
+
+The records in LOOKUP_CODES_CD are unique by CODE_ID and CODE_TYPE.
 
 **Sample:** `LOOKUP_CODES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOOKUP_CODES_CD.TSV>`_
 
@@ -4609,6 +4647,8 @@ NAMES_CD
 
 The name of all entities in the system. Used for searches when
 the name has an identification number.
+
+
 
 **Sample:** `NAMES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/NAMES_CD.TSV>`_
 
@@ -4737,6 +4777,8 @@ RECEIVED_FILINGS_CD
 *********************
 
 This table is undocumented.
+
+
 
 **Sample:** `RECEIVED_FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RECEIVED_FILINGS_CD.TSV>`_
 
@@ -5087,6 +5129,8 @@ REPORTS_CD
 
 This is an undocumented model.
 
+The records in REPORTS_CD are unique by RPT_ID.
+
 **Sample:** `REPORTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/REPORTS_CD.TSV>`_
 
 
@@ -5278,6 +5322,8 @@ FILER_TYPE_PERIODS_CD
 This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "J M needs
 to document. This is in his list of tables designed for future enhancements."
+
+The records in FILER_TYPE_PERIODS_CD are unique by ELECTION_TYPE, FILER_TYPE and PERIOD_ID.
 
 **Sample:** `FILER_TYPE_PERIODS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPE_PERIODS_CD.TSV>`_
 

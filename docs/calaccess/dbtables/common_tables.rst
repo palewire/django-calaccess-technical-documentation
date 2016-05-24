@@ -27,6 +27,8 @@ candidates/officeholders, treasurers/responsible officers, and major donors
 (when they are only an individual's name) use both the first and last name
 fields in conjunction.
 
+The records in FILERNAME_CD are unique by FILER_ID and NAMID.
+
 **Sample:** `FILERNAME_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERNAME_CD.TSV>`_
 
 
@@ -443,6 +445,8 @@ FILER_FILINGS_CD
 Key table that links filers to their paper, key data entry, legacy,
 and electronic filings. This table is used as an index to locate
 filing information.
+
+The records in FILER_FILINGS_CD are unique by FILER_ID, FILING_ID, FORM_ID and FILING_SEQUENCE.
 
 **Sample:** `FILER_FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_FILINGS_CD.TSV>`_
 
@@ -1291,6 +1295,8 @@ FILINGS_CD
 This table is the parent table from which all links and association to
 a filing are derived.
 
+The records in FILINGS_CD are unique by FILING_ID.
+
 **Sample:** `FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILINGS_CD.TSV>`_
 
 
@@ -1422,6 +1428,8 @@ HDR_CD
 
 Electronic filing record header data. Contains information
 identifying vendor and Cal Format version.
+
+The records in HDR_CD are unique by FILING_ID and AMEND_ID.
 
 **Sample:** `HDR_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HDR_CD.TSV>`_
 
@@ -1671,6 +1679,8 @@ HEADER_CD
 *********************
 
 Lookup table used to report Form 460 information in the Agency Management System.
+
+The records in HEADER_CD are unique by LINE_NUMBER, FORM_ID and REC_TYPE.
 
 **Sample:** `HEADER_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HEADER_CD.TSV>`_
 
@@ -1952,6 +1962,8 @@ SMRY_CD
 *********************
 
 Summary totals from filings.
+
+The records in SMRY_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `SMRY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SMRY_CD.TSV>`_
 
@@ -2471,6 +2483,8 @@ CVR_E530_CD
 
 Probably Cover Pages for Electronic Form 530. This table is listed in the record
 layouts, but neither table nor any of its columns are labeled.
+
+The records in CVR_E530_CD are unique by FILING_ID and AMEND_ID.
 
 **Sample:** `CVR_E530_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_E530_CD.TSV>`_
 
@@ -4189,6 +4203,8 @@ SPLT_CD
 Split Transaction Record - Used as a child record for schedules:
 A, B1, B2, C, D, H and/or F450P5 when disclosing Per Election to Date information.
 
+The records in SPLT_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM and PFORM_TYPE.
+
 **Sample:** `SPLT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SPLT_CD.TSV>`_
 
 
@@ -4520,6 +4536,8 @@ TEXT_MEMO_CD
 *********************
 
 Text memos attached to electronic filings
+
+The records in TEXT_MEMO_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
 
 **Sample:** `TEXT_MEMO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/TEXT_MEMO_CD.TSV>`_
 

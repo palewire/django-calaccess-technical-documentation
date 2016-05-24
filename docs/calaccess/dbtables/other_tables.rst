@@ -615,7 +615,7 @@ form_type
         <td colspan=2>
            <small>
             Sources: 
-                 Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
+                 .CAL Format Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
             </small>
         </td>
         </tr>
@@ -629,9 +629,9 @@ form_type
 Source Docs
 ^^^^^^^^^^^
 
-* Overview (`1-2 <https://www.documentcloud.org/documents/2711624-Overview.html#document/p1>`_)
+* .CAL Format Overview (`1-2 <https://www.documentcloud.org/documents/2711624-Overview.html#document/p1>`_)
 
-* CalAccessTablesWeb (`49-50 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p49>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`49-50 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p49>`_)
 
 
 
@@ -900,7 +900,7 @@ add_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `61-62 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p61>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `61-62 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p61>`_)
 
 
 
@@ -1188,7 +1188,7 @@ interest_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `66 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p66>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `66 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p66>`_)
 
 
 
@@ -1479,7 +1479,7 @@ link_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `67 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p67>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `67 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p67>`_)
 
 
 
@@ -3815,7 +3815,7 @@ district_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `69-70 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p69>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `69-70 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p69>`_)
 
 
 
@@ -3963,7 +3963,7 @@ grp_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `71-72 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `71-72 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_)
 
 
 
@@ -4232,7 +4232,7 @@ per_grp_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `74-75 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p74>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `74-75 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p74>`_)
 
 
 
@@ -4498,7 +4498,7 @@ img_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `80 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p80>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `80 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p80>`_)
 
 
 
@@ -5100,7 +5100,7 @@ form_id
         <td colspan=2>
            <small>
             Sources: 
-                 Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
+                 .CAL Format Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
             </small>
         </td>
         </tr>
@@ -5114,7 +5114,7 @@ form_id
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `121 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p121>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `121 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p121>`_)
 
 
 
@@ -5306,7 +5306,7 @@ rpt_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `122 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p122>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `122 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p122>`_)
 
 
 
@@ -5455,7 +5455,7 @@ election_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `71 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `71 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_)
 
 
 

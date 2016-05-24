@@ -42,8 +42,8 @@ Database Info
 
 These docs are all found in the DBInfo directory inside either the CAL-ACCESS documentation and database export ZIP files.
 
-ReadMe ZIP
-~~~~~~~~~~
+ZIP Export ReadMe
+~~~~~~~~~~~~~~~~~
 
 **Updated on 09/27/2010**
 
@@ -94,8 +94,8 @@ Top 10 Frequently asked questions about navigating the CAL-ACCESS database.
       <a href="http://s3.documentcloud.org/documents/2711615/FAQ.txt">CAL-ACCESS: FAQ (Text)</a>
     </noscript>
 
-CalAccessTablesWeb
-~~~~~~~~~~~~~~~~~~
+CAL-ACCESS Tables, Columns and Indexes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Updated on 04/18/2002 (or 2/21/2000?)**
 
@@ -124,8 +124,8 @@ This is a good starting point for researching specific tables and fields. Beware
       <a href="http://s3.documentcloud.org/documents/2711614/CalAccessTablesWeb.txt">CAL-ACCESS: CalAccessTablesWeb (Text)</a>
     </noscript>
 
-MapCalFormat2Fields
-~~~~~~~~~~~~~~~~~~~
+Map from .CAL Format to Database Table and Fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Updated on 04/25/2002**
 
@@ -161,8 +161,8 @@ This file format was "the basis for the design of the CAL-ACCESS system", accord
 
 The following documents can also be found in the CalFormat directory inside either the CAL-ACCESS documentation and database export ZIP files.
 
-Cal Readme
-~~~~~~~~~~
+.CAL Format Readme
+~~~~~~~~~~~~~~~~~~
 
 **Updated on 04/25/2002**
 

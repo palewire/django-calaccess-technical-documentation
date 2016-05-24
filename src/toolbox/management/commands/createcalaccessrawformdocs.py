@@ -7,10 +7,20 @@ from django.template.loader import render_to_string
 from django.core.management.base import BaseCommand
 from calaccess_raw.annotations.filing_forms import all_filing_forms
 
+
 class Command(BaseCommand):
     help = 'Generate documentation for CAL-ACCESS forms'
 
-    def handle(self, *args, **kwargs):
+    def add_arguments(self, parser):
+        parser.add_argument(
+            "--refresh-dc-cache",
+            action="store_true",
+            dest="refresh-dc-data",
+            default=False,
+            help="Request and cache current metadata from DocumentCloud API."
+        )
+
+    def handle(self, *args, **options):
         self.docs_dir = os.path.join(
             settings.REPO_DIR,
             'docs',
@@ -22,6 +32,8 @@ class Command(BaseCommand):
         group_dict = {}
 
         for form in all_filing_forms:
+            if options['refresh-dc-data'] and form.documentcloud:
+                form.documentcloud._cache_metadata()
             try:
                 group_dict[form.group.lower()].append(form)
             except KeyError:

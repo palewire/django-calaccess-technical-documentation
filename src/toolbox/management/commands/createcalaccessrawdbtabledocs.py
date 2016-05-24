@@ -11,7 +11,16 @@ from django.core.management.base import BaseCommand
 class Command(BaseCommand):
     help = 'Generate documentation for raw CAL-ACCESS database tables'
 
-    def handle(self, *args, **kwargs):
+    def add_arguments(self, parser):
+        parser.add_argument(
+            "--refresh-dc-cache",
+            action="store_true",
+            dest="refresh-dc-data",
+            default=False,
+            help="Request and cache current metadata from DocumentCloud API."
+        )
+
+    def handle(self, *args, **options):
         self.docs_dir = os.path.join(
             settings.REPO_DIR,
             'docs',
@@ -29,6 +38,9 @@ class Command(BaseCommand):
                 m().DOCUMENTCLOUD_PAGES,
                 key=lambda x: x.start_page
             ):
+                if options['refresh-dc-data']:
+                    doc._cache_metadata()
+
                 try:
                     m.docs[doc.title].append(doc)
                 except KeyError:
@@ -43,6 +55,8 @@ class Command(BaseCommand):
                         field.documentcloud_pages,
                         key=lambda x: x.start_page
                     ):
+                        if options['refresh-dc-data']:
+                            doc._cache_metadata()
                         try:
                             field.docs[doc.title].append(doc)
                         except KeyError:
@@ -55,6 +69,7 @@ class Command(BaseCommand):
         
         for group, models in group_list.iteritems():
             template_name = '{}_tables.rst'.format(group)
+
             context = {
                 'group_name': group,
                 'model_list': models,

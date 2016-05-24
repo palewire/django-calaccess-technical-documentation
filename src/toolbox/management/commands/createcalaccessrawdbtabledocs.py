@@ -24,7 +24,10 @@ class Command(CalAccessCommand):
         for m in model_list:
             # add doc_title (key) and list of documentcloud objects (value) to each model
             m.docs = {}
-            for doc in m().DOCUMENTCLOUD_PAGES:
+            for doc in sorted(
+                m().DOCUMENTCLOUD_PAGES,
+                key=lambda x: x.start_page
+            ):
                 try:
                     m.docs[doc.title].append(doc)
                 except KeyError:
@@ -35,7 +38,10 @@ class Command(CalAccessCommand):
                 if len(field.choices) > 0:
                     # add doc title, page_url list to each choice field
                     field.docs = {}
-                    for doc in field.documentcloud_pages:
+                    for doc in sorted(
+                        field.documentcloud_pages,
+                        key=lambda x: x.start_page
+                    ):
                         try:
                             field.docs[doc.title].append(doc)
                         except KeyError:

@@ -259,7 +259,7 @@ Here's our one exception: We truncate the time part of any datetime field in the
 ----------------------
 
 
-Why doesn't django-calaccess-raw-data only work with PostgreSQL and MySQL databases?
+Why does django-calaccess-raw-data only work with PostgreSQL and MySQL databases?
 ------------------------------------------------------------------------------------
 
 Because of the answer above. To run our loading routines in a acceptable amount of time, we

@@ -791,7 +791,7 @@ Source Docs
 CVR2_SO_CD
 *********************
 
-Additional names and committees information included on the second page
+Additional names and committee information included on the second page
 of a statement of organization creation form filed
 by a slate-mailer organization or recipient committee.
 
@@ -1617,7 +1617,7 @@ office_cd
         <td colspan=2>
            <small>
             Sources: 
-                 Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201.html#document/p2">2</a>),  Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>)
+                 Cal-Errata-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201.html#document/p2">2</a>),  Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>)
             </small>
         </td>
         </tr>
@@ -3713,7 +3713,7 @@ Source Docs
 CVR2_CAMPAIGN_DISCLOSURE_CD
 *********************
 
-Record used to carry additional names (e.g., Assistant Treasurers for the
+Record used to carry additional names (e.g., Assistant Treasurers) for the
 campaign disclosure forms below.
 
 **Sample:** `CVR2_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_CAMPAIGN_DISCLOSURE_CD.TSV>`_
@@ -4845,8 +4845,8 @@ Source Docs
 RCPT_CD
 *********************
 
-Receipts schedules for Slate Mailer Organization and Recipient Committee
-Campaign Statements (Forms 401 and 460).
+Contribution records from receipts schedules for Slate Mailer Organization
+and Recipient Committee Campaign Statements.
 
 **Sample:** `RCPT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RCPT_CD.TSV>`_
 
@@ -5573,7 +5573,7 @@ entity_cd
         <td colspan=2>
            <small>
             Sources: 
-                 MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71">71</a>),  Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37">37</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p9">9-11</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29">29</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p8">8-9</a>)
+                 MapCalFormat2Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71">71</a>),  Cal-Format-201 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p9">9-11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37">37</a>),  Cal-Format-1-05-02 (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p8">8-9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29">29</a>)
             </small>
         </td>
         </tr>
@@ -6714,7 +6714,7 @@ Source Docs
 LOAN_CD
 *********************
 
-Loans received and made
+Loans received and made by recepient committees
 
 **Sample:** `LOAN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOAN_CD.TSV>`_
 
@@ -7474,7 +7474,7 @@ Source Docs
 S401_CD
 *********************
 
-This table contains Form 401 (Slate Mailer Organization) payment and other
+Form 401 (Slate Mailer Organization) payment and other
 disclosure schedules (F401B, F401B-1, F401C, F401D) information. Does not
 include Form 401, Schedule A (Payments Received).
 
@@ -8411,7 +8411,8 @@ Source Docs
 EXPN_CD
 *********************
 
-Campaign expenditures from a variety of forms
+Campaign expenditures from a variety of forms, excluding Late Independent
+Expenditures (from Form 496)
 
 **Sample:** `EXPN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EXPN_CD.TSV>`_
 
@@ -11124,7 +11125,7 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`53-56 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p53>`_)
+* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `53-56 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p53>`_)
 
 * MapCalFormat2Fields (`45-48 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p45>`_)
 
@@ -11143,7 +11144,7 @@ Source Docs
 F495P2_CD
 *********************
 
-Form 495 Supplemental Pre-Election Campaign Statement (attachment to
+Form 495 Supplemental Pre-Election Campaign Statement, attached to
 Recipient Committee Campaign Statements (Forms 450 and 460).
 
 **Sample:** `F495P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F495P2_CD.TSV>`_
@@ -11365,8 +11366,8 @@ Source Docs
 DEBT_CD
 *********************
 
-Form 460 (Recipient Committee Campaign Statement) Schedule (F) Accrued
-Expenses (Unpaid Bills) records
+Records of unpaid bills accrued by Recipient Campaigns, as listed on
+Form 460, Schedule F (Accrued Expenses).
 
 **Sample:** `DEBT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/DEBT_CD.TSV>`_
 
@@ -12232,7 +12233,8 @@ Source Docs
 S496_CD
 *********************
 
-Form 496 Late Independent Expenditures
+Records of expenditures made by Independent Expenditure Committees in the 90
+days preceding an election.
 
 **Sample:** `S496_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S496_CD.TSV>`_
 
@@ -12461,7 +12463,7 @@ form_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`124-125 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p124>`_)
+* CalAccessTablesWeb (`12 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p12>`_, `124-125 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p124>`_)
 
 * MapCalFormat2Fields (`79 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p79>`_)
 
@@ -12480,7 +12482,8 @@ Source Docs
 S497_CD
 *********************
 
-Form 497: Late Contributions Received/Made
+Campaign Committee contributions received or made in the 90 days before an
+election, as reported on Form 497.
 
 **Sample:** `S497_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S497_CD.TSV>`_
 
@@ -13665,7 +13668,7 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`125-127 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p125>`_)
+* CalAccessTablesWeb (`12 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p12>`_, `125-127 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p125>`_)
 
 * MapCalFormat2Fields (`80-82 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p80>`_)
 
@@ -13684,7 +13687,8 @@ Source Docs
 F501_502_CD
 *********************
 
-Candidate intention statement (Forms 501 and 502)
+Candidate Intention Statements (Forms 501 and 502), including a record
+for the original filing and each amendment.
 
 **Sample:** `F501_502_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F501_502_CD.TSV>`_
 
@@ -15972,7 +15976,8 @@ Source Docs
 S498_CD
 *********************
 
-Form 498: Slate Mailer Late Independent Expenditures Made
+Payments received by Slate Mailer Organizations within 90 days of an election,
+as reported on Form 498.
 
 **Sample:** `S498_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S498_CD.TSV>`_
 
@@ -16856,7 +16861,7 @@ sup_opp_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`127-129 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p127>`_)
+* CalAccessTablesWeb (`12 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p12>`_, `127-129 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p127>`_)
 
 * MapCalFormat2Fields (`83-85 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p83>`_)
 
@@ -16875,7 +16880,7 @@ Source Docs
 CVR_F470_CD
 *********************
 
-Cover page layout for Officeholder and Candidate Short and Supplement Forms
+Cover page information for Officeholder and Candidate Short and Supplement Forms
 (Form 470)
 
 **Sample:** `CVR_F470_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_F470_CD.TSV>`_
@@ -17587,7 +17592,7 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`30-32 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p30>`_)
+* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `30-32 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p30>`_)
 
 * MapCalFormat2Fields (`15-16 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p15>`_)
 

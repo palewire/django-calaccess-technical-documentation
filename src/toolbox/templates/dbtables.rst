@@ -23,14 +23,14 @@ Filing forms
 
 {% for form, sections in object.get_filing_forms_w_sections %}
 {% if sections|length > 1 %}
-* `{{ form.type_and_num|safe }} <filingforms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }})
+* `{{ form.type_and_num|safe }} <../filingforms/{{ form.group|lower }}_forms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }})
 {% for section in sections %}
     * {{ section.title|safe }}
 {% endfor %}
 {% elif sections|length == 1 %}
-* `{{ form.type_and_num|safe }} <filingforms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }}): {{ sections.0.title|safe }}
+* `{{ form.type_and_num|safe }} <../filingforms/{{ form.group|lower }}_forms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }}): {{ sections.0.title|safe }}
 {% else %}
-* `{{ form.type_and_num|safe }} <filingforms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }})
+* `{{ form.type_and_num|safe }} <../filingforms/{{ form.group|lower }}_forms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }})
 {% endif %}
 {% endfor %}
 {% endif %}

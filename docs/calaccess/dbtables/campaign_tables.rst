@@ -26,7 +26,7 @@ Filing forms
 
 
 
-* `Form 400 <filingforms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization))
+* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization))
 
     * Part 1, Slate Mailer Organization Information
 
@@ -37,11 +37,11 @@ Filing forms
 
 
 
-* `Form 402 <filingforms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization)): Cover Page
+* `Form 402 <../filingforms/campaign_forms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization)): Cover Page
 
 
 
-* `Form 410 <filingforms.html#form-410>`_ (Statement of Organization Recipient Committee)
+* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee)
 
     * Part 1, Committee Information
 
@@ -805,11 +805,11 @@ Filing forms
 
 
 
-* `Form 400 <filingforms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization)): Part 3, Individuals Who Authorize Contents Of Slate Mailers
+* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization)): Part 3, Individuals Who Authorize Contents Of Slate Mailers
 
 
 
-* `Form 410 <filingforms.html#form-410>`_ (Statement of Organization Recipient Committee): Part 4, Type of Committee
+* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee): Part 4, Type of Committee
 
 
 
@@ -1830,23 +1830,23 @@ Filing forms
 
 
 
-* `Form 401 <filingforms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Cover Page
+* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Cover Page
 
 
 
-* `Form 425 <filingforms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 1, Committee Information
+* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 1, Committee Information
 
 
 
-* `Form 450 <filingforms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Type of Recipient Committee
+* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Type of Recipient Committee
 
 
 
-* `Form 460 <filingforms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page
+* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page
 
 
 
-* `Form 461 <filingforms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement)
+* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement)
 
     * Part 1, Name and Address of Filer
 
@@ -1855,7 +1855,7 @@ Filing forms
 
 
 
-* `Form 465 <filingforms.html#form-465>`_ (Supplemental Independent Expenditure Report)
+* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report)
 
     * Part 1, Committee/Filer Information
 
@@ -1864,23 +1864,23 @@ Filing forms
 
 
 
-* `Form 496 <filingforms.html#form-496>`_ (Late Independent Expenditure Report): Part 1, List Only One Candidate or Ballot Measure
+* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report): Part 1, List Only One Candidate or Ballot Measure
 
 
 
-* `Form 497 <filingforms.html#form-497>`_ (Late Contribution Report)
+* `Form 497 <../filingforms/campaign_forms.html#form-497>`_ (Late Contribution Report)
 
 
 
-* `Form 498 <filingforms.html#form-498>`_ (Slate Mailer Late Payment Report)
+* `Form 498 <../filingforms/campaign_forms.html#form-498>`_ (Slate Mailer Late Payment Report)
 
 
 
-* `Form 511 <filingforms.html#form-511>`_ (Paid Spokesperson Report)
+* `Form 511 <../filingforms/campaign_forms.html#form-511>`_ (Paid Spokesperson Report)
 
 
 
-* `Form 900 <filingforms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
+* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
 
 
 
@@ -3726,19 +3726,19 @@ Filing forms
 
 
 
-* `Form 425 <filingforms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 1, Committee Information
+* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 1, Committee Information
 
 
 
-* `Form 450 <filingforms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 3, Committee Information
+* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 3, Committee Information
 
 
 
-* `Form 460 <filingforms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page - Part 2
+* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page - Part 2
 
 
 
-* `Form 465 <filingforms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 5, Filing Officers
+* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 5, Filing Officers
 
 
 
@@ -4858,15 +4858,15 @@ Filing forms
 
 
 
-* `Electronic Form 530 <filingforms.html#electronic-form-530>`_ (Electronic Issue Advocacy Report)
+* `Electronic Form 530 <../filingforms/campaign_forms.html#electronic-form-530>`_ (Electronic Issue Advocacy Report)
 
 
 
-* `Form 401 <filingforms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Schedule A, Payments Received
+* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Schedule A, Payments Received
 
 
 
-* `Form 460 <filingforms.html#form-460>`_ (Recipient Committee Campaign Statement)
+* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
 
     * Schedule A, Monetary Contributions Received
 
@@ -4879,11 +4879,11 @@ Filing forms
 
 
 
-* `Form 496 <filingforms.html#form-496>`_ (Late Independent Expenditure Report): Part 3, Contributions > $100 Received
+* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report): Part 3, Contributions > $100 Received
 
 
 
-* `Form 900 <filingforms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
+* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
 
 
 
@@ -6262,47 +6262,47 @@ Filing forms
 
 
 
-* `Form 400 <filingforms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization)): Part 5, Verification
+* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization)): Part 5, Verification
 
 
 
-* `Form 401 <filingforms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Cover Page
+* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Cover Page
 
 
 
-* `Form 402 <filingforms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization)): Verification
+* `Form 402 <../filingforms/campaign_forms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization)): Verification
 
 
 
-* `Form 410 <filingforms.html#form-410>`_ (Statement of Organization Recipient Committee): Part 3, Verification
+* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee): Part 3, Verification
 
 
 
-* `Form 425 <filingforms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 3, Verification
+* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 3, Verification
 
 
 
-* `Form 450 <filingforms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 4, Verification
+* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 4, Verification
 
 
 
-* `Form 460 <filingforms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page
+* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page
 
 
 
-* `Form 461 <filingforms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement): Part 4, Verification
+* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement): Part 4, Verification
 
 
 
-* `Form 465 <filingforms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 6, Verification
+* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 6, Verification
 
 
 
-* `Form 511 <filingforms.html#form-511>`_ (Paid Spokesperson Report)
+* `Form 511 <../filingforms/campaign_forms.html#form-511>`_ (Paid Spokesperson Report)
 
 
 
-* `Form 900 <filingforms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
+* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
 
 
 
@@ -6726,7 +6726,7 @@ Filing forms
 
 
 
-* `Form 460 <filingforms.html#form-460>`_ (Recipient Committee Campaign Statement)
+* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
 
     * Schedule B - Part 1, Loans Received
 
@@ -7488,7 +7488,7 @@ Filing forms
 
 
 
-* `Form 401 <filingforms.html#form-401>`_ (Slate Mailer Organization Campaign Statement)
+* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement)
 
     * Schedule B, Payments Made
 
@@ -8424,11 +8424,11 @@ Filing forms
 
 
 
-* `Form 450 <filingforms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 5, Payments Made
+* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 5, Payments Made
 
 
 
-* `Form 460 <filingforms.html#form-460>`_ (Recipient Committee Campaign Statement)
+* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
 
     * Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees
 
@@ -8439,15 +8439,15 @@ Filing forms
 
 
 
-* `Form 461 <filingforms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement): Part 5, Contributions (Including Loans, Forgiveness of Loans, and LoanGuarantees) and Expenditures Made
+* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement): Part 5, Contributions (Including Loans, Forgiveness of Loans, and LoanGuarantees) and Expenditures Made
 
 
 
-* `Form 465 <filingforms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 3, Independent Expenditures Made
+* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 3, Independent Expenditures Made
 
 
 
-* `Form 900 <filingforms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
+* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
 
 
 
@@ -11157,11 +11157,11 @@ Filing forms
 
 
 
-* `Form 450 <filingforms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form)
+* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form)
 
 
 
-* `Form 460 <filingforms.html#form-460>`_ (Recipient Committee Campaign Statement)
+* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
 
 
 
@@ -11379,7 +11379,7 @@ Filing forms
 
 
 
-* `Form 460 <filingforms.html#form-460>`_ (Recipient Committee Campaign Statement): Schedule F, Accrued Expenses (Unpaid Bills)
+* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement): Schedule F, Accrued Expenses (Unpaid Bills)
 
 
 
@@ -12246,7 +12246,7 @@ Filing forms
 
 
 
-* `Form 496 <filingforms.html#form-496>`_ (Late Independent Expenditure Report)
+* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report)
 
 
 
@@ -12495,7 +12495,7 @@ Filing forms
 
 
 
-* `Form 497 <filingforms.html#form-497>`_ (Late Contribution Report)
+* `Form 497 <../filingforms/campaign_forms.html#form-497>`_ (Late Contribution Report)
 
     * Part 1, Contribution(s) Received
 
@@ -13700,11 +13700,11 @@ Filing forms
 
 
 
-* `Form 501 <filingforms.html#form-501>`_ (Candidate Intention Statement)
+* `Form 501 <../filingforms/campaign_forms.html#form-501>`_ (Candidate Intention Statement)
 
 
 
-* `Form 502 <filingforms.html#form-502>`_ (Campaign Bank Account Statement)
+* `Form 502 <../filingforms/campaign_forms.html#form-502>`_ (Campaign Bank Account Statement)
 
 
 
@@ -15989,7 +15989,7 @@ Filing forms
 
 
 
-* `Form 498 <filingforms.html#form-498>`_ (Slate Mailer Late Payment Report)
+* `Form 498 <../filingforms/campaign_forms.html#form-498>`_ (Slate Mailer Late Payment Report)
 
     * Part A, Late Payments Attributed To
 
@@ -16893,7 +16893,7 @@ Filing forms
 
 
 
-* `Form 470 <filingforms.html#form-470>`_ (Officeholder and Candidate Campaign Statement, Short Form)
+* `Form 470 <../filingforms/campaign_forms.html#form-470>`_ (Officeholder and Candidate Campaign Statement, Short Form)
 
 
 

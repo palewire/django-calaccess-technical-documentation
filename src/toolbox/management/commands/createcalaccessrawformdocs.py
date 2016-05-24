@@ -3,10 +3,10 @@
 import os
 from django.conf import settings
 from django.template.loader import render_to_string
-from calaccess_raw.management.commands import CalAccessCommand
+from django.core.management.base import BaseCommand
 from calaccess_raw.annotations.filing_forms import all_filing_forms
 
-class Command(CalAccessCommand):
+class Command(BaseCommand):
     help = 'Generate documentation for CAL-ACCESS forms'
 
     def handle(self, *args, **kwargs):

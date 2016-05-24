@@ -4,10 +4,10 @@ import os
 from django.conf import settings
 from calaccess_raw import get_model_list
 from django.template.loader import render_to_string
-from calaccess_raw.management.commands import CalAccessCommand
+from django.core.management.base import BaseCommand
 
 
-class Command(CalAccessCommand):
+class Command(BaseCommand):
     help = 'Generate documentation for raw CAL-ACCESS database tables'
 
     def handle(self, *args, **kwargs):

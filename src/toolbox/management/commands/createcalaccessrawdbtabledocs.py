@@ -15,7 +15,7 @@ class Command(BaseCommand):
         parser.add_argument(
             "--refresh-dc-cache",
             action="store_true",
-            dest="refresh-dc-data",
+            dest="refresh-dc-cache",
             default=False,
             help="Request and cache current metadata from DocumentCloud API."
         )
@@ -27,6 +27,10 @@ class Command(BaseCommand):
             'calaccess',
             'dbtables',
         )
+        self.refresh_dc_cache = options['refresh-dc-cache']
+        if self.refresh_dc_cache:
+            self.docs_cached = []
+
         os.path.exists(self.docs_dir) or os.makedirs(self.docs_dir)
 
         model_list = get_model_list()
@@ -38,9 +42,9 @@ class Command(BaseCommand):
                 m().DOCUMENTCLOUD_PAGES,
                 key=lambda x: x.start_page
             ):
-                if options['refresh-dc-data']:
+                if self.refresh_dc_cache and doc.id not in self.docs_cached:
                     doc._cache_metadata()
-
+                    self.docs_cached.append(doc.id)
                 try:
                     m.docs[doc.title].append(doc)
                 except KeyError:
@@ -55,8 +59,9 @@ class Command(BaseCommand):
                         field.documentcloud_pages,
                         key=lambda x: x.start_page
                     ):
-                        if options['refresh-dc-data']:
+                        if self.refresh_dc_cache and doc.id not in self.docs_cached:
                             doc._cache_metadata()
+                            self.docs_cached.append(doc.id)
                         try:
                             field.docs[doc.title].append(doc)
                         except KeyError:
@@ -66,7 +71,7 @@ class Command(BaseCommand):
                 group_list[m().klass_group].append(m)
             except KeyError:
                 group_list[m().klass_group] = [m]
-        
+
         for group, models in group_list.iteritems():
             template_name = '{}_tables.rst'.format(group)
 

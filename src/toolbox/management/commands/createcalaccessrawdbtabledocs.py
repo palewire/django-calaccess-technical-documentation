@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
+from re import sub
 from django.conf import settings
 from calaccess_raw import get_model_list
 from django.template.loader import render_to_string
@@ -53,13 +54,15 @@ class Command(BaseCommand):
                 group_list[m().klass_group] = [m]
         
         for group, models in group_list.iteritems():
+            template_name = '{}_tables.rst'.format(group)
             context = {
                 'group_name': group,
                 'model_list': models,
                 'model_count': len(models),
+                'template_name': template_name,
+                'command_name': sub(r'(.+\.)*', '', self.__class__.__module__),
             }
 
-            template_name = '{}_tables.rst'.format(group)
             rendered = render_to_string(template_name, context)
             target_file = os.path.join(
                 self.docs_dir,

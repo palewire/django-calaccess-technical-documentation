@@ -1,0 +1,2 @@
+.. This document was generated programmatically via the {{ command_name }} command. Any edits you make to this file will be overwritten the next time that command is called. Changes to this doc should instead be made either in the {{ template_name }} file in ./src/toolbox/templates/ or in the commands internal logic.
+{% block content %}{% endblock %}

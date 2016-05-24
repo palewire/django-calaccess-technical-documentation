@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
+from re import sub
 from django.conf import settings
 from django.template.loader import render_to_string
 from django.core.management.base import BaseCommand
@@ -27,13 +28,15 @@ class Command(BaseCommand):
                 group_dict[form.group.lower()] = [form]
 
         for group, forms in group_dict.iteritems():
+            template_name = '{}_forms.rst'.format(group.replace(' ', '_'))
             context = {
                 'group_name': group,
                 'form_list': forms,
                 'form_count': len(forms),
+                'template_name': template_name,
+                'command_name': sub(r'(.+\.)*', '', self.__class__.__module__),
             }
 
-            template_name = '{}_forms.rst'.format(group.replace(' ', '_'))
             rendered = render_to_string(template_name, context)
             target_file = os.path.join(
                 self.docs_dir,

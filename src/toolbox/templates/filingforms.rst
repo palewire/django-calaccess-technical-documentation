@@ -1,7 +1,9 @@
+{% extends "base.rst" %}
+{% block content %}
 {{ group_name|capfirst }} forms
 ===============================
 
-{% block content %}{% endblock %}
+{% block intro %}{% endblock %}
 
 {% for form in form_list %}
 
@@ -60,3 +62,4 @@ Data collected via {{ form.type_and_num|safe }} filings are written to the follo
 {% endif %}
 
 {% endfor %}
+{% endblock %}

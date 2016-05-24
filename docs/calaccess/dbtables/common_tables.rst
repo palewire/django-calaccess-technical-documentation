@@ -1,3 +1,5 @@
+.. This document was generated programmatically via the createcalaccessrawdbtabledocs command. Any edits you make to this file will be overwritten the next time that command is called. Changes to this doc should instead be made either in the common_tables.rst file in ./src/toolbox/templates/ or in the commands internal logic.
+
 ================================
 Common tables
 ================================

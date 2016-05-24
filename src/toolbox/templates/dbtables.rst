@@ -1,8 +1,10 @@
+{% extends "base.rst" %}
+{% block content %}
 ================================
 {{ group_name|capfirst }} tables
 ================================
 
-{% block content %}{% endblock %}
+{% block intro %}{% endblock %}
 {% for object in model_list %}
 
 ------------
@@ -115,3 +117,4 @@ Source Docs
 
 {% endif %}
 {% endfor %}
+{% endblock %}

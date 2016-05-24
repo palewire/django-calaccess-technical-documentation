@@ -1,4 +1,4 @@
 {% extends "filingforms.rst" %}
-{% block content %} 
+{% block intro %} 
 Some of the data in CAL-ACCESS was collected on these {{ form_count }} filing forms that have since been deprecated by the California Fair Political Practices Commission (FPPC). No information about these forms is available on either the `FPPC's website <http://www.fppc.ca.gov/forms.html>`_ or the California Secretary of State's website (in the `Campaign Forms <http://www.sos.ca.gov/campaign-lobbying/campaign-disclosure-and-requirements/campaign-forms-and-instructions/>`_ or `Lobbying Forms <http://www.sos.ca.gov/campaign-lobbying/lobbying-disclosure-requirements/lobbying-forms-instructions/>`_ sections). What we know about these forms, including which forms supposedly replaced them, was provided staff members at the FPPC.
 {% endblock %}

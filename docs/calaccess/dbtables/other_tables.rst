@@ -618,9 +618,9 @@ form_type
 Source Docs
 ^^^^^^^^^^^
 
-* Overview (`1 <https://www.documentcloud.org/documents/2711624-Overview.html#document/p1>`_-`2 <https://www.documentcloud.org/documents/2711624-Overview.html#document/p2>`_)
+* Overview (`1-2 <https://www.documentcloud.org/documents/2711624-Overview.html#document/p1>`_)
 
-* CalAccessTablesWeb (`49 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p49>`_-`50 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p50>`_)
+* CalAccessTablesWeb (`49-50 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p49>`_)
 
 
 
@@ -882,7 +882,7 @@ add_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `61 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p61>`_-`62 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p62>`_)
+* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `61-62 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p61>`_)
 
 
 
@@ -3776,7 +3776,7 @@ district_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `69 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p69>`_-`70 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p70>`_)
+* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `69-70 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p69>`_)
 
 
 
@@ -3921,7 +3921,7 @@ grp_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `71 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_-`72 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p72>`_)
+* CalAccessTablesWeb (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `71-72 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_)
 
 
 
@@ -4184,7 +4184,7 @@ per_grp_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `74 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p74>`_-`75 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p75>`_)
+* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `74-75 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p74>`_)
 
 
 

@@ -108,7 +108,7 @@ Look-up Codes
 Source Docs
 ^^^^^^^^^^^
 {% for doc, objects in object.docs.items %}
-* {{ doc }} ({% for object in objects %}`{{ object.start_page }} <{{ object.canonical_url }}>`_{% if object.end_page %}-`{{ object.end_page }} <{{ object.metadata.canonical_url }}#document/p{{ object.end_page }}>`_{% endif %}{% if not forloop.last %}, {% endif %}{% endfor %})
+* {{ doc }} ({% for object in objects %}`{{ object.start_page }}{% if object.end_page %}-{{ object.end_page }}{% endif %} <{{ object.canonical_url }}>`_{% if not forloop.last %}, {% endif %}{% endfor %})
 {% endfor %}
 {% endif %}
 

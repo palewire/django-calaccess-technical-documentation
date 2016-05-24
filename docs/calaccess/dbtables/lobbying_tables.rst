@@ -1151,13 +1151,13 @@ st_leg_yn
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `35 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p35>`_-`39 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p39>`_)
+* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `35-39 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p35>`_)
 
-* MapCalFormat2Fields (`22 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p22>`_-`27 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p27>`_)
+* MapCalFormat2Fields (`22-27 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p22>`_)
 
-* Cal-Format-201 (`82 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82>`_-`86 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p86>`_)
+* Cal-Format-201 (`82-86 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82>`_)
 
-* Cal-Format-1-05-02 (`68 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p68>`_-`71 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p71>`_)
+* Cal-Format-1-05-02 (`68-71 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p68>`_)
 
 
 
@@ -1476,13 +1476,13 @@ entity_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`44 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p44>`_-`45 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p45>`_)
+* CalAccessTablesWeb (`44-45 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p44>`_)
 
-* MapCalFormat2Fields (`37 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p37>`_-`37 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p37>`_)
+* MapCalFormat2Fields (`37-37 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p37>`_)
 
-* Cal-Format-201 (`87 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87>`_-`88 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88>`_)
+* Cal-Format-201 (`87-88 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87>`_)
 
-* Cal-Format-1-05-02 (`72 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72>`_-`73 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p73>`_)
+* Cal-Format-1-05-02 (`72-73 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72>`_)
 
 
 
@@ -2175,13 +2175,13 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`32 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p32>`_-`35 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p35>`_)
+* CalAccessTablesWeb (`32-35 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p32>`_)
 
-* MapCalFormat2Fields (`17 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p17>`_-`21 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p21>`_)
+* MapCalFormat2Fields (`17-21 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p17>`_)
 
-* Cal-Format-201 (`66 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p66>`_-`70 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p70>`_)
+* Cal-Format-201 (`66-70 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p66>`_)
 
-* Cal-Format-1-05-02 (`53 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53>`_-`56 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p56>`_)
+* Cal-Format-1-05-02 (`53-56 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53>`_)
 
 
 
@@ -2490,7 +2490,7 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `43 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p43>`_-`44 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p44>`_)
+* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `43-44 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p43>`_)
 
 * MapCalFormat2Fields (`36 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p36>`_)
 
@@ -3015,11 +3015,11 @@ form_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `90 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p90>`_-`91 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p91>`_)
+* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `90-91 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p90>`_)
 
-* MapCalFormat2Fields (`64 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p64>`_-`66 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p66>`_)
+* MapCalFormat2Fields (`64-66 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p64>`_)
 
-* Cal-Format-201 (`88 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88>`_-`89 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p89>`_)
+* Cal-Format-201 (`88-89 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88>`_)
 
 * Cal-Format-1-05-02 (`74 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74>`_)
 
@@ -3279,9 +3279,9 @@ form_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `59 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p59>`_-`60 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p60>`_)
+* CalAccessTablesWeb (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `59-60 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p59>`_)
 
-* MapCalFormat2Fields (`50 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p50>`_-`51 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p51>`_)
+* MapCalFormat2Fields (`50-51 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p50>`_)
 
 * Cal-Format-201 (`72 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p72>`_)
 
@@ -3681,11 +3681,11 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`81 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p81>`_-`82 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p82>`_)
+* CalAccessTablesWeb (`81-82 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p81>`_)
 
-* MapCalFormat2Fields (`52 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p52>`_-`53 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p53>`_)
+* MapCalFormat2Fields (`52-53 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p52>`_)
 
-* Cal-Format-201 (`79 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p79>`_-`80 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p80>`_)
+* Cal-Format-201 (`79-80 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p79>`_)
 
 * Cal-Format-1-05-02 (`65 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p65>`_)
 
@@ -4154,11 +4154,11 @@ recsubtype
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `86 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p86>`_-`87 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p87>`_)
+* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `86-87 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p86>`_)
 
-* MapCalFormat2Fields (`58 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p58>`_-`59 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p59>`_)
+* MapCalFormat2Fields (`58-59 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p58>`_)
 
-* Cal-Format-201 (`74 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74>`_-`75 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p75>`_)
+* Cal-Format-201 (`74-75 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74>`_)
 
 * Cal-Format-1-05-02 (`61 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61>`_)
 
@@ -4582,11 +4582,11 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `83 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p83>`_-`84 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p84>`_)
+* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `83-84 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p83>`_)
 
-* MapCalFormat2Fields (`54 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p54>`_-`55 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p55>`_)
+* MapCalFormat2Fields (`54-55 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p54>`_)
 
-* Cal-Format-201 (`78 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78>`_-`79 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p79>`_)
+* Cal-Format-201 (`78-79 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78>`_)
 
 * Cal-Format-1-05-02 (`64 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p64>`_)
 
@@ -4946,11 +4946,11 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `85 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p85>`_-`86 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p86>`_)
+* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `85-86 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p85>`_)
 
-* MapCalFormat2Fields (`56 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p56>`_-`57 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p57>`_)
+* MapCalFormat2Fields (`56-57 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p56>`_)
 
-* Cal-Format-201 (`90 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90>`_-`91 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p91>`_)
+* Cal-Format-201 (`90-91 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90>`_)
 
 * Cal-Format-1-05-02 (`75 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75>`_)
 
@@ -5280,7 +5280,7 @@ entity_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `91 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p91>`_-`92 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p92>`_)
+* CalAccessTablesWeb (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `91-92 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p91>`_)
 
 
 
@@ -5941,7 +5941,7 @@ interest_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `97 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p97>`_-`98 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p98>`_)
+* CalAccessTablesWeb (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `97-98 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p97>`_)
 
 
 
@@ -6301,7 +6301,7 @@ interest_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `98 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p98>`_-`99 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p99>`_)
+* CalAccessTablesWeb (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `98-99 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p98>`_)
 
 
 
@@ -8414,11 +8414,11 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`106 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p106>`_-`107 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p107>`_)
+* CalAccessTablesWeb (`106-107 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p106>`_)
 
-* MapCalFormat2Fields (`67 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p67>`_-`68 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p68>`_)
+* MapCalFormat2Fields (`67-68 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p67>`_)
 
-* Cal-Format-201 (`77 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77>`_-`78 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78>`_)
+* Cal-Format-201 (`77-78 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77>`_)
 
 * Cal-Format-1-05-02 (`63 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63>`_)
 
@@ -8852,11 +8852,11 @@ rec_type
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`107 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p107>`_-`109 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p109>`_)
+* CalAccessTablesWeb (`107-109 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p107>`_)
 
-* MapCalFormat2Fields (`69 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p69>`_-`70 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p70>`_)
+* MapCalFormat2Fields (`69-70 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p69>`_)
 
-* Cal-Format-201 (`76 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76>`_-`77 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77>`_)
+* Cal-Format-201 (`76-77 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76>`_)
 
 * Cal-Format-1-05-02 (`62 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p62>`_)
 
@@ -9218,7 +9218,7 @@ interest_cd
 Source Docs
 ^^^^^^^^^^^
 
-* CalAccessTablesWeb (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `96 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p96>`_-`97 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p97>`_)
+* CalAccessTablesWeb (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `96-97 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p96>`_)
 
 
 

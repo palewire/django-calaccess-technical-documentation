@@ -18,7 +18,7 @@ Changelog
 
 * Completed documentation of all 80 raw data models and 1,467 fields
 
-  * Defined hundreds of choices for 80 look-up fields.
+  * Defined hundreds of choices for 182 look-up fields.
   * Published expanded Django project documentation. Added re-directs from old app-specific documentation.
   * Integrated references to official documents and filing forms into data models. PDFs on DocumentCloud.
 

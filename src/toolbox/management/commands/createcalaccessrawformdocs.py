@@ -15,7 +15,7 @@ class Command(BaseCommand):
         parser.add_argument(
             "--refresh-dc-cache",
             action="store_true",
-            dest="refresh-dc-data",
+            dest="refresh-dc-cache",
             default=False,
             help="Request and cache current metadata from DocumentCloud API."
         )

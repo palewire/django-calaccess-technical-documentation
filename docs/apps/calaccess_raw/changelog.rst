@@ -25,7 +25,7 @@ Changelog
 * Expanded unit testing of data model documentation
 
   * Wider scope of choice field testing.
-  * Verify that each model has a UNIQUE_KEY attribute set.
+  * Verify that each model has a ``UNIQUE_KEY`` attribute set.
   * Verify that each model has a document reference.
   * Verify that each choice field has a document reference.
   * Verify that each model with a form_type or form_id field (with a few exceptions) is linked to filing forms.

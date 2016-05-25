@@ -92,8 +92,8 @@ Fields
     </div>
 
 {% if object.choice_fields|length > 0 %}
-Look-up Codes
-=============
+Lookup Codes
+============
 {% for field in object.choice_fields %}
 
 ``{{ field.name }}``

@@ -18,15 +18,17 @@ CVR_SO_CD
 Cover page for a statement of organization creation or termination
 form filed by a slate-mailer organization or recipient committee.
 
-**Sample:** `CVR_SO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_SO_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_SO_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -860,15 +862,17 @@ Additional names and committee information included on the second page
 of a statement of organization creation form filed
 by a slate-mailer organization or recipient committee.
 
-**Sample:** `CVR2_SO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_SO_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_SO_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -1938,15 +1942,17 @@ Cover page information from campaign disclosure forms. This data comes from
 the electronic filing. The data contained herein is "as filed" by the entity
 making the filing.
 
-**Sample:** `CVR_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_CAMPAIGN_DISCLOSURE_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_CAMPAIGN_DISCLOSURE_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -3935,15 +3941,17 @@ CVR2_CAMPAIGN_DISCLOSURE_CD
 Record used to carry additional names (e.g., Assistant Treasurers) for the
 campaign disclosure forms below.
 
-**Sample:** `CVR2_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_CAMPAIGN_DISCLOSURE_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_CAMPAIGN_DISCLOSURE_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -5136,15 +5144,17 @@ RCPT_CD
 Contribution records from receipts schedules for Slate Mailer Organization
 and Recipient Committee Campaign Statements.
 
-**Sample:** `RCPT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RCPT_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RCPT_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -6612,15 +6622,17 @@ CVR3_VERIFICATION_INFO_CD
 
 Cover page verification information from campaign disclosure forms
 
-**Sample:** `CVR3_VERIFICATION_INFO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR3_VERIFICATION_INFO_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR3_VERIFICATION_INFO_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -7193,15 +7205,17 @@ LOAN_CD
 
 Loans received and made by recepient committees
 
-**Sample:** `LOAN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOAN_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOAN_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -8009,15 +8023,17 @@ Form 401 (Slate Mailer Organization) payment and other
 disclosure schedules (F401B, F401B-1, F401C, F401D) information. Does not
 include Form 401, Schedule A (Payments Received).
 
-**Sample:** `S401_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S401_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S401_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -8993,15 +9009,17 @@ EXPN_CD
 Campaign expenditures from a variety of forms, excluding Late Independent
 Expenditures (from Form 496)
 
-**Sample:** `EXPN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EXPN_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EXPN_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -11800,15 +11818,17 @@ F495P2_CD
 Form 495 Supplemental Pre-Election Campaign Statement, attached to
 Recipient Committee Campaign Statements (Forms 450 and 460).
 
-**Sample:** `F495P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F495P2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F495P2_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -12067,15 +12087,17 @@ DEBT_CD
 Records of unpaid bills accrued by Recipient Campaigns, as listed on
 Form 460, Schedule F (Accrued Expenses).
 
-**Sample:** `DEBT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/DEBT_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/DEBT_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -12979,15 +13001,17 @@ S496_CD
 Records of expenditures made by Independent Expenditure Committees in the 90
 days preceding an election.
 
-**Sample:** `S496_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S496_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S496_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -13269,15 +13293,17 @@ S497_CD
 Campaign Committee contributions received or made in the 90 days before an
 election, as reported on Form 497.
 
-**Sample:** `S497_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S497_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S497_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -14518,15 +14544,17 @@ F501_502_CD
 Candidate Intention Statements (Forms 501 and 502), including a record
 for the original filing and each amendment.
 
-**Sample:** `F501_502_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F501_502_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F501_502_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -16846,15 +16874,17 @@ S498_CD
 Payments received by Slate Mailer Organizations within 90 days of an election,
 as reported on Form 498.
 
-**Sample:** `S498_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S498_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S498_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -17794,15 +17824,17 @@ CVR_F470_CD
 Cover page information for Officeholder and Candidate Short and Supplement Forms
 (Form 470)
 
-**Sample:** `CVR_F470_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_F470_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_F470_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 

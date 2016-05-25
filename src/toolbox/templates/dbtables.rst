@@ -15,11 +15,13 @@
 
 {{ object.doc.strip|safe }}
 
-**Sample:** `{{ object.get_tsv_name }} <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/{{ object.get_tsv_name }}>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/{{ object.get_tsv_name }}?footer=no&slice=0:10"></script>
 
 {% if object.FILING_FORMS|length > 0 %}
 Forms

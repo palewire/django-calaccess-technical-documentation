@@ -27,11 +27,13 @@ candidates/officeholders, treasurers/responsible officers, and major donors
 (when they are only an individual's name) use both the first and last name
 fields in conjunction.
 
-**Sample:** `FILERNAME_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERNAME_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERNAME_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -468,15 +470,17 @@ Key table that links filers to their paper, key data entry, legacy,
 and electronic filings. This table is used as an index to locate
 filing information.
 
-**Sample:** `FILER_FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_FILINGS_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_FILINGS_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -1518,11 +1522,13 @@ FILINGS_CD
 This table is the parent table from which all links and association to
 a filing are derived.
 
-**Sample:** `FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILINGS_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILINGS_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -1672,11 +1678,13 @@ HDR_CD
 Electronic filing record header data. Contains information
 identifying vendor and Cal Format version.
 
-**Sample:** `HDR_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HDR_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HDR_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -1945,11 +1953,13 @@ HEADER_CD
 
 Lookup table used to report Form 460 information in the Agency Management System.
 
-**Sample:** `HEADER_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HEADER_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HEADER_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -2252,15 +2262,17 @@ SMRY_CD
 
 Summary totals from filings.
 
-**Sample:** `SMRY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SMRY_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SMRY_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -2899,15 +2911,17 @@ CVR_E530_CD
 Probably Cover Pages for Electronic Form 530. This table is listed in the record
 layouts, but neither table nor any of its columns are labeled.
 
-**Sample:** `CVR_E530_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_E530_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_E530_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -4651,15 +4665,17 @@ SPLT_CD
 Split Transaction Record - Used as a child record for schedules:
 A, B1, B2, C, D, H and/or F450P5 when disclosing Per Election to Date information.
 
-**Sample:** `SPLT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SPLT_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SPLT_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -5041,15 +5057,17 @@ TEXT_MEMO_CD
 
 Text memos attached to electronic filings
 
-**Sample:** `TEXT_MEMO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/TEXT_MEMO_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/TEXT_MEMO_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 

@@ -17,15 +17,17 @@ CVR_REGISTRATION_CD
 
 Cover page of lobbying disclosure forms (601, 602, 603, 604, 606, and 607)
 
-**Sample:** `CVR_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_REGISTRATION_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_REGISTRATION_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -1240,15 +1242,17 @@ CVR2_REGISTRATION_CD
 
 Cover page of lobbying disclosure forms
 
-**Sample:** `CVR2_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_REGISTRATION_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_REGISTRATION_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -1617,15 +1621,17 @@ CVR_LOBBY_DISCLOSURE_CD
 
 Cover page information for lobbying disclosure forms
 
-**Sample:** `CVR_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_LOBBY_DISCLOSURE_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_LOBBY_DISCLOSURE_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -2370,15 +2376,17 @@ CVR2_LOBBY_DISCLOSURE_CD
 
 Additional data from lobbyist disclosure forms (615, 625, 635, and 645)
 
-**Sample:** `CVR2_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_LOBBY_DISCLOSURE_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_LOBBY_DISCLOSURE_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -2733,15 +2741,17 @@ LOBBY_AMENDMENTS_CD
 
 Lobbyist registration amendment information (Form 605 Part I).
 
-**Sample:** `LOBBY_AMENDMENTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBY_AMENDMENTS_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBY_AMENDMENTS_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -3303,15 +3313,17 @@ F690P2_CD
 
 Amends lobbying disclosure filings (Form 690)
 
-**Sample:** `F690P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F690P2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F690P2_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -3622,15 +3634,17 @@ LATT_CD
 
 Lobbyist disclosure attachment schedules for payments
 
-**Sample:** `LATT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LATT_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LATT_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -4077,15 +4091,17 @@ LEXP_CD
 Lobbying activity expenditures schedule information, reported in
 Forms 615 Part 1, 625 Part 3A, 635 Part 3C, and 645 Part 2A.
 
-**Sample:** `LEXP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEXP_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEXP_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -4623,15 +4639,17 @@ LCCM_CD
 Lobbying campaign contributions reported on Forms 615 Part 2,
 625 Part 4B, 635 Part 4B and the 645 Part 3B.
 
-**Sample:** `LCCM_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LCCM_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LCCM_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -5122,15 +5140,17 @@ LEMP_CD
 
 Lobbyist employers and subcontracted clients (Form 601)
 
-**Sample:** `LEMP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEMP_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEMP_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -5532,11 +5552,13 @@ LOBBYING_CHG_LOG_CD
 
 Holds lobbyist log data for web display
 
-**Sample:** `LOBBYING_CHG_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYING_CHG_LOG_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYING_CHG_LOG_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -5884,11 +5906,13 @@ LOBBYIST_CONTRIBUTIONS1_CD
 
 Lobbyist contribution disclosure table.
 
-**Sample:** `LOBBYIST_CONTRIBUTIONS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS1_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS1_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -5992,11 +6016,13 @@ LOBBYIST_CONTRIBUTIONS2_CD
 Lobbyist contribution disclosure table. Temporary table used to generate
 disclosure table (Lobbyist Contributions 3)
 
-**Sample:** `LOBBYIST_CONTRIBUTIONS2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS2_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -6099,11 +6125,13 @@ LOBBYIST_CONTRIBUTIONS3_CD
 
 Lobbyist contribution disclosure table.
 
-**Sample:** `LOBBYIST_CONTRIBUTIONS3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS3_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS3_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -6206,11 +6234,13 @@ LOBBYIST_EMPLOYER1_CD
 
 Information for lobbyist's primary employer
 
-**Sample:** `LOBBYIST_EMPLOYER1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER1_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER1_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -6573,11 +6603,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_EMPLOYER2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER2_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -6940,11 +6972,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_EMPLOYER3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER3_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER3_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -7307,11 +7341,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_EMPLOYER_FIRMS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS1_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS1_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -7399,11 +7435,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_EMPLOYER_FIRMS2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS2_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -7491,11 +7529,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_EMP_LOBBYIST1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST1_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST1_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -7592,11 +7632,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_EMP_LOBBYIST2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST2_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -7693,11 +7735,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_FIRM1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM1_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM1_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -7902,11 +7946,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_FIRM2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM2_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -8111,11 +8157,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_FIRM3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM3_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM3_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -8320,11 +8368,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_FIRM_EMPLOYER1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER1_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER1_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -8466,11 +8516,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_FIRM_EMPLOYER2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER2_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -8612,11 +8664,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_FIRM_LOBBYIST1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST1_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST1_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -8713,11 +8767,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_FIRM_LOBBYIST2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST2_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST2_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -8811,15 +8867,17 @@ LOTH_CD
 
 Payment to other lobbying firms listed of Form 625 Part 3B
 
-**Sample:** `LOTH_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOTH_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOTH_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -9177,15 +9235,17 @@ LPAY_CD
 Payments made or received by lobbying firms, reported on
 Form 625 Part 2 and 635 Part 3B
 
-**Sample:** `LPAY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LPAY_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LPAY_CD.TSV?footer=no&slice=0:10"></script>
 
 
-Filing forms
-============
+Forms
+=====
 
 .. raw:: html
 
@@ -9673,11 +9733,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_EMPLOYER_HISTORY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_HISTORY_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_HISTORY_CD.TSV?footer=no&slice=0:10"></script>
 
 
 
@@ -10040,11 +10102,13 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-**Sample:** `LOBBYIST_FIRM_HISTORY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_HISTORY_CD.TSV>`_
+
+Sample
+======
 
 .. raw:: html
 
-    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_HISTORY_CD.TSV?footer=no&slice=0:10"></script>
 
 
 

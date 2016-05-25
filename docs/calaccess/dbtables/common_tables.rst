@@ -29,6 +29,10 @@ fields in conjunction.
 
 **Sample:** `FILERNAME_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERNAME_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -228,8 +232,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``filer_type``
@@ -465,6 +469,10 @@ and electronic filings. This table is used as an index to locate
 filing information.
 
 **Sample:** `FILER_FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_FILINGS_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -1008,8 +1016,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``form_id``
@@ -1512,6 +1520,10 @@ a filing are derived.
 
 **Sample:** `FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILINGS_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -1574,8 +1586,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``filing_type``
@@ -1661,6 +1673,10 @@ Electronic filing record header data. Contains information
 identifying vendor and Cal Format version.
 
 **Sample:** `HDR_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HDR_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -1789,8 +1805,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``ef_type``
@@ -1930,6 +1946,10 @@ HEADER_CD
 Lookup table used to report Form 460 information in the Agency Management System.
 
 **Sample:** `HEADER_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HEADER_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -2087,8 +2107,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``form_id``
@@ -2233,6 +2253,10 @@ SMRY_CD
 Summary totals from filings.
 
 **Sample:** `SMRY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SMRY_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -2571,8 +2595,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -2876,6 +2900,10 @@ Probably Cover Pages for Electronic Form 530. This table is listed in the record
 layouts, but neither table nor any of its columns are labeled.
 
 **Sample:** `CVR_E530_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_E530_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -3231,8 +3259,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -4625,6 +4653,10 @@ A, B1, B2, C, D, H and/or F450P5 when disclosing Per Election to Date informatio
 
 **Sample:** `SPLT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SPLT_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -4803,8 +4835,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``elec_code``
@@ -5010,6 +5042,10 @@ TEXT_MEMO_CD
 Text memos attached to electronic filings
 
 **Sample:** `TEXT_MEMO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/TEXT_MEMO_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -5338,8 +5374,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``

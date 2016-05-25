@@ -19,6 +19,10 @@ Contains acronyms and their meaning.
 
 **Sample:** `ACRONYMS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ACRONYMS_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -112,6 +116,10 @@ for address-based searches and formes the bases for address information
 desplayed by the AMS.
 
 **Sample:** `ADDRESS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ADDRESS_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -232,6 +240,10 @@ Ballot measure dates and times
 
 **Sample:** `BALLOT_MEASURES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/BALLOT_MEASURES_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -341,6 +353,10 @@ EFS_FILING_LOG_CD
 Electronic Filing Subsystem Log. The EFS accepts and validates electronic filings.
 
 **Sample:** `EFS_FILING_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EFS_FILING_LOG_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -630,8 +646,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``form_type``
@@ -810,6 +826,10 @@ to a filer are derived.
 
 **Sample:** `FILERS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERS_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -874,6 +894,10 @@ FILER_ACRONYMS_CD
 Links acronyms to filers
 
 **Sample:** `FILER_ACRONYMS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ACRONYMS_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -951,6 +975,10 @@ Links filers and addresses. This table maintains a history of when
 addresses change.
 
 **Sample:** `FILER_ADDRESS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ADDRESS_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -1043,8 +1071,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``add_type``
@@ -1129,6 +1157,10 @@ FILER_ETHICS_CLASS_CD
 This table stores lobbyist ethics training dates.
 
 **Sample:** `FILER_ETHICS_CLASS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ETHICS_CLASS_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -1217,6 +1249,10 @@ Links a filer to their interest codes.
 
 **Sample:** `FILER_INTERESTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_INTERESTS_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -1303,8 +1339,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``interest_cd``
@@ -1460,6 +1496,10 @@ Links filers to each other and records their relationship type.
 
 **Sample:** `FILER_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_LINKS_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -1593,8 +1633,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``link_type``
@@ -1776,6 +1816,10 @@ of codes and definitions that map to values in FILERNAME_CD.STATUS.
 
 **Sample:** `FILER_STATUS_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_STATUS_TYPES_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -1851,6 +1895,10 @@ filer. This table maintains a history of changes and allows the filer
 to change characteristics over time.
 
 **Sample:** `FILER_TO_FILER_TYPE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TO_FILER_TYPE_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -2046,8 +2094,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``race``
@@ -4149,6 +4197,10 @@ This lookup table describes filer types.
 
 **Sample:** `FILER_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPES_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -4236,8 +4288,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``grp_type``
@@ -4314,6 +4366,10 @@ identification numbers. Although 60 percent of the FILER_ID and XREF_ID values
 are equal.
 
 **Sample:** `FILER_XREF_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_XREF_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -4409,6 +4465,10 @@ An undocumented table that contains metadata for a variety
 of filing periods.
 
 **Sample:** `FILING_PERIOD_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILING_PERIOD_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -4517,8 +4577,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``period_type``
@@ -4618,6 +4678,10 @@ the FILER_TYPE_CD table.
 
 **Sample:** `GROUP_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/GROUP_TYPES_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -4700,6 +4764,10 @@ IMAGE_LINKS_CD
 This table links images to filers and accounts.
 
 **Sample:** `IMAGE_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/IMAGE_LINKS_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -4792,8 +4860,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``img_link_type``
@@ -4916,6 +4984,10 @@ Legislative session, begin and end dates look up table.
 
 **Sample:** `LEGISLATIVE_SESSIONS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEGISLATIVE_SESSIONS_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -4998,6 +5070,10 @@ LOOKUP_CODES_CD
 The description of some lookup codes in the system.
 
 **Sample:** `LOOKUP_CODES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOOKUP_CODES_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -5084,6 +5160,10 @@ The name of all entities in the system. Used for searches when
 the name has an identification number.
 
 **Sample:** `NAMES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/NAMES_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 
@@ -5214,6 +5294,10 @@ RECEIVED_FILINGS_CD
 This table is undocumented.
 
 **Sample:** `RECEIVED_FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RECEIVED_FILINGS_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -5494,8 +5578,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``form_id``
@@ -5661,6 +5745,10 @@ This is an undocumented model.
 
 **Sample:** `REPORTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/REPORTS_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -5777,8 +5865,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rpt_type``
@@ -5871,6 +5959,10 @@ to document. This is in his list of tables designed for future enhancements."
 
 **Sample:** `FILER_TYPE_PERIODS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPE_PERIODS_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 
 
@@ -5946,8 +6038,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``election_type``

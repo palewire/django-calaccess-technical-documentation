@@ -20,6 +20,10 @@ form filed by a slate-mailer organization or recipient committee.
 
 **Sample:** `CVR_SO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_SO_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -622,8 +626,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``actvty_lvl``
@@ -857,6 +861,10 @@ of a statement of organization creation form filed
 by a slate-mailer organization or recipient committee.
 
 **Sample:** `CVR2_SO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_SO_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -1243,8 +1251,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -1931,6 +1939,10 @@ the electronic filing. The data contained herein is "as filed" by the entity
 making the filing.
 
 **Sample:** `CVR_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_CAMPAIGN_DISCLOSURE_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -2888,8 +2900,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``cmtte_type``
@@ -3925,6 +3937,10 @@ campaign disclosure forms below.
 
 **Sample:** `CVR2_CAMPAIGN_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_CAMPAIGN_DISCLOSURE_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -4379,8 +4395,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``entity_cd``
@@ -5122,6 +5138,10 @@ and Recipient Committee Campaign Statements.
 
 **Sample:** `RCPT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RCPT_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -5817,8 +5837,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``entity_cd``
@@ -6594,6 +6614,10 @@ Cover page verification information from campaign disclosure forms
 
 **Sample:** `CVR3_VERIFICATION_INFO_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR3_VERIFICATION_INFO_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -6899,8 +6923,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -7170,6 +7194,10 @@ LOAN_CD
 Loans received and made by recepient committees
 
 **Sample:** `LOAN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOAN_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -7712,8 +7740,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``entity_cd``
@@ -7982,6 +8010,10 @@ disclosure schedules (F401B, F401B-1, F401C, F401D) information. Does not
 include Form 401, Schedule A (Payments Received).
 
 **Sample:** `S401_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S401_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -8404,8 +8436,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -8962,6 +8994,10 @@ Campaign expenditures from a variety of forms, excluding Late Independent
 Expenditures (from Form 496)
 
 **Sample:** `EXPN_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EXPN_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -9568,8 +9604,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``entity_cd``
@@ -11766,6 +11802,10 @@ Recipient Committee Campaign Statements (Forms 450 and 460).
 
 **Sample:** `F495P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F495P2_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -11918,8 +11958,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -12028,6 +12068,10 @@ Records of unpaid bills accrued by Recipient Campaigns, as listed on
 Form 460, Schedule F (Accrued Expenses).
 
 **Sample:** `DEBT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/DEBT_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -12402,8 +12446,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``entity_cd``
@@ -12937,6 +12981,10 @@ days preceding an election.
 
 **Sample:** `S496_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S496_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -13117,8 +13165,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -13222,6 +13270,10 @@ Campaign Committee contributions received or made in the 90 days before an
 election, as reported on Form 497.
 
 **Sample:** `S497_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S497_CD.TSV>`_
+
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
 
 
 Filing forms
@@ -13672,8 +13724,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -14468,6 +14520,10 @@ for the original filing and each amendment.
 
 **Sample:** `F501_502_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F501_502_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -15028,8 +15084,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -16792,6 +16848,10 @@ as reported on Form 498.
 
 **Sample:** `S498_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S498_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -17205,8 +17265,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``rec_type``
@@ -17736,6 +17796,10 @@ Cover page information for Officeholder and Candidate Short and Supplement Forms
 
 **Sample:** `CVR_F470_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_F470_CD.TSV>`_
 
+.. raw:: html
+
+    <iframe src="http://raw.githubusercontent.com/california-civic-data-coalition/django-calaccess-raw-data/master/example/test-data/tsv/CVR_SO_CD.TSV"></iframe>
+
 
 Filing forms
 ============
@@ -18058,8 +18122,8 @@ Fields
     </div>
 
 
-Look-up Codes
-=============
+Lookup Codes
+============
 
 
 ``entity_cd``

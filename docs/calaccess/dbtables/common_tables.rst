@@ -470,175 +470,350 @@ filing information.
 Filing forms
 ============
 
-
-
-* `Electronic Form 530 <../filingforms/campaign_forms.html#electronic-form-530>`_ (Electronic Issue Advocacy Report)
-
-
-
-* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization))
-
-
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement)
-
-
-
-* `Form 402 <../filingforms/campaign_forms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization))
-
-
-
-* `Form 405 <../filingforms/campaign_forms.html#form-405>`_ (Amendment to Campaign Disclosure Statement)
-
-
-
-* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee)
-
-
-
-* `Form 415 <../filingforms/deprecated_forms.html#form-415>`_ (Title Unknown)
-
-
-
-* `Form 416 <../filingforms/deprecated_forms.html#form-416>`_ (Title Unknown)
-
-
-
-* `Form 419 <../filingforms/deprecated_forms.html#form-419>`_ (Ballot Measure Committee Campaign Statement-Long Form)
-
-
-
-* `Form 420 <../filingforms/deprecated_forms.html#form-420>`_ (Recipient Committee Campaign Statement-Long Form)
-
-
-
-* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity)
-
-
-
-* `Form 430 <../filingforms/deprecated_forms.html#form-430>`_ (Title Unknown)
-
-
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form)
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-
-
-* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement)
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report)
-
-
-
-* `Form 470 <../filingforms/campaign_forms.html#form-470>`_ (Officeholder and Candidate Campaign Statement, Short Form)
-
-
-
-* `Form 490 <../filingforms/deprecated_forms.html#form-490>`_ (Officeholder/Candidate Campaign Statement-Long Form)
-
-
-
-* `Form 495 <../filingforms/campaign_forms.html#form-495>`_ (Supplemental Pre-Election Campaign Statement)
-
-
-
-* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report)
-
-
-
-* `Form 497 <../filingforms/campaign_forms.html#form-497>`_ (Late Contribution Report)
-
-
-
-* `Form 498 <../filingforms/campaign_forms.html#form-498>`_ (Slate Mailer Late Payment Report)
-
-
-
-* `Form 501 <../filingforms/campaign_forms.html#form-501>`_ (Candidate Intention Statement)
-
-
-
-* `Form 502 <../filingforms/campaign_forms.html#form-502>`_ (Campaign Bank Account Statement)
-
-
-
-* `Form 511 <../filingforms/campaign_forms.html#form-511>`_ (Paid Spokesperson Report)
-
-
-
-* `Form 601 <../filingforms/lobbyist_forms.html#form-601>`_ (Lobbying Firm Registration Statement)
-
-
-
-* `Form 602 <../filingforms/lobbyist_forms.html#form-602>`_ (Lobbying Firm Activity Authorization)
-
-
-
-* `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
-
-
-
-* `Form 604 <../filingforms/lobbyist_forms.html#form-604>`_ (Lobbyist Certification Statement)
-
-
-
-* `Form 605 <../filingforms/lobbyist_forms.html#form-605>`_ (Amendment to Registration, Lobbying Firm, Lobbyist Employer, Lobbying Coalition)
-
-
-
-* `Form 606 <../filingforms/lobbyist_forms.html#form-606>`_ (Notice of Termination)
-
-
-
-* `Form 607 <../filingforms/lobbyist_forms.html#form-607>`_ (Notice of Withdrawal)
-
-
-
-* `Form 615 <../filingforms/lobbyist_forms.html#form-615>`_ (Lobbyist Report)
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm)
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More)
-
-
-
-* `Form 690 <../filingforms/lobbyist_forms.html#form-690>`_ (Amendment to Lobbying Disclosure Report)
-
-
-
-* `Form 700 <../filingforms/financial disclosure_forms.html#form-700>`_ (Statement of Economic Interest)
-
-
-
-* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
-
-
-
-* `Schedule 630 <../filingforms/lobbyist_forms.html#schedule-630>`_ (Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) )
-
-
-
-* `Schedule 635C <../filingforms/lobbyist_forms.html#schedule-635c>`_ (Payments Received by Lobbying Coalitions)
-
-
-
-* `Schedule 640 <../filingforms/lobbyist_forms.html#schedule-640>`_ (Governmental Agencies Reporting (Attachment to Form 635 or Form 645))
-
-
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#electronic-form-530">Electronic Form 530</a>:
+                Electronic Issue Advocacy Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-400">Form 400</a>:
+                Statement of Organization (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-402">Form 402</a>:
+                Statement of Termination (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-405">Form 405</a>:
+                Amendment to Campaign Disclosure Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-410">Form 410</a>:
+                Statement of Organization Recipient Committee
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/deprecated_forms.html#form-415">Form 415</a>:
+                Title Unknown
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/deprecated_forms.html#form-416">Form 416</a>:
+                Title Unknown
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/deprecated_forms.html#form-419">Form 419</a>:
+                Ballot Measure Committee Campaign Statement-Long Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/deprecated_forms.html#form-420">Form 420</a>:
+                Recipient Committee Campaign Statement-Long Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-425">Form 425</a>:
+                Semi-Annual Statement of no Activity
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/deprecated_forms.html#form-430">Form 430</a>:
+                Title Unknown
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-470">Form 470</a>:
+                Officeholder and Candidate Campaign Statement, Short Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/deprecated_forms.html#form-490">Form 490</a>:
+                Officeholder/Candidate Campaign Statement-Long Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-495">Form 495</a>:
+                Supplemental Pre-Election Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-497">Form 497</a>:
+                Late Contribution Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
+                Slate Mailer Late Payment Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-501">Form 501</a>:
+                Candidate Intention Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-502">Form 502</a>:
+                Campaign Bank Account Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-511">Form 511</a>:
+                Paid Spokesperson Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-602">Form 602</a>:
+                Lobbying Firm Activity Authorization
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-604">Form 604</a>:
+                Lobbyist Certification Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-605">Form 605</a>:
+                Amendment to Registration, Lobbying Firm, Lobbyist Employer, Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-606">Form 606</a>:
+                Notice of Termination
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-607">Form 607</a>:
+                Notice of Withdrawal
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-690">Form 690</a>:
+                Amendment to Lobbying Disclosure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/financial disclosure_forms.html#form-700">Form 700</a>:
+                Statement of Economic Interest
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-900">Form 900</a>:
+                Public employee's retirement board, candidate campaign statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-630">Schedule 630</a>:
+                Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) 
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-635c">Schedule 635C</a>:
+                Payments Received by Lobbying Coalitions
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-640">Schedule 640</a>:
+                Governmental Agencies Reporting (Attachment to Form 635 or Form 645)
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -2063,108 +2238,206 @@ Summary totals from filings.
 Filing forms
 ============
 
-
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement)
-
-    * Schedule A, Payments Received
-
-    * Schedule B, Payments Made
-
-    * Schedule B-1, Payments Made by Agent or Independent Contractor
-
-
-
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form)
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-    * Schedule A, Monetary Contributions Received
-
-    * Schedule B - Part 1, Loans Received
-
-    * Schedule B - Part 2, Loan Guarantors
-
-    * Schedule B - Part 3, Outstanding Bal
-
-    * Schedule C, Non-Monetary Contributions Received
-
-    * Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees
-
-    * Schedule E, Payments Made
-
-    * Schedule F, Accrued Expenses (Unpaid Bills)
-
-    * Schedule G, Payments Made by an Agent or Independent Contractor (on Behalf of This Committee)
-
-    * Schedule H, Loans Made to Others
-
-    * Schedule H - Part 1, Loans Made
-
-    * Schedule H- Part 2, Repayments Rcvd
-
-    * Schedule H - Part 3, Outstanding Loans
-
-    * Schedule I, miscellanous increases to cash
-
-
-
-
-* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement)
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report)
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm)
-
-    * Part 2, Payments Received in Connection with Lobbying Activity
-
-    * Part 3 (Payments Made In Connection With Lobbying Activities), Section A: Activity Expenses
-
-    * Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made
-
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
-
-    * Part 3 (Payments Made in Connection with Lobbying Activities), Section A: Payments To In-house Employee Lobbyists
-
-    * Part 3 (Payments Made in Connection with Lobbying Activities), Section B: Payments To Lobbying Firms
-
-    * Part 3 (Payments Made in Connection with Lobbying Activities), Section C: Activity Expenses
-
-    * Part 3 (Payments Made in Connection with Lobbying Activities), Section D: Other Payments to Influence Legislative or Administrative Action
-
-    * Part 3 (Payments Made in Connection with Lobbying Activities), Section E: Payments in Connection with Administrative Testimony in Ratemaking Proceedings Before The California Public Utilities Commission
-
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More)
-
-    * Part 2 (Payments Made this Period), Section A: Activity Expenses
-
-    * Part 2 (Payments Made this Period), Section B: Other Payments to Influence Legislative or Administrative Action
-
-    * Part 2 (Payments Made this Period), Section C: Payments in Connection with Administrative Testimony in Ratemaking Proceedings Before the California Public Utilities Commission
-
-
-
-
-* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
-
-
-
-* `Schedule 640 <../filingforms/lobbyist_forms.html#schedule-640>`_ (Governmental Agencies Reporting (Attachment to Form 635 or Form 645))
-
-
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A, Payments Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B, Payments Made</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B-1, Payments Made by Agent or Independent Contractor</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A, Monetary Contributions Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 1, Loans Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 2, Loan Guarantors</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 3, Outstanding Bal</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule C, Non-Monetary Contributions Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule E, Payments Made</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule F, Accrued Expenses (Unpaid Bills)</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule G, Payments Made by an Agent or Independent Contractor (on Behalf of This Committee)</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H, Loans Made to Others</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H - Part 1, Loans Made</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H- Part 2, Repayments Rcvd</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H - Part 3, Outstanding Loans</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule I, miscellanous increases to cash</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2, Payments Received in Connection with Lobbying Activity</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made In Connection With Lobbying Activities), Section A: Activity Expenses</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made in Connection with Lobbying Activities), Section A: Payments To In-house Employee Lobbyists</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made in Connection with Lobbying Activities), Section B: Payments To Lobbying Firms</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made in Connection with Lobbying Activities), Section C: Activity Expenses</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made in Connection with Lobbying Activities), Section D: Other Payments to Influence Legislative or Administrative Action</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made in Connection with Lobbying Activities), Section E: Payments in Connection with Administrative Testimony in Ratemaking Proceedings Before The California Public Utilities Commission</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2 (Payments Made this Period), Section A: Activity Expenses</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2 (Payments Made this Period), Section B: Other Payments to Influence Legislative or Administrative Action</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2 (Payments Made this Period), Section C: Payments in Connection with Administrative Testimony in Ratemaking Proceedings Before the California Public Utilities Commission</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-900">Form 900</a>:
+                Public employee's retirement board, candidate campaign statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-640">Schedule 640</a>:
+                Governmental Agencies Reporting (Attachment to Form 635 or Form 645)
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -2608,11 +2881,22 @@ layouts, but neither table nor any of its columns are labeled.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Electronic Form 530 <../filingforms/campaign_forms.html#electronic-form-530>`_ (Electronic Issue Advocacy Report)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#electronic-form-530">Electronic Form 530</a>:
+                Electronic Issue Advocacy Report
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -4345,28 +4629,58 @@ A, B1, B2, C, D, H and/or F450P5 when disclosing Per Election to Date informatio
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 5, Payments Made
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-    * Schedule A, Monetary Contributions Received
-
-    * Schedule B - Part 1, Loans Received
-
-    * Schedule B - Part 2, Loan Guarantors
-
-    * Schedule C, Non-Monetary Contributions Received
-
-    * Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees
-
-    * Schedule H, Loans Made to Others
-
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 5, Payments Made</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A, Monetary Contributions Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 1, Loans Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 2, Loan Guarantors</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule C, Non-Monetary Contributions Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H, Loans Made to Others</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -4701,107 +5015,214 @@ Text memos attached to electronic filings
 Filing forms
 ============
 
-
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement)
-
-
-
-* `Form 405 <../filingforms/campaign_forms.html#form-405>`_ (Amendment to Campaign Disclosure Statement)
-
-
-
-* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee)
-
-
-
-* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity)
-
-
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form)
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-
-
-* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement)
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report)
-
-
-
-* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report)
-
-
-
-* `Form 497 <../filingforms/campaign_forms.html#form-497>`_ (Late Contribution Report)
-
-
-
-* `Form 498 <../filingforms/campaign_forms.html#form-498>`_ (Slate Mailer Late Payment Report)
-
-
-
-* `Form 601 <../filingforms/lobbyist_forms.html#form-601>`_ (Lobbying Firm Registration Statement)
-
-
-
-* `Form 602 <../filingforms/lobbyist_forms.html#form-602>`_ (Lobbying Firm Activity Authorization)
-
-
-
-* `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
-
-
-
-* `Form 604 <../filingforms/lobbyist_forms.html#form-604>`_ (Lobbyist Certification Statement)
-
-
-
-* `Form 605 <../filingforms/lobbyist_forms.html#form-605>`_ (Amendment to Registration, Lobbying Firm, Lobbyist Employer, Lobbying Coalition)
-
-
-
-* `Form 606 <../filingforms/lobbyist_forms.html#form-606>`_ (Notice of Termination)
-
-
-
-* `Form 607 <../filingforms/lobbyist_forms.html#form-607>`_ (Notice of Withdrawal)
-
-
-
-* `Form 615 <../filingforms/lobbyist_forms.html#form-615>`_ (Lobbyist Report)
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm)
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More)
-
-
-
-* `Schedule 630 <../filingforms/lobbyist_forms.html#schedule-630>`_ (Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) )
-
-
-
-* `Schedule 635C <../filingforms/lobbyist_forms.html#schedule-635c>`_ (Payments Received by Lobbying Coalitions)
-
-
-
-* `Schedule 640 <../filingforms/lobbyist_forms.html#schedule-640>`_ (Governmental Agencies Reporting (Attachment to Form 635 or Form 645))
-
-
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-405">Form 405</a>:
+                Amendment to Campaign Disclosure Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-410">Form 410</a>:
+                Statement of Organization Recipient Committee
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-425">Form 425</a>:
+                Semi-Annual Statement of no Activity
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-497">Form 497</a>:
+                Late Contribution Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
+                Slate Mailer Late Payment Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-602">Form 602</a>:
+                Lobbying Firm Activity Authorization
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-604">Form 604</a>:
+                Lobbyist Certification Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-605">Form 605</a>:
+                Amendment to Registration, Lobbying Firm, Lobbyist Employer, Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-606">Form 606</a>:
+                Notice of Termination
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-607">Form 607</a>:
+                Notice of Withdrawal
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-630">Schedule 630</a>:
+                Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) 
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-635c">Schedule 635C</a>:
+                Payments Received by Lobbying Coalitions
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-640">Schedule 640</a>:
+                Governmental Agencies Reporting (Attachment to Form 635 or Form 645)
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 

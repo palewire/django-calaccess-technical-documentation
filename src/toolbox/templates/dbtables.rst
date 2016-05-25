@@ -21,18 +21,26 @@
 Filing forms
 ============
 
-{% for form, sections in object.get_filing_forms_w_sections %}
-{% if sections|length > 1 %}
-* `{{ form.type_and_num|safe }} <../filingforms/{{ form.group|lower }}_forms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }})
-{% for section in sections %}
-    * {{ section.title|safe }}
-{% endfor %}
-{% elif sections|length == 1 %}
-* `{{ form.type_and_num|safe }} <../filingforms/{{ form.group|lower }}_forms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }}): {{ sections.0.title|safe }}
-{% else %}
-* `{{ form.type_and_num|safe }} <../filingforms/{{ form.group|lower }}_forms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }})
-{% endif %}
-{% endfor %}
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        {% for form, sections in object.get_filing_forms_w_sections %}
+        <tr>
+            <td>
+                <a href="../filingforms/{{ form.group|lower }}_forms.html#{{ form.type_and_num|slugify }}">{{ form.type_and_num|safe }}</a>:
+                {{ form.title|safe }}
+            </td>
+        </tr>
+        {% for section in sections %}
+        <tr>
+            <td>- {{ section.title|safe }}</td>
+        </tr>
+        {% endfor %}
+        {% endfor %}
+    </tbody>
+    </table>
 {% endif %}
 
 {% if object.get_unique_key_list|length > 0 %}

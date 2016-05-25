@@ -24,33 +24,66 @@ form filed by a slate-mailer organization or recipient committee.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization))
-
-    * Part 1, Slate Mailer Organization Information
-
-    * Part 2, Treasurer And Other Principal Officers
-
-    * Part 4, Is This Organization A "Committee" Pursuant To Government Code Section 82013?
-
-
-
-
-* `Form 402 <../filingforms/campaign_forms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization)): Cover Page
-
-
-
-* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee)
-
-    * Part 1, Committee Information
-
-    * Part 2, Treasurer and Other Principal Officers
-
-    * Part 4, Type of Committee
-
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-400">Form 400</a>:
+                Statement of Organization (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, Slate Mailer Organization Information</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2, Treasurer And Other Principal Officers</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 4, Is This Organization A "Committee" Pursuant To Government Code Section 82013?</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-402">Form 402</a>:
+                Statement of Termination (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Cover Page</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-410">Form 410</a>:
+                Statement of Organization Recipient Committee
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, Committee Information</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2, Treasurer and Other Principal Officers</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 4, Type of Committee</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -829,15 +862,38 @@ by a slate-mailer organization or recipient committee.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization)): Part 3, Individuals Who Authorize Contents Of Slate Mailers
-
-
-
-* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee): Part 4, Type of Committee
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-400">Form 400</a>:
+                Statement of Organization (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3, Individuals Who Authorize Contents Of Slate Mailers</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-410">Form 410</a>:
+                Statement of Organization Recipient Committee
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 4, Type of Committee</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -1880,61 +1936,138 @@ making the filing.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Cover Page
-
-
-
-* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 1, Committee Information
-
-
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Type of Recipient Committee
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page
-
-
-
-* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement)
-
-    * Part 1, Name and Address of Filer
-
-    * Part 2, Nature and Interests of Filer
-
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report)
-
-    * Part 1, Committee/Filer Information
-
-    * Part 2, Name of Candidate or Measure Supported or Opposed
-
-
-
-
-* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report): Part 1, List Only One Candidate or Ballot Measure
-
-
-
-* `Form 497 <../filingforms/campaign_forms.html#form-497>`_ (Late Contribution Report)
-
-
-
-* `Form 498 <../filingforms/campaign_forms.html#form-498>`_ (Slate Mailer Late Payment Report)
-
-
-
-* `Form 511 <../filingforms/campaign_forms.html#form-511>`_ (Paid Spokesperson Report)
-
-
-
-* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Cover Page</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-425">Form 425</a>:
+                Semi-Annual Statement of no Activity
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, Committee Information</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Type of Recipient Committee</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Cover Page</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, Name and Address of Filer</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2, Nature and Interests of Filer</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, Committee/Filer Information</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2, Name of Candidate or Measure Supported or Opposed</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, List Only One Candidate or Ballot Measure</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-497">Form 497</a>:
+                Late Contribution Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
+                Slate Mailer Late Payment Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-511">Form 511</a>:
+                Paid Spokesperson Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-900">Form 900</a>:
+                Public employee's retirement board, candidate campaign statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -3796,23 +3929,62 @@ campaign disclosure forms below.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 1, Committee Information
-
-
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 3, Committee Information
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page - Part 2
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 5, Filing Officers
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-425">Form 425</a>:
+                Semi-Annual Statement of no Activity
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, Committee Information</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3, Committee Information</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Cover Page - Part 2</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 5, Filing Officers</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -4954,36 +5126,78 @@ and Recipient Committee Campaign Statements.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Electronic Form 530 <../filingforms/campaign_forms.html#electronic-form-530>`_ (Electronic Issue Advocacy Report)
-
-
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Schedule A, Payments Received
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-    * Schedule A, Monetary Contributions Received
-
-    * Schedule A-1, Contributions Transferred to Special Election Commitee
-
-    * Schedule C, Non-Monetary Contributions Received
-
-    * Schedule I, miscellanous increases to cash
-
-
-
-
-* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report): Part 3, Contributions > $100 Received
-
-
-
-* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#electronic-form-530">Electronic Form 530</a>:
+                Electronic Issue Advocacy Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A, Payments Received</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A, Monetary Contributions Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A-1, Contributions Transferred to Special Election Commitee</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule C, Non-Monetary Contributions Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule I, miscellanous increases to cash</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3, Contributions > $100 Received</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-900">Form 900</a>:
+                Public employee's retirement board, candidate campaign statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -6384,51 +6598,138 @@ Cover page verification information from campaign disclosure forms
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization)): Part 5, Verification
-
-
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement): Cover Page
-
-
-
-* `Form 402 <../filingforms/campaign_forms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization)): Verification
-
-
-
-* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee): Part 3, Verification
-
-
-
-* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity): Part 3, Verification
-
-
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 4, Verification
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement): Cover Page
-
-
-
-* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement): Part 4, Verification
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 6, Verification
-
-
-
-* `Form 511 <../filingforms/campaign_forms.html#form-511>`_ (Paid Spokesperson Report)
-
-
-
-* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-400">Form 400</a>:
+                Statement of Organization (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 5, Verification</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Cover Page</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-402">Form 402</a>:
+                Statement of Termination (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Verification</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-410">Form 410</a>:
+                Statement of Organization Recipient Committee
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3, Verification</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-425">Form 425</a>:
+                Semi-Annual Statement of no Activity
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3, Verification</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 4, Verification</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Cover Page</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 4, Verification</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 6, Verification</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-511">Form 511</a>:
+                Paid Spokesperson Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-900">Form 900</a>:
+                Public employee's retirement board, candidate campaign statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -6874,26 +7175,50 @@ Loans received and made by recepient committees
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-    * Schedule B - Part 1, Loans Received
-
-    * Schedule B - Part 2, Loan Guarantors
-
-    * Schedule B - Part 3, Outstanding Bal
-
-    * Schedule H, Loans Made to Others
-
-    * Schedule H - Part 1, Loans Made
-
-    * Schedule H- Part 2, Repayments Rcvd
-
-    * Schedule H - Part 3, Outstanding Loans
-
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 1, Loans Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 2, Loan Guarantors</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 3, Outstanding Bal</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H, Loans Made to Others</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H - Part 1, Loans Made</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H- Part 2, Repayments Rcvd</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H - Part 3, Outstanding Loans</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -7662,20 +7987,38 @@ include Form 401, Schedule A (Payments Received).
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement)
-
-    * Schedule B, Payments Made
-
-    * Schedule B-1, Payments Made by Agent or Independent Contractor
-
-    * Schedule C, Persons Receiving $1,000 or More
-
-    * Schedule D, Candidates and Measures Not Listed on Schedule A
-
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B, Payments Made</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B-1, Payments Made by Agent or Independent Contractor</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule C, Persons Receiving $1,000 or More</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule D, Candidates and Measures Not Listed on Schedule A</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -8624,34 +8967,78 @@ Expenditures (from Form 496)
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form): Part 5, Payments Made
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-    * Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees
-
-    * Schedule E, Payments Made
-
-    * Schedule G, Payments Made by an Agent or Independent Contractor (on Behalf of This Committee)
-
-
-
-
-* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement): Part 5, Contributions (Including Loans, Forgiveness of Loans, and LoanGuarantees) and Expenditures Made
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report): Part 3, Independent Expenditures Made
-
-
-
-* `Form 900 <../filingforms/campaign_forms.html#form-900>`_ (Public employee's retirement board, candidate campaign statement)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 5, Payments Made</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule D, Summary of Expenditures Supporting / Opposing Other Candidates, Measures and Committees</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule E, Payments Made</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule G, Payments Made by an Agent or Independent Contractor (on Behalf of This Committee)</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 5, Contributions (Including Loans, Forgiveness of Loans, and LoanGuarantees) and Expenditures Made</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3, Independent Expenditures Made</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-900">Form 900</a>:
+                Public employee's retirement board, candidate campaign statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -11383,15 +11770,30 @@ Recipient Committee Campaign Statements (Forms 450 and 460).
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form)
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -11631,11 +12033,26 @@ Form 460, Schedule F (Accrued Expenses).
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement): Schedule F, Accrued Expenses (Unpaid Bills)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule F, Accrued Expenses (Unpaid Bills)</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -12524,11 +12941,22 @@ days preceding an election.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -12799,16 +13227,30 @@ election, as reported on Form 497.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 497 <../filingforms/campaign_forms.html#form-497>`_ (Late Contribution Report)
-
-    * Part 1, Contribution(s) Received
-
-    * Part 2, Contribution(s) Made
-
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-497">Form 497</a>:
+                Late Contribution Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, Contribution(s) Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2, Contribution(s) Made</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -14030,15 +14472,30 @@ for the original filing and each amendment.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 501 <../filingforms/campaign_forms.html#form-501>`_ (Candidate Intention Statement)
-
-
-
-* `Form 502 <../filingforms/campaign_forms.html#form-502>`_ (Campaign Bank Account Statement)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-501">Form 501</a>:
+                Candidate Intention Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-502">Form 502</a>:
+                Campaign Bank Account Statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -16339,16 +16796,30 @@ as reported on Form 498.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 498 <../filingforms/campaign_forms.html#form-498>`_ (Slate Mailer Late Payment Report)
-
-    * Part A, Late Payments Attributed To
-
-    * Part R, Late Payments Received From
-
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
+                Slate Mailer Late Payment Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part A, Late Payments Attributed To</td>
+        </tr>
+        
+        <tr>
+            <td>- Part R, Late Payments Received From</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -17269,11 +17740,22 @@ Cover page information for Officeholder and Candidate Short and Supplement Forms
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 470 <../filingforms/campaign_forms.html#form-470>`_ (Officeholder and Candidate Campaign Statement, Short Form)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-470">Form 470</a>:
+                Officeholder and Candidate Campaign Statement, Short Form
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 

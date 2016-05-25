@@ -346,95 +346,190 @@ Electronic Filing Subsystem Log. The EFS accepts and validates electronic filing
 Filing forms
 ============
 
-
-
-* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization))
-
-
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement)
-
-
-
-* `Form 402 <../filingforms/campaign_forms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization))
-
-
-
-* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee)
-
-
-
-* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity)
-
-
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form)
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-
-
-* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement)
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report)
-
-
-
-* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report)
-
-
-
-* `Form 497 <../filingforms/campaign_forms.html#form-497>`_ (Late Contribution Report)
-
-
-
-* `Form 498 <../filingforms/campaign_forms.html#form-498>`_ (Slate Mailer Late Payment Report)
-
-
-
-* `Form 601 <../filingforms/lobbyist_forms.html#form-601>`_ (Lobbying Firm Registration Statement)
-
-
-
-* `Form 602 <../filingforms/lobbyist_forms.html#form-602>`_ (Lobbying Firm Activity Authorization)
-
-
-
-* `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
-
-
-
-* `Form 604 <../filingforms/lobbyist_forms.html#form-604>`_ (Lobbyist Certification Statement)
-
-
-
-* `Form 606 <../filingforms/lobbyist_forms.html#form-606>`_ (Notice of Termination)
-
-
-
-* `Form 607 <../filingforms/lobbyist_forms.html#form-607>`_ (Notice of Withdrawal)
-
-
-
-* `Form 615 <../filingforms/lobbyist_forms.html#form-615>`_ (Lobbyist Report)
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm)
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More)
-
-
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-400">Form 400</a>:
+                Statement of Organization (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-402">Form 402</a>:
+                Statement of Termination (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-410">Form 410</a>:
+                Statement of Organization Recipient Committee
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-425">Form 425</a>:
+                Semi-Annual Statement of no Activity
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-497">Form 497</a>:
+                Late Contribution Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
+                Slate Mailer Late Payment Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-602">Form 602</a>:
+                Lobbying Firm Activity Authorization
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-604">Form 604</a>:
+                Lobbyist Certification Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-606">Form 606</a>:
+                Notice of Termination
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-607">Form 607</a>:
+                Notice of Withdrawal
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -5124,95 +5219,190 @@ This table is undocumented.
 Filing forms
 ============
 
-
-
-* `Form 400 <../filingforms/campaign_forms.html#form-400>`_ (Statement of Organization (Slate Mailer Organization))
-
-
-
-* `Form 401 <../filingforms/campaign_forms.html#form-401>`_ (Slate Mailer Organization Campaign Statement)
-
-
-
-* `Form 402 <../filingforms/campaign_forms.html#form-402>`_ (Statement of Termination (Slate Mailer Organization))
-
-
-
-* `Form 410 <../filingforms/campaign_forms.html#form-410>`_ (Statement of Organization Recipient Committee)
-
-
-
-* `Form 425 <../filingforms/campaign_forms.html#form-425>`_ (Semi-Annual Statement of no Activity)
-
-
-
-* `Form 450 <../filingforms/campaign_forms.html#form-450>`_ (Recipient Committee Campaign Disclosure Statement - Short Form)
-
-
-
-* `Form 460 <../filingforms/campaign_forms.html#form-460>`_ (Recipient Committee Campaign Statement)
-
-
-
-* `Form 461 <../filingforms/campaign_forms.html#form-461>`_ (Independent Expenditure Committee & Major Donor Committee Campaign Statement)
-
-
-
-* `Form 465 <../filingforms/campaign_forms.html#form-465>`_ (Supplemental Independent Expenditure Report)
-
-
-
-* `Form 496 <../filingforms/campaign_forms.html#form-496>`_ (Late Independent Expenditure Report)
-
-
-
-* `Form 497 <../filingforms/campaign_forms.html#form-497>`_ (Late Contribution Report)
-
-
-
-* `Form 498 <../filingforms/campaign_forms.html#form-498>`_ (Slate Mailer Late Payment Report)
-
-
-
-* `Form 601 <../filingforms/lobbyist_forms.html#form-601>`_ (Lobbying Firm Registration Statement)
-
-
-
-* `Form 602 <../filingforms/lobbyist_forms.html#form-602>`_ (Lobbying Firm Activity Authorization)
-
-
-
-* `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
-
-
-
-* `Form 604 <../filingforms/lobbyist_forms.html#form-604>`_ (Lobbyist Certification Statement)
-
-
-
-* `Form 606 <../filingforms/lobbyist_forms.html#form-606>`_ (Notice of Termination)
-
-
-
-* `Form 607 <../filingforms/lobbyist_forms.html#form-607>`_ (Notice of Withdrawal)
-
-
-
-* `Form 615 <../filingforms/lobbyist_forms.html#form-615>`_ (Lobbyist Report)
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm)
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More)
-
-
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-400">Form 400</a>:
+                Statement of Organization (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-402">Form 402</a>:
+                Statement of Termination (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-410">Form 410</a>:
+                Statement of Organization Recipient Committee
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-425">Form 425</a>:
+                Semi-Annual Statement of no Activity
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-497">Form 497</a>:
+                Late Contribution Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
+                Slate Mailer Late Payment Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-602">Form 602</a>:
+                Lobbying Firm Activity Authorization
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-604">Form 604</a>:
+                Lobbyist Certification Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-606">Form 606</a>:
+                Notice of Termination
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-607">Form 607</a>:
+                Notice of Withdrawal
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 

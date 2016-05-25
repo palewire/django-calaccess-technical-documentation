@@ -23,31 +23,62 @@ Cover page of lobbying disclosure forms (601, 602, 603, 604, 606, and 607)
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 601 <../filingforms/lobbyist_forms.html#form-601>`_ (Lobbying Firm Registration Statement)
-
-
-
-* `Form 602 <../filingforms/lobbyist_forms.html#form-602>`_ (Lobbying Firm Activity Authorization)
-
-
-
-* `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
-
-
-
-* `Form 604 <../filingforms/lobbyist_forms.html#form-604>`_ (Lobbyist Certification Statement)
-
-
-
-* `Form 606 <../filingforms/lobbyist_forms.html#form-606>`_ (Notice of Termination)
-
-
-
-* `Form 607 <../filingforms/lobbyist_forms.html#form-607>`_ (Notice of Withdrawal)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-602">Form 602</a>:
+                Lobbying Firm Activity Authorization
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-604">Form 604</a>:
+                Lobbyist Certification Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-606">Form 606</a>:
+                Notice of Termination
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-607">Form 607</a>:
+                Notice of Withdrawal
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -1211,19 +1242,38 @@ Cover page of lobbying disclosure forms
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 601 <../filingforms/lobbyist_forms.html#form-601>`_ (Lobbying Firm Registration Statement)
-
-
-
-* `Form 602 <../filingforms/lobbyist_forms.html#form-602>`_ (Lobbying Firm Activity Authorization)
-
-
-
-* `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-602">Form 602</a>:
+                Lobbying Firm Activity Authorization
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -1565,23 +1615,46 @@ Cover page information for lobbying disclosure forms
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 615 <../filingforms/lobbyist_forms.html#form-615>`_ (Lobbyist Report)
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm)
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -2291,15 +2364,30 @@ Additional data from lobbyist disclosure forms (615, 625, 635, and 645)
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm)
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -2635,15 +2723,30 @@ Lobbyist registration amendment information (Form 605 Part I).
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 601 <../filingforms/lobbyist_forms.html#form-601>`_ (Lobbying Firm Registration Statement)
-
-
-
-* `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -3186,23 +3289,46 @@ Amends lobbying disclosure filings (Form 690)
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 615 <../filingforms/lobbyist_forms.html#form-615>`_ (Lobbyist Report)
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm)
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More)
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -3478,19 +3604,38 @@ Lobbyist disclosure attachment schedules for payments
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Schedule 630 <../filingforms/lobbyist_forms.html#schedule-630>`_ (Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) )
-
-
-
-* `Schedule 635C <../filingforms/lobbyist_forms.html#schedule-635c>`_ (Payments Received by Lobbying Coalitions)
-
-
-
-* `Schedule 640 <../filingforms/lobbyist_forms.html#schedule-640>`_ (Governmental Agencies Reporting (Attachment to Form 635 or Form 645))
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-630">Schedule 630</a>:
+                Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) 
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-635c">Schedule 635C</a>:
+                Payments Received by Lobbying Coalitions
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#schedule-640">Schedule 640</a>:
+                Governmental Agencies Reporting (Attachment to Form 635 or Form 645)
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -3910,23 +4055,62 @@ Forms 615 Part 1, 625 Part 3A, 635 Part 3C, and 645 Part 2A.
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 615 <../filingforms/lobbyist_forms.html#form-615>`_ (Lobbyist Report): Part 1, Activity Expenses Paid, Incurred, Arranged or Provided by the Lobbyist
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section A: Activity Expenses
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section C: Activity Expenses
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More): Part 2 (Payments Made this Period), Section A: Activity Expenses
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 1, Activity Expenses Paid, Incurred, Arranged or Provided by the Lobbyist</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made In Connection With Lobbying Activities), Section A: Activity Expenses</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made in Connection with Lobbying Activities), Section C: Activity Expenses</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2 (Payments Made this Period), Section A: Activity Expenses</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -4413,23 +4597,62 @@ Lobbying campaign contributions reported on Forms 615 Part 2,
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 615 <../filingforms/lobbyist_forms.html#form-615>`_ (Lobbyist Report): Part 2, Campaign Contributions Made or Delivered
-
-
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm): Part 4: Campaign Contributions Made
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 4: Campaign Contributions Made
-
-
-
-* `Form 645 <../filingforms/lobbyist_forms.html#form-645>`_ (Report of Person Spending $5,000 or More): Part 3: Campaign Contributions Made
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2, Campaign Contributions Made or Delivered</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 4: Campaign Contributions Made</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 4: Campaign Contributions Made</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3: Campaign Contributions Made</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -4869,16 +5092,30 @@ Lobbyist employers and subcontracted clients (Form 601)
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 601 <../filingforms/lobbyist_forms.html#form-601>`_ (Lobbying Firm Registration Statement)
-
-    * Part 2: Section A, Lobbyist Employers
-
-    * Part 2: Section B: Subcontracted Clients
-
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2: Section A, Lobbyist Employers</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2: Section B: Subcontracted Clients</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -8468,11 +8705,26 @@ Payment to other lobbying firms listed of Form 625 Part 3B
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
@@ -8815,15 +9067,38 @@ Form 625 Part 2 and 635 Part 3B
 Filing forms
 ============
 
+.. raw:: html
 
-
-* `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm): Part 2, Payments Received in Connection with Lobbying Activity
-
-
-
-* `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section B: Payments To Lobbying Firms
-
-
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2, Payments Received in Connection with Lobbying Activity</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made in Connection with Lobbying Activities), Section B: Payments To Lobbying Firms</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 

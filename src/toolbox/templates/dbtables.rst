@@ -15,8 +15,6 @@
 
 {{ object.doc.strip|safe }}
 
-{% if object.get_unique_key_list|length > 0 %}The records in {{ object.db_table }} are unique by {% if object.get_unique_key_list|length_is:"1" %}{{ object.get_unique_key_list.0 }}{% else %}{% for field in object.get_unique_key_list %}{% if forloop.last %}and {{ field }}{% elif forloop.revcounter0 == 1 %}{{ field }} {% else %}{{ field }}, {% endif %}{% endfor %}{% endif %}.{% endif %}
-
 **Sample:** `{{ object.get_tsv_name }} <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/{{ object.get_tsv_name }}>`_
 
 {% if object.FILING_FORMS|length > 0 %}
@@ -35,6 +33,24 @@ Filing forms
 * `{{ form.type_and_num|safe }} <../filingforms/{{ form.group|lower }}_forms.html#{{ form.type_and_num|slugify }}>`_ ({{ form.title|safe }})
 {% endif %}
 {% endfor %}
+{% endif %}
+
+{% if object.get_unique_key_list|length > 0 %}
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        {% for field in object.get_unique_key_list %}
+            <td><code>{{ field }}</code></td>
+        {% endfor %}
+        </tr>
+    </tbody>
+    </table>
 {% endif %}
 
 Fields
@@ -56,7 +72,7 @@ Fields
     {% for field in object.get_field_list %}
     {% if field.name != "id" %}
         <tr>
-            <td>{{ field.db_column }}</td>
+            <td><code>{{ field.db_column }}</code></td>
             <td>{{ field.description }}</td>
             <td>{% if field.is_unique_key %}Yes{% else %}No{% endif %}</td>
             <td>{{ field.definition|capfirst }}</td>
@@ -72,8 +88,8 @@ Look-up Codes
 =============
 {% for field in object.choice_fields %}
 
-{{ field.name }}
-----------------
+``{{ field.name }}``
+--------------------
 
 .. raw:: html
 
@@ -88,7 +104,7 @@ Look-up Codes
         <tbody valign="top">
         {% for choice in field.choices %}
             <tr>
-                <td>{{ choice.0 }}</td>
+                <td><code>{{ choice.0 }}</code></td>
                 <td>{{ choice.1 }}</td>
             </tr>
         {% endfor %}
@@ -98,7 +114,7 @@ Look-up Codes
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                 {% for doc, objects in field.docs.items %} {{ doc }} ({% for object in objects %}<a class="reference external image-reference" href="{{ object.canonical_url }}">{{ object.formatted_page_nums }}</a>{% if not forloop.last %}, {% endif %}{% endfor %}){% if not forloop.last %}, {% endif %}{% endfor %}
             </small>
         </td>

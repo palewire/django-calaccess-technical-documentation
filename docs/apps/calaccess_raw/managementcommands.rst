@@ -7,6 +7,7 @@ As with any Django app management command, these can be invoked on the command l
 
 ----------------------
 
+
 .. _updatecalaccessrawdata:
 
 updatecalaccessrawdata
@@ -20,7 +21,7 @@ Examples
 
 Running the entire routine is as simple as this.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py updatecalaccessrawdata
 
@@ -31,13 +32,13 @@ This command will either:
 
 You can skip the download's confirmation prompt using Django's standard ``--noinput`` option.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py updatecalaccessrawdata --noinput
 
 Individual components of the routine can be skipped with corresponding options.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py updatecalaccessrawdata --skip-download
     # Or...
@@ -50,7 +51,7 @@ Individual components of the routine can be skipped with corresponding options.
 The source files downloaded as part of the process will be deleted unless the ``--keep-files``
 option is provided.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py updatecalaccessrawdata --keep-files
 
@@ -59,7 +60,7 @@ The other options are below.
 Options
 ```````
 
-.. code-block:: bash
+.. code-block:: sh
 
     usage: manage.py updatecalaccessrawdata [-h] [--version] [-v {0,1,2,3}]
                                             [--settings SETTINGS]
@@ -102,6 +103,7 @@ Options
 
 ----------------------
 
+
 cleancalaccessrawfile
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -114,21 +116,21 @@ Examples
 Provide the name of the TSV file you would like to process. The command will
 attempt to find it in the application's download directory.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py cleancalaccessrawfile RcptCd.TSV
 
 The original file will be deleted in favor of the new CSV unless the ``--keep-files``
 option is provided.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py cleancalaccessrawfile RcptCd.TSV --keep-files
 
 Options
 ```````
 
-.. code-block:: bash
+.. code-block:: sh
 
     usage: manage.py cleancalaccessrawfile [-h] [--version] [-v {0,1,2,3}]
                                            [--settings SETTINGS]
@@ -160,9 +162,11 @@ Options
       --keep-files          Keep original TSV file
 
 .. note::
+
     The ``cleancalaccessrawfile`` command overwrites the .CSV files previously processed from the original .TSV files.
 
 ----------------------
+
 
 downloadcalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -175,7 +179,7 @@ Examples
 
 Here is how to run the command.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py downloadcalaccessrawdata
 
@@ -186,14 +190,14 @@ If your previous download did not complete, and the same version of CAL-ACCESS i
 
 You can skip the download's confirmation prompt using Django's standard ``--noinput`` option.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py updatecalaccessrawdata --noinput
 
 Options
 ```````
 
-.. code-block:: bash
+.. code-block:: sh
 
     usage: manage.py downloadcalaccessrawdata [-h] [--version] [-v {0,1,2,3}]
                                               [--settings SETTINGS]
@@ -225,9 +229,11 @@ Options
                             Force re-start (overrides auto-resume).
 
 .. note::
+
     The ``downloadcalaccessrawdata`` command overwrites the previously downloaded files, unless you invoke the ``--keep-files`` option.
 
 ----------------------
+
 
 loadcalaccessrawfile
 ~~~~~~~~~~~~~~~~~~~~
@@ -241,20 +247,20 @@ Examples
 The command expects the name of the Django database model where the file
 will be loaded.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py loadcalaccessrawfile RcptCd
 
 The model will attempt to load its default CSV file unless one is provided with the ``--csv`` argument.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py loadcalaccessrawfile RcptCd --csv=/home/jerry/Data/MyFile.csv
 
 Options
 ```````
 
-.. code-block:: bash
+.. code-block:: sh
 
     usage: manage.py loadcalaccessrawfile [-h] [--version] [-v {0,1,2,3}]
                                           [--settings SETTINGS]
@@ -291,9 +297,11 @@ Options
                             imported (if other not calaccess_raw)
 
 .. note::
+
     The ``loadcalaccessrawfile`` command deletes any data previously loaded into the calaccess models before loading in the current data.
 
 ----------------------
+
 
 reportcalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -303,14 +311,14 @@ Generate report outlining the number / proportion of files / records cleaned and
 Examples
 ````````
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py reportcalaccessrawfile
 
 Options
 ```````
 
-.. code-block:: bash
+.. code-block:: sh
 
     usage: manage.py reportcalaccessrawdata [-h] [--version] [-v {0,1,2,3}]
                                             [--settings SETTINGS]
@@ -345,14 +353,14 @@ Print table and record counts from the CAL-ACCESS raw database
 Examples
 ````````
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py totalcalaccessrawdata
 
 Options
 ```````
 
-.. code-block:: bash
+.. code-block:: sh
 
     usage: manage.py totalcalaccessrawdata [-h] [--version] [-v {0,1,2,3}]
                                            [--settings SETTINGS]
@@ -379,6 +387,7 @@ Options
 
 ----------------------
 
+
 verifycalaccessrawfile
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -389,14 +398,14 @@ Examples
 
 The command expects to be provided with the name of a Django model to analyze.
 
-.. code-block:: bash
+.. code-block:: sh
 
     $ python manage.py verifycalaccessrawfile RcptCd
 
 Options
 ```````
 
-.. code-block:: bash
+.. code-block:: sh
 
     usage: manage.py verifycalaccessrawfile [-h] [--version] [-v {0,1,2,3}]
                                             [--settings SETTINGS]

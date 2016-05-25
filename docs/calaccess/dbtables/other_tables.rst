@@ -17,10 +17,26 @@ ACRONYMS_CD
 
 Contains acronyms and their meaning.
 
-The records in ACRONYMS_CD are unique by ACRONYM.
-
 **Sample:** `ACRONYMS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ACRONYMS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>ACRONYM</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -44,7 +60,7 @@ Fields
     
     
         <tr>
-            <td>ACRONYM</td>
+            <td><code>ACRONYM</code></td>
             <td>String (up to 40)</td>
             <td>Yes</td>
             <td>Acronym text value</td>
@@ -53,7 +69,7 @@ Fields
     
     
         <tr>
-            <td>STANDS_FOR</td>
+            <td><code>STANDS_FOR</code></td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Definition of the acronym</td>
@@ -62,7 +78,7 @@ Fields
     
     
         <tr>
-            <td>EFFECT_DT</td>
+            <td><code>EFFECT_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective date for the acronym</td>
@@ -71,7 +87,7 @@ Fields
     
     
         <tr>
-            <td>A_DESC</td>
+            <td><code>A_DESC</code></td>
             <td>String (up to 50)</td>
             <td>No</td>
             <td>Description of the acronym</td>
@@ -95,10 +111,26 @@ This table holds all addresses for the system. This table can be used
 for address-based searches and formes the bases for address information
 desplayed by the AMS.
 
-The records in ADDRESS_CD are unique by ADRID.
-
 **Sample:** `ADDRESS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ADDRESS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>ADRID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -122,7 +154,7 @@ Fields
     
     
         <tr>
-            <td>ADRID</td>
+            <td><code>ADRID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Address indentification number</td>
@@ -131,7 +163,7 @@ Fields
     
     
         <tr>
-            <td>CITY</td>
+            <td><code>CITY</code></td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>Address city</td>
@@ -140,7 +172,7 @@ Fields
     
     
         <tr>
-            <td>ST</td>
+            <td><code>ST</code></td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>Address state</td>
@@ -149,7 +181,7 @@ Fields
     
     
         <tr>
-            <td>ZIP4</td>
+            <td><code>ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Address ZIP Code</td>
@@ -158,7 +190,7 @@ Fields
     
     
         <tr>
-            <td>PHON</td>
+            <td><code>PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Address phone number</td>
@@ -167,7 +199,7 @@ Fields
     
     
         <tr>
-            <td>FAX</td>
+            <td><code>FAX</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Address fax number</td>
@@ -176,7 +208,7 @@ Fields
     
     
         <tr>
-            <td>EMAIL</td>
+            <td><code>EMAIL</code></td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>Address email</td>
@@ -198,10 +230,26 @@ BALLOT_MEASURES_CD
 
 Ballot measure dates and times
 
-The records in BALLOT_MEASURES_CD are unique by FILER_ID.
-
 **Sample:** `BALLOT_MEASURES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/BALLOT_MEASURES_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -225,7 +273,7 @@ Fields
     
     
         <tr>
-            <td>ELECTION_DATE</td>
+            <td><code>ELECTION_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ballot measure election date</td>
@@ -234,7 +282,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -243,7 +291,7 @@ Fields
     
     
         <tr>
-            <td>MEASURE_NO</td>
+            <td><code>MEASURE_NO</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Ballot measure number</td>
@@ -252,7 +300,7 @@ Fields
     
     
         <tr>
-            <td>MEASURE_NAME</td>
+            <td><code>MEASURE_NAME</code></td>
             <td>String (up to 163)</td>
             <td>No</td>
             <td>Ballot measure full name</td>
@@ -261,7 +309,7 @@ Fields
     
     
         <tr>
-            <td>MEASURE_SHORT_NAME</td>
+            <td><code>MEASURE_SHORT_NAME</code></td>
             <td>String (up to 50)</td>
             <td>No</td>
             <td>Ballot measure short name</td>
@@ -270,7 +318,7 @@ Fields
     
     
         <tr>
-            <td>JURISDICTION</td>
+            <td><code>JURISDICTION</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -291,8 +339,6 @@ EFS_FILING_LOG_CD
 *********************
 
 Electronic Filing Subsystem Log. The EFS accepts and validates electronic filings.
-
-The records in EFS_FILING_LOG_CD are unique by FILING_DATE and VENDOR.
 
 **Sample:** `EFS_FILING_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EFS_FILING_LOG_CD.TSV>`_
 
@@ -391,6 +437,26 @@ Filing forms
 
 
 
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_DATE</code></td>
+        
+            <td><code>VENDOR</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
 Fields
 ======
 
@@ -412,7 +478,7 @@ Fields
     
     
         <tr>
-            <td>FILING_DATE</td>
+            <td><code>FILING_DATE</code></td>
             <td>Date (without time)</td>
             <td>Yes</td>
             <td>Date of filing</td>
@@ -421,7 +487,7 @@ Fields
     
     
         <tr>
-            <td>FILINGSTATUS</td>
+            <td><code>FILINGSTATUS</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Status of filing. This field is described in the docs as beingVARCHAR. However, its distinct values are 0, 1, 2 and 7.</td>
@@ -430,7 +496,7 @@ Fields
     
     
         <tr>
-            <td>VENDOR</td>
+            <td><code>VENDOR</code></td>
             <td>String (up to 250)</td>
             <td>Yes</td>
             <td>Software vendor who submitted the electronic filing</td>
@@ -439,7 +505,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>String (up to 250)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -448,7 +514,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 250)</td>
             <td>No</td>
             <td>Name of the source filing form or schedule</td>
@@ -457,7 +523,7 @@ Fields
     
     
         <tr>
-            <td>ERROR_NO</td>
+            <td><code>ERROR_NO</code></td>
             <td>String (up to 250)</td>
             <td>No</td>
             <td>Most records have a value of &quot;ACCEPTED&quot;. Other records include &quot;ERROR&quot;or &quot;BADFORMAT&quot; and a three-digit number.</td>
@@ -473,8 +539,8 @@ Look-up Codes
 =============
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -489,122 +555,122 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F400</td>
+                <td><code>F400</code></td>
                 <td>Form 400: Statement of Organization (Slate Mailer Organization)</td>
             </tr>
         
             <tr>
-                <td>F401</td>
+                <td><code>F401</code></td>
                 <td>Form 401: Slate Mailer Organization Campaign Statement</td>
             </tr>
         
             <tr>
-                <td>F402</td>
+                <td><code>F402</code></td>
                 <td>Form 402: Statement of Termination (Slate Mailer Organization)</td>
             </tr>
         
             <tr>
-                <td>F410</td>
+                <td><code>F410</code></td>
                 <td>Form 410: Statement of Organization Recipient Committee</td>
             </tr>
         
             <tr>
-                <td>F425</td>
+                <td><code>F425</code></td>
                 <td>Form 425: Semi-Annual Statement of no Activity</td>
             </tr>
         
             <tr>
-                <td>F450</td>
+                <td><code>F450</code></td>
                 <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
             </tr>
         
             <tr>
-                <td>F460</td>
+                <td><code>F460</code></td>
                 <td>Form 460: Recipient Committee Campaign Statement</td>
             </tr>
         
             <tr>
-                <td>F461</td>
+                <td><code>F461</code></td>
                 <td>Form 461: Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement</td>
             </tr>
         
             <tr>
-                <td>F465</td>
+                <td><code>F465</code></td>
                 <td>Form 465: Supplemental Independent Expenditure Report</td>
             </tr>
         
             <tr>
-                <td>F496</td>
+                <td><code>F496</code></td>
                 <td>Form 496: Late Independent Expenditure Report</td>
             </tr>
         
             <tr>
-                <td>F497</td>
+                <td><code>F497</code></td>
                 <td>Form 497: Late Contribution Report</td>
             </tr>
         
             <tr>
-                <td>F498</td>
+                <td><code>F498</code></td>
                 <td>Form 498: Slate Mailer Late Payment Report</td>
             </tr>
         
             <tr>
-                <td>F601</td>
+                <td><code>F601</code></td>
                 <td>Form 601: Lobbying Firm Registration Statement</td>
             </tr>
         
             <tr>
-                <td>F602</td>
+                <td><code>F602</code></td>
                 <td>Form 602: Lobbying Firm Activity Authorization</td>
             </tr>
         
             <tr>
-                <td>F603</td>
+                <td><code>F603</code></td>
                 <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
             </tr>
         
             <tr>
-                <td>F604</td>
+                <td><code>F604</code></td>
                 <td>Form 604: Lobbyist Certification Statement</td>
             </tr>
         
             <tr>
-                <td>F606</td>
+                <td><code>F606</code></td>
                 <td>Form 606: Notice of Termination</td>
             </tr>
         
             <tr>
-                <td>F607</td>
+                <td><code>F607</code></td>
                 <td>Form 607: Notice of Withdrawal</td>
             </tr>
         
             <tr>
-                <td>F615</td>
+                <td><code>F615</code></td>
                 <td>Form 615: Lobbyist Report</td>
             </tr>
         
             <tr>
-                <td>F625</td>
+                <td><code>F625</code></td>
                 <td>Form 625: Report of Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>F635</td>
+                <td><code>F635</code></td>
                 <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
             </tr>
         
             <tr>
-                <td>F645</td>
+                <td><code>F645</code></td>
                 <td>Form 645: Report of Person Spending $5,000 or More</td>
             </tr>
         
             <tr>
-                <td>BADFORMAT 253</td>
+                <td><code>BADFORMAT 253</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>form</td>
+                <td><code>form</code></td>
                 <td>Unknown</td>
             </tr>
         
@@ -614,7 +680,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
             </small>
         </td>
@@ -647,10 +713,26 @@ FILERS_CD
 This table is the parent table from which all links and associations
 to a filer are derived.
 
-The records in FILERS_CD are unique by FILER_ID.
-
 **Sample:** `FILERS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -674,7 +756,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -696,10 +778,28 @@ FILER_ACRONYMS_CD
 
 Links acronyms to filers
 
-The records in FILER_ACRONYMS_CD are unique by ACRONYM and FILER_ID.
-
 **Sample:** `FILER_ACRONYMS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ACRONYMS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>ACRONYM</code></td>
+        
+            <td><code>FILER_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -723,7 +823,7 @@ Fields
     
     
         <tr>
-            <td>ACRONYM</td>
+            <td><code>ACRONYM</code></td>
             <td>String (up to 32)</td>
             <td>Yes</td>
             <td>AMS acronym</td>
@@ -732,7 +832,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -755,10 +855,28 @@ FILER_ADDRESS_CD
 Links filers and addresses. This table maintains a history of when
 addresses change.
 
-The records in FILER_ADDRESS_CD are unique by FILER_ID and ADRID.
-
 **Sample:** `FILER_ADDRESS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ADDRESS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+            <td><code>ADRID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -782,7 +900,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -791,7 +909,7 @@ Fields
     
     
         <tr>
-            <td>ADRID</td>
+            <td><code>ADRID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Address identification number</td>
@@ -800,7 +918,7 @@ Fields
     
     
         <tr>
-            <td>EFFECT_DT</td>
+            <td><code>EFFECT_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Address effective date</td>
@@ -809,7 +927,7 @@ Fields
     
     
         <tr>
-            <td>ADD_TYPE</td>
+            <td><code>ADD_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Address type</td>
@@ -818,7 +936,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -834,8 +952,8 @@ Look-up Codes
 =============
 
 
-add_type
-----------------
+``add_type``
+--------------------
 
 .. raw:: html
 
@@ -850,32 +968,32 @@ add_type
         <tbody valign="top">
         
             <tr>
-                <td>51</td>
+                <td><code>51</code></td>
                 <td>PERMANENT</td>
             </tr>
         
             <tr>
-                <td>7026</td>
+                <td><code>7026</code></td>
                 <td>BUSINESS</td>
             </tr>
         
             <tr>
-                <td>7027</td>
+                <td><code>7027</code></td>
                 <td>HOME</td>
             </tr>
         
             <tr>
-                <td>7050</td>
+                <td><code>7050</code></td>
                 <td>NOT IN USE</td>
             </tr>
         
             <tr>
-                <td>7051</td>
+                <td><code>7051</code></td>
                 <td>PERMANENT</td>
             </tr>
         
             <tr>
-                <td>7082</td>
+                <td><code>7082</code></td>
                 <td>MAILING ADDRESS</td>
             </tr>
         
@@ -885,7 +1003,7 @@ add_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p5">5</a>)
             </small>
         </td>
@@ -915,10 +1033,30 @@ FILER_ETHICS_CLASS_CD
 
 This table stores lobbyist ethics training dates.
 
-The records in FILER_ETHICS_CLASS_CD are unique by FILER_ID, SESSION_ID and ETHICS_DATE.
-
 **Sample:** `FILER_ETHICS_CLASS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ETHICS_CLASS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+            <td><code>SESSION_ID</code></td>
+        
+            <td><code>ETHICS_DATE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -942,7 +1080,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -951,7 +1089,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -960,7 +1098,7 @@ Fields
     
     
         <tr>
-            <td>ETHICS_DATE</td>
+            <td><code>ETHICS_DATE</code></td>
             <td>Date (without time)</td>
             <td>Yes</td>
             <td>Date ethics training was accomplished</td>
@@ -982,10 +1120,32 @@ FILER_INTERESTS_CD
 
 Links a filer to their interest codes.
 
-The records in FILER_INTERESTS_CD are unique by FILER_ID, INTEREST_CD, EFFECT_DATE and SESSION_ID.
-
 **Sample:** `FILER_INTERESTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_INTERESTS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+            <td><code>INTEREST_CD</code></td>
+        
+            <td><code>EFFECT_DATE</code></td>
+        
+            <td><code>SESSION_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -1009,7 +1169,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -1018,7 +1178,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -1027,7 +1187,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_CD</td>
+            <td><code>INTEREST_CD</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Interest code linked to the filer</td>
@@ -1036,7 +1196,7 @@ Fields
     
     
         <tr>
-            <td>EFFECT_DATE</td>
+            <td><code>EFFECT_DATE</code></td>
             <td>Date (without time)</td>
             <td>Yes</td>
             <td>Effective date</td>
@@ -1052,8 +1212,8 @@ Look-up Codes
 =============
 
 
-interest_cd
-----------------
+``interest_cd``
+--------------------
 
 .. raw:: html
 
@@ -1068,102 +1228,102 @@ interest_cd
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>40301</td>
+                <td><code>40301</code></td>
                 <td>AGRICULTURE</td>
             </tr>
         
             <tr>
-                <td>40302</td>
+                <td><code>40302</code></td>
                 <td>EDUCATION</td>
             </tr>
         
             <tr>
-                <td>40303</td>
+                <td><code>40303</code></td>
                 <td>ENTERTAINMENT/RECREATION</td>
             </tr>
         
             <tr>
-                <td>40304</td>
+                <td><code>40304</code></td>
                 <td>FINANCE/INSURANCE</td>
             </tr>
         
             <tr>
-                <td>40305</td>
+                <td><code>40305</code></td>
                 <td>GOVERNMENT</td>
             </tr>
         
             <tr>
-                <td>40306</td>
+                <td><code>40306</code></td>
                 <td>HEALTH</td>
             </tr>
         
             <tr>
-                <td>40307</td>
+                <td><code>40307</code></td>
                 <td>LABOR UNIONS</td>
             </tr>
         
             <tr>
-                <td>40308</td>
+                <td><code>40308</code></td>
                 <td>LEGAL</td>
             </tr>
         
             <tr>
-                <td>40309</td>
+                <td><code>40309</code></td>
                 <td>LODGING/RESTAURANTS</td>
             </tr>
         
             <tr>
-                <td>40310</td>
+                <td><code>40310</code></td>
                 <td>MANUFACTURING/INDUSTRIAL</td>
             </tr>
         
             <tr>
-                <td>40311</td>
+                <td><code>40311</code></td>
                 <td>MERCHANDISE/RETAIL</td>
             </tr>
         
             <tr>
-                <td>40312</td>
+                <td><code>40312</code></td>
                 <td>MISCELLANEOUS</td>
             </tr>
         
             <tr>
-                <td>40313</td>
+                <td><code>40313</code></td>
                 <td>OIL AND GAS</td>
             </tr>
         
             <tr>
-                <td>40314</td>
+                <td><code>40314</code></td>
                 <td>POLITICAL ORGANIZATIONS</td>
             </tr>
         
             <tr>
-                <td>40315</td>
+                <td><code>40315</code></td>
                 <td>PROFESSIONAL/TRADE</td>
             </tr>
         
             <tr>
-                <td>40316</td>
+                <td><code>40316</code></td>
                 <td>PUBLIC EMPLOYEES</td>
             </tr>
         
             <tr>
-                <td>40317</td>
+                <td><code>40317</code></td>
                 <td>REAL ESTATE</td>
             </tr>
         
             <tr>
-                <td>40318</td>
+                <td><code>40318</code></td>
                 <td>TRANSPORTATION</td>
             </tr>
         
             <tr>
-                <td>40319</td>
+                <td><code>40319</code></td>
                 <td>UTILITIES</td>
             </tr>
         
@@ -1173,7 +1333,7 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
             </small>
         </td>
@@ -1203,10 +1363,34 @@ FILER_LINKS_CD
 
 Links filers to each other and records their relationship type.
 
-The records in FILER_LINKS_CD are unique by FILER_ID_A, FILER_ID_B, ACTIVE_FLG, SESSION_ID and LINK_TYPE.
-
 **Sample:** `FILER_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_LINKS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID_A</code></td>
+        
+            <td><code>FILER_ID_B</code></td>
+        
+            <td><code>ACTIVE_FLG</code></td>
+        
+            <td><code>SESSION_ID</code></td>
+        
+            <td><code>LINK_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -1230,7 +1414,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID_A</td>
+            <td><code>FILER_ID_A</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique identification number for the first filer in the relationship</td>
@@ -1239,7 +1423,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID_B</td>
+            <td><code>FILER_ID_B</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique identification number for the second filer in the relationship</td>
@@ -1248,7 +1432,7 @@ Fields
     
     
         <tr>
-            <td>ACTIVE_FLG</td>
+            <td><code>ACTIVE_FLG</code></td>
             <td>String (up to 1)</td>
             <td>Yes</td>
             <td>Indicates if the link is active</td>
@@ -1257,7 +1441,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -1266,7 +1450,7 @@ Fields
     
     
         <tr>
-            <td>LINK_TYPE</td>
+            <td><code>LINK_TYPE</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Denotes the type of the link</td>
@@ -1275,7 +1459,7 @@ Fields
     
     
         <tr>
-            <td>LINK_DESC</td>
+            <td><code>LINK_DESC</code></td>
             <td>String (up to 255)</td>
             <td>No</td>
             <td>Unused</td>
@@ -1284,7 +1468,7 @@ Fields
     
     
         <tr>
-            <td>EFFECT_DT</td>
+            <td><code>EFFECT_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date the link became active</td>
@@ -1293,7 +1477,7 @@ Fields
     
     
         <tr>
-            <td>DOMINATE_FILER</td>
+            <td><code>DOMINATE_FILER</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Unused</td>
@@ -1302,7 +1486,7 @@ Fields
     
     
         <tr>
-            <td>TERMINATION_DT</td>
+            <td><code>TERMINATION_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Termination effective date</td>
@@ -1318,8 +1502,8 @@ Look-up Codes
 =============
 
 
-link_type
-----------------
+``link_type``
+--------------------
 
 .. raw:: html
 
@@ -1334,127 +1518,127 @@ link_type
         <tbody valign="top">
         
             <tr>
-                <td>-12019</td>
+                <td><code>-12019</code></td>
                 <td>CANDIDATE CONTROLLED CAUCUS COMMITTEE</td>
             </tr>
         
             <tr>
-                <td>-12018</td>
+                <td><code>-12018</code></td>
                 <td>PROPONENT</td>
             </tr>
         
             <tr>
-                <td>-12016</td>
+                <td><code>-12016</code></td>
                 <td>TREASURER/RESPONSIBLE OFFICER FOR</td>
             </tr>
         
             <tr>
-                <td>-12015</td>
+                <td><code>-12015</code></td>
                 <td>ASSOCIATED</td>
             </tr>
         
             <tr>
-                <td>-12014</td>
+                <td><code>-12014</code></td>
                 <td>SUPPORT</td>
             </tr>
         
             <tr>
-                <td>-12013</td>
+                <td><code>-12013</code></td>
                 <td>OPPOSE</td>
             </tr>
         
             <tr>
-                <td>-12011</td>
+                <td><code>-12011</code></td>
                 <td>CONTROLLING CANDIDATE</td>
             </tr>
         
             <tr>
-                <td>-12008</td>
+                <td><code>-12008</code></td>
                 <td>FIRM OF A LOBBYIST</td>
             </tr>
         
             <tr>
-                <td>-12005</td>
+                <td><code>-12005</code></td>
                 <td>FIRM OF A CLIENT (WHO IS ALSO A FIRM)</td>
             </tr>
         
             <tr>
-                <td>-12004</td>
+                <td><code>-12004</code></td>
                 <td>FIRM OF A CLIENT (WHO IS AN EMPLOYER)</td>
             </tr>
         
             <tr>
-                <td>-12002</td>
+                <td><code>-12002</code></td>
                 <td>EMPLOYER OF  AN IN-HOUSE LOBBYIST</td>
             </tr>
         
             <tr>
-                <td>-12001</td>
+                <td><code>-12001</code></td>
                 <td>CLIENT OF A FIRM</td>
             </tr>
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>12001</td>
+                <td><code>12001</code></td>
                 <td>FIRM OF A CLIENT</td>
             </tr>
         
             <tr>
-                <td>12002</td>
+                <td><code>12002</code></td>
                 <td>IN-HOUSE LOBBYIST OF AN EMPLOYER</td>
             </tr>
         
             <tr>
-                <td>12004</td>
+                <td><code>12004</code></td>
                 <td>CLIENT (WHO IS AN EMPLOYER) OF A FIRM</td>
             </tr>
         
             <tr>
-                <td>12005</td>
+                <td><code>12005</code></td>
                 <td>CLIENT (WHO IS ALSO A FIRM) OF ANOTHER FIRM</td>
             </tr>
         
             <tr>
-                <td>12008</td>
+                <td><code>12008</code></td>
                 <td>LOBBYIST OF A FIRM</td>
             </tr>
         
             <tr>
-                <td>12011</td>
+                <td><code>12011</code></td>
                 <td>CANDIDATE CONTROLS THIS COMMITTEE</td>
             </tr>
         
             <tr>
-                <td>12013</td>
+                <td><code>12013</code></td>
                 <td>OPPOSE</td>
             </tr>
         
             <tr>
-                <td>12014</td>
+                <td><code>12014</code></td>
                 <td>SUPPORT</td>
             </tr>
         
             <tr>
-                <td>12015</td>
+                <td><code>12015</code></td>
                 <td>ASSOCIATED</td>
             </tr>
         
             <tr>
-                <td>12016</td>
+                <td><code>12016</code></td>
                 <td>TREASURER/RESPONSIBLE OFFICER</td>
             </tr>
         
             <tr>
-                <td>12018</td>
+                <td><code>12018</code></td>
                 <td>PROPONENT</td>
             </tr>
         
             <tr>
-                <td>12019</td>
+                <td><code>12019</code></td>
                 <td>CANDIDATE CONTROLLED CAUCUS COMMITTEE</td>
             </tr>
         
@@ -1464,7 +1648,7 @@ link_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p6">6-7</a>)
             </small>
         </td>
@@ -1495,10 +1679,26 @@ FILER_STATUS_TYPES_CD
 This is an undocumented model that contains a small number
 of codes and definitions that map to values in FILERNAME_CD.STATUS.
 
-The records in FILER_STATUS_TYPES_CD are unique by STATUS_TYPE.
-
 **Sample:** `FILER_STATUS_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_STATUS_TYPES_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>STATUS_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -1522,7 +1722,7 @@ Fields
     
     
         <tr>
-            <td>STATUS_TYPE</td>
+            <td><code>STATUS_TYPE</code></td>
             <td>String (up to 11)</td>
             <td>Yes</td>
             <td>This field is undocumented</td>
@@ -1531,7 +1731,7 @@ Fields
     
     
         <tr>
-            <td>STATUS_DESC</td>
+            <td><code>STATUS_DESC</code></td>
             <td>String (up to 11)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -1555,10 +1755,32 @@ This table links a filer to a set of characteristics that describe the
 filer. This table maintains a history of changes and allows the filer
 to change characteristics over time.
 
-The records in FILER_TO_FILER_TYPE_CD are unique by FILER_ID, FILER_TYPE, SESSION_ID and EFFECT_DT.
-
 **Sample:** `FILER_TO_FILER_TYPE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TO_FILER_TYPE_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+            <td><code>FILER_TYPE</code></td>
+        
+            <td><code>SESSION_ID</code></td>
+        
+            <td><code>EFFECT_DT</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -1582,7 +1804,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -1591,7 +1813,7 @@ Fields
     
     
         <tr>
-            <td>FILER_TYPE</td>
+            <td><code>FILER_TYPE</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Foreign key referencing FilerTypesCd.filer_type</td>
@@ -1600,7 +1822,7 @@ Fields
     
     
         <tr>
-            <td>ACTIVE</td>
+            <td><code>ACTIVE</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Indicates if the filer is currently active</td>
@@ -1609,7 +1831,7 @@ Fields
     
     
         <tr>
-            <td>RACE</td>
+            <td><code>RACE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>If applicable indicates the race in which the filer is running</td>
@@ -1618,7 +1840,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -1627,7 +1849,7 @@ Fields
     
     
         <tr>
-            <td>CATEGORY</td>
+            <td><code>CATEGORY</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Defines the filer&#39;s category such as controlled, jointly controlled, etc. (subset of filer&#39;s type)</td>
@@ -1636,7 +1858,7 @@ Fields
     
     
         <tr>
-            <td>CATEGORY_TYPE</td>
+            <td><code>CATEGORY_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>When applicable, the category type specifies additional information about the category. (e.g. state, local, etc.)</td>
@@ -1645,7 +1867,7 @@ Fields
     
     
         <tr>
-            <td>SUB_CATEGORY</td>
+            <td><code>SUB_CATEGORY</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>When applicable specifies general purpose, primarily formed, etc.</td>
@@ -1654,7 +1876,7 @@ Fields
     
     
         <tr>
-            <td>EFFECT_DT</td>
+            <td><code>EFFECT_DT</code></td>
             <td>Date (without time)</td>
             <td>Yes</td>
             <td>The date the filer assumed the current class or type</td>
@@ -1663,7 +1885,7 @@ Fields
     
     
         <tr>
-            <td>SUB_CATEGORY_TYPE</td>
+            <td><code>SUB_CATEGORY_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>When applicable specifies broad based or small contributor</td>
@@ -1672,7 +1894,7 @@ Fields
     
     
         <tr>
-            <td>ELECTION_TYPE</td>
+            <td><code>ELECTION_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Indicates type of election (general, primary, special)</td>
@@ -1681,7 +1903,7 @@ Fields
     
     
         <tr>
-            <td>SUB_CATEGORY_A</td>
+            <td><code>SUB_CATEGORY_A</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Indicates if sponsored or not</td>
@@ -1690,7 +1912,7 @@ Fields
     
     
         <tr>
-            <td>NYQ_DT</td>
+            <td><code>NYQ_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Indicates the date when a committee reached its qualifying level of activity</td>
@@ -1699,7 +1921,7 @@ Fields
     
     
         <tr>
-            <td>PARTY_CD</td>
+            <td><code>PARTY_CD</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s political party</td>
@@ -1708,7 +1930,7 @@ Fields
     
     
         <tr>
-            <td>COUNTY_CD</td>
+            <td><code>COUNTY_CD</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s county code</td>
@@ -1717,7 +1939,7 @@ Fields
     
     
         <tr>
-            <td>DISTRICT_CD</td>
+            <td><code>DISTRICT_CD</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s district number for the office being sought. Populated for Senate, Assembly or Board of Equalization races</td>
@@ -1733,8 +1955,8 @@ Look-up Codes
 =============
 
 
-race
-----------------
+``race``
+--------------------
 
 .. raw:: html
 
@@ -1749,722 +1971,722 @@ race
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>30002</td>
+                <td><code>30002</code></td>
                 <td>GOVERNOR</td>
             </tr>
         
             <tr>
-                <td>30003</td>
+                <td><code>30003</code></td>
                 <td>LIEUTENANT GOVERNOR</td>
             </tr>
         
             <tr>
-                <td>30004</td>
+                <td><code>30004</code></td>
                 <td>SECRETARY OF STATE</td>
             </tr>
         
             <tr>
-                <td>30005</td>
+                <td><code>30005</code></td>
                 <td>CONTROLLER</td>
             </tr>
         
             <tr>
-                <td>30006</td>
+                <td><code>30006</code></td>
                 <td>TREASURER</td>
             </tr>
         
             <tr>
-                <td>30007</td>
+                <td><code>30007</code></td>
                 <td>ATTORNEY GENERAL</td>
             </tr>
         
             <tr>
-                <td>30008</td>
+                <td><code>30008</code></td>
                 <td>SUPERINTENDENT OF PUBLIC INSTRUCTION</td>
             </tr>
         
             <tr>
-                <td>30009</td>
+                <td><code>30009</code></td>
                 <td>MEMBER BOARD OF EQUALIZATION</td>
             </tr>
         
             <tr>
-                <td>30010</td>
+                <td><code>30010</code></td>
                 <td>OXNARD HARBOR COMMISSIONER</td>
             </tr>
         
             <tr>
-                <td>30011</td>
+                <td><code>30011</code></td>
                 <td>CITY CONTROLLER</td>
             </tr>
         
             <tr>
-                <td>30012</td>
+                <td><code>30012</code></td>
                 <td>STATE SENATE</td>
             </tr>
         
             <tr>
-                <td>30013</td>
+                <td><code>30013</code></td>
                 <td>ASSEMBLY</td>
             </tr>
         
             <tr>
-                <td>30014</td>
+                <td><code>30014</code></td>
                 <td>INSURANCE COMMISSIONER</td>
             </tr>
         
             <tr>
-                <td>30015</td>
+                <td><code>30015</code></td>
                 <td>JUDGE</td>
             </tr>
         
             <tr>
-                <td>30016</td>
+                <td><code>30016</code></td>
                 <td>BOARD MEMBER</td>
             </tr>
         
             <tr>
-                <td>30017</td>
+                <td><code>30017</code></td>
                 <td>TAX COLLECTOR</td>
             </tr>
         
             <tr>
-                <td>30018</td>
+                <td><code>30018</code></td>
                 <td>TRUSTEE</td>
             </tr>
         
             <tr>
-                <td>30019</td>
+                <td><code>30019</code></td>
                 <td>SUPERVISOR</td>
             </tr>
         
             <tr>
-                <td>30020</td>
+                <td><code>30020</code></td>
                 <td>SHERIFF</td>
             </tr>
         
             <tr>
-                <td>30021</td>
+                <td><code>30021</code></td>
                 <td>CORONER</td>
             </tr>
         
             <tr>
-                <td>30022</td>
+                <td><code>30022</code></td>
                 <td>MARSHALL</td>
             </tr>
         
             <tr>
-                <td>30023</td>
+                <td><code>30023</code></td>
                 <td>CITY CLERK</td>
             </tr>
         
             <tr>
-                <td>30024</td>
+                <td><code>30024</code></td>
                 <td>SCHOOL BOARD</td>
             </tr>
         
             <tr>
-                <td>30025</td>
+                <td><code>30025</code></td>
                 <td>HARBOR COMMISSIONER</td>
             </tr>
         
             <tr>
-                <td>30026</td>
+                <td><code>30026</code></td>
                 <td>DISTRICT ATTORNEY</td>
             </tr>
         
             <tr>
-                <td>30027</td>
+                <td><code>30027</code></td>
                 <td>COUNTY CLERK</td>
             </tr>
         
             <tr>
-                <td>30028</td>
+                <td><code>30028</code></td>
                 <td>AUDITOR</td>
             </tr>
         
             <tr>
-                <td>30029</td>
+                <td><code>30029</code></td>
                 <td>MAYOR</td>
             </tr>
         
             <tr>
-                <td>30030</td>
+                <td><code>30030</code></td>
                 <td>CITY ATTORNEY</td>
             </tr>
         
             <tr>
-                <td>30031</td>
+                <td><code>30031</code></td>
                 <td>DEMOCRATIC COUNTY CENTRAL COMMITTEE</td>
             </tr>
         
             <tr>
-                <td>30032</td>
+                <td><code>30032</code></td>
                 <td>TOWN COUNCIL</td>
             </tr>
         
             <tr>
-                <td>30033</td>
+                <td><code>30033</code></td>
                 <td>ASSESSOR</td>
             </tr>
         
             <tr>
-                <td>30034</td>
+                <td><code>30034</code></td>
                 <td>CITY TREASURER</td>
             </tr>
         
             <tr>
-                <td>30035</td>
+                <td><code>30035</code></td>
                 <td>CITY COUNCIL</td>
             </tr>
         
             <tr>
-                <td>30036</td>
+                <td><code>30036</code></td>
                 <td>COMMISSIONER</td>
             </tr>
         
             <tr>
-                <td>30037</td>
+                <td><code>30037</code></td>
                 <td>REPUBLICAN COUNTY CENTRAL COMMITTEE</td>
             </tr>
         
             <tr>
-                <td>30038</td>
+                <td><code>30038</code></td>
                 <td>DIRECTOR</td>
             </tr>
         
             <tr>
-                <td>30039</td>
+                <td><code>30039</code></td>
                 <td>DIRECTOR OF ZONE 7</td>
             </tr>
         
             <tr>
-                <td>30040</td>
+                <td><code>30040</code></td>
                 <td>COMMUNITY COLLEGE BOARD</td>
             </tr>
         
             <tr>
-                <td>30041</td>
+                <td><code>30041</code></td>
                 <td>POLICE CHIEF</td>
             </tr>
         
             <tr>
-                <td>30042</td>
+                <td><code>30042</code></td>
                 <td>CHIEF OF POLICE</td>
             </tr>
         
             <tr>
-                <td>30043</td>
+                <td><code>30043</code></td>
                 <td>CENTRAL COMMITTEE</td>
             </tr>
         
             <tr>
-                <td>30044</td>
+                <td><code>30044</code></td>
                 <td>BOARD OF EDUCATION</td>
             </tr>
         
             <tr>
-                <td>30045</td>
+                <td><code>30045</code></td>
                 <td>BOARD OF DIRECTORS</td>
             </tr>
         
             <tr>
-                <td>30046</td>
+                <td><code>30046</code></td>
                 <td>COLLEGE BOARD</td>
             </tr>
         
             <tr>
-                <td>30047</td>
+                <td><code>30047</code></td>
                 <td>BART BOARD DIRECTOR</td>
             </tr>
         
             <tr>
-                <td>30048</td>
+                <td><code>30048</code></td>
                 <td>BOARD OF TRUSTEES</td>
             </tr>
         
             <tr>
-                <td>30049</td>
+                <td><code>30049</code></td>
                 <td>IRRIGATION</td>
             </tr>
         
             <tr>
-                <td>30050</td>
+                <td><code>30050</code></td>
                 <td>WATER BOARD</td>
             </tr>
         
             <tr>
-                <td>30051</td>
+                <td><code>30051</code></td>
                 <td>COMMUNITY PLANNING GROUP</td>
             </tr>
         
             <tr>
-                <td>30052</td>
+                <td><code>30052</code></td>
                 <td>BOARD OF SUPERVISORS</td>
             </tr>
         
             <tr>
-                <td>30053</td>
+                <td><code>30053</code></td>
                 <td>SUPERIOR COURT JUDGE</td>
             </tr>
         
             <tr>
-                <td>30054</td>
+                <td><code>30054</code></td>
                 <td>DISTRICT ATTORNEY/PUBLIC DEFENDER</td>
             </tr>
         
             <tr>
-                <td>30055</td>
+                <td><code>30055</code></td>
                 <td>MEASURE</td>
             </tr>
         
             <tr>
-                <td>30056</td>
+                <td><code>30056</code></td>
                 <td>CITY PROSECUTOR</td>
             </tr>
         
             <tr>
-                <td>30057</td>
+                <td><code>30057</code></td>
                 <td>SUPREME COURT JUDGE</td>
             </tr>
         
             <tr>
-                <td>30058</td>
+                <td><code>30058</code></td>
                 <td>PUBLIC EMPLOYEES RETIREMENT BOARD</td>
             </tr>
         
             <tr>
-                <td>30059</td>
+                <td><code>30059</code></td>
                 <td>APPELLATE COURT JUDGE</td>
             </tr>
         
             <tr>
-                <td>50001</td>
+                <td><code>50001</code></td>
                 <td>Ag</td>
             </tr>
         
             <tr>
-                <td>50002</td>
+                <td><code>50002</code></td>
                 <td>Assembly</td>
             </tr>
         
             <tr>
-                <td>50003</td>
+                <td><code>50003</code></td>
                 <td>Assessor</td>
             </tr>
         
             <tr>
-                <td>50004</td>
+                <td><code>50004</code></td>
                 <td>Assessor/Clerk/Recorder</td>
             </tr>
         
             <tr>
-                <td>50005</td>
+                <td><code>50005</code></td>
                 <td>Assessor/County Clerk/Recorder</td>
             </tr>
         
             <tr>
-                <td>50006</td>
+                <td><code>50006</code></td>
                 <td>Assessor/Recorder</td>
             </tr>
         
             <tr>
-                <td>50007</td>
+                <td><code>50007</code></td>
                 <td>Associate Justice</td>
             </tr>
         
             <tr>
-                <td>50008</td>
+                <td><code>50008</code></td>
                 <td>Auditor</td>
             </tr>
         
             <tr>
-                <td>50009</td>
+                <td><code>50009</code></td>
                 <td>Auditor/Controller</td>
             </tr>
         
             <tr>
-                <td>50010</td>
+                <td><code>50010</code></td>
                 <td>Auditor/Controller/Clerk/Recorder</td>
             </tr>
         
             <tr>
-                <td>50011</td>
+                <td><code>50011</code></td>
                 <td>Auditor/Controller/Recorder</td>
             </tr>
         
             <tr>
-                <td>50012</td>
+                <td><code>50012</code></td>
                 <td>Auditor/Controller/Treasurer/Tax Collector</td>
             </tr>
         
             <tr>
-                <td>50013</td>
+                <td><code>50013</code></td>
                 <td>Auditor/Recorder</td>
             </tr>
         
             <tr>
-                <td>50014</td>
+                <td><code>50014</code></td>
                 <td>Board Member</td>
             </tr>
         
             <tr>
-                <td>50015</td>
+                <td><code>50015</code></td>
                 <td>Board Of Director</td>
             </tr>
         
             <tr>
-                <td>50016</td>
+                <td><code>50016</code></td>
                 <td>Board Of Supervisor</td>
             </tr>
         
             <tr>
-                <td>50017</td>
+                <td><code>50017</code></td>
                 <td>Boe</td>
             </tr>
         
             <tr>
-                <td>50018</td>
+                <td><code>50018</code></td>
                 <td>Chief Justice</td>
             </tr>
         
             <tr>
-                <td>50019</td>
+                <td><code>50019</code></td>
                 <td>City</td>
             </tr>
         
             <tr>
-                <td>50020</td>
+                <td><code>50020</code></td>
                 <td>City Attorney</td>
             </tr>
         
             <tr>
-                <td>50021</td>
+                <td><code>50021</code></td>
                 <td>City Auditor</td>
             </tr>
         
             <tr>
-                <td>50022</td>
+                <td><code>50022</code></td>
                 <td>City Clerk</td>
             </tr>
         
             <tr>
-                <td>50023</td>
+                <td><code>50023</code></td>
                 <td>City Council</td>
             </tr>
         
             <tr>
-                <td>50024</td>
+                <td><code>50024</code></td>
                 <td>City Of Los Angeles</td>
             </tr>
         
             <tr>
-                <td>50025</td>
+                <td><code>50025</code></td>
                 <td>City Of South El Monte</td>
             </tr>
         
             <tr>
-                <td>50026</td>
+                <td><code>50026</code></td>
                 <td>City Prosecutor</td>
             </tr>
         
             <tr>
-                <td>50027</td>
+                <td><code>50027</code></td>
                 <td>City Treasurer</td>
             </tr>
         
             <tr>
-                <td>50028</td>
+                <td><code>50028</code></td>
                 <td>Clerk/Auditor</td>
             </tr>
         
             <tr>
-                <td>50029</td>
+                <td><code>50029</code></td>
                 <td>Clerk/Record/Public Admin</td>
             </tr>
         
             <tr>
-                <td>50030</td>
+                <td><code>50030</code></td>
                 <td>Clerk/Recorder</td>
             </tr>
         
             <tr>
-                <td>50031</td>
+                <td><code>50031</code></td>
                 <td>Clerk/Recorder/Registar</td>
             </tr>
         
             <tr>
-                <td>50032</td>
+                <td><code>50032</code></td>
                 <td>Clerk/Recorder/Registrar</td>
             </tr>
         
             <tr>
-                <td>50033</td>
+                <td><code>50033</code></td>
                 <td>Commissioner</td>
             </tr>
         
             <tr>
-                <td>50034</td>
+                <td><code>50034</code></td>
                 <td>Controller</td>
             </tr>
         
             <tr>
-                <td>50035</td>
+                <td><code>50035</code></td>
                 <td>Costa Mesa</td>
             </tr>
         
             <tr>
-                <td>50036</td>
+                <td><code>50036</code></td>
                 <td>Council Member</td>
             </tr>
         
             <tr>
-                <td>50037</td>
+                <td><code>50037</code></td>
                 <td>County Clerk</td>
             </tr>
         
             <tr>
-                <td>50038</td>
+                <td><code>50038</code></td>
                 <td>County Clerk/Auditor</td>
             </tr>
         
             <tr>
-                <td>50039</td>
+                <td><code>50039</code></td>
                 <td>County Clerk/Auditor/Controller</td>
             </tr>
         
             <tr>
-                <td>50040</td>
+                <td><code>50040</code></td>
                 <td>County Clerk/Recorder</td>
             </tr>
         
             <tr>
-                <td>50041</td>
+                <td><code>50041</code></td>
                 <td>County Clerk/Recorder/Assessor</td>
             </tr>
         
             <tr>
-                <td>50042</td>
+                <td><code>50042</code></td>
                 <td>County Clerk/Recorder/Public Admin</td>
             </tr>
         
             <tr>
-                <td>50043</td>
+                <td><code>50043</code></td>
                 <td>Democratic County Central Committee</td>
             </tr>
         
             <tr>
-                <td>50044</td>
+                <td><code>50044</code></td>
                 <td>Director</td>
             </tr>
         
             <tr>
-                <td>50045</td>
+                <td><code>50045</code></td>
                 <td>District Attorney</td>
             </tr>
         
             <tr>
-                <td>50046</td>
+                <td><code>50046</code></td>
                 <td>District Attorney/Public Administrator</td>
             </tr>
         
             <tr>
-                <td>50047</td>
+                <td><code>50047</code></td>
                 <td>Gccc</td>
             </tr>
         
             <tr>
-                <td>50048</td>
+                <td><code>50048</code></td>
                 <td>Governor</td>
             </tr>
         
             <tr>
-                <td>50049</td>
+                <td><code>50049</code></td>
                 <td>Harbor Commissioner</td>
             </tr>
         
             <tr>
-                <td>50050</td>
+                <td><code>50050</code></td>
                 <td>Ic</td>
             </tr>
         
             <tr>
-                <td>50051</td>
+                <td><code>50051</code></td>
                 <td>Irrigation Dist</td>
             </tr>
         
             <tr>
-                <td>50052</td>
+                <td><code>50052</code></td>
                 <td>Judge</td>
             </tr>
         
             <tr>
-                <td>50053</td>
+                <td><code>50053</code></td>
                 <td>Justice</td>
             </tr>
         
             <tr>
-                <td>50054</td>
+                <td><code>50054</code></td>
                 <td>Legislature</td>
             </tr>
         
             <tr>
-                <td>50055</td>
+                <td><code>50055</code></td>
                 <td>Lieutenant Governor</td>
             </tr>
         
             <tr>
-                <td>50056</td>
+                <td><code>50056</code></td>
                 <td>Mayor</td>
             </tr>
         
             <tr>
-                <td>50057</td>
+                <td><code>50057</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>50058</td>
+                <td><code>50058</code></td>
                 <td>Placentia</td>
             </tr>
         
             <tr>
-                <td>50059</td>
+                <td><code>50059</code></td>
                 <td>Public Administrator</td>
             </tr>
         
             <tr>
-                <td>50060</td>
+                <td><code>50060</code></td>
                 <td>Public Administrator/Guardian</td>
             </tr>
         
             <tr>
-                <td>50061</td>
+                <td><code>50061</code></td>
                 <td>Rent Stabilization Board</td>
             </tr>
         
             <tr>
-                <td>50062</td>
+                <td><code>50062</code></td>
                 <td>Republican Central Committee</td>
             </tr>
         
             <tr>
-                <td>50063</td>
+                <td><code>50063</code></td>
                 <td>San Francisco Dccc</td>
             </tr>
         
             <tr>
-                <td>50064</td>
+                <td><code>50064</code></td>
                 <td>Sanger</td>
             </tr>
         
             <tr>
-                <td>50065</td>
+                <td><code>50065</code></td>
                 <td>School Board</td>
             </tr>
         
             <tr>
-                <td>50066</td>
+                <td><code>50066</code></td>
                 <td>Secretary Of State</td>
             </tr>
         
             <tr>
-                <td>50067</td>
+                <td><code>50067</code></td>
                 <td>Senator</td>
             </tr>
         
             <tr>
-                <td>50068</td>
+                <td><code>50068</code></td>
                 <td>Sheriff</td>
             </tr>
         
             <tr>
-                <td>50069</td>
+                <td><code>50069</code></td>
                 <td>Sheriff/Coroner</td>
             </tr>
         
             <tr>
-                <td>50070</td>
+                <td><code>50070</code></td>
                 <td>Sheriff/Coroner/Marshall</td>
             </tr>
         
             <tr>
-                <td>50071</td>
+                <td><code>50071</code></td>
                 <td>Sheriff/Coroner/Public Administrator</td>
             </tr>
         
             <tr>
-                <td>50072</td>
+                <td><code>50072</code></td>
                 <td>Solana Beach</td>
             </tr>
         
             <tr>
-                <td>50073</td>
+                <td><code>50073</code></td>
                 <td>Superintendent</td>
             </tr>
         
             <tr>
-                <td>50074</td>
+                <td><code>50074</code></td>
                 <td>Supervisor</td>
             </tr>
         
             <tr>
-                <td>50075</td>
+                <td><code>50075</code></td>
                 <td>Supt Of Schools</td>
             </tr>
         
             <tr>
-                <td>50076</td>
+                <td><code>50076</code></td>
                 <td>Tax Collector</td>
             </tr>
         
             <tr>
-                <td>50077</td>
+                <td><code>50077</code></td>
                 <td>Town Council</td>
             </tr>
         
             <tr>
-                <td>50078</td>
+                <td><code>50078</code></td>
                 <td>Treasurer</td>
             </tr>
         
             <tr>
-                <td>50079</td>
+                <td><code>50079</code></td>
                 <td>Treasurer/Tax Collector</td>
             </tr>
         
             <tr>
-                <td>50080</td>
+                <td><code>50080</code></td>
                 <td>Treasurer/Tax Collector/Clerk</td>
             </tr>
         
             <tr>
-                <td>50081</td>
+                <td><code>50081</code></td>
                 <td>Treasurer/Tax Collector/Public Administrator</td>
             </tr>
         
             <tr>
-                <td>50082</td>
+                <td><code>50082</code></td>
                 <td>Treasurer/Tax Collector/Public Administrator/County Clerk</td>
             </tr>
         
             <tr>
-                <td>50083</td>
+                <td><code>50083</code></td>
                 <td>Treasurer/Tax Collector/Recorder</td>
             </tr>
         
             <tr>
-                <td>50084</td>
+                <td><code>50084</code></td>
                 <td>Trustee</td>
             </tr>
         
             <tr>
-                <td>50085</td>
+                <td><code>50085</code></td>
                 <td>Weed Recreation Board Member</td>
             </tr>
         
@@ -2474,7 +2696,7 @@ race
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p16">16-18</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p20">20-22</a>)
             </small>
         </td>
@@ -2485,8 +2707,8 @@ race
     </div>
 
 
-category
-----------------
+``category``
+--------------------
 
 .. raw:: html
 
@@ -2501,32 +2723,32 @@ category
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>40000</td>
+                <td><code>40000</code></td>
                 <td>CATEGORY</td>
             </tr>
         
             <tr>
-                <td>40001</td>
+                <td><code>40001</code></td>
                 <td>JOINTLY CONTROLLED</td>
             </tr>
         
             <tr>
-                <td>40002</td>
+                <td><code>40002</code></td>
                 <td>CONTROLLED</td>
             </tr>
         
             <tr>
-                <td>40003</td>
+                <td><code>40003</code></td>
                 <td>CAUCUS COMMITTEE</td>
             </tr>
         
             <tr>
-                <td>40004</td>
+                <td><code>40004</code></td>
                 <td>Unknown</td>
             </tr>
         
@@ -2536,7 +2758,7 @@ category
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p18">18</a>)
             </small>
         </td>
@@ -2547,8 +2769,8 @@ category
     </div>
 
 
-category_type
-----------------
+``category_type``
+--------------------
 
 .. raw:: html
 
@@ -2563,42 +2785,42 @@ category_type
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>40501</td>
+                <td><code>40501</code></td>
                 <td>LOCAL</td>
             </tr>
         
             <tr>
-                <td>40502</td>
+                <td><code>40502</code></td>
                 <td>STATE</td>
             </tr>
         
             <tr>
-                <td>40503</td>
+                <td><code>40503</code></td>
                 <td>COUNTY</td>
             </tr>
         
             <tr>
-                <td>40504</td>
+                <td><code>40504</code></td>
                 <td>MULTI-COUNTY</td>
             </tr>
         
             <tr>
-                <td>40505</td>
+                <td><code>40505</code></td>
                 <td>CITY</td>
             </tr>
         
             <tr>
-                <td>40506</td>
+                <td><code>40506</code></td>
                 <td>FEDERAL</td>
             </tr>
         
             <tr>
-                <td>40507</td>
+                <td><code>40507</code></td>
                 <td>SUPERIOR COURT JUDGE</td>
             </tr>
         
@@ -2608,7 +2830,7 @@ category_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19-20</a>)
             </small>
         </td>
@@ -2619,8 +2841,8 @@ category_type
     </div>
 
 
-sub_category
-----------------
+``sub_category``
+--------------------
 
 .. raw:: html
 
@@ -2635,37 +2857,37 @@ sub_category
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>40101</td>
+                <td><code>40101</code></td>
                 <td>PRIMARILY FORMED MEASURE</td>
             </tr>
         
             <tr>
-                <td>40102</td>
+                <td><code>40102</code></td>
                 <td>PRIMARILY FORMED CANDIDATE</td>
             </tr>
         
             <tr>
-                <td>40103</td>
+                <td><code>40103</code></td>
                 <td>GENERAL PURPOSE</td>
             </tr>
         
             <tr>
-                <td>40104</td>
+                <td><code>40104</code></td>
                 <td>GENERAL PURPOSE POLITICAL PARTY</td>
             </tr>
         
             <tr>
-                <td>40105</td>
+                <td><code>40105</code></td>
                 <td>GENERAL PURPOSE MEASURE</td>
             </tr>
         
             <tr>
-                <td>40112</td>
+                <td><code>40112</code></td>
                 <td>Unknown</td>
             </tr>
         
@@ -2675,7 +2897,7 @@ sub_category
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p18">18</a>)
             </small>
         </td>
@@ -2686,8 +2908,8 @@ sub_category
     </div>
 
 
-sub_category_type
-----------------
+``sub_category_type``
+--------------------
 
 .. raw:: html
 
@@ -2702,47 +2924,47 @@ sub_category_type
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>40202</td>
+                <td><code>40202</code></td>
                 <td>BROAD-BASED</td>
             </tr>
         
             <tr>
-                <td>40203</td>
+                <td><code>40203</code></td>
                 <td>SMALL CONTRIBUTOR</td>
             </tr>
         
             <tr>
-                <td>40204</td>
+                <td><code>40204</code></td>
                 <td>MPO - NON PROFIT</td>
             </tr>
         
             <tr>
-                <td>40205</td>
+                <td><code>40205</code></td>
                 <td>MPO - NON PROFIT CY</td>
             </tr>
         
             <tr>
-                <td>40206</td>
+                <td><code>40206</code></td>
                 <td>MPO - OTHER</td>
             </tr>
         
             <tr>
-                <td>40207</td>
+                <td><code>40207</code></td>
                 <td>MPO - OTHER CY</td>
             </tr>
         
             <tr>
-                <td>40208</td>
+                <td><code>40208</code></td>
                 <td>FEDERAL PAC</td>
             </tr>
         
             <tr>
-                <td>40209</td>
+                <td><code>40209</code></td>
                 <td>OUT OF STATE PAC</td>
             </tr>
         
@@ -2752,7 +2974,7 @@ sub_category_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p18">18-19</a>)
             </small>
         </td>
@@ -2763,8 +2985,8 @@ sub_category_type
     </div>
 
 
-election_type
-----------------
+``election_type``
+--------------------
 
 .. raw:: html
 
@@ -2779,47 +3001,47 @@ election_type
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>3001</td>
+                <td><code>3001</code></td>
                 <td>GENERAL</td>
             </tr>
         
             <tr>
-                <td>3002</td>
+                <td><code>3002</code></td>
                 <td>PRIMARY</td>
             </tr>
         
             <tr>
-                <td>3003</td>
+                <td><code>3003</code></td>
                 <td>RECALL</td>
             </tr>
         
             <tr>
-                <td>3004</td>
+                <td><code>3004</code></td>
                 <td>SPECIAL ELECTION</td>
             </tr>
         
             <tr>
-                <td>3005</td>
+                <td><code>3005</code></td>
                 <td>OFFICEHOLDER</td>
             </tr>
         
             <tr>
-                <td>3006</td>
+                <td><code>3006</code></td>
                 <td>SPECIAL RUNOFF</td>
             </tr>
         
             <tr>
-                <td>3010</td>
+                <td><code>3010</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>3007</td>
+                <td><code>3007</code></td>
                 <td>Unknown</td>
             </tr>
         
@@ -2829,7 +3051,7 @@ election_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3-4</a>)
             </small>
         </td>
@@ -2840,8 +3062,8 @@ election_type
     </div>
 
 
-party_cd
-----------------
+``party_cd``
+--------------------
 
 .. raw:: html
 
@@ -2856,87 +3078,87 @@ party_cd
         <tbody valign="top">
         
             <tr>
-                <td>16001</td>
+                <td><code>16001</code></td>
                 <td>DEMOCRATIC</td>
             </tr>
         
             <tr>
-                <td>16002</td>
+                <td><code>16002</code></td>
                 <td>REPUBLICAN</td>
             </tr>
         
             <tr>
-                <td>16003</td>
+                <td><code>16003</code></td>
                 <td>GREEN PARTY</td>
             </tr>
         
             <tr>
-                <td>16004</td>
+                <td><code>16004</code></td>
                 <td>REFORM PARTY</td>
             </tr>
         
             <tr>
-                <td>16005</td>
+                <td><code>16005</code></td>
                 <td>AMERICAN INDEPENDENT PARTY</td>
             </tr>
         
             <tr>
-                <td>16006</td>
+                <td><code>16006</code></td>
                 <td>PEACE AND FREEDOM</td>
             </tr>
         
             <tr>
-                <td>16007</td>
+                <td><code>16007</code></td>
                 <td>INDEPENDENT</td>
             </tr>
         
             <tr>
-                <td>16008</td>
+                <td><code>16008</code></td>
                 <td>LIBERTARIAN</td>
             </tr>
         
             <tr>
-                <td>16009</td>
+                <td><code>16009</code></td>
                 <td>NON PARTISAN</td>
             </tr>
         
             <tr>
-                <td>16010</td>
+                <td><code>16010</code></td>
                 <td>NATURAL LAW</td>
             </tr>
         
             <tr>
-                <td>16011</td>
+                <td><code>16011</code></td>
                 <td>UNKNOWN</td>
             </tr>
         
             <tr>
-                <td>16012</td>
+                <td><code>16012</code></td>
                 <td>NO PARTY PREFERENCE</td>
             </tr>
         
             <tr>
-                <td>16013</td>
+                <td><code>16013</code></td>
                 <td>AMERICANS ELECT</td>
             </tr>
         
             <tr>
-                <td>16020</td>
+                <td><code>16020</code></td>
                 <td>PEACE AND FREEDOM</td>
             </tr>
         
             <tr>
-                <td>16014</td>
+                <td><code>16014</code></td>
                 <td>UNKNOWN</td>
             </tr>
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>UNKNOWN</td>
             </tr>
         
             <tr>
-                <td>None</td>
+                <td><code>None</code></td>
                 <td>NONE</td>
             </tr>
         
@@ -2946,7 +3168,7 @@ party_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p10">10-11</a>)
             </small>
         </td>
@@ -2957,8 +3179,8 @@ party_cd
     </div>
 
 
-county_cd
-----------------
+``county_cd``
+--------------------
 
 .. raw:: html
 
@@ -2973,297 +3195,297 @@ county_cd
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>18001</td>
+                <td><code>18001</code></td>
                 <td>01</td>
             </tr>
         
             <tr>
-                <td>18002</td>
+                <td><code>18002</code></td>
                 <td>12</td>
             </tr>
         
             <tr>
-                <td>18003</td>
+                <td><code>18003</code></td>
                 <td>23</td>
             </tr>
         
             <tr>
-                <td>18004</td>
+                <td><code>18004</code></td>
                 <td>34</td>
             </tr>
         
             <tr>
-                <td>18005</td>
+                <td><code>18005</code></td>
                 <td>45</td>
             </tr>
         
             <tr>
-                <td>18006</td>
+                <td><code>18006</code></td>
                 <td>55</td>
             </tr>
         
             <tr>
-                <td>18007</td>
+                <td><code>18007</code></td>
                 <td>56</td>
             </tr>
         
             <tr>
-                <td>18008</td>
+                <td><code>18008</code></td>
                 <td>57</td>
             </tr>
         
             <tr>
-                <td>18009</td>
+                <td><code>18009</code></td>
                 <td>58</td>
             </tr>
         
             <tr>
-                <td>18010</td>
+                <td><code>18010</code></td>
                 <td>02</td>
             </tr>
         
             <tr>
-                <td>18011</td>
+                <td><code>18011</code></td>
                 <td>03</td>
             </tr>
         
             <tr>
-                <td>18012</td>
+                <td><code>18012</code></td>
                 <td>04</td>
             </tr>
         
             <tr>
-                <td>18013</td>
+                <td><code>18013</code></td>
                 <td>05</td>
             </tr>
         
             <tr>
-                <td>18014</td>
+                <td><code>18014</code></td>
                 <td>06</td>
             </tr>
         
             <tr>
-                <td>18015</td>
+                <td><code>18015</code></td>
                 <td>07</td>
             </tr>
         
             <tr>
-                <td>18016</td>
+                <td><code>18016</code></td>
                 <td>08</td>
             </tr>
         
             <tr>
-                <td>18017</td>
+                <td><code>18017</code></td>
                 <td>09</td>
             </tr>
         
             <tr>
-                <td>18018</td>
+                <td><code>18018</code></td>
                 <td>10</td>
             </tr>
         
             <tr>
-                <td>18019</td>
+                <td><code>18019</code></td>
                 <td>11</td>
             </tr>
         
             <tr>
-                <td>18020</td>
+                <td><code>18020</code></td>
                 <td>13</td>
             </tr>
         
             <tr>
-                <td>18021</td>
+                <td><code>18021</code></td>
                 <td>14</td>
             </tr>
         
             <tr>
-                <td>18022</td>
+                <td><code>18022</code></td>
                 <td>15</td>
             </tr>
         
             <tr>
-                <td>18023</td>
+                <td><code>18023</code></td>
                 <td>16</td>
             </tr>
         
             <tr>
-                <td>18024</td>
+                <td><code>18024</code></td>
                 <td>17</td>
             </tr>
         
             <tr>
-                <td>18025</td>
+                <td><code>18025</code></td>
                 <td>18</td>
             </tr>
         
             <tr>
-                <td>18026</td>
+                <td><code>18026</code></td>
                 <td>19</td>
             </tr>
         
             <tr>
-                <td>18027</td>
+                <td><code>18027</code></td>
                 <td>20</td>
             </tr>
         
             <tr>
-                <td>18028</td>
+                <td><code>18028</code></td>
                 <td>21</td>
             </tr>
         
             <tr>
-                <td>18029</td>
+                <td><code>18029</code></td>
                 <td>22</td>
             </tr>
         
             <tr>
-                <td>18030</td>
+                <td><code>18030</code></td>
                 <td>24</td>
             </tr>
         
             <tr>
-                <td>18031</td>
+                <td><code>18031</code></td>
                 <td>25</td>
             </tr>
         
             <tr>
-                <td>18032</td>
+                <td><code>18032</code></td>
                 <td>26</td>
             </tr>
         
             <tr>
-                <td>18033</td>
+                <td><code>18033</code></td>
                 <td>27</td>
             </tr>
         
             <tr>
-                <td>18034</td>
+                <td><code>18034</code></td>
                 <td>28</td>
             </tr>
         
             <tr>
-                <td>18035</td>
+                <td><code>18035</code></td>
                 <td>29</td>
             </tr>
         
             <tr>
-                <td>18036</td>
+                <td><code>18036</code></td>
                 <td>30</td>
             </tr>
         
             <tr>
-                <td>18037</td>
+                <td><code>18037</code></td>
                 <td>31</td>
             </tr>
         
             <tr>
-                <td>18038</td>
+                <td><code>18038</code></td>
                 <td>32</td>
             </tr>
         
             <tr>
-                <td>18039</td>
+                <td><code>18039</code></td>
                 <td>33</td>
             </tr>
         
             <tr>
-                <td>18040</td>
+                <td><code>18040</code></td>
                 <td>35</td>
             </tr>
         
             <tr>
-                <td>18041</td>
+                <td><code>18041</code></td>
                 <td>36</td>
             </tr>
         
             <tr>
-                <td>18042</td>
+                <td><code>18042</code></td>
                 <td>37</td>
             </tr>
         
             <tr>
-                <td>18043</td>
+                <td><code>18043</code></td>
                 <td>38</td>
             </tr>
         
             <tr>
-                <td>18044</td>
+                <td><code>18044</code></td>
                 <td>39</td>
             </tr>
         
             <tr>
-                <td>18045</td>
+                <td><code>18045</code></td>
                 <td>40</td>
             </tr>
         
             <tr>
-                <td>18046</td>
+                <td><code>18046</code></td>
                 <td>41</td>
             </tr>
         
             <tr>
-                <td>18047</td>
+                <td><code>18047</code></td>
                 <td>42</td>
             </tr>
         
             <tr>
-                <td>18048</td>
+                <td><code>18048</code></td>
                 <td>43</td>
             </tr>
         
             <tr>
-                <td>18049</td>
+                <td><code>18049</code></td>
                 <td>44</td>
             </tr>
         
             <tr>
-                <td>18050</td>
+                <td><code>18050</code></td>
                 <td>46</td>
             </tr>
         
             <tr>
-                <td>18051</td>
+                <td><code>18051</code></td>
                 <td>47</td>
             </tr>
         
             <tr>
-                <td>18052</td>
+                <td><code>18052</code></td>
                 <td>48</td>
             </tr>
         
             <tr>
-                <td>18053</td>
+                <td><code>18053</code></td>
                 <td>49</td>
             </tr>
         
             <tr>
-                <td>18054</td>
+                <td><code>18054</code></td>
                 <td>50</td>
             </tr>
         
             <tr>
-                <td>18055</td>
+                <td><code>18055</code></td>
                 <td>51</td>
             </tr>
         
             <tr>
-                <td>18056</td>
+                <td><code>18056</code></td>
                 <td>52</td>
             </tr>
         
             <tr>
-                <td>18057</td>
+                <td><code>18057</code></td>
                 <td>53</td>
             </tr>
         
             <tr>
-                <td>18058</td>
+                <td><code>18058</code></td>
                 <td>54</td>
             </tr>
         
@@ -3273,7 +3495,7 @@ county_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p13">13-15</a>)
             </small>
         </td>
@@ -3284,8 +3506,8 @@ county_cd
     </div>
 
 
-district_cd
-----------------
+``district_cd``
+--------------------
 
 .. raw:: html
 
@@ -3300,497 +3522,497 @@ district_cd
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>17001</td>
+                <td><code>17001</code></td>
                 <td>01</td>
             </tr>
         
             <tr>
-                <td>17002</td>
+                <td><code>17002</code></td>
                 <td>13</td>
             </tr>
         
             <tr>
-                <td>17003</td>
+                <td><code>17003</code></td>
                 <td>24</td>
             </tr>
         
             <tr>
-                <td>17004</td>
+                <td><code>17004</code></td>
                 <td>35</td>
             </tr>
         
             <tr>
-                <td>17005</td>
+                <td><code>17005</code></td>
                 <td>46</td>
             </tr>
         
             <tr>
-                <td>17006</td>
+                <td><code>17006</code></td>
                 <td>57</td>
             </tr>
         
             <tr>
-                <td>17007</td>
+                <td><code>17007</code></td>
                 <td>68</td>
             </tr>
         
             <tr>
-                <td>17008</td>
+                <td><code>17008</code></td>
                 <td>79</td>
             </tr>
         
             <tr>
-                <td>17009</td>
+                <td><code>17009</code></td>
                 <td>02</td>
             </tr>
         
             <tr>
-                <td>17010</td>
+                <td><code>17010</code></td>
                 <td>05</td>
             </tr>
         
             <tr>
-                <td>17011</td>
+                <td><code>17011</code></td>
                 <td>04</td>
             </tr>
         
             <tr>
-                <td>17013</td>
+                <td><code>17013</code></td>
                 <td>06</td>
             </tr>
         
             <tr>
-                <td>17014</td>
+                <td><code>17014</code></td>
                 <td>07</td>
             </tr>
         
             <tr>
-                <td>17015</td>
+                <td><code>17015</code></td>
                 <td>08</td>
             </tr>
         
             <tr>
-                <td>17016</td>
+                <td><code>17016</code></td>
                 <td>19</td>
             </tr>
         
             <tr>
-                <td>17017</td>
+                <td><code>17017</code></td>
                 <td>10</td>
             </tr>
         
             <tr>
-                <td>17018</td>
+                <td><code>17018</code></td>
                 <td>11</td>
             </tr>
         
             <tr>
-                <td>17019</td>
+                <td><code>17019</code></td>
                 <td>12</td>
             </tr>
         
             <tr>
-                <td>17020</td>
+                <td><code>17020</code></td>
                 <td>14</td>
             </tr>
         
             <tr>
-                <td>17021</td>
+                <td><code>17021</code></td>
                 <td>15</td>
             </tr>
         
             <tr>
-                <td>17022</td>
+                <td><code>17022</code></td>
                 <td>16</td>
             </tr>
         
             <tr>
-                <td>17023</td>
+                <td><code>17023</code></td>
                 <td>17</td>
             </tr>
         
             <tr>
-                <td>17024</td>
+                <td><code>17024</code></td>
                 <td>18</td>
             </tr>
         
             <tr>
-                <td>17026</td>
+                <td><code>17026</code></td>
                 <td>20</td>
             </tr>
         
             <tr>
-                <td>17027</td>
+                <td><code>17027</code></td>
                 <td>21</td>
             </tr>
         
             <tr>
-                <td>17028</td>
+                <td><code>17028</code></td>
                 <td>22</td>
             </tr>
         
             <tr>
-                <td>17029</td>
+                <td><code>17029</code></td>
                 <td>23</td>
             </tr>
         
             <tr>
-                <td>17030</td>
+                <td><code>17030</code></td>
                 <td>25</td>
             </tr>
         
             <tr>
-                <td>17031</td>
+                <td><code>17031</code></td>
                 <td>26</td>
             </tr>
         
             <tr>
-                <td>17032</td>
+                <td><code>17032</code></td>
                 <td>27</td>
             </tr>
         
             <tr>
-                <td>17033</td>
+                <td><code>17033</code></td>
                 <td>28</td>
             </tr>
         
             <tr>
-                <td>17034</td>
+                <td><code>17034</code></td>
                 <td>29</td>
             </tr>
         
             <tr>
-                <td>17035</td>
+                <td><code>17035</code></td>
                 <td>30</td>
             </tr>
         
             <tr>
-                <td>17036</td>
+                <td><code>17036</code></td>
                 <td>31</td>
             </tr>
         
             <tr>
-                <td>17037</td>
+                <td><code>17037</code></td>
                 <td>32</td>
             </tr>
         
             <tr>
-                <td>17038</td>
+                <td><code>17038</code></td>
                 <td>33</td>
             </tr>
         
             <tr>
-                <td>17039</td>
+                <td><code>17039</code></td>
                 <td>34</td>
             </tr>
         
             <tr>
-                <td>17040</td>
+                <td><code>17040</code></td>
                 <td>36</td>
             </tr>
         
             <tr>
-                <td>17041</td>
+                <td><code>17041</code></td>
                 <td>37</td>
             </tr>
         
             <tr>
-                <td>17042</td>
+                <td><code>17042</code></td>
                 <td>38</td>
             </tr>
         
             <tr>
-                <td>17043</td>
+                <td><code>17043</code></td>
                 <td>39</td>
             </tr>
         
             <tr>
-                <td>17044</td>
+                <td><code>17044</code></td>
                 <td>40</td>
             </tr>
         
             <tr>
-                <td>17045</td>
+                <td><code>17045</code></td>
                 <td>41</td>
             </tr>
         
             <tr>
-                <td>17046</td>
+                <td><code>17046</code></td>
                 <td>42</td>
             </tr>
         
             <tr>
-                <td>17047</td>
+                <td><code>17047</code></td>
                 <td>43</td>
             </tr>
         
             <tr>
-                <td>17048</td>
+                <td><code>17048</code></td>
                 <td>44</td>
             </tr>
         
             <tr>
-                <td>17049</td>
+                <td><code>17049</code></td>
                 <td>45</td>
             </tr>
         
             <tr>
-                <td>17050</td>
+                <td><code>17050</code></td>
                 <td>47</td>
             </tr>
         
             <tr>
-                <td>17051</td>
+                <td><code>17051</code></td>
                 <td>48</td>
             </tr>
         
             <tr>
-                <td>17052</td>
+                <td><code>17052</code></td>
                 <td>49</td>
             </tr>
         
             <tr>
-                <td>17053</td>
+                <td><code>17053</code></td>
                 <td>50</td>
             </tr>
         
             <tr>
-                <td>17054</td>
+                <td><code>17054</code></td>
                 <td>51</td>
             </tr>
         
             <tr>
-                <td>17055</td>
+                <td><code>17055</code></td>
                 <td>52</td>
             </tr>
         
             <tr>
-                <td>17056</td>
+                <td><code>17056</code></td>
                 <td>53</td>
             </tr>
         
             <tr>
-                <td>17057</td>
+                <td><code>17057</code></td>
                 <td>54</td>
             </tr>
         
             <tr>
-                <td>17058</td>
+                <td><code>17058</code></td>
                 <td>55</td>
             </tr>
         
             <tr>
-                <td>17059</td>
+                <td><code>17059</code></td>
                 <td>56</td>
             </tr>
         
             <tr>
-                <td>17060</td>
+                <td><code>17060</code></td>
                 <td>03</td>
             </tr>
         
             <tr>
-                <td>17061</td>
+                <td><code>17061</code></td>
                 <td>59</td>
             </tr>
         
             <tr>
-                <td>17062</td>
+                <td><code>17062</code></td>
                 <td>60</td>
             </tr>
         
             <tr>
-                <td>17063</td>
+                <td><code>17063</code></td>
                 <td>61</td>
             </tr>
         
             <tr>
-                <td>17064</td>
+                <td><code>17064</code></td>
                 <td>62</td>
             </tr>
         
             <tr>
-                <td>17065</td>
+                <td><code>17065</code></td>
                 <td>63</td>
             </tr>
         
             <tr>
-                <td>17066</td>
+                <td><code>17066</code></td>
                 <td>64</td>
             </tr>
         
             <tr>
-                <td>17067</td>
+                <td><code>17067</code></td>
                 <td>65</td>
             </tr>
         
             <tr>
-                <td>17068</td>
+                <td><code>17068</code></td>
                 <td>66</td>
             </tr>
         
             <tr>
-                <td>17069</td>
+                <td><code>17069</code></td>
                 <td>67</td>
             </tr>
         
             <tr>
-                <td>17070</td>
+                <td><code>17070</code></td>
                 <td>69</td>
             </tr>
         
             <tr>
-                <td>17071</td>
+                <td><code>17071</code></td>
                 <td>70</td>
             </tr>
         
             <tr>
-                <td>17072</td>
+                <td><code>17072</code></td>
                 <td>71</td>
             </tr>
         
             <tr>
-                <td>17073</td>
+                <td><code>17073</code></td>
                 <td>72</td>
             </tr>
         
             <tr>
-                <td>17074</td>
+                <td><code>17074</code></td>
                 <td>73</td>
             </tr>
         
             <tr>
-                <td>17075</td>
+                <td><code>17075</code></td>
                 <td>74</td>
             </tr>
         
             <tr>
-                <td>17076</td>
+                <td><code>17076</code></td>
                 <td>75</td>
             </tr>
         
             <tr>
-                <td>17077</td>
+                <td><code>17077</code></td>
                 <td>76</td>
             </tr>
         
             <tr>
-                <td>17078</td>
+                <td><code>17078</code></td>
                 <td>77</td>
             </tr>
         
             <tr>
-                <td>17079</td>
+                <td><code>17079</code></td>
                 <td>78</td>
             </tr>
         
             <tr>
-                <td>17080</td>
+                <td><code>17080</code></td>
                 <td>80</td>
             </tr>
         
             <tr>
-                <td>17081</td>
+                <td><code>17081</code></td>
                 <td>09</td>
             </tr>
         
             <tr>
-                <td>17090</td>
+                <td><code>17090</code></td>
                 <td>58</td>
             </tr>
         
             <tr>
-                <td>17091</td>
+                <td><code>17091</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17083</td>
+                <td><code>17083</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17093</td>
+                <td><code>17093</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17094</td>
+                <td><code>17094</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17088</td>
+                <td><code>17088</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17096</td>
+                <td><code>17096</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17012</td>
+                <td><code>17012</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17095</td>
+                <td><code>17095</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17092</td>
+                <td><code>17092</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17086</td>
+                <td><code>17086</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17099</td>
+                <td><code>17099</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17082</td>
+                <td><code>17082</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17025</td>
+                <td><code>17025</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17085</td>
+                <td><code>17085</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17084</td>
+                <td><code>17084</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17087</td>
+                <td><code>17087</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17098</td>
+                <td><code>17098</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>17089</td>
+                <td><code>17089</code></td>
                 <td>Unknown</td>
             </tr>
         
@@ -3800,7 +4022,7 @@ district_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p11">11-13</a>)
             </small>
         </td>
@@ -3830,10 +4052,26 @@ FILER_TYPES_CD
 
 This lookup table describes filer types.
 
-The records in FILER_TYPES_CD are unique by FILTER_TYPE.
-
 **Sample:** `FILER_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPES_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILTER_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -3855,7 +4093,7 @@ Fields
     
     
         <tr>
-            <td>FILER_TYPE</td>
+            <td><code>FILER_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer type identification number</td>
@@ -3864,7 +4102,7 @@ Fields
     
     
         <tr>
-            <td>DESCRIPTION</td>
+            <td><code>DESCRIPTION</code></td>
             <td>String (up to 255)</td>
             <td>No</td>
             <td>Description of the filer type</td>
@@ -3873,7 +4111,7 @@ Fields
     
     
         <tr>
-            <td>GRP_TYPE</td>
+            <td><code>GRP_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Group type assocated with the filer type</td>
@@ -3882,7 +4120,7 @@ Fields
     
     
         <tr>
-            <td>CALC_USE</td>
+            <td><code>CALC_USE</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Use checkbox flag</td>
@@ -3891,7 +4129,7 @@ Fields
     
     
         <tr>
-            <td>GRACE_PERIOD</td>
+            <td><code>GRACE_PERIOD</code></td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -3907,8 +4145,8 @@ Look-up Codes
 =============
 
 
-grp_type
-----------------
+``grp_type``
+--------------------
 
 .. raw:: html
 
@@ -3923,22 +4161,22 @@ grp_type
         <tbody valign="top">
         
             <tr>
-                <td>58</td>
+                <td><code>58</code></td>
                 <td>LOBBY PERIODS</td>
             </tr>
         
             <tr>
-                <td>59</td>
+                <td><code>59</code></td>
                 <td>CAMPAIGN PERIODS</td>
             </tr>
         
             <tr>
-                <td>60</td>
+                <td><code>60</code></td>
                 <td>DEFAULT PERIOD FOR ERRONEOUS DATA</td>
             </tr>
         
             <tr>
-                <td>61</td>
+                <td><code>61</code></td>
                 <td>Unknown</td>
             </tr>
         
@@ -3948,7 +4186,7 @@ grp_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p4">4</a>)
             </small>
         </td>
@@ -3980,10 +4218,28 @@ This table maps legacy filer identification numbers to the system's filer
 identification numbers. Although 60 percent of the FILER_ID and XREF_ID values
 are equal.
 
-The records in FILER_XREF_CD are unique by FILER_ID and XREF_ID.
-
 **Sample:** `FILER_XREF_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_XREF_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+            <td><code>XREF_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -4007,7 +4263,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -4016,7 +4272,7 @@ Fields
     
     
         <tr>
-            <td>XREF_ID</td>
+            <td><code>XREF_ID</code></td>
             <td>String (up to 32)</td>
             <td>Yes</td>
             <td>Alternative filer ID found on many forms</td>
@@ -4025,7 +4281,7 @@ Fields
     
     
         <tr>
-            <td>EFFECT_DT</td>
+            <td><code>EFFECT_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective date</td>
@@ -4034,7 +4290,7 @@ Fields
     
     
         <tr>
-            <td>MIGRATION_SOURCE</td>
+            <td><code>MIGRATION_SOURCE</code></td>
             <td>String (up to 50)</td>
             <td>No</td>
             <td>Source of the XREF_ID. Migration or generated by the AMS.</td>
@@ -4057,10 +4313,26 @@ FILING_PERIOD_CD
 An undocumented table that contains metadata for a variety
 of filing periods.
 
-The records in FILING_PERIOD_CD are unique by PERIOD_ID.
-
 **Sample:** `FILING_PERIOD_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILING_PERIOD_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>PERIOD_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -4084,7 +4356,7 @@ Fields
     
     
         <tr>
-            <td>PERIOD_ID</td>
+            <td><code>PERIOD_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique period identification number</td>
@@ -4093,7 +4365,7 @@ Fields
     
     
         <tr>
-            <td>START_DATE</td>
+            <td><code>START_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Starting date for period</td>
@@ -4102,7 +4374,7 @@ Fields
     
     
         <tr>
-            <td>END_DATE</td>
+            <td><code>END_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ending date of period</td>
@@ -4111,7 +4383,7 @@ Fields
     
     
         <tr>
-            <td>PERIOD_TYPE</td>
+            <td><code>PERIOD_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of filing period</td>
@@ -4120,7 +4392,7 @@ Fields
     
     
         <tr>
-            <td>PER_GRP_TYPE</td>
+            <td><code>PER_GRP_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Period group type</td>
@@ -4129,7 +4401,7 @@ Fields
     
     
         <tr>
-            <td>PERIOD_DESC</td>
+            <td><code>PERIOD_DESC</code></td>
             <td>String (up to 255)</td>
             <td>No</td>
             <td>Period description</td>
@@ -4138,7 +4410,7 @@ Fields
     
     
         <tr>
-            <td>DEADLINE</td>
+            <td><code>DEADLINE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Deadline date</td>
@@ -4154,8 +4426,8 @@ Look-up Codes
 =============
 
 
-period_type
-----------------
+``period_type``
+--------------------
 
 .. raw:: html
 
@@ -4170,7 +4442,7 @@ period_type
         <tbody valign="top">
         
             <tr>
-                <td>1500</td>
+                <td><code>1500</code></td>
                 <td>Standard period</td>
             </tr>
         
@@ -4180,7 +4452,7 @@ period_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3</a>)
             </small>
         </td>
@@ -4191,8 +4463,8 @@ period_type
     </div>
 
 
-per_grp_type
-----------------
+``per_grp_type``
+--------------------
 
 .. raw:: html
 
@@ -4207,7 +4479,7 @@ per_grp_type
         <tbody valign="top">
         
             <tr>
-                <td>1500</td>
+                <td><code>1500</code></td>
                 <td>STANDARD PERIOD</td>
             </tr>
         
@@ -4217,7 +4489,7 @@ per_grp_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3</a>)
             </small>
         </td>
@@ -4249,10 +4521,26 @@ This lookup table stores group type information. Most (but not all) of the GRP_I
 GRP_NAME value pairs in this table match the FILER_TYPE/DESCRIPTION value pairs in
 the FILER_TYPE_CD table.
 
-The records in GROUP_TYPES_CD are unique by GRP_ID.
-
 **Sample:** `GROUP_TYPES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/GROUP_TYPES_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>GRP_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -4276,7 +4564,7 @@ Fields
     
     
         <tr>
-            <td>GRP_ID</td>
+            <td><code>GRP_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Group identification number</td>
@@ -4285,7 +4573,7 @@ Fields
     
     
         <tr>
-            <td>GRP_NAME</td>
+            <td><code>GRP_NAME</code></td>
             <td>String (up to 28)</td>
             <td>No</td>
             <td>Group name. Many of the values in this column are empty strings.</td>
@@ -4294,7 +4582,7 @@ Fields
     
     
         <tr>
-            <td>GRP_DESC</td>
+            <td><code>GRP_DESC</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Group Description. This column contains only empty strings.</td>
@@ -4316,10 +4604,28 @@ IMAGE_LINKS_CD
 
 This table links images to filers and accounts.
 
-The records in IMAGE_LINKS_CD are unique by IMG_LINK_ID and IMG_ID.
-
 **Sample:** `IMAGE_LINKS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/IMAGE_LINKS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>IMG_LINK_ID</code></td>
+        
+            <td><code>IMG_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -4343,7 +4649,7 @@ Fields
     
     
         <tr>
-            <td>IMG_LINK_ID</td>
+            <td><code>IMG_LINK_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Image link identification number</td>
@@ -4352,7 +4658,7 @@ Fields
     
     
         <tr>
-            <td>IMG_LINK_TYPE</td>
+            <td><code>IMG_LINK_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of image link</td>
@@ -4361,7 +4667,7 @@ Fields
     
     
         <tr>
-            <td>IMG_ID</td>
+            <td><code>IMG_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Image identification number</td>
@@ -4370,7 +4676,7 @@ Fields
     
     
         <tr>
-            <td>IMG_TYPE</td>
+            <td><code>IMG_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of image</td>
@@ -4379,7 +4685,7 @@ Fields
     
     
         <tr>
-            <td>IMG_DT</td>
+            <td><code>IMG_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Image date</td>
@@ -4395,8 +4701,8 @@ Look-up Codes
 =============
 
 
-img_link_type
-----------------
+``img_link_type``
+--------------------
 
 .. raw:: html
 
@@ -4411,12 +4717,12 @@ img_link_type
         <tbody valign="top">
         
             <tr>
-                <td>6501</td>
+                <td><code>6501</code></td>
                 <td>FILING ID</td>
             </tr>
         
             <tr>
-                <td>6502</td>
+                <td><code>6502</code></td>
                 <td>FILER ID</td>
             </tr>
         
@@ -4426,7 +4732,7 @@ img_link_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p5">5</a>)
             </small>
         </td>
@@ -4437,8 +4743,8 @@ img_link_type
     </div>
 
 
-img_type
-----------------
+``img_type``
+--------------------
 
 .. raw:: html
 
@@ -4453,27 +4759,27 @@ img_type
         <tbody valign="top">
         
             <tr>
-                <td>6001</td>
+                <td><code>6001</code></td>
                 <td>FAX</td>
             </tr>
         
             <tr>
-                <td>6002</td>
+                <td><code>6002</code></td>
                 <td>PERSONAL PHOTO</td>
             </tr>
         
             <tr>
-                <td>6004</td>
+                <td><code>6004</code></td>
                 <td>SCANNED CHECK</td>
             </tr>
         
             <tr>
-                <td>6005</td>
+                <td><code>6005</code></td>
                 <td>SCANNED LETTER</td>
             </tr>
         
             <tr>
-                <td>6007</td>
+                <td><code>6007</code></td>
                 <td>IMAGE TYPES</td>
             </tr>
         
@@ -4483,7 +4789,7 @@ img_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p4">4</a>)
             </small>
         </td>
@@ -4513,10 +4819,26 @@ LEGISLATIVE_SESSIONS_CD
 
 Legislative session, begin and end dates look up table.
 
-The records in LEGISLATIVE_SESSIONS_CD are unique by SESSION_ID.
-
 **Sample:** `LEGISLATIVE_SESSIONS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEGISLATIVE_SESSIONS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>SESSION_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -4540,7 +4862,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Legislative session identification number</td>
@@ -4549,7 +4871,7 @@ Fields
     
     
         <tr>
-            <td>BEGIN_DATE</td>
+            <td><code>BEGIN_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Session start date</td>
@@ -4558,7 +4880,7 @@ Fields
     
     
         <tr>
-            <td>END_DATE</td>
+            <td><code>END_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Session end date</td>
@@ -4580,10 +4902,28 @@ LOOKUP_CODES_CD
 
 The description of some lookup codes in the system.
 
-The records in LOOKUP_CODES_CD are unique by CODE_ID and CODE_TYPE.
-
 **Sample:** `LOOKUP_CODES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOOKUP_CODES_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>CODE_ID</code></td>
+        
+            <td><code>CODE_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -4607,7 +4947,7 @@ Fields
     
     
         <tr>
-            <td>CODE_TYPE</td>
+            <td><code>CODE_TYPE</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>This field is undocumented</td>
@@ -4616,7 +4956,7 @@ Fields
     
     
         <tr>
-            <td>CODE_ID</td>
+            <td><code>CODE_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>The code&#39;s identification number</td>
@@ -4625,7 +4965,7 @@ Fields
     
     
         <tr>
-            <td>CODE_DESC</td>
+            <td><code>CODE_DESC</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Code description</td>
@@ -4648,9 +4988,9 @@ NAMES_CD
 The name of all entities in the system. Used for searches when
 the name has an identification number.
 
-
-
 **Sample:** `NAMES_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/NAMES_CD.TSV>`_
+
+
 
 
 
@@ -4675,7 +5015,7 @@ Fields
     
     
         <tr>
-            <td>NAMID</td>
+            <td><code>NAMID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number unique to the name</td>
@@ -4684,7 +5024,7 @@ Fields
     
     
         <tr>
-            <td>NAML</td>
+            <td><code>NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Last name</td>
@@ -4693,7 +5033,7 @@ Fields
     
     
         <tr>
-            <td>NAMF</td>
+            <td><code>NAMF</code></td>
             <td>String (up to 50)</td>
             <td>No</td>
             <td>First name</td>
@@ -4702,7 +5042,7 @@ Fields
     
     
         <tr>
-            <td>NAMT</td>
+            <td><code>NAMT</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Name title or prefix</td>
@@ -4711,7 +5051,7 @@ Fields
     
     
         <tr>
-            <td>NAMS</td>
+            <td><code>NAMS</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Name suffix</td>
@@ -4720,7 +5060,7 @@ Fields
     
     
         <tr>
-            <td>MONIKER</td>
+            <td><code>MONIKER</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Entity&#39;s moniker</td>
@@ -4729,7 +5069,7 @@ Fields
     
     
         <tr>
-            <td>MONIKER_POS</td>
+            <td><code>MONIKER_POS</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Location of the entity&#39;s moniker</td>
@@ -4738,7 +5078,7 @@ Fields
     
     
         <tr>
-            <td>NAMM</td>
+            <td><code>NAMM</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Middle name</td>
@@ -4747,7 +5087,7 @@ Fields
     
     
         <tr>
-            <td>FULLNAME</td>
+            <td><code>FULLNAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Full name</td>
@@ -4756,7 +5096,7 @@ Fields
     
     
         <tr>
-            <td>NAML_SEARCH</td>
+            <td><code>NAML_SEARCH</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Last name</td>
@@ -4777,8 +5117,6 @@ RECEIVED_FILINGS_CD
 *********************
 
 This table is undocumented.
-
-
 
 **Sample:** `RECEIVED_FILINGS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RECEIVED_FILINGS_CD.TSV>`_
 
@@ -4877,6 +5215,8 @@ Filing forms
 
 
 
+
+
 Fields
 ======
 
@@ -4898,7 +5238,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -4907,7 +5247,7 @@ Fields
     
     
         <tr>
-            <td>FILING_FILE_NAME</td>
+            <td><code>FILING_FILE_NAME</code></td>
             <td>String (up to 14)</td>
             <td>No</td>
             <td>The field is undocumented</td>
@@ -4916,7 +5256,7 @@ Fields
     
     
         <tr>
-            <td>RECEIVED_DATE</td>
+            <td><code>RECEIVED_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date received</td>
@@ -4925,7 +5265,7 @@ Fields
     
     
         <tr>
-            <td>FILING_DIRECTORY</td>
+            <td><code>FILING_DIRECTORY</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -4934,7 +5274,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Unique filing identificiation number</td>
@@ -4943,7 +5283,7 @@ Fields
     
     
         <tr>
-            <td>FORM_ID</td>
+            <td><code>FORM_ID</code></td>
             <td>String (up to 4)</td>
             <td>No</td>
             <td>Form identification code</td>
@@ -4952,7 +5292,7 @@ Fields
     
     
         <tr>
-            <td>RECEIVE_COMMENT</td>
+            <td><code>RECEIVE_COMMENT</code></td>
             <td>String (up to 51)</td>
             <td>No</td>
             <td>A comment</td>
@@ -4968,8 +5308,8 @@ Look-up Codes
 =============
 
 
-form_id
-----------------
+``form_id``
+--------------------
 
 .. raw:: html
 
@@ -4984,112 +5324,112 @@ form_id
         <tbody valign="top">
         
             <tr>
-                <td>F400</td>
+                <td><code>F400</code></td>
                 <td>Form 400: Statement of Organization (Slate Mailer Organization)</td>
             </tr>
         
             <tr>
-                <td>F401</td>
+                <td><code>F401</code></td>
                 <td>Form 401: Slate Mailer Organization Campaign Statement</td>
             </tr>
         
             <tr>
-                <td>F402</td>
+                <td><code>F402</code></td>
                 <td>Form 402: Statement of Termination (Slate Mailer Organization)</td>
             </tr>
         
             <tr>
-                <td>F410</td>
+                <td><code>F410</code></td>
                 <td>Form 410: Statement of Organization Recipient Committee</td>
             </tr>
         
             <tr>
-                <td>F425</td>
+                <td><code>F425</code></td>
                 <td>Form 425: Semi-Annual Statement of no Activity</td>
             </tr>
         
             <tr>
-                <td>F450</td>
+                <td><code>F450</code></td>
                 <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
             </tr>
         
             <tr>
-                <td>F460</td>
+                <td><code>F460</code></td>
                 <td>Form 460: Recipient Committee Campaign Statement</td>
             </tr>
         
             <tr>
-                <td>F461</td>
+                <td><code>F461</code></td>
                 <td>Form 461: Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement</td>
             </tr>
         
             <tr>
-                <td>F465</td>
+                <td><code>F465</code></td>
                 <td>Form 465: Supplemental Independent Expenditure Report</td>
             </tr>
         
             <tr>
-                <td>F496</td>
+                <td><code>F496</code></td>
                 <td>Form 496: Late Independent Expenditure Report</td>
             </tr>
         
             <tr>
-                <td>F497</td>
+                <td><code>F497</code></td>
                 <td>Form 497: Late Contribution Report</td>
             </tr>
         
             <tr>
-                <td>F498</td>
+                <td><code>F498</code></td>
                 <td>Form 498: Slate Mailer Late Payment Report</td>
             </tr>
         
             <tr>
-                <td>F601</td>
+                <td><code>F601</code></td>
                 <td>Form 601: Lobbying Firm Registration Statement</td>
             </tr>
         
             <tr>
-                <td>F602</td>
+                <td><code>F602</code></td>
                 <td>Form 602: Lobbying Firm Activity Authorization</td>
             </tr>
         
             <tr>
-                <td>F603</td>
+                <td><code>F603</code></td>
                 <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
             </tr>
         
             <tr>
-                <td>F604</td>
+                <td><code>F604</code></td>
                 <td>Form 604: Lobbyist Certification Statement</td>
             </tr>
         
             <tr>
-                <td>F606</td>
+                <td><code>F606</code></td>
                 <td>Form 606: Notice of Termination</td>
             </tr>
         
             <tr>
-                <td>F607</td>
+                <td><code>F607</code></td>
                 <td>Form 607: Notice of Withdrawal</td>
             </tr>
         
             <tr>
-                <td>F615</td>
+                <td><code>F615</code></td>
                 <td>Form 615: Lobbyist Report</td>
             </tr>
         
             <tr>
-                <td>F625</td>
+                <td><code>F625</code></td>
                 <td>Form 625: Report of Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>F635</td>
+                <td><code>F635</code></td>
                 <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
             </tr>
         
             <tr>
-                <td>F645</td>
+                <td><code>F645</code></td>
                 <td>Form 645: Report of Person Spending $5,000 or More</td>
             </tr>
         
@@ -5099,7 +5439,7 @@ form_id
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
             </small>
         </td>
@@ -5129,10 +5469,26 @@ REPORTS_CD
 
 This is an undocumented model.
 
-The records in REPORTS_CD are unique by RPT_ID.
-
 **Sample:** `REPORTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/REPORTS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>RPT_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -5156,7 +5512,7 @@ Fields
     
     
         <tr>
-            <td>RPT_ID</td>
+            <td><code>RPT_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique identification number</td>
@@ -5165,7 +5521,7 @@ Fields
     
     
         <tr>
-            <td>RPT_NAME</td>
+            <td><code>RPT_NAME</code></td>
             <td>String (up to 74)</td>
             <td>No</td>
             <td>Name of the report</td>
@@ -5174,7 +5530,7 @@ Fields
     
     
         <tr>
-            <td>RPT_DESC_</td>
+            <td><code>RPT_DESC_</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Description of the report</td>
@@ -5183,7 +5539,7 @@ Fields
     
     
         <tr>
-            <td>PATH</td>
+            <td><code>PATH</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Report path</td>
@@ -5192,7 +5548,7 @@ Fields
     
     
         <tr>
-            <td>DATA_OBJECT</td>
+            <td><code>DATA_OBJECT</code></td>
             <td>String (up to 38)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5201,7 +5557,7 @@ Fields
     
     
         <tr>
-            <td>PARMS_FLG_Y_N</td>
+            <td><code>PARMS_FLG_Y_N</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Parameters indication flag</td>
@@ -5210,7 +5566,7 @@ Fields
     
     
         <tr>
-            <td>RPT_TYPE</td>
+            <td><code>RPT_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Type of the report</td>
@@ -5219,7 +5575,7 @@ Fields
     
     
         <tr>
-            <td>PARM_DEFINITION</td>
+            <td><code>PARM_DEFINITION</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Parameter definition</td>
@@ -5235,8 +5591,8 @@ Look-up Codes
 =============
 
 
-rpt_type
-----------------
+``rpt_type``
+--------------------
 
 .. raw:: html
 
@@ -5251,37 +5607,37 @@ rpt_type
         <tbody valign="top">
         
             <tr>
-                <td>401</td>
+                <td><code>401</code></td>
                 <td>PUBLIC REPORTS</td>
             </tr>
         
             <tr>
-                <td>402</td>
+                <td><code>402</code></td>
                 <td>AUDITS</td>
             </tr>
         
             <tr>
-                <td>403</td>
+                <td><code>403</code></td>
                 <td>FINANCIAL REPORTS</td>
             </tr>
         
             <tr>
-                <td>404</td>
+                <td><code>404</code></td>
                 <td>AUDITS</td>
             </tr>
         
             <tr>
-                <td>405</td>
+                <td><code>405</code></td>
                 <td>MAILING LABELS</td>
             </tr>
         
             <tr>
-                <td>406</td>
+                <td><code>406</code></td>
                 <td>OTHER REPORTS</td>
             </tr>
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
@@ -5291,7 +5647,7 @@ rpt_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p2">2</a>)
             </small>
         </td>
@@ -5323,10 +5679,30 @@ This table and its fields are listed in the official CAL-ACCESS documentation,
 but is not fully explained. The table's description contains this note: "J M needs
 to document. This is in his list of tables designed for future enhancements."
 
-The records in FILER_TYPE_PERIODS_CD are unique by ELECTION_TYPE, FILER_TYPE and PERIOD_ID.
-
 **Sample:** `FILER_TYPE_PERIODS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPE_PERIODS_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>ELECTION_TYPE</code></td>
+        
+            <td><code>FILER_TYPE</code></td>
+        
+            <td><code>PERIOD_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -5350,7 +5726,7 @@ Fields
     
     
         <tr>
-            <td>ELECTION_TYPE</td>
+            <td><code>ELECTION_TYPE</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Election type</td>
@@ -5359,7 +5735,7 @@ Fields
     
     
         <tr>
-            <td>FILER_TYPE</td>
+            <td><code>FILER_TYPE</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Foreign key referencing FilerTypesCd.filer_type</td>
@@ -5368,7 +5744,7 @@ Fields
     
     
         <tr>
-            <td>PERIOD_ID</td>
+            <td><code>PERIOD_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Foreign key referencing FilingPeriodCd.period_id</td>
@@ -5384,8 +5760,8 @@ Look-up Codes
 =============
 
 
-election_type
-----------------
+``election_type``
+--------------------
 
 .. raw:: html
 
@@ -5400,37 +5776,37 @@ election_type
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>N/A</td>
             </tr>
         
             <tr>
-                <td>3001</td>
+                <td><code>3001</code></td>
                 <td>GENERAL</td>
             </tr>
         
             <tr>
-                <td>3002</td>
+                <td><code>3002</code></td>
                 <td>PRIMARY</td>
             </tr>
         
             <tr>
-                <td>3003</td>
+                <td><code>3003</code></td>
                 <td>RECALL</td>
             </tr>
         
             <tr>
-                <td>3004</td>
+                <td><code>3004</code></td>
                 <td>SPECIAL ELECTION</td>
             </tr>
         
             <tr>
-                <td>3005</td>
+                <td><code>3005</code></td>
                 <td>OFFICEHOLDER</td>
             </tr>
         
             <tr>
-                <td>3006</td>
+                <td><code>3006</code></td>
                 <td>SPECIAL RUNOFF</td>
             </tr>
         
@@ -5440,7 +5816,7 @@ election_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3-4</a>)
             </small>
         </td>

@@ -17,8 +17,6 @@ CVR_REGISTRATION_CD
 
 Cover page of lobbying disclosure forms (601, 602, 603, 604, 606, and 607)
 
-The records in CVR_REGISTRATION_CD are unique by FILING_ID, AMEND_ID, REC_TYPE and FORM_TYPE.
-
 **Sample:** `CVR_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_REGISTRATION_CD.TSV>`_
 
 
@@ -52,6 +50,30 @@ Filing forms
 
 
 
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
 Fields
 ======
 
@@ -73,7 +95,7 @@ Fields
     
     
         <tr>
-            <td>A_B_CITY</td>
+            <td><code>A_B_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Individual or business entity city</td>
@@ -82,7 +104,7 @@ Fields
     
     
         <tr>
-            <td>A_B_NAME</td>
+            <td><code>A_B_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of individual or business entity</td>
@@ -91,7 +113,7 @@ Fields
     
     
         <tr>
-            <td>A_B_ST</td>
+            <td><code>A_B_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Individual or business entity state</td>
@@ -100,7 +122,7 @@ Fields
     
     
         <tr>
-            <td>A_B_ZIP4</td>
+            <td><code>A_B_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Individual or business entity ZIP Code.</td>
@@ -109,7 +131,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -118,7 +140,7 @@ Fields
     
     
         <tr>
-            <td>AUTH_CITY</td>
+            <td><code>AUTH_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Authorized lobbying firm business address city</td>
@@ -127,7 +149,7 @@ Fields
     
     
         <tr>
-            <td>AUTH_NAME</td>
+            <td><code>AUTH_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Authorized lobbying firm business name. Applies to Form 602.</td>
@@ -136,7 +158,7 @@ Fields
     
     
         <tr>
-            <td>AUTH_ST</td>
+            <td><code>AUTH_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Authorized lobbying firm business address state</td>
@@ -145,7 +167,7 @@ Fields
     
     
         <tr>
-            <td>AUTH_ZIP4</td>
+            <td><code>AUTH_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Authorized lobbying firm business address ZIP Code</td>
@@ -154,7 +176,7 @@ Fields
     
     
         <tr>
-            <td>BUS_CB</td>
+            <td><code>BUS_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Business included activity checkbox</td>
@@ -163,7 +185,7 @@ Fields
     
     
         <tr>
-            <td>BUS_CITY</td>
+            <td><code>BUS_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer business address city</td>
@@ -172,7 +194,7 @@ Fields
     
     
         <tr>
-            <td>BUS_CLASS</td>
+            <td><code>BUS_CLASS</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Classifiction values of business related entities. This field is exclusive of the business class field. One these must be populated but not both.</td>
@@ -181,7 +203,7 @@ Fields
     
     
         <tr>
-            <td>BUS_DESCR</td>
+            <td><code>BUS_DESCR</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of business classification if coded as other</td>
@@ -190,7 +212,7 @@ Fields
     
     
         <tr>
-            <td>BUS_EMAIL</td>
+            <td><code>BUS_EMAIL</code></td>
             <td>String (up to 60)</td>
             <td>No</td>
             <td>Filer business address email</td>
@@ -199,7 +221,7 @@ Fields
     
     
         <tr>
-            <td>BUS_FAX</td>
+            <td><code>BUS_FAX</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer business address fax number</td>
@@ -208,7 +230,7 @@ Fields
     
     
         <tr>
-            <td>BUS_PHON</td>
+            <td><code>BUS_PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer business address phone number</td>
@@ -217,7 +239,7 @@ Fields
     
     
         <tr>
-            <td>BUS_ST</td>
+            <td><code>BUS_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Filer business address state</td>
@@ -226,7 +248,7 @@ Fields
     
     
         <tr>
-            <td>BUS_ZIP4</td>
+            <td><code>BUS_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer business address ZIP Code</td>
@@ -235,7 +257,7 @@ Fields
     
     
         <tr>
-            <td>C_LESS50</td>
+            <td><code>C_LESS50</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Industry associations with fewer than 50 members check this box</td>
@@ -244,7 +266,7 @@ Fields
     
     
         <tr>
-            <td>C_MORE50</td>
+            <td><code>C_MORE50</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Industry associations with more than 50 check this box.</td>
@@ -253,7 +275,7 @@ Fields
     
     
         <tr>
-            <td>COMPLET_DT</td>
+            <td><code>COMPLET_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ethics orientation class completion date. Applies to Form 604. As filed by the lobbyist.</td>
@@ -262,7 +284,7 @@ Fields
     
     
         <tr>
-            <td>DESCRIP_1</td>
+            <td><code>DESCRIP_1</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Description of business activity, industry or other</td>
@@ -271,7 +293,7 @@ Fields
     
     
         <tr>
-            <td>DESCRIP_2</td>
+            <td><code>DESCRIP_2</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Description of specific or other lobbying interest</td>
@@ -280,7 +302,7 @@ Fields
     
     
         <tr>
-            <td>EFF_DATE</td>
+            <td><code>EFF_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective date of authoarization or termination</td>
@@ -289,7 +311,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CD</td>
+            <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code describing the filer</td>
@@ -298,7 +320,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -307,7 +329,7 @@ Fields
     
     
         <tr>
-            <td>FILER_NAMF</td>
+            <td><code>FILER_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Filer first name</td>
@@ -316,7 +338,7 @@ Fields
     
     
         <tr>
-            <td>FILER_NAML</td>
+            <td><code>FILER_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Filer last name</td>
@@ -325,7 +347,7 @@ Fields
     
     
         <tr>
-            <td>FILER_NAMS</td>
+            <td><code>FILER_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer suffix</td>
@@ -334,7 +356,7 @@ Fields
     
     
         <tr>
-            <td>FILER_NAMT</td>
+            <td><code>FILER_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer title or prefix</td>
@@ -343,7 +365,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -352,7 +374,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of the lobbyist employer or firm. Applies to Forms 604, 606, 607.</td>
@@ -361,7 +383,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -370,7 +392,7 @@ Fields
     
     
         <tr>
-            <td>IND_CB</td>
+            <td><code>IND_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Individual checkbox</td>
@@ -379,7 +401,7 @@ Fields
     
     
         <tr>
-            <td>IND_CLASS</td>
+            <td><code>IND_CLASS</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Classification values to category industry related entities. This field is exclusive of the business class field. One these must be populated but not both.</td>
@@ -388,7 +410,7 @@ Fields
     
     
         <tr>
-            <td>IND_DESCR</td>
+            <td><code>IND_DESCR</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of industry classification if coded as other</td>
@@ -397,7 +419,7 @@ Fields
     
     
         <tr>
-            <td>INFLUEN_YN</td>
+            <td><code>INFLUEN_YN</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Attempt to influence state legislation</td>
@@ -406,7 +428,7 @@ Fields
     
     
         <tr>
-            <td>L_FIRM_CB</td>
+            <td><code>L_FIRM_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying firm within the ... &#39; checkbox. Applies to Form 607.</td>
@@ -415,7 +437,7 @@ Fields
     
     
         <tr>
-            <td>LBY_604_CB</td>
+            <td><code>LBY_604_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying Agency in this 604 statement&#39; checkbox. Applies to Form 604.</td>
@@ -424,7 +446,7 @@ Fields
     
     
         <tr>
-            <td>LBY_REG_CB</td>
+            <td><code>LBY_REG_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying Agency in form 601/603 registration statement&#39; checkbox. Applies to Form 604.</td>
@@ -433,7 +455,7 @@ Fields
     
     
         <tr>
-            <td>LOBBY_CB</td>
+            <td><code>LOBBY_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying within the meaning...&#39; checkbox. Applies to Form 607.</td>
@@ -442,7 +464,7 @@ Fields
     
     
         <tr>
-            <td>LOBBY_INT</td>
+            <td><code>LOBBY_INT</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Description of Part III lobbying interests. Applies to Form 603</td>
@@ -451,7 +473,7 @@ Fields
     
     
         <tr>
-            <td>LS_BEG_YR</td>
+            <td><code>LS_BEG_YR</code></td>
             <td>String (up to 5)</td>
             <td>No</td>
             <td>Year legislative session begins</td>
@@ -460,7 +482,7 @@ Fields
     
     
         <tr>
-            <td>LS_END_YR</td>
+            <td><code>LS_END_YR</code></td>
             <td>String (up to 5)</td>
             <td>No</td>
             <td>Year legislative sessions ends</td>
@@ -469,7 +491,7 @@ Fields
     
     
         <tr>
-            <td>MAIL_CITY</td>
+            <td><code>MAIL_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer mailing address city</td>
@@ -478,7 +500,7 @@ Fields
     
     
         <tr>
-            <td>MAIL_PHON</td>
+            <td><code>MAIL_PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer mailing address phone number</td>
@@ -487,7 +509,7 @@ Fields
     
     
         <tr>
-            <td>MAIL_ST</td>
+            <td><code>MAIL_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Filer mailing address state</td>
@@ -496,7 +518,7 @@ Fields
     
     
         <tr>
-            <td>MAIL_ZIP4</td>
+            <td><code>MAIL_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer mailing address ZIP Code</td>
@@ -505,7 +527,7 @@ Fields
     
     
         <tr>
-            <td>NEWCERT_CB</td>
+            <td><code>NEWCERT_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Will require a new certification checkbox. Applies to Form 604.</td>
@@ -514,7 +536,7 @@ Fields
     
     
         <tr>
-            <td>OTH_CB</td>
+            <td><code>OTH_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Other checkbox</td>
@@ -523,7 +545,7 @@ Fields
     
     
         <tr>
-            <td>PRN_NAMF</td>
+            <td><code>PRN_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer first name</td>
@@ -532,7 +554,7 @@ Fields
     
     
         <tr>
-            <td>PRN_NAML</td>
+            <td><code>PRN_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Signer last name</td>
@@ -541,7 +563,7 @@ Fields
     
     
         <tr>
-            <td>PRN_NAMS</td>
+            <td><code>PRN_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer suffix</td>
@@ -550,7 +572,7 @@ Fields
     
     
         <tr>
-            <td>PRN_NAMT</td>
+            <td><code>PRN_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer title or prefix</td>
@@ -559,7 +581,7 @@ Fields
     
     
         <tr>
-            <td>QUAL_DATE</td>
+            <td><code>QUAL_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date qualified. Applies to forms 601 and 603. Only occurs once in lobbying filings.</td>
@@ -568,7 +590,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR</td>
@@ -577,7 +599,7 @@ Fields
     
     
         <tr>
-            <td>RENCERT_CB</td>
+            <td><code>RENCERT_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Will take a renewel certification checkbox. Applies to Form 604.</td>
@@ -586,7 +608,7 @@ Fields
     
     
         <tr>
-            <td>REPORT_NUM</td>
+            <td><code>REPORT_NUM</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Amendment number as reported by the filer. 000 is the original. 001-999 are amendments.</td>
@@ -595,7 +617,7 @@ Fields
     
     
         <tr>
-            <td>RPT_DATE</td>
+            <td><code>RPT_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this report or amendment is filed, as reported by the filer</td>
@@ -604,7 +626,7 @@ Fields
     
     
         <tr>
-            <td>SENDER_ID</td>
+            <td><code>SENDER_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of the lobbyist entity submitting this report. This is equal to the filer ID if the filer is the submitting the report and the firm or employer if they are submitting the report.</td>
@@ -613,7 +635,7 @@ Fields
     
     
         <tr>
-            <td>SIG_DATE</td>
+            <td><code>SIG_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date signed</td>
@@ -622,7 +644,7 @@ Fields
     
     
         <tr>
-            <td>SIG_LOC</td>
+            <td><code>SIG_LOC</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer city and state</td>
@@ -631,7 +653,7 @@ Fields
     
     
         <tr>
-            <td>SIG_NAMF</td>
+            <td><code>SIG_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer first name</td>
@@ -640,7 +662,7 @@ Fields
     
     
         <tr>
-            <td>SIG_NAML</td>
+            <td><code>SIG_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Signer last name</td>
@@ -649,7 +671,7 @@ Fields
     
     
         <tr>
-            <td>SIG_NAMS</td>
+            <td><code>SIG_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer suffix</td>
@@ -658,7 +680,7 @@ Fields
     
     
         <tr>
-            <td>SIG_NAMT</td>
+            <td><code>SIG_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer title or prefix</td>
@@ -667,7 +689,7 @@ Fields
     
     
         <tr>
-            <td>SIG_TITLE</td>
+            <td><code>SIG_TITLE</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Title of signer</td>
@@ -676,7 +698,7 @@ Fields
     
     
         <tr>
-            <td>ST_AGENCY</td>
+            <td><code>ST_AGENCY</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>List of identified state agencies. Applies to Form 604.</td>
@@ -685,7 +707,7 @@ Fields
     
     
         <tr>
-            <td>ST_LEG_YN</td>
+            <td><code>ST_LEG_YN</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Will lobby state legislature checkbox. Applies to Form 604.</td>
@@ -694,7 +716,7 @@ Fields
     
     
         <tr>
-            <td>STMT_FIRM</td>
+            <td><code>STMT_FIRM</code></td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Lobby firm named in &#39;Statement of Responsible Officer&#39;This field only applies to Form 601.</td>
@@ -703,7 +725,7 @@ Fields
     
     
         <tr>
-            <td>TRADE_CB</td>
+            <td><code>TRADE_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Industry, trade or professional checkbox</td>
@@ -719,8 +741,8 @@ Look-up Codes
 =============
 
 
-bus_class
-----------------
+``bus_class``
+--------------------
 
 .. raw:: html
 
@@ -735,52 +757,52 @@ bus_class
         <tbody valign="top">
         
             <tr>
-                <td>ENT</td>
+                <td><code>ENT</code></td>
                 <td>Entertainment/Recreation</td>
             </tr>
         
             <tr>
-                <td>FIN</td>
+                <td><code>FIN</code></td>
                 <td>Finance/Insurance</td>
             </tr>
         
             <tr>
-                <td>LOG</td>
+                <td><code>LOG</code></td>
                 <td>Lodging/Restaurants</td>
             </tr>
         
             <tr>
-                <td>MAN</td>
+                <td><code>MAN</code></td>
                 <td>Manufacturing/Industrial</td>
             </tr>
         
             <tr>
-                <td>MER</td>
+                <td><code>MER</code></td>
                 <td>Merchandise/Retail</td>
             </tr>
         
             <tr>
-                <td>OIL</td>
+                <td><code>OIL</code></td>
                 <td>Oil and Gas</td>
             </tr>
         
             <tr>
-                <td>OTH</td>
+                <td><code>OTH</code></td>
                 <td>Other</td>
             </tr>
         
             <tr>
-                <td>PRO</td>
+                <td><code>PRO</code></td>
                 <td>Professional/Trade</td>
             </tr>
         
             <tr>
-                <td>REA</td>
+                <td><code>REA</code></td>
                 <td>Real Estate</td>
             </tr>
         
             <tr>
-                <td>TRN</td>
+                <td><code>TRN</code></td>
                 <td>Transportation</td>
             </tr>
         
@@ -790,7 +812,7 @@ bus_class
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p70">70</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82">82</a>)
             </small>
         </td>
@@ -801,8 +823,8 @@ bus_class
     </div>
 
 
-entity_cd
-----------------
+``entity_cd``
+--------------------
 
 .. raw:: html
 
@@ -817,27 +839,27 @@ entity_cd
         <tbody valign="top">
         
             <tr>
-                <td>BUS</td>
+                <td><code>BUS</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>FRM</td>
+                <td><code>FRM</code></td>
                 <td>Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>LBY</td>
+                <td><code>LBY</code></td>
                 <td>Lobbyist (an individual)</td>
             </tr>
         
             <tr>
-                <td>LCO</td>
+                <td><code>LCO</code></td>
                 <td>Lobbying Coalition</td>
             </tr>
         
             <tr>
-                <td>LEM</td>
+                <td><code>LEM</code></td>
                 <td>Lobbying Employer</td>
             </tr>
         
@@ -847,7 +869,7 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p68">68</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82">82</a>)
             </small>
         </td>
@@ -858,8 +880,8 @@ entity_cd
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -874,32 +896,32 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F601</td>
+                <td><code>F601</code></td>
                 <td>Form 601: Lobbying Firm Registration Statement</td>
             </tr>
         
             <tr>
-                <td>F602</td>
+                <td><code>F602</code></td>
                 <td>Form 602: Lobbying Firm Activity Authorization</td>
             </tr>
         
             <tr>
-                <td>F603</td>
+                <td><code>F603</code></td>
                 <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
             </tr>
         
             <tr>
-                <td>F604</td>
+                <td><code>F604</code></td>
                 <td>Form 604: Lobbyist Certification Statement</td>
             </tr>
         
             <tr>
-                <td>F606</td>
+                <td><code>F606</code></td>
                 <td>Form 606: Notice of Termination</td>
             </tr>
         
             <tr>
-                <td>F607</td>
+                <td><code>F607</code></td>
                 <td>Form 607: Notice of Withdrawal</td>
             </tr>
         
@@ -909,7 +931,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p68">68</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82">82</a>)
             </small>
         </td>
@@ -920,8 +942,8 @@ form_type
     </div>
 
 
-ind_class
-----------------
+``ind_class``
+--------------------
 
 .. raw:: html
 
@@ -936,52 +958,52 @@ ind_class
         <tbody valign="top">
         
             <tr>
-                <td>AGR</td>
+                <td><code>AGR</code></td>
                 <td>Agriculture</td>
             </tr>
         
             <tr>
-                <td>EDU</td>
+                <td><code>EDU</code></td>
                 <td>Education</td>
             </tr>
         
             <tr>
-                <td>GOV</td>
+                <td><code>GOV</code></td>
                 <td>Government</td>
             </tr>
         
             <tr>
-                <td>HEA</td>
+                <td><code>HEA</code></td>
                 <td>Health</td>
             </tr>
         
             <tr>
-                <td>LAB</td>
+                <td><code>LAB</code></td>
                 <td>Labor Unions</td>
             </tr>
         
             <tr>
-                <td>LEG</td>
+                <td><code>LEG</code></td>
                 <td>Legal</td>
             </tr>
         
             <tr>
-                <td>OTH</td>
+                <td><code>OTH</code></td>
                 <td>Other</td>
             </tr>
         
             <tr>
-                <td>POL</td>
+                <td><code>POL</code></td>
                 <td>Political Organizations</td>
             </tr>
         
             <tr>
-                <td>PUB</td>
+                <td><code>PUB</code></td>
                 <td>Public Employees</td>
             </tr>
         
             <tr>
-                <td>UTL</td>
+                <td><code>UTL</code></td>
                 <td>Utilities</td>
             </tr>
         
@@ -991,7 +1013,7 @@ ind_class
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p70">70</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p85">85</a>)
             </small>
         </td>
@@ -1002,8 +1024,8 @@ ind_class
     </div>
 
 
-influen_yn
-----------------
+``influen_yn``
+--------------------
 
 .. raw:: html
 
@@ -1018,27 +1040,27 @@ influen_yn
         <tbody valign="top">
         
             <tr>
-                <td>Y</td>
+                <td><code>Y</code></td>
                 <td>Yes</td>
             </tr>
         
             <tr>
-                <td>y</td>
+                <td><code>y</code></td>
                 <td>Yes</td>
             </tr>
         
             <tr>
-                <td>N</td>
+                <td><code>N</code></td>
                 <td>No</td>
             </tr>
         
             <tr>
-                <td>n</td>
+                <td><code>n</code></td>
                 <td>No</td>
             </tr>
         
             <tr>
-                <td>X</td>
+                <td><code>X</code></td>
                 <td>Yes</td>
             </tr>
         
@@ -1048,7 +1070,7 @@ influen_yn
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p71">71</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p86">86</a>)
             </small>
         </td>
@@ -1059,8 +1081,8 @@ influen_yn
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -1075,7 +1097,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>CVR</td>
+                <td><code>CVR</code></td>
                 <td>CVR</td>
             </tr>
         
@@ -1085,7 +1107,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p68">68</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82">82</a>)
             </small>
         </td>
@@ -1096,8 +1118,8 @@ rec_type
     </div>
 
 
-st_leg_yn
-----------------
+``st_leg_yn``
+--------------------
 
 .. raw:: html
 
@@ -1112,32 +1134,32 @@ st_leg_yn
         <tbody valign="top">
         
             <tr>
-                <td>Y</td>
+                <td><code>Y</code></td>
                 <td>Yes</td>
             </tr>
         
             <tr>
-                <td>y</td>
+                <td><code>y</code></td>
                 <td>Yes</td>
             </tr>
         
             <tr>
-                <td>N</td>
+                <td><code>N</code></td>
                 <td>No</td>
             </tr>
         
             <tr>
-                <td>n</td>
+                <td><code>n</code></td>
                 <td>No</td>
             </tr>
         
             <tr>
-                <td>X</td>
+                <td><code>X</code></td>
                 <td>Yes</td>
             </tr>
         
             <tr>
-                <td>x</td>
+                <td><code>x</code></td>
                 <td>Yes</td>
             </tr>
         
@@ -1147,7 +1169,7 @@ st_leg_yn
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p71">71</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p86">86</a>)
             </small>
         </td>
@@ -1183,8 +1205,6 @@ CVR2_REGISTRATION_CD
 
 Cover page of lobbying disclosure forms
 
-The records in CVR2_REGISTRATION_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `CVR2_REGISTRATION_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_REGISTRATION_CD.TSV>`_
 
 
@@ -1204,6 +1224,32 @@ Filing forms
 * `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
 
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -1227,7 +1273,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -1236,7 +1282,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -1245,7 +1291,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -1254,7 +1300,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR2</td>
@@ -1263,7 +1309,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 10)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -1272,7 +1318,7 @@ Fields
     
     
         <tr>
-            <td>TRAN_ID</td>
+            <td><code>TRAN_ID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -1281,7 +1327,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CD</td>
+            <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code of the entity described by the record</td>
@@ -1290,7 +1336,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_ID</td>
+            <td><code>ENTITY_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of the entity described by the record</td>
@@ -1299,7 +1345,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_NAML</td>
+            <td><code>ENTY_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Entity last name</td>
@@ -1308,7 +1354,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_NAMF</td>
+            <td><code>ENTY_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Entity first name</td>
@@ -1317,7 +1363,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_NAMT</td>
+            <td><code>ENTY_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity title or suffix</td>
@@ -1326,7 +1372,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_NAMS</td>
+            <td><code>ENTY_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity suffix</td>
@@ -1342,8 +1388,8 @@ Look-up Codes
 =============
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -1358,7 +1404,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>CVR2</td>
+                <td><code>CVR2</code></td>
                 <td>CVR2</td>
             </tr>
         
@@ -1368,7 +1414,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72">72</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87">87</a>)
             </small>
         </td>
@@ -1379,8 +1425,8 @@ rec_type
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -1395,17 +1441,17 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F601</td>
+                <td><code>F601</code></td>
                 <td>Form 601: Lobbying Firm Registration Statement</td>
             </tr>
         
             <tr>
-                <td>F602</td>
+                <td><code>F602</code></td>
                 <td>Form 602: Lobbying Firm Activity Authorization</td>
             </tr>
         
             <tr>
-                <td>F603</td>
+                <td><code>F603</code></td>
                 <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
             </tr>
         
@@ -1415,7 +1461,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72">72</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87">87</a>)
             </small>
         </td>
@@ -1426,8 +1472,8 @@ form_type
     </div>
 
 
-entity_cd
-----------------
+``entity_cd``
+--------------------
 
 .. raw:: html
 
@@ -1442,32 +1488,32 @@ entity_cd
         <tbody valign="top">
         
             <tr>
-                <td>AGY</td>
+                <td><code>AGY</code></td>
                 <td>State Agency</td>
             </tr>
         
             <tr>
-                <td>EMP</td>
+                <td><code>EMP</code></td>
                 <td>Employer</td>
             </tr>
         
             <tr>
-                <td>FRM</td>
+                <td><code>FRM</code></td>
                 <td>Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>LBY</td>
+                <td><code>LBY</code></td>
                 <td>Lobbyist (an individual)</td>
             </tr>
         
             <tr>
-                <td>MBR</td>
+                <td><code>MBR</code></td>
                 <td>Member of Associaton</td>
             </tr>
         
             <tr>
-                <td>SCL</td>
+                <td><code>SCL</code></td>
                 <td>Subcontracted Client</td>
             </tr>
         
@@ -1477,7 +1523,7 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72">72</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87">87</a>)
             </small>
         </td>
@@ -1513,8 +1559,6 @@ CVR_LOBBY_DISCLOSURE_CD
 
 Cover page information for lobbying disclosure forms
 
-The records in CVR_LOBBY_DISCLOSURE_CD are unique by FILING_ID, AMEND_ID, REC_TYPE and FORM_TYPE.
-
 **Sample:** `CVR_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_LOBBY_DISCLOSURE_CD.TSV>`_
 
 
@@ -1540,6 +1584,30 @@ Filing forms
 
 
 
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
 Fields
 ======
 
@@ -1561,7 +1629,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -1570,7 +1638,7 @@ Fields
     
     
         <tr>
-            <td>CTRIB_N_CB</td>
+            <td><code>CTRIB_N_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Campaign contribtions? P4 attached&#39; checkbox. Applies to forms 625, 635, 645.</td>
@@ -1579,7 +1647,7 @@ Fields
     
     
         <tr>
-            <td>CTRIB_Y_CB</td>
+            <td><code>CTRIB_Y_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Campaign contribtions? P4 attached&#39; checkbox. Applies to forms 625, 635, 645.</td>
@@ -1588,7 +1656,7 @@ Fields
     
     
         <tr>
-            <td>CUM_BEG_DT</td>
+            <td><code>CUM_BEG_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Cumulative period beginning date</td>
@@ -1597,7 +1665,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CD</td>
+            <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code describing the filer</td>
@@ -1606,7 +1674,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -1615,7 +1683,7 @@ Fields
     
     
         <tr>
-            <td>FILER_NAMF</td>
+            <td><code>FILER_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Filer first name</td>
@@ -1624,7 +1692,7 @@ Fields
     
     
         <tr>
-            <td>FILER_NAML</td>
+            <td><code>FILER_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Filer last name or business name</td>
@@ -1633,7 +1701,7 @@ Fields
     
     
         <tr>
-            <td>FILER_NAMS</td>
+            <td><code>FILER_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer suffix</td>
@@ -1642,7 +1710,7 @@ Fields
     
     
         <tr>
-            <td>FILER_NAMT</td>
+            <td><code>FILER_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer title or prefix</td>
@@ -1651,7 +1719,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -1660,7 +1728,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_CITY</td>
+            <td><code>FIRM_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Firm, employer or coalition business city</td>
@@ -1669,7 +1737,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of firm, employer or coalition</td>
@@ -1678,7 +1746,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -1687,7 +1755,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_PHON</td>
+            <td><code>FIRM_PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Firm, employer or coalition business phone number</td>
@@ -1696,7 +1764,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ST</td>
+            <td><code>FIRM_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Firm, employer or coalition business state</td>
@@ -1705,7 +1773,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ZIP4</td>
+            <td><code>FIRM_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Form, employer or coalition business ZIP Code</td>
@@ -1714,7 +1782,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -1723,7 +1791,7 @@ Fields
     
     
         <tr>
-            <td>FROM_DATE</td>
+            <td><code>FROM_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period from date</td>
@@ -1732,7 +1800,7 @@ Fields
     
     
         <tr>
-            <td>LBY_ACTVTY</td>
+            <td><code>LBY_ACTVTY</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Description of lobbying activity. Applies to forms 635 and 645. Additional description may be provided in text records.</td>
@@ -1741,7 +1809,7 @@ Fields
     
     
         <tr>
-            <td>LOBBY_N_CB</td>
+            <td><code>LOBBY_N_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying activity none&#39; checkbox. Applies only to Form 625.</td>
@@ -1750,7 +1818,7 @@ Fields
     
     
         <tr>
-            <td>LOBBY_Y_CB</td>
+            <td><code>LOBBY_Y_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Lobbying activity Form 630 attached&#39; checkbox. Applies only to Form 625.</td>
@@ -1759,7 +1827,7 @@ Fields
     
     
         <tr>
-            <td>MAIL_CITY</td>
+            <td><code>MAIL_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Filer mailing address city</td>
@@ -1768,7 +1836,7 @@ Fields
     
     
         <tr>
-            <td>MAIL_PHON</td>
+            <td><code>MAIL_PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Filer mailing address phone number</td>
@@ -1777,7 +1845,7 @@ Fields
     
     
         <tr>
-            <td>MAIL_ST</td>
+            <td><code>MAIL_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Filer mailing address state</td>
@@ -1786,7 +1854,7 @@ Fields
     
     
         <tr>
-            <td>MAIL_ZIP4</td>
+            <td><code>MAIL_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Filer mailing address ZIP Code</td>
@@ -1795,7 +1863,7 @@ Fields
     
     
         <tr>
-            <td>MAJOR_NAMF</td>
+            <td><code>MAJOR_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Major donor first name. Applies only to individuals and forms 625, 635, 645.</td>
@@ -1804,7 +1872,7 @@ Fields
     
     
         <tr>
-            <td>MAJOR_NAML</td>
+            <td><code>MAJOR_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Major donor last name. Applies only to individuals and forms 625, 635, 645.</td>
@@ -1813,7 +1881,7 @@ Fields
     
     
         <tr>
-            <td>MAJOR_NAMS</td>
+            <td><code>MAJOR_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Major donor suffix. Applies only to individuals and forms 625, 635, 645.</td>
@@ -1822,7 +1890,7 @@ Fields
     
     
         <tr>
-            <td>MAJOR_NAMT</td>
+            <td><code>MAJOR_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Major donor title or prefix. Applies only to individuals and forms 625, 635, 645.</td>
@@ -1831,7 +1899,7 @@ Fields
     
     
         <tr>
-            <td>NOPART1_CB</td>
+            <td><code>NOPART1_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;No Part I information&#39; checkbox. Applies only to Form 615.</td>
@@ -1840,7 +1908,7 @@ Fields
     
     
         <tr>
-            <td>NOPART2_CB</td>
+            <td><code>NOPART2_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;No Part II information&#39; checkbox. Applies only to Form 615.</td>
@@ -1849,7 +1917,7 @@ Fields
     
     
         <tr>
-            <td>PART1_1_CB</td>
+            <td><code>PART1_1_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Partners, owners Form 615 attached ...&#39; checkbox. Applies only to form 625.</td>
@@ -1858,7 +1926,7 @@ Fields
     
     
         <tr>
-            <td>PART1_2_CB</td>
+            <td><code>PART1_2_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>&#39;Partners, owners listed below ...&#39; checkbox. Applies only to Form 625.</td>
@@ -1867,7 +1935,7 @@ Fields
     
     
         <tr>
-            <td>PRN_NAMF</td>
+            <td><code>PRN_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer first name</td>
@@ -1876,7 +1944,7 @@ Fields
     
     
         <tr>
-            <td>PRN_NAML</td>
+            <td><code>PRN_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Signer last name</td>
@@ -1885,7 +1953,7 @@ Fields
     
     
         <tr>
-            <td>PRN_NAMS</td>
+            <td><code>PRN_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer suffix</td>
@@ -1894,7 +1962,7 @@ Fields
     
     
         <tr>
-            <td>PRN_NAMT</td>
+            <td><code>PRN_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer title or prefix</td>
@@ -1903,7 +1971,7 @@ Fields
     
     
         <tr>
-            <td>RCPCMTE_ID</td>
+            <td><code>RCPCMTE_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Recipient committee or major donor identification number</td>
@@ -1912,7 +1980,7 @@ Fields
     
     
         <tr>
-            <td>RCPCMTE_NM</td>
+            <td><code>RCPCMTE_NM</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Recipient committee name</td>
@@ -1921,7 +1989,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR</td>
@@ -1930,7 +1998,7 @@ Fields
     
     
         <tr>
-            <td>REPORT_NUM</td>
+            <td><code>REPORT_NUM</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Amendment number. 000 is the original. 001-999 are amendments.</td>
@@ -1939,7 +2007,7 @@ Fields
     
     
         <tr>
-            <td>RPT_DATE</td>
+            <td><code>RPT_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this report was filed, as reported by the filer</td>
@@ -1948,7 +2016,7 @@ Fields
     
     
         <tr>
-            <td>SENDER_ID</td>
+            <td><code>SENDER_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of lobbyist entity that is submitting this report. The field is used to authenticate the filer and allows the firm to submit forms for its lobbyists.</td>
@@ -1957,7 +2025,7 @@ Fields
     
     
         <tr>
-            <td>SIG_DATE</td>
+            <td><code>SIG_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date when signed</td>
@@ -1966,7 +2034,7 @@ Fields
     
     
         <tr>
-            <td>SIG_LOC</td>
+            <td><code>SIG_LOC</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer city and state</td>
@@ -1975,7 +2043,7 @@ Fields
     
     
         <tr>
-            <td>SIG_NAMF</td>
+            <td><code>SIG_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Signer first name</td>
@@ -1984,7 +2052,7 @@ Fields
     
     
         <tr>
-            <td>SIG_NAML</td>
+            <td><code>SIG_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Signer last name</td>
@@ -1993,7 +2061,7 @@ Fields
     
     
         <tr>
-            <td>SIG_NAMS</td>
+            <td><code>SIG_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer suffix</td>
@@ -2002,7 +2070,7 @@ Fields
     
     
         <tr>
-            <td>SIG_NAMT</td>
+            <td><code>SIG_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Signer title or prefix</td>
@@ -2011,7 +2079,7 @@ Fields
     
     
         <tr>
-            <td>SIG_TITLE</td>
+            <td><code>SIG_TITLE</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Title of signer</td>
@@ -2020,7 +2088,7 @@ Fields
     
     
         <tr>
-            <td>THRU_DATE</td>
+            <td><code>THRU_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period through date</td>
@@ -2036,8 +2104,8 @@ Look-up Codes
 =============
 
 
-entity_cd
-----------------
+``entity_cd``
+--------------------
 
 .. raw:: html
 
@@ -2052,37 +2120,37 @@ entity_cd
         <tbody valign="top">
         
             <tr>
-                <td>CLI</td>
+                <td><code>CLI</code></td>
                 <td>Unknown</td>
             </tr>
         
             <tr>
-                <td>FRM</td>
+                <td><code>FRM</code></td>
                 <td>Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>IND</td>
+                <td><code>IND</code></td>
                 <td>Person (spending &gt; $5000)</td>
             </tr>
         
             <tr>
-                <td>LBY</td>
+                <td><code>LBY</code></td>
                 <td>Lobbyist (an individual)</td>
             </tr>
         
             <tr>
-                <td>LCO</td>
+                <td><code>LCO</code></td>
                 <td>Lobbying Coalition</td>
             </tr>
         
             <tr>
-                <td>LEM</td>
+                <td><code>LEM</code></td>
                 <td>Lobbying Employer</td>
             </tr>
         
             <tr>
-                <td>OTH</td>
+                <td><code>OTH</code></td>
                 <td>Other</td>
             </tr>
         
@@ -2092,7 +2160,7 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53">53</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p67">67</a>)
             </small>
         </td>
@@ -2103,8 +2171,8 @@ entity_cd
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -2119,22 +2187,22 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F615</td>
+                <td><code>F615</code></td>
                 <td>Form 615: Lobbyist Report</td>
             </tr>
         
             <tr>
-                <td>F625</td>
+                <td><code>F625</code></td>
                 <td>Form 625: Report of Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>F635</td>
+                <td><code>F635</code></td>
                 <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
             </tr>
         
             <tr>
-                <td>F645</td>
+                <td><code>F645</code></td>
                 <td>Form 645: Report of Person Spending $5,000 or More</td>
             </tr>
         
@@ -2144,7 +2212,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53">53</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p66">66</a>)
             </small>
         </td>
@@ -2155,8 +2223,8 @@ form_type
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -2171,7 +2239,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>CVR</td>
+                <td><code>CVR</code></td>
                 <td>CVR</td>
             </tr>
         
@@ -2181,7 +2249,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53">53</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p66">66</a>)
             </small>
         </td>
@@ -2217,8 +2285,6 @@ CVR2_LOBBY_DISCLOSURE_CD
 
 Additional data from lobbyist disclosure forms (615, 625, 635, and 645)
 
-The records in CVR2_LOBBY_DISCLOSURE_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `CVR2_LOBBY_DISCLOSURE_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_LOBBY_DISCLOSURE_CD.TSV>`_
 
 
@@ -2234,6 +2300,32 @@ Filing forms
 * `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition)
 
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -2257,7 +2349,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -2266,7 +2358,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CD</td>
+            <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity code of the entity described by the record</td>
@@ -2275,7 +2367,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_ID</td>
+            <td><code>ENTITY_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Entity identification number</td>
@@ -2284,7 +2376,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_NAMF</td>
+            <td><code>ENTY_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Entity first name</td>
@@ -2293,7 +2385,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_NAML</td>
+            <td><code>ENTY_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Entity last name or business name</td>
@@ -2302,7 +2394,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_NAMS</td>
+            <td><code>ENTY_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity suffix</td>
@@ -2311,7 +2403,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_NAMT</td>
+            <td><code>ENTY_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Entity title or prefix</td>
@@ -2320,7 +2412,7 @@ Fields
     
     
         <tr>
-            <td>ENTY_TITLE</td>
+            <td><code>ENTY_TITLE</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Title of partner, owner, officer, employer if the entity is an individual. Only required by Form 635.</td>
@@ -2329,7 +2421,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -2338,7 +2430,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -2347,7 +2439,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -2356,7 +2448,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: CVR2</td>
@@ -2365,7 +2457,7 @@ Fields
     
     
         <tr>
-            <td>TRAN_ID</td>
+            <td><code>TRAN_ID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -2381,8 +2473,8 @@ Look-up Codes
 =============
 
 
-entity_cd
-----------------
+``entity_cd``
+--------------------
 
 .. raw:: html
 
@@ -2397,22 +2489,22 @@ entity_cd
         <tbody valign="top">
         
             <tr>
-                <td>EMP</td>
+                <td><code>EMP</code></td>
                 <td>Employer</td>
             </tr>
         
             <tr>
-                <td>OFF</td>
+                <td><code>OFF</code></td>
                 <td>Officer</td>
             </tr>
         
             <tr>
-                <td>OWN</td>
+                <td><code>OWN</code></td>
                 <td>Owner</td>
             </tr>
         
             <tr>
-                <td>PTN</td>
+                <td><code>PTN</code></td>
                 <td>Partner</td>
             </tr>
         
@@ -2422,7 +2514,7 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p57">57</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p71">71</a>)
             </small>
         </td>
@@ -2433,8 +2525,8 @@ entity_cd
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -2449,12 +2541,12 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F625</td>
+                <td><code>F625</code></td>
                 <td>Form 625: Report of Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>F635</td>
+                <td><code>F635</code></td>
                 <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
             </tr>
         
@@ -2464,7 +2556,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p57">57</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p71">71</a>)
             </small>
         </td>
@@ -2475,8 +2567,8 @@ form_type
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -2491,7 +2583,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>CVR2</td>
+                <td><code>CVR2</code></td>
                 <td>CVR2</td>
             </tr>
         
@@ -2501,7 +2593,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p57">57</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p71">71</a>)
             </small>
         </td>
@@ -2537,8 +2629,6 @@ LOBBY_AMENDMENTS_CD
 
 Lobbyist registration amendment information (Form 605 Part I).
 
-The records in LOBBY_AMENDMENTS_CD are unique by FILING_ID, AMEND_ID, REC_TYPE and FORM_TYPE.
-
 **Sample:** `LOBBY_AMENDMENTS_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBY_AMENDMENTS_CD.TSV>`_
 
 
@@ -2554,6 +2644,30 @@ Filing forms
 * `Form 603 <../filingforms/lobbyist_forms.html#form-603>`_ (Lobbyist Employer or Lobbying Coalition Registration Statement)
 
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -2577,7 +2691,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -2586,7 +2700,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -2595,7 +2709,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: F605</td>
@@ -2604,7 +2718,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 9)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -2613,7 +2727,7 @@ Fields
     
     
         <tr>
-            <td>EXEC_DATE</td>
+            <td><code>EXEC_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date this amendment executed on</td>
@@ -2622,7 +2736,7 @@ Fields
     
     
         <tr>
-            <td>FROM_DATE</td>
+            <td><code>FROM_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period from date of original report</td>
@@ -2631,7 +2745,7 @@ Fields
     
     
         <tr>
-            <td>THRU_DATE</td>
+            <td><code>THRU_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting date to/through date of original</td>
@@ -2640,7 +2754,7 @@ Fields
     
     
         <tr>
-            <td>ADD_L_CB</td>
+            <td><code>ADD_L_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Add lobbyist checkbox</td>
@@ -2649,7 +2763,7 @@ Fields
     
     
         <tr>
-            <td>ADD_L_EFF</td>
+            <td><code>ADD_L_EFF</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Add lobbyist effective date</td>
@@ -2658,7 +2772,7 @@ Fields
     
     
         <tr>
-            <td>A_L_NAML</td>
+            <td><code>A_L_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Add lobbyist last name</td>
@@ -2667,7 +2781,7 @@ Fields
     
     
         <tr>
-            <td>A_L_NAMF</td>
+            <td><code>A_L_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Add lobbyist first name</td>
@@ -2676,7 +2790,7 @@ Fields
     
     
         <tr>
-            <td>A_L_NAMT</td>
+            <td><code>A_L_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Add lobbyist title or prefix</td>
@@ -2685,7 +2799,7 @@ Fields
     
     
         <tr>
-            <td>A_L_NAMS</td>
+            <td><code>A_L_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Add lobbyist suffix</td>
@@ -2694,7 +2808,7 @@ Fields
     
     
         <tr>
-            <td>DEL_L_CB</td>
+            <td><code>DEL_L_CB</code></td>
             <td>String (up to 8)</td>
             <td>No</td>
             <td>Delete lobbyist checkbox</td>
@@ -2703,7 +2817,7 @@ Fields
     
     
         <tr>
-            <td>DEL_L_EFF</td>
+            <td><code>DEL_L_EFF</code></td>
             <td>String (up to 22)</td>
             <td>No</td>
             <td>Delete lobbyist effective date</td>
@@ -2712,7 +2826,7 @@ Fields
     
     
         <tr>
-            <td>D_L_NAML</td>
+            <td><code>D_L_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Delete lobbyist last name</td>
@@ -2721,7 +2835,7 @@ Fields
     
     
         <tr>
-            <td>D_L_NAMF</td>
+            <td><code>D_L_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Delete lobbyist first name</td>
@@ -2730,7 +2844,7 @@ Fields
     
     
         <tr>
-            <td>D_L_NAMT</td>
+            <td><code>D_L_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Delete lobbyist title or prefix</td>
@@ -2739,7 +2853,7 @@ Fields
     
     
         <tr>
-            <td>D_L_NAMS</td>
+            <td><code>D_L_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Delete lobbyiest suffix</td>
@@ -2748,7 +2862,7 @@ Fields
     
     
         <tr>
-            <td>ADD_LE_CB</td>
+            <td><code>ADD_LE_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Add lobbyiest employer checkbox</td>
@@ -2757,7 +2871,7 @@ Fields
     
     
         <tr>
-            <td>ADD_LE_EFF</td>
+            <td><code>ADD_LE_EFF</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Add lobbyist employer effective date</td>
@@ -2766,7 +2880,7 @@ Fields
     
     
         <tr>
-            <td>A_LE_NAML</td>
+            <td><code>A_LE_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Add lobbyist employer last name</td>
@@ -2775,7 +2889,7 @@ Fields
     
     
         <tr>
-            <td>A_LE_NAMF</td>
+            <td><code>A_LE_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Add lobbyist or employer first name</td>
@@ -2784,7 +2898,7 @@ Fields
     
     
         <tr>
-            <td>A_LE_NAMT</td>
+            <td><code>A_LE_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Add lobbyist employer title or prefix</td>
@@ -2793,7 +2907,7 @@ Fields
     
     
         <tr>
-            <td>A_LE_NAMS</td>
+            <td><code>A_LE_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Add lobbyist employer suffix</td>
@@ -2802,7 +2916,7 @@ Fields
     
     
         <tr>
-            <td>DEL_LE_CB</td>
+            <td><code>DEL_LE_CB</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Delete lobbyist employer check box</td>
@@ -2811,7 +2925,7 @@ Fields
     
     
         <tr>
-            <td>DEL_LE_EFF</td>
+            <td><code>DEL_LE_EFF</code></td>
             <td>String (up to 22)</td>
             <td>No</td>
             <td>Delete lobbyist employer effective date</td>
@@ -2820,7 +2934,7 @@ Fields
     
     
         <tr>
-            <td>D_LE_NAML</td>
+            <td><code>D_LE_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Delete lobbyist employer last name</td>
@@ -2829,7 +2943,7 @@ Fields
     
     
         <tr>
-            <td>D_LE_NAMF</td>
+            <td><code>D_LE_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Delete lobbyiest employer first name</td>
@@ -2838,7 +2952,7 @@ Fields
     
     
         <tr>
-            <td>D_LE_NAMT</td>
+            <td><code>D_LE_NAMT</code></td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>Delete lobbyist employer name title or prefix</td>
@@ -2847,7 +2961,7 @@ Fields
     
     
         <tr>
-            <td>D_LE_NAMS</td>
+            <td><code>D_LE_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Delete lobbyist employer name</td>
@@ -2856,7 +2970,7 @@ Fields
     
     
         <tr>
-            <td>ADD_LF_CB</td>
+            <td><code>ADD_LF_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Add lobbying firm checkbox</td>
@@ -2865,7 +2979,7 @@ Fields
     
     
         <tr>
-            <td>ADD_LF_EFF</td>
+            <td><code>ADD_LF_EFF</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Add lobbying firm effective date</td>
@@ -2874,7 +2988,7 @@ Fields
     
     
         <tr>
-            <td>A_LF_NAME</td>
+            <td><code>A_LF_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Add lobbying firm name</td>
@@ -2883,7 +2997,7 @@ Fields
     
     
         <tr>
-            <td>DEL_LF_CB</td>
+            <td><code>DEL_LF_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Delete lobbying firm checkbox</td>
@@ -2892,7 +3006,7 @@ Fields
     
     
         <tr>
-            <td>DEL_LF_EFF</td>
+            <td><code>DEL_LF_EFF</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Delete lobbying firm effective date</td>
@@ -2901,7 +3015,7 @@ Fields
     
     
         <tr>
-            <td>D_LF_NAME</td>
+            <td><code>D_LF_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Delete lobbying firm name</td>
@@ -2910,7 +3024,7 @@ Fields
     
     
         <tr>
-            <td>OTHER_CB</td>
+            <td><code>OTHER_CB</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Other amendments checkbox</td>
@@ -2919,7 +3033,7 @@ Fields
     
     
         <tr>
-            <td>OTHER_EFF</td>
+            <td><code>OTHER_EFF</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Other amendments effective date</td>
@@ -2928,7 +3042,7 @@ Fields
     
     
         <tr>
-            <td>OTHER_DESC</td>
+            <td><code>OTHER_DESC</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of changes</td>
@@ -2937,7 +3051,7 @@ Fields
     
     
         <tr>
-            <td>F606_YES</td>
+            <td><code>F606_YES</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Lobbyist ceasing all activity</td>
@@ -2946,7 +3060,7 @@ Fields
     
     
         <tr>
-            <td>F606_NO</td>
+            <td><code>F606_NO</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Lobbyist ceasing employment but staying active</td>
@@ -2962,8 +3076,8 @@ Look-up Codes
 =============
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -2978,7 +3092,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>F605</td>
+                <td><code>F605</code></td>
                 <td>F605</td>
             </tr>
         
@@ -2988,7 +3102,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74">74</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88">88</a>)
             </small>
         </td>
@@ -2999,8 +3113,8 @@ rec_type
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -3015,12 +3129,12 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F601</td>
+                <td><code>F601</code></td>
                 <td>Form 601: Lobbying Firm Registration Statement</td>
             </tr>
         
             <tr>
-                <td>F603</td>
+                <td><code>F603</code></td>
                 <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
             </tr>
         
@@ -3030,7 +3144,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74">74</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88">88</a>)
             </small>
         </td>
@@ -3066,8 +3180,6 @@ F690P2_CD
 
 Amends lobbying disclosure filings (Form 690)
 
-The records in F690P2_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `F690P2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F690P2_CD.TSV>`_
 
 
@@ -3093,6 +3205,32 @@ Filing forms
 
 
 
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
 Fields
 ======
 
@@ -3114,7 +3252,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -3123,7 +3261,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -3132,7 +3270,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -3141,7 +3279,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: F690</td>
@@ -3150,7 +3288,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -3159,7 +3297,7 @@ Fields
     
     
         <tr>
-            <td>EXEC_DATE</td>
+            <td><code>EXEC_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date the original report (or prior amendment to the original report) was executed on.</td>
@@ -3168,7 +3306,7 @@ Fields
     
     
         <tr>
-            <td>FROM_DATE</td>
+            <td><code>FROM_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Reporting period from date of original report</td>
@@ -3177,7 +3315,7 @@ Fields
     
     
         <tr>
-            <td>THRU_DATE</td>
+            <td><code>THRU_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Report period to/through date of original.</td>
@@ -3186,7 +3324,7 @@ Fields
     
     
         <tr>
-            <td>CHG_PARTS</td>
+            <td><code>CHG_PARTS</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Amended into affects items on part(s) text description.</td>
@@ -3195,7 +3333,7 @@ Fields
     
     
         <tr>
-            <td>CHG_SECTS</td>
+            <td><code>CHG_SECTS</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Amended into affects items on sections(s) text description.</td>
@@ -3204,7 +3342,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_TXT1</td>
+            <td><code>AMEND_TXT1</code></td>
             <td>String (up to 330)</td>
             <td>No</td>
             <td>Description of changes to the filing</td>
@@ -3220,8 +3358,8 @@ Look-up Codes
 =============
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -3236,7 +3374,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>F690</td>
+                <td><code>F690</code></td>
                 <td>F690</td>
             </tr>
         
@@ -3246,7 +3384,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p58">58</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p72">72</a>)
             </small>
         </td>
@@ -3257,8 +3395,8 @@ rec_type
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -3273,22 +3411,22 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F615</td>
+                <td><code>F615</code></td>
                 <td>Form 615: Lobbyist Report</td>
             </tr>
         
             <tr>
-                <td>F625</td>
+                <td><code>F625</code></td>
                 <td>Form 625: Report of Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>F635</td>
+                <td><code>F635</code></td>
                 <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
             </tr>
         
             <tr>
-                <td>F645</td>
+                <td><code>F645</code></td>
                 <td>Form 645: Report of Person Spending $5,000 or More</td>
             </tr>
         
@@ -3298,7 +3436,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p58">58</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p72">72</a>)
             </small>
         </td>
@@ -3334,8 +3472,6 @@ LATT_CD
 
 Lobbyist disclosure attachment schedules for payments
 
-The records in LATT_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `LATT_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LATT_CD.TSV>`_
 
 
@@ -3355,6 +3491,32 @@ Filing forms
 * `Schedule 640 <../filingforms/lobbyist_forms.html#schedule-640>`_ (Governmental Agencies Reporting (Attachment to Form 635 or Form 645))
 
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -3378,7 +3540,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -3387,7 +3549,7 @@ Fields
     
     
         <tr>
-            <td>AMOUNT</td>
+            <td><code>AMOUNT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of payment</td>
@@ -3396,7 +3558,7 @@ Fields
     
     
         <tr>
-            <td>CUM_AMT</td>
+            <td><code>CUM_AMT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -3405,7 +3567,7 @@ Fields
     
     
         <tr>
-            <td>CUMBEG_DT</td>
+            <td><code>CUMBEG_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Cumulative period beginning to date</td>
@@ -3414,7 +3576,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CD</td>
+            <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code of the Payment Recipient/Payee</td>
@@ -3423,7 +3585,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -3432,7 +3594,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 6)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -3441,7 +3603,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -3450,7 +3612,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_CODE</td>
+            <td><code>MEMO_CODE</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -3459,7 +3621,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_REFNO</td>
+            <td><code>MEMO_REFNO</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to the text in a TEXT record</td>
@@ -3468,7 +3630,7 @@ Fields
     
     
         <tr>
-            <td>PMT_DATE</td>
+            <td><code>PMT_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of payment</td>
@@ -3477,7 +3639,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LATT</td>
@@ -3486,7 +3648,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_CITY</td>
+            <td><code>RECIP_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Recipient city</td>
@@ -3495,7 +3657,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_NAMF</td>
+            <td><code>RECIP_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Recipient first name</td>
@@ -3504,7 +3666,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_NAML</td>
+            <td><code>RECIP_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Recipient last name or business name</td>
@@ -3513,7 +3675,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_NAMS</td>
+            <td><code>RECIP_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient suffix</td>
@@ -3522,7 +3684,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_NAMT</td>
+            <td><code>RECIP_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient title or prefix</td>
@@ -3531,7 +3693,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_ST</td>
+            <td><code>RECIP_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Recipient state</td>
@@ -3540,7 +3702,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_ZIP4</td>
+            <td><code>RECIP_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient ZIP Code</td>
@@ -3549,7 +3711,7 @@ Fields
     
     
         <tr>
-            <td>TRAN_ID</td>
+            <td><code>TRAN_ID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -3565,8 +3727,8 @@ Look-up Codes
 =============
 
 
-entity_cd
-----------------
+``entity_cd``
+--------------------
 
 .. raw:: html
 
@@ -3581,37 +3743,37 @@ entity_cd
         <tbody valign="top">
         
             <tr>
-                <td>FRM</td>
+                <td><code>FRM</code></td>
                 <td>Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>IND</td>
+                <td><code>IND</code></td>
                 <td>Person (spending &gt; $5000)</td>
             </tr>
         
             <tr>
-                <td>LBY</td>
+                <td><code>LBY</code></td>
                 <td>Lobbyist (an individual)</td>
             </tr>
         
             <tr>
-                <td>LCO</td>
+                <td><code>LCO</code></td>
                 <td>Lobbying Coalition</td>
             </tr>
         
             <tr>
-                <td>LEM</td>
+                <td><code>LEM</code></td>
                 <td>Lobbying Employer</td>
             </tr>
         
             <tr>
-                <td>OTH</td>
+                <td><code>OTH</code></td>
                 <td>Other</td>
             </tr>
         
             <tr>
-                <td>RCP</td>
+                <td><code>RCP</code></td>
                 <td>Recipient Committee</td>
             </tr>
         
@@ -3621,7 +3783,7 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p65">65</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p80">80</a>)
             </small>
         </td>
@@ -3632,8 +3794,8 @@ entity_cd
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -3648,17 +3810,17 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>S630</td>
+                <td><code>S630</code></td>
                 <td>Schedule 630: Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) </td>
             </tr>
         
             <tr>
-                <td>S635-C</td>
+                <td><code>S635-C</code></td>
                 <td>Schedule 635C: Payments Received by Lobbying Coalitions</td>
             </tr>
         
             <tr>
-                <td>S640</td>
+                <td><code>S640</code></td>
                 <td>Schedule 640: Governmental Agencies Reporting (Attachment to Form 635 or Form 645)</td>
             </tr>
         
@@ -3668,7 +3830,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p79">79</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p52">52</a>),  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p65">65</a>)
             </small>
         </td>
@@ -3679,8 +3841,8 @@ form_type
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -3695,7 +3857,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>LATT</td>
+                <td><code>LATT</code></td>
                 <td>LATT</td>
             </tr>
         
@@ -3705,7 +3867,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p65">65</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p79">79</a>)
             </small>
         </td>
@@ -3742,8 +3904,6 @@ LEXP_CD
 Lobbying activity expenditures schedule information, reported in
 Forms 615 Part 1, 625 Part 3A, 635 Part 3C, and 645 Part 2A.
 
-The records in LEXP_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `LEXP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEXP_CD.TSV>`_
 
 
@@ -3769,6 +3929,32 @@ Filing forms
 
 
 
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
 Fields
 ======
 
@@ -3790,7 +3976,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -3799,7 +3985,7 @@ Fields
     
     
         <tr>
-            <td>AMOUNT</td>
+            <td><code>AMOUNT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of payment</td>
@@ -3808,7 +3994,7 @@ Fields
     
     
         <tr>
-            <td>BAKREF_TID</td>
+            <td><code>BAKREF_TID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Backreference to the tranaction identifer of parent record</td>
@@ -3817,7 +4003,7 @@ Fields
     
     
         <tr>
-            <td>BENE_AMT</td>
+            <td><code>BENE_AMT</code></td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>Amount benefiting benficiary</td>
@@ -3826,7 +4012,7 @@ Fields
     
     
         <tr>
-            <td>BENE_NAME</td>
+            <td><code>BENE_NAME</code></td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Name of the person beneifiting</td>
@@ -3835,7 +4021,7 @@ Fields
     
     
         <tr>
-            <td>BENE_POSIT</td>
+            <td><code>BENE_POSIT</code></td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Official position of the person beneifiting</td>
@@ -3844,7 +4030,7 @@ Fields
     
     
         <tr>
-            <td>CREDCARDCO</td>
+            <td><code>CREDCARDCO</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of the credit card company, if paid using a card</td>
@@ -3853,7 +4039,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CD</td>
+            <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code of the Payee</td>
@@ -3862,7 +4048,7 @@ Fields
     
     
         <tr>
-            <td>EXPN_DATE</td>
+            <td><code>EXPN_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of expenditure</td>
@@ -3871,7 +4057,7 @@ Fields
     
     
         <tr>
-            <td>EXPN_DSCR</td>
+            <td><code>EXPN_DSCR</code></td>
             <td>String (up to 90)</td>
             <td>No</td>
             <td>Purpose of the expense and a description or explanation</td>
@@ -3880,7 +4066,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -3889,7 +4075,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -3898,7 +4084,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -3907,7 +4093,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_CODE</td>
+            <td><code>MEMO_CODE</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -3916,7 +4102,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_REFNO</td>
+            <td><code>MEMO_REFNO</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to the text in a TEXT record</td>
@@ -3925,7 +4111,7 @@ Fields
     
     
         <tr>
-            <td>PAYEE_CITY</td>
+            <td><code>PAYEE_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Payee city</td>
@@ -3934,7 +4120,7 @@ Fields
     
     
         <tr>
-            <td>PAYEE_NAMF</td>
+            <td><code>PAYEE_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Payee first name</td>
@@ -3943,7 +4129,7 @@ Fields
     
     
         <tr>
-            <td>PAYEE_NAML</td>
+            <td><code>PAYEE_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Payee last name or business name</td>
@@ -3952,7 +4138,7 @@ Fields
     
     
         <tr>
-            <td>PAYEE_NAMS</td>
+            <td><code>PAYEE_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee suffix</td>
@@ -3961,7 +4147,7 @@ Fields
     
     
         <tr>
-            <td>PAYEE_NAMT</td>
+            <td><code>PAYEE_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee title or prefix</td>
@@ -3970,7 +4156,7 @@ Fields
     
     
         <tr>
-            <td>PAYEE_ST</td>
+            <td><code>PAYEE_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Payee state</td>
@@ -3979,7 +4165,7 @@ Fields
     
     
         <tr>
-            <td>PAYEE_ZIP4</td>
+            <td><code>PAYEE_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Payee ZIP Code</td>
@@ -3988,7 +4174,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LEXP</td>
@@ -3997,7 +4183,7 @@ Fields
     
     
         <tr>
-            <td>RECSUBTYPE</td>
+            <td><code>RECSUBTYPE</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Record Subtype</td>
@@ -4006,7 +4192,7 @@ Fields
     
     
         <tr>
-            <td>TRAN_ID</td>
+            <td><code>TRAN_ID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -4022,8 +4208,8 @@ Look-up Codes
 =============
 
 
-entity_cd
-----------------
+``entity_cd``
+--------------------
 
 .. raw:: html
 
@@ -4038,12 +4224,12 @@ entity_cd
         <tbody valign="top">
         
             <tr>
-                <td>IND</td>
+                <td><code>IND</code></td>
                 <td>Person (spending &gt; $5000)</td>
             </tr>
         
             <tr>
-                <td>OTH</td>
+                <td><code>OTH</code></td>
                 <td>Other</td>
             </tr>
         
@@ -4053,7 +4239,7 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61">61</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p75">75</a>)
             </small>
         </td>
@@ -4064,8 +4250,8 @@ entity_cd
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -4080,22 +4266,22 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F615P1</td>
+                <td><code>F615P1</code></td>
                 <td>Form 615 (Lobbyist Report): Part 1, Activity Expenses Paid, Incurred, Arranged or Provided by the Lobbyist</td>
             </tr>
         
             <tr>
-                <td>F625P3A</td>
+                <td><code>F625P3A</code></td>
                 <td>Form 625 (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section A: Activity Expenses</td>
             </tr>
         
             <tr>
-                <td>F635P3C</td>
+                <td><code>F635P3C</code></td>
                 <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section C: Activity Expenses</td>
             </tr>
         
             <tr>
-                <td>F645P2A</td>
+                <td><code>F645P2A</code></td>
                 <td>Form 645 (Report of Person Spending $5,000 or More): Part 2 (Payments Made this Period), Section A: Activity Expenses</td>
             </tr>
         
@@ -4105,7 +4291,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61">61</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74">74</a>)
             </small>
         </td>
@@ -4116,8 +4302,8 @@ form_type
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -4132,7 +4318,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>LEXP</td>
+                <td><code>LEXP</code></td>
                 <td>LEXP</td>
             </tr>
         
@@ -4142,7 +4328,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61">61</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74">74</a>)
             </small>
         </td>
@@ -4153,8 +4339,8 @@ rec_type
     </div>
 
 
-recsubtype
-----------------
+``recsubtype``
+--------------------
 
 .. raw:: html
 
@@ -4169,12 +4355,12 @@ recsubtype
         <tbody valign="top">
         
             <tr>
-                <td>1</td>
+                <td><code>1</code></td>
                 <td>Main</td>
             </tr>
         
             <tr>
-                <td>2</td>
+                <td><code>2</code></td>
                 <td>Detail</td>
             </tr>
         
@@ -4184,7 +4370,7 @@ recsubtype
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p61">61</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74">74</a>)
             </small>
         </td>
@@ -4221,8 +4407,6 @@ LCCM_CD
 Lobbying campaign contributions reported on Forms 615 Part 2,
 625 Part 4B, 635 Part 4B and the 645 Part 3B.
 
-The records in LCCM_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `LCCM_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LCCM_CD.TSV>`_
 
 
@@ -4248,6 +4432,32 @@ Filing forms
 
 
 
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
 Fields
 ======
 
@@ -4269,7 +4479,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -4278,7 +4488,7 @@ Fields
     
     
         <tr>
-            <td>AMOUNT</td>
+            <td><code>AMOUNT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of contribution</td>
@@ -4287,7 +4497,7 @@ Fields
     
     
         <tr>
-            <td>BAKREF_TID</td>
+            <td><code>BAKREF_TID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Back reference to transaction identifier of parent record</td>
@@ -4296,7 +4506,7 @@ Fields
     
     
         <tr>
-            <td>CTRIB_DATE</td>
+            <td><code>CTRIB_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of contribution</td>
@@ -4305,7 +4515,7 @@ Fields
     
     
         <tr>
-            <td>CTRIB_NAMF</td>
+            <td><code>CTRIB_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Contributor first name</td>
@@ -4314,7 +4524,7 @@ Fields
     
     
         <tr>
-            <td>CTRIB_NAML</td>
+            <td><code>CTRIB_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Contributor last name or business name</td>
@@ -4323,7 +4533,7 @@ Fields
     
     
         <tr>
-            <td>CTRIB_NAMS</td>
+            <td><code>CTRIB_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Contributor suffix</td>
@@ -4332,7 +4542,7 @@ Fields
     
     
         <tr>
-            <td>CTRIB_NAMT</td>
+            <td><code>CTRIB_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Contributor prefix or title.</td>
@@ -4341,7 +4551,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CD</td>
+            <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code for Recipient of the Campaign Contribution Value</td>
@@ -4350,7 +4560,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -4359,7 +4569,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -4368,7 +4578,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -4377,7 +4587,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_CODE</td>
+            <td><code>MEMO_CODE</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -4386,7 +4596,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_REFNO</td>
+            <td><code>MEMO_REFNO</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to the text contained in the TEXT record</td>
@@ -4395,7 +4605,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LCCM</td>
@@ -4404,7 +4614,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_CITY</td>
+            <td><code>RECIP_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Recipient city</td>
@@ -4413,7 +4623,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_ID</td>
+            <td><code>RECIP_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Recipient identification number</td>
@@ -4422,7 +4632,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_NAMF</td>
+            <td><code>RECIP_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Recipient first name</td>
@@ -4431,7 +4641,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_NAML</td>
+            <td><code>RECIP_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Recipient last name</td>
@@ -4440,7 +4650,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_NAMS</td>
+            <td><code>RECIP_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient name suffix</td>
@@ -4449,7 +4659,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_NAMT</td>
+            <td><code>RECIP_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient name prefix or title</td>
@@ -4458,7 +4668,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_ST</td>
+            <td><code>RECIP_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Recipient state</td>
@@ -4467,7 +4677,7 @@ Fields
     
     
         <tr>
-            <td>RECIP_ZIP4</td>
+            <td><code>RECIP_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Recipient ZIP Code</td>
@@ -4476,7 +4686,7 @@ Fields
     
     
         <tr>
-            <td>TRAN_ID</td>
+            <td><code>TRAN_ID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -4492,8 +4702,8 @@ Look-up Codes
 =============
 
 
-entity_cd
-----------------
+``entity_cd``
+--------------------
 
 .. raw:: html
 
@@ -4508,17 +4718,17 @@ entity_cd
         <tbody valign="top">
         
             <tr>
-                <td>COM</td>
+                <td><code>COM</code></td>
                 <td>Committee</td>
             </tr>
         
             <tr>
-                <td>RCP</td>
+                <td><code>RCP</code></td>
                 <td>Recipient Committee</td>
             </tr>
         
             <tr>
-                <td>CTL</td>
+                <td><code>CTL</code></td>
                 <td>Controlled committee</td>
             </tr>
         
@@ -4528,7 +4738,7 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p64">64</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78">78</a>)
             </small>
         </td>
@@ -4539,8 +4749,8 @@ entity_cd
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -4555,22 +4765,22 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F615P2</td>
+                <td><code>F615P2</code></td>
                 <td>Form 615 (Lobbyist Report): Part 2, Campaign Contributions Made or Delivered</td>
             </tr>
         
             <tr>
-                <td>F625P4B</td>
+                <td><code>F625P4B</code></td>
                 <td>Form 625 (Report of Lobbying Firm): Part 4: Campaign Contributions Made</td>
             </tr>
         
             <tr>
-                <td>F635P4B</td>
+                <td><code>F635P4B</code></td>
                 <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 4: Campaign Contributions Made</td>
             </tr>
         
             <tr>
-                <td>F645P3B</td>
+                <td><code>F645P3B</code></td>
                 <td>Form 645 (Report of Person Spending $5,000 or More): Part 3: Campaign Contributions Made</td>
             </tr>
         
@@ -4580,7 +4790,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p64">64</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78">78-79</a>)
             </small>
         </td>
@@ -4591,8 +4801,8 @@ form_type
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -4607,7 +4817,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>LCCM</td>
+                <td><code>LCCM</code></td>
                 <td>LCCM</td>
             </tr>
         
@@ -4617,7 +4827,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p64">64</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78">78</a>)
             </small>
         </td>
@@ -4653,8 +4863,6 @@ LEMP_CD
 
 Lobbyist employers and subcontracted clients (Form 601)
 
-The records in LEMP_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `LEMP_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEMP_CD.TSV>`_
 
 
@@ -4671,6 +4879,32 @@ Filing forms
 
 
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -4694,7 +4928,7 @@ Fields
     
     
         <tr>
-            <td>AGENCYLIST</td>
+            <td><code>AGENCYLIST</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Agencies to be lobbied</td>
@@ -4703,7 +4937,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -4712,7 +4946,7 @@ Fields
     
     
         <tr>
-            <td>CLI_CITY</td>
+            <td><code>CLI_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Employing client city</td>
@@ -4721,7 +4955,7 @@ Fields
     
     
         <tr>
-            <td>CLI_NAMF</td>
+            <td><code>CLI_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Employing client first name</td>
@@ -4730,7 +4964,7 @@ Fields
     
     
         <tr>
-            <td>CLI_NAML</td>
+            <td><code>CLI_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Employing client last name</td>
@@ -4739,7 +4973,7 @@ Fields
     
     
         <tr>
-            <td>CLI_NAMS</td>
+            <td><code>CLI_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employing client suffix</td>
@@ -4748,7 +4982,7 @@ Fields
     
     
         <tr>
-            <td>CLI_NAMT</td>
+            <td><code>CLI_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employing client prefix or title</td>
@@ -4757,7 +4991,7 @@ Fields
     
     
         <tr>
-            <td>CLI_PHON</td>
+            <td><code>CLI_PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Employing client phone number</td>
@@ -4766,7 +5000,7 @@ Fields
     
     
         <tr>
-            <td>CLI_ST</td>
+            <td><code>CLI_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Employing client state</td>
@@ -4775,7 +5009,7 @@ Fields
     
     
         <tr>
-            <td>CLI_ZIP4</td>
+            <td><code>CLI_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employing client ZIP Code</td>
@@ -4784,7 +5018,7 @@ Fields
     
     
         <tr>
-            <td>CLIENT_ID</td>
+            <td><code>CLIENT_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of the Part 2A employer or Part 2B Client/Employer</td>
@@ -4793,7 +5027,7 @@ Fields
     
     
         <tr>
-            <td>CON_PERIOD</td>
+            <td><code>CON_PERIOD</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Period of the contract</td>
@@ -4802,7 +5036,7 @@ Fields
     
     
         <tr>
-            <td>DESCRIP</td>
+            <td><code>DESCRIP</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of employer/client lobbying interest</td>
@@ -4811,7 +5045,7 @@ Fields
     
     
         <tr>
-            <td>EFF_DATE</td>
+            <td><code>EFF_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Effective Date of Lobbying Contract</td>
@@ -4820,7 +5054,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -4829,7 +5063,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -4838,7 +5072,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -4847,7 +5081,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LEMP</td>
@@ -4856,7 +5090,7 @@ Fields
     
     
         <tr>
-            <td>SUB_CITY</td>
+            <td><code>SUB_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Subcontracting lobbying firm city</td>
@@ -4865,7 +5099,7 @@ Fields
     
     
         <tr>
-            <td>SUB_NAME</td>
+            <td><code>SUB_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Subcontracting lobbying firms name</td>
@@ -4874,7 +5108,7 @@ Fields
     
     
         <tr>
-            <td>SUB_PHON</td>
+            <td><code>SUB_PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Subcontracting lobbying firm phone number</td>
@@ -4883,7 +5117,7 @@ Fields
     
     
         <tr>
-            <td>SUB_ST</td>
+            <td><code>SUB_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Subcontracting lobbying firm state</td>
@@ -4892,7 +5126,7 @@ Fields
     
     
         <tr>
-            <td>SUB_ZIP4</td>
+            <td><code>SUB_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Subcontracting lobbying firm ZIP Code</td>
@@ -4901,7 +5135,7 @@ Fields
     
     
         <tr>
-            <td>SUBFIRM_ID</td>
+            <td><code>SUBFIRM_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>Identification number of subcontracting lobbying firm</td>
@@ -4917,8 +5151,8 @@ Look-up Codes
 =============
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -4933,12 +5167,12 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F601P2A</td>
+                <td><code>F601P2A</code></td>
                 <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section A, Lobbyist Employers</td>
             </tr>
         
             <tr>
-                <td>F601P2B</td>
+                <td><code>F601P2B</code></td>
                 <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section B: Subcontracted Clients</td>
             </tr>
         
@@ -4948,7 +5182,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75">75</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90">90</a>)
             </small>
         </td>
@@ -4959,8 +5193,8 @@ form_type
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -4975,7 +5209,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>LEMP</td>
+                <td><code>LEMP</code></td>
                 <td>LEMP</td>
             </tr>
         
@@ -4985,7 +5219,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75">75</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90">90</a>)
             </small>
         </td>
@@ -5021,10 +5255,28 @@ LOBBYING_CHG_LOG_CD
 
 Holds lobbyist log data for web display
 
-The records in LOBBYING_CHG_LOG_CD are unique by FILER_ID and CHANGE_NO.
-
 **Sample:** `LOBBYING_CHG_LOG_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYING_CHG_LOG_CD.TSV>`_
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+            <td><code>CHANGE_NO</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -5048,7 +5300,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Filer&#39;s unique identification number</td>
@@ -5057,7 +5309,7 @@ Fields
     
     
         <tr>
-            <td>CHANGE_NO</td>
+            <td><code>CHANGE_NO</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Number of changes this session</td>
@@ -5066,7 +5318,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -5075,7 +5327,7 @@ Fields
     
     
         <tr>
-            <td>LOG_DT</td>
+            <td><code>LOG_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5084,7 +5336,7 @@ Fields
     
     
         <tr>
-            <td>FILER_TYPE</td>
+            <td><code>FILER_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Foreign key referencing FilerTypesCd.filer_type</td>
@@ -5093,7 +5345,7 @@ Fields
     
     
         <tr>
-            <td>CORRECTION_FLG</td>
+            <td><code>CORRECTION_FLG</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5102,7 +5354,7 @@ Fields
     
     
         <tr>
-            <td>ACTION</td>
+            <td><code>ACTION</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5111,7 +5363,7 @@ Fields
     
     
         <tr>
-            <td>ATTRIBUTE_CHANGED</td>
+            <td><code>ATTRIBUTE_CHANGED</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5120,7 +5372,7 @@ Fields
     
     
         <tr>
-            <td>ETHICS_DT</td>
+            <td><code>ETHICS_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5129,7 +5381,7 @@ Fields
     
     
         <tr>
-            <td>INTERESTS</td>
+            <td><code>INTERESTS</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5138,7 +5390,7 @@ Fields
     
     
         <tr>
-            <td>FILER_FULL_NAME</td>
+            <td><code>FILER_FULL_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Full name of filer</td>
@@ -5147,7 +5399,7 @@ Fields
     
     
         <tr>
-            <td>FILER_CITY</td>
+            <td><code>FILER_CITY</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>City address of filer</td>
@@ -5156,7 +5408,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ST</td>
+            <td><code>FILER_ST</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>State address of filer</td>
@@ -5165,7 +5417,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ZIP</td>
+            <td><code>FILER_ZIP</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>ZIP Code of filer</td>
@@ -5174,7 +5426,7 @@ Fields
     
     
         <tr>
-            <td>FILER_PHONE</td>
+            <td><code>FILER_PHONE</code></td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>Phone number of filer</td>
@@ -5183,7 +5435,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_TYPE</td>
+            <td><code>ENTITY_TYPE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>This field is undocumented. The values might refer to either FILER_TYPES_CD.FILER_TYPE or GROUP_TYPES_CD.GRP_ID, but that&#39;s just a guess.</td>
@@ -5192,7 +5444,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_NAME</td>
+            <td><code>ENTITY_NAME</code></td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5201,7 +5453,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CITY</td>
+            <td><code>ENTITY_CITY</code></td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5210,7 +5462,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_ST</td>
+            <td><code>ENTITY_ST</code></td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5219,7 +5471,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_ZIP</td>
+            <td><code>ENTITY_ZIP</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5228,7 +5480,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_PHONE</td>
+            <td><code>ENTITY_PHONE</code></td>
             <td>String (up to 12)</td>
             <td>No</td>
             <td>Entity phone number</td>
@@ -5237,7 +5489,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_ID</td>
+            <td><code>ENTITY_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Entity identification number</td>
@@ -5246,7 +5498,7 @@ Fields
     
     
         <tr>
-            <td>RESPONSIBLE_OFFICER</td>
+            <td><code>RESPONSIBLE_OFFICER</code></td>
             <td>String (up to 500)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5255,7 +5507,7 @@ Fields
     
     
         <tr>
-            <td>EFFECT_DT</td>
+            <td><code>EFFECT_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -5271,8 +5523,8 @@ Look-up Codes
 =============
 
 
-entity_type
-----------------
+``entity_type``
+--------------------
 
 .. raw:: html
 
@@ -5287,42 +5539,42 @@ entity_type
         <tbody valign="top">
         
             <tr>
-                <td>0</td>
+                <td><code>0</code></td>
                 <td>n/a</td>
             </tr>
         
             <tr>
-                <td>1</td>
+                <td><code>1</code></td>
                 <td>Client</td>
             </tr>
         
             <tr>
-                <td>2</td>
+                <td><code>2</code></td>
                 <td>Employer</td>
             </tr>
         
             <tr>
-                <td>3</td>
+                <td><code>3</code></td>
                 <td>Firm</td>
             </tr>
         
             <tr>
-                <td>4</td>
+                <td><code>4</code></td>
                 <td>Lobbyist</td>
             </tr>
         
             <tr>
-                <td>10</td>
+                <td><code>10</code></td>
                 <td>Major Donor</td>
             </tr>
         
             <tr>
-                <td>16</td>
+                <td><code>16</code></td>
                 <td>Recipient Committee</td>
             </tr>
         
             <tr>
-                <td>20</td>
+                <td><code>20</code></td>
                 <td>Treasurer/Responsible Officer</td>
             </tr>
         
@@ -5351,9 +5603,9 @@ LOBBYIST_CONTRIBUTIONS1_CD
 
 Lobbyist contribution disclosure table.
 
-
-
 **Sample:** `LOBBYIST_CONTRIBUTIONS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS1_CD.TSV>`_
+
+
 
 
 
@@ -5378,7 +5630,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -5387,7 +5639,7 @@ Fields
     
     
         <tr>
-            <td>FILING_PERIOD_START_DT</td>
+            <td><code>FILING_PERIOD_START_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Start date of filing period</td>
@@ -5396,7 +5648,7 @@ Fields
     
     
         <tr>
-            <td>FILING_PERIOD_END_DT</td>
+            <td><code>FILING_PERIOD_END_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End date of filing period</td>
@@ -5405,7 +5657,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTION_DT</td>
+            <td><code>CONTRIBUTION_DT</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Date of contribution</td>
@@ -5414,7 +5666,7 @@ Fields
     
     
         <tr>
-            <td>RECIPIENT_NAME</td>
+            <td><code>RECIPIENT_NAME</code></td>
             <td>String (up to 106)</td>
             <td>No</td>
             <td>Recipient&#39;s name</td>
@@ -5423,7 +5675,7 @@ Fields
     
     
         <tr>
-            <td>RECIPIENT_ID</td>
+            <td><code>RECIPIENT_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Recipient&#39;s identification number</td>
@@ -5432,7 +5684,7 @@ Fields
     
     
         <tr>
-            <td>AMOUNT</td>
+            <td><code>AMOUNT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Amount received</td>
@@ -5455,9 +5707,9 @@ LOBBYIST_CONTRIBUTIONS2_CD
 Lobbyist contribution disclosure table. Temporary table used to generate
 disclosure table (Lobbyist Contributions 3)
 
-
-
 **Sample:** `LOBBYIST_CONTRIBUTIONS2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS2_CD.TSV>`_
+
+
 
 
 
@@ -5482,7 +5734,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -5491,7 +5743,7 @@ Fields
     
     
         <tr>
-            <td>FILING_PERIOD_START_DT</td>
+            <td><code>FILING_PERIOD_START_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Start date of filing period</td>
@@ -5500,7 +5752,7 @@ Fields
     
     
         <tr>
-            <td>FILING_PERIOD_END_DT</td>
+            <td><code>FILING_PERIOD_END_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End date of filing period</td>
@@ -5509,7 +5761,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTION_DT</td>
+            <td><code>CONTRIBUTION_DT</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Date of contribution</td>
@@ -5518,7 +5770,7 @@ Fields
     
     
         <tr>
-            <td>RECIPIENT_NAME</td>
+            <td><code>RECIPIENT_NAME</code></td>
             <td>String (up to 106)</td>
             <td>No</td>
             <td>Recipient&#39;s name</td>
@@ -5527,7 +5779,7 @@ Fields
     
     
         <tr>
-            <td>RECIPIENT_ID</td>
+            <td><code>RECIPIENT_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Recipient&#39;s identification number</td>
@@ -5536,7 +5788,7 @@ Fields
     
     
         <tr>
-            <td>AMOUNT</td>
+            <td><code>AMOUNT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Amount received</td>
@@ -5558,9 +5810,9 @@ LOBBYIST_CONTRIBUTIONS3_CD
 
 Lobbyist contribution disclosure table.
 
-
-
 **Sample:** `LOBBYIST_CONTRIBUTIONS3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS3_CD.TSV>`_
+
+
 
 
 
@@ -5585,7 +5837,7 @@ Fields
     
     
         <tr>
-            <td>FILER_ID</td>
+            <td><code>FILER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Filer&#39;s unique identification number</td>
@@ -5594,7 +5846,7 @@ Fields
     
     
         <tr>
-            <td>FILING_PERIOD_START_DT</td>
+            <td><code>FILING_PERIOD_START_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Start date of filing period</td>
@@ -5603,7 +5855,7 @@ Fields
     
     
         <tr>
-            <td>FILING_PERIOD_END_DT</td>
+            <td><code>FILING_PERIOD_END_DT</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>End date of filing period</td>
@@ -5612,7 +5864,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTION_DT</td>
+            <td><code>CONTRIBUTION_DT</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Date of contribution</td>
@@ -5621,7 +5873,7 @@ Fields
     
     
         <tr>
-            <td>RECIPIENT_NAME</td>
+            <td><code>RECIPIENT_NAME</code></td>
             <td>String (up to 106)</td>
             <td>No</td>
             <td>Recipient&#39;s name</td>
@@ -5630,7 +5882,7 @@ Fields
     
     
         <tr>
-            <td>RECIPIENT_ID</td>
+            <td><code>RECIPIENT_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Recipient&#39;s identification number</td>
@@ -5639,7 +5891,7 @@ Fields
     
     
         <tr>
-            <td>AMOUNT</td>
+            <td><code>AMOUNT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Amount received</td>
@@ -5661,9 +5913,9 @@ LOBBYIST_EMPLOYER1_CD
 
 Information for lobbyist's primary employer
 
-
-
 **Sample:** `LOBBYIST_EMPLOYER1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER1_CD.TSV>`_
+
+
 
 
 
@@ -5688,7 +5940,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_ID</td>
+            <td><code>EMPLOYER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -5697,7 +5949,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -5706,7 +5958,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_NAME</td>
+            <td><code>EMPLOYER_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -5715,7 +5967,7 @@ Fields
     
     
         <tr>
-            <td>CURRENT_QTR_AMT</td>
+            <td><code>CURRENT_QTR_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -5724,7 +5976,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_TOTAL_AMT</td>
+            <td><code>SESSION_TOTAL_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -5733,7 +5985,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTOR_ID</td>
+            <td><code>CONTRIBUTOR_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -5742,7 +5994,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_CD</td>
+            <td><code>INTEREST_CD</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Interest Code</td>
@@ -5751,7 +6003,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_NAME</td>
+            <td><code>INTEREST_NAME</code></td>
             <td>String (up to 24)</td>
             <td>No</td>
             <td>Interest name</td>
@@ -5760,7 +6012,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_1</td>
+            <td><code>SESSION_YR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -5769,7 +6021,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_2</td>
+            <td><code>SESSION_YR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -5778,7 +6030,7 @@ Fields
     
     
         <tr>
-            <td>YR_1_YTD_AMT</td>
+            <td><code>YR_1_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -5787,7 +6039,7 @@ Fields
     
     
         <tr>
-            <td>YR_2_YTD_AMT</td>
+            <td><code>YR_2_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -5796,7 +6048,7 @@ Fields
     
     
         <tr>
-            <td>QTR_1</td>
+            <td><code>QTR_1</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5805,7 +6057,7 @@ Fields
     
     
         <tr>
-            <td>QTR_2</td>
+            <td><code>QTR_2</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5814,7 +6066,7 @@ Fields
     
     
         <tr>
-            <td>QTR_3</td>
+            <td><code>QTR_3</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5823,7 +6075,7 @@ Fields
     
     
         <tr>
-            <td>QTR_4</td>
+            <td><code>QTR_4</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5832,7 +6084,7 @@ Fields
     
     
         <tr>
-            <td>QTR_5</td>
+            <td><code>QTR_5</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5841,7 +6093,7 @@ Fields
     
     
         <tr>
-            <td>QTR_6</td>
+            <td><code>QTR_6</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5850,7 +6102,7 @@ Fields
     
     
         <tr>
-            <td>QTR_7</td>
+            <td><code>QTR_7</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5859,7 +6111,7 @@ Fields
     
     
         <tr>
-            <td>QTR_8</td>
+            <td><code>QTR_8</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -5875,8 +6127,8 @@ Look-up Codes
 =============
 
 
-interest_cd
-----------------
+``interest_cd``
+--------------------
 
 .. raw:: html
 
@@ -5891,97 +6143,97 @@ interest_cd
         <tbody valign="top">
         
             <tr>
-                <td>40301</td>
+                <td><code>40301</code></td>
                 <td>AGRICULTURE</td>
             </tr>
         
             <tr>
-                <td>40302</td>
+                <td><code>40302</code></td>
                 <td>EDUCATION</td>
             </tr>
         
             <tr>
-                <td>40303</td>
+                <td><code>40303</code></td>
                 <td>ENTERTAINMENT/RECREATION</td>
             </tr>
         
             <tr>
-                <td>40304</td>
+                <td><code>40304</code></td>
                 <td>FINANCE/INSURANCE</td>
             </tr>
         
             <tr>
-                <td>40305</td>
+                <td><code>40305</code></td>
                 <td>GOVERNMENT</td>
             </tr>
         
             <tr>
-                <td>40306</td>
+                <td><code>40306</code></td>
                 <td>HEALTH</td>
             </tr>
         
             <tr>
-                <td>40307</td>
+                <td><code>40307</code></td>
                 <td>LABOR UNIONS</td>
             </tr>
         
             <tr>
-                <td>40308</td>
+                <td><code>40308</code></td>
                 <td>LEGAL</td>
             </tr>
         
             <tr>
-                <td>40309</td>
+                <td><code>40309</code></td>
                 <td>LODGING/RESTAURANTS</td>
             </tr>
         
             <tr>
-                <td>40310</td>
+                <td><code>40310</code></td>
                 <td>MANUFACTURING/INDUSTRIAL</td>
             </tr>
         
             <tr>
-                <td>40311</td>
+                <td><code>40311</code></td>
                 <td>MERCHANDISE/RETAIL</td>
             </tr>
         
             <tr>
-                <td>40312</td>
+                <td><code>40312</code></td>
                 <td>MISCELLANEOUS</td>
             </tr>
         
             <tr>
-                <td>40313</td>
+                <td><code>40313</code></td>
                 <td>OIL AND GAS</td>
             </tr>
         
             <tr>
-                <td>40314</td>
+                <td><code>40314</code></td>
                 <td>POLITICAL ORGANIZATIONS</td>
             </tr>
         
             <tr>
-                <td>40315</td>
+                <td><code>40315</code></td>
                 <td>PROFESSIONAL/TRADE</td>
             </tr>
         
             <tr>
-                <td>40316</td>
+                <td><code>40316</code></td>
                 <td>PUBLIC EMPLOYEES</td>
             </tr>
         
             <tr>
-                <td>40317</td>
+                <td><code>40317</code></td>
                 <td>REAL ESTATE</td>
             </tr>
         
             <tr>
-                <td>40318</td>
+                <td><code>40318</code></td>
                 <td>TRANSPORTATION</td>
             </tr>
         
             <tr>
-                <td>40319</td>
+                <td><code>40319</code></td>
                 <td>UTILITIES</td>
             </tr>
         
@@ -5991,7 +6243,7 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
             </small>
         </td>
@@ -6024,9 +6276,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_EMPLOYER2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER2_CD.TSV>`_
+
+
 
 
 
@@ -6051,7 +6303,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_ID</td>
+            <td><code>EMPLOYER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6060,7 +6312,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -6069,7 +6321,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_NAME</td>
+            <td><code>EMPLOYER_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -6078,7 +6330,7 @@ Fields
     
     
         <tr>
-            <td>CURRENT_QTR_AMT</td>
+            <td><code>CURRENT_QTR_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -6087,7 +6339,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_TOTAL_AMT</td>
+            <td><code>SESSION_TOTAL_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -6096,7 +6348,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTOR_ID</td>
+            <td><code>CONTRIBUTOR_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -6105,7 +6357,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_CD</td>
+            <td><code>INTEREST_CD</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Interest Code</td>
@@ -6114,7 +6366,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_NAME</td>
+            <td><code>INTEREST_NAME</code></td>
             <td>String (up to 24)</td>
             <td>No</td>
             <td>Interest name</td>
@@ -6123,7 +6375,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_1</td>
+            <td><code>SESSION_YR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -6132,7 +6384,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_2</td>
+            <td><code>SESSION_YR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -6141,7 +6393,7 @@ Fields
     
     
         <tr>
-            <td>YR_1_YTD_AMT</td>
+            <td><code>YR_1_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -6150,7 +6402,7 @@ Fields
     
     
         <tr>
-            <td>YR_2_YTD_AMT</td>
+            <td><code>YR_2_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -6159,7 +6411,7 @@ Fields
     
     
         <tr>
-            <td>QTR_1</td>
+            <td><code>QTR_1</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 1 total amount</td>
@@ -6168,7 +6420,7 @@ Fields
     
     
         <tr>
-            <td>QTR_2</td>
+            <td><code>QTR_2</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 2 total amount</td>
@@ -6177,7 +6429,7 @@ Fields
     
     
         <tr>
-            <td>QTR_3</td>
+            <td><code>QTR_3</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 3 total amount</td>
@@ -6186,7 +6438,7 @@ Fields
     
     
         <tr>
-            <td>QTR_4</td>
+            <td><code>QTR_4</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 4 total amount</td>
@@ -6195,7 +6447,7 @@ Fields
     
     
         <tr>
-            <td>QTR_5</td>
+            <td><code>QTR_5</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 5 total amount</td>
@@ -6204,7 +6456,7 @@ Fields
     
     
         <tr>
-            <td>QTR_6</td>
+            <td><code>QTR_6</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 6 total amount</td>
@@ -6213,7 +6465,7 @@ Fields
     
     
         <tr>
-            <td>QTR_7</td>
+            <td><code>QTR_7</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 7 total amount</td>
@@ -6222,7 +6474,7 @@ Fields
     
     
         <tr>
-            <td>QTR_8</td>
+            <td><code>QTR_8</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter 8 total amount</td>
@@ -6238,8 +6490,8 @@ Look-up Codes
 =============
 
 
-interest_cd
-----------------
+``interest_cd``
+--------------------
 
 .. raw:: html
 
@@ -6254,97 +6506,97 @@ interest_cd
         <tbody valign="top">
         
             <tr>
-                <td>40301</td>
+                <td><code>40301</code></td>
                 <td>AGRICULTURE</td>
             </tr>
         
             <tr>
-                <td>40302</td>
+                <td><code>40302</code></td>
                 <td>EDUCATION</td>
             </tr>
         
             <tr>
-                <td>40303</td>
+                <td><code>40303</code></td>
                 <td>ENTERTAINMENT/RECREATION</td>
             </tr>
         
             <tr>
-                <td>40304</td>
+                <td><code>40304</code></td>
                 <td>FINANCE/INSURANCE</td>
             </tr>
         
             <tr>
-                <td>40305</td>
+                <td><code>40305</code></td>
                 <td>GOVERNMENT</td>
             </tr>
         
             <tr>
-                <td>40306</td>
+                <td><code>40306</code></td>
                 <td>HEALTH</td>
             </tr>
         
             <tr>
-                <td>40307</td>
+                <td><code>40307</code></td>
                 <td>LABOR UNIONS</td>
             </tr>
         
             <tr>
-                <td>40308</td>
+                <td><code>40308</code></td>
                 <td>LEGAL</td>
             </tr>
         
             <tr>
-                <td>40309</td>
+                <td><code>40309</code></td>
                 <td>LODGING/RESTAURANTS</td>
             </tr>
         
             <tr>
-                <td>40310</td>
+                <td><code>40310</code></td>
                 <td>MANUFACTURING/INDUSTRIAL</td>
             </tr>
         
             <tr>
-                <td>40311</td>
+                <td><code>40311</code></td>
                 <td>MERCHANDISE/RETAIL</td>
             </tr>
         
             <tr>
-                <td>40312</td>
+                <td><code>40312</code></td>
                 <td>MISCELLANEOUS</td>
             </tr>
         
             <tr>
-                <td>40313</td>
+                <td><code>40313</code></td>
                 <td>OIL AND GAS</td>
             </tr>
         
             <tr>
-                <td>40314</td>
+                <td><code>40314</code></td>
                 <td>POLITICAL ORGANIZATIONS</td>
             </tr>
         
             <tr>
-                <td>40315</td>
+                <td><code>40315</code></td>
                 <td>PROFESSIONAL/TRADE</td>
             </tr>
         
             <tr>
-                <td>40316</td>
+                <td><code>40316</code></td>
                 <td>PUBLIC EMPLOYEES</td>
             </tr>
         
             <tr>
-                <td>40317</td>
+                <td><code>40317</code></td>
                 <td>REAL ESTATE</td>
             </tr>
         
             <tr>
-                <td>40318</td>
+                <td><code>40318</code></td>
                 <td>TRANSPORTATION</td>
             </tr>
         
             <tr>
-                <td>40319</td>
+                <td><code>40319</code></td>
                 <td>UTILITIES</td>
             </tr>
         
@@ -6354,7 +6606,7 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
             </small>
         </td>
@@ -6387,9 +6639,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_EMPLOYER3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER3_CD.TSV>`_
+
+
 
 
 
@@ -6414,7 +6666,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_ID</td>
+            <td><code>EMPLOYER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6423,7 +6675,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -6432,7 +6684,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_NAME</td>
+            <td><code>EMPLOYER_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -6441,7 +6693,7 @@ Fields
     
     
         <tr>
-            <td>CURRENT_QTR_AMT</td>
+            <td><code>CURRENT_QTR_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -6450,7 +6702,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_TOTAL_AMT</td>
+            <td><code>SESSION_TOTAL_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -6459,7 +6711,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTOR_ID</td>
+            <td><code>CONTRIBUTOR_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -6468,7 +6720,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_CD</td>
+            <td><code>INTEREST_CD</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Interest Code</td>
@@ -6477,7 +6729,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_NAME</td>
+            <td><code>INTEREST_NAME</code></td>
             <td>String (up to 24)</td>
             <td>No</td>
             <td>Interest name</td>
@@ -6486,7 +6738,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_1</td>
+            <td><code>SESSION_YR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -6495,7 +6747,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_2</td>
+            <td><code>SESSION_YR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -6504,7 +6756,7 @@ Fields
     
     
         <tr>
-            <td>YR_1_YTD_AMT</td>
+            <td><code>YR_1_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -6513,7 +6765,7 @@ Fields
     
     
         <tr>
-            <td>YR_2_YTD_AMT</td>
+            <td><code>YR_2_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -6522,7 +6774,7 @@ Fields
     
     
         <tr>
-            <td>QTR_1</td>
+            <td><code>QTR_1</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6531,7 +6783,7 @@ Fields
     
     
         <tr>
-            <td>QTR_2</td>
+            <td><code>QTR_2</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6540,7 +6792,7 @@ Fields
     
     
         <tr>
-            <td>QTR_3</td>
+            <td><code>QTR_3</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6549,7 +6801,7 @@ Fields
     
     
         <tr>
-            <td>QTR_4</td>
+            <td><code>QTR_4</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6558,7 +6810,7 @@ Fields
     
     
         <tr>
-            <td>QTR_5</td>
+            <td><code>QTR_5</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6567,7 +6819,7 @@ Fields
     
     
         <tr>
-            <td>QTR_6</td>
+            <td><code>QTR_6</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6576,7 +6828,7 @@ Fields
     
     
         <tr>
-            <td>QTR_7</td>
+            <td><code>QTR_7</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6585,7 +6837,7 @@ Fields
     
     
         <tr>
-            <td>QTR_8</td>
+            <td><code>QTR_8</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -6601,8 +6853,8 @@ Look-up Codes
 =============
 
 
-interest_cd
-----------------
+``interest_cd``
+--------------------
 
 .. raw:: html
 
@@ -6617,97 +6869,97 @@ interest_cd
         <tbody valign="top">
         
             <tr>
-                <td>40301</td>
+                <td><code>40301</code></td>
                 <td>AGRICULTURE</td>
             </tr>
         
             <tr>
-                <td>40302</td>
+                <td><code>40302</code></td>
                 <td>EDUCATION</td>
             </tr>
         
             <tr>
-                <td>40303</td>
+                <td><code>40303</code></td>
                 <td>ENTERTAINMENT/RECREATION</td>
             </tr>
         
             <tr>
-                <td>40304</td>
+                <td><code>40304</code></td>
                 <td>FINANCE/INSURANCE</td>
             </tr>
         
             <tr>
-                <td>40305</td>
+                <td><code>40305</code></td>
                 <td>GOVERNMENT</td>
             </tr>
         
             <tr>
-                <td>40306</td>
+                <td><code>40306</code></td>
                 <td>HEALTH</td>
             </tr>
         
             <tr>
-                <td>40307</td>
+                <td><code>40307</code></td>
                 <td>LABOR UNIONS</td>
             </tr>
         
             <tr>
-                <td>40308</td>
+                <td><code>40308</code></td>
                 <td>LEGAL</td>
             </tr>
         
             <tr>
-                <td>40309</td>
+                <td><code>40309</code></td>
                 <td>LODGING/RESTAURANTS</td>
             </tr>
         
             <tr>
-                <td>40310</td>
+                <td><code>40310</code></td>
                 <td>MANUFACTURING/INDUSTRIAL</td>
             </tr>
         
             <tr>
-                <td>40311</td>
+                <td><code>40311</code></td>
                 <td>MERCHANDISE/RETAIL</td>
             </tr>
         
             <tr>
-                <td>40312</td>
+                <td><code>40312</code></td>
                 <td>MISCELLANEOUS</td>
             </tr>
         
             <tr>
-                <td>40313</td>
+                <td><code>40313</code></td>
                 <td>OIL AND GAS</td>
             </tr>
         
             <tr>
-                <td>40314</td>
+                <td><code>40314</code></td>
                 <td>POLITICAL ORGANIZATIONS</td>
             </tr>
         
             <tr>
-                <td>40315</td>
+                <td><code>40315</code></td>
                 <td>PROFESSIONAL/TRADE</td>
             </tr>
         
             <tr>
-                <td>40316</td>
+                <td><code>40316</code></td>
                 <td>PUBLIC EMPLOYEES</td>
             </tr>
         
             <tr>
-                <td>40317</td>
+                <td><code>40317</code></td>
                 <td>REAL ESTATE</td>
             </tr>
         
             <tr>
-                <td>40318</td>
+                <td><code>40318</code></td>
                 <td>TRANSPORTATION</td>
             </tr>
         
             <tr>
-                <td>40319</td>
+                <td><code>40319</code></td>
                 <td>UTILITIES</td>
             </tr>
         
@@ -6717,7 +6969,7 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
             </small>
         </td>
@@ -6750,9 +7002,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_EMPLOYER_FIRMS1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS1_CD.TSV>`_
+
+
 
 
 
@@ -6777,7 +7029,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_ID</td>
+            <td><code>EMPLOYER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6786,7 +7038,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -6795,7 +7047,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -6804,7 +7056,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -6813,7 +7065,7 @@ Fields
     
     
         <tr>
-            <td>TERMINATION_DT</td>
+            <td><code>TERMINATION_DT</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Termination effective date</td>
@@ -6838,9 +7090,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_EMPLOYER_FIRMS2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS2_CD.TSV>`_
+
+
 
 
 
@@ -6865,7 +7117,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_ID</td>
+            <td><code>EMPLOYER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6874,7 +7126,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -6883,7 +7135,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -6892,7 +7144,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -6901,7 +7153,7 @@ Fields
     
     
         <tr>
-            <td>TERMINATION_DT</td>
+            <td><code>TERMINATION_DT</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>Termination effective date</td>
@@ -6926,9 +7178,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_EMP_LOBBYIST1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST1_CD.TSV>`_
+
+
 
 
 
@@ -6953,7 +7205,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_ID</td>
+            <td><code>LOBBYIST_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Lobbyist identification number</td>
@@ -6962,7 +7214,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_ID</td>
+            <td><code>EMPLOYER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -6971,7 +7223,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_LAST_NAME</td>
+            <td><code>LOBBYIST_LAST_NAME</code></td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist last name</td>
@@ -6980,7 +7232,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_FIRST_NAME</td>
+            <td><code>LOBBYIST_FIRST_NAME</code></td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist first name</td>
@@ -6989,7 +7241,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_NAME</td>
+            <td><code>EMPLOYER_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -6998,7 +7250,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7023,9 +7275,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_EMP_LOBBYIST2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST2_CD.TSV>`_
+
+
 
 
 
@@ -7050,7 +7302,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_ID</td>
+            <td><code>LOBBYIST_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Lobbyist identification number</td>
@@ -7059,7 +7311,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_ID</td>
+            <td><code>EMPLOYER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number</td>
@@ -7068,7 +7320,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_LAST_NAME</td>
+            <td><code>LOBBYIST_LAST_NAME</code></td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist last name</td>
@@ -7077,7 +7329,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_FIRST_NAME</td>
+            <td><code>LOBBYIST_FIRST_NAME</code></td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist first name</td>
@@ -7086,7 +7338,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_NAME</td>
+            <td><code>EMPLOYER_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -7095,7 +7347,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7120,9 +7372,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_FIRM1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM1_CD.TSV>`_
+
+
 
 
 
@@ -7147,7 +7399,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7156,7 +7408,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7165,7 +7417,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7174,7 +7426,7 @@ Fields
     
     
         <tr>
-            <td>CURRENT_QTR_AMT</td>
+            <td><code>CURRENT_QTR_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -7183,7 +7435,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_TOTAL_AMT</td>
+            <td><code>SESSION_TOTAL_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -7192,7 +7444,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTOR_ID</td>
+            <td><code>CONTRIBUTOR_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -7201,7 +7453,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_1</td>
+            <td><code>SESSION_YR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -7210,7 +7462,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_2</td>
+            <td><code>SESSION_YR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -7219,7 +7471,7 @@ Fields
     
     
         <tr>
-            <td>YR_1_YTD_AMT</td>
+            <td><code>YR_1_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -7228,7 +7480,7 @@ Fields
     
     
         <tr>
-            <td>YR_2_YTD_AMT</td>
+            <td><code>YR_2_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -7237,7 +7489,7 @@ Fields
     
     
         <tr>
-            <td>QTR_1</td>
+            <td><code>QTR_1</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7246,7 +7498,7 @@ Fields
     
     
         <tr>
-            <td>QTR_2</td>
+            <td><code>QTR_2</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7255,7 +7507,7 @@ Fields
     
     
         <tr>
-            <td>QTR_3</td>
+            <td><code>QTR_3</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7264,7 +7516,7 @@ Fields
     
     
         <tr>
-            <td>QTR_4</td>
+            <td><code>QTR_4</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7273,7 +7525,7 @@ Fields
     
     
         <tr>
-            <td>QTR_5</td>
+            <td><code>QTR_5</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7282,7 +7534,7 @@ Fields
     
     
         <tr>
-            <td>QTR_6</td>
+            <td><code>QTR_6</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7291,7 +7543,7 @@ Fields
     
     
         <tr>
-            <td>QTR_7</td>
+            <td><code>QTR_7</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7300,7 +7552,7 @@ Fields
     
     
         <tr>
-            <td>QTR_8</td>
+            <td><code>QTR_8</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7325,9 +7577,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_FIRM2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM2_CD.TSV>`_
+
+
 
 
 
@@ -7352,7 +7604,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7361,7 +7613,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7370,7 +7622,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7379,7 +7631,7 @@ Fields
     
     
         <tr>
-            <td>CURRENT_QTR_AMT</td>
+            <td><code>CURRENT_QTR_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -7388,7 +7640,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_TOTAL_AMT</td>
+            <td><code>SESSION_TOTAL_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -7397,7 +7649,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTOR_ID</td>
+            <td><code>CONTRIBUTOR_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -7406,7 +7658,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_1</td>
+            <td><code>SESSION_YR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -7415,7 +7667,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_2</td>
+            <td><code>SESSION_YR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -7424,7 +7676,7 @@ Fields
     
     
         <tr>
-            <td>YR_1_YTD_AMT</td>
+            <td><code>YR_1_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -7433,7 +7685,7 @@ Fields
     
     
         <tr>
-            <td>YR_2_YTD_AMT</td>
+            <td><code>YR_2_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -7442,7 +7694,7 @@ Fields
     
     
         <tr>
-            <td>QTR_1</td>
+            <td><code>QTR_1</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7451,7 +7703,7 @@ Fields
     
     
         <tr>
-            <td>QTR_2</td>
+            <td><code>QTR_2</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7460,7 +7712,7 @@ Fields
     
     
         <tr>
-            <td>QTR_3</td>
+            <td><code>QTR_3</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7469,7 +7721,7 @@ Fields
     
     
         <tr>
-            <td>QTR_4</td>
+            <td><code>QTR_4</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7478,7 +7730,7 @@ Fields
     
     
         <tr>
-            <td>QTR_5</td>
+            <td><code>QTR_5</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7487,7 +7739,7 @@ Fields
     
     
         <tr>
-            <td>QTR_6</td>
+            <td><code>QTR_6</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7496,7 +7748,7 @@ Fields
     
     
         <tr>
-            <td>QTR_7</td>
+            <td><code>QTR_7</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7505,7 +7757,7 @@ Fields
     
     
         <tr>
-            <td>QTR_8</td>
+            <td><code>QTR_8</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7530,9 +7782,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_FIRM3_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM3_CD.TSV>`_
+
+
 
 
 
@@ -7557,7 +7809,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7566,7 +7818,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -7575,7 +7827,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7584,7 +7836,7 @@ Fields
     
     
         <tr>
-            <td>CURRENT_QTR_AMT</td>
+            <td><code>CURRENT_QTR_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Current quarter amount</td>
@@ -7593,7 +7845,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_TOTAL_AMT</td>
+            <td><code>SESSION_TOTAL_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total amount for the session</td>
@@ -7602,7 +7854,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTOR_ID</td>
+            <td><code>CONTRIBUTOR_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number</td>
@@ -7611,7 +7863,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_1</td>
+            <td><code>SESSION_YR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 1 of the session</td>
@@ -7620,7 +7872,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_2</td>
+            <td><code>SESSION_YR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount of year 2 of the session</td>
@@ -7629,7 +7881,7 @@ Fields
     
     
         <tr>
-            <td>YR_1_YTD_AMT</td>
+            <td><code>YR_1_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 1 year-to-date-amount</td>
@@ -7638,7 +7890,7 @@ Fields
     
     
         <tr>
-            <td>YR_2_YTD_AMT</td>
+            <td><code>YR_2_YTD_AMT</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Year 2 year-to-date-amount</td>
@@ -7647,7 +7899,7 @@ Fields
     
     
         <tr>
-            <td>QTR_1</td>
+            <td><code>QTR_1</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7656,7 +7908,7 @@ Fields
     
     
         <tr>
-            <td>QTR_2</td>
+            <td><code>QTR_2</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7665,7 +7917,7 @@ Fields
     
     
         <tr>
-            <td>QTR_3</td>
+            <td><code>QTR_3</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7674,7 +7926,7 @@ Fields
     
     
         <tr>
-            <td>QTR_4</td>
+            <td><code>QTR_4</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7683,7 +7935,7 @@ Fields
     
     
         <tr>
-            <td>QTR_5</td>
+            <td><code>QTR_5</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7692,7 +7944,7 @@ Fields
     
     
         <tr>
-            <td>QTR_6</td>
+            <td><code>QTR_6</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7701,7 +7953,7 @@ Fields
     
     
         <tr>
-            <td>QTR_7</td>
+            <td><code>QTR_7</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7710,7 +7962,7 @@ Fields
     
     
         <tr>
-            <td>QTR_8</td>
+            <td><code>QTR_8</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Quarter total amount</td>
@@ -7735,9 +7987,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_FIRM_EMPLOYER1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER1_CD.TSV>`_
+
+
 
 
 
@@ -7762,7 +8014,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7771,7 +8023,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Unique filing identificiation number</td>
@@ -7780,7 +8032,7 @@ Fields
     
     
         <tr>
-            <td>FILING_SEQUENCE</td>
+            <td><code>FILING_SEQUENCE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Amendment number. 0 is the original filing. 1 to 999 are amendments</td>
@@ -7789,7 +8041,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7798,7 +8050,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_NAME</td>
+            <td><code>EMPLOYER_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -7807,7 +8059,7 @@ Fields
     
     
         <tr>
-            <td>RPT_START</td>
+            <td><code>RPT_START</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Starting date for the period the report covers</td>
@@ -7816,7 +8068,7 @@ Fields
     
     
         <tr>
-            <td>RPT_END</td>
+            <td><code>RPT_END</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ending date for the period the report covers</td>
@@ -7825,7 +8077,7 @@ Fields
     
     
         <tr>
-            <td>PER_TOTAL</td>
+            <td><code>PER_TOTAL</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total this reporting period</td>
@@ -7834,7 +8086,7 @@ Fields
     
     
         <tr>
-            <td>CUM_TOTAL</td>
+            <td><code>CUM_TOTAL</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -7843,7 +8095,7 @@ Fields
     
     
         <tr>
-            <td>LBY_ACTVTY</td>
+            <td><code>LBY_ACTVTY</code></td>
             <td>String (up to 182)</td>
             <td>No</td>
             <td>Description of lobbying activity</td>
@@ -7852,7 +8104,7 @@ Fields
     
     
         <tr>
-            <td>EXT_LBY_ACTVTY</td>
+            <td><code>EXT_LBY_ACTVTY</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -7877,9 +8129,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_FIRM_EMPLOYER2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER2_CD.TSV>`_
+
+
 
 
 
@@ -7904,7 +8156,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -7913,7 +8165,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Unique filing identificiation number</td>
@@ -7922,7 +8174,7 @@ Fields
     
     
         <tr>
-            <td>FILING_SEQUENCE</td>
+            <td><code>FILING_SEQUENCE</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Amendment number. 0 is the original filing. 1 to 999 are amendments</td>
@@ -7931,7 +8183,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -7940,7 +8192,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_NAME</td>
+            <td><code>EMPLOYER_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer name</td>
@@ -7949,7 +8201,7 @@ Fields
     
     
         <tr>
-            <td>RPT_START</td>
+            <td><code>RPT_START</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Starting date for the period the report covers</td>
@@ -7958,7 +8210,7 @@ Fields
     
     
         <tr>
-            <td>RPT_END</td>
+            <td><code>RPT_END</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Ending date for the period the report covers</td>
@@ -7967,7 +8219,7 @@ Fields
     
     
         <tr>
-            <td>PER_TOTAL</td>
+            <td><code>PER_TOTAL</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Total this reporting period</td>
@@ -7976,7 +8228,7 @@ Fields
     
     
         <tr>
-            <td>CUM_TOTAL</td>
+            <td><code>CUM_TOTAL</code></td>
             <td>Floating point number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -7985,7 +8237,7 @@ Fields
     
     
         <tr>
-            <td>LBY_ACTVTY</td>
+            <td><code>LBY_ACTVTY</code></td>
             <td>String (up to 182)</td>
             <td>No</td>
             <td>Description of lobbying activity</td>
@@ -7994,7 +8246,7 @@ Fields
     
     
         <tr>
-            <td>EXT_LBY_ACTVTY</td>
+            <td><code>EXT_LBY_ACTVTY</code></td>
             <td>String (up to 32)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -8019,9 +8271,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_FIRM_LOBBYIST1_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST1_CD.TSV>`_
+
+
 
 
 
@@ -8046,7 +8298,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_ID</td>
+            <td><code>LOBBYIST_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Lobbyist identification number</td>
@@ -8055,7 +8307,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -8064,7 +8316,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_LAST_NAME</td>
+            <td><code>LOBBYIST_LAST_NAME</code></td>
             <td>String (up to 15)</td>
             <td>No</td>
             <td>Lobbyist last name</td>
@@ -8073,7 +8325,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_FIRST_NAME</td>
+            <td><code>LOBBYIST_FIRST_NAME</code></td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist first name</td>
@@ -8082,7 +8334,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -8091,7 +8343,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -8116,9 +8368,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_FIRM_LOBBYIST2_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST2_CD.TSV>`_
+
+
 
 
 
@@ -8143,7 +8395,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_ID</td>
+            <td><code>LOBBYIST_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Lobbyist identification number</td>
@@ -8152,7 +8404,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the firm, employer or coalition</td>
@@ -8161,7 +8413,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_LAST_NAME</td>
+            <td><code>LOBBYIST_LAST_NAME</code></td>
             <td>String (up to 15)</td>
             <td>No</td>
             <td>Lobbyist last name</td>
@@ -8170,7 +8422,7 @@ Fields
     
     
         <tr>
-            <td>LOBBYIST_FIRST_NAME</td>
+            <td><code>LOBBYIST_FIRST_NAME</code></td>
             <td>String (up to 17)</td>
             <td>No</td>
             <td>Lobbyist first name</td>
@@ -8179,7 +8431,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 400)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -8188,7 +8440,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Legislative session identification number</td>
@@ -8210,8 +8462,6 @@ LOTH_CD
 
 Payment to other lobbying firms listed of Form 625 Part 3B
 
-The records in LOTH_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `LOTH_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOTH_CD.TSV>`_
 
 
@@ -8223,6 +8473,32 @@ Filing forms
 * `Form 625 <../filingforms/lobbyist_forms.html#form-625>`_ (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made
 
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -8246,7 +8522,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -8255,7 +8531,7 @@ Fields
     
     
         <tr>
-            <td>AMOUNT</td>
+            <td><code>AMOUNT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Amount of payment</td>
@@ -8264,7 +8540,7 @@ Fields
     
     
         <tr>
-            <td>CUM_AMT</td>
+            <td><code>CUM_AMT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -8273,7 +8549,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -8282,7 +8558,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_CITY</td>
+            <td><code>FIRM_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Firm, employer or coalition&#39;s city</td>
@@ -8291,7 +8567,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Firm, employer or coalition&#39;s name</td>
@@ -8300,7 +8576,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_PHON</td>
+            <td><code>FIRM_PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Firm, employer or coalition&#39;s phone number</td>
@@ -8309,7 +8585,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ST</td>
+            <td><code>FIRM_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Firm, employer or coalition&#39;s ZIP Code</td>
@@ -8318,7 +8594,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ZIP4</td>
+            <td><code>FIRM_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Firm ZIP Code</td>
@@ -8327,7 +8603,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -8336,7 +8612,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -8345,7 +8621,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_CODE</td>
+            <td><code>MEMO_CODE</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -8354,7 +8630,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_REFNO</td>
+            <td><code>MEMO_REFNO</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to text contained in a TEXT record</td>
@@ -8363,7 +8639,7 @@ Fields
     
     
         <tr>
-            <td>PMT_DATE</td>
+            <td><code>PMT_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
             <td>Date of payment</td>
@@ -8372,7 +8648,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LOTH</td>
@@ -8381,7 +8657,7 @@ Fields
     
     
         <tr>
-            <td>SUBJ_NAMF</td>
+            <td><code>SUBJ_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>First name of employer/client subject of lobbying</td>
@@ -8390,7 +8666,7 @@ Fields
     
     
         <tr>
-            <td>SUBJ_NAML</td>
+            <td><code>SUBJ_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Last name of employer/client subject of lobbying</td>
@@ -8399,7 +8675,7 @@ Fields
     
     
         <tr>
-            <td>SUBJ_NAMS</td>
+            <td><code>SUBJ_NAMS</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Suffix of employer/client subject of lobbying</td>
@@ -8408,7 +8684,7 @@ Fields
     
     
         <tr>
-            <td>SUBJ_NAMT</td>
+            <td><code>SUBJ_NAMT</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Prefix or title of employer/client subject of lobbying</td>
@@ -8417,7 +8693,7 @@ Fields
     
     
         <tr>
-            <td>TRAN_ID</td>
+            <td><code>TRAN_ID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -8433,8 +8709,8 @@ Look-up Codes
 =============
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -8449,7 +8725,7 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F625P3B</td>
+                <td><code>F625P3B</code></td>
                 <td>Form 625 (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
             </tr>
         
@@ -8459,7 +8735,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63">63</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77">77</a>)
             </small>
         </td>
@@ -8470,8 +8746,8 @@ form_type
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -8486,7 +8762,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>LOTH</td>
+                <td><code>LOTH</code></td>
                 <td>LOTH</td>
             </tr>
         
@@ -8496,7 +8772,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63">63</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77">77</a>)
             </small>
         </td>
@@ -8533,8 +8809,6 @@ LPAY_CD
 Payments made or received by lobbying firms, reported on
 Form 625 Part 2 and 635 Part 3B
 
-The records in LPAY_CD are unique by FILING_ID, AMEND_ID, LINE_ITEM, REC_TYPE and FORM_TYPE.
-
 **Sample:** `LPAY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LPAY_CD.TSV>`_
 
 
@@ -8550,6 +8824,32 @@ Filing forms
 * `Form 635 <../filingforms/lobbyist_forms.html#form-635>`_ (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section B: Payments To Lobbying Firms
 
 
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -8573,7 +8873,7 @@ Fields
     
     
         <tr>
-            <td>ADVAN_AMT</td>
+            <td><code>ADVAN_AMT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Advance and other payments amount</td>
@@ -8582,7 +8882,7 @@ Fields
     
     
         <tr>
-            <td>ADVAN_DSCR</td>
+            <td><code>ADVAN_DSCR</code></td>
             <td>String (up to 100)</td>
             <td>No</td>
             <td>Description of advance and other payments</td>
@@ -8591,7 +8891,7 @@ Fields
     
     
         <tr>
-            <td>AMEND_ID</td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
@@ -8600,7 +8900,7 @@ Fields
     
     
         <tr>
-            <td>BAKREF_TID</td>
+            <td><code>BAKREF_TID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Backreference to transaction identifer of parent record</td>
@@ -8609,7 +8909,7 @@ Fields
     
     
         <tr>
-            <td>CUM_TOTAL</td>
+            <td><code>CUM_TOTAL</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Cumulative total to date</td>
@@ -8618,7 +8918,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_CITY</td>
+            <td><code>EMPLR_CITY</code></td>
             <td>String (up to 30)</td>
             <td>No</td>
             <td>Employer city</td>
@@ -8627,7 +8927,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_ID</td>
+            <td><code>EMPLR_ID</code></td>
             <td>String (up to 9)</td>
             <td>No</td>
             <td>This field is undocumented</td>
@@ -8636,7 +8936,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_NAMF</td>
+            <td><code>EMPLR_NAMF</code></td>
             <td>String (up to 45)</td>
             <td>No</td>
             <td>Employer first name</td>
@@ -8645,7 +8945,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_NAML</td>
+            <td><code>EMPLR_NAML</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Name of firm, employer or coalition</td>
@@ -8654,7 +8954,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_NAMS</td>
+            <td><code>EMPLR_NAMS</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employer suffix</td>
@@ -8663,7 +8963,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_NAMT</td>
+            <td><code>EMPLR_NAMT</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employer title or prefix</td>
@@ -8672,7 +8972,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_PHON</td>
+            <td><code>EMPLR_PHON</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Employer phone number</td>
@@ -8681,7 +8981,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_ST</td>
+            <td><code>EMPLR_ST</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
             <td>Employer state</td>
@@ -8690,7 +8990,7 @@ Fields
     
     
         <tr>
-            <td>EMPLR_ZIP4</td>
+            <td><code>EMPLR_ZIP4</code></td>
             <td>String (up to 10)</td>
             <td>No</td>
             <td>Employer ZIP Code</td>
@@ -8699,7 +8999,7 @@ Fields
     
     
         <tr>
-            <td>ENTITY_CD</td>
+            <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
             <td>Entity Code of the Employer Values</td>
@@ -8708,7 +9008,7 @@ Fields
     
     
         <tr>
-            <td>FEES_AMT</td>
+            <td><code>FEES_AMT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Fees and retainers amount</td>
@@ -8717,7 +9017,7 @@ Fields
     
     
         <tr>
-            <td>FILING_ID</td>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Unique filing identificiation number</td>
@@ -8726,7 +9026,7 @@ Fields
     
     
         <tr>
-            <td>FORM_TYPE</td>
+            <td><code>FORM_TYPE</code></td>
             <td>String (up to 7)</td>
             <td>Yes</td>
             <td>Name of the source filing form or schedule</td>
@@ -8735,7 +9035,7 @@ Fields
     
     
         <tr>
-            <td>LBY_ACTVTY</td>
+            <td><code>LBY_ACTVTY</code></td>
             <td>String (up to 200)</td>
             <td>No</td>
             <td>Description of lobbying activity</td>
@@ -8744,7 +9044,7 @@ Fields
     
     
         <tr>
-            <td>LINE_ITEM</td>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
             <td>Yes</td>
             <td>Line item number of this record</td>
@@ -8753,7 +9053,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_CODE</td>
+            <td><code>MEMO_CODE</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
             <td>Memo amount flag</td>
@@ -8762,7 +9062,7 @@ Fields
     
     
         <tr>
-            <td>MEMO_REFNO</td>
+            <td><code>MEMO_REFNO</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Reference to the text contained in a TEXT record</td>
@@ -8771,7 +9071,7 @@ Fields
     
     
         <tr>
-            <td>PER_TOTAL</td>
+            <td><code>PER_TOTAL</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Total this reporting period</td>
@@ -8780,7 +9080,7 @@ Fields
     
     
         <tr>
-            <td>REC_TYPE</td>
+            <td><code>REC_TYPE</code></td>
             <td>String (up to 4)</td>
             <td>Yes</td>
             <td>Record Type Value: LPAY</td>
@@ -8789,7 +9089,7 @@ Fields
     
     
         <tr>
-            <td>REIMB_AMT</td>
+            <td><code>REIMB_AMT</code></td>
             <td>Decimal number</td>
             <td>No</td>
             <td>Reimbursements of expense amount</td>
@@ -8798,7 +9098,7 @@ Fields
     
     
         <tr>
-            <td>TRAN_ID</td>
+            <td><code>TRAN_ID</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
             <td>Permanent value unique to this item</td>
@@ -8814,8 +9114,8 @@ Look-up Codes
 =============
 
 
-entity_cd
-----------------
+``entity_cd``
+--------------------
 
 .. raw:: html
 
@@ -8830,27 +9130,27 @@ entity_cd
         <tbody valign="top">
         
             <tr>
-                <td>FRM</td>
+                <td><code>FRM</code></td>
                 <td>Lobbying Firm</td>
             </tr>
         
             <tr>
-                <td>LCO</td>
+                <td><code>LCO</code></td>
                 <td>Lobbying Coalition</td>
             </tr>
         
             <tr>
-                <td>LEM</td>
+                <td><code>LEM</code></td>
                 <td>Lobbying Employer</td>
             </tr>
         
             <tr>
-                <td>OTH</td>
+                <td><code>OTH</code></td>
                 <td>Other</td>
             </tr>
         
             <tr>
-                <td>128</td>
+                <td><code>128</code></td>
                 <td>Unknown</td>
             </tr>
         
@@ -8860,7 +9160,7 @@ entity_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p62">62</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76">76</a>)
             </small>
         </td>
@@ -8871,8 +9171,8 @@ entity_cd
     </div>
 
 
-form_type
-----------------
+``form_type``
+--------------------
 
 .. raw:: html
 
@@ -8887,12 +9187,12 @@ form_type
         <tbody valign="top">
         
             <tr>
-                <td>F625P2</td>
+                <td><code>F625P2</code></td>
                 <td>Form 625 (Report of Lobbying Firm): Part 2, Payments Received in Connection with Lobbying Activity</td>
             </tr>
         
             <tr>
-                <td>F635P3B</td>
+                <td><code>F635P3B</code></td>
                 <td>Form 635 (Report of Lobbyist Employer or Report of Lobbying Coalition): Part 3 (Payments Made in Connection with Lobbying Activities), Section B: Payments To Lobbying Firms</td>
             </tr>
         
@@ -8902,7 +9202,7 @@ form_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p62">62</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76">76</a>)
             </small>
         </td>
@@ -8913,8 +9213,8 @@ form_type
     </div>
 
 
-rec_type
-----------------
+``rec_type``
+--------------------
 
 .. raw:: html
 
@@ -8929,7 +9229,7 @@ rec_type
         <tbody valign="top">
         
             <tr>
-                <td>LPAY</td>
+                <td><code>LPAY</code></td>
                 <td>LPAY</td>
             </tr>
         
@@ -8939,7 +9239,7 @@ rec_type
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p62">62</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76">76</a>)
             </small>
         </td>
@@ -8978,9 +9278,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_EMPLOYER_HISTORY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_HISTORY_CD.TSV>`_
+
+
 
 
 
@@ -9005,7 +9305,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTOR_ID</td>
+            <td><code>CONTRIBUTOR_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number.</td>
@@ -9014,7 +9314,7 @@ Fields
     
     
         <tr>
-            <td>CURRENT_QTR_AMT</td>
+            <td><code>CURRENT_QTR_AMT</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Current Quarter Amount</td>
@@ -9023,7 +9323,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_ID</td>
+            <td><code>EMPLOYER_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Employer identification number.</td>
@@ -9032,7 +9332,7 @@ Fields
     
     
         <tr>
-            <td>EMPLOYER_NAME</td>
+            <td><code>EMPLOYER_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Employer Name</td>
@@ -9041,7 +9341,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_CD</td>
+            <td><code>INTEREST_CD</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Interest Code</td>
@@ -9050,7 +9350,7 @@ Fields
     
     
         <tr>
-            <td>INTEREST_NAME</td>
+            <td><code>INTEREST_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Interest name.</td>
@@ -9059,7 +9359,7 @@ Fields
     
     
         <tr>
-            <td>QTR_1</td>
+            <td><code>QTR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 1 total amount.</td>
@@ -9068,7 +9368,7 @@ Fields
     
     
         <tr>
-            <td>QTR_2</td>
+            <td><code>QTR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 2 total amount.</td>
@@ -9077,7 +9377,7 @@ Fields
     
     
         <tr>
-            <td>QTR_3</td>
+            <td><code>QTR_3</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 3 total amount.</td>
@@ -9086,7 +9386,7 @@ Fields
     
     
         <tr>
-            <td>QTR_4</td>
+            <td><code>QTR_4</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 4 total amount.</td>
@@ -9095,7 +9395,7 @@ Fields
     
     
         <tr>
-            <td>QTR_5</td>
+            <td><code>QTR_5</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 5 total amount.</td>
@@ -9104,7 +9404,7 @@ Fields
     
     
         <tr>
-            <td>QTR_6</td>
+            <td><code>QTR_6</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 6 total amount.</td>
@@ -9113,7 +9413,7 @@ Fields
     
     
         <tr>
-            <td>QTR_7</td>
+            <td><code>QTR_7</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 7 total amount.</td>
@@ -9122,7 +9422,7 @@ Fields
     
     
         <tr>
-            <td>QTR_8</td>
+            <td><code>QTR_8</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter 8 total amount.</td>
@@ -9131,7 +9431,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Session identification number.</td>
@@ -9140,7 +9440,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_TOTAL_AMT</td>
+            <td><code>SESSION_TOTAL_AMT</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for the session.</td>
@@ -9149,7 +9449,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_1</td>
+            <td><code>SESSION_YR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for year 1 of the session.</td>
@@ -9158,7 +9458,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_2</td>
+            <td><code>SESSION_YR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for year 2 of the session.</td>
@@ -9167,7 +9467,7 @@ Fields
     
     
         <tr>
-            <td>YR_1_YTD_AMT</td>
+            <td><code>YR_1_YTD_AMT</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Year 1 year to date amount.</td>
@@ -9176,7 +9476,7 @@ Fields
     
     
         <tr>
-            <td>YR_2_YTD_AMT</td>
+            <td><code>YR_2_YTD_AMT</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Year 2 year to date amount.</td>
@@ -9192,8 +9492,8 @@ Look-up Codes
 =============
 
 
-interest_cd
-----------------
+``interest_cd``
+--------------------
 
 .. raw:: html
 
@@ -9208,97 +9508,97 @@ interest_cd
         <tbody valign="top">
         
             <tr>
-                <td>40301</td>
+                <td><code>40301</code></td>
                 <td>AGRICULTURE</td>
             </tr>
         
             <tr>
-                <td>40302</td>
+                <td><code>40302</code></td>
                 <td>EDUCATION</td>
             </tr>
         
             <tr>
-                <td>40303</td>
+                <td><code>40303</code></td>
                 <td>ENTERTAINMENT/RECREATION</td>
             </tr>
         
             <tr>
-                <td>40304</td>
+                <td><code>40304</code></td>
                 <td>FINANCE/INSURANCE</td>
             </tr>
         
             <tr>
-                <td>40305</td>
+                <td><code>40305</code></td>
                 <td>GOVERNMENT</td>
             </tr>
         
             <tr>
-                <td>40306</td>
+                <td><code>40306</code></td>
                 <td>HEALTH</td>
             </tr>
         
             <tr>
-                <td>40307</td>
+                <td><code>40307</code></td>
                 <td>LABOR UNIONS</td>
             </tr>
         
             <tr>
-                <td>40308</td>
+                <td><code>40308</code></td>
                 <td>LEGAL</td>
             </tr>
         
             <tr>
-                <td>40309</td>
+                <td><code>40309</code></td>
                 <td>LODGING/RESTAURANTS</td>
             </tr>
         
             <tr>
-                <td>40310</td>
+                <td><code>40310</code></td>
                 <td>MANUFACTURING/INDUSTRIAL</td>
             </tr>
         
             <tr>
-                <td>40311</td>
+                <td><code>40311</code></td>
                 <td>MERCHANDISE/RETAIL</td>
             </tr>
         
             <tr>
-                <td>40312</td>
+                <td><code>40312</code></td>
                 <td>MISCELLANEOUS</td>
             </tr>
         
             <tr>
-                <td>40313</td>
+                <td><code>40313</code></td>
                 <td>OIL AND GAS</td>
             </tr>
         
             <tr>
-                <td>40314</td>
+                <td><code>40314</code></td>
                 <td>POLITICAL ORGANIZATIONS</td>
             </tr>
         
             <tr>
-                <td>40315</td>
+                <td><code>40315</code></td>
                 <td>PROFESSIONAL/TRADE</td>
             </tr>
         
             <tr>
-                <td>40316</td>
+                <td><code>40316</code></td>
                 <td>PUBLIC EMPLOYEES</td>
             </tr>
         
             <tr>
-                <td>40317</td>
+                <td><code>40317</code></td>
                 <td>REAL ESTATE</td>
             </tr>
         
             <tr>
-                <td>40318</td>
+                <td><code>40318</code></td>
                 <td>TRANSPORTATION</td>
             </tr>
         
             <tr>
-                <td>40319</td>
+                <td><code>40319</code></td>
                 <td>UTILITIES</td>
             </tr>
         
@@ -9308,7 +9608,7 @@ interest_cd
         <tr>
         <td colspan=2>
            <small>
-            Sources: 
+            Sources:
                  Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
             </small>
         </td>
@@ -9341,9 +9641,9 @@ but is not fully explained. The table's description contains this note: "Matt
 needs to describe the relationship between the multiple tables. Documentation
 should be cloned from D H's documentation on these tables. Cox 5/11/2000"
 
-
-
 **Sample:** `LOBBYIST_FIRM_HISTORY_CD.TSV <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_HISTORY_CD.TSV>`_
+
+
 
 
 
@@ -9368,7 +9668,7 @@ Fields
     
     
         <tr>
-            <td>CONTRIBUTOR_ID</td>
+            <td><code>CONTRIBUTOR_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Contributor identification number.</td>
@@ -9377,7 +9677,7 @@ Fields
     
     
         <tr>
-            <td>CURRENT_QTR_AMT</td>
+            <td><code>CURRENT_QTR_AMT</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Current Quarter Amount</td>
@@ -9386,7 +9686,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_ID</td>
+            <td><code>FIRM_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Identification number of the Firm/Employer/Coalition.</td>
@@ -9395,7 +9695,7 @@ Fields
     
     
         <tr>
-            <td>FIRM_NAME</td>
+            <td><code>FIRM_NAME</code></td>
             <td>String (up to 300)</td>
             <td>No</td>
             <td>Name of Firm/Employer/Coalition</td>
@@ -9404,7 +9704,7 @@ Fields
     
     
         <tr>
-            <td>QTR_1</td>
+            <td><code>QTR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9413,7 +9713,7 @@ Fields
     
     
         <tr>
-            <td>QTR_2</td>
+            <td><code>QTR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9422,7 +9722,7 @@ Fields
     
     
         <tr>
-            <td>QTR_3</td>
+            <td><code>QTR_3</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9431,7 +9731,7 @@ Fields
     
     
         <tr>
-            <td>QTR_4</td>
+            <td><code>QTR_4</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9440,7 +9740,7 @@ Fields
     
     
         <tr>
-            <td>QTR_5</td>
+            <td><code>QTR_5</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9449,7 +9749,7 @@ Fields
     
     
         <tr>
-            <td>QTR_6</td>
+            <td><code>QTR_6</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9458,7 +9758,7 @@ Fields
     
     
         <tr>
-            <td>QTR_7</td>
+            <td><code>QTR_7</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9467,7 +9767,7 @@ Fields
     
     
         <tr>
-            <td>QTR_8</td>
+            <td><code>QTR_8</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Quarter total amount.</td>
@@ -9476,7 +9776,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_ID</td>
+            <td><code>SESSION_ID</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Session identification number.</td>
@@ -9485,7 +9785,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_TOTAL_AMT</td>
+            <td><code>SESSION_TOTAL_AMT</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for the session.</td>
@@ -9494,7 +9794,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_1</td>
+            <td><code>SESSION_YR_1</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for year 1 of the session.</td>
@@ -9503,7 +9803,7 @@ Fields
     
     
         <tr>
-            <td>SESSION_YR_2</td>
+            <td><code>SESSION_YR_2</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Total amount for year 2 of the session.</td>
@@ -9512,7 +9812,7 @@ Fields
     
     
         <tr>
-            <td>YR_1_YTD_AMT</td>
+            <td><code>YR_1_YTD_AMT</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Year 1 year to date amount.</td>
@@ -9521,7 +9821,7 @@ Fields
     
     
         <tr>
-            <td>YR_2_YTD_AMT</td>
+            <td><code>YR_2_YTD_AMT</code></td>
             <td>Integer</td>
             <td>No</td>
             <td>Year 2 year to date amount</td>

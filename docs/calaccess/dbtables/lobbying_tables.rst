@@ -7,7 +7,7 @@ Lobbying tables
 
 The CAL-ACCESS database contains 32 tables that, according to
 the :doc:`official documentation </calaccess/officialdocumentation>`,
-store information specific to lobbying disclosure filings.
+store information specific to the disclosure of lobbying activity.
 
 
 
@@ -25,7 +25,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_REGISTRATION_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_REGISTRATION_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -1250,7 +1250,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_REGISTRATION_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_REGISTRATION_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -1629,7 +1629,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_LOBBY_DISCLOSURE_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_LOBBY_DISCLOSURE_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -2384,7 +2384,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_LOBBY_DISCLOSURE_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR2_LOBBY_DISCLOSURE_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -2749,7 +2749,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBY_AMENDMENTS_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBY_AMENDMENTS_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -3321,7 +3321,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F690P2_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/F690P2_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -3642,7 +3642,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LATT_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LATT_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -4099,7 +4099,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEXP_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEXP_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -4647,7 +4647,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LCCM_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LCCM_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -5148,7 +5148,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEMP_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEMP_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -5560,7 +5560,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYING_CHG_LOG_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYING_CHG_LOG_CD.TSV?slice=0:10"></script>
 
 
 
@@ -5914,7 +5914,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS1_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS1_CD.TSV?slice=0:10"></script>
 
 
 
@@ -6024,7 +6024,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS2_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS2_CD.TSV?slice=0:10"></script>
 
 
 
@@ -6133,7 +6133,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS3_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_CONTRIBUTIONS3_CD.TSV?slice=0:10"></script>
 
 
 
@@ -6242,7 +6242,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER1_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER1_CD.TSV?slice=0:10"></script>
 
 
 
@@ -6611,7 +6611,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER2_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER2_CD.TSV?slice=0:10"></script>
 
 
 
@@ -6980,7 +6980,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER3_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER3_CD.TSV?slice=0:10"></script>
 
 
 
@@ -7349,7 +7349,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS1_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS1_CD.TSV?slice=0:10"></script>
 
 
 
@@ -7443,7 +7443,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS2_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_FIRMS2_CD.TSV?slice=0:10"></script>
 
 
 
@@ -7537,7 +7537,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST1_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST1_CD.TSV?slice=0:10"></script>
 
 
 
@@ -7640,7 +7640,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST2_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMP_LOBBYIST2_CD.TSV?slice=0:10"></script>
 
 
 
@@ -7743,7 +7743,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM1_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM1_CD.TSV?slice=0:10"></script>
 
 
 
@@ -7954,7 +7954,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM2_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM2_CD.TSV?slice=0:10"></script>
 
 
 
@@ -8165,7 +8165,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM3_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM3_CD.TSV?slice=0:10"></script>
 
 
 
@@ -8376,7 +8376,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER1_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER1_CD.TSV?slice=0:10"></script>
 
 
 
@@ -8524,7 +8524,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER2_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_EMPLOYER2_CD.TSV?slice=0:10"></script>
 
 
 
@@ -8672,7 +8672,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST1_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST1_CD.TSV?slice=0:10"></script>
 
 
 
@@ -8775,7 +8775,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST2_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_LOBBYIST2_CD.TSV?slice=0:10"></script>
 
 
 
@@ -8875,7 +8875,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOTH_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOTH_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -9243,7 +9243,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LPAY_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LPAY_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -9741,7 +9741,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_HISTORY_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_EMPLOYER_HISTORY_CD.TSV?slice=0:10"></script>
 
 
 
@@ -10110,7 +10110,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_HISTORY_CD.TSV?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOBBYIST_FIRM_HISTORY_CD.TSV?slice=0:10"></script>
 
 
 

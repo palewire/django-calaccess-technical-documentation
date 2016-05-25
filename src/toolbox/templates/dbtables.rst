@@ -22,7 +22,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/{{ object.get_tsv_name }}?footer=no&slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/{{ object.get_tsv_name }}?slice=0:10"></script>
 
 {% if object.FILING_FORMS|length > 0 %}
 Forms

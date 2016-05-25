@@ -1,3 +1,4 @@
+===============
 Database tables
 ===============
 
@@ -6,6 +7,12 @@ This section outlines the record layouts of the tab-delimited text files
 Each raw file is loaded by :doc:`/apps/calaccess_raw` into your local database
 as a table with the same name.
 
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   dbtables/*
+   
 .. warning::
 
     Most definitions in this section are drawn from the spotty and incomplete
@@ -13,16 +20,3 @@ as a table with the same name.
     We cannot vouch for its accuracy in all circumstances.
 
     To be absolutely certain about what each table and field contains, you should compare the electronic data to the underlying paper records published by the state.
-
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   dbtables/*
-   
-.. note::
-
-    The categories for these tables are based on what's found in the 
-    :doc:`/calaccess/officialdocumentation`. However, in cases where this
-    official documentation was incomplete or inconsistent, we've either listed
-    the table under whichever category is most obviously relevant or listed it under "Other".

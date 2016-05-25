@@ -1,8 +1,17 @@
-Filing forms
-============
+=====
+Forms
+=====
 
-The data in CAL-ACCESS originates from forms filed by public office candidates, campaign committees, lobbyists and lobbyist employers. These filing forms are outlined in this section.
+The data in CAL-ACCESS originates from forms filed by candidates for public office,
+their campaigns, political-action committees, lobbyists and lobbyist employers.
+These filing forms are outlined in this section.
 
+.. toctree::
+   :maxdepth: 2
+   :glob:
+
+   filingforms/*
+   
 Much of the documents and descriptions included here were gathered from the `Forms <http://www.fppc.ca.gov/forms.html>`_ section of the California Fair Political Practices Commission (FPPC) website, where you can find even more detailed filing instructions and requirements.
 
 Similar documentation and background info can also be found in the `Campaign Finance <http://www.sos.ca.gov/campaign-lobbying/campaign-disclosure-and-requirements>`_ and `Lobbying Activities <http://www.sos.ca.gov/campaign-lobbying/lobbying-disclosure-requirements>`_ sections of the California Secretary of State's website.
@@ -13,8 +22,3 @@ Similar documentation and background info can also be found in the `Campaign Fin
 
     You can view a PDF of any form submitted by a filer by pointing your browser at http://cal-access.ss.ca.gov/PDFGen/pdfgen.prg?filingid=2028957&amendid=0. Note that in the query string parameters, *2028957* and *0* should be exchanged for the filling id and amendment id of the desired filling.
 
-.. toctree::
-   :maxdepth: 2
-   :glob:
-
-   filingforms/*

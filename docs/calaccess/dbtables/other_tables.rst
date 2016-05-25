@@ -24,7 +24,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ACRONYMS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=ACRONYMS_CD.TSV"></script>
 
 
 
@@ -124,7 +124,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/ADDRESS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=ADDRESS_CD.TSV"></script>
 
 
 
@@ -249,7 +249,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/BALLOT_MEASURES_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=BALLOT_MEASURES_CD.TSV"></script>
 
 
 
@@ -365,7 +365,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/EFS_FILING_LOG_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=EFS_FILING_LOG_CD.TSV"></script>
 
 
 Forms
@@ -839,7 +839,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILERS_CD.TSV"></script>
 
 
 
@@ -910,7 +910,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ACRONYMS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_ACRONYMS_CD.TSV"></script>
 
 
 
@@ -993,7 +993,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ADDRESS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_ADDRESS_CD.TSV"></script>
 
 
 
@@ -1177,7 +1177,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_ETHICS_CLASS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_ETHICS_CLASS_CD.TSV"></script>
 
 
 
@@ -1270,7 +1270,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_INTERESTS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_INTERESTS_CD.TSV"></script>
 
 
 
@@ -1519,7 +1519,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_LINKS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_LINKS_CD.TSV"></script>
 
 
 
@@ -1841,7 +1841,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_STATUS_TYPES_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_STATUS_TYPES_CD.TSV"></script>
 
 
 
@@ -1923,7 +1923,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TO_FILER_TYPE_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_TO_FILER_TYPE_CD.TSV"></script>
 
 
 
@@ -4226,7 +4226,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPES_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_TYPES_CD.TSV"></script>
 
 
 
@@ -4398,7 +4398,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_XREF_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_XREF_CD.TSV"></script>
 
 
 
@@ -4499,7 +4499,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILING_PERIOD_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILING_PERIOD_CD.TSV"></script>
 
 
 
@@ -4713,7 +4713,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/GROUP_TYPES_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=GROUP_TYPES_CD.TSV"></script>
 
 
 
@@ -4802,7 +4802,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/IMAGE_LINKS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=IMAGE_LINKS_CD.TSV"></script>
 
 
 
@@ -5023,7 +5023,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LEGISLATIVE_SESSIONS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LEGISLATIVE_SESSIONS_CD.TSV"></script>
 
 
 
@@ -5112,7 +5112,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOOKUP_CODES_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOOKUP_CODES_CD.TSV"></script>
 
 
 
@@ -5204,7 +5204,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/NAMES_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=NAMES_CD.TSV"></script>
 
 
 
@@ -5340,7 +5340,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RECEIVED_FILINGS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=RECEIVED_FILINGS_CD.TSV"></script>
 
 
 Forms
@@ -5792,7 +5792,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/REPORTS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=REPORTS_CD.TSV"></script>
 
 
 
@@ -6008,7 +6008,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_TYPE_PERIODS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_TYPE_PERIODS_CD.TSV"></script>
 
 
 

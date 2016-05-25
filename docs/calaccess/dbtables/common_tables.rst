@@ -35,7 +35,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILERNAME_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILERNAME_CD.TSV"></script>
 
 
 
@@ -478,7 +478,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILER_FILINGS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_FILINGS_CD.TSV"></script>
 
 
 Forms
@@ -1530,7 +1530,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/FILINGS_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILINGS_CD.TSV"></script>
 
 
 
@@ -1686,7 +1686,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HDR_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=HDR_CD.TSV"></script>
 
 
 
@@ -1961,7 +1961,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/HEADER_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=HEADER_CD.TSV"></script>
 
 
 
@@ -2270,7 +2270,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SMRY_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=SMRY_CD.TSV"></script>
 
 
 Forms
@@ -2919,7 +2919,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_E530_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=CVR_E530_CD.TSV"></script>
 
 
 Forms
@@ -4673,7 +4673,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/SPLT_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=SPLT_CD.TSV"></script>
 
 
 Forms
@@ -5065,7 +5065,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/TEXT_MEMO_CD.TSV?slice=0:10"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=TEXT_MEMO_CD.TSV"></script>
 
 
 Forms

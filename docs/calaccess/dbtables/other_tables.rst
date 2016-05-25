@@ -654,7 +654,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -811,8 +811,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Overview (`1-2 <https://www.documentcloud.org/documents/2711624-Overview.html#document/p1>`_)
 
@@ -1085,7 +1085,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -1152,8 +1152,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `61-62 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p61>`_)
 
@@ -1357,7 +1357,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -1494,8 +1494,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `66 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p66>`_)
 
@@ -1653,7 +1653,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -1815,8 +1815,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `67 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p67>`_)
 
@@ -2118,7 +2118,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -4201,8 +4201,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `69-70 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p69>`_)
 
@@ -4314,7 +4314,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -4371,8 +4371,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `71-72 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_)
 
@@ -4607,7 +4607,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -4686,8 +4686,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `74-75 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p74>`_)
 
@@ -4894,7 +4894,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -4998,8 +4998,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `80 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p80>`_)
 
@@ -5620,7 +5620,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -5767,8 +5767,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `121 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p121>`_)
 
@@ -5909,7 +5909,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -5981,8 +5981,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `122 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p122>`_)
 
@@ -6084,7 +6084,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -6156,8 +6156,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `71 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_)
 

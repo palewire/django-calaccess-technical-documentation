@@ -774,7 +774,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -1218,8 +1218,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`82-86 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p82>`_)
 
@@ -1446,7 +1446,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -1597,8 +1597,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`87-88 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p87>`_)
 
@@ -2191,7 +2191,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -2352,8 +2352,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`66-70 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p66>`_)
 
@@ -2581,7 +2581,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -2717,8 +2717,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`71 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p71>`_)
 
@@ -3205,7 +3205,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -3289,8 +3289,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`88-89 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88>`_)
 
@@ -3516,7 +3516,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -3610,8 +3610,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`72 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p72>`_)
 
@@ -3910,7 +3910,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -4066,8 +4066,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`79-80 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p79>`_)
 
@@ -4436,7 +4436,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -4614,8 +4614,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`74-75 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p74>`_)
 
@@ -4975,7 +4975,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -5116,8 +5116,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`78-79 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p78>`_)
 
@@ -5444,7 +5444,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -5528,8 +5528,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`90-91 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90>`_)
 
@@ -5822,7 +5822,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -5888,8 +5888,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `91-92 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p91>`_)
 
@@ -6450,7 +6450,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -6582,8 +6582,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `97-98 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p97>`_)
 
@@ -6819,7 +6819,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -6951,8 +6951,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `98-99 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p98>`_)
 
@@ -7188,7 +7188,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -7320,8 +7320,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `99 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p99>`_)
 
@@ -9131,7 +9131,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -9210,8 +9210,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`77-78 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77>`_)
 
@@ -9565,7 +9565,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -9706,8 +9706,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * .CAL Format Layout (Version 2.01) (`76-77 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p76>`_)
 
@@ -9949,7 +9949,7 @@ Fields
     </div>
 
 
-Lookup Codes
+Lookup codes
 ============
 
 
@@ -10081,8 +10081,8 @@ Lookup Codes
 
 
 
-Source Docs
-^^^^^^^^^^^
+References
+==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `96-97 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p96>`_)
 

@@ -98,7 +98,7 @@ Fields
     </div>
 
 {% if object.choice_fields|length > 0 %}
-Lookup Codes
+Lookup codes
 ============
 {% for field in object.choice_fields %}
 
@@ -140,8 +140,8 @@ Lookup Codes
 {% endfor %}
 
 {% if object.DOCUMENTCLOUD_PAGES|length > 0 %}
-Source Docs
-^^^^^^^^^^^
+References
+==========
 {% for doc, objects in object.docs.items %}
 * {{ doc }} ({% for object in objects %}`{{ object.formatted_page_nums }} <{{ object.canonical_url }}>`_{% if not forloop.last %}, {% endif %}{% endfor %})
 {% endfor %}

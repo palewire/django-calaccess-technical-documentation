@@ -1,6 +1,8 @@
 {% extends "base.rst" %}
 {% load misc_tags %}
+
 {% block content %}
+===============================
 {{ group_name|capfirst }} forms
 ===============================
 
@@ -11,26 +13,52 @@
 ------------
 
 {{ form.type_and_num|safe }}
-~~~~~~~~~~~~~
+---------------
 
 {{ form.title|safe }}
 
 {{ form.description|safe }}
 {% if form.sections|length > 0 %}
 Sections
-^^^^^^^^
+````````
 {% for section in form.sections %}
 * {{ section.title|safe }} {% if section.documentcloud.start_page %}(`p. {{ section.documentcloud.start_page }}{% if section.documentcloud.end_page %}-{{ section.documentcloud.end_page }}{% endif%} <{{ section.documentcloud.canonical_url }}>`_){% endif %}
 
 {% endfor %}
 {% endif %}
 
-{% if not form.documentcloud_id %}
-*No PDF available.*
-{% else %}
-Example Form
-^^^^^^^^^^^^
+{% if form.get_models|length > 0 %}
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    {% for model in form.get_models %}
+        <tr>
+            <td>
+                <a href="../dbtables/{{ model.klass_group }}_tables.html#{{ model.db_table|format_page_anchor }}">
+                    {{ model.db_table }}
+                </a>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+    </table>
+    </div>
+{% endif %}
+
+
+{% if form.documentcloud_id %}
+Sample
+``````
 
 .. raw:: html
 
@@ -53,14 +81,6 @@ Example Form
 
 {% endif %}
 
-{% if form.get_models|length > 0 %}
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via {{ form.type_and_num|safe }} filings are written to the following tables:
-{% for model in form.get_models %}
-* `{{ model.klass_name }} <../dbtables/{{ model.klass_group }}_tables.html#{{ model.db_table|format_page_anchor }}>`_
-{% endfor %}
-{% endif %}
-
 {% endfor %}
 {% endblock %}
+

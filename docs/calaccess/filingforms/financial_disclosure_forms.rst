@@ -1,5 +1,6 @@
 .. This document was generated programmatically via the createcalaccessrawformdocs command. Any edits you make to this file will be overwritten the next time that command is called. Changes to this doc should instead be made either in the financial_disclosure_forms.rst file in ./src/toolbox/templates/ or in the commands internal logic.
 
+===============================
 Financial disclosure forms
 ===============================
 
@@ -11,7 +12,7 @@ California elected officials and public employees are required to discloses pote
 ------------
 
 Form 700
-~~~~~~~~~~~~~
+---------------
 
 Statement of Economic Interest
 
@@ -19,9 +20,37 @@ Every public official who makes or participates in making governmental decisions
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -41,15 +70,6 @@ Example Form
       <br />
       <a href=https://assets.documentcloud.org/documents/2792958/700-2015-12.txt>700-2015-12 (Text)</a>
     </noscript>
-
-
-
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 700 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 

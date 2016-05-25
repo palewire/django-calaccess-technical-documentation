@@ -5140,1485 +5140,6 @@ References
 ------------
 
 *********************
-RCPT_CD
-*********************
-
-Contribution records from receipts schedules for Slate Mailer Organization
-and Recipient Committee Campaign Statements.
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RCPT_CD.TSV?slice=0:10"></script>
-
-
-Forms
-=====
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#electronic-form-530">Electronic Form 530</a>:
-                Electronic Issue Advocacy Report
-            </td>
-        </tr>
-        
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
-                Slate Mailer Organization Campaign Statement
-            </td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule A, Payments Received</td>
-        </tr>
-        
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
-                Recipient Committee Campaign Statement
-            </td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule A, Monetary Contributions Received</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule A-1, Contributions Transferred to Special Election Commitee</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule C, Non-Monetary Contributions Received</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule I, miscellanous increases to cash</td>
-        </tr>
-        
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
-                Late Independent Expenditure Report
-            </td>
-        </tr>
-        
-        <tr>
-            <td>- Part 3, Contributions > $100 Received</td>
-        </tr>
-        
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#form-900">Form 900</a>:
-                Public employee's retirement board, candidate campaign statement
-            </td>
-        </tr>
-        
-        
-    </tbody>
-    </table>
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILING_ID</code></td>
-        
-            <td><code>AMEND_ID</code></td>
-        
-            <td><code>LINE_ITEM</code></td>
-        
-            <td><code>REC_TYPE</code></td>
-        
-            <td><code>FORM_TYPE</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>AMEND_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMOUNT</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Amount Received (Monetary, Inkkind, Promise)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAKREF_TID</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Back Reference to a transaction identifier of a parent record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_JURIS</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Jurisdiction of ballot measure. Used on the Form 401 Schedule A</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_NAME</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Ballot measure name. Used on the Form 401 Schedule A</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_NUM</code></td>
-            <td>String (up to 7)</td>
-            <td>No</td>
-            <td>Ballot measure number or letter. Used on the Form 401 Schedule A</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Candidate/officeholder&#39;s first name. Used on the Form 401 Schedule A</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Candidate/officeholder&#39;s last name. Used on the Form 401 Schedule A</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Candidate/officeholder&#39;s name suffix. Used on the Form 401 Schedule A</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Candidate/officeholder&#39;s name prefix or title. Used on the Form 401 Schedule A</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CMTE_ID</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>Committee Identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Contributor&#39;s City</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_DSCR</code></td>
-            <td>String (up to 90)</td>
-            <td>No</td>
-            <td>Description of goods/services received</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_EMP</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Employer</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Contributor&#39;s First Name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Contributor&#39;s last name or business name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Contributor&#39;s Suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Contributor&#39;s Prefix or Title</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_OCC</code></td>
-            <td>String (up to 60)</td>
-            <td>No</td>
-            <td>Occupation</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_SELF</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Self Employed Check-box</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Contributor&#39;s State</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CTRIB_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Contributor&#39;s ZIP+4</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CUM_OTH</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Cumulative Other (Sched A, A-1)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CUM_YTD</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Cumulative year to date amount (Form 460 Schedule A and Form 401 Schedule A, A-1)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DATE_THRU</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>End of date range for items received</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DIST_NO</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Office District Number (used on F401A)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Entity Code describing the contributor</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Unique filing identificiation number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FORM_TYPE</code></td>
-            <td>String (up to 9)</td>
-            <td>Yes</td>
-            <td>Name of the source filing form or schedule</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INT_RATE</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s City</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_CMTEID</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_EMP</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s Employer</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s First Name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s Last Name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s Suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s Prefix or Title</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_OCC</code></td>
-            <td>String (up to 60)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s Occupation</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_SELF</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s self employed check box</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s state</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s zip code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>JURIS_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Office jurisdiction code. See the CAL document for the list of legal values. Used on Form 401 Schedule A</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>JURIS_DSCR</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Office Jurisdiction Description (used on F401A)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LINE_ITEM</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Line item number of this record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_CODE</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Memo amount flag (Date/Amount are informational only)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_REFNO</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Reference to text contained in a TEXT record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFF_S_H_CD</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Office is sought or held code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFFIC_DSCR</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Office Sought Description (used on F401A)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFFICE_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Identifies the office being sought</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>RCPT_DATE</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date item received</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REC_TYPE</code></td>
-            <td>String (up to 4)</td>
-            <td>Yes</td>
-            <td>Record Type Value: CVR</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUP_OPP_CD</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Support or opposition code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRAN_ID</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Permanent value unique to this item</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRAN_TYPE</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Transaction Type</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>City portion of the treasurer or responsible officer&#39;s street address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s prefix or title</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>State portion of the treasurer or responsible officer&#39;s address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Zip code portion of the treasurer or responsible officer&#39;s address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>XREF_MATCH</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Related item on other schedule has same transaction identifier. &#39;X&#39; indicates this condition is true</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>XREF_SCHNM</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Related record is included on Sched &#39;B2&#39; or &#39;F&#39;</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``entity_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>COM</code></td>
-                <td>Committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>IND</code></td>
-                <td>Individual</td>
-            </tr>
-        
-            <tr>
-                <td><code>PTY</code></td>
-                <td>Political Party</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>RCP</code></td>
-                <td>Recipient committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>SCC</code></td>
-                <td>Small Contributor Committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>Com</code></td>
-                <td>Committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>CAO</code></td>
-                <td>Candidate/officeholder</td>
-            </tr>
-        
-            <tr>
-                <td><code>BNM</code></td>
-                <td>Ballot measure&#39;s name/title</td>
-            </tr>
-        
-            <tr>
-                <td><code>OFF</code></td>
-                <td>Officer</td>
-            </tr>
-        
-            <tr>
-                <td><code>0</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>PTH</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>RFD</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>MBR</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p8">8-9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29">29</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p9">9-11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37">37</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71">71</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``form_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>E530</code></td>
-                <td>Electronic Form 530: Electronic Issue Advocacy Report</td>
-            </tr>
-        
-            <tr>
-                <td><code>F900</code></td>
-                <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
-            </tr>
-        
-            <tr>
-                <td><code>F401A</code></td>
-                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule A, Payments Received</td>
-            </tr>
-        
-            <tr>
-                <td><code>A</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule A, Monetary Contributions Received</td>
-            </tr>
-        
-            <tr>
-                <td><code>A-1</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule A-1, Contributions Transferred to Special Election Commitee</td>
-            </tr>
-        
-            <tr>
-                <td><code>C</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule C, Non-Monetary Contributions Received</td>
-            </tr>
-        
-            <tr>
-                <td><code>I</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule I, miscellanous increases to cash</td>
-            </tr>
-        
-            <tr>
-                <td><code>F496P3</code></td>
-                <td>Form 496 (Late Independent Expenditure Report): Part 3, Contributions &gt; $100 Received</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29">29</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37">37</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``juris_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>ASM</code></td>
-                <td>Assembly District</td>
-            </tr>
-        
-            <tr>
-                <td><code>BOE</code></td>
-                <td>Board of Equalization District</td>
-            </tr>
-        
-            <tr>
-                <td><code>CIT</code></td>
-                <td>City</td>
-            </tr>
-        
-            <tr>
-                <td><code>CTY</code></td>
-                <td>County</td>
-            </tr>
-        
-            <tr>
-                <td><code>LOC</code></td>
-                <td>Local</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>SEN</code></td>
-                <td>Senate District</td>
-            </tr>
-        
-            <tr>
-                <td><code>STW</code></td>
-                <td>Statewide</td>
-            </tr>
-        
-            <tr>
-                <td><code>BED</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>CLB</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>COU</code></td>
-                <td>County</td>
-            </tr>
-        
-            <tr>
-                <td><code>CO</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>SAC</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>PER</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>SF</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>OR</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>AL</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>4</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>CA</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p30">30</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p40">40</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p74">74</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``off_s_h_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>S</code></td>
-                <td>SOUGHT</td>
-            </tr>
-        
-            <tr>
-                <td><code>H</code></td>
-                <td>HELD</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p30">30</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p40">40</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p75">75</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``office_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>APP</code></td>
-                <td>State Appellate Court Justice</td>
-            </tr>
-        
-            <tr>
-                <td><code>ASM</code></td>
-                <td>State Assembly Person</td>
-            </tr>
-        
-            <tr>
-                <td><code>ASR</code></td>
-                <td>Assessor</td>
-            </tr>
-        
-            <tr>
-                <td><code>ATT</code></td>
-                <td>Attorney General</td>
-            </tr>
-        
-            <tr>
-                <td><code>BED</code></td>
-                <td>Board of Education</td>
-            </tr>
-        
-            <tr>
-                <td><code>BOE</code></td>
-                <td>Board of Equalization Member</td>
-            </tr>
-        
-            <tr>
-                <td><code>BSU</code></td>
-                <td>Board of Supervisors</td>
-            </tr>
-        
-            <tr>
-                <td><code>CAT</code></td>
-                <td>City Attorney</td>
-            </tr>
-        
-            <tr>
-                <td><code>CCB</code></td>
-                <td>Community College Board</td>
-            </tr>
-        
-            <tr>
-                <td><code>CCM</code></td>
-                <td>City Council Member</td>
-            </tr>
-        
-            <tr>
-                <td><code>CON</code></td>
-                <td>State Controller</td>
-            </tr>
-        
-            <tr>
-                <td><code>COU</code></td>
-                <td>County Counsel</td>
-            </tr>
-        
-            <tr>
-                <td><code>CSU</code></td>
-                <td>County Supervisor</td>
-            </tr>
-        
-            <tr>
-                <td><code>CTR</code></td>
-                <td>Local Controller</td>
-            </tr>
-        
-            <tr>
-                <td><code>DAT</code></td>
-                <td>District Attorney</td>
-            </tr>
-        
-            <tr>
-                <td><code>GOV</code></td>
-                <td>Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>INS</code></td>
-                <td>Insurance Commissioner</td>
-            </tr>
-        
-            <tr>
-                <td><code>LTG</code></td>
-                <td>Lieutenant Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>MAY</code></td>
-                <td>Mayor</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>PDR</code></td>
-                <td>Public Defender</td>
-            </tr>
-        
-            <tr>
-                <td><code>PER</code></td>
-                <td>Public Employees Retirement System</td>
-            </tr>
-        
-            <tr>
-                <td><code>PLN</code></td>
-                <td>Planning Commissioner</td>
-            </tr>
-        
-            <tr>
-                <td><code>SCJ</code></td>
-                <td>Superior Court Judge</td>
-            </tr>
-        
-            <tr>
-                <td><code>SEN</code></td>
-                <td>State Senator</td>
-            </tr>
-        
-            <tr>
-                <td><code>SHC</code></td>
-                <td>Sheriff-Coroner</td>
-            </tr>
-        
-            <tr>
-                <td><code>SOS</code></td>
-                <td>Secretary of State</td>
-            </tr>
-        
-            <tr>
-                <td><code>SPM</code></td>
-                <td>Supreme Court Justice</td>
-            </tr>
-        
-            <tr>
-                <td><code>SUP</code></td>
-                <td>Superintendent of Public Instruction</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRE</code></td>
-                <td>State Treasurer</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRS</code></td>
-                <td>Local Treasurer</td>
-            </tr>
-        
-            <tr>
-                <td><code>asm</code></td>
-                <td>State Assembly Person</td>
-            </tr>
-        
-            <tr>
-                <td><code>gov</code></td>
-                <td>Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTh</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>oth</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>csu</code></td>
-                <td>County Supervisor</td>
-            </tr>
-        
-            <tr>
-                <td><code>H</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>HOU</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>ASS</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>),  .CAL Version 2.01 Errata (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201.html#document/p2">2</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>E530</code></td>
-                <td>Electronic Form 530: Electronic Issue Advocacy Report</td>
-            </tr>
-        
-            <tr>
-                <td><code>RCPT</code></td>
-                <td>Receipt</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>),  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p37">37</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71">71</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``sup_opp_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>S</code></td>
-                <td>SUPPORT</td>
-            </tr>
-        
-            <tr>
-                <td><code>O</code></td>
-                <td>OPPOSITION</td>
-            </tr>
-        
-            <tr>
-                <td><code>F</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p30">30</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p40">40</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p74">74</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``tran_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F</code></td>
-                <td>Forgiven Loan</td>
-            </tr>
-        
-            <tr>
-                <td><code>I</code></td>
-                <td>Intermediary</td>
-            </tr>
-        
-            <tr>
-                <td><code>R</code></td>
-                <td>Returned (Negative Amount?)</td>
-            </tr>
-        
-            <tr>
-                <td><code>T</code></td>
-                <td>Third Party Repayment</td>
-            </tr>
-        
-            <tr>
-                <td><code>X</code></td>
-                <td>Transfer</td>
-            </tr>
-        
-            <tr>
-                <td><code>0</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>I</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>M</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>N</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>R</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>T</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29">29</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p38">38</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p72">72</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* .CAL Format Layout (Version 1.05.02) (`29-30 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29>`_)
-
-* .CAL Format Layout (Version 2.01) (`37-41 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37>`_)
-
-* CAL-ACCESS Tables, Columns and Indexes (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `118-121 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p118>`_)
-
-* Map from .CAL Format to Database Table and Fields (`71-75 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71>`_)
-
-
-
-
-
-
-------------
-
-*********************
 CVR3_VERIFICATION_INFO_CD
 *********************
 
@@ -7202,10 +5723,11 @@ References
 ------------
 
 *********************
-LOAN_CD
+CVR_F470_CD
 *********************
 
-Loans received and made by recepient committees
+Cover page information for Officeholder and Candidate Short and Supplement Forms
+(Form 470)
 
 
 Sample
@@ -7213,7 +5735,7 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOAN_CD.TSV?slice=0:10"></script>
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_F470_CD.TSV?slice=0:10"></script>
 
 
 Forms
@@ -7227,37 +5749,9 @@ Forms
         
         <tr>
             <td>
-                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
-                Recipient Committee Campaign Statement
+                <a href="../filingforms/campaign_forms.html#form-470">Form 470</a>:
+                Officeholder and Candidate Campaign Statement, Short Form
             </td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule B - Part 1, Loans Received</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule B - Part 2, Loan Guarantors</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule B - Part 3, Outstanding Bal</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule H, Loans Made to Others</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule H - Part 1, Loans Made</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule H- Part 2, Repayments Rcvd</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule H - Part 3, Outstanding Loans</td>
         </tr>
         
         
@@ -7279,8 +5773,6 @@ Unique key
             <td><code>FILING_ID</code></td>
         
             <td><code>AMEND_ID</code></td>
-        
-            <td><code>LINE_ITEM</code></td>
         
             <td><code>REC_TYPE</code></td>
         
@@ -7315,25 +5807,106 @@ Fields
             <td><code>AMEND_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
+            <td>Amendment Identification number. A number of 0 is an original filing and 1 to 999 amendments.</td>
         </tr>
     
     
     
         <tr>
-            <td><code>BAKREF_TID</code></td>
+            <td><code>CAND_ADR1</code></td>
+            <td>String (up to 55)</td>
+            <td>No</td>
+            <td>First line of the filer&#39;s street address.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_ADR2</code></td>
+            <td>String (up to 55)</td>
+            <td>No</td>
+            <td>Second line of the filer&#39;s street address. </td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Candidate/Officeholder&#39;s City.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_EMAIL</code></td>
+            <td>String (up to 60)</td>
+            <td>No</td>
+            <td>Candidate/Officeholder&#39;s EMail address. Not required by the form.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_FAX</code></td>
             <td>String (up to 20)</td>
             <td>No</td>
-            <td>Back Reference to transaction identifier of parent record</td>
+            <td>Candidate/Officeholder&#39;s FAX Phone Number. Not required by the form.</td>
         </tr>
     
     
     
         <tr>
-            <td><code>CMTE_ID</code></td>
-            <td>String (up to 9)</td>
+            <td><code>CAND_PHON</code></td>
+            <td>String (up to 20)</td>
             <td>No</td>
-            <td>Committee identification number</td>
+            <td>Candidate/Officeholder&#39;s phone number.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Filer&#39;s State</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Filer&#39;s zipcode</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DATE_1000</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Date contributions totaling $1,000 or more. (For the 470-S)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DIST_NO</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ELECT_DATE</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Date of the general election. Required for filings in even years.</td>
         </tr>
     
     
@@ -7342,7 +5915,52 @@ Fields
             <td><code>ENTITY_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
-            <td>Entity code describing the lender</td>
+            <td>The filer&#39;s entity code. The value of this column will always be Candidate/Office Holder (CAO) for this table.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_ID</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>Filer&#39;s unique identification number.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Filer&#39;s First Name(s) - required for individuals</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Filer&#39;s Last Name/Committee name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Filer&#39;s Name Suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>The filer&#39;s prefix or title that preceeds their name if they are an individual.</td>
         </tr>
     
     
@@ -7351,403 +5969,88 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number.</td>
         </tr>
     
     
     
         <tr>
             <td><code>FORM_TYPE</code></td>
-            <td>String (up to 2)</td>
+            <td>String (up to 4)</td>
             <td>Yes</td>
-            <td>Name of the source filing form or schedule</td>
+            <td>Type of Filing or Formset. The value of this column will always be equal to F470.</td>
         </tr>
     
     
     
         <tr>
-            <td><code>INTR_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s city</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s state</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTR_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Intermediary&#39;s ZIP Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LINE_ITEM</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Line item number of this record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LNDR_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Lender&#39;s first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LNDR_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Lender&#39;s last name or business name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LNDR_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Lender&#39;s suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LNDR_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Lender&#39;s title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_AMT1</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Repaid or forgiven amount; Original loan amount. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_AMT2</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Outstanding Principal; unpaid balance. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_AMT3</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Interest Paid; Unpaid interest; Interest received. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_AMT4</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Cumulative Amount/Other. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_AMT5</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_AMT6</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_AMT7</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_AMT8</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Lender&#39;s city</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_DATE1</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date the loan was made or recieved. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_DATE2</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date repaid/forgiven; date loan due. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_EMP</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Loan employer. Applies to the Form 460 Schedule B Part 1.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_OCC</code></td>
-            <td>String (up to 60)</td>
-            <td>No</td>
-            <td>Loan occupation. Applies to the Form 460 Schedule B Part 1.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_RATE</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Interest Rate. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_SELF</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Self-employed checkbox</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Lender&#39;s state</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOAN_TYPE</code></td>
+            <td><code>JURIS_CD</code></td>
             <td>String (up to 3)</td>
             <td>No</td>
-            <td>Type of loan</td>
+            <td>Office Jurisdiction Code</td>
         </tr>
     
     
     
         <tr>
-            <td><code>LOAN_ZIP4</code></td>
-            <td>String (up to 10)</td>
+            <td><code>JURIS_DSCR</code></td>
+            <td>String (up to 40)</td>
             <td>No</td>
-            <td>Lender&#39;s ZIP Code</td>
+            <td>Office jurisdiction description text reqired if the jurisdiction code (Juris_cd) is equal to CIT, CTY, LOC, or OTH.</td>
         </tr>
     
     
     
         <tr>
-            <td><code>MEMO_CODE</code></td>
+            <td><code>OFF_S_H_CD</code></td>
             <td>String (up to 1)</td>
             <td>No</td>
-            <td>Memo amount flag</td>
+            <td>Office Sought/Held code. Legal values are &quot;S&quot; for sought and &quot;H&quot; for held.</td>
         </tr>
     
     
     
         <tr>
-            <td><code>MEMO_REFNO</code></td>
-            <td>String (up to 20)</td>
+            <td><code>OFFIC_DSCR</code></td>
+            <td>String (up to 40)</td>
             <td>No</td>
-            <td>Reference to text contained in a TEXT record</td>
+            <td>Office sought description used if the office code is other (OTH).</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFFICE_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Code that identifies the office being sought. See the CAL document for a list of valid codes.</td>
         </tr>
     
     
     
         <tr>
             <td><code>REC_TYPE</code></td>
-            <td>String (up to 4)</td>
+            <td>String (up to 3)</td>
             <td>Yes</td>
-            <td>Record Type Value: LOAN</td>
+            <td>Type of CAL record. This column will always contain CVR.</td>
         </tr>
     
     
     
         <tr>
-            <td><code>TRAN_ID</code></td>
-            <td>String (up to 20)</td>
+            <td><code>REPORT_NUM</code></td>
+            <td>String (up to 3)</td>
             <td>No</td>
-            <td>Permanent value unique to this item</td>
+            <td>Report Number; 000 Original; 001-999 Amended as reported in the filing.</td>
         </tr>
     
     
     
         <tr>
-            <td><code>TRES_CITY</code></td>
-            <td>String (up to 30)</td>
+            <td><code>RPT_DATE</code></td>
+            <td>Date (without time)</td>
             <td>No</td>
-            <td>Treasurer or responsible officer&#39;s city</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s street address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s ZIP Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>XREF_MATCH</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Related item on other schedule has same transaction identifier. &quot;X&quot; indicates this condition is true.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>XREF_SCHNM</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Related record is included on Form 460 Schedule &#39;A&#39; or &#39;E&#39;</td>
+            <td>Date this report is filed as reported by the filer.</td>
         </tr>
     
     
@@ -7776,13 +6079,102 @@ Lookup codes
         <tbody valign="top">
         
             <tr>
-                <td><code>COM</code></td>
-                <td>Committee</td>
+                <td><code>CAO</code></td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F470</code></td>
+                <td>Form 470: Officeholder and Candidate Campaign Statement, Short Form</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``juris_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>ASM</code></td>
+                <td>Assembly District</td>
             </tr>
         
             <tr>
-                <td><code>IND</code></td>
-                <td>Individual</td>
+                <td><code>BOE</code></td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td><code>CIT</code></td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td><code>CTY</code></td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td><code>LOC</code></td>
+                <td>Local</td>
             </tr>
         
             <tr>
@@ -7791,18 +6183,13 @@ Lookup codes
             </tr>
         
             <tr>
-                <td><code>PTY</code></td>
-                <td>Political Party</td>
+                <td><code>SEN</code></td>
+                <td>Senate District</td>
             </tr>
         
             <tr>
-                <td><code>RCP</code></td>
-                <td>Recipient committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>SCC</code></td>
-                <td>Small Contributor Committee</td>
+                <td><code>STW</code></td>
+                <td>Statewide</td>
             </tr>
         
         </tbody>
@@ -7812,7 +6199,7 @@ Lookup codes
         <td colspan=2>
            <small>
             Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35">35</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47">47</a>)
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
             </small>
         </td>
         </tr>
@@ -7822,7 +6209,7 @@ Lookup codes
     </div>
 
 
-``form_type``
+``off_s_h_cd``
 --------------------
 
 .. raw:: html
@@ -7836,40 +6223,15 @@ Lookup codes
             </tr>
         </thead>
         <tbody valign="top">
-        
-            <tr>
-                <td><code>B1</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 1, Loans Received</td>
-            </tr>
-        
-            <tr>
-                <td><code>B2</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 2, Loan Guarantors</td>
-            </tr>
-        
-            <tr>
-                <td><code>B3</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 3, Outstanding Bal</td>
-            </tr>
         
             <tr>
                 <td><code>H</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H, Loans Made to Others</td>
+                <td>HELD</td>
             </tr>
         
             <tr>
-                <td><code>H1</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H - Part 1, Loans Made</td>
-            </tr>
-        
-            <tr>
-                <td><code>H2</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H- Part 2, Repayments Rcvd</td>
-            </tr>
-        
-            <tr>
-                <td><code>H3</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H - Part 3, Outstanding Loans</td>
+                <td><code>S</code></td>
+                <td>SOUGHT</td>
             </tr>
         
         </tbody>
@@ -7879,665 +6241,7 @@ Lookup codes
         <td colspan=2>
            <small>
             Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35">35</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47">47</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``loan_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>H2T</code></td>
-                <td>Third party payment</td>
-            </tr>
-        
-            <tr>
-                <td><code>H2F</code></td>
-                <td>Forgiven</td>
-            </tr>
-        
-            <tr>
-                <td><code>H2R</code></td>
-                <td>Repay</td>
-            </tr>
-        
-            <tr>
-                <td><code>B2T</code></td>
-                <td>Third party payment</td>
-            </tr>
-        
-            <tr>
-                <td><code>B2F</code></td>
-                <td>Forgiven</td>
-            </tr>
-        
-            <tr>
-                <td><code>B2R</code></td>
-                <td>Repay</td>
-            </tr>
-        
-            <tr>
-                <td><code>B1G</code></td>
-                <td>Guarantor</td>
-            </tr>
-        
-            <tr>
-                <td><code>B1L</code></td>
-                <td>Lender</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35">35</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47">47</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>LOAN</code></td>
-                <td>LOAN</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35">35</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47">47</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* .CAL Format Layout (Version 1.05.02) (`35-39 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35>`_)
-
-* .CAL Format Layout (Version 2.01) (`47-50 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47>`_)
-
-* CAL-ACCESS Tables, Columns and Indexes (`87-90 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p87>`_)
-
-* Map from .CAL Format to Database Table and Fields (`60-63 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p60>`_)
-
-
-
-
-
-
-------------
-
-*********************
-S401_CD
-*********************
-
-Form 401 (Slate Mailer Organization) payment and other
-disclosure schedules (F401B, F401B-1, F401C, F401D) information. Does not
-include Form 401, Schedule A (Payments Received).
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S401_CD.TSV?slice=0:10"></script>
-
-
-Forms
-=====
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
-                Slate Mailer Organization Campaign Statement
-            </td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule B, Payments Made</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule B-1, Payments Made by Agent or Independent Contractor</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule C, Persons Receiving $1,000 or More</td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule D, Candidates and Measures Not Listed on Schedule A</td>
-        </tr>
-        
-        
-    </tbody>
-    </table>
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILING_ID</code></td>
-        
-            <td><code>AMEND_ID</code></td>
-        
-            <td><code>LINE_ID</code></td>
-        
-            <td><code>REC_TYPE</code></td>
-        
-            <td><code>FORM_TYPE</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Unique filing identificiation number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMEND_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LINE_ITEM</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Line item number of this record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REC_TYPE</code></td>
-            <td>String (up to 4)</td>
-            <td>Yes</td>
-            <td>Record Type Value: S401</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FORM_TYPE</code></td>
-            <td>String (up to 7)</td>
-            <td>Yes</td>
-            <td>Name of the source filing form or schedule</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRAN_ID</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Permanent value unique to this item</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AGENT_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Agent or independent contractor&#39;s last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AGENT_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Agent or independent contractor&#39;s first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AGENT_NAMT</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Agent or independent contractor&#39;s title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AGENT_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Agent or independent contractor&#39;s suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Payee&#39;s business name or last name if the payee is an individual</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Payee&#39;s first name if the payee is an individual</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Payee&#39;s title or prefix if the payee is an individual</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Payee&#39;s suffix if the payee is an individual</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Payee&#39;s city address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Payee state address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Payee ZIP Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMOUNT</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Amount (Sched F401B, 401B-1, 401C)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AGGREGATE</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Aggregate year-to-date amount (Sched 401C)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EXPN_DSCR</code></td>
-            <td>String (up to 90)</td>
-            <td>No</td>
-            <td>Purpose of expense and/or description/explanation</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Candidate/officeholder last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Candidate/officeholder first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Candidate/officeholder title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Candidate/officeholder suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFFICE_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Identifies the office being sought</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFFIC_DSCR</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Office sought description</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>JURIS_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Office jurisdiction code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>JURIS_DSCR</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Office jurisdiction description</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DIST_NO</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFF_S_H_CD</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Office is sought or held code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_NAME</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Ballot measure name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_NUM</code></td>
-            <td>String (up to 7)</td>
-            <td>No</td>
-            <td>Ballot measure number or letter</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_JURIS</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Ballot measure jurisdiction</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUP_OPP_CD</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Support or opposition code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_CODE</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Memo amount flag</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_REFNO</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Reference to text contained in the TEXT record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAKREF_TID</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Back reference to transaction identifier of parent record</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>S401</code></td>
-                <td>S401</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p51">51</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``form_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F401B</code></td>
-                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule B, Payments Made</td>
-            </tr>
-        
-            <tr>
-                <td><code>F401B-1</code></td>
-                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule B-1, Payments Made by Agent or Independent Contractor</td>
-            </tr>
-        
-            <tr>
-                <td><code>F401C</code></td>
-                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule C, Persons Receiving $1,000 or More</td>
-            </tr>
-        
-            <tr>
-                <td><code>F401D</code></td>
-                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule D, Candidates and Measures Not Listed on Schedule A</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p51">51</a>)
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p30">30</a>)
             </small>
         </td>
         </tr>
@@ -8717,61 +6421,6 @@ Lookup codes
                 <td>Local Treasurer</td>
             </tr>
         
-            <tr>
-                <td><code>asm</code></td>
-                <td>State Assembly Person</td>
-            </tr>
-        
-            <tr>
-                <td><code>ltg</code></td>
-                <td>Lieutenant Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTh</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>att</code></td>
-                <td>Attorney General</td>
-            </tr>
-        
-            <tr>
-                <td><code>oth</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>tre</code></td>
-                <td>State Treasurer</td>
-            </tr>
-        
-            <tr>
-                <td><code>con</code></td>
-                <td>State Controller</td>
-            </tr>
-        
-            <tr>
-                <td><code>boe</code></td>
-                <td>Board of Equalization Member</td>
-            </tr>
-        
-            <tr>
-                <td><code>sos</code></td>
-                <td>Secretary of State</td>
-            </tr>
-        
-            <tr>
-                <td><code>sup</code></td>
-                <td>Superintendent of Public Instruction</td>
-            </tr>
-        
-            <tr>
-                <td><code>H</code></td>
-                <td>Unknown</td>
-            </tr>
-        
         </tbody>
         
         <tfoot class="footnote">
@@ -8779,7 +6428,7 @@ Lookup codes
         <td colspan=2>
            <small>
             Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>),  .CAL Version 2.01 Errata (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201.html#document/p2">2</a>)
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
             </small>
         </td>
         </tr>
@@ -8789,7 +6438,7 @@ Lookup codes
     </div>
 
 
-``juris_cd``
+``rec_type``
 --------------------
 
 .. raw:: html
@@ -8805,83 +6454,8 @@ Lookup codes
         <tbody valign="top">
         
             <tr>
-                <td><code>ASM</code></td>
-                <td>Assembly District</td>
-            </tr>
-        
-            <tr>
-                <td><code>BOE</code></td>
-                <td>Board of Equalization District</td>
-            </tr>
-        
-            <tr>
-                <td><code>CIT</code></td>
-                <td>City</td>
-            </tr>
-        
-            <tr>
-                <td><code>CTY</code></td>
-                <td>County</td>
-            </tr>
-        
-            <tr>
-                <td><code>LOC</code></td>
-                <td>Local</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>SEN</code></td>
-                <td>Senate District</td>
-            </tr>
-        
-            <tr>
-                <td><code>STW</code></td>
-                <td>Statewide</td>
-            </tr>
-        
-            <tr>
-                <td><code>SAC</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>CT</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>ca</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>CAL</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>OR</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>AL</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>CA</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>10</code></td>
-                <td>Unknown</td>
+                <td><code>CVR</code></td>
+                <td>Cover Page</td>
             </tr>
         
         </tbody>
@@ -8891,91 +6465,7 @@ Lookup codes
         <td colspan=2>
            <small>
             Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p52">52</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p77">77</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``off_s_h_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>S</code></td>
-                <td>SOUGHT</td>
-            </tr>
-        
-            <tr>
-                <td><code>H</code></td>
-                <td>HELD</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p52">52</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``sup_opp_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>S</code></td>
-                <td>SUPPORT</td>
-            </tr>
-        
-            <tr>
-                <td><code>O</code></td>
-                <td>OPPOSITION</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p52">52</a>)
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
             </small>
         </td>
         </tr>
@@ -8989,13 +6479,927 @@ Lookup codes
 References
 ==========
 
-* .CAL Format Layout (Version 1.05.02) (`39 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39>`_)
+* .CAL Format Layout (Version 2.01) (`29-30 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29>`_)
 
-* .CAL Format Layout (Version 2.01) (`51-52 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p51>`_)
+* Map from .CAL Format to Database Table and Fields (`15-16 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p15>`_)
 
-* CAL-ACCESS Tables, Columns and Indexes (`123-124 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p123>`_)
+* .CAL Format Layout (Version 1.05.02) (`22 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22>`_)
 
-* Map from .CAL Format to Database Table and Fields (`76-78 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p76>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `30-32 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p30>`_)
+
+
+
+
+
+
+------------
+
+*********************
+DEBT_CD
+*********************
+
+Records of unpaid bills accrued by Recipient Campaigns, as listed on
+Form 460, Schedule F (Accrued Expenses).
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/DEBT_CD.TSV?slice=0:10"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule F, Accrued Expenses (Unpaid Bills)</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>AMEND_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMT_INCUR</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Amount incurred this period</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMT_PAID</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Amount paid this period.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAKREF_TID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Back reference to a transaction identifier of a parent record.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BEG_BAL</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Outstanding balance at beginning of period</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CMTE_ID</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>Committee identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>END_BAL</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Outstanding balance at close of this period</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Entity code describing the payee</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EXPN_CODE</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Expense Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EXPN_DSCR</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Purpose of expense and/or description/explanation</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Unique filing identificiation number of the parent filing</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 1)</td>
+            <td>Yes</td>
+            <td>Schedule Name/ID: (F - Sched F / Accrued Expenses)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LINE_ITEM</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Record line item number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_CODE</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Memo amount flag</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_REFNO</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Reference to text contained in a TEXT record.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>First line of the payee&#39;s street address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Payee&#39;s first name if the payee is an individual</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Payee&#39;s business name or last name if the payee is an individual.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Payee&#39;s name suffix if the payee is an individual</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_NAMT</code></td>
+            <td>String (up to 100)</td>
+            <td>No</td>
+            <td>Payee&#39;s prefix or title if the payee is an individual</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Payee&#39;s state</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Payee&#39;s ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>REC_TYPE</code></td>
+            <td>String (up to 4)</td>
+            <td>Yes</td>
+            <td>Record type value: DEBT</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRAN_ID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Transaction identifier - permanent value unique to this item</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>City portion of the treasurer or responsible officer&#39;s street address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMT</code></td>
+            <td>String (up to 100)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s prefix or title</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>State portion of the treasurer or responsible officer&#39;s address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>ZIP Code portion of the treasurer or responsible officer&#39;s address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>XREF_MATCH</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Related item on other schedule has same transaction identifier. /&quot;X/&quot; indicates this condition is true</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>XREF_SCHNM</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Related record is included on Schedule C.</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``entity_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>BNM</code></td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td><code>COM</code></td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>IND</code></td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>PTY</code></td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td><code>RCP</code></td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>SCC</code></td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p8">8-9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33">33</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p9">9-11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45">45</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``expn_code``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>CMP</code></td>
+                <td>campaign paraphernalia/miscellaneous</td>
+            </tr>
+        
+            <tr>
+                <td><code>CNS</code></td>
+                <td>campaign consultants</td>
+            </tr>
+        
+            <tr>
+                <td><code>CTB</code></td>
+                <td>contribution (if nonmonetary, explain)*</td>
+            </tr>
+        
+            <tr>
+                <td><code>CVC</code></td>
+                <td>civic donations</td>
+            </tr>
+        
+            <tr>
+                <td><code>FIL</code></td>
+                <td>candidate filing/ballot feeds</td>
+            </tr>
+        
+            <tr>
+                <td><code>FND</code></td>
+                <td>fundraising events</td>
+            </tr>
+        
+            <tr>
+                <td><code>IKD</code></td>
+                <td>In-kind contribution (nonmonetary)</td>
+            </tr>
+        
+            <tr>
+                <td><code>IND</code></td>
+                <td>independent expenditure supporting/opposing others (explain)*</td>
+            </tr>
+        
+            <tr>
+                <td><code>LEG</code></td>
+                <td>legal defense</td>
+            </tr>
+        
+            <tr>
+                <td><code>LIT</code></td>
+                <td>campaign literature and mailings</td>
+            </tr>
+        
+            <tr>
+                <td><code>LON</code></td>
+                <td>loan</td>
+            </tr>
+        
+            <tr>
+                <td><code>MBR</code></td>
+                <td>member communications</td>
+            </tr>
+        
+            <tr>
+                <td><code>MON</code></td>
+                <td>monetary contribution</td>
+            </tr>
+        
+            <tr>
+                <td><code>MTG</code></td>
+                <td>meetings and appearances</td>
+            </tr>
+        
+            <tr>
+                <td><code>OFC</code></td>
+                <td>office expenses</td>
+            </tr>
+        
+            <tr>
+                <td><code>PET</code></td>
+                <td>petition circulating</td>
+            </tr>
+        
+            <tr>
+                <td><code>PHO</code></td>
+                <td>phone banks</td>
+            </tr>
+        
+            <tr>
+                <td><code>POL</code></td>
+                <td>polling and survey research</td>
+            </tr>
+        
+            <tr>
+                <td><code>POS</code></td>
+                <td>postage, delivery and messenger services</td>
+            </tr>
+        
+            <tr>
+                <td><code>PRO</code></td>
+                <td>professional services (legal, accounting)</td>
+            </tr>
+        
+            <tr>
+                <td><code>PRT</code></td>
+                <td>print ads</td>
+            </tr>
+        
+            <tr>
+                <td><code>RAD</code></td>
+                <td>radio airtime and production costs</td>
+            </tr>
+        
+            <tr>
+                <td><code>RFD</code></td>
+                <td>returned contributions</td>
+            </tr>
+        
+            <tr>
+                <td><code>SAL</code></td>
+                <td>campaign workers salaries</td>
+            </tr>
+        
+            <tr>
+                <td><code>TEL</code></td>
+                <td>T.V. or cable airtime and production costs</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRC</code></td>
+                <td>candidate travel, lodging and meals (explain)</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRS</code></td>
+                <td>staff/spouse travel, lodging and meals (explain)</td>
+            </tr>
+        
+            <tr>
+                <td><code>TSF</code></td>
+                <td>transfer between committees of the same candidate/sponsor</td>
+            </tr>
+        
+            <tr>
+                <td><code>VOT</code></td>
+                <td>voter registration</td>
+            </tr>
+        
+            <tr>
+                <td><code>WEB</code></td>
+                <td>information technology costs (internet, e-mail)</td>
+            </tr>
+        
+            <tr>
+                <td><code>Fnd</code></td>
+                <td>fundraising events</td>
+            </tr>
+        
+            <tr>
+                <td><code>ofc</code></td>
+                <td>office expenses</td>
+            </tr>
+        
+            <tr>
+                <td><code>&#39;CN</code></td>
+                <td>campaign consultants</td>
+            </tr>
+        
+            <tr>
+                <td><code>*</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>AIR</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>BUS</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>C</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>CAM</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>CC</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>COM</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>CON</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>CSN</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>DEP</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>EVE</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>F</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>FED</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>fns</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>G</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>GGG</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>HOT</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>L</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>LDF</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>MEE</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>N</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>O</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>P</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>PEN</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>S</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>SPE</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>STA</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>T</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>TAX</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRA</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>V</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>X</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p11">11</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p13">13-14</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule F, Accrued Expenses (Unpaid Bills)</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33">33</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45">45</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``rec_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>DEBT</code></td>
+                <td>DEBT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33">33-34</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45">45-46</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* .CAL Format Layout (Version 1.05.02) (`33-34 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33>`_)
+
+* .CAL Format Layout (Version 2.01) (`45-46 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`47-49 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p47>`_)
+
+* Map from .CAL Format to Database Table and Fields (`49-48 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p49>`_)
 
 
 
@@ -11814,6 +10218,3288 @@ References
 ------------
 
 *********************
+LOAN_CD
+*********************
+
+Loans received and made by recepient committees
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/LOAN_CD.TSV?slice=0:10"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 1, Loans Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 2, Loan Guarantors</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B - Part 3, Outstanding Bal</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H, Loans Made to Others</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H - Part 1, Loans Made</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H- Part 2, Repayments Rcvd</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule H - Part 3, Outstanding Loans</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>AMEND_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAKREF_TID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Back Reference to transaction identifier of parent record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CMTE_ID</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>Committee identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Entity code describing the lender</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Unique filing identificiation number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 2)</td>
+            <td>Yes</td>
+            <td>Name of the source filing form or schedule</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s city</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s state</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LINE_ITEM</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Line item number of this record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LNDR_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Lender&#39;s first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LNDR_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Lender&#39;s last name or business name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LNDR_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Lender&#39;s suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LNDR_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Lender&#39;s title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_AMT1</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Repaid or forgiven amount; Original loan amount. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_AMT2</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Outstanding Principal; unpaid balance. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_AMT3</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Interest Paid; Unpaid interest; Interest received. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_AMT4</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Cumulative Amount/Other. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_AMT5</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_AMT6</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_AMT7</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_AMT8</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Lender&#39;s city</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_DATE1</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Date the loan was made or recieved. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_DATE2</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Date repaid/forgiven; date loan due. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_EMP</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Loan employer. Applies to the Form 460 Schedule B Part 1.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_OCC</code></td>
+            <td>String (up to 60)</td>
+            <td>No</td>
+            <td>Loan occupation. Applies to the Form 460 Schedule B Part 1.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_RATE</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Interest Rate. The content of this column varies based on the schedule/part that the record applies to. See the CAL document for a description of the value of this field.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_SELF</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Self-employed checkbox</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Lender&#39;s state</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_TYPE</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Type of loan</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOAN_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Lender&#39;s ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_CODE</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Memo amount flag</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_REFNO</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Reference to text contained in a TEXT record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>REC_TYPE</code></td>
+            <td>String (up to 4)</td>
+            <td>Yes</td>
+            <td>Record Type Value: LOAN</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRAN_ID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Permanent value unique to this item</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s city</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s street address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>XREF_MATCH</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Related item on other schedule has same transaction identifier. &quot;X&quot; indicates this condition is true.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>XREF_SCHNM</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Related record is included on Form 460 Schedule &#39;A&#39; or &#39;E&#39;</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``entity_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>COM</code></td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>IND</code></td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>PTY</code></td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td><code>RCP</code></td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>SCC</code></td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35">35</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47">47</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>B1</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 1, Loans Received</td>
+            </tr>
+        
+            <tr>
+                <td><code>B2</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 2, Loan Guarantors</td>
+            </tr>
+        
+            <tr>
+                <td><code>B3</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule B - Part 3, Outstanding Bal</td>
+            </tr>
+        
+            <tr>
+                <td><code>H</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H, Loans Made to Others</td>
+            </tr>
+        
+            <tr>
+                <td><code>H1</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H - Part 1, Loans Made</td>
+            </tr>
+        
+            <tr>
+                <td><code>H2</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H- Part 2, Repayments Rcvd</td>
+            </tr>
+        
+            <tr>
+                <td><code>H3</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule H - Part 3, Outstanding Loans</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35">35</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47">47</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``loan_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>H2T</code></td>
+                <td>Third party payment</td>
+            </tr>
+        
+            <tr>
+                <td><code>H2F</code></td>
+                <td>Forgiven</td>
+            </tr>
+        
+            <tr>
+                <td><code>H2R</code></td>
+                <td>Repay</td>
+            </tr>
+        
+            <tr>
+                <td><code>B2T</code></td>
+                <td>Third party payment</td>
+            </tr>
+        
+            <tr>
+                <td><code>B2F</code></td>
+                <td>Forgiven</td>
+            </tr>
+        
+            <tr>
+                <td><code>B2R</code></td>
+                <td>Repay</td>
+            </tr>
+        
+            <tr>
+                <td><code>B1G</code></td>
+                <td>Guarantor</td>
+            </tr>
+        
+            <tr>
+                <td><code>B1L</code></td>
+                <td>Lender</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35">35</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47">47</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``rec_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>LOAN</code></td>
+                <td>LOAN</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35">35</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47">47</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* .CAL Format Layout (Version 1.05.02) (`35-39 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p35>`_)
+
+* .CAL Format Layout (Version 2.01) (`47-50 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p47>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`87-90 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p87>`_)
+
+* Map from .CAL Format to Database Table and Fields (`60-63 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p60>`_)
+
+
+
+
+
+
+------------
+
+*********************
+RCPT_CD
+*********************
+
+Contribution records from receipts schedules for Slate Mailer Organization
+and Recipient Committee Campaign Statements.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/RCPT_CD.TSV?slice=0:10"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#electronic-form-530">Electronic Form 530</a>:
+                Electronic Issue Advocacy Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A, Payments Received</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A, Monetary Contributions Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule A-1, Contributions Transferred to Special Election Commitee</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule C, Non-Monetary Contributions Received</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule I, miscellanous increases to cash</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3, Contributions > $100 Received</td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-900">Form 900</a>:
+                Public employee's retirement board, candidate campaign statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>AMEND_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMOUNT</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Amount Received (Monetary, Inkkind, Promise)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAKREF_TID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Back Reference to a transaction identifier of a parent record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_JURIS</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Jurisdiction of ballot measure. Used on the Form 401 Schedule A</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_NAME</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Ballot measure name. Used on the Form 401 Schedule A</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_NUM</code></td>
+            <td>String (up to 7)</td>
+            <td>No</td>
+            <td>Ballot measure number or letter. Used on the Form 401 Schedule A</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Candidate/officeholder&#39;s first name. Used on the Form 401 Schedule A</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Candidate/officeholder&#39;s last name. Used on the Form 401 Schedule A</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Candidate/officeholder&#39;s name suffix. Used on the Form 401 Schedule A</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Candidate/officeholder&#39;s name prefix or title. Used on the Form 401 Schedule A</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CMTE_ID</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>Committee Identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Contributor&#39;s City</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_DSCR</code></td>
+            <td>String (up to 90)</td>
+            <td>No</td>
+            <td>Description of goods/services received</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_EMP</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Employer</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Contributor&#39;s First Name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Contributor&#39;s last name or business name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Contributor&#39;s Suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Contributor&#39;s Prefix or Title</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_OCC</code></td>
+            <td>String (up to 60)</td>
+            <td>No</td>
+            <td>Occupation</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_SELF</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Self Employed Check-box</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Contributor&#39;s State</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CTRIB_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Contributor&#39;s ZIP+4</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CUM_OTH</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Cumulative Other (Sched A, A-1)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CUM_YTD</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Cumulative year to date amount (Form 460 Schedule A and Form 401 Schedule A, A-1)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DATE_THRU</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>End of date range for items received</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DIST_NO</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Office District Number (used on F401A)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Entity Code describing the contributor</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Unique filing identificiation number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 9)</td>
+            <td>Yes</td>
+            <td>Name of the source filing form or schedule</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INT_RATE</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s City</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_CMTEID</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_EMP</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s Employer</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s First Name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s Last Name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s Suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s Prefix or Title</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_OCC</code></td>
+            <td>String (up to 60)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s Occupation</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_SELF</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s self employed check box</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s state</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTR_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Intermediary&#39;s zip code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>JURIS_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Office jurisdiction code. See the CAL document for the list of legal values. Used on Form 401 Schedule A</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>JURIS_DSCR</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Office Jurisdiction Description (used on F401A)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LINE_ITEM</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Line item number of this record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_CODE</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Memo amount flag (Date/Amount are informational only)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_REFNO</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Reference to text contained in a TEXT record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFF_S_H_CD</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Office is sought or held code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFFIC_DSCR</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Office Sought Description (used on F401A)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFFICE_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Identifies the office being sought</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>RCPT_DATE</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Date item received</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>REC_TYPE</code></td>
+            <td>String (up to 4)</td>
+            <td>Yes</td>
+            <td>Record Type Value: CVR</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUP_OPP_CD</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Support or opposition code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRAN_ID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Permanent value unique to this item</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRAN_TYPE</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Transaction Type</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>City portion of the treasurer or responsible officer&#39;s street address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Treasurer or responsible officer&#39;s prefix or title</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>State portion of the treasurer or responsible officer&#39;s address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRES_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Zip code portion of the treasurer or responsible officer&#39;s address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>XREF_MATCH</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Related item on other schedule has same transaction identifier. &#39;X&#39; indicates this condition is true</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>XREF_SCHNM</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Related record is included on Sched &#39;B2&#39; or &#39;F&#39;</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``entity_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>COM</code></td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>IND</code></td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td><code>PTY</code></td>
+                <td>Political Party</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>RCP</code></td>
+                <td>Recipient committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>SCC</code></td>
+                <td>Small Contributor Committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>Com</code></td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>CAO</code></td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td><code>BNM</code></td>
+                <td>Ballot measure&#39;s name/title</td>
+            </tr>
+        
+            <tr>
+                <td><code>OFF</code></td>
+                <td>Officer</td>
+            </tr>
+        
+            <tr>
+                <td><code>0</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>PTH</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>RFD</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>MBR</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p8">8-9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29">29</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p9">9-11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37">37</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71">71</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>E530</code></td>
+                <td>Electronic Form 530: Electronic Issue Advocacy Report</td>
+            </tr>
+        
+            <tr>
+                <td><code>F900</code></td>
+                <td>Form 900: Public employee&#39;s retirement board, candidate campaign statement</td>
+            </tr>
+        
+            <tr>
+                <td><code>F401A</code></td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule A, Payments Received</td>
+            </tr>
+        
+            <tr>
+                <td><code>A</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule A, Monetary Contributions Received</td>
+            </tr>
+        
+            <tr>
+                <td><code>A-1</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule A-1, Contributions Transferred to Special Election Commitee</td>
+            </tr>
+        
+            <tr>
+                <td><code>C</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule C, Non-Monetary Contributions Received</td>
+            </tr>
+        
+            <tr>
+                <td><code>I</code></td>
+                <td>Form 460 (Recipient Committee Campaign Statement): Schedule I, miscellanous increases to cash</td>
+            </tr>
+        
+            <tr>
+                <td><code>F496P3</code></td>
+                <td>Form 496 (Late Independent Expenditure Report): Part 3, Contributions &gt; $100 Received</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29">29</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37">37</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``juris_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>ASM</code></td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td><code>BOE</code></td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td><code>CIT</code></td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td><code>CTY</code></td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td><code>LOC</code></td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>SEN</code></td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td><code>STW</code></td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td><code>BED</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>CLB</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>COU</code></td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td><code>CO</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>SAC</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>PER</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>SF</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>OR</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>AL</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>4</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>CA</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p30">30</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p40">40</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p74">74</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``off_s_h_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>S</code></td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td><code>H</code></td>
+                <td>HELD</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p30">30</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p40">40</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p75">75</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``office_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>APP</code></td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td><code>ASM</code></td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td><code>ASR</code></td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td><code>ATT</code></td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td><code>BED</code></td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td><code>BOE</code></td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td><code>BSU</code></td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td><code>CAT</code></td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td><code>CCB</code></td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td><code>CCM</code></td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td><code>CON</code></td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td><code>COU</code></td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td><code>CSU</code></td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td><code>CTR</code></td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td><code>DAT</code></td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td><code>GOV</code></td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>INS</code></td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td><code>LTG</code></td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>MAY</code></td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>PDR</code></td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td><code>PER</code></td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td><code>PLN</code></td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td><code>SCJ</code></td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td><code>SEN</code></td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td><code>SHC</code></td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td><code>SOS</code></td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td><code>SPM</code></td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td><code>SUP</code></td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRE</code></td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRS</code></td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td><code>asm</code></td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td><code>gov</code></td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTh</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>oth</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>csu</code></td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td><code>H</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>HOU</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>ASS</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>),  .CAL Version 2.01 Errata (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201.html#document/p2">2</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``rec_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>E530</code></td>
+                <td>Electronic Form 530: Electronic Issue Advocacy Report</td>
+            </tr>
+        
+            <tr>
+                <td><code>RCPT</code></td>
+                <td>Receipt</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>),  .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p37">37</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71">71</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``sup_opp_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>S</code></td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td><code>O</code></td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td><code>F</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p30">30</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p40">40</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p74">74</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``tran_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F</code></td>
+                <td>Forgiven Loan</td>
+            </tr>
+        
+            <tr>
+                <td><code>I</code></td>
+                <td>Intermediary</td>
+            </tr>
+        
+            <tr>
+                <td><code>R</code></td>
+                <td>Returned (Negative Amount?)</td>
+            </tr>
+        
+            <tr>
+                <td><code>T</code></td>
+                <td>Third Party Repayment</td>
+            </tr>
+        
+            <tr>
+                <td><code>X</code></td>
+                <td>Transfer</td>
+            </tr>
+        
+            <tr>
+                <td><code>0</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>I</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>M</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>N</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>R</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>T</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29">29</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p38">38</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p72">72</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* .CAL Format Layout (Version 1.05.02) (`29-30 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p29>`_)
+
+* .CAL Format Layout (Version 2.01) (`37-41 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p37>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `118-121 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p118>`_)
+
+* Map from .CAL Format to Database Table and Fields (`71-75 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p71>`_)
+
+
+
+
+
+
+------------
+
+*********************
+S401_CD
+*********************
+
+Form 401 (Slate Mailer Organization) payment and other
+disclosure schedules (F401B, F401B-1, F401C, F401D) information. Does not
+include Form 401, Schedule A (Payments Received).
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S401_CD.TSV?slice=0:10"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B, Payments Made</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule B-1, Payments Made by Agent or Independent Contractor</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule C, Persons Receiving $1,000 or More</td>
+        </tr>
+        
+        <tr>
+            <td>- Schedule D, Candidates and Measures Not Listed on Schedule A</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ID</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Unique filing identificiation number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMEND_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LINE_ITEM</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Line item number of this record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>REC_TYPE</code></td>
+            <td>String (up to 4)</td>
+            <td>Yes</td>
+            <td>Record Type Value: S401</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 7)</td>
+            <td>Yes</td>
+            <td>Name of the source filing form or schedule</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRAN_ID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Permanent value unique to this item</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AGENT_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Agent or independent contractor&#39;s last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AGENT_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Agent or independent contractor&#39;s first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AGENT_NAMT</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Agent or independent contractor&#39;s title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AGENT_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Agent or independent contractor&#39;s suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Payee&#39;s business name or last name if the payee is an individual</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Payee&#39;s first name if the payee is an individual</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Payee&#39;s title or prefix if the payee is an individual</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Payee&#39;s suffix if the payee is an individual</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Payee&#39;s city address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Payee state address</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYEE_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Payee ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMOUNT</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Amount (Sched F401B, 401B-1, 401C)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AGGREGATE</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Aggregate year-to-date amount (Sched 401C)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EXPN_DSCR</code></td>
+            <td>String (up to 90)</td>
+            <td>No</td>
+            <td>Purpose of expense and/or description/explanation</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Candidate/officeholder last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Candidate/officeholder first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Candidate/officeholder title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Candidate/officeholder suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFFICE_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Identifies the office being sought</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFFIC_DSCR</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Office sought description</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>JURIS_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Office jurisdiction code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>JURIS_DSCR</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Office jurisdiction description</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DIST_NO</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFF_S_H_CD</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Office is sought or held code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_NAME</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Ballot measure name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_NUM</code></td>
+            <td>String (up to 7)</td>
+            <td>No</td>
+            <td>Ballot measure number or letter</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_JURIS</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Ballot measure jurisdiction</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUP_OPP_CD</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Support or opposition code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_CODE</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Memo amount flag</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_REFNO</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Reference to text contained in the TEXT record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAKREF_TID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Back reference to transaction identifier of parent record</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``rec_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>S401</code></td>
+                <td>S401</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p51">51</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F401B</code></td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule B, Payments Made</td>
+            </tr>
+        
+            <tr>
+                <td><code>F401B-1</code></td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule B-1, Payments Made by Agent or Independent Contractor</td>
+            </tr>
+        
+            <tr>
+                <td><code>F401C</code></td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule C, Persons Receiving $1,000 or More</td>
+            </tr>
+        
+            <tr>
+                <td><code>F401D</code></td>
+                <td>Form 401 (Slate Mailer Organization Campaign Statement): Schedule D, Candidates and Measures Not Listed on Schedule A</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p51">51</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``office_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>APP</code></td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td><code>ASM</code></td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td><code>ASR</code></td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td><code>ATT</code></td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td><code>BED</code></td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td><code>BOE</code></td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td><code>BSU</code></td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td><code>CAT</code></td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td><code>CCB</code></td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td><code>CCM</code></td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td><code>CON</code></td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td><code>COU</code></td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td><code>CSU</code></td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td><code>CTR</code></td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td><code>DAT</code></td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td><code>GOV</code></td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>INS</code></td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td><code>LTG</code></td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>MAY</code></td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>PDR</code></td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td><code>PER</code></td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td><code>PLN</code></td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td><code>SCJ</code></td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td><code>SEN</code></td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td><code>SHC</code></td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td><code>SOS</code></td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td><code>SPM</code></td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td><code>SUP</code></td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRE</code></td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRS</code></td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td><code>asm</code></td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td><code>ltg</code></td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTh</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>att</code></td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td><code>oth</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>tre</code></td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td><code>con</code></td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td><code>boe</code></td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td><code>sos</code></td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td><code>sup</code></td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td><code>H</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>),  .CAL Version 2.01 Errata (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201.html#document/p2">2</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``juris_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>ASM</code></td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td><code>BOE</code></td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td><code>CIT</code></td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td><code>CTY</code></td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td><code>LOC</code></td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>SEN</code></td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td><code>STW</code></td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td><code>SAC</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>CT</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>ca</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>CAL</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>OR</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>AL</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>CA</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>10</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p52">52</a>),  Map from .CAL Format to Database Table and Fields (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p77">77</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``off_s_h_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>S</code></td>
+                <td>SOUGHT</td>
+            </tr>
+        
+            <tr>
+                <td><code>H</code></td>
+                <td>HELD</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p52">52</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``sup_opp_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>S</code></td>
+                <td>SUPPORT</td>
+            </tr>
+        
+            <tr>
+                <td><code>O</code></td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39">39</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p52">52</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* .CAL Format Layout (Version 1.05.02) (`39 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p39>`_)
+
+* .CAL Format Layout (Version 2.01) (`51-52 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p51>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`123-124 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p123>`_)
+
+* Map from .CAL Format to Database Table and Fields (`76-78 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p76>`_)
+
+
+
+
+
+
+------------
+
+*********************
 F495P2_CD
 *********************
 
@@ -12074,920 +13760,6 @@ References
 * CAL-ACCESS Tables, Columns and Indexes (`56-57 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p56>`_)
 
 * Map from .CAL Format to Database Table and Fields (`49 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p49>`_)
-
-
-
-
-
-
-------------
-
-*********************
-DEBT_CD
-*********************
-
-Records of unpaid bills accrued by Recipient Campaigns, as listed on
-Form 460, Schedule F (Accrued Expenses).
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/DEBT_CD.TSV?slice=0:10"></script>
-
-
-Forms
-=====
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
-                Recipient Committee Campaign Statement
-            </td>
-        </tr>
-        
-        <tr>
-            <td>- Schedule F, Accrued Expenses (Unpaid Bills)</td>
-        </tr>
-        
-        
-    </tbody>
-    </table>
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILING_ID</code></td>
-        
-            <td><code>AMEND_ID</code></td>
-        
-            <td><code>LINE_ITEM</code></td>
-        
-            <td><code>REC_TYPE</code></td>
-        
-            <td><code>FORM_TYPE</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>AMEND_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMT_INCUR</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Amount incurred this period</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMT_PAID</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Amount paid this period.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAKREF_TID</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Back reference to a transaction identifier of a parent record.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BEG_BAL</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Outstanding balance at beginning of period</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CMTE_ID</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>Committee identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>END_BAL</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Outstanding balance at close of this period</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Entity code describing the payee</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EXPN_CODE</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Expense Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EXPN_DSCR</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Purpose of expense and/or description/explanation</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Unique filing identificiation number of the parent filing</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FORM_TYPE</code></td>
-            <td>String (up to 1)</td>
-            <td>Yes</td>
-            <td>Schedule Name/ID: (F - Sched F / Accrued Expenses)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LINE_ITEM</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Record line item number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_CODE</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Memo amount flag</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_REFNO</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Reference to text contained in a TEXT record.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>First line of the payee&#39;s street address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Payee&#39;s first name if the payee is an individual</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Payee&#39;s business name or last name if the payee is an individual.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Payee&#39;s name suffix if the payee is an individual</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_NAMT</code></td>
-            <td>String (up to 100)</td>
-            <td>No</td>
-            <td>Payee&#39;s prefix or title if the payee is an individual</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Payee&#39;s state</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYEE_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Payee&#39;s ZIP Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REC_TYPE</code></td>
-            <td>String (up to 4)</td>
-            <td>Yes</td>
-            <td>Record type value: DEBT</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRAN_ID</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Transaction identifier - permanent value unique to this item</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>City portion of the treasurer or responsible officer&#39;s street address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_NAMT</code></td>
-            <td>String (up to 100)</td>
-            <td>No</td>
-            <td>Treasurer or responsible officer&#39;s prefix or title</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>State portion of the treasurer or responsible officer&#39;s address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRES_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>ZIP Code portion of the treasurer or responsible officer&#39;s address</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>XREF_MATCH</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Related item on other schedule has same transaction identifier. /&quot;X/&quot; indicates this condition is true</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>XREF_SCHNM</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Related record is included on Schedule C.</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``entity_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>BNM</code></td>
-                <td>Ballot measure&#39;s name/title</td>
-            </tr>
-        
-            <tr>
-                <td><code>COM</code></td>
-                <td>Committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>IND</code></td>
-                <td>Individual</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>PTY</code></td>
-                <td>Political Party</td>
-            </tr>
-        
-            <tr>
-                <td><code>RCP</code></td>
-                <td>Recipient committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>SCC</code></td>
-                <td>Small Contributor Committee</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p8">8-9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33">33</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p9">9-11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45">45</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``expn_code``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>CMP</code></td>
-                <td>campaign paraphernalia/miscellaneous</td>
-            </tr>
-        
-            <tr>
-                <td><code>CNS</code></td>
-                <td>campaign consultants</td>
-            </tr>
-        
-            <tr>
-                <td><code>CTB</code></td>
-                <td>contribution (if nonmonetary, explain)*</td>
-            </tr>
-        
-            <tr>
-                <td><code>CVC</code></td>
-                <td>civic donations</td>
-            </tr>
-        
-            <tr>
-                <td><code>FIL</code></td>
-                <td>candidate filing/ballot feeds</td>
-            </tr>
-        
-            <tr>
-                <td><code>FND</code></td>
-                <td>fundraising events</td>
-            </tr>
-        
-            <tr>
-                <td><code>IKD</code></td>
-                <td>In-kind contribution (nonmonetary)</td>
-            </tr>
-        
-            <tr>
-                <td><code>IND</code></td>
-                <td>independent expenditure supporting/opposing others (explain)*</td>
-            </tr>
-        
-            <tr>
-                <td><code>LEG</code></td>
-                <td>legal defense</td>
-            </tr>
-        
-            <tr>
-                <td><code>LIT</code></td>
-                <td>campaign literature and mailings</td>
-            </tr>
-        
-            <tr>
-                <td><code>LON</code></td>
-                <td>loan</td>
-            </tr>
-        
-            <tr>
-                <td><code>MBR</code></td>
-                <td>member communications</td>
-            </tr>
-        
-            <tr>
-                <td><code>MON</code></td>
-                <td>monetary contribution</td>
-            </tr>
-        
-            <tr>
-                <td><code>MTG</code></td>
-                <td>meetings and appearances</td>
-            </tr>
-        
-            <tr>
-                <td><code>OFC</code></td>
-                <td>office expenses</td>
-            </tr>
-        
-            <tr>
-                <td><code>PET</code></td>
-                <td>petition circulating</td>
-            </tr>
-        
-            <tr>
-                <td><code>PHO</code></td>
-                <td>phone banks</td>
-            </tr>
-        
-            <tr>
-                <td><code>POL</code></td>
-                <td>polling and survey research</td>
-            </tr>
-        
-            <tr>
-                <td><code>POS</code></td>
-                <td>postage, delivery and messenger services</td>
-            </tr>
-        
-            <tr>
-                <td><code>PRO</code></td>
-                <td>professional services (legal, accounting)</td>
-            </tr>
-        
-            <tr>
-                <td><code>PRT</code></td>
-                <td>print ads</td>
-            </tr>
-        
-            <tr>
-                <td><code>RAD</code></td>
-                <td>radio airtime and production costs</td>
-            </tr>
-        
-            <tr>
-                <td><code>RFD</code></td>
-                <td>returned contributions</td>
-            </tr>
-        
-            <tr>
-                <td><code>SAL</code></td>
-                <td>campaign workers salaries</td>
-            </tr>
-        
-            <tr>
-                <td><code>TEL</code></td>
-                <td>T.V. or cable airtime and production costs</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRC</code></td>
-                <td>candidate travel, lodging and meals (explain)</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRS</code></td>
-                <td>staff/spouse travel, lodging and meals (explain)</td>
-            </tr>
-        
-            <tr>
-                <td><code>TSF</code></td>
-                <td>transfer between committees of the same candidate/sponsor</td>
-            </tr>
-        
-            <tr>
-                <td><code>VOT</code></td>
-                <td>voter registration</td>
-            </tr>
-        
-            <tr>
-                <td><code>WEB</code></td>
-                <td>information technology costs (internet, e-mail)</td>
-            </tr>
-        
-            <tr>
-                <td><code>Fnd</code></td>
-                <td>fundraising events</td>
-            </tr>
-        
-            <tr>
-                <td><code>ofc</code></td>
-                <td>office expenses</td>
-            </tr>
-        
-            <tr>
-                <td><code>&#39;CN</code></td>
-                <td>campaign consultants</td>
-            </tr>
-        
-            <tr>
-                <td><code>*</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>AIR</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>BUS</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>C</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>CAM</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>CC</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>COM</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>CON</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>CSN</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>DEP</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>EVE</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>F</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>FED</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>fns</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>G</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>GGG</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>HOT</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>L</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>LDF</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>MEE</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>N</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>O</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>P</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>PEN</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>S</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>SPE</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>STA</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>T</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>TAX</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRA</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>V</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-            <tr>
-                <td><code>X</code></td>
-                <td>Unknown</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p11">11</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p13">13-14</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``form_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F</code></td>
-                <td>Form 460 (Recipient Committee Campaign Statement): Schedule F, Accrued Expenses (Unpaid Bills)</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33">33</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45">45</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>DEBT</code></td>
-                <td>DEBT</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33">33-34</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45">45-46</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* .CAL Format Layout (Version 1.05.02) (`33-34 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p33>`_)
-
-* .CAL Format Layout (Version 2.01) (`45-46 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p45>`_)
-
-* CAL-ACCESS Tables, Columns and Indexes (`47-49 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p47>`_)
-
-* Map from .CAL Format to Database Table and Fields (`49-48 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p49>`_)
 
 
 
@@ -14531,6 +15303,956 @@ References
 * CAL-ACCESS Tables, Columns and Indexes (`12 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p12>`_, `125-127 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p125>`_)
 
 * Map from .CAL Format to Database Table and Fields (`80-82 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p80>`_)
+
+
+
+
+
+
+------------
+
+*********************
+S498_CD
+*********************
+
+Payments received by Slate Mailer Organizations within 90 days of an election,
+as reported on Form 498.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S498_CD.TSV?slice=0:10"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
+                Slate Mailer Late Payment Report
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part A, Late Payments Attributed To</td>
+        </tr>
+        
+        <tr>
+            <td>- Part R, Late Payments Received From</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Unique filing identificiation number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMEND_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LINE_ITEM</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Line item number of this record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>REC_TYPE</code></td>
+            <td>String (up to 4)</td>
+            <td>Yes</td>
+            <td>Record Type Value: S498</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 9)</td>
+            <td>Yes</td>
+            <td>Name of the source filing form or schedule</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TRAN_ID</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Permanent value unique to this item</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Entity code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CMTE_ID</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>Committee identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYOR_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Payor&#39;s last name or business name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYOR_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Payor&#39;s first name.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYOR_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Payor&#39;s Prefix or title.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYOR_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Payor&#39;s suffix.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYOR_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Payor&#39;s city.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYOR_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Payor&#39;s State.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PAYOR_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Payor&#39;s zip code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DATE_RCVD</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Date received</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMT_RCVD</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Amount received</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Candidate/officerholder last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Candidate/officerholder first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Candidate/officerholder title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CAND_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Candidate/officerholder suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFFICE_CD</code></td>
+            <td>String (up to 4)</td>
+            <td>No</td>
+            <td>Identifies the office being sought</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFFIC_DSCR</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Description of office sought</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>JURIS_CD</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>Office jurisdiction code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>JURIS_DSCR</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Office jurisdiction description</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DIST_NO</code></td>
+            <td>String (up to 3)</td>
+            <td>No</td>
+            <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OFF_S_H_CD</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Office is sought or held code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_NAME</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Ballot measure name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_NUM</code></td>
+            <td>String (up to 7)</td>
+            <td>No</td>
+            <td>Ballot measure number or letter.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>BAL_JURIS</code></td>
+            <td>String (up to 40)</td>
+            <td>No</td>
+            <td>Jurisdiction of ballot measure</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUP_OPP_CD</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Support or opposition code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMT_ATTRIB</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Amount attributed (only if Form_type = &#39;F498-A&#39;)</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_CODE</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Memo amount flat</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEMO_REFNO</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Reference text contained in TEXT record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OCCUPATION</code></td>
+            <td>String (up to 60)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SELFEMP_CB</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Self-employed checkbox</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``rec_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>S498</code></td>
+                <td>S498</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56">56</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F498-A</code></td>
+                <td>Form 498 (Slate Mailer Late Payment Report): Part A, Late Payments Attributed To</td>
+            </tr>
+        
+            <tr>
+                <td><code>F498-R</code></td>
+                <td>Form 498 (Slate Mailer Late Payment Report): Part R, Late Payments Received From</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56">56</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``entity_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>CAO</code></td>
+                <td>Candidate/officeholder</td>
+            </tr>
+        
+            <tr>
+                <td><code>COM</code></td>
+                <td>Committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>IND</code></td>
+                <td>Individual</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>RCP</code></td>
+                <td>Recipient committee</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p8">8-9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p9">9-11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56">56</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``office_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>APP</code></td>
+                <td>State Appellate Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td><code>ASM</code></td>
+                <td>State Assembly Person</td>
+            </tr>
+        
+            <tr>
+                <td><code>ASR</code></td>
+                <td>Assessor</td>
+            </tr>
+        
+            <tr>
+                <td><code>ATT</code></td>
+                <td>Attorney General</td>
+            </tr>
+        
+            <tr>
+                <td><code>BED</code></td>
+                <td>Board of Education</td>
+            </tr>
+        
+            <tr>
+                <td><code>BOE</code></td>
+                <td>Board of Equalization Member</td>
+            </tr>
+        
+            <tr>
+                <td><code>BSU</code></td>
+                <td>Board of Supervisors</td>
+            </tr>
+        
+            <tr>
+                <td><code>CAT</code></td>
+                <td>City Attorney</td>
+            </tr>
+        
+            <tr>
+                <td><code>CCB</code></td>
+                <td>Community College Board</td>
+            </tr>
+        
+            <tr>
+                <td><code>CCM</code></td>
+                <td>City Council Member</td>
+            </tr>
+        
+            <tr>
+                <td><code>CON</code></td>
+                <td>State Controller</td>
+            </tr>
+        
+            <tr>
+                <td><code>COU</code></td>
+                <td>County Counsel</td>
+            </tr>
+        
+            <tr>
+                <td><code>CSU</code></td>
+                <td>County Supervisor</td>
+            </tr>
+        
+            <tr>
+                <td><code>CTR</code></td>
+                <td>Local Controller</td>
+            </tr>
+        
+            <tr>
+                <td><code>DAT</code></td>
+                <td>District Attorney</td>
+            </tr>
+        
+            <tr>
+                <td><code>GOV</code></td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>INS</code></td>
+                <td>Insurance Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td><code>LTG</code></td>
+                <td>Lieutenant Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>MAY</code></td>
+                <td>Mayor</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>PDR</code></td>
+                <td>Public Defender</td>
+            </tr>
+        
+            <tr>
+                <td><code>PER</code></td>
+                <td>Public Employees Retirement System</td>
+            </tr>
+        
+            <tr>
+                <td><code>PLN</code></td>
+                <td>Planning Commissioner</td>
+            </tr>
+        
+            <tr>
+                <td><code>SCJ</code></td>
+                <td>Superior Court Judge</td>
+            </tr>
+        
+            <tr>
+                <td><code>SEN</code></td>
+                <td>State Senator</td>
+            </tr>
+        
+            <tr>
+                <td><code>SHC</code></td>
+                <td>Sheriff-Coroner</td>
+            </tr>
+        
+            <tr>
+                <td><code>SOS</code></td>
+                <td>Secretary of State</td>
+            </tr>
+        
+            <tr>
+                <td><code>SPM</code></td>
+                <td>Supreme Court Justice</td>
+            </tr>
+        
+            <tr>
+                <td><code>SUP</code></td>
+                <td>Superintendent of Public Instruction</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRE</code></td>
+                <td>State Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td><code>TRS</code></td>
+                <td>Local Treasurer</td>
+            </tr>
+        
+            <tr>
+                <td><code>gov</code></td>
+                <td>Governor</td>
+            </tr>
+        
+            <tr>
+                <td><code>oth</code></td>
+                <td>Other</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>),  .CAL Version 2.01 Errata (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201.html#document/p2">2</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``juris_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>ASM</code></td>
+                <td>Assembly District</td>
+            </tr>
+        
+            <tr>
+                <td><code>BOE</code></td>
+                <td>Board of Equalization District</td>
+            </tr>
+        
+            <tr>
+                <td><code>CIT</code></td>
+                <td>City</td>
+            </tr>
+        
+            <tr>
+                <td><code>CTY</code></td>
+                <td>County</td>
+            </tr>
+        
+            <tr>
+                <td><code>LOC</code></td>
+                <td>Local</td>
+            </tr>
+        
+            <tr>
+                <td><code>OTH</code></td>
+                <td>Other</td>
+            </tr>
+        
+            <tr>
+                <td><code>SEN</code></td>
+                <td>Senate District</td>
+            </tr>
+        
+            <tr>
+                <td><code>STW</code></td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td><code>GOV</code></td>
+                <td>Statewide</td>
+            </tr>
+        
+            <tr>
+                <td><code>COU</code></td>
+                <td>County</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p57">57</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``off_s_h_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>H</code></td>
+                <td>HELD</td>
+            </tr>
+        
+            <tr>
+                <td><code>S</code></td>
+                <td>SOUGHT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p44">44</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p57">57</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``sup_opp_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>O</code></td>
+                <td>OPPOSITION</td>
+            </tr>
+        
+            <tr>
+                <td><code>S</code></td>
+                <td>SUPPORT</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p57">57</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* .CAL Format Layout (Version 1.05.02) (`43-44 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43>`_)
+
+* .CAL Format Layout (Version 2.01) (`56-57 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`12 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p12>`_, `127-129 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p127>`_)
+
+* Map from .CAL Format to Database Table and Fields (`83-85 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p83>`_)
 
 
 
@@ -16861,1728 +18583,6 @@ References
 ==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `57-59 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p57>`_)
-
-
-
-
-
-
-------------
-
-*********************
-S498_CD
-*********************
-
-Payments received by Slate Mailer Organizations within 90 days of an election,
-as reported on Form 498.
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/S498_CD.TSV?slice=0:10"></script>
-
-
-Forms
-=====
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
-                Slate Mailer Late Payment Report
-            </td>
-        </tr>
-        
-        <tr>
-            <td>- Part A, Late Payments Attributed To</td>
-        </tr>
-        
-        <tr>
-            <td>- Part R, Late Payments Received From</td>
-        </tr>
-        
-        
-    </tbody>
-    </table>
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILING_ID</code></td>
-        
-            <td><code>AMEND_ID</code></td>
-        
-            <td><code>LINE_ITEM</code></td>
-        
-            <td><code>REC_TYPE</code></td>
-        
-            <td><code>FORM_TYPE</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Unique filing identificiation number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMEND_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LINE_ITEM</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Line item number of this record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REC_TYPE</code></td>
-            <td>String (up to 4)</td>
-            <td>Yes</td>
-            <td>Record Type Value: S498</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FORM_TYPE</code></td>
-            <td>String (up to 9)</td>
-            <td>Yes</td>
-            <td>Name of the source filing form or schedule</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRAN_ID</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Permanent value unique to this item</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Entity code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CMTE_ID</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>Committee identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYOR_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Payor&#39;s last name or business name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYOR_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Payor&#39;s first name.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYOR_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Payor&#39;s Prefix or title.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYOR_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Payor&#39;s suffix.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYOR_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Payor&#39;s city.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYOR_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Payor&#39;s State.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PAYOR_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Payor&#39;s zip code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DATE_RCVD</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date received</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMT_RCVD</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Amount received</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Candidate/officerholder last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Candidate/officerholder first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Candidate/officerholder title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Candidate/officerholder suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFFICE_CD</code></td>
-            <td>String (up to 4)</td>
-            <td>No</td>
-            <td>Identifies the office being sought</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFFIC_DSCR</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Description of office sought</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>JURIS_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Office jurisdiction code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>JURIS_DSCR</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Office jurisdiction description</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DIST_NO</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFF_S_H_CD</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Office is sought or held code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_NAME</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Ballot measure name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_NUM</code></td>
-            <td>String (up to 7)</td>
-            <td>No</td>
-            <td>Ballot measure number or letter.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>BAL_JURIS</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Jurisdiction of ballot measure</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUP_OPP_CD</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Support or opposition code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMT_ATTRIB</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Amount attributed (only if Form_type = &#39;F498-A&#39;)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_CODE</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Memo amount flat</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_REFNO</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Reference text contained in TEXT record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OCCUPATION</code></td>
-            <td>String (up to 60)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SELFEMP_CB</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Self-employed checkbox</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>S498</code></td>
-                <td>S498</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56">56</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``form_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F498-A</code></td>
-                <td>Form 498 (Slate Mailer Late Payment Report): Part A, Late Payments Attributed To</td>
-            </tr>
-        
-            <tr>
-                <td><code>F498-R</code></td>
-                <td>Form 498 (Slate Mailer Late Payment Report): Part R, Late Payments Received From</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56">56</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``entity_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>CAO</code></td>
-                <td>Candidate/officeholder</td>
-            </tr>
-        
-            <tr>
-                <td><code>COM</code></td>
-                <td>Committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>IND</code></td>
-                <td>Individual</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>RCP</code></td>
-                <td>Recipient committee</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p8">8-9</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p9">9-11</a>, <a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56">56</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``office_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>APP</code></td>
-                <td>State Appellate Court Justice</td>
-            </tr>
-        
-            <tr>
-                <td><code>ASM</code></td>
-                <td>State Assembly Person</td>
-            </tr>
-        
-            <tr>
-                <td><code>ASR</code></td>
-                <td>Assessor</td>
-            </tr>
-        
-            <tr>
-                <td><code>ATT</code></td>
-                <td>Attorney General</td>
-            </tr>
-        
-            <tr>
-                <td><code>BED</code></td>
-                <td>Board of Education</td>
-            </tr>
-        
-            <tr>
-                <td><code>BOE</code></td>
-                <td>Board of Equalization Member</td>
-            </tr>
-        
-            <tr>
-                <td><code>BSU</code></td>
-                <td>Board of Supervisors</td>
-            </tr>
-        
-            <tr>
-                <td><code>CAT</code></td>
-                <td>City Attorney</td>
-            </tr>
-        
-            <tr>
-                <td><code>CCB</code></td>
-                <td>Community College Board</td>
-            </tr>
-        
-            <tr>
-                <td><code>CCM</code></td>
-                <td>City Council Member</td>
-            </tr>
-        
-            <tr>
-                <td><code>CON</code></td>
-                <td>State Controller</td>
-            </tr>
-        
-            <tr>
-                <td><code>COU</code></td>
-                <td>County Counsel</td>
-            </tr>
-        
-            <tr>
-                <td><code>CSU</code></td>
-                <td>County Supervisor</td>
-            </tr>
-        
-            <tr>
-                <td><code>CTR</code></td>
-                <td>Local Controller</td>
-            </tr>
-        
-            <tr>
-                <td><code>DAT</code></td>
-                <td>District Attorney</td>
-            </tr>
-        
-            <tr>
-                <td><code>GOV</code></td>
-                <td>Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>INS</code></td>
-                <td>Insurance Commissioner</td>
-            </tr>
-        
-            <tr>
-                <td><code>LTG</code></td>
-                <td>Lieutenant Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>MAY</code></td>
-                <td>Mayor</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>PDR</code></td>
-                <td>Public Defender</td>
-            </tr>
-        
-            <tr>
-                <td><code>PER</code></td>
-                <td>Public Employees Retirement System</td>
-            </tr>
-        
-            <tr>
-                <td><code>PLN</code></td>
-                <td>Planning Commissioner</td>
-            </tr>
-        
-            <tr>
-                <td><code>SCJ</code></td>
-                <td>Superior Court Judge</td>
-            </tr>
-        
-            <tr>
-                <td><code>SEN</code></td>
-                <td>State Senator</td>
-            </tr>
-        
-            <tr>
-                <td><code>SHC</code></td>
-                <td>Sheriff-Coroner</td>
-            </tr>
-        
-            <tr>
-                <td><code>SOS</code></td>
-                <td>Secretary of State</td>
-            </tr>
-        
-            <tr>
-                <td><code>SPM</code></td>
-                <td>Supreme Court Justice</td>
-            </tr>
-        
-            <tr>
-                <td><code>SUP</code></td>
-                <td>Superintendent of Public Instruction</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRE</code></td>
-                <td>State Treasurer</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRS</code></td>
-                <td>Local Treasurer</td>
-            </tr>
-        
-            <tr>
-                <td><code>gov</code></td>
-                <td>Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>oth</code></td>
-                <td>Other</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p10">10</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p12">12</a>),  .CAL Version 2.01 Errata (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712032-Cal-Errata-201.html#document/p2">2</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``juris_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>ASM</code></td>
-                <td>Assembly District</td>
-            </tr>
-        
-            <tr>
-                <td><code>BOE</code></td>
-                <td>Board of Equalization District</td>
-            </tr>
-        
-            <tr>
-                <td><code>CIT</code></td>
-                <td>City</td>
-            </tr>
-        
-            <tr>
-                <td><code>CTY</code></td>
-                <td>County</td>
-            </tr>
-        
-            <tr>
-                <td><code>LOC</code></td>
-                <td>Local</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>SEN</code></td>
-                <td>Senate District</td>
-            </tr>
-        
-            <tr>
-                <td><code>STW</code></td>
-                <td>Statewide</td>
-            </tr>
-        
-            <tr>
-                <td><code>GOV</code></td>
-                <td>Statewide</td>
-            </tr>
-        
-            <tr>
-                <td><code>COU</code></td>
-                <td>County</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p57">57</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``off_s_h_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>H</code></td>
-                <td>HELD</td>
-            </tr>
-        
-            <tr>
-                <td><code>S</code></td>
-                <td>SOUGHT</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p44">44</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p57">57</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``sup_opp_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>O</code></td>
-                <td>OPPOSITION</td>
-            </tr>
-        
-            <tr>
-                <td><code>S</code></td>
-                <td>SUPPORT</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43">43</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p57">57</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* .CAL Format Layout (Version 1.05.02) (`43-44 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p43>`_)
-
-* .CAL Format Layout (Version 2.01) (`56-57 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p56>`_)
-
-* CAL-ACCESS Tables, Columns and Indexes (`12 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p12>`_, `127-129 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p127>`_)
-
-* Map from .CAL Format to Database Table and Fields (`83-85 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p83>`_)
-
-
-
-
-
-
-------------
-
-*********************
-CVR_F470_CD
-*********************
-
-Cover page information for Officeholder and Candidate Short and Supplement Forms
-(Form 470)
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist-it.appspot.com/github/california-civic-data-coalition/django-calaccess-raw-data/blob/master/example/test-data/tsv/CVR_F470_CD.TSV?slice=0:10"></script>
-
-
-Forms
-=====
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        
-        <tr>
-            <td>
-                <a href="../filingforms/campaign_forms.html#form-470">Form 470</a>:
-                Officeholder and Candidate Campaign Statement, Short Form
-            </td>
-        </tr>
-        
-        
-    </tbody>
-    </table>
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILING_ID</code></td>
-        
-            <td><code>AMEND_ID</code></td>
-        
-            <td><code>REC_TYPE</code></td>
-        
-            <td><code>FORM_TYPE</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>AMEND_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Amendment Identification number. A number of 0 is an original filing and 1 to 999 amendments.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_ADR1</code></td>
-            <td>String (up to 55)</td>
-            <td>No</td>
-            <td>First line of the filer&#39;s street address.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_ADR2</code></td>
-            <td>String (up to 55)</td>
-            <td>No</td>
-            <td>Second line of the filer&#39;s street address. </td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Candidate/Officeholder&#39;s City.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_EMAIL</code></td>
-            <td>String (up to 60)</td>
-            <td>No</td>
-            <td>Candidate/Officeholder&#39;s EMail address. Not required by the form.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_FAX</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Candidate/Officeholder&#39;s FAX Phone Number. Not required by the form.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_PHON</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Candidate/Officeholder&#39;s phone number.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Filer&#39;s State</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CAND_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Filer&#39;s zipcode</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DATE_1000</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date contributions totaling $1,000 or more. (For the 470-S)</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DIST_NO</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>District number for the office being sought. Populated for Senate, Assembly, or Board of Equalization races.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ELECT_DATE</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date of the general election. Required for filings in even years.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>The filer&#39;s entity code. The value of this column will always be Candidate/Office Holder (CAO) for this table.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_ID</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>Filer&#39;s unique identification number.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Filer&#39;s First Name(s) - required for individuals</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Filer&#39;s Last Name/Committee name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Filer&#39;s Name Suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>The filer&#39;s prefix or title that preceeds their name if they are an individual.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Unique filing identification number.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FORM_TYPE</code></td>
-            <td>String (up to 4)</td>
-            <td>Yes</td>
-            <td>Type of Filing or Formset. The value of this column will always be equal to F470.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>JURIS_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Office Jurisdiction Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>JURIS_DSCR</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Office jurisdiction description text reqired if the jurisdiction code (Juris_cd) is equal to CIT, CTY, LOC, or OTH.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFF_S_H_CD</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Office Sought/Held code. Legal values are &quot;S&quot; for sought and &quot;H&quot; for held.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFFIC_DSCR</code></td>
-            <td>String (up to 40)</td>
-            <td>No</td>
-            <td>Office sought description used if the office code is other (OTH).</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OFFICE_CD</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Code that identifies the office being sought. See the CAL document for a list of valid codes.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REC_TYPE</code></td>
-            <td>String (up to 3)</td>
-            <td>Yes</td>
-            <td>Type of CAL record. This column will always contain CVR.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REPORT_NUM</code></td>
-            <td>String (up to 3)</td>
-            <td>No</td>
-            <td>Report Number; 000 Original; 001-999 Amended as reported in the filing.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>RPT_DATE</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date this report is filed as reported by the filer.</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``entity_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>CAO</code></td>
-                <td>Candidate/officeholder</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``form_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F470</code></td>
-                <td>Form 470: Officeholder and Candidate Campaign Statement, Short Form</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``juris_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>ASM</code></td>
-                <td>Assembly District</td>
-            </tr>
-        
-            <tr>
-                <td><code>BOE</code></td>
-                <td>Board of Equalization District</td>
-            </tr>
-        
-            <tr>
-                <td><code>CIT</code></td>
-                <td>City</td>
-            </tr>
-        
-            <tr>
-                <td><code>CTY</code></td>
-                <td>County</td>
-            </tr>
-        
-            <tr>
-                <td><code>LOC</code></td>
-                <td>Local</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>SEN</code></td>
-                <td>Senate District</td>
-            </tr>
-        
-            <tr>
-                <td><code>STW</code></td>
-                <td>Statewide</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``off_s_h_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>H</code></td>
-                <td>HELD</td>
-            </tr>
-        
-            <tr>
-                <td><code>S</code></td>
-                <td>SOUGHT</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p30">30</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``office_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>APP</code></td>
-                <td>State Appellate Court Justice</td>
-            </tr>
-        
-            <tr>
-                <td><code>ASM</code></td>
-                <td>State Assembly Person</td>
-            </tr>
-        
-            <tr>
-                <td><code>ASR</code></td>
-                <td>Assessor</td>
-            </tr>
-        
-            <tr>
-                <td><code>ATT</code></td>
-                <td>Attorney General</td>
-            </tr>
-        
-            <tr>
-                <td><code>BED</code></td>
-                <td>Board of Education</td>
-            </tr>
-        
-            <tr>
-                <td><code>BOE</code></td>
-                <td>Board of Equalization Member</td>
-            </tr>
-        
-            <tr>
-                <td><code>BSU</code></td>
-                <td>Board of Supervisors</td>
-            </tr>
-        
-            <tr>
-                <td><code>CAT</code></td>
-                <td>City Attorney</td>
-            </tr>
-        
-            <tr>
-                <td><code>CCB</code></td>
-                <td>Community College Board</td>
-            </tr>
-        
-            <tr>
-                <td><code>CCM</code></td>
-                <td>City Council Member</td>
-            </tr>
-        
-            <tr>
-                <td><code>CON</code></td>
-                <td>State Controller</td>
-            </tr>
-        
-            <tr>
-                <td><code>COU</code></td>
-                <td>County Counsel</td>
-            </tr>
-        
-            <tr>
-                <td><code>CSU</code></td>
-                <td>County Supervisor</td>
-            </tr>
-        
-            <tr>
-                <td><code>CTR</code></td>
-                <td>Local Controller</td>
-            </tr>
-        
-            <tr>
-                <td><code>DAT</code></td>
-                <td>District Attorney</td>
-            </tr>
-        
-            <tr>
-                <td><code>GOV</code></td>
-                <td>Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>INS</code></td>
-                <td>Insurance Commissioner</td>
-            </tr>
-        
-            <tr>
-                <td><code>LTG</code></td>
-                <td>Lieutenant Governor</td>
-            </tr>
-        
-            <tr>
-                <td><code>MAY</code></td>
-                <td>Mayor</td>
-            </tr>
-        
-            <tr>
-                <td><code>OTH</code></td>
-                <td>Other</td>
-            </tr>
-        
-            <tr>
-                <td><code>PDR</code></td>
-                <td>Public Defender</td>
-            </tr>
-        
-            <tr>
-                <td><code>PER</code></td>
-                <td>Public Employees Retirement System</td>
-            </tr>
-        
-            <tr>
-                <td><code>PLN</code></td>
-                <td>Planning Commissioner</td>
-            </tr>
-        
-            <tr>
-                <td><code>SCJ</code></td>
-                <td>Superior Court Judge</td>
-            </tr>
-        
-            <tr>
-                <td><code>SEN</code></td>
-                <td>State Senator</td>
-            </tr>
-        
-            <tr>
-                <td><code>SHC</code></td>
-                <td>Sheriff-Coroner</td>
-            </tr>
-        
-            <tr>
-                <td><code>SOS</code></td>
-                <td>Secretary of State</td>
-            </tr>
-        
-            <tr>
-                <td><code>SPM</code></td>
-                <td>Supreme Court Justice</td>
-            </tr>
-        
-            <tr>
-                <td><code>SUP</code></td>
-                <td>Superintendent of Public Instruction</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRE</code></td>
-                <td>State Treasurer</td>
-            </tr>
-        
-            <tr>
-                <td><code>TRS</code></td>
-                <td>Local Treasurer</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>CVR</code></td>
-                <td>Cover Page</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22">22</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29">29</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* .CAL Format Layout (Version 2.01) (`29-30 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p29>`_)
-
-* Map from .CAL Format to Database Table and Fields (`15-16 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p15>`_)
-
-* .CAL Format Layout (Version 1.05.02) (`22 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p22>`_)
-
-* CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `30-32 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p30>`_)
 
 
 

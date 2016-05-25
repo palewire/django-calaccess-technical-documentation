@@ -1,5 +1,6 @@
 .. This document was generated programmatically via the createcalaccessrawformdocs command. Any edits you make to this file will be overwritten the next time that command is called. Changes to this doc should instead be made either in the campaign_forms.rst file in ./src/toolbox/templates/ or in the commands internal logic.
 
+===============================
 Campaign forms
 ===============================
 
@@ -14,14 +15,14 @@ You can read more about these forms and the disclosure requirements in the `Camp
 ------------
 
 Form 400
-~~~~~~~~~~~~~
+---------------
 
 Statement of Organization (Slate Mailer Organization)
 
 Form 400 must be filed within 10 days after the slate mailer organization receives, or is promised to receive, $500 or more for producing one or more slate mailers.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, Slate Mailer Organization Information (`p. 2 <https://www.documentcloud.org/documents/2781370-400-2016-01.html#document/p2>`_)
 
@@ -41,9 +42,77 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-so-cd">
+                    CVR_SO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr2-so-cd">
+                    CVR2_SO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -67,37 +136,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 400 filings are written to the following tables:
-
-* `CvrSoCd <../dbtables/campaign_tables.html#cvr-so-cd>`_
-
-* `Cvr2SoCd <../dbtables/campaign_tables.html#cvr2-so-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 401
-~~~~~~~~~~~~~
+---------------
 
 Slate Mailer Organization Campaign Statement
 
 Form 401 is filed by slate mailer organizations to disclose payments made and received in connection with producing slate mailers.
 
 Sections
-^^^^^^^^
+````````
 
 * Cover Page (`p. 3-4 <https://www.documentcloud.org/documents/2781366-401-2005-01.html#document/p3>`_)
 
@@ -120,9 +170,101 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#rcpt-cd">
+                    RCPT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#s401-cd">
+                    S401_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -146,43 +288,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 401 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `S401Cd <../dbtables/campaign_tables.html#s401-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 402
-~~~~~~~~~~~~~
+---------------
 
 Statement of Termination (Slate Mailer Organization)
 
 Form 402 is filed by slate mailer organizations to terminate the organization.
 
 Sections
-^^^^^^^^
+````````
 
 * Cover Page (`p. 2 <https://www.documentcloud.org/documents/2781369-402-2005-01.html#document/p2>`_)
 
@@ -193,9 +310,69 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-so-cd">
+                    CVR_SO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -219,28 +396,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 402 filings are written to the following tables:
-
-* `CvrSoCd <../dbtables/campaign_tables.html#cvr-so-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 405
-~~~~~~~~~~~~~
+---------------
 
 Amendment to Campaign Disclosure Statement
 
@@ -248,9 +408,45 @@ Form 405 must be used to amend campaign disclosure statements,except for Stateme
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -274,29 +470,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 405 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-
-
-
 
 ------------
 
 Form 410
-~~~~~~~~~~~~~
+---------------
 
 Statement of Organization Recipient Committee
 
 Form 410 must be filed within 10 days of receiving $2,000 in contributions. If the committee has not yet reached the $2,000 threshold, the not yet qualified box should be checked.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, Committee Information (`p. 2 <https://www.documentcloud.org/documents/2781368-410-2016-01.html#document/p2>`_)
 
@@ -313,9 +498,85 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-so-cd">
+                    CVR_SO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr2-so-cd">
+                    CVR2_SO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -339,39 +600,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 410 filings are written to the following tables:
-
-* `CvrSoCd <../dbtables/campaign_tables.html#cvr-so-cd>`_
-
-* `Cvr2SoCd <../dbtables/campaign_tables.html#cvr2-so-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 425
-~~~~~~~~~~~~~
+---------------
 
 Semi-Annual Statement of no Activity
 
 Form 425 is filed by recipient committees that have not received any contributions and have not made any expenditures during the six-month period covered by a semi-annual statement.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, Committee Information (`p. 1 <https://www.documentcloud.org/documents/2781365-425-2001-01.html#document/p1>`_)
 
@@ -385,9 +625,85 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd">
+                    CVR2_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -411,39 +727,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 425 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `Cvr2CampaignDisclosureCd <../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 450
-~~~~~~~~~~~~~
+---------------
 
 Recipient Committee Campaign Disclosure Statement - Short Form
 
 Form 450 is filed by recipient committees that meet certain specific criteria listed in the Form 450.
 
 Sections
-^^^^^^^^
+````````
 
 * Type of Recipient Committee (`p. 3 <https://www.documentcloud.org/documents/2781364-450-2016-01.html#document/p3>`_)
 
@@ -469,9 +764,117 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd">
+                    CVR2_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#expn-cd">
+                    EXPN_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#f495p2-cd">
+                    F495P2_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#splt-cd">
+                    SPLT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -495,47 +898,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 450 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `Cvr2CampaignDisclosureCd <../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
-
-* `F495P2Cd <../dbtables/campaign_tables.html#f495p2-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `SpltCd <../dbtables/common_tables.html#splt-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 460
-~~~~~~~~~~~~~
+---------------
 
 Recipient Committee Campaign Statement
 
 Form 460 is filed by recipient committees to report expenditures and contributions. It can be used to file a pre-election statement, semi-annual statement, quarterly statement, termination statement, special odd-year report, or an amendment to a previously filed statement.
 
 Sections
-^^^^^^^^
+````````
 
 * Cover Page (`p. 3-4 <https://www.documentcloud.org/documents/2781363-460-2016-01.html#document/p3>`_)
 
@@ -594,9 +968,141 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd">
+                    CVR2_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#debt-cd">
+                    DEBT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#expn-cd">
+                    EXPN_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#loan-cd">
+                    LOAN_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#rcpt-cd">
+                    RCPT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#f495p2-cd">
+                    F495P2_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#splt-cd">
+                    SPLT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -620,53 +1126,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 460 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `Cvr2CampaignDisclosureCd <../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd>`_
-
-* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `LoanCd <../dbtables/campaign_tables.html#loan-cd>`_
-
-* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
-
-* `F495P2Cd <../dbtables/campaign_tables.html#f495p2-cd>`_
-
-* `DebtCd <../dbtables/campaign_tables.html#debt-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `SpltCd <../dbtables/common_tables.html#splt-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 461
-~~~~~~~~~~~~~
+---------------
 
 Independent Expenditure Committee & Major Donor Committee Campaign Statement
 
 Form 461 is filed by major donors, independent expenditure committees, and multipurpose organizations including nonprofits.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, Name and Address of Filer (`p. 3 <https://www.documentcloud.org/documents/2781361-461-2016-01.html#document/p3>`_)
 
@@ -686,9 +1157,93 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#expn-cd">
+                    EXPN_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -712,41 +1267,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 461 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 465
-~~~~~~~~~~~~~
+---------------
 
 Supplemental Independent Expenditure Report
 
 Form 465 is filed by officeholders, candidates, recipient committees, major donor committees, and independent expenditure committees that make independent expenditures totaling $1,000 or more in a calendar year to support or oppose: a single candidate, a single measure, or the qualification of one single measure. Form 465s are filed in the same period(s) the candidate or committee supported or opposed by the independent expenditure(s) is required to file.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, Committee/Filer Information (`p. 2 <https://www.documentcloud.org/documents/2781358-465-2009-06.html#document/p2>`_)
 
@@ -769,9 +1301,101 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd">
+                    CVR2_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#expn-cd">
+                    EXPN_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -795,36 +1419,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 465 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `Cvr2CampaignDisclosureCd <../dbtables/campaign_tables.html#cvr2-campaign-disclosure-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 470
-~~~~~~~~~~~~~
+---------------
 
 Officeholder and Candidate Campaign Statement, Short Form
 
@@ -832,9 +1431,45 @@ Form 470 is filed by officeholders and candidates who do not have a controlled c
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-f470-cd">
+                    CVR_F470_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -858,22 +1493,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 470 filings are written to the following tables:
-
-* `CvrF470Cd <../dbtables/campaign_tables.html#cvr-f470-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 495
-~~~~~~~~~~~~~
+---------------
 
 Supplemental Pre-Election Campaign Statement
 
@@ -881,9 +1505,37 @@ Form 495 is filed by recipient committees that make contributions totaling $10,0
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -907,27 +1559,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 495 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 496
-~~~~~~~~~~~~~
+---------------
 
 Late Independent Expenditure Report
 
 Form 496 is filed by committees that make independent expenditures whose combined total is $1,000 or more to support or oppose a single candidate for elective office, or a single ballot measure. Form 496 should be filed within 24-hours of making the expenditure during the 90 days immediately preceding the election.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, List Only One Candidate or Ballot Measure (`p. 3 <https://www.documentcloud.org/documents/2781355-496-2016-01.html#document/p3>`_)
 
@@ -941,9 +1584,85 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#rcpt-cd">
+                    RCPT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#s496-cd">
+                    S496_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -967,39 +1686,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 496 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
-
-* `S496Cd <../dbtables/campaign_tables.html#s496-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 497
-~~~~~~~~~~~~~
+---------------
 
 Late Contribution Report
 
 Form 497 is filed by state and local committees making or receiving contribution(s) whose combined total is $1,000 or more in the 90 days before an election, committees reporting contributions of $5,000 or more in connection with a state ballot measure, and state candidates as well as state ballot measure committees that receive $5,000 or more at any time other than a 90-day election cycle.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, Contribution(s) Received (`p. 2 <https://www.documentcloud.org/documents/2781353-497-2016-01.html#document/p2>`_)
 
@@ -1010,9 +1708,77 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#s497-cd">
+                    S497_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -1036,37 +1802,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 497 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `S497Cd <../dbtables/campaign_tables.html#s497-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 498
-~~~~~~~~~~~~~
+---------------
 
 Slate Mailer Late Payment Report
 
 Form 498 is filed by a slate mailer organization upon receipt of a late payment.
 
 Sections
-^^^^^^^^
+````````
 
 * Part A, Late Payments Attributed To 
 
@@ -1077,9 +1824,77 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#s498-cd">
+                    S498_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -1103,30 +1918,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 498 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `S498Cd <../dbtables/campaign_tables.html#s498-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 501
-~~~~~~~~~~~~~
+---------------
 
 Candidate Intention Statement
 
@@ -1134,9 +1930,45 @@ Form 501 is filed each election by candidates for state or local office.
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#f501-502-cd">
+                    F501_502_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -1160,22 +1992,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 501 filings are written to the following tables:
-
-* `F501502Cd <../dbtables/campaign_tables.html#f501-502-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 502
-~~~~~~~~~~~~~
+---------------
 
 Campaign Bank Account Statement
 
@@ -1183,17 +2004,41 @@ Form 502 must be filed within 10 days of opening a campaign bank account at a fi
 
 
 
-*No PDF available.*
+Database tables
+```````````````
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#f501-502-cd">
+                    F501_502_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
 
 
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 502 filings are written to the following tables:
-
-* `F501502Cd <../dbtables/campaign_tables.html#f501-502-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -1202,7 +2047,7 @@ Data collected via Form 502 filings are written to the following tables:
 ------------
 
 Form 511
-~~~~~~~~~~~~~
+---------------
 
 Paid Spokesperson Report
 
@@ -1210,9 +2055,53 @@ Form 511 is filed by committees that make expenditures totaling $5,000 or more t
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -1236,24 +2125,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 511 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-
-
-
 
 ------------
 
 Electronic Form 530
-~~~~~~~~~~~~~
+---------------
 
 Electronic Issue Advocacy Report
 
@@ -1261,9 +2137,53 @@ On-line Form E-530 reports must be filed by anyone spending or promising to pay 
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#rcpt-cd">
+                    RCPT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#cvr-e530-cd">
+                    CVR_E530_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -1287,24 +2207,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Electronic Form 530 filings are written to the following tables:
-
-* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `CvrE530Cd <../dbtables/common_tables.html#cvr-e530-cd>`_
-
-
-
-
 
 ------------
 
 Form 900
-~~~~~~~~~~~~~
+---------------
 
 Public employee's retirement board, candidate campaign statement
 
@@ -1312,25 +2219,73 @@ None
 
 
 
-*No PDF available.*
+Database tables
+```````````````
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd">
+                    CVR_CAMPAIGN_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#cvr3-verification-info-cd">
+                    CVR3_VERIFICATION_INFO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#expn-cd">
+                    EXPN_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/campaign_tables.html#rcpt-cd">
+                    RCPT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
 
 
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 900 filings are written to the following tables:
-
-* `CvrCampaignDisclosureCd <../dbtables/campaign_tables.html#cvr-campaign-disclosure-cd>`_
-
-* `RcptCd <../dbtables/campaign_tables.html#rcpt-cd>`_
-
-* `Cvr3VerificationInfoCd <../dbtables/campaign_tables.html#cvr3-verification-info-cd>`_
-
-* `ExpnCd <../dbtables/campaign_tables.html#expn-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
 
 
 

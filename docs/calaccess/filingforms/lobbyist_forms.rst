@@ -1,5 +1,6 @@
 .. This document was generated programmatically via the createcalaccessrawformdocs command. Any edits you make to this file will be overwritten the next time that command is called. Changes to this doc should instead be made either in the lobbyist_forms.rst file in ./src/toolbox/templates/ or in the commands internal logic.
 
+===============================
 Lobbyist forms
 ===============================
 
@@ -14,14 +15,14 @@ You can read more about these forms and the disclosure requirements in the `Lobb
 ------------
 
 Form 601
-~~~~~~~~~~~~~
+---------------
 
 Lobbying Firm Registration Statement
 
 Form 601 is filed on a biennial basis by a lobbying firm of individual contract lobbyist wishing to register or renew an existing registration. The form must be filed within 10 days of qualifying as a lobbying firm. Renewal of existing registration is due between November 1 and December 31 of each even-numbered year. This registration is valid for the complete two-year cycle of such session.
 
 Sections
-^^^^^^^^
+````````
 
 * Individual Lobbyists (`p. 2 <https://www.documentcloud.org/documents/2781348-601-2014-10.html#document/p2>`_)
 
@@ -35,9 +36,93 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-registration-cd">
+                    CVR_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr2-registration-cd">
+                    CVR2_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lobby-amendments-cd">
+                    LOBBY_AMENDMENTS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lemp-cd">
+                    LEMP_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -61,34 +146,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 601 filings are written to the following tables:
-
-* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
-
-* `Cvr2RegistrationCd <../dbtables/lobbying_tables.html#cvr2-registration-cd>`_
-
-* `LobbyAmendmentsCd <../dbtables/lobbying_tables.html#lobby-amendments-cd>`_
-
-* `LempCd <../dbtables/lobbying_tables.html#lemp-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 602
-~~~~~~~~~~~~~
+---------------
 
 Lobbying Firm Activity Authorization
 
@@ -96,9 +158,77 @@ Form 602 is an authorization form filed by each person who employs or contracts 
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-registration-cd">
+                    CVR_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr2-registration-cd">
+                    CVR2_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -122,30 +252,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 602 filings are written to the following tables:
-
-* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
-
-* `Cvr2RegistrationCd <../dbtables/lobbying_tables.html#cvr2-registration-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 603
-~~~~~~~~~~~~~
+---------------
 
 Lobbyist Employer or Lobbying Coalition Registration Statement
 
@@ -153,9 +264,85 @@ Form 603 is a registration statement filed by registered lobbyists employers or 
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-registration-cd">
+                    CVR_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr2-registration-cd">
+                    CVR2_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lobby-amendments-cd">
+                    LOBBY_AMENDMENTS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -179,32 +366,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 603 filings are written to the following tables:
-
-* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
-
-* `Cvr2RegistrationCd <../dbtables/lobbying_tables.html#cvr2-registration-cd>`_
-
-* `LobbyAmendmentsCd <../dbtables/lobbying_tables.html#lobby-amendments-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 604
-~~~~~~~~~~~~~
+---------------
 
 Lobbyist Certification Statement
 
@@ -212,9 +378,69 @@ Form 604 is the certification statement filed by an individual who qualifies as 
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-registration-cd">
+                    CVR_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -238,28 +464,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 604 filings are written to the following tables:
-
-* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 605
-~~~~~~~~~~~~~
+---------------
 
 Amendment to Registration, Lobbying Firm, Lobbyist Employer, Lobbying Coalition
 
@@ -267,9 +476,45 @@ Form 605 is the standard amendment form used to amend any previously-filed regis
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -293,22 +538,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 605 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-
-
-
 
 ------------
 
 Form 606
-~~~~~~~~~~~~~
+---------------
 
 Notice of Termination
 
@@ -316,9 +550,69 @@ Form 606 is filed by any lobbying firm, registered lobbyist employer, lobbying c
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-registration-cd">
+                    CVR_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -342,28 +636,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 606 filings are written to the following tables:
-
-* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 607
-~~~~~~~~~~~~~
+---------------
 
 Notice of Withdrawal
 
@@ -371,9 +648,69 @@ Form 607 is filed by a lobbying firm or lobbyist wishing to withdraw the filed r
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-registration-cd">
+                    CVR_REGISTRATION_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -397,35 +734,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 607 filings are written to the following tables:
-
-* `CvrRegistrationCd <../dbtables/lobbying_tables.html#cvr-registration-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 615
-~~~~~~~~~~~~~
+---------------
 
 Lobbyist Report
 
 Form 615 is the quarterly disclosure statement completed by the in-house lobbyist of a lobbying firm, lobbyist employer, or lobbying coalition. It is not filed on its own, but rather, for paper filers, it is an attachment to either Form 625 (Report of Lobbying Firm) or Form 635 (Report of Lobbyist Employer/Lobbying Coalition) Electronic or online filers file these as separate documents.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, Activity Expenses Paid, Incurred, Arranged or Provided by the Lobbyist (`p. 2-4 <https://www.documentcloud.org/documents/2781341-615-1990.html#document/p2>`_)
 
@@ -436,9 +756,93 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd">
+                    CVR_LOBBY_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#f690p2-cd">
+                    F690P2_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lexp-cd">
+                    LEXP_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lccm-cd">
+                    LCCM_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -462,41 +866,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 615 filings are written to the following tables:
-
-* `CvrLobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd>`_
-
-* `F690P2Cd <../dbtables/lobbying_tables.html#f690p2-cd>`_
-
-* `LexpCd <../dbtables/lobbying_tables.html#lexp-cd>`_
-
-* `LccmCd <../dbtables/lobbying_tables.html#lccm-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 625
-~~~~~~~~~~~~~
+---------------
 
 Report of Lobbying Firm
 
 Form 625 is the quarterly disclosure statement filed by a lobbying firm (including individual contract lobbyists) each calendar quarter. If the firm employs one or more in-house lobbyists, then, for paper filers, a separate Form 615 (Lobbyist Report) must be attached for each lobbyist. Electronic or online filers file these as separate documents.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1, Partners, Owners, Officers, and Employees (`p. 2 <https://www.documentcloud.org/documents/2781340-625-1990.html#document/p2>`_)
 
@@ -519,9 +900,125 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd">
+                    CVR_LOBBY_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr2-lobby-disclosure-cd">
+                    CVR2_LOBBY_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#f690p2-cd">
+                    F690P2_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lexp-cd">
+                    LEXP_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lccm-cd">
+                    LCCM_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#loth-cd">
+                    LOTH_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lpay-cd">
+                    LPAY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -545,42 +1042,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 625 filings are written to the following tables:
-
-* `CvrLobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd>`_
-
-* `Cvr2LobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr2-lobby-disclosure-cd>`_
-
-* `F690P2Cd <../dbtables/lobbying_tables.html#f690p2-cd>`_
-
-* `LexpCd <../dbtables/lobbying_tables.html#lexp-cd>`_
-
-* `LccmCd <../dbtables/lobbying_tables.html#lccm-cd>`_
-
-* `LothCd <../dbtables/lobbying_tables.html#loth-cd>`_
-
-* `LpayCd <../dbtables/lobbying_tables.html#lpay-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Schedule 630
-~~~~~~~~~~~~~
+---------------
 
 Payments Made to Lobbying Coalitions (Attachment to Form 625 or 635) 
 
@@ -588,9 +1054,53 @@ An attachment to the quarterly disclosure report filed by a lobbying firm or lob
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#latt-cd">
+                    LATT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -614,31 +1124,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Schedule 630 filings are written to the following tables:
-
-* `LattCd <../dbtables/lobbying_tables.html#latt-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-
-
-
 
 ------------
 
 Form 635
-~~~~~~~~~~~~~
+---------------
 
 Report of Lobbyist Employer or Report of Lobbying Coalition
 
 Form 635 is the quarterly disclosure statement filed by a lobbyist employer or a lobbying coalition. For employers and lobbying coalitions filing on paper, a separate Form 615 must be completed for each in house lobbyist and attached to Form 635. Electronic or online filers file these as separate documents. This form is also used as a quarterly disclosure statement for a client of a firm which has no in-house lobbyist (also referred to as a non-registered employer).
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1: Legislative or State Agency Administrative Actions Actively Lobbied During the Period (`p. 2 <https://www.documentcloud.org/documents/2781339-635-1993.html#document/p2>`_)
 
@@ -667,9 +1164,117 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd">
+                    CVR_LOBBY_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr2-lobby-disclosure-cd">
+                    CVR2_LOBBY_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#f690p2-cd">
+                    F690P2_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lexp-cd">
+                    LEXP_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lccm-cd">
+                    LCCM_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lpay-cd">
+                    LPAY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -693,40 +1298,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 635 filings are written to the following tables:
-
-* `CvrLobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd>`_
-
-* `Cvr2LobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr2-lobby-disclosure-cd>`_
-
-* `F690P2Cd <../dbtables/lobbying_tables.html#f690p2-cd>`_
-
-* `LexpCd <../dbtables/lobbying_tables.html#lexp-cd>`_
-
-* `LccmCd <../dbtables/lobbying_tables.html#lccm-cd>`_
-
-* `LpayCd <../dbtables/lobbying_tables.html#lpay-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Schedule 635C
-~~~~~~~~~~~~~
+---------------
 
 Payments Received by Lobbying Coalitions
 
@@ -734,9 +1310,53 @@ Form 635-C is filed by a lobbying coalition as an attachment to the Form 635 (Re
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#latt-cd">
+                    LATT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -760,24 +1380,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Schedule 635C filings are written to the following tables:
-
-* `LattCd <../dbtables/lobbying_tables.html#latt-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-
-
-
 
 ------------
 
 Schedule 640
-~~~~~~~~~~~~~
+---------------
 
 Governmental Agencies Reporting (Attachment to Form 635 or Form 645)
 
@@ -785,9 +1392,61 @@ Form 640 is filed by a state or local governmental agency which qualifies as a l
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#latt-cd">
+                    LATT_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -811,33 +1470,18 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Schedule 640 filings are written to the following tables:
-
-* `LattCd <../dbtables/lobbying_tables.html#latt-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-
-
-
 
 ------------
 
 Form 645
-~~~~~~~~~~~~~
+---------------
 
 Report of Person Spending $5,000 or More
 
 Form 645 is the quarterly disclosure document filed by a $5,000 filer (person who does not employ a lobbyist or contract with a lobbying firm, but who makes payments to influence legislative or administrative action in aggregation of $5,000 or more in any calendar quarter). The filer does not submit a registration or termination statement, and is only required to file Form 645 in those calendar quarters which $5,000 or more is spent to influence legislative or administrative action. Form 645 must be filed electronically.
 
 Sections
-^^^^^^^^
+````````
 
 * Part 1: Legislative or State Agency Administrative Actions Actively Lobbied during the Period (`p. 2 <https://www.documentcloud.org/documents/2781336-645-1993.html#document/p2>`_)
 
@@ -857,9 +1501,101 @@ Sections
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd">
+                    CVR_LOBBY_DISCLOSURE_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#f690p2-cd">
+                    F690P2_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lexp-cd">
+                    LEXP_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/lobbying_tables.html#lccm-cd">
+                    LCCM_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#smry-cd">
+                    SMRY_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#text-memo-cd">
+                    TEXT_MEMO_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
+                <a href="../dbtables/other_tables.html#received-filings-cd">
+                    RECEIVED_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -883,36 +1619,11 @@ Example Form
 
 
 
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 645 filings are written to the following tables:
-
-* `CvrLobbyDisclosureCd <../dbtables/lobbying_tables.html#cvr-lobby-disclosure-cd>`_
-
-* `F690P2Cd <../dbtables/lobbying_tables.html#f690p2-cd>`_
-
-* `LexpCd <../dbtables/lobbying_tables.html#lexp-cd>`_
-
-* `LccmCd <../dbtables/lobbying_tables.html#lccm-cd>`_
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
-
-* `SmryCd <../dbtables/common_tables.html#smry-cd>`_
-
-* `TextMemoCd <../dbtables/common_tables.html#text-memo-cd>`_
-
-* `EfsFilingLogCd <../dbtables/other_tables.html#efs-filing-log-cd>`_
-
-* `ReceivedFilingsCd <../dbtables/other_tables.html#received-filings-cd>`_
-
-
-
-
 
 ------------
 
 Form 690
-~~~~~~~~~~~~~
+---------------
 
 Amendment to Lobbying Disclosure Report
 
@@ -920,9 +1631,37 @@ Form 690 is filed by a lobbying firm, lobbyist employer, lobbying coalition, $5,
 
 
 
-Example Form
-^^^^^^^^^^^^
+Database tables
+```````````````
 
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+Sample
+``````
 
 .. raw:: html
 
@@ -942,15 +1681,6 @@ Example Form
       <br />
       <a href=https://assets.documentcloud.org/documents/2781335/690-1990.txt>690-1990 (Text)</a>
     </noscript>
-
-
-
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 690 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 

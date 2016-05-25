@@ -1,5 +1,6 @@
 .. This document was generated programmatically via the createcalaccessrawformdocs command. Any edits you make to this file will be overwritten the next time that command is called. Changes to this doc should instead be made either in the deprecated_forms.rst file in ./src/toolbox/templates/ or in the commands internal logic.
 
+===============================
 Deprecated forms
 ===============================
 
@@ -12,7 +13,7 @@ Some of the data in CAL-ACCESS was collected on these 6 filing forms that have s
 ------------
 
 Form 415
-~~~~~~~~~~~~~
+---------------
 
 Title Unknown
 
@@ -20,15 +21,33 @@ Form 415 was deprecated in or around 2001. The information previously reported o
 
 
 
-*No PDF available.*
+Database tables
+```````````````
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
 
 
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 415 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -37,7 +56,7 @@ Data collected via Form 415 filings are written to the following tables:
 ------------
 
 Form 416
-~~~~~~~~~~~~~
+---------------
 
 Title Unknown
 
@@ -45,15 +64,33 @@ Form 416 was deprecated in or around 2001. The information previously reported o
 
 
 
-*No PDF available.*
+Database tables
+```````````````
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
 
 
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 416 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -62,7 +99,7 @@ Data collected via Form 416 filings are written to the following tables:
 ------------
 
 Form 419
-~~~~~~~~~~~~~
+---------------
 
 Ballot Measure Committee Campaign Statement-Long Form
 
@@ -70,15 +107,33 @@ Form 419 was replaced by Form 460 (Recipient Committee Campaign Statement) in or
 
 
 
-*No PDF available.*
+Database tables
+```````````````
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
 
 
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 419 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -87,7 +142,7 @@ Data collected via Form 419 filings are written to the following tables:
 ------------
 
 Form 420
-~~~~~~~~~~~~~
+---------------
 
 Recipient Committee Campaign Statement-Long Form
 
@@ -95,15 +150,33 @@ Form 420 was replaced by Form 460 (Recipient Committee Campaign Statement) in or
 
 
 
-*No PDF available.*
+Database tables
+```````````````
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
 
 
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 420 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -112,7 +185,7 @@ Data collected via Form 420 filings are written to the following tables:
 ------------
 
 Form 430
-~~~~~~~~~~~~~
+---------------
 
 Title Unknown
 
@@ -120,15 +193,33 @@ Form 430 was deprecated in or around 1980. The information previously reported o
 
 
 
-*No PDF available.*
+Database tables
+```````````````
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
 
 
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 430 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 
@@ -137,7 +228,7 @@ Data collected via Form 430 filings are written to the following tables:
 ------------
 
 Form 490
-~~~~~~~~~~~~~
+---------------
 
 Officeholder/Candidate Campaign Statement-Long Form
 
@@ -145,15 +236,33 @@ Form 490 was replaced by Form 460 (Recipient Committee Campaign Statement) in or
 
 
 
-*No PDF available.*
+Database tables
+```````````````
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+        <tr>
+            <td>
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
+                </a>
+            </td>
+        </tr>
+    
+    </tbody>
+    </table>
+    </div>
 
 
-
-Database Tables
-^^^^^^^^^^^^^^^
-Data collected via Form 490 filings are written to the following tables:
-
-* `FilerFilingsCd <../dbtables/common_tables.html#filer-filings-cd>`_
 
 
 

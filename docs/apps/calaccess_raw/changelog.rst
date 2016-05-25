@@ -13,13 +13,13 @@ Changelog
 
 * Raw data file archiving
 
-  * Added ``CALACCESS_STORE_ARCHIVE`` setting. When enabled, management commands will save each version of the downloaded .zip file, the extracted .TSV files and cleaned .csv files to the Django project's ``MEDIA_ROOT``.
+  * Added ``CALACCESS_STORE_ARCHIVE`` setting. When enabled, management commands will save each version of the downloaded .zip file, the extracted .tsv files and cleaned .csv files to the Django project's ``MEDIA_ROOT``.
   * Added FileFields to RawDataVersion and RawDataFile in order to link the database records with the archived files they reference.
 
 * Completed documentation of all 80 raw data models and 1,467 fields
 
   * Defined hundreds of choices for 80 look-up fields.
-  * Published expanded `Django CAL-ACCESS Project Documentation <>`_. Added re-directs from old app-specific documentation.
+  * Published expanded Django project documentation. Added re-directs from old app-specific documentation.
   * Integrated references to official documents and filing forms into data models. PDFs on DocumentCloud.
 
 * Expanded unit testing of data model documentation

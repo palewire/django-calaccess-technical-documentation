@@ -5,7 +5,7 @@ Deprecated forms
 ===============================
 
  
-Some of the data in this :doc:`CAL-ACCESS database </calaccess/dbtables>` was collected on these 6
+Some of the data in this :doc:`CAL-ACCESS database </calaccess/dbtables>` were collected on these 6
 filing forms that have since been deprecated by the California Fair Political Practices Commission (FPPC).
 
 No information about these forms is available on either the `FPPC's website <http://www.fppc.ca.gov/forms.html>`_ or the

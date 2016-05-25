@@ -4,7 +4,7 @@ Changelog
 1.0.0 (May 2016)
 ----------------
 
-* Enhanced resume behavior"
+* Enhanced resume behavior
   
   * Allow previously interrupted updates to resume at any stage of the process: downloading, cleaning or loading.
   * Users will be prompted to resume (if possible). User may decline and re-start the entire update.

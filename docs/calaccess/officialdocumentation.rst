@@ -1,9 +1,15 @@
-Official state documentation
-============================
+======================
+Official documentation
+======================
 
 The California Secretary of State `has published <http://www.sos.ca.gov/prd/cal-access/>`_ the following documents related to CAL-ACCESS. You'll also find these .PDF files in various sub-directories of the database export .ZIP file.
 
 Generally speaking, much of this documentation is incomplete, inconsistent and outdated. While it won't serve as an authoritative guide to CAL-ACCESS data, it does provide helpful details for parsing and piecing together the data.
+
+.. note::
+
+    Our team has compiled more comprehensive documentation of the system's :doc:`forms </calaccess/filingforms>`
+    and :doc:`database tables </calaccess/dbtables>`.
 
 Much of what ends up in CAL-ACCESS is submitted in an electronic file format known as .CAL, which is specifically designed to interface with CAL-ACCESS. These .CAL specifications, along with the required campaign and lobbyist disclosure forms, are also helpful in understanding the lifecycle of information flowing into CAL-ACCESS.
 

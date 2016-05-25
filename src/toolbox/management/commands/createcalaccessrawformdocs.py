@@ -32,7 +32,7 @@ class Command(BaseCommand):
         group_dict = {}
 
         for form in all_filing_forms:
-            if options['refresh-dc-data'] and form.documentcloud:
+            if options['refresh-dc-cache'] and form.documentcloud:
                 form.documentcloud._cache_metadata()
             try:
                 group_dict[form.group.lower()].append(form)

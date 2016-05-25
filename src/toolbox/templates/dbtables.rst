@@ -1,4 +1,5 @@
 {% extends "base.rst" %}
+
 {% block content %}
 ================================
 {{ group_name|capfirst }} tables

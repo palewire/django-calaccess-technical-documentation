@@ -5,7 +5,10 @@ Other tables
 ================================
 
 
-The CAL-ACCESS database contains 23 tables not categorized anywhere in the `official documentation <calaccess/officialdocumentation.html>`_ as being specific to campaign finance filings, specific to lobbyist disclosure or common to both domains. These tables are outlined below.
+The CAL-ACCESS database contains 23 tables not categorized
+anywhere in the `official documentation <calaccess/officialdocumentation.html>`_ as
+being specific to campaign finance filings, specific to lobbyist disclosure or common
+to both domains.
 
 
 

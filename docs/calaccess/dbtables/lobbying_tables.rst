@@ -5,7 +5,9 @@ Lobbying tables
 ================================
 
 
-The CAL-ACCESS database contains 32 tables that, according to the official documentation (see `here <https://www.documentcloud.org/documents/2711617-ReadMe-Zip/pages/1.html>`_ and `here <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields/pages/4.html>`_), store information specific to lobbying disclosure filings. These tables are outlined below.
+The CAL-ACCESS database contains 32 tables that, according to
+the :doc:`official documentation </calaccess/officialdocumentation>`,
+store information specific to lobbying disclosure filings.
 
 
 

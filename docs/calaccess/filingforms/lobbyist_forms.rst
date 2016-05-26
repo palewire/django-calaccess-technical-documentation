@@ -968,16 +968,16 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/lobbying_tables.html#loth-cd">
-                    LOTH_CD
+                <a href="../dbtables/lobbying_tables.html#lpay-cd">
+                    LPAY_CD
                 </a>
             </td>
         </tr>
     
         <tr>
             <td>
-                <a href="../dbtables/lobbying_tables.html#lpay-cd">
-                    LPAY_CD
+                <a href="../dbtables/lobbying_tables.html#loth-cd">
+                    LOTH_CD
                 </a>
             </td>
         </tr>

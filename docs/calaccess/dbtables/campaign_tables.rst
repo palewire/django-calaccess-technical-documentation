@@ -5,7 +5,7 @@ Campaign tables
 ================================
 
 
-The CAL-ACCESS database contains 16 tables that, according to the
+The CAL-ACCESS database contains 17 tables that, according to the
 :doc:`official documentation </calaccess/officialdocumentation>`,
 store information specific to campaign finance disclosure filings.
 
@@ -18588,6 +18588,122 @@ References
 * CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `57-59 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p57>`_)
 
 
+
+
+
+
+------------
+
+*********************
+BALLOT_MEASURES_CD
+*********************
+
+Ballot measure dates and times
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=BALLOT_MEASURES_CD.TSV"></script>
+
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>ELECTION_DATE</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Ballot measure election date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Filer&#39;s unique identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEASURE_NO</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Ballot measure number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEASURE_NAME</code></td>
+            <td>String (up to 163)</td>
+            <td>No</td>
+            <td>Ballot measure full name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>MEASURE_SHORT_NAME</code></td>
+            <td>String (up to 50)</td>
+            <td>No</td>
+            <td>Ballot measure short name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>JURISDICTION</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
 
 
 

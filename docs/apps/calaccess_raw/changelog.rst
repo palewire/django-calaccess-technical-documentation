@@ -31,6 +31,12 @@ Changelog
   * Verify that each model with a form_type or form_id field (with a few exceptions) is linked to filing forms.
   * Introduced ``reportcalaccessrawdata`` command, which generates a report outlining the number / proportion of files / records cleaned and loaded.
 
+* Model Re-modeling:
+
+  * Moved ``BallotMeasuresCd`` from ``other.py`` to ``campaign.py``. Same with admin.
+  * Moved remaining models in ``other.py`` to ``common.py``. Removed ``other.py``. Same with admins.
+  * Re-ordered models into related groups.
+
 * Bug fixes
 
   * Truncate time portions of raw datetime values (see `#1457 <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/1457>`_).

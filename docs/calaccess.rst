@@ -1,14 +1,14 @@
 The CAL-ACCESS database
 =======================
 
-This section includes details about the inner-workings of the CAL-ACCESS,
-the California state government database for collecting, storing and reporting
-campaign-finance and lobbying-activity information.
+`CAL-ACCESS <http://cal-access.ss.ca.gov/>`_ is the jumbled, dirty and difficult government database that tracks campaign finance and lobbying activity
+in California politics.
 
-CAL-ACCESS is maintained by the California Secretary of State. In addition to the
-(clunky and crash-prone) `website <http://dbsearch.ss.ca.gov/>`_ for searching and exploring these data, the Secretary of State also `publishes nightly exports <http://www.sos.ca.gov/campaign-lobbying/cal-access-resourcesraw-data-campaign-finance-and-lobbying-activity/>`_ from the CAL-ACCESS database.
+It is maintained by California's Secretary of State. In addition to the
+`website <http://dbsearch.ss.ca.gov/>`_ for searching and exploring these data,
+a bulk download is `updated nightly <http://www.sos.ca.gov/campaign-lobbying/cal-access-resourcesraw-data-campaign-finance-and-lobbying-activity/>`_.
 
-These exports are the source data of this project.
+That bulk download, documented here, is the source data of this project.
 
 .. toctree::
    :maxdepth: 2

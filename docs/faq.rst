@@ -255,24 +255,12 @@ Here's our one exception: We truncate the time part of any datetime field in the
 ----------------------
 
 
-Why does django-calaccess-raw-data only work with PostgreSQL and MySQL databases?
-------------------------------------------------------------------------------------
-
-Because of the answer above. To run our loading routines in a acceptable amount of time, we
-need to take advantage of bulk file loading tools not currently supported by Django.
-
-So far, we have only written custom loading routines for MySQL and PostgreSQL. We would
-welcome contributions that would expand our database support to other systems, like SQLite
-and Microsoft SQL Server. But we haven't got there yet.
-
-----------------------
-
 Why does django-calaccess-raw-data use loading techniques not supported by Django?
 ----------------------------------------------------------------------------------
 
 Because the CAL-ACCESS database is huge. With more than 35 million records sprawled across 76 tables,
 it can take a long time to load into a database using `the standard Django tools <https://docs.djangoproject.com/es/1.9/topics/db/queries/#creating-objects>`_,
-which insert one record at a time. In our early testing, it ook as long as 24 hours to load all of CAL-ACCESS
+which insert one record at a time. In our early testing, it took as long as 24 hours to load all of CAL-ACCESS
 into a database on a standard laptop computer.
 
 To speed things up, our loading commands take advantage of the built-in bulk loading tools offered by PostgreSQL and MySQL,
@@ -281,6 +269,19 @@ directly into the database in a small fraction of the time it would take to load
 
 As part of developing these tools we released `django-postgres-copy <http://django-postgres-copy.californiacivicdata.org/en/latest/>`_, a Django extension
 that makes it easier for us and other developers to work with these valuable tools.
+
+----------------------
+
+
+Why does django-calaccess-raw-data only work with PostgreSQL and MySQL databases?
+------------------------------------------------------------------------------------
+
+Because of the answer above. To run our loading routines in an acceptable amount of time, we
+need to take advantage of bulk file loading tools not currently supported by Django.
+
+So far, we have only written custom loading routines for MySQL and PostgreSQL. We would
+welcome contributions that would expand our database support to other systems, like SQLite
+and Microsoft SQL Server. But we haven't got there yet.
 
 ----------------------
 

@@ -112,7 +112,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -120,7 +120,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -218,7 +218,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -226,7 +226,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -332,7 +332,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -340,7 +340,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -430,7 +430,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -438,7 +438,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -602,7 +602,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -610,7 +610,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -700,7 +700,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -708,7 +708,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -832,7 +832,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -840,7 +840,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -968,16 +968,16 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/lobbying_tables.html#loth-cd">
-                    LOTH_CD
+                <a href="../dbtables/lobbying_tables.html#lpay-cd">
+                    LPAY_CD
                 </a>
             </td>
         </tr>
     
         <tr>
             <td>
-                <a href="../dbtables/lobbying_tables.html#lpay-cd">
-                    LPAY_CD
+                <a href="../dbtables/lobbying_tables.html#loth-cd">
+                    LOTH_CD
                 </a>
             </td>
         </tr>
@@ -1008,7 +1008,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -1016,7 +1016,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -1264,7 +1264,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -1272,7 +1272,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>
@@ -1585,7 +1585,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#efs-filing-log-cd">
+                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
                     EFS_FILING_LOG_CD
                 </a>
             </td>
@@ -1593,7 +1593,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/other_tables.html#received-filings-cd">
+                <a href="../dbtables/common_tables.html#received-filings-cd">
                     RECEIVED_FILINGS_CD
                 </a>
             </td>

@@ -17,7 +17,8 @@ store information specific to the disclosure of lobbying activity.
 CVR_REGISTRATION_CD
 *********************
 
-Cover page of lobbying disclosure forms (601, 602, 603, 604, 606, and 607)
+Cover page information of lobbying registration (Forms 601, 602, 603, 604,
+606, and 607).
 
 
 Sample
@@ -1242,7 +1243,8 @@ References
 CVR2_REGISTRATION_CD
 *********************
 
-Cover page of lobbying disclosure forms
+Additional names found on lobbying registration (Forms 601, 602, 603, 604,
+606, and 607).
 
 
 Sample
@@ -1608,9 +1610,4647 @@ References
 
 * .CAL Format Layout (Version 1.05.02) (`72-73 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p72>`_)
 
-* CAL-ACCESS Tables, Columns and Indexes (`44-45 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p44>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `44-45 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p44>`_)
 
 
+
+
+
+
+------------
+
+*********************
+LOBBY_AMENDMENTS_CD
+*********************
+
+Lobbyist registration amendment information (Form 605 Part I).
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBY_AMENDMENTS_CD.TSV"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Unique filing identificiation number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMEND_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>REC_TYPE</code></td>
+            <td>String (up to 4)</td>
+            <td>Yes</td>
+            <td>Record Type Value: F605</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 9)</td>
+            <td>Yes</td>
+            <td>Name of the source filing form or schedule</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EXEC_DATE</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Date this amendment executed on</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FROM_DATE</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Reporting period from date of original report</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>THRU_DATE</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Reporting date to/through date of original</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ADD_L_CB</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Add lobbyist checkbox</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ADD_L_EFF</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Add lobbyist effective date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_L_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Add lobbyist last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_L_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Add lobbyist first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_L_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Add lobbyist title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_L_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Add lobbyist suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DEL_L_CB</code></td>
+            <td>String (up to 8)</td>
+            <td>No</td>
+            <td>Delete lobbyist checkbox</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DEL_L_EFF</code></td>
+            <td>String (up to 22)</td>
+            <td>No</td>
+            <td>Delete lobbyist effective date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_L_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Delete lobbyist last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_L_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Delete lobbyist first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_L_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Delete lobbyist title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_L_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Delete lobbyiest suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ADD_LE_CB</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Add lobbyiest employer checkbox</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ADD_LE_EFF</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Add lobbyist employer effective date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_LE_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Add lobbyist employer last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_LE_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Add lobbyist or employer first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_LE_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Add lobbyist employer title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_LE_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Add lobbyist employer suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DEL_LE_CB</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>Delete lobbyist employer check box</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DEL_LE_EFF</code></td>
+            <td>String (up to 22)</td>
+            <td>No</td>
+            <td>Delete lobbyist employer effective date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_LE_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Delete lobbyist employer last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_LE_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Delete lobbyiest employer first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_LE_NAMT</code></td>
+            <td>String (up to 12)</td>
+            <td>No</td>
+            <td>Delete lobbyist employer name title or prefix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_LE_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Delete lobbyist employer name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ADD_LF_CB</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Add lobbying firm checkbox</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ADD_LF_EFF</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Add lobbying firm effective date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>A_LF_NAME</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Add lobbying firm name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DEL_LF_CB</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Delete lobbying firm checkbox</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DEL_LF_EFF</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Delete lobbying firm effective date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>D_LF_NAME</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Delete lobbying firm name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OTHER_CB</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Other amendments checkbox</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OTHER_EFF</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Other amendments effective date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>OTHER_DESC</code></td>
+            <td>String (up to 100)</td>
+            <td>No</td>
+            <td>Description of changes</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>F606_YES</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Lobbyist ceasing all activity</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>F606_NO</code></td>
+            <td>String (up to 1)</td>
+            <td>No</td>
+            <td>Lobbyist ceasing employment but staying active</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``rec_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F605</code></td>
+                <td>F605</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74">74</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88">88</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F601</code></td>
+                <td>Form 601: Lobbying Firm Registration Statement</td>
+            </tr>
+        
+            <tr>
+                <td><code>F603</code></td>
+                <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74">74</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88">88</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* .CAL Format Layout (Version 2.01) (`88-89 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88>`_)
+
+* Map from .CAL Format to Database Table and Fields (`64-66 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p64>`_)
+
+* .CAL Format Layout (Version 1.05.02) (`74 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `90-91 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p90>`_)
+
+
+
+
+
+
+------------
+
+*********************
+LOBBYING_CHG_LOG_CD
+*********************
+
+Holds lobbyist log data for web display.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYING_CHG_LOG_CD.TSV"></script>
+
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILER_ID</code></td>
+        
+            <td><code>CHANGE_NO</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FILER_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Filer&#39;s unique identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CHANGE_NO</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Number of changes this session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOG_DT</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_TYPE</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Foreign key referencing FilerTypesCd.filer_type</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CORRECTION_FLG</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ACTION</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ATTRIBUTE_CHANGED</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ETHICS_DT</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTERESTS</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_FULL_NAME</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Full name of filer</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_CITY</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>City address of filer</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_ST</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>State address of filer</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_ZIP</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>ZIP Code of filer</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_PHONE</code></td>
+            <td>String (up to 12)</td>
+            <td>No</td>
+            <td>Phone number of filer</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_TYPE</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>This field is undocumented. The values might refer to either FILER_TYPES_CD.FILER_TYPE or GROUP_TYPES_CD.GRP_ID, but that&#39;s just a guess.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_NAME</code></td>
+            <td>String (up to 500)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_CITY</code></td>
+            <td>String (up to 500)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_ST</code></td>
+            <td>String (up to 500)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_ZIP</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_PHONE</code></td>
+            <td>String (up to 12)</td>
+            <td>No</td>
+            <td>Entity phone number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ENTITY_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Entity identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>RESPONSIBLE_OFFICER</code></td>
+            <td>String (up to 500)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EFFECT_DT</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``entity_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>0</code></td>
+                <td>n/a</td>
+            </tr>
+        
+            <tr>
+                <td><code>1</code></td>
+                <td>Client</td>
+            </tr>
+        
+            <tr>
+                <td><code>2</code></td>
+                <td>Employer</td>
+            </tr>
+        
+            <tr>
+                <td><code>3</code></td>
+                <td>Firm</td>
+            </tr>
+        
+            <tr>
+                <td><code>4</code></td>
+                <td>Lobbyist</td>
+            </tr>
+        
+            <tr>
+                <td><code>10</code></td>
+                <td>Major Donor</td>
+            </tr>
+        
+            <tr>
+                <td><code>16</code></td>
+                <td>Recipient Committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>20</code></td>
+                <td>Treasurer/Responsible Officer</td>
+            </tr>
+        
+        </tbody>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `91-92 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p91>`_)
+
+
+
+
+
+
+------------
+
+*********************
+LEMP_CD
+*********************
+
+Lobbyist employers and subcontracted clients, as reported on Form 601.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LEMP_CD.TSV"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2: Section A, Lobbyist Employers</td>
+        </tr>
+        
+        <tr>
+            <td>- Part 2: Section B: Subcontracted Clients</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>AGENCYLIST</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Agencies to be lobbied</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>AMEND_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLI_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Employing client city</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLI_NAMF</code></td>
+            <td>String (up to 45)</td>
+            <td>No</td>
+            <td>Employing client first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLI_NAML</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Employing client last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLI_NAMS</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Employing client suffix</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLI_NAMT</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Employing client prefix or title</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLI_PHON</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Employing client phone number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLI_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Employing client state</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLI_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Employing client ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CLIENT_ID</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>Identification number of the Part 2A employer or Part 2B Client/Employer</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CON_PERIOD</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Period of the contract</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>DESCRIP</code></td>
+            <td>String (up to 100)</td>
+            <td>No</td>
+            <td>Description of employer/client lobbying interest</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EFF_DATE</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Effective Date of Lobbying Contract</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Unique filing identificiation number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 7)</td>
+            <td>Yes</td>
+            <td>Name of the source filing form or schedule</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LINE_ITEM</code></td>
+            <td>Integer</td>
+            <td>Yes</td>
+            <td>Line item number of this record</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>REC_TYPE</code></td>
+            <td>String (up to 4)</td>
+            <td>Yes</td>
+            <td>Record Type Value: LEMP</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUB_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Subcontracting lobbying firm city</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUB_NAME</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Subcontracting lobbying firms name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUB_PHON</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Subcontracting lobbying firm phone number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUB_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Subcontracting lobbying firm state</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUB_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Subcontracting lobbying firm ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SUBFIRM_ID</code></td>
+            <td>String (up to 9)</td>
+            <td>No</td>
+            <td>Identification number of subcontracting lobbying firm</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F601P2A</code></td>
+                <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section A, Lobbyist Employers</td>
+            </tr>
+        
+            <tr>
+                <td><code>F601P2B</code></td>
+                <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section B: Subcontracted Clients</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75">75</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90">90</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``rec_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>LEMP</code></td>
+                <td>LEMP</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75">75</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90">90</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* .CAL Format Layout (Version 2.01) (`90-91 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90>`_)
+
+* Map from .CAL Format to Database Table and Fields (`56-57 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p56>`_)
+
+* .CAL Format Layout (Version 1.05.02) (`75 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `85-86 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p85>`_)
+
+
+
+
+
+
+------------
+
+*********************
+LOBBYIST_EMPLOYER1_CD
+*********************
+
+This table is 99 percent identical to LOBBYIST_EMPLOYER2_CD and
+LOBBYIST_EMPLOYER3_CD.
+
+All three tables are documented in "Cal-Access Tables, Columns, Indexes", but
+with this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, the only value in observed in SESSION_YR_1 is 1999 and the only value
+observed in SESSION_YR_2 is 2000.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER1_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Employer identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Employer name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CURRENT_QTR_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Current quarter amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_TOTAL_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Total amount for the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CONTRIBUTOR_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Contributor identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTEREST_CD</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Interest Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTEREST_NAME</code></td>
+            <td>String (up to 24)</td>
+            <td>No</td>
+            <td>Interest name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 1 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 2 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_1_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 1 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_2_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 2 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_1</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_2</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_3</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_4</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_5</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_6</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_7</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_8</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``interest_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>40301</code></td>
+                <td>AGRICULTURE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40302</code></td>
+                <td>EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40303</code></td>
+                <td>ENTERTAINMENT/RECREATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40304</code></td>
+                <td>FINANCE/INSURANCE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40305</code></td>
+                <td>GOVERNMENT</td>
+            </tr>
+        
+            <tr>
+                <td><code>40306</code></td>
+                <td>HEALTH</td>
+            </tr>
+        
+            <tr>
+                <td><code>40307</code></td>
+                <td>LABOR UNIONS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40308</code></td>
+                <td>LEGAL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40309</code></td>
+                <td>LODGING/RESTAURANTS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40310</code></td>
+                <td>MANUFACTURING/INDUSTRIAL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40311</code></td>
+                <td>MERCHANDISE/RETAIL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40312</code></td>
+                <td>MISCELLANEOUS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40313</code></td>
+                <td>OIL AND GAS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40314</code></td>
+                <td>POLITICAL ORGANIZATIONS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40315</code></td>
+                <td>PROFESSIONAL/TRADE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40316</code></td>
+                <td>PUBLIC EMPLOYEES</td>
+            </tr>
+        
+            <tr>
+                <td><code>40317</code></td>
+                <td>REAL ESTATE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40318</code></td>
+                <td>TRANSPORTATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40319</code></td>
+                <td>UTILITIES</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `97-98 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p97>`_)
+
+
+
+
+
+
+------------
+
+*********************
+LOBBYIST_EMPLOYER2_CD
+*********************
+
+This table is 99 percent identical to LOBBYIST_EMPLOYER1_CD and
+LOBBYIST_EMPLOYER3_CD.
+
+All three tables are documented in "Cal-Access Tables, Columns, Indexes", but
+with this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, the only value in observed in SESSION_YR_1 is 1999 and the only value
+observed in SESSION_YR_2 is 2000.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER2_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Employer identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Employer name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CURRENT_QTR_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Current quarter amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_TOTAL_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Total amount for the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CONTRIBUTOR_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Contributor identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTEREST_CD</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Interest Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTEREST_NAME</code></td>
+            <td>String (up to 24)</td>
+            <td>No</td>
+            <td>Interest name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 1 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 2 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_1_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 1 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_2_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 2 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_1</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter 1 total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_2</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter 2 total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_3</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter 3 total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_4</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter 4 total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_5</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter 5 total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_6</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter 6 total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_7</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter 7 total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_8</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter 8 total amount</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``interest_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>40301</code></td>
+                <td>AGRICULTURE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40302</code></td>
+                <td>EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40303</code></td>
+                <td>ENTERTAINMENT/RECREATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40304</code></td>
+                <td>FINANCE/INSURANCE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40305</code></td>
+                <td>GOVERNMENT</td>
+            </tr>
+        
+            <tr>
+                <td><code>40306</code></td>
+                <td>HEALTH</td>
+            </tr>
+        
+            <tr>
+                <td><code>40307</code></td>
+                <td>LABOR UNIONS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40308</code></td>
+                <td>LEGAL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40309</code></td>
+                <td>LODGING/RESTAURANTS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40310</code></td>
+                <td>MANUFACTURING/INDUSTRIAL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40311</code></td>
+                <td>MERCHANDISE/RETAIL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40312</code></td>
+                <td>MISCELLANEOUS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40313</code></td>
+                <td>OIL AND GAS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40314</code></td>
+                <td>POLITICAL ORGANIZATIONS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40315</code></td>
+                <td>PROFESSIONAL/TRADE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40316</code></td>
+                <td>PUBLIC EMPLOYEES</td>
+            </tr>
+        
+            <tr>
+                <td><code>40317</code></td>
+                <td>REAL ESTATE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40318</code></td>
+                <td>TRANSPORTATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40319</code></td>
+                <td>UTILITIES</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `98-99 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p98>`_)
+
+
+
+
+
+
+------------
+
+*********************
+LOBBYIST_EMPLOYER3_CD
+*********************
+
+This table is 99 percent identical to LOBBYIST_EMPLOYER1_CD and
+LOBBYIST_EMPLOYER2_CD.
+
+All three tables are documented in "Cal-Access Tables, Columns, Indexes", but
+with this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, the only value in observed in SESSION_YR_1 is 1999 and the only value
+observed in SESSION_YR_2 is 2000.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER3_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Employer identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Employer name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CURRENT_QTR_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Current quarter amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_TOTAL_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Total amount for the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CONTRIBUTOR_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Contributor identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTEREST_CD</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Interest Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTEREST_NAME</code></td>
+            <td>String (up to 24)</td>
+            <td>No</td>
+            <td>Interest name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 1 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 2 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_1_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 1 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_2_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 2 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_1</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_2</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_3</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_4</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_5</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_6</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_7</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_8</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``interest_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>40301</code></td>
+                <td>AGRICULTURE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40302</code></td>
+                <td>EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40303</code></td>
+                <td>ENTERTAINMENT/RECREATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40304</code></td>
+                <td>FINANCE/INSURANCE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40305</code></td>
+                <td>GOVERNMENT</td>
+            </tr>
+        
+            <tr>
+                <td><code>40306</code></td>
+                <td>HEALTH</td>
+            </tr>
+        
+            <tr>
+                <td><code>40307</code></td>
+                <td>LABOR UNIONS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40308</code></td>
+                <td>LEGAL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40309</code></td>
+                <td>LODGING/RESTAURANTS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40310</code></td>
+                <td>MANUFACTURING/INDUSTRIAL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40311</code></td>
+                <td>MERCHANDISE/RETAIL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40312</code></td>
+                <td>MISCELLANEOUS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40313</code></td>
+                <td>OIL AND GAS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40314</code></td>
+                <td>POLITICAL ORGANIZATIONS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40315</code></td>
+                <td>PROFESSIONAL/TRADE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40316</code></td>
+                <td>PUBLIC EMPLOYEES</td>
+            </tr>
+        
+            <tr>
+                <td><code>40317</code></td>
+                <td>REAL ESTATE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40318</code></td>
+                <td>TRANSPORTATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40319</code></td>
+                <td>UTILITIES</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `99 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p99>`_)
+
+
+
+
+
+
+------------
+
+*********************
+LOBBYIST_EMPLOYER_HISTORY_CD
+*********************
+
+An empty file of the same name is included in the Secretary of State's daily
+CAL-ACCESS database exports.
+
+This table is documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation
+on these tables. Cox 5/11/2000".
+
+Also, the columns on this table are identical to the columns on the
+LOBBYIST_EMPLOYER1_CD, LOBBYIST_EMPLOYER2_CD and LOBBYIST_EMPLOYER3_CD
+tables.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER_HISTORY_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>CONTRIBUTOR_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Contributor identification number.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CURRENT_QTR_AMT</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Current Quarter Amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Employer identification number.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Employer Name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTEREST_CD</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Interest Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>INTEREST_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Interest name.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter 1 total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter 2 total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_3</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter 3 total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_4</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter 4 total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_5</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter 5 total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_6</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter 6 total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_7</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter 7 total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_8</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter 8 total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Session identification number.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_TOTAL_AMT</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount for the session.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount for year 1 of the session.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount for year 2 of the session.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_1_YTD_AMT</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Year 1 year to date amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_2_YTD_AMT</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Year 2 year to date amount.</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``interest_cd``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>40301</code></td>
+                <td>AGRICULTURE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40302</code></td>
+                <td>EDUCATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40303</code></td>
+                <td>ENTERTAINMENT/RECREATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40304</code></td>
+                <td>FINANCE/INSURANCE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40305</code></td>
+                <td>GOVERNMENT</td>
+            </tr>
+        
+            <tr>
+                <td><code>40306</code></td>
+                <td>HEALTH</td>
+            </tr>
+        
+            <tr>
+                <td><code>40307</code></td>
+                <td>LABOR UNIONS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40308</code></td>
+                <td>LEGAL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40309</code></td>
+                <td>LODGING/RESTAURANTS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40310</code></td>
+                <td>MANUFACTURING/INDUSTRIAL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40311</code></td>
+                <td>MERCHANDISE/RETAIL</td>
+            </tr>
+        
+            <tr>
+                <td><code>40312</code></td>
+                <td>MISCELLANEOUS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40313</code></td>
+                <td>OIL AND GAS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40314</code></td>
+                <td>POLITICAL ORGANIZATIONS</td>
+            </tr>
+        
+            <tr>
+                <td><code>40315</code></td>
+                <td>PROFESSIONAL/TRADE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40316</code></td>
+                <td>PUBLIC EMPLOYEES</td>
+            </tr>
+        
+            <tr>
+                <td><code>40317</code></td>
+                <td>REAL ESTATE</td>
+            </tr>
+        
+            <tr>
+                <td><code>40318</code></td>
+                <td>TRANSPORTATION</td>
+            </tr>
+        
+            <tr>
+                <td><code>40319</code></td>
+                <td>UTILITIES</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `96-97 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p96>`_)
+
+
+
+
+
+
+------------
+
+*********************
+LOBBYIST_EMP_LOBBYIST1_CD
+*********************
+
+This table is identical to LOBBYIST_EMP_LOBBYIST2_CD.
+
+Both tables are documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, the distinct SESSION_ID values span from 1995 to 2001, so probably this
+table is no longer in use.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMP_LOBBYIST1_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Lobbyist identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Employer identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_LAST_NAME</code></td>
+            <td>String (up to 17)</td>
+            <td>No</td>
+            <td>Lobbyist last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_FIRST_NAME</code></td>
+            <td>String (up to 17)</td>
+            <td>No</td>
+            <td>Lobbyist first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Employer name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_EMP_LOBBYIST2_CD
+*********************
+
+This table is identical to LOBBYIST_EMP_LOBBYIST2_CD.
+
+Both tables are documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, the distinct SESSION_ID values span from 1995 to 2001, so probably this
+table is no longer in use.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMP_LOBBYIST2_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Lobbyist identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Employer identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_LAST_NAME</code></td>
+            <td>String (up to 17)</td>
+            <td>No</td>
+            <td>Lobbyist last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_FIRST_NAME</code></td>
+            <td>String (up to 17)</td>
+            <td>No</td>
+            <td>Lobbyist first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Employer name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_FIRM1_CD
+*********************
+
+This table is identical to LOBBYIST_FIRM2_CD and LOBBYIST_FIRM3_CD.
+
+All three tables are documented in "Cal-Access Tables, Columns, Indexes", but
+with this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, the distinct SESSION_YR_1 values are 2001, and the distinct SESSION_YR_2
+are 2002.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM1_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CURRENT_QTR_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Current quarter amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_TOTAL_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Total amount for the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CONTRIBUTOR_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Contributor identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 1 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 2 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_1_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 1 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_2_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 2 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_1</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_2</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_3</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_4</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_5</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_6</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_7</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_8</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_FIRM2_CD
+*********************
+
+This table is identical to LOBBYIST_FIRM1_CD and LOBBYIST_FIRM3_CD.
+
+All three tables are documented in "Cal-Access Tables, Columns, Indexes", but
+with this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, the distinct SESSION_YR_1 values are 2001, and the distinct SESSION_YR_2
+are 2002.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM2_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CURRENT_QTR_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Current quarter amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_TOTAL_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Total amount for the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CONTRIBUTOR_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Contributor identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 1 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 2 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_1_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 1 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_2_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 2 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_1</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_2</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_3</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_4</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_5</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_6</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_7</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_8</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_FIRM3_CD
+*********************
+
+This table is identical to LOBBYIST_FIRM1_CD and LOBBYIST_FIRM2_CD.
+
+All three tables are documented in "Cal-Access Tables, Columns, Indexes", but
+with this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, the distinct SESSION_YR_1 values are 2001, and the distinct SESSION_YR_2
+are 2002.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM3_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CURRENT_QTR_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Current quarter amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_TOTAL_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Total amount for the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CONTRIBUTOR_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Contributor identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 1 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount of year 2 of the session</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_1_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 1 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_2_YTD_AMT</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Year 2 year-to-date-amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_1</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_2</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_3</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_4</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_5</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_6</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_7</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_8</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Quarter total amount</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_FIRM_HISTORY_CD
+*********************
+
+An empty file of the same name is included in the Secretary of State's daily
+CAL-ACCESS database exports.
+
+This table is documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation
+on these tables. Cox 5/11/2000".
+
+Also, the columns on this table are identical to the columns on the
+LOBBYIST_FIRM1_CD, LOBBYIST_FIRM2_CD and LOBBYIST_FIRM3_CD tables.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_HISTORY_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>CONTRIBUTOR_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Contributor identification number.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CURRENT_QTR_AMT</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Current Quarter Amount</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the Firm/Employer/Coalition.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Name of Firm/Employer/Coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_3</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_4</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_5</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_6</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_7</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>QTR_8</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Quarter total amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Session identification number.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_TOTAL_AMT</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount for the session.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_1</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount for year 1 of the session.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_YR_2</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Total amount for year 2 of the session.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_1_YTD_AMT</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Year 1 year to date amount.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>YR_2_YTD_AMT</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Year 2 year to date amount</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_EMPLOYER_FIRMS1_CD
+*********************
+
+This table is identical to LOBBYIST_EMPLOYER_FIRMS2_CD.
+
+Both tables are documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also the distinct SESSION_ID values span from 1995 to 2001, so probably this
+table is no longer in use.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER_FIRMS1_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Employer identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TERMINATION_DT</code></td>
+            <td>String (up to 32)</td>
+            <td>No</td>
+            <td>Termination effective date</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_EMPLOYER_FIRMS2_CD
+*********************
+
+This table is identical to LOBBYIST_EMPLOYER_FIRMS1_CD.
+
+Both tables are documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also the distinct SESSION_ID values span from 1995 to 2001, so probably this
+table is no longer in use.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER_FIRMS2_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Employer identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>TERMINATION_DT</code></td>
+            <td>String (up to 32)</td>
+            <td>No</td>
+            <td>Termination effective date</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_FIRM_EMPLOYER1_CD
+*********************
+
+This table is identical to LOBBYIST_FIRM_EMPLOYER2_CD.
+
+Both tables are documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also RPT_START and RPT_END each contain only one distinct value, "2001-04-01"
+and "2001-06-30", respectively.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_EMPLOYER1_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Unique filing identificiation number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_SEQUENCE</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Amendment number. 0 is the original filing. 1 to 999 are amendments</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Employer name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>RPT_START</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Starting date for the period the report covers</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>RPT_END</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Ending date for the period the report covers</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PER_TOTAL</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Total this reporting period</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CUM_TOTAL</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Cumulative total to date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LBY_ACTVTY</code></td>
+            <td>String (up to 182)</td>
+            <td>No</td>
+            <td>Description of lobbying activity</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EXT_LBY_ACTVTY</code></td>
+            <td>String (up to 32)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_FIRM_EMPLOYER2_CD
+*********************
+
+This table is identical to LOBBYIST_FIRM_EMPLOYER1_CD.
+
+Both tables are documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also RPT_START and RPT_END each contain only one distinct value, "2001-04-01"
+and "2001-06-30", respectively.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_EMPLOYER2_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Unique filing identificiation number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_SEQUENCE</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Amendment number. 0 is the original filing. 1 to 999 are amendments</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EMPLOYER_NAME</code></td>
+            <td>String (up to 300)</td>
+            <td>No</td>
+            <td>Employer name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>RPT_START</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Starting date for the period the report covers</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>RPT_END</code></td>
+            <td>Date (without time)</td>
+            <td>No</td>
+            <td>Ending date for the period the report covers</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>PER_TOTAL</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Total this reporting period</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CUM_TOTAL</code></td>
+            <td>Floating point number</td>
+            <td>No</td>
+            <td>Cumulative total to date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LBY_ACTVTY</code></td>
+            <td>String (up to 182)</td>
+            <td>No</td>
+            <td>Description of lobbying activity</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>EXT_LBY_ACTVTY</code></td>
+            <td>String (up to 32)</td>
+            <td>No</td>
+            <td>This field is undocumented</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_FIRM_LOBBYIST1_CD
+*********************
+
+This table is identical to LOBBYIST_FIRM_LOBBYIST1_CD.
+
+Both tables are documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, all rows have the same SESSION_ID value: 2001.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_LOBBYIST1_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Lobbyist identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_LAST_NAME</code></td>
+            <td>String (up to 15)</td>
+            <td>No</td>
+            <td>Lobbyist last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_FIRST_NAME</code></td>
+            <td>String (up to 17)</td>
+            <td>No</td>
+            <td>Lobbyist first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+
+
+------------
+
+*********************
+LOBBYIST_FIRM_LOBBYIST2_CD
+*********************
+
+This table is identical to LOBBYIST_FIRM_LOBBYIST1_CD.
+
+Both tables are documented in "Cal-Access Tables, Columns, Indexes", but with
+this cryptic note: "Matt needs to describe the relationship between the
+multiple tables. Documentation should be cloned from D H's documentation on
+these tables. Cox 5/11/2000".
+
+Also, all rows have the same SESSION_ID value: 2001.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_LOBBYIST2_CD.TSV"></script>
+
+
+
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Lobbyist identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Identification number of the firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_LAST_NAME</code></td>
+            <td>String (up to 15)</td>
+            <td>No</td>
+            <td>Lobbyist last name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LOBBYIST_FIRST_NAME</code></td>
+            <td>String (up to 17)</td>
+            <td>No</td>
+            <td>Lobbyist first name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 400)</td>
+            <td>No</td>
+            <td>Name of firm, employer or coalition</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>SESSION_ID</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Legislative session identification number</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
 
 
 
@@ -2363,7 +7003,7 @@ References
 
 * .CAL Format Layout (Version 1.05.02) (`53-56 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p53>`_)
 
-* CAL-ACCESS Tables, Columns and Indexes (`32-35 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p32>`_)
+* CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `32-35 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p32>`_)
 
 
 
@@ -2738,582 +7378,11 @@ References
 ------------
 
 *********************
-LOBBY_AMENDMENTS_CD
-*********************
-
-Lobbyist registration amendment information (Form 605 Part I).
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBY_AMENDMENTS_CD.TSV"></script>
-
-
-Forms
-=====
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        
-        <tr>
-            <td>
-                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
-                Lobbying Firm Registration Statement
-            </td>
-        </tr>
-        
-        
-        <tr>
-            <td>
-                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
-                Lobbyist Employer or Lobbying Coalition Registration Statement
-            </td>
-        </tr>
-        
-        
-    </tbody>
-    </table>
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILING_ID</code></td>
-        
-            <td><code>AMEND_ID</code></td>
-        
-            <td><code>REC_TYPE</code></td>
-        
-            <td><code>FORM_TYPE</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Unique filing identificiation number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMEND_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REC_TYPE</code></td>
-            <td>String (up to 4)</td>
-            <td>Yes</td>
-            <td>Record Type Value: F605</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FORM_TYPE</code></td>
-            <td>String (up to 9)</td>
-            <td>Yes</td>
-            <td>Name of the source filing form or schedule</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EXEC_DATE</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date this amendment executed on</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FROM_DATE</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Reporting period from date of original report</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>THRU_DATE</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Reporting date to/through date of original</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ADD_L_CB</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Add lobbyist checkbox</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ADD_L_EFF</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Add lobbyist effective date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_L_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Add lobbyist last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_L_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Add lobbyist first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_L_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Add lobbyist title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_L_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Add lobbyist suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DEL_L_CB</code></td>
-            <td>String (up to 8)</td>
-            <td>No</td>
-            <td>Delete lobbyist checkbox</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DEL_L_EFF</code></td>
-            <td>String (up to 22)</td>
-            <td>No</td>
-            <td>Delete lobbyist effective date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_L_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Delete lobbyist last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_L_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Delete lobbyist first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_L_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Delete lobbyist title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_L_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Delete lobbyiest suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ADD_LE_CB</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Add lobbyiest employer checkbox</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ADD_LE_EFF</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Add lobbyist employer effective date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_LE_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Add lobbyist employer last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_LE_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Add lobbyist or employer first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_LE_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Add lobbyist employer title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_LE_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Add lobbyist employer suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DEL_LE_CB</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>Delete lobbyist employer check box</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DEL_LE_EFF</code></td>
-            <td>String (up to 22)</td>
-            <td>No</td>
-            <td>Delete lobbyist employer effective date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_LE_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Delete lobbyist employer last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_LE_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Delete lobbyiest employer first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_LE_NAMT</code></td>
-            <td>String (up to 12)</td>
-            <td>No</td>
-            <td>Delete lobbyist employer name title or prefix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_LE_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Delete lobbyist employer name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ADD_LF_CB</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Add lobbying firm checkbox</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ADD_LF_EFF</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Add lobbying firm effective date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>A_LF_NAME</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Add lobbying firm name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DEL_LF_CB</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Delete lobbying firm checkbox</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DEL_LF_EFF</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Delete lobbying firm effective date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>D_LF_NAME</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Delete lobbying firm name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OTHER_CB</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Other amendments checkbox</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OTHER_EFF</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Other amendments effective date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>OTHER_DESC</code></td>
-            <td>String (up to 100)</td>
-            <td>No</td>
-            <td>Description of changes</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>F606_YES</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Lobbyist ceasing all activity</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>F606_NO</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Lobbyist ceasing employment but staying active</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F605</code></td>
-                <td>F605</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74">74</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88">88</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``form_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F601</code></td>
-                <td>Form 601: Lobbying Firm Registration Statement</td>
-            </tr>
-        
-            <tr>
-                <td><code>F603</code></td>
-                <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74">74</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88">88</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* .CAL Format Layout (Version 2.01) (`88-89 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p88>`_)
-
-* Map from .CAL Format to Database Table and Fields (`64-66 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p64>`_)
-
-* .CAL Format Layout (Version 1.05.02) (`74 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p74>`_)
-
-* CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `90-91 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p90>`_)
-
-
-
-
-
-
-------------
-
-*********************
 F690P2_CD
 *********************
 
-Amends lobbying disclosure filings (Form 690)
+Amendment information to lobbying disclosure filings, as reported on
+Form 690 filings.
 
 
 Sample
@@ -5137,772 +9206,6 @@ References
 ------------
 
 *********************
-LEMP_CD
-*********************
-
-Lobbyist employers and subcontracted clients (Form 601)
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LEMP_CD.TSV"></script>
-
-
-Forms
-=====
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        
-        <tr>
-            <td>
-                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
-                Lobbying Firm Registration Statement
-            </td>
-        </tr>
-        
-        <tr>
-            <td>- Part 2: Section A, Lobbyist Employers</td>
-        </tr>
-        
-        <tr>
-            <td>- Part 2: Section B: Subcontracted Clients</td>
-        </tr>
-        
-        
-    </tbody>
-    </table>
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILING_ID</code></td>
-        
-            <td><code>AMEND_ID</code></td>
-        
-            <td><code>LINE_ITEM</code></td>
-        
-            <td><code>REC_TYPE</code></td>
-        
-            <td><code>FORM_TYPE</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>AGENCYLIST</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Agencies to be lobbied</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMEND_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLI_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Employing client city</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLI_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Employing client first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLI_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Employing client last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLI_NAMS</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Employing client suffix</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLI_NAMT</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Employing client prefix or title</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLI_PHON</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Employing client phone number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLI_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Employing client state</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLI_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Employing client ZIP Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CLIENT_ID</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>Identification number of the Part 2A employer or Part 2B Client/Employer</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CON_PERIOD</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Period of the contract</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>DESCRIP</code></td>
-            <td>String (up to 100)</td>
-            <td>No</td>
-            <td>Description of employer/client lobbying interest</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EFF_DATE</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Effective Date of Lobbying Contract</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Unique filing identificiation number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FORM_TYPE</code></td>
-            <td>String (up to 7)</td>
-            <td>Yes</td>
-            <td>Name of the source filing form or schedule</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LINE_ITEM</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Line item number of this record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REC_TYPE</code></td>
-            <td>String (up to 4)</td>
-            <td>Yes</td>
-            <td>Record Type Value: LEMP</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUB_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Subcontracting lobbying firm city</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUB_NAME</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Subcontracting lobbying firms name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUB_PHON</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Subcontracting lobbying firm phone number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUB_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Subcontracting lobbying firm state</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUB_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Subcontracting lobbying firm ZIP Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUBFIRM_ID</code></td>
-            <td>String (up to 9)</td>
-            <td>No</td>
-            <td>Identification number of subcontracting lobbying firm</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``form_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F601P2A</code></td>
-                <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section A, Lobbyist Employers</td>
-            </tr>
-        
-            <tr>
-                <td><code>F601P2B</code></td>
-                <td>Form 601 (Lobbying Firm Registration Statement): Part 2: Section B: Subcontracted Clients</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75">75</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90">90</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>LEMP</code></td>
-                <td>LEMP</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75">75</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90">90</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* .CAL Format Layout (Version 2.01) (`90-91 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p90>`_)
-
-* Map from .CAL Format to Database Table and Fields (`56-57 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p56>`_)
-
-* .CAL Format Layout (Version 1.05.02) (`75 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p75>`_)
-
-* CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `85-86 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p85>`_)
-
-
-
-
-
-
-------------
-
-*********************
-LOBBYING_CHG_LOG_CD
-*********************
-
-Holds lobbyist log data for web display
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYING_CHG_LOG_CD.TSV"></script>
-
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILER_ID</code></td>
-        
-            <td><code>CHANGE_NO</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FILER_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Filer&#39;s unique identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CHANGE_NO</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Number of changes this session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOG_DT</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_TYPE</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Foreign key referencing FilerTypesCd.filer_type</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CORRECTION_FLG</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ACTION</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ATTRIBUTE_CHANGED</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ETHICS_DT</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTERESTS</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_FULL_NAME</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Full name of filer</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_CITY</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>City address of filer</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_ST</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>State address of filer</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_ZIP</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>ZIP Code of filer</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_PHONE</code></td>
-            <td>String (up to 12)</td>
-            <td>No</td>
-            <td>Phone number of filer</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_TYPE</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>This field is undocumented. The values might refer to either FILER_TYPES_CD.FILER_TYPE or GROUP_TYPES_CD.GRP_ID, but that&#39;s just a guess.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_NAME</code></td>
-            <td>String (up to 500)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_CITY</code></td>
-            <td>String (up to 500)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_ST</code></td>
-            <td>String (up to 500)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_ZIP</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_PHONE</code></td>
-            <td>String (up to 12)</td>
-            <td>No</td>
-            <td>Entity phone number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>ENTITY_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Entity identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>RESPONSIBLE_OFFICER</code></td>
-            <td>String (up to 500)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EFFECT_DT</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``entity_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>0</code></td>
-                <td>n/a</td>
-            </tr>
-        
-            <tr>
-                <td><code>1</code></td>
-                <td>Client</td>
-            </tr>
-        
-            <tr>
-                <td><code>2</code></td>
-                <td>Employer</td>
-            </tr>
-        
-            <tr>
-                <td><code>3</code></td>
-                <td>Firm</td>
-            </tr>
-        
-            <tr>
-                <td><code>4</code></td>
-                <td>Lobbyist</td>
-            </tr>
-        
-            <tr>
-                <td><code>10</code></td>
-                <td>Major Donor</td>
-            </tr>
-        
-            <tr>
-                <td><code>16</code></td>
-                <td>Recipient Committee</td>
-            </tr>
-        
-            <tr>
-                <td><code>20</code></td>
-                <td>Treasurer/Responsible Officer</td>
-            </tr>
-        
-        </tbody>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* CAL-ACCESS Tables, Columns and Indexes (`10 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p10>`_, `91-92 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p91>`_)
-
-
-
-
-
-
-------------
-
-*********************
 LOBBYIST_CONTRIBUTIONS1_CD
 *********************
 
@@ -6231,3011 +9534,11 @@ Fields
 ------------
 
 *********************
-LOBBYIST_EMPLOYER1_CD
-*********************
-
-Information for lobbyist's primary employer
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER1_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Employer identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_NAME</code></td>
-            <td>String (up to 300)</td>
-            <td>No</td>
-            <td>Employer name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CURRENT_QTR_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Current quarter amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_TOTAL_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Total amount for the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CONTRIBUTOR_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Contributor identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTEREST_CD</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Interest Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTEREST_NAME</code></td>
-            <td>String (up to 24)</td>
-            <td>No</td>
-            <td>Interest name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 1 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 2 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_1_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 1 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_2_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 2 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_1</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_2</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_3</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_4</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_5</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_6</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_7</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_8</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``interest_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>40301</code></td>
-                <td>AGRICULTURE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40302</code></td>
-                <td>EDUCATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40303</code></td>
-                <td>ENTERTAINMENT/RECREATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40304</code></td>
-                <td>FINANCE/INSURANCE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40305</code></td>
-                <td>GOVERNMENT</td>
-            </tr>
-        
-            <tr>
-                <td><code>40306</code></td>
-                <td>HEALTH</td>
-            </tr>
-        
-            <tr>
-                <td><code>40307</code></td>
-                <td>LABOR UNIONS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40308</code></td>
-                <td>LEGAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40309</code></td>
-                <td>LODGING/RESTAURANTS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40310</code></td>
-                <td>MANUFACTURING/INDUSTRIAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40311</code></td>
-                <td>MERCHANDISE/RETAIL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40312</code></td>
-                <td>MISCELLANEOUS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40313</code></td>
-                <td>OIL AND GAS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40314</code></td>
-                <td>POLITICAL ORGANIZATIONS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40315</code></td>
-                <td>PROFESSIONAL/TRADE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40316</code></td>
-                <td>PUBLIC EMPLOYEES</td>
-            </tr>
-        
-            <tr>
-                <td><code>40317</code></td>
-                <td>REAL ESTATE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40318</code></td>
-                <td>TRANSPORTATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40319</code></td>
-                <td>UTILITIES</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `97-98 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p97>`_)
-
-
-
-
-
-
-------------
-
-*********************
-LOBBYIST_EMPLOYER2_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER2_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Employer identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_NAME</code></td>
-            <td>String (up to 300)</td>
-            <td>No</td>
-            <td>Employer name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CURRENT_QTR_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Current quarter amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_TOTAL_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Total amount for the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CONTRIBUTOR_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Contributor identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTEREST_CD</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Interest Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTEREST_NAME</code></td>
-            <td>String (up to 24)</td>
-            <td>No</td>
-            <td>Interest name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 1 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 2 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_1_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 1 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_2_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 2 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_1</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter 1 total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_2</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter 2 total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_3</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter 3 total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_4</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter 4 total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_5</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter 5 total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_6</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter 6 total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_7</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter 7 total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_8</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter 8 total amount</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``interest_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>40301</code></td>
-                <td>AGRICULTURE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40302</code></td>
-                <td>EDUCATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40303</code></td>
-                <td>ENTERTAINMENT/RECREATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40304</code></td>
-                <td>FINANCE/INSURANCE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40305</code></td>
-                <td>GOVERNMENT</td>
-            </tr>
-        
-            <tr>
-                <td><code>40306</code></td>
-                <td>HEALTH</td>
-            </tr>
-        
-            <tr>
-                <td><code>40307</code></td>
-                <td>LABOR UNIONS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40308</code></td>
-                <td>LEGAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40309</code></td>
-                <td>LODGING/RESTAURANTS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40310</code></td>
-                <td>MANUFACTURING/INDUSTRIAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40311</code></td>
-                <td>MERCHANDISE/RETAIL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40312</code></td>
-                <td>MISCELLANEOUS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40313</code></td>
-                <td>OIL AND GAS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40314</code></td>
-                <td>POLITICAL ORGANIZATIONS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40315</code></td>
-                <td>PROFESSIONAL/TRADE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40316</code></td>
-                <td>PUBLIC EMPLOYEES</td>
-            </tr>
-        
-            <tr>
-                <td><code>40317</code></td>
-                <td>REAL ESTATE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40318</code></td>
-                <td>TRANSPORTATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40319</code></td>
-                <td>UTILITIES</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `98-99 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p98>`_)
-
-
-
-
-
-
-------------
-
-*********************
-LOBBYIST_EMPLOYER3_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER3_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Employer identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_NAME</code></td>
-            <td>String (up to 300)</td>
-            <td>No</td>
-            <td>Employer name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CURRENT_QTR_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Current quarter amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_TOTAL_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Total amount for the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CONTRIBUTOR_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Contributor identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTEREST_CD</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Interest Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>INTEREST_NAME</code></td>
-            <td>String (up to 24)</td>
-            <td>No</td>
-            <td>Interest name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 1 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 2 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_1_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 1 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_2_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 2 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_1</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_2</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_3</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_4</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_5</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_6</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_7</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_8</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``interest_cd``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>40301</code></td>
-                <td>AGRICULTURE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40302</code></td>
-                <td>EDUCATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40303</code></td>
-                <td>ENTERTAINMENT/RECREATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40304</code></td>
-                <td>FINANCE/INSURANCE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40305</code></td>
-                <td>GOVERNMENT</td>
-            </tr>
-        
-            <tr>
-                <td><code>40306</code></td>
-                <td>HEALTH</td>
-            </tr>
-        
-            <tr>
-                <td><code>40307</code></td>
-                <td>LABOR UNIONS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40308</code></td>
-                <td>LEGAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40309</code></td>
-                <td>LODGING/RESTAURANTS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40310</code></td>
-                <td>MANUFACTURING/INDUSTRIAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40311</code></td>
-                <td>MERCHANDISE/RETAIL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40312</code></td>
-                <td>MISCELLANEOUS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40313</code></td>
-                <td>OIL AND GAS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40314</code></td>
-                <td>POLITICAL ORGANIZATIONS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40315</code></td>
-                <td>PROFESSIONAL/TRADE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40316</code></td>
-                <td>PUBLIC EMPLOYEES</td>
-            </tr>
-        
-            <tr>
-                <td><code>40317</code></td>
-                <td>REAL ESTATE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40318</code></td>
-                <td>TRANSPORTATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40319</code></td>
-                <td>UTILITIES</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `99 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p99>`_)
-
-
-
-
-
-
-------------
-
-*********************
-LOBBYIST_EMPLOYER_FIRMS1_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER_FIRMS1_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Employer identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TERMINATION_DT</code></td>
-            <td>String (up to 32)</td>
-            <td>No</td>
-            <td>Termination effective date</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_EMPLOYER_FIRMS2_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER_FIRMS2_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Employer identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TERMINATION_DT</code></td>
-            <td>String (up to 32)</td>
-            <td>No</td>
-            <td>Termination effective date</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_EMP_LOBBYIST1_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMP_LOBBYIST1_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Lobbyist identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Employer identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_LAST_NAME</code></td>
-            <td>String (up to 17)</td>
-            <td>No</td>
-            <td>Lobbyist last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_FIRST_NAME</code></td>
-            <td>String (up to 17)</td>
-            <td>No</td>
-            <td>Lobbyist first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_NAME</code></td>
-            <td>String (up to 300)</td>
-            <td>No</td>
-            <td>Employer name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_EMP_LOBBYIST2_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMP_LOBBYIST2_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Lobbyist identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Employer identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_LAST_NAME</code></td>
-            <td>String (up to 17)</td>
-            <td>No</td>
-            <td>Lobbyist last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_FIRST_NAME</code></td>
-            <td>String (up to 17)</td>
-            <td>No</td>
-            <td>Lobbyist first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_NAME</code></td>
-            <td>String (up to 300)</td>
-            <td>No</td>
-            <td>Employer name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_FIRM1_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM1_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CURRENT_QTR_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Current quarter amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_TOTAL_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Total amount for the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CONTRIBUTOR_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Contributor identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 1 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 2 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_1_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 1 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_2_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 2 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_1</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_2</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_3</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_4</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_5</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_6</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_7</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_8</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_FIRM2_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM2_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CURRENT_QTR_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Current quarter amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_TOTAL_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Total amount for the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CONTRIBUTOR_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Contributor identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 1 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 2 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_1_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 1 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_2_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 2 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_1</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_2</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_3</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_4</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_5</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_6</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_7</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_8</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_FIRM3_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM3_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CURRENT_QTR_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Current quarter amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_TOTAL_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Total amount for the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CONTRIBUTOR_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Contributor identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 1 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount of year 2 of the session</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_1_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 1 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_2_YTD_AMT</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Year 2 year-to-date-amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_1</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_2</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_3</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_4</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_5</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_6</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_7</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_8</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Quarter total amount</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_FIRM_EMPLOYER1_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_EMPLOYER1_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Unique filing identificiation number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_SEQUENCE</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Amendment number. 0 is the original filing. 1 to 999 are amendments</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_NAME</code></td>
-            <td>String (up to 300)</td>
-            <td>No</td>
-            <td>Employer name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>RPT_START</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Starting date for the period the report covers</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>RPT_END</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Ending date for the period the report covers</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PER_TOTAL</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Total this reporting period</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CUM_TOTAL</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Cumulative total to date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LBY_ACTVTY</code></td>
-            <td>String (up to 182)</td>
-            <td>No</td>
-            <td>Description of lobbying activity</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EXT_LBY_ACTVTY</code></td>
-            <td>String (up to 32)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_FIRM_EMPLOYER2_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_EMPLOYER2_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Unique filing identificiation number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_SEQUENCE</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Amendment number. 0 is the original filing. 1 to 999 are amendments</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EMPLOYER_NAME</code></td>
-            <td>String (up to 300)</td>
-            <td>No</td>
-            <td>Employer name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>RPT_START</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Starting date for the period the report covers</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>RPT_END</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Ending date for the period the report covers</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PER_TOTAL</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Total this reporting period</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CUM_TOTAL</code></td>
-            <td>Floating point number</td>
-            <td>No</td>
-            <td>Cumulative total to date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LBY_ACTVTY</code></td>
-            <td>String (up to 182)</td>
-            <td>No</td>
-            <td>Description of lobbying activity</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>EXT_LBY_ACTVTY</code></td>
-            <td>String (up to 32)</td>
-            <td>No</td>
-            <td>This field is undocumented</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_FIRM_LOBBYIST1_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_LOBBYIST1_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Lobbyist identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_LAST_NAME</code></td>
-            <td>String (up to 15)</td>
-            <td>No</td>
-            <td>Lobbyist last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_FIRST_NAME</code></td>
-            <td>String (up to 17)</td>
-            <td>No</td>
-            <td>Lobbyist first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOBBYIST_FIRM_LOBBYIST2_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_LOBBYIST2_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Lobbyist identification number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_LAST_NAME</code></td>
-            <td>String (up to 15)</td>
-            <td>No</td>
-            <td>Lobbyist last name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LOBBYIST_FIRST_NAME</code></td>
-            <td>String (up to 17)</td>
-            <td>No</td>
-            <td>Lobbyist first name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 400)</td>
-            <td>No</td>
-            <td>Name of firm, employer or coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Legislative session identification number</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-
-
-------------
-
-*********************
-LOTH_CD
-*********************
-
-Payment to other lobbying firms listed of Form 625 Part 3B
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOTH_CD.TSV"></script>
-
-
-Forms
-=====
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        
-        <tr>
-            <td>
-                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
-                Report of Lobbying Firm
-            </td>
-        </tr>
-        
-        <tr>
-            <td>- Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
-        </tr>
-        
-        
-    </tbody>
-    </table>
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>FILING_ID</code></td>
-        
-            <td><code>AMEND_ID</code></td>
-        
-            <td><code>LINE_ITEM</code></td>
-        
-            <td><code>REC_TYPE</code></td>
-        
-            <td><code>FORM_TYPE</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>AMEND_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>AMOUNT</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Amount of payment</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CUM_AMT</code></td>
-            <td>Decimal number</td>
-            <td>No</td>
-            <td>Cumulative total to date</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILING_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Unique filing identificiation number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_CITY</code></td>
-            <td>String (up to 30)</td>
-            <td>No</td>
-            <td>Firm, employer or coalition&#39;s city</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Firm, employer or coalition&#39;s name</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_PHON</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Firm, employer or coalition&#39;s phone number</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ST</code></td>
-            <td>String (up to 2)</td>
-            <td>No</td>
-            <td>Firm, employer or coalition&#39;s ZIP Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ZIP4</code></td>
-            <td>String (up to 10)</td>
-            <td>No</td>
-            <td>Firm ZIP Code</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FORM_TYPE</code></td>
-            <td>String (up to 7)</td>
-            <td>Yes</td>
-            <td>Name of the source filing form or schedule</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>LINE_ITEM</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Line item number of this record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_CODE</code></td>
-            <td>String (up to 1)</td>
-            <td>No</td>
-            <td>Memo amount flag</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>MEMO_REFNO</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Reference to text contained in a TEXT record</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PMT_DATE</code></td>
-            <td>Date (without time)</td>
-            <td>No</td>
-            <td>Date of payment</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>REC_TYPE</code></td>
-            <td>String (up to 4)</td>
-            <td>Yes</td>
-            <td>Record Type Value: LOTH</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUBJ_NAMF</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>First name of employer/client subject of lobbying</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUBJ_NAML</code></td>
-            <td>String (up to 200)</td>
-            <td>No</td>
-            <td>Last name of employer/client subject of lobbying</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUBJ_NAMS</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Suffix of employer/client subject of lobbying</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SUBJ_NAMT</code></td>
-            <td>String (up to 45)</td>
-            <td>No</td>
-            <td>Prefix or title of employer/client subject of lobbying</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>TRAN_ID</code></td>
-            <td>String (up to 20)</td>
-            <td>No</td>
-            <td>Permanent value unique to this item</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``form_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>F625P3B</code></td>
-                <td>Form 625 (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63">63</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77">77</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-``rec_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>LOTH</code></td>
-                <td>LOTH</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63">63</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77">77</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* .CAL Format Layout (Version 2.01) (`77-78 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77>`_)
-
-* .CAL Format Layout (Version 1.05.02) (`63 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63>`_)
-
-* Map from .CAL Format to Database Table and Fields (`67-68 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p67>`_)
-
-* CAL-ACCESS Tables, Columns and Indexes (`106-107 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p106>`_)
-
-
-
-
-
-
-------------
-
-*********************
 LPAY_CD
 *********************
 
-Payments made or received by lobbying firms, reported on
-Form 625 Part 2 and 635 Part 3B
+Payments made or received by lobbying firms, reported on Form 625 Part 2
+and 635 Part 3B
 
 
 Sample
@@ -9727,13 +10030,10 @@ References
 ------------
 
 *********************
-LOBBYIST_EMPLOYER_HISTORY_CD
+LOTH_CD
 *********************
 
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
+Payment to other lobbying firms listed of Form 625 Part 3B
 
 
 Sample
@@ -9741,10 +10041,58 @@ Sample
 
 .. raw:: html
 
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_EMPLOYER_HISTORY_CD.TSV"></script>
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOTH_CD.TSV"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        <tr>
+            <td>- Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
 
 
 
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_ID</code></td>
+        
+            <td><code>AMEND_ID</code></td>
+        
+            <td><code>LINE_ITEM</code></td>
+        
+            <td><code>REC_TYPE</code></td>
+        
+            <td><code>FORM_TYPE</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
 
 
 Fields
@@ -9768,181 +10116,181 @@ Fields
     
     
         <tr>
-            <td><code>CONTRIBUTOR_ID</code></td>
+            <td><code>AMEND_ID</code></td>
             <td>Integer</td>
-            <td>No</td>
-            <td>Contributor identification number.</td>
+            <td>Yes</td>
+            <td>Amendment identification number. A number of 0 is the original filing and 1 to 999 amendments.</td>
         </tr>
     
     
     
         <tr>
-            <td><code>CURRENT_QTR_AMT</code></td>
+            <td><code>AMOUNT</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Amount of payment</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>CUM_AMT</code></td>
+            <td>Decimal number</td>
+            <td>No</td>
+            <td>Cumulative total to date</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILING_ID</code></td>
             <td>Integer</td>
-            <td>No</td>
-            <td>Current Quarter Amount</td>
+            <td>Yes</td>
+            <td>Unique filing identificiation number</td>
         </tr>
     
     
     
         <tr>
-            <td><code>EMPLOYER_ID</code></td>
+            <td><code>FIRM_CITY</code></td>
+            <td>String (up to 30)</td>
+            <td>No</td>
+            <td>Firm, employer or coalition&#39;s city</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_NAME</code></td>
+            <td>String (up to 200)</td>
+            <td>No</td>
+            <td>Firm, employer or coalition&#39;s name</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_PHON</code></td>
+            <td>String (up to 20)</td>
+            <td>No</td>
+            <td>Firm, employer or coalition&#39;s phone number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ST</code></td>
+            <td>String (up to 2)</td>
+            <td>No</td>
+            <td>Firm, employer or coalition&#39;s ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FIRM_ZIP4</code></td>
+            <td>String (up to 10)</td>
+            <td>No</td>
+            <td>Firm ZIP Code</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 7)</td>
+            <td>Yes</td>
+            <td>Name of the source filing form or schedule</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>LINE_ITEM</code></td>
             <td>Integer</td>
-            <td>No</td>
-            <td>Employer identification number.</td>
+            <td>Yes</td>
+            <td>Line item number of this record</td>
         </tr>
     
     
     
         <tr>
-            <td><code>EMPLOYER_NAME</code></td>
-            <td>String (up to 300)</td>
+            <td><code>MEMO_CODE</code></td>
+            <td>String (up to 1)</td>
             <td>No</td>
-            <td>Employer Name</td>
+            <td>Memo amount flag</td>
         </tr>
     
     
     
         <tr>
-            <td><code>INTEREST_CD</code></td>
-            <td>Integer</td>
+            <td><code>MEMO_REFNO</code></td>
+            <td>String (up to 20)</td>
             <td>No</td>
-            <td>Interest Code</td>
+            <td>Reference to text contained in a TEXT record</td>
         </tr>
     
     
     
         <tr>
-            <td><code>INTEREST_NAME</code></td>
-            <td>String (up to 300)</td>
+            <td><code>PMT_DATE</code></td>
+            <td>Date (without time)</td>
             <td>No</td>
-            <td>Interest name.</td>
+            <td>Date of payment</td>
         </tr>
     
     
     
         <tr>
-            <td><code>QTR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter 1 total amount.</td>
+            <td><code>REC_TYPE</code></td>
+            <td>String (up to 4)</td>
+            <td>Yes</td>
+            <td>Record Type Value: LOTH</td>
         </tr>
     
     
     
         <tr>
-            <td><code>QTR_2</code></td>
-            <td>Integer</td>
+            <td><code>SUBJ_NAMF</code></td>
+            <td>String (up to 45)</td>
             <td>No</td>
-            <td>Quarter 2 total amount.</td>
+            <td>First name of employer/client subject of lobbying</td>
         </tr>
     
     
     
         <tr>
-            <td><code>QTR_3</code></td>
-            <td>Integer</td>
+            <td><code>SUBJ_NAML</code></td>
+            <td>String (up to 200)</td>
             <td>No</td>
-            <td>Quarter 3 total amount.</td>
+            <td>Last name of employer/client subject of lobbying</td>
         </tr>
     
     
     
         <tr>
-            <td><code>QTR_4</code></td>
-            <td>Integer</td>
+            <td><code>SUBJ_NAMS</code></td>
+            <td>String (up to 45)</td>
             <td>No</td>
-            <td>Quarter 4 total amount.</td>
+            <td>Suffix of employer/client subject of lobbying</td>
         </tr>
     
     
     
         <tr>
-            <td><code>QTR_5</code></td>
-            <td>Integer</td>
+            <td><code>SUBJ_NAMT</code></td>
+            <td>String (up to 45)</td>
             <td>No</td>
-            <td>Quarter 5 total amount.</td>
+            <td>Prefix or title of employer/client subject of lobbying</td>
         </tr>
     
     
     
         <tr>
-            <td><code>QTR_6</code></td>
-            <td>Integer</td>
+            <td><code>TRAN_ID</code></td>
+            <td>String (up to 20)</td>
             <td>No</td>
-            <td>Quarter 6 total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_7</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter 7 total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_8</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter 8 total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Session identification number.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_TOTAL_AMT</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount for the session.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount for year 1 of the session.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount for year 2 of the session.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_1_YTD_AMT</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Year 1 year to date amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_2_YTD_AMT</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Year 2 year to date amount.</td>
+            <td>Permanent value unique to this item</td>
         </tr>
     
     
@@ -9955,7 +10303,7 @@ Lookup codes
 ============
 
 
-``interest_cd``
+``form_type``
 --------------------
 
 .. raw:: html
@@ -9971,98 +10319,8 @@ Lookup codes
         <tbody valign="top">
         
             <tr>
-                <td><code>40301</code></td>
-                <td>AGRICULTURE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40302</code></td>
-                <td>EDUCATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40303</code></td>
-                <td>ENTERTAINMENT/RECREATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40304</code></td>
-                <td>FINANCE/INSURANCE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40305</code></td>
-                <td>GOVERNMENT</td>
-            </tr>
-        
-            <tr>
-                <td><code>40306</code></td>
-                <td>HEALTH</td>
-            </tr>
-        
-            <tr>
-                <td><code>40307</code></td>
-                <td>LABOR UNIONS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40308</code></td>
-                <td>LEGAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40309</code></td>
-                <td>LODGING/RESTAURANTS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40310</code></td>
-                <td>MANUFACTURING/INDUSTRIAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40311</code></td>
-                <td>MERCHANDISE/RETAIL</td>
-            </tr>
-        
-            <tr>
-                <td><code>40312</code></td>
-                <td>MISCELLANEOUS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40313</code></td>
-                <td>OIL AND GAS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40314</code></td>
-                <td>POLITICAL ORGANIZATIONS</td>
-            </tr>
-        
-            <tr>
-                <td><code>40315</code></td>
-                <td>PROFESSIONAL/TRADE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40316</code></td>
-                <td>PUBLIC EMPLOYEES</td>
-            </tr>
-        
-            <tr>
-                <td><code>40317</code></td>
-                <td>REAL ESTATE</td>
-            </tr>
-        
-            <tr>
-                <td><code>40318</code></td>
-                <td>TRANSPORTATION</td>
-            </tr>
-        
-            <tr>
-                <td><code>40319</code></td>
-                <td>UTILITIES</td>
+                <td><code>F625P3B</code></td>
+                <td>Form 625 (Report of Lobbying Firm): Part 3 (Payments Made In Connection With Lobbying Activities), Section B: Payments Made</td>
             </tr>
         
         </tbody>
@@ -10072,7 +10330,44 @@ Lookup codes
         <td colspan=2>
            <small>
             Sources:
-                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p19">19</a>)
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63">63</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77">77</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+``rec_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>LOTH</code></td>
+                <td>LOTH</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Layout (Version 1.05.02) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63">63</a>),  .CAL Format Layout (Version 2.01) (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77">77</a>)
             </small>
         </td>
         </tr>
@@ -10086,220 +10381,15 @@ Lookup codes
 References
 ==========
 
-* CAL-ACCESS Tables, Columns and Indexes (`11 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p11>`_, `96-97 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p96>`_)
+* .CAL Format Layout (Version 2.01) (`77-78 <https://www.documentcloud.org/documents/2712034-Cal-Format-201.html#document/p77>`_)
+
+* .CAL Format Layout (Version 1.05.02) (`63 <https://www.documentcloud.org/documents/2712033-Cal-Format-1-05-02.html#document/p63>`_)
+
+* Map from .CAL Format to Database Table and Fields (`67-68 <https://www.documentcloud.org/documents/2711616-MapCalFormat2Fields.html#document/p67>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`106-107 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p106>`_)
 
 
-
-
-
-
-------------
-
-*********************
-LOBBYIST_FIRM_HISTORY_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "Matt
-needs to describe the relationship between the multiple tables. Documentation
-should be cloned from D H's documentation on these tables. Cox 5/11/2000"
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=LOBBYIST_FIRM_HISTORY_CD.TSV"></script>
-
-
-
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>CONTRIBUTOR_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Contributor identification number.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>CURRENT_QTR_AMT</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Current Quarter Amount</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Identification number of the Firm/Employer/Coalition.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FIRM_NAME</code></td>
-            <td>String (up to 300)</td>
-            <td>No</td>
-            <td>Name of Firm/Employer/Coalition</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_3</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_4</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_5</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_6</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_7</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>QTR_8</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Quarter total amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_ID</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Session identification number.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_TOTAL_AMT</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount for the session.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_1</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount for year 1 of the session.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>SESSION_YR_2</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Total amount for year 2 of the session.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_1_YTD_AMT</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Year 1 year to date amount.</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>YR_2_YTD_AMT</code></td>
-            <td>Integer</td>
-            <td>No</td>
-            <td>Year 2 year to date amount</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
 
 
 

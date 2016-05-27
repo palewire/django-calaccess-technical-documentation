@@ -69,16 +69,30 @@ should start from that date, the documentation says.
 
 ----------------------
 
-Do the daily exports include *all* tables in the CAL-ACCESS database?
----------------------------------------------------------------------
+Do you offer all tables in the CAL-ACCESS database?
+---------------------------------------------------
 
-No. We've compared the list of tables in the daily exports to what's described in the `official documentation <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p2>`_ provided by the Secretary of State, there as many 73 tables excluded from the daily exports.
+No. We've compared the list of tables in the daily database dump that powers this project
+to what's described in the `official CAL-ACCESS documentation <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p2>`_
+and found there are as many 73 tables excluded.
 
-Some of these missing tables have names or descriptions suggesting they could contain sensitive information, such as user credentials and bank account numbers. It's understandable that these tables would not be released.
+Some of these missing tables have names or descriptions suggesting they could
+contain sensitive information, such as user credentials and bank account numbers.
 
-However, many of these tables contain information that should be publicly available. For instance, there's a series of tables that describe elections, races and candidates that are not included in the daily exports, even though the list of candidates for the current election is `published <http://cal-access.ss.ca.gov/Campaign/Candidates/#assembly>`_ on the CAL-ACCESS website.
+It's understandable that these tables would not be released.
 
-When we `reached out <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/62#issuecomment-58655390>`_ to the Secretary of State, asking that they include any elections-related tables in the daily exports, we were told that "[g]iven our current resource constraints, staff cannot modify the database export to include that other data."
+However, many of these tables contain information that we believe should be
+publicly available.
+
+For instance, there is a series of tables that describe
+elections, races and candidates that are not included in the daily exports,
+even though the list of candidates for the current election is
+`published <http://cal-access.ss.ca.gov/Campaign/Candidates/#assembly>`_ on the CAL-ACCESS website.
+
+When we `reached out <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/62#issuecomment-58655390>`_
+to the California Secretary of State, asking that they include any elections-related
+tables in the daily dumps, we were told that "[g]iven our current resource constraints,
+staff cannot modify the database export to include that other data."
 
 Here's a sampling of missing tables we think should be made public:
 
@@ -223,35 +237,41 @@ Here's a sampling of missing tables we think should be made public:
 How do the Django applications fit together?
 --------------------------------------------
 
-The django-calaccess-raw-data application is intended as the base layer below more sophisticated apps,
-like django-calaccess-processed-data, that transform the source data and load it into simplified models to serve as a
+The :doc:`/apps/calaccess_raw` application is intended as the base layer below more sophisticated apps,
+like :doc:`/apps/calaccess_processed`, that transform the source data and load it into simplified models to serve as a
 platform for investigative analysis.
 
 
-Will django-calaccess-raw-data load *all* of the CAL-ACCESS data?
------------------------------------------------------------------
+Will django-calaccess-raw-data load all of the CAL-ACCESS data?
+---------------------------------------------------------------
 
-No. The raw data provided by the state contains some errors in how values are escaped, quoted and delimited. The result is that a small number of records we
-cannot yet automatically parse are lost during the loading process.
+No. The raw data provided by the state contains some errors in how values are escaped,
+quoted and delimited. The result is that there are a small number of records we
+cannot yet automatically parse that are lost during the loading process.
 
 However, according to our own `tracking information <http://django-calaccess-raw-data.californiacivicdata.org/en/latest/tracking.html>`_,
 99.9998% of records in the downloaded source file will be loaded into the database.
-
-For more information checkout:
-
-* The `reportcalaccessrawdata <http://django-calaccess-raw-data.californiacivicdata.org/en/latest/managementcommands.html#reportcalaccessrawdata>`_ command, which runs a several checks and produces a report on the current state of the CAL-ACCESS data
-* The `list <http://django-calaccess-raw-data.californiacivicdata.org/en/latest/calaccess_raw_files_report.csv>`_ of all CAL-ACCESS raw data files, including record and column counts at each stage of the process (this .CSV file is one of the outputs of ``reportcalaccessrawdata``)
-* Records that could not be parsed by the ``cleancalaccessrawfile`` command are in ``<myproject>/data/log``
 
 ----------------------
 
 
 Does django-calaccess-raw-data modify the source data?
 ------------------------------------------------------
+    
+We make every effort to carefully parse and load the bulk CAL-ACCESS data from
+the state "as is." Therefore, any undocumented modification of the data made
+during this process is considered a bug in the software.
 
-We make every effort to carefully parse and load the bulk CAL-ACCESS data from the state "as is." Therefore, any undocumented modification of the data made during this process is considered a bug in the software.
+.. warning::
 
-Here's our one exception: We truncate the time part of any datetime field in the raw data, and load these into our models as DateFields. We consider this modification to be of little consequence since, for the most part, these raw datetime fields are effectively date fields anyway, with a time part of 12:00:00 AM for every value. Based on our own inspections of the raw data (details found `here <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/1457>`_), very little information is being lost and whatever is lost has questionable utility.
+    One exception: We truncate the time part of any datetime field in the raw data,
+    and load these into our models as DateFields.
+    
+    We consider this modification to
+    be of little consequence since, for the most part, these raw datetime fields
+    are effectively date fields anyway, with a time part of 12:00:00 AM for every value.
+    Based on our own inspections of the raw data (details found `here <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/1457>`_),
+    very little information is being lost and whatever is lost has questionable utility.
 
 ----------------------
 
@@ -259,7 +279,7 @@ Here's our one exception: We truncate the time part of any datetime field in the
 Why does django-calaccess-raw-data use loading techniques not supported by Django?
 ----------------------------------------------------------------------------------
 
-Because the CAL-ACCESS database is huge. With more than 35 million records sprawled across 76 tables,
+Because the CAL-ACCESS database is huge. With more than 35 million records sprawled across 80 tables,
 it can take a long time to load into a database using `the standard Django tools <https://docs.djangoproject.com/es/1.9/topics/db/queries/#creating-objects>`_,
 which insert one record at a time. In our early testing, it took as long as 24 hours to load all of CAL-ACCESS
 into a database on a standard laptop computer.
@@ -291,7 +311,7 @@ and Microsoft SQL Server. But we haven't got there yet.
 Do I have to load the CAL-ACCESS data into my default database?
 ---------------------------------------------------------------
 
-No, django-calaccess-raw-data supports the use of automatic database routing,
+No, :doc:`/apps/calaccess_raw` supports the use of automatic database routing,
 which Django's own documentation describes as "the easiest way to use multiple databases".
 
 If you fall into this category, first of all, be sure you've carefully read

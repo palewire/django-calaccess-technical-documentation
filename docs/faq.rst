@@ -259,18 +259,6 @@ Here's our one exception: We truncate the time part of any datetime field in the
 ----------------------
 
 
-Why does django-calaccess-raw-data only work with PostgreSQL and MySQL databases?
-------------------------------------------------------------------------------------
-
-Because of the answer above. To run our loading routines in an acceptable amount of time, we
-need to take advantage of bulk file loading tools not currently supported by Django.
-
-So far, we have only written custom loading routines for MySQL and PostgreSQL. We would
-welcome contributions that would expand our database support to other systems, like SQLite
-and Microsoft SQL Server. But we haven't got there yet.
-
-----------------------
-
 Why does django-calaccess-raw-data use loading techniques not supported by Django?
 ----------------------------------------------------------------------------------
 
@@ -285,6 +273,19 @@ directly into the database in a small fraction of the time it would take to load
 
 As part of developing these tools we released `django-postgres-copy <http://django-postgres-copy.californiacivicdata.org/en/latest/>`_, a Django extension
 that makes it easier for us and other developers to work with these valuable tools.
+
+----------------------
+
+
+Why does django-calaccess-raw-data only work with PostgreSQL and MySQL databases?
+------------------------------------------------------------------------------------
+
+Because of the answer above. To run our loading routines in an acceptable amount of time, we
+need to take advantage of bulk file loading tools not currently supported by Django.
+
+So far, we have only written custom loading routines for MySQL and PostgreSQL. We would
+welcome contributions that would expand our database support to other systems, like SQLite
+and Microsoft SQL Server. But we haven't got there yet.
 
 ----------------------
 

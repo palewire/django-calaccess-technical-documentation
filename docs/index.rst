@@ -5,7 +5,7 @@ Technical documentation for a collection of applications that make it easier to 
 the jumbled, dirty and difficult government database that tracks campaign finance and lobbying activity
 in California politics. Built using the `Django web framework <https://www.djangoproject.com/>`_.
 
-This is a work in progress. It is developed and maintained by the `California Civic Data Coalition <http://www.californiacivicdata.org/about/>`_,
+This is a work in progress. It is maintained by the `California Civic Data Coalition <http://www.californiacivicdata.org/about/>`_,
 a open-source team of journalists and computer programmers from news organizations across America. To
 learn more and get involved, read our backstory in :doc:`the FAQ </faq>` and reach out to `our leadership team <http://www.californiacivicdata.org/about/>`_.
 

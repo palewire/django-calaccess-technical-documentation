@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.2 (June 2016)
+----------------
+
+* Include migrations in official package.
+* Fix ``verbose_name`` for ``RawDataFile.clean_file_archive``.
+
 1.0.0 (May 2016)
 ----------------
 

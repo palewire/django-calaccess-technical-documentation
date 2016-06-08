@@ -138,9 +138,6 @@ Now you're ready to create the database tables with Django using its ``manage.py
 
 .. code-block:: sh
 
-    # Create database migrations with the table schema
-    $ python manage.py makemigrations calaccess_raw
-    # Use those migrates to mint the tables in the database
     $ python manage.py migrate
 
 Once everything is set up, the :ref:`updatecalaccessrawdata` command will download the latest

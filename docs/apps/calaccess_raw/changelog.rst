@@ -1,7 +1,14 @@
 Changelog
 =========
 
-1.0.2 (June 2016)
+1.1.0 (late June 2016)
+-----------------
+
+* When `--noinput` is invoked for `updatecalaccessrawdata`, exit if previously updated to the currently available version.
+* Enforce lowercase UNIQUE_KEY settings on models.
+* Removed unnecessary pretty amount model methods as part of driving common.py models file test coverage up to 100%.
+
+1.0.2 (early June 2016)
 ----------------
 
 * Include migrations in official package.

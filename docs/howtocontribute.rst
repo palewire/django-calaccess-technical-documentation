@@ -1,7 +1,7 @@
 How to contribute
 =================
 
-This is an open-source project that welcomes contributions anyone who has the
+This is an open-source project that welcomes contributions from anyone who has the
 time and energy to help us untangle the CAL-ACCESS database. Here's how to 
 get started.
 

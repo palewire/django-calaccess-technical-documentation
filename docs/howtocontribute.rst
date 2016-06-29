@@ -8,6 +8,6 @@ get started.
 .. toctree::
    :maxdepth: 2
 
-   contribute/devs
+   contribute/calaccess_raw
    contribute/maintainers
    contribute/docs

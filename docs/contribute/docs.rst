@@ -41,7 +41,7 @@ Preparing a local environment
 
 If you want to work on changes to the documentation on your own machine (as opposed to making edits via GitHub's interface), this guide will walk you through the setup process.
 
-Much like `contributors to our apps <app_devs.html>`_, we recommend you work on these docs in a virtual environment.
+As is the case with `app developers <calaccess_raw.html#preparing-a-development-environment>`_, we recommend you work on these docs in a virtual environment.
 
 One way to accomplish is with Python's ``virtualenv`` tool and its helpful companion ``virtualenvwrapper``. If you have that installed a new project can be started with the following:
 

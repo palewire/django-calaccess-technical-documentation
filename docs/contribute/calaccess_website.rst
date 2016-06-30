@@ -13,6 +13,7 @@ We deploy and manage this infrastructure via tasks defined using `Fabric <http:/
    :maxdepth: 2
 
    calaccess_website/deployment-walkthru
+   calaccess_website/other-tasks
 
 .. Note::
     

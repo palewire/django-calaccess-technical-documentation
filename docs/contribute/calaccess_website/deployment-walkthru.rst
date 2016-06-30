@@ -1,7 +1,7 @@
 Deploying the website
 =====================
 
-This guide will walk you through the specific tasks, in order, necessary to deploy the `downloads website <apps/calaccess_downloads_site.html>`_.
+This guide will walk you through executing the specific Fabric tasks, in order, necessary to deploy the `downloads website <apps/calaccess_downloads_site.html>`_.
 
 --------------------------------------------
 
@@ -106,3 +106,6 @@ You can also connect directly to Ubuntu server via ssh:
 .. code-block:: bash
 
     $ fab ssh
+
+
+Other Fabric tasks for performing other administrative duties are described `here <other-tasks.html>`_.

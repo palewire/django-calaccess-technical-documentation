@@ -8,7 +8,7 @@ This guide will walk you through the specific tasks, in order, necessary to depl
 Step 1: Configure the environment
 ---------------------------------
 
-First, you need to set configurations necessary for starting and connecting the servers:
+First, you need to set a few configurations:
 
 .. code-block:: bash
 
@@ -26,14 +26,14 @@ You will prompted to provide:
 
 You will also be prompted to provide addresses for an RDS and EC2 instance in case these servers are already up and running. Otherwise, press ENTER to skip for now.
 
-These configurations will be stored locally in a ``.env`` file that is ignored by git.
+These configurations will be stored locally in a ``.env`` file (ignored by git). When needed, these settings will be read into the environment in which Fabric or the Django project is running.
 
 --------------------------------------------
 
 Step 2: Create an RDS instance
 ------------------------------
 
-Second (unless you already have one running), you need to spin up PosgreSQL which will server as the database backend for the website. You're required to provide and instance name, ``download-website`` for example:
+Second (unless you already have one up and running), you need to spin up a PosgreSQL server which will be the database backend for the website. You're required to provide an instance name, ``download-website`` for example:
 
 .. code-block:: bash
 
@@ -54,13 +54,13 @@ Note that the address for the RDS host will automatically be added to your confi
 Step 3: Create and EC2 Instance
 -------------------------------
 
-Next, you need to spin up a new Ubuntu 14.04 server which will run the Django project.
+Next, you need to spin up a new Ubuntu 14.04 server to host the Django project.
 
 .. code-block:: bash
 
     $ fab createec2
 
-By default, the server will have 100 GBs of disk space allocated on a c3.large class instance. If need be, you can override these settings:
+By default, the server will have 100 GBs of disk space allocated on a c3.large `class instance <https://aws.amazon.com/ec2/instance-types/>`_. If need be, you can override these settings:
 
 .. code-block:: bash
 
@@ -85,9 +85,9 @@ Finally, you're ready to bootstrap the Django project on the Ubuntu server:
 
     $ fab bootstrap
 
-After connecting to your current EC2 instance, a framework called `Chef <https://www.chef.io/chef/>`_ and its dependencies, including Ruby, will be installed on the server. Chef is used to configure the server and install downloads website code.
+After connecting to your current EC2 instance, a framework called `Chef <https://www.chef.io/chef/>`_ and its dependencies, including Ruby, will be installed on the server. Chef is used to configure the server and install the downloads website code.
 
-The ``bootstrap`` task also sets up crontab job to execute the raw-data app's ``updatecalaccessrawdata`` command every six hours, effectively automating the collection, extraction and processing of the daily CAL-ACCESS database exports.
+The ``bootstrap`` task also sets up a crontab job to execute the raw-data app's ``updatecalaccessrawdata`` command every six hours, effectively automating the collection, extraction and processing of the daily CAL-ACCESS database exports.
 
 --------------------------------------------
 
@@ -101,7 +101,7 @@ And that's it! If you like, you can start the Django site server:
     $ fab runserver
 
 
-If need be, you can also connect directly to Ubuntu server via ssh:
+You can also connect directly to Ubuntu server via ssh:
 
 .. code-block:: bash
 

@@ -31,7 +31,7 @@ Next install the other Python libraries our code depends on.
 
 .. code-block:: bash
 
-    $ pip install -r requirements_dev.txt
+    $ pip install -r requirements.txt
 
 ---------------
 

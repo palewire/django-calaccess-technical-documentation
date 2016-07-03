@@ -12,9 +12,9 @@ The steps to follow each time release a new version of a Django package.
     * Consider including RC (release candidate) in release name until we're sure we're uploading a package with all tiny details accounted for
 
 * Update ``requirements.txt`` with any new dependencies
-* Run ``python setup.py sdist``, make sure their aren't any errors
+* Run ``python setup.py sdist bdist_wheel``, make sure their aren't any errors
 * Spotcheck new release package in dist/ to make sure all files made it in.
-* Run ``python setup.py sdist upload``
+* Run ``python setup.py sdist bdist_wheel upload``
 * Release on GitHub
 
     * ``git commit`` final change and run ``git tag "v#.#.#"`` with whatever the release number is

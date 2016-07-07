@@ -5,7 +5,7 @@ Common tables
 ================================
 
 
-The CAL-ACCESS database contains 31 tables that, according to the
+The CAL-ACCESS database contains 30 tables that, according to the
 :doc:`official documentation </calaccess/officialdocumentation>`,
 store information common to campaign finance and lobbyist disclosure filings.
 
@@ -17,11 +17,9 @@ store information common to campaign finance and lobbyist disclosure filings.
 FILERNAME_CD
 *********************
 
-A combination of CAL-ACCESS tables to provide the analyst with
-filer information.
+A combination of CAL-ACCESS tables to provide the analyst with filer information.
 
-Full name of all PACs, firms, and employers are in the last
-name field.
+Full name of all PACs, firms, and employers are in the last name field.
 
 Major donors can be split between first and last name fields, but usually
 are contained in the last name field only. Individual names of lobbyists,
@@ -51,8 +49,6 @@ Unique key
         <tr>
         
             <td><code>FILER_ID</code></td>
-        
-            <td><code>NAMID</code></td>
         
         </tr>
     </tbody>
@@ -455,8 +451,6 @@ References
 
 * FAQ (`2 <https://www.documentcloud.org/documents/2711615-FAQ.html#document/p2>`_)
 
-* CAL-ACCESS Tables, Columns and Indexes (`9 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p9>`_, `67-68 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p67>`_)
-
 
 
 
@@ -468,9 +462,9 @@ References
 FILER_FILINGS_CD
 *********************
 
-Key table that links filers to their paper, key data entry, legacy,
-and electronic filings. This table is used as an index to locate
-filing information.
+Links filers to their filings.
+
+Used as the index to locate filing information.
 
 
 Sample
@@ -887,7 +881,7 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number</td>
         </tr>
     
     
@@ -1521,8 +1515,7 @@ References
 FILINGS_CD
 *********************
 
-This table is the parent table from which all links and association to
-a filing are derived.
+The parent table from which all links and associations to a filing are derived.
 
 
 Sample
@@ -1576,7 +1569,7 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number</td>
         </tr>
     
     
@@ -1677,8 +1670,9 @@ References
 HDR_CD
 *********************
 
-Electronic filing record header data. Contains information
-identifying vendor and Cal Format version.
+Electronic filing record header data.
+
+Contains information identifying vendor and Cal Format version.
 
 
 Sample
@@ -1761,7 +1755,7 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number</td>
         </tr>
     
     
@@ -2528,7 +2522,7 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number</td>
         </tr>
     
     
@@ -2910,8 +2904,7 @@ References
 CVR_E530_CD
 *********************
 
-Probably Cover Pages for Electronic Form 530. This table is listed in the record
-layouts, but neither table nor any of its columns are labeled.
+Cover Pages for Electronic Form 530.
 
 
 Sample
@@ -2987,7 +2980,7 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number</td>
         </tr>
     
     
@@ -4664,8 +4657,7 @@ References
 SPLT_CD
 *********************
 
-Split Transaction Record - Used as a child record for schedules:
-A, B1, B2, C, D, H and/or F450P5 when disclosing Per Election to Date information.
+Split transaction records used as a child record for a number of forms.
 
 
 Sample
@@ -4790,7 +4782,7 @@ Fields
             <td><code>ELEC_AMOUNT</code></td>
             <td>Decimal number</td>
             <td>No</td>
-            <td>Per Election to Date Amount</td>
+            <td>Per election to date amount</td>
         </tr>
     
     
@@ -4799,7 +4791,7 @@ Fields
             <td><code>ELEC_CODE</code></td>
             <td>String (up to 2)</td>
             <td>No</td>
-            <td>Per Election to Date Code</td>
+            <td>Per election to date code</td>
         </tr>
     
     
@@ -4808,7 +4800,7 @@ Fields
             <td><code>ELEC_DATE</code></td>
             <td>Date (without time)</td>
             <td>No</td>
-            <td>Date of Election</td>
+            <td>Date of election</td>
         </tr>
     
     
@@ -4817,7 +4809,7 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number</td>
         </tr>
     
     
@@ -5057,7 +5049,7 @@ References
 TEXT_MEMO_CD
 *********************
 
-Text memos attached to electronic filings
+Text memos attached to electronic filings.
 
 
 Sample
@@ -5331,7 +5323,7 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>Yes</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number</td>
         </tr>
     
     
@@ -6093,9 +6085,7 @@ Fields
 ADDRESS_CD
 *********************
 
-This table holds all addresses for the system. This table can be used
-for address-based searches and formes the bases for address information
-desplayed by the AMS.
+Holds all addresses for the system.
 
 
 Sample
@@ -6220,7 +6210,9 @@ Fields
 EFS_FILING_LOG_CD
 *********************
 
-Electronic Filing Subsystem Log. The EFS accepts and validates electronic filings.
+Electronic Filing Subsystem Log.
+
+The EFS accepts and validates electronic filings.
 
 
 Sample
@@ -6693,8 +6685,7 @@ References
 FILERS_CD
 *********************
 
-This table is the parent table from which all links and associations
-to a filer are derived.
+The parent table from which all links and associations to a filer are derived.
 
 
 Sample
@@ -6765,7 +6756,7 @@ Fields
 FILER_ACRONYMS_CD
 *********************
 
-Links acronyms to filers
+Links acronyms to filers.
 
 
 Sample
@@ -6847,8 +6838,9 @@ Fields
 FILER_ADDRESS_CD
 *********************
 
-Links filers and addresses. This table maintains a history of when
-addresses change.
+Links filers and addresses.
+
+Maintains a history of when addresses change.
 
 
 Sample
@@ -7032,7 +7024,7 @@ References
 FILER_ETHICS_CLASS_CD
 *********************
 
-This table stores lobbyist ethics training dates.
+Stores lobbyist ethics training dates.
 
 
 Sample
@@ -7695,8 +7687,7 @@ References
 FILER_STATUS_TYPES_CD
 *********************
 
-This is an undocumented model that contains a small number
-of codes and definitions that map to values in FILERNAME_CD.STATUS.
+An undocumented model that contains a small number of codes that map to FILERNAME_CD.STATUS.
 
 
 Sample
@@ -7776,9 +7767,9 @@ Fields
 FILER_TO_FILER_TYPE_CD
 *********************
 
-This table links a filer to a set of characteristics that describe the
-filer. This table maintains a history of changes and allows the filer
-to change characteristics over time.
+Links a filer to a set of characteristics that describe the filer.
+
+Maintains a history of changes and allows the filer to change characteristics over time.
 
 
 Sample
@@ -10104,7 +10095,7 @@ Unique key
     <tbody valign="top">
         <tr>
         
-            <td><code>FILTER_TYPE</code></td>
+            <td><code>FILER_TYPE</code></td>
         
         </tr>
     </tbody>
@@ -10132,7 +10123,7 @@ Fields
         <tr>
             <td><code>FILER_TYPE</code></td>
             <td>Integer</td>
-            <td>No</td>
+            <td>Yes</td>
             <td>Filer type identification number</td>
         </tr>
     
@@ -10251,9 +10242,7 @@ References
 FILER_XREF_CD
 *********************
 
-This table maps legacy filer identification numbers to the system's filer
-identification numbers. Although 60 percent of the FILER_ID and XREF_ID values
-are equal.
+This table maps legacy filer identification numbers to the system's filer identification numbers.
 
 
 Sample
@@ -10353,8 +10342,7 @@ Fields
 FILING_PERIOD_CD
 *********************
 
-An undocumented table that contains metadata for a variety
-of filing periods.
+An undocumented table that contains metadata for a variety of filing periods.
 
 
 Sample
@@ -10566,9 +10554,10 @@ References
 GROUP_TYPES_CD
 *********************
 
-This lookup table stores group type information. Most (but not all) of the GRP_ID/
-GRP_NAME value pairs in this table match the FILER_TYPE/DESCRIPTION value pairs in
-the FILER_TYPE_CD table.
+This lookup table stores group type information.
+
+Most (but not all) of the GRP_ID/GRP_NAME value pairs in this table match
+the FILER_TYPE/DESCRIPTION value pairs in the FILER_TYPE_CD table.
 
 
 Sample
@@ -11058,8 +11047,9 @@ Fields
 NAMES_CD
 *********************
 
-The name of all entities in the system. Used for searches when
-the name has an identification number.
+The name of all entities in the system.
+
+Used for searches when the name has an identification number.
 
 
 Sample
@@ -11457,7 +11447,7 @@ Fields
             <td><code>FILING_ID</code></td>
             <td>Integer</td>
             <td>No</td>
-            <td>Unique filing identificiation number</td>
+            <td>Unique filing identification number</td>
         </tr>
     
     
@@ -11849,181 +11839,6 @@ References
 ==========
 
 * CAL-ACCESS Tables, Columns and Indexes (`13 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p13>`_, `122 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p122>`_)
-
-
-
-
-
-
-------------
-
-*********************
-FILER_TYPE_PERIODS_CD
-*********************
-
-This table and its fields are listed in the official CAL-ACCESS documentation,
-but is not fully explained. The table's description contains this note: "J M needs
-to document. This is in his list of tables designed for future enhancements."
-
-
-Sample
-======
-
-.. raw:: html
-
-    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=FILER_TYPE_PERIODS_CD.TSV"></script>
-
-
-
-
-Unique key
-==========
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <tbody valign="top">
-        <tr>
-        
-            <td><code>ELECTION_TYPE</code></td>
-        
-            <td><code>FILER_TYPE</code></td>
-        
-            <td><code>PERIOD_ID</code></td>
-        
-        </tr>
-    </tbody>
-    </table>
-
-
-Fields
-======
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-    <table border="1" class="docutils">
-    <thead valign="bottom">
-        <tr>
-            <th class="head">Name</th>
-            <th class="head">Type</th>
-            <th class="head">Unique key</th>
-            <th class="head">Definition</th>
-        </tr>
-    </thead>
-    <tbody valign="top">
-    
-    
-    
-    
-        <tr>
-            <td><code>ELECTION_TYPE</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Election type</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>FILER_TYPE</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Foreign key referencing FilerTypesCd.filer_type</td>
-        </tr>
-    
-    
-    
-        <tr>
-            <td><code>PERIOD_ID</code></td>
-            <td>Integer</td>
-            <td>Yes</td>
-            <td>Foreign key referencing FilingPeriodCd.period_id</td>
-        </tr>
-    
-    
-    </tbody>
-    </table>
-    </div>
-
-
-Lookup codes
-============
-
-
-``election_type``
---------------------
-
-.. raw:: html
-
-    <div class="wy-table-responsive">
-        <table border="1" class="docutils">
-        <thead valign="bottom">
-            <tr>
-                <th class="head">Code</th>
-                <th class="head">Definition</th>
-            </tr>
-        </thead>
-        <tbody valign="top">
-        
-            <tr>
-                <td><code>0</code></td>
-                <td>N/A</td>
-            </tr>
-        
-            <tr>
-                <td><code>3001</code></td>
-                <td>GENERAL</td>
-            </tr>
-        
-            <tr>
-                <td><code>3002</code></td>
-                <td>PRIMARY</td>
-            </tr>
-        
-            <tr>
-                <td><code>3003</code></td>
-                <td>RECALL</td>
-            </tr>
-        
-            <tr>
-                <td><code>3004</code></td>
-                <td>SPECIAL ELECTION</td>
-            </tr>
-        
-            <tr>
-                <td><code>3005</code></td>
-                <td>OFFICEHOLDER</td>
-            </tr>
-        
-            <tr>
-                <td><code>3006</code></td>
-                <td>SPECIAL RUNOFF</td>
-            </tr>
-        
-        </tbody>
-        
-        <tfoot class="footnote">
-        <tr>
-        <td colspan=2>
-           <small>
-            Sources:
-                 Lookup-Codes-Cd (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2774529-Lookup-Codes-Cd.html#document/p3">3-4</a>)
-            </small>
-        </td>
-        </tr>
-        </tfoot>
-        
-        </table>
-    </div>
-
-
-
-References
-==========
-
-* CAL-ACCESS Tables, Columns and Indexes (`8 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p8>`_, `71 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p71>`_)
 
 
 

@@ -1454,7 +1454,7 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/campaign_tables.html#cvr-f470-cd">
+                <a href="../dbtables/inactive_tables.html#cvr-f470-cd">
                     CVR_F470_CD
                 </a>
             </td>

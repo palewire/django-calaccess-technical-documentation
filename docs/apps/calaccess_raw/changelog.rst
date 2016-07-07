@@ -1,10 +1,45 @@
 Changelog
 =========
 
+1.2.0 (July 2016)
+-----------------
+
+* Enhancements to tracking models
+
+  * Zero pad datetime parts of archive dir (for better sorting)
+  * Calculate and store load_columns_count and load_records_count in ``loadcalaccessrawfile``
+  * Added error_count and error_log_archive fields to RawDataFile in order to track bad line parses during ``cleancalaccessrawfile``.
+  * Added download_file_size and clean_file_size to RawDataFile.
+
+* Enhancements to CalAccess models
+  
+  * Added inactive models group for CAL-ACCESS tables that are empty or apparently no longer in use.
+  * Added a CalAccessMetaClass to automatically configure meta attributes common to all models.
+  * Added a custom admin for every model.
+  * Model verbose names are pre-fixed with model groups
+  * Edits to model doc strings.
+
+* Enhancements to management commands
+
+  * Added standard logging.
+  * Added a logger.info to the end of the ``updatecalaccessrawdata`` command to allow sending of emails when finished
+  * Edits to command doc strings.
+
+* More tests
+
+  * Test to confirm that any field included in a model's ``UNIQUE_KEY`` attribute actually exists on the model.
+  * Test to confirm that every model has a custom admin.
+
+* Bug fixes
+
+  * Fixed numbers in clean_records_count for RawDataFile.
+  * Fixed line numbers logged in errors.csv files.
+  * Write output of ``reportcalaccessrawdata`` to data directory instead of ``REPO_DIR``, which may not be in settings.
+
 1.1.0 (late June 2016)
 ----------------------
 
-* When `--noinput` is invoked for `updatecalaccessrawdata`, exit if previously updated to the currently available version.
+* When `--noinput` is invoked for ``updatecalaccessrawdata``, exit if previously updated to the currently available version.
 * Enforce lowercase UNIQUE_KEY settings on models.
 * Removed unnecessary pretty amount model methods as part of driving common.py models file test coverage up to 100%.
 

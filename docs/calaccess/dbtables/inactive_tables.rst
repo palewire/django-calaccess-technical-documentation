@@ -5,7 +5,7 @@ Inactive tables
 ================================
 
 
-We've classifed the following 22 tables because:
+We've classifed the following 23 tables because:
 
 1. An empty .TSV file of the same name is included in the daily CAL-ACCESS exports; or
 2. The date field on the table indicating when each record was created contains only dates older than three years ago.
@@ -1084,7 +1084,14 @@ References
 LOBBYIST_CONTRIBUTIONS1_CD
 *********************
 
-Lobbyist contribution disclosure table.
+This table is 95 percent identical to LOBBYIST_CONTRIBUTIONS2_CD and LOBBYIST_CONTRIBUTIONS3_CD.
+
+According to "Cal-Access Tables, Columns, Indexes", this is a temporary
+table used to generate the actual Lobbyist contribution disclosure table,
+which is LOBBYIST_CONTRIBUTIONS3_CD.
+
+Also, the most recent values observed in FILING_PERIOD_START_DT are for the
+April 2001, so probably this table is no longer in use.
 
 
 Sample
@@ -1193,7 +1200,14 @@ Fields
 LOBBYIST_CONTRIBUTIONS2_CD
 *********************
 
-Lobbyist contribution disclosure table.
+This table is 95 percent identical to LOBBYIST_CONTRIBUTIONS1_CD and LOBBYIST_CONTRIBUTIONS3_CD.
+
+According to "Cal-Access Tables, Columns, Indexes", this is a temporary
+table used to generate the actual Lobbyist contribution disclosure table,
+which is LOBBYIST_CONTRIBUTIONS3_CD.
+
+Also, the most recent values observed in FILING_PERIOD_START_DT are for the
+April 2001, so probably this table is no longer in use.
 
 
 Sample
@@ -1302,7 +1316,14 @@ Fields
 LOBBYIST_CONTRIBUTIONS3_CD
 *********************
 
-Lobbyist contribution disclosure table.
+This table is 95 percent identical to LOBBYIST_CONTRIBUTIONS1_CD and LOBBYIST_CONTRIBUTIONS2_CD.
+
+According to "Cal-Access Tables, Columns, Indexes", this is the actual
+Lobbyist contribution disclosure table generated from the other two
+temporary tables: LOBBYIST_CONTRIBUTIONS1_CD and LOBBYIST_CONTRIBUTIONS2_CD.
+
+Also, the most recent values observed in FILING_PERIOD_START_DT are for the
+April 2001, so probably this table is no longer in use.
 
 
 Sample
@@ -4696,6 +4717,481 @@ Fields
     </tbody>
     </table>
     </div>
+
+
+
+
+------------
+
+*********************
+EFS_FILING_LOG_CD
+*********************
+
+Electronic Filing Subsystem Log.
+
+The EFS accepts and validates electronic filings.
+
+
+Sample
+======
+
+.. raw:: html
+
+    <script src="https://gist.github.com/palewire/66bed097ddca855c36506da4b7c0d349.js?file=EFS_FILING_LOG_CD.TSV"></script>
+
+
+Forms
+=====
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-400">Form 400</a>:
+                Statement of Organization (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-401">Form 401</a>:
+                Slate Mailer Organization Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-402">Form 402</a>:
+                Statement of Termination (Slate Mailer Organization)
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-410">Form 410</a>:
+                Statement of Organization Recipient Committee
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-425">Form 425</a>:
+                Semi-Annual Statement of no Activity
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-450">Form 450</a>:
+                Recipient Committee Campaign Disclosure Statement - Short Form
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-460">Form 460</a>:
+                Recipient Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-461">Form 461</a>:
+                Independent Expenditure Committee & Major Donor Committee Campaign Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-465">Form 465</a>:
+                Supplemental Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-496">Form 496</a>:
+                Late Independent Expenditure Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-497">Form 497</a>:
+                Late Contribution Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/campaign_forms.html#form-498">Form 498</a>:
+                Slate Mailer Late Payment Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-601">Form 601</a>:
+                Lobbying Firm Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-602">Form 602</a>:
+                Lobbying Firm Activity Authorization
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-603">Form 603</a>:
+                Lobbyist Employer or Lobbying Coalition Registration Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-604">Form 604</a>:
+                Lobbyist Certification Statement
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-606">Form 606</a>:
+                Notice of Termination
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-607">Form 607</a>:
+                Notice of Withdrawal
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-615">Form 615</a>:
+                Lobbyist Report
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-625">Form 625</a>:
+                Report of Lobbying Firm
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-635">Form 635</a>:
+                Report of Lobbyist Employer or Report of Lobbying Coalition
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <a href="../filingforms/lobbyist_forms.html#form-645">Form 645</a>:
+                Report of Person Spending $5,000 or More
+            </td>
+        </tr>
+        
+        
+    </tbody>
+    </table>
+
+
+
+Unique key
+==========
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+        <tr>
+        
+            <td><code>FILING_DATE</code></td>
+        
+            <td><code>VENDOR</code></td>
+        
+        </tr>
+    </tbody>
+    </table>
+
+
+Fields
+======
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <thead valign="bottom">
+        <tr>
+            <th class="head">Name</th>
+            <th class="head">Type</th>
+            <th class="head">Unique key</th>
+            <th class="head">Definition</th>
+        </tr>
+    </thead>
+    <tbody valign="top">
+    
+    
+    
+    
+        <tr>
+            <td><code>FILING_DATE</code></td>
+            <td>Date (without time)</td>
+            <td>Yes</td>
+            <td>Date of filing</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILINGSTATUS</code></td>
+            <td>Integer</td>
+            <td>No</td>
+            <td>Status of filing. This field is described in the docs as beingVARCHAR. However, its distinct values are 0, 1, 2 and 7.</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>VENDOR</code></td>
+            <td>String (up to 250)</td>
+            <td>Yes</td>
+            <td>Software vendor who submitted the electronic filing</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FILER_ID</code></td>
+            <td>String (up to 250)</td>
+            <td>No</td>
+            <td>Filer&#39;s unique identification number</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>FORM_TYPE</code></td>
+            <td>String (up to 250)</td>
+            <td>No</td>
+            <td>Name of the source filing form or schedule</td>
+        </tr>
+    
+    
+    
+        <tr>
+            <td><code>ERROR_NO</code></td>
+            <td>String (up to 250)</td>
+            <td>No</td>
+            <td>Most records have a value of &quot;ACCEPTED&quot;. Other records include &quot;ERROR&quot;or &quot;BADFORMAT&quot; and a three-digit number.</td>
+        </tr>
+    
+    
+    </tbody>
+    </table>
+    </div>
+
+
+Lookup codes
+============
+
+
+``form_type``
+--------------------
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+        <table border="1" class="docutils">
+        <thead valign="bottom">
+            <tr>
+                <th class="head">Code</th>
+                <th class="head">Definition</th>
+            </tr>
+        </thead>
+        <tbody valign="top">
+        
+            <tr>
+                <td><code>F400</code></td>
+                <td>Form 400: Statement of Organization (Slate Mailer Organization)</td>
+            </tr>
+        
+            <tr>
+                <td><code>F401</code></td>
+                <td>Form 401: Slate Mailer Organization Campaign Statement</td>
+            </tr>
+        
+            <tr>
+                <td><code>F402</code></td>
+                <td>Form 402: Statement of Termination (Slate Mailer Organization)</td>
+            </tr>
+        
+            <tr>
+                <td><code>F410</code></td>
+                <td>Form 410: Statement of Organization Recipient Committee</td>
+            </tr>
+        
+            <tr>
+                <td><code>F425</code></td>
+                <td>Form 425: Semi-Annual Statement of no Activity</td>
+            </tr>
+        
+            <tr>
+                <td><code>F450</code></td>
+                <td>Form 450: Recipient Committee Campaign Disclosure Statement - Short Form</td>
+            </tr>
+        
+            <tr>
+                <td><code>F460</code></td>
+                <td>Form 460: Recipient Committee Campaign Statement</td>
+            </tr>
+        
+            <tr>
+                <td><code>F461</code></td>
+                <td>Form 461: Independent Expenditure Committee &amp; Major Donor Committee Campaign Statement</td>
+            </tr>
+        
+            <tr>
+                <td><code>F465</code></td>
+                <td>Form 465: Supplemental Independent Expenditure Report</td>
+            </tr>
+        
+            <tr>
+                <td><code>F496</code></td>
+                <td>Form 496: Late Independent Expenditure Report</td>
+            </tr>
+        
+            <tr>
+                <td><code>F497</code></td>
+                <td>Form 497: Late Contribution Report</td>
+            </tr>
+        
+            <tr>
+                <td><code>F498</code></td>
+                <td>Form 498: Slate Mailer Late Payment Report</td>
+            </tr>
+        
+            <tr>
+                <td><code>F601</code></td>
+                <td>Form 601: Lobbying Firm Registration Statement</td>
+            </tr>
+        
+            <tr>
+                <td><code>F602</code></td>
+                <td>Form 602: Lobbying Firm Activity Authorization</td>
+            </tr>
+        
+            <tr>
+                <td><code>F603</code></td>
+                <td>Form 603: Lobbyist Employer or Lobbying Coalition Registration Statement</td>
+            </tr>
+        
+            <tr>
+                <td><code>F604</code></td>
+                <td>Form 604: Lobbyist Certification Statement</td>
+            </tr>
+        
+            <tr>
+                <td><code>F606</code></td>
+                <td>Form 606: Notice of Termination</td>
+            </tr>
+        
+            <tr>
+                <td><code>F607</code></td>
+                <td>Form 607: Notice of Withdrawal</td>
+            </tr>
+        
+            <tr>
+                <td><code>F615</code></td>
+                <td>Form 615: Lobbyist Report</td>
+            </tr>
+        
+            <tr>
+                <td><code>F625</code></td>
+                <td>Form 625: Report of Lobbying Firm</td>
+            </tr>
+        
+            <tr>
+                <td><code>F635</code></td>
+                <td>Form 635: Report of Lobbyist Employer or Report of Lobbying Coalition</td>
+            </tr>
+        
+            <tr>
+                <td><code>F645</code></td>
+                <td>Form 645: Report of Person Spending $5,000 or More</td>
+            </tr>
+        
+            <tr>
+                <td><code>BADFORMAT 253</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+            <tr>
+                <td><code>form</code></td>
+                <td>Unknown</td>
+            </tr>
+        
+        </tbody>
+        
+        <tfoot class="footnote">
+        <tr>
+        <td colspan=2>
+           <small>
+            Sources:
+                 .CAL Format Overview (<a class="reference external image-reference" href="https://www.documentcloud.org/documents/2711624-Overview.html#document/p4">4-8</a>)
+            </small>
+        </td>
+        </tr>
+        </tfoot>
+        
+        </table>
+    </div>
+
+
+
+References
+==========
+
+* .CAL Format Overview (`1-2 <https://www.documentcloud.org/documents/2711624-Overview.html#document/p1>`_)
+
+* CAL-ACCESS Tables, Columns and Indexes (`49-50 <https://www.documentcloud.org/documents/2711614-CalAccessTablesWeb.html#document/p49>`_)
+
+
 
 
 

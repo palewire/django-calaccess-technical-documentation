@@ -89,16 +89,16 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/common_tables.html#filer-filings-cd">
-                    FILER_FILINGS_CD
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
     
         <tr>
             <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
                 </a>
             </td>
         </tr>
@@ -225,6 +225,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -243,14 +251,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -349,16 +349,16 @@ Database tables
     
         <tr>
             <td>
-                <a href="../dbtables/common_tables.html#filer-filings-cd">
-                    FILER_FILINGS_CD
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
     
         <tr>
             <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
+                <a href="../dbtables/common_tables.html#filer-filings-cd">
+                    FILER_FILINGS_CD
                 </a>
             </td>
         </tr>
@@ -545,6 +545,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -555,14 +563,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -672,6 +672,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -682,14 +690,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -827,6 +827,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -853,14 +861,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -1055,6 +1055,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -1081,14 +1089,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -1204,6 +1204,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -1222,14 +1230,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -1356,6 +1356,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -1374,14 +1382,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -1631,6 +1631,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -1641,14 +1649,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -1747,6 +1747,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -1757,14 +1765,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>
@@ -1863,6 +1863,14 @@ Database tables
     
         <tr>
             <td>
+                <a href="../dbtables/inactive_tables.html#efs-filing-log-cd">
+                    EFS_FILING_LOG_CD
+                </a>
+            </td>
+        </tr>
+    
+        <tr>
+            <td>
                 <a href="../dbtables/common_tables.html#filer-filings-cd">
                     FILER_FILINGS_CD
                 </a>
@@ -1873,14 +1881,6 @@ Database tables
             <td>
                 <a href="../dbtables/common_tables.html#text-memo-cd">
                     TEXT_MEMO_CD
-                </a>
-            </td>
-        </tr>
-    
-        <tr>
-            <td>
-                <a href="../dbtables/common_tables.html#efs-filing-log-cd">
-                    EFS_FILING_LOG_CD
                 </a>
             </td>
         </tr>

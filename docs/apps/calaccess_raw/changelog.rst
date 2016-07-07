@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.3.0 (July 2016)
+-----------------
+
+* Now distributing on wheels.
+* Added error_count to output ``reportcalaccessrawdata`` and excluded any unspecified fields.
+* Added model property to RawDataFile that returns the CalAccess model object.
+
 1.2.0 (July 2016)
 -----------------
 

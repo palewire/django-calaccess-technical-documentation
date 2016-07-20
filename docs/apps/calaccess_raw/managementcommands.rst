@@ -13,7 +13,7 @@ As with any Django app management command, these can be invoked on the command l
 updatecalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~
 
-This master command. It brings together all of the other update commands to
+This is the master command. It brings together all of the other update commands to
 download, unzip, clean and load the latest snapshot of the CAL-ACCESS database.
 
 Examples

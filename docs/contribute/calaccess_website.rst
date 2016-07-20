@@ -12,16 +12,6 @@ We deploy and manage this infrastructure via tasks defined using `Fabric <http:/
 .. toctree::
    :maxdepth: 2
 
+   calaccess_website/env-prep
    calaccess_website/deployment-walkthru
-   calaccess_website/other-tasks
-
-.. Note::
-    
-    Fabric allows you to run one task after the other in a single fab command-line call like so:
-
-    .. code-block:: bash
-
-        $ fab task1 task2
-
-    Which can be useful for chaining task together for ad-hoc administrative processes. Read more `here <http://docs.fabfile.org/en/1.11/usage/fab.html>`_.
-
+   calaccess_website/fab-task-index

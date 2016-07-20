@@ -12,7 +12,7 @@ Preparing a development environment
 It is not required, but it is recommended that development of the library be
 done from within a contained virtual environment.
 
-One way to accomplish that is with a two related Python packages: ``virtualenv`` and ``virtualenvwrapper``. If you have both of these installed, a new project can be started with the following:
+One way to accomplish that is with a two related Python packages: ``virtualenv`` and ``virtualenvwrapper``. If you have both of these installed, a new project can be easily setup by invoking a single command:
 
 .. code-block:: bash
 
@@ -44,7 +44,7 @@ By default, the downloads website will be configured in ``DEV`` mode. If you nee
 
     $ export CALACCESS_WEBSITE_ENV=PROD
 
-If you are using virtualenv and virtualenvwrapper (as we recommend), you might add the above line of code to your ``$VIRTUAL_ENV/bin/postactivate`` script so that whenever you start the project's virtual environment (like so):
+If you are using virtualenv and virtualenvwrapper (as we recommend), you might add the above line of code to your ``$VIRTUAL_ENV/bin/postactivate`` script so that whenever you start the project's virtual environment, like so:
 
 .. code-block:: bash
 
@@ -73,13 +73,13 @@ Next, you need to set a few configurations necessary for running and deploying t
 You will prompted to provide:
 
 * An AWS Access Key ID and Secret Access Key (read more `here <https://aws.amazon.com/developers/access-keys/>`_).
-* An AWS region (defaults to 'us-west-2').
-* An SSH key-pair file name (defaults to 'my-key-pair'). This assumes you have a key pair stored in ``~/.ec2/my-key-pair.pem`` (if not, you should create one).
+* An AWS region (defaults to ``us-west-2``).
+* An SSH key-pair file name (defaults to ``my-key-pair``). This assumes you have a key pair stored in ``~/.ec2/my-key-pair.pem`` (if not, you should create one).
 * The name of the PostgreSQL database that will serve as the backend for the downloads website (defaults to 'calaccess_website').
 * The name of the database user the django app will use to connect to the database (defaults to ccdc).
 * The password for the database user.
-* The name of the S3 bucket where the data files will be archived (defaults to 'django-calaccess-dev-data-archive').
-* The name of the S3 bucket where the "baked" content files will stored (defaults to 'django-calaccess-dev-baked-content')
+* The name of the S3 bucket where the data files will be archived (defaults to ``django-calaccess-dev-data-archive``).
+* The name of the S3 bucket where the "baked" content files will stored (defaults to ``django-calaccess-dev-baked-content``)
 * The host email address and password (press ENTER to skip, if not desired).
 * Addresses for the RDS and EC2 instances, in case these servers are already up and running. If now, press ENTER to skip for now, and spin them up later.
 

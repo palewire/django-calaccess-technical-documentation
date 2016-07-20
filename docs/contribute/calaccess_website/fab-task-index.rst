@@ -43,7 +43,7 @@ Optional arguments:
 
 Creates an EC2 key pair and saves it to a .pem file.
 
-The ``name`` for the key is the only positional argument:
+The ``name`` for the key pair is the only positional argument:
 
 .. code-block:: bash
 
@@ -80,12 +80,15 @@ Optional arguments:
 Copy the most recent snapshot on the source AWS RDS instance to the destination RDS instance.
 
 The positional arguments are:
-* ``src_db_instance_id``, which identifies the source from which to create a copy
-* ``dest_db_instance_id``, which identifies the destination of the copy.
 
-This action will delete the current database on the destination instance.
+* ``src_db_instance_id``, which identifies the source instance from which to create a copy
+* ``dest_db_instance_id``, which identifies the destination instance for the copy.
 
-This task can be useful, for example, if you want to replicate the production database to a dev instance.
+.. Warning::
+    
+    The current database on the destination instance will be deleted.
+
+You might execute this task, for example, if you want to replicate the production database to a dev instance.
 
 .. code-block:: bash
 
@@ -124,7 +127,7 @@ Run a full deployment of code to the remote server.
 
 More specifically, this task executes the following sub-tasks in order:
 
-1. ``pull``
+1. ``pull`` 
 2. ``rmpyc``
 3. ``pipinstall``
 4. ``migrate``
@@ -141,10 +144,11 @@ The only positional argument is ``cmd``. For example, if you wanted to kickstart
 
     $ fab manage:updatecalaccessrawdata
 
+
 ``migrate``
 ~~~~~~~~~~
 
-Migrate the database:
+Migrate the database using Django's built-in ``migrate`` command.
 
 .. code-block:: bash
 
@@ -186,7 +190,7 @@ Erases pyc files from the app's code directory.
 Chef
 ----
 
-Tasks relate to installing and executing `Chef <https://www.chef.io/chef/>`_, the Ruby framework we use to set up the Ubuntu server that hosts the Django project.
+Tasks related to installing and executing `Chef <https://www.chef.io/chef/>`_, the Ruby framework we use to set up the Ubuntu server that hosts the Django project.
 
 ``bootstrap``
 ~~~~~~~~~~~~~
@@ -230,10 +234,10 @@ Install all the dependencies to run a Chef cookbook.
 
 More specifically, this task:
 
-* Updates apt-get
-* Installs git
-* Installs Ruby (the language in which Chef is written)
-* Installs Chef
+1. Updates apt-get
+2. Installs git
+3. Installs Ruby
+4. Installs Chef
 
 ``rendernodejson``
 ~~~~~~~~~~~~~~~~~~
@@ -260,7 +264,7 @@ Tasks for configuring the downloads website Django environment.
 ``createconfig``
 ~~~~~~~~~~~~~~~~
 
-Prompt users for settings to be stored in the config_file.
+Prompt users for settings to be stored in ``.env`` file.
 
 .. code-block:: bash
 
@@ -269,13 +273,13 @@ Prompt users for settings to be stored in the config_file.
 You will prompted to provide:
 
 * An AWS Access Key ID and Secret Access Key (read more `here <https://aws.amazon.com/developers/access-keys/>`_).
-* An AWS region (defaults to 'us-west-2').
-* An SSH key-pair file name (defaults to 'my-key-pair'). This assumes you have a key pair stored in ``~/.ec2/my-key-pair.pem`` (if not, you should create one).
+* An AWS region (defaults to ``us-west-2``).
+* An SSH key-pair file name (defaults to ``my-key-pair``). This assumes you have a key pair stored in ``~/.ec2/my-key-pair.pem`` (if not, you should create one).
 * The name of the PostgreSQL database that will serve as the backend for the downloads website (defaults to 'calaccess_website').
 * The name of the database user the django app will use to connect to the database (defaults to ccdc).
 * The password for the database user.
-* The name of the S3 bucket where the data files will be archived (defaults to 'django-calaccess-dev-data-archive').
-* The name of the S3 bucket where the "baked" content files will stored (defaults to 'django-calaccess-dev-baked-content')
+* The name of the S3 bucket where the data files will be archived (defaults to ``django-calaccess-dev-data-archive``).
+* The name of the S3 bucket where the "baked" content files will stored (defaults to ``django-calaccess-dev-baked-content``)
 * The host email address and password (press ENTER to skip, if not desired).
 * Addresses for the RDS and EC2 instances, in case these servers are already up and running. If now, press ENTER to skip for now, and spin them up later.
 
@@ -285,7 +289,7 @@ These configurations will be stored in a ``.env`` file (ignored by git) along wi
 ``copyconfig``
 ~~~~~~~~~~~~~~
 
-Copy current configurations in local .env file to the ec2 instance.
+Copy current configurations in local ``.env`` file to the ec2 instance.
 
 .. code-block:: bash
 
@@ -315,13 +319,13 @@ Print out the Fabric env settings.
 ``setconfig``
 ~~~~~~~~~~~~~
 
-Add or edit a key-value pair in the .env configuration file.
+Add or edit a key-value pair in the ``.env`` configuration file.
 
 .. code-block:: bash
 
     $ fab setconfig:key=<new-variable-name>,value=<some-value>
 
-Note that these changes will only take affect locally. In order to copy your new configurations to the EC2 instance, execute the ``copyconfig`` task.
+Note that these changes will only take effect locally. In order to copy your new configurations to the EC2 instance, execute the ``copyconfig`` task.
 
 
 --------------------------------------------
@@ -340,6 +344,8 @@ Start up the Django runserver.
 
     $ fab rs
 
+The only optional argument is ``port``, which defaults to ``8000``.
+
 
 ``ssh``
 ~~~~~~~
@@ -349,4 +355,10 @@ Log into the EC2 instance using SSH.
 .. code-block:: bash
 
     $ fab ssh
+
+By default, you will connect to the instance specified in ``ec2_host`` under your current environmnet in the ``.env`` file. If you want to connect to another EC2 instance you have up-and-running, pass in the address like so:
+
+.. code-block:: bash
+
+    $ fab ssh:<ec2_instance_address>
 

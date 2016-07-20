@@ -25,7 +25,7 @@ By default, the new database server will have 100 GBs of disk space allocated on
 
     $ fab createrds:download-website,block_gb_size=80,instance_type=db.m4.large
 
-The address for the RDS host will automatically be added to the configurations for your current environment, which are stored in ``.env``. If you already had an RDS host set for your current env, its address will be over-written.
+The address for the RDS host will automatically be added to the configurations for your current environment, which are stored in ``.env``. If you already had an RDS host set for your current env, its address will be overwritten.
 
 --------------------------------------------
 
@@ -44,13 +44,13 @@ By default, the server will have 100 GBs of disk space allocated on a c3.large `
 
     $ fab createec2:block_gb_size=80,instance_type=c3.xlarge
 
-You can also override our default `Amazon machine image (AMI) <http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html>`_:
+You can also override our default Amazon machine image (`AMI <http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html>`_):
 
 .. code-block:: bash
 
     $ fab createec2:ami=<some-other-ami-id>
 
-As with creating an RDS instance, the address for your new EC2 instance will automatically be added to the configurations for your current environment, which are stored in ``.env``. If you already had an EC2 host set, its address will be over-written.
+As with creating an RDS instance, the address for your new EC2 instance will automatically be added to the configurations for your current environment, which are stored in ``.env``. If you already had an EC2 host set, its address will be overwritten.
 
 --------------------------------------------
 
@@ -86,4 +86,4 @@ You can also connect directly to Ubuntu server via ssh:
     $ fab ssh
 
 
-Other Fabric tasks for performing other administrative duties are described `here <other-tasks.html>`_.
+You might also check out our `complete list <fab-task-index.html>`_ of Fabric tasks available for performing various website admin duties. 

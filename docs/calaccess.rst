@@ -6,7 +6,7 @@ in California politics.
 
 It is maintained by California's Secretary of State. In addition to the
 `website <http://dbsearch.ss.ca.gov/>`_ for searching and exploring these data,
-a bulk download is `updated nightly <http://www.sos.ca.gov/campaign-lobbying/cal-access-resourcesraw-data-campaign-finance-and-lobbying-activity/>`_.
+a bulk download is `updated nightly <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_.
 
 That bulk download, documented here, is the source data of this project.
 

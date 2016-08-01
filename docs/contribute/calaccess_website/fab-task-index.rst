@@ -5,13 +5,13 @@ Below is the complete list of Fabric tasks available for administering the `down
 
 .. Note::
     
-    Fabric allows you to run one task after the other in a single fab command-line call like so:
+    Fabric allows you to run one task after another in a single fab command-line call like so:
 
     .. code-block:: bash
 
         $ fab task1:pos_arg1 task2:opt_arg=some_value
 
-    Which can be useful for chaining tasks together for ad-hoc administrative processes. Read more `here <http://docs.fabfile.org/en/1.11/usage/fab.html>`_.
+    This can be useful for chaining tasks together for ad-hoc administrative processes. Read more `here <http://docs.fabfile.org/en/1.11/usage/fab.html>`_.
 
 --------------------------------------------
 
@@ -29,7 +29,7 @@ Spin up a new Ubuntu 14.04 server on Amazon EC2. Returns the id and public addre
 
     $ fab createrds
 
-The address for your new EC2 instance will also be added to your current environment's configurations (stored in ``.env``). If you already have EC2 host set in your current env, its address will be replaced.
+The address for your new EC2 instance will also be added to your current environment's configuration (stored in ``.env``). If you already have an EC2 host set in your current env, its address will be replaced.
 
 Optional arguments:
 
@@ -51,7 +51,7 @@ The ``name`` for the key pair is the only positional argument:
 
 You'll be stopped if you try to re-use an existing key pair name.
 
-A new key pair will then be stored in ``~/.ec2/<your-key-name>.pem``, and the key pair name will be added to your current environment's configurations (stored in ``.env``). If you already have a key name set in your current env, it will be replaced.
+A new key pair will then be stored in ``~/.ec2/<your-key-name>.pem``, and the key pair name will be added to your current environment's configuration (stored in ``.env``). If you already have a key name set in your current env, it will be replaced.
 
 ``createrds``
 ~~~~~~~~~~~~~
@@ -66,7 +66,7 @@ The ``instance_name`` is the only positional argument:
 
 This may take several minutes.
 
-The address for your new RDS instance will be added to your current environment's configurations (stored in ``.env``). If you already have RDS host set in your current env, its address will be replaced.
+The address for your new RDS instance will be added to your current environment's configurations (stored in ``.env``). If you already have an RDS host set in your current env, its address will be replaced.
 
 Optional arguments:
 
@@ -88,7 +88,7 @@ The positional arguments are:
     
     The current database on the destination instance will be deleted.
 
-You might execute this task, for example, if you want to replicate the production database to a dev instance.
+You might execute this task if, for example, you want to replicate the production database to a dev instance.
 
 .. code-block:: bash
 
@@ -96,7 +96,7 @@ You might execute this task, for example, if you want to replicate the productio
 
 The process may take several minutes to complete.
 
-If you would like to create a new snapshot of the source db instance before making a copy, you can pass in `` make_snapshot=True``.
+If you would like to create a new snapshot of the source db instance before making a copy, you can pass in ``make_snapshot=True``.
 
 
 --------------------------------------------
@@ -168,7 +168,7 @@ Install the Python requirements inside the virtualenv:
 ``pull``
 ~~~~~~~~
 
-Pull the lastest changes from the GitHub repo:
+Pull the latest changes from the GitHub repo:
 
 .. code-block:: bash
 
@@ -178,7 +178,7 @@ Pull the lastest changes from the GitHub repo:
 ``rmpyc``
 ~~~~~~~~
 
-Erases pyc files from the app's code directory.
+Erase .pyc files from the app's code directory.
 
 .. code-block:: bash
 
@@ -210,7 +210,7 @@ More specifically, this task executes the following sub-tasks in order:
 5. ``migrate``
 6. ``collectstatic``
 
-This task also sets the environment in which the website will run on the server based on your current local ``CALACCESS_WEBSITE_ENV`` environment variable (defaults to ``DEV`` if this env var is not set).
+This task also sets the environment in which the website will run on the server based on your current local ``CALACCESS_WEBSITE_ENV`` environment variable (defaults to ``DEV`` if not set).
 
 ``cook``
 ~~~~~~~~
@@ -274,14 +274,14 @@ You will prompted to provide:
 
 * An AWS Access Key ID and Secret Access Key (read more `here <https://aws.amazon.com/developers/access-keys/>`_).
 * An AWS region (defaults to ``us-west-2``).
-* An SSH key-pair file name (defaults to ``my-key-pair``). This assumes you have a key pair stored in ``~/.ec2/my-key-pair.pem`` (if not, you should create one).
-* The name of the PostgreSQL database that will serve as the backend for the downloads website (defaults to 'calaccess_website').
-* The name of the database user the django app will use to connect to the database (defaults to ccdc).
+* An SSH key-pair file name (defaults to ``my-key-pair``). This assumes you have a key pair stored in ``~/.ec2/my-key-pair.pem`` (if you don't, you should create one).
+* The name of the PostgreSQL database that will serve as the backend for the downloads website (defaults to ``calaccess_website``).
+* The name of the database user the Django app will use to connect to the database (defaults to ``ccdc``).
 * The password for the database user.
 * The name of the S3 bucket where the data files will be archived (defaults to ``django-calaccess-dev-data-archive``).
-* The name of the S3 bucket where the "baked" content files will stored (defaults to ``django-calaccess-dev-baked-content``)
-* The host email address and password (press ENTER to skip, if not desired).
-* Addresses for the RDS and EC2 instances, in case these servers are already up and running. If now, press ENTER to skip for now, and spin them up later.
+* The name of the S3 bucket where the "baked" content files will stored (defaults to ``django-calaccess-dev-baked-content``).
+* The host email address and password (press ENTER to skip).
+* Addresses for the RDS and EC2 instances, in case these servers are already up and running. If not, press ENTER to skip for now, and spin them up later.
 
 These configurations will be stored in a ``.env`` file (ignored by git) along with settings for other envs you have configured, each denoted by a section header such as ``[DEV]`` and ``[PROD]``.
 
@@ -289,7 +289,7 @@ These configurations will be stored in a ``.env`` file (ignored by git) along wi
 ``copyconfig``
 ~~~~~~~~~~~~~~
 
-Copy current configurations in local ``.env`` file to the ec2 instance.
+Copy current configuration in local ``.env`` file to the EC2 instance.
 
 .. code-block:: bash
 
@@ -299,7 +299,7 @@ Copy current configurations in local ``.env`` file to the ec2 instance.
 ``printconfig``
 ~~~~~~~~~~~~~~~
 
-Print out the configuration settings for the local environment.
+Print the configuration settings for the local environment.
 
 .. code-block:: bash
 
@@ -309,7 +309,7 @@ Print out the configuration settings for the local environment.
 ``printenv``
 ~~~~~~~~~~~~
 
-Print out the Fabric env settings.
+Print the Fabric env settings.
 
 .. code-block:: bash
 
@@ -325,7 +325,7 @@ Add or edit a key-value pair in the ``.env`` configuration file.
 
     $ fab setconfig:key=<new-variable-name>,value=<some-value>
 
-Note that these changes will only take effect locally. In order to copy your new configurations to the EC2 instance, execute the ``copyconfig`` task.
+Note that these changes will only take effect locally. In order to copy your new configuration to the EC2 instance, execute the ``copyconfig`` task.
 
 
 --------------------------------------------
@@ -356,9 +356,8 @@ Log into the EC2 instance using SSH.
 
     $ fab ssh
 
-By default, you will connect to the instance specified in ``ec2_host`` under your current environmnet in the ``.env`` file. If you want to connect to another EC2 instance you have up-and-running, pass in the address like so:
+By default, you will connect to the instance specified in ``ec2_host`` under your current environmnet in the ``.env`` file. If you want to connect to another EC2 instance you have up and running, pass in the address like so:
 
 .. code-block:: bash
 
     $ fab ssh:<ec2_instance_address>
-

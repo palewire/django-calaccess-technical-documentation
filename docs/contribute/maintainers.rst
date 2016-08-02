@@ -1,8 +1,5 @@
-For app maintainers
-===================
-
-Release checklist
------------------
+Version release checklist
+=========================
 
 The steps to follow each time release a new version of a Django package.
 

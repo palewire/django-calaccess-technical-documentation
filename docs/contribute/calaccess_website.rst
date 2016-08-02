@@ -1,7 +1,7 @@
-For website admins
-==================
+Contribute to django-calaccess-downloads-website
+================================================
 
-The infrastructure for our `downloads website <apps/calaccess_downloads_site.html>`_ is hosted on Amazon Web Services. More specifically:
+The infrastructure for our `downloads website <apps/calaccess_downloads_site.html>`_ is hosted on Amazon Web Services.
 
 * The raw data files exported daily from CAL-ACCESS are uploaded to a `Simple Storage Service <https://aws.amazon.com/s3/>`_ (S3) bucket.
 * The website's PostgreSQL backend is hosted on a `Relational Database Service <https://aws.amazon.com/rds/>`_ (RDS) instance.

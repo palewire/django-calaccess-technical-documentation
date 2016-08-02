@@ -1,7 +1,9 @@
-For raw-data app developers
-===========================
+Contribute to django-calaccess-raw-data
+=======================================
 
-This walkthrough is for developers who want to contribute to `django-calaccess-raw-data <apps/calaccess_raw.html>`_. It will show you how to install the source code of this application to fix bugs and develop new features.
+This walkthrough is for developers who want to contribute to `django-calaccess-raw-data <apps/calaccess_raw.html>`_.
+
+It will show you how to install the source code of this application to fix bugs and develop new features.
 
 ---------------
 
@@ -171,17 +173,17 @@ Now what?
 ---------
 
 You now have a complete copy of the database at your fingertips, more than 35 million records
-chronicling money in California politics back to the year 2000. 
+chronicling money in California politics back to the year 2000.
 
 What you do with it is up to you. You can learn more how to navigate the system's 76
 tables in our :doc:`database documentation </calaccess>`.
 
 To figure where to work on the raw data application, check out the `GitHub issue tracker <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues>`_
-where plenty of work awaits. 
+where plenty of work awaits.
 
 Apart from that repository, our current mission is to start an online archive that saves and republishes every
 day's dump. Then we aim to make the state's complex system easier to navigate
-with tools that clean, transform and simplify the raw database. 
+with tools that clean, transform and simplify the raw database.
 
 If you want to get involved with those efforts, check out our
 :doc:`/apps/calaccess_downloads_site`

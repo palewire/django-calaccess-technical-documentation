@@ -1,5 +1,5 @@
-For documentation writers
-=========================
+Contribute to our documentation
+===============================
 
 We're maintaining a single `repository <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_
 for all documents related to the Django CAL-ACCESS project. This section is for
@@ -82,4 +82,3 @@ However, you might instead prefer to see your edits as you're making them:
     $ make livehtml
 
 This will start serving the docs on http://127.0.0.1:8000, where you can point your favorite web browser. While the server is running, Sphinx will also detect any change you make to the ``.rst`` files and, on save, automatically re-build the ``.html`` files.
-

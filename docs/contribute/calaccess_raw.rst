@@ -46,8 +46,10 @@ Unlike a typical Django project, this application only supports the MySQL and
 PostgreSQL database backends. This is because we enlist specialized tools to load
 the immense amount of source data more quickly than Django typically allows.
 
-We haven't developed similar routines for SQLite and the other Django backends yet,
-but we're working on it. This might be something you could work on!
+.. note::
+
+    We haven't developed similar routines for SQLite and the other Django backends yet,
+    but we're working on it. This might be something you could work on!
 
 ~~~~~~~~~~~~
 
@@ -176,16 +178,11 @@ Now what?
 You now have a complete copy of the database at your fingertips, more than 35 million records
 chronicling money in California politics back to the year 2000.
 
-What you do with it is up to you. You can learn more how to navigate the system's 76
+What you do with it is up to you. You can learn more how to navigate the system's 80
 tables in our :doc:`database documentation </calaccess>`.
 
 To figure where to work on the raw data application, check out the `GitHub issue tracker <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues>`_
 where plenty of work awaits.
 
-Apart from that repository, our current mission is to start an online archive that saves and republishes every
-day's dump. Then we aim to make the state's complex system easier to navigate
-with tools that clean, transform and simplify the raw database.
-
-If you want to get involved with those efforts, check out our
-:doc:`/apps/calaccess_downloads_site`
-and :doc:`/apps/calaccess_processed` apps.
+Apart from that repository, we also maintain an online archive that saves and republishes every
+day's dump. If you want to move on to get involved with those efforts, check out our guide on how to :doc:`contribute to django-calaccess-downloads-website </contribute/calaccess_website>`.

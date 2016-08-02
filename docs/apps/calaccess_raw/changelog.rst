@@ -29,8 +29,9 @@ Changelog
     * Now storing most recent start and finish times of ``loadcalaccessrawfile`` in ``RawDataFile.load_start_datetime`` and ``RawDataVersionload_finish_datetime``.
 
 * Added ``extractcalaccessrawfiles`` management command for unzipping and extracting raw data files from downloaded CAL-ACCESS database export.
-      * ``.start_extract_datetime``
-      * ``.finish_extract_datetime``
+
+      * Start and finish times stored in ``RawDataVersion.start_extract_datetime`` and ``RawDataVersion.finish_extract_datetime``
+      
 * Support for Django 1.10.
 
 

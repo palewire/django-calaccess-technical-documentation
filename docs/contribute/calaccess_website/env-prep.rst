@@ -50,7 +50,7 @@ If you are using virtualenv and virtualenvwrapper, you might add the above line 
 
     $ workon django-calaccess-downloads-website
 
- You might also also add this line to your ``$VIRTUAL_ENV/bin/postdeactivate`` script in order to remove the variable whenever you deactivate the virtual environment:
+You might also also add this line to your ``$VIRTUAL_ENV/bin/postdeactivate`` script in order to remove the variable whenever you deactivate the virtual environment:
 
 .. code-block:: bash
 

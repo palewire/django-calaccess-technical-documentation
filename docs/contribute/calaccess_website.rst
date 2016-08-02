@@ -82,6 +82,48 @@ whenever you deactivate the virtual environment:
 
     $ unset CALACCESS_WEBSITE_ENV
 
+---------------
+
+
+Connecting to a local database
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Unlike a typical Django project, this application only supports the MySQL and
+PostgreSQL database backends. This is because we enlist specialized tools to load
+the immense amount of source data more quickly than Django typically allows.
+
+If you choose MySQL
+```````````````````
+
+Create a new database named ``calaccess_website`` like this:
+
+.. code-block:: bash
+
+    mysqladmin -h localhost -u root -p create calaccess_website
+
+If you choose PostgreSQL
+````````````````````````
+
+Create the database the PostgreSQL way.
+
+.. code-block:: bash
+
+    $ createdb calaccess_website -U postgres
+
+---------------
+
+
+Creating an archive on Amazon S3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Even a development project needs that will run only on your computer needs an account with Amazon Web Services to
+store archived files in its S3 file service. If you don't already have an AWS account, `make one now <https://aws.amazon.com/>`_. `Request <http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html>`_ a
+key pair that lets you access its services via Python. Then create a new `S3 "bucket" <http://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html>`_
+to store files archived by this project.
+
+---------------
+
+
 Filling in .env for the first time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -101,11 +143,11 @@ Setting                 Required in development Definition
 db_name                 Yes                     Name of your database.
 db_user                 Yes                     Database user.
 db_password             Yes                     Database password.
-rds_host                Yes                     Database host location.
-aws_access_key_id       No                      Shorter secret key for accessing Amazon Web Services.
-aws_secret_access_key   No                      The longer secret key for accessing Amazon Web Services.
-aws_region_name         No                      Amazon Web Services region where you resources are located.
-s3_archived_data_bucket No                      Amazon S3 bucket where archived CAL-ACCESS data will be stored.
+db_host                 Yes                     Database host location.
+aws_access_key_id       Yes                     Shorter secret key for accessing Amazon Web Services.
+aws_secret_access_key   Yes                     The longer secret key for accessing Amazon Web Services.
+aws_region_name         Yes                     Amazon Web Services region where you resources are located.
+s3_archived_data_bucket Yes                     Amazon S3 bucket where archived CAL-ACCESS data will be stored.
 s3_baked_content_bucket No                      Amazon S3 bucket where the public-facing website will be stored.
 key_name                No                      Name of the SSH ``.pem`` file associated with Amazon Web Services. Should be found in ``~/.ec2``.
 ec2_host                No                      Public address of website's Amazon EC2 instance.
@@ -132,3 +174,36 @@ Or everything in the Fabric environment:
     $ fab printenv
 
 ---------------
+
+Bootstrapping the project
+-------------------------
+
+Now that everything is configured, create the database tables.
+
+.. code-block:: bash
+
+    $ python manage.py migrate
+
+Once everything is set up, the ``updatedownloadswebsite`` command will download the latest
+bulk data release from `the Secretary of State's website <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_ load it into your local database and archive the files on Amazon S3.
+
+.. code-block:: bash
+
+    $ python manage.py updatedownloadswebsite
+
+.. warning::
+
+    This will take a while. Go grab some coffee.
+
+---------------
+
+Exploring the site
+------------------
+
+Finally, start the development server and visit `localhost:8000/admin/ <http://localhost:8000/>`_ in your browser to inspect the site.
+
+.. code-block:: bash
+
+    $ python manage.py runserver
+
+------------------

@@ -1,7 +1,7 @@
 Getting started
 ===============
 
-In order to contribute to `django-calaccess-raw-data <apps/calaccess_downloads_site.html>`_, you first need to set up your development environment, install the source code and configure a few settings.
+In order to contribute to `django-calaccess-downloads-website <apps/calaccess_downloads_site.html>`_, you first need to set up your development environment, install the source code and configure a few settings.
 
 ---------------
 

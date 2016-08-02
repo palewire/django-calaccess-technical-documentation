@@ -1,6 +1,40 @@
 Changelog
 =========
 
+1.4.0 (August 2016)
+-------------------
+
+* Added zipping up and archiving of cleaned zip files.
+
+  * Added ``RawDataVersion.clean_zip_archive``.
+  * Renamed ``RawDataVersion.zip_file_archive`` to ``RawDataVersion.download_zip_archive``.
+
+* Smaller clean data files (removed unnecessary quote characters).
+* Improvements to tracking models
+
+  * Replaced ``RawDataCommand`` model with easier-to-use datetime fields and properties
+
+    * Now storing most recent start and finish times of ``updatecalaccessrawdata`` in ``RawDataVersion.update_start_datetime`` and ``RawDataVersion.update_start_datetime``.
+
+      * ``.update_completed`` returns ``True`` if most recent update to version started and finished.
+      * ``.update_stalled`` returns ``True`` if most recent update to version started but did not finish.
+
+    * Now storing most recent start and finish times of ``downlowncalaccessrawdata`` in ``RawDataVersion.download_start_datetime`` and ``RawDataVersion.download_finish_datetime``.
+
+      * ``.download_completed`` returns ``True`` if most recent download of version started and finished.
+      * ``.download_stalled`` returns ``True`` if most recent download version started but did not finish.
+
+    * Now storing most recent start and finish times of ``cleancalaccessrawfile`` in ``RawDataFile.clean_start_datetime`` and ``RawDataVersion.clean_finish_datetime``.
+
+    * Now storing most recent start and finish times of ``loadcalaccessrawfile`` in ``RawDataFile.load_start_datetime`` and ``RawDataVersionload_finish_datetime``.
+
+* Added ``extractcalaccessrawfiles`` management command for unzipping and extracting raw data files from downloaded CAL-ACCESS database export.
+
+      * Start and finish times stored in ``RawDataVersion.start_extract_datetime`` and ``RawDataVersion.finish_extract_datetime``
+      
+* Support for Django 1.10.
+
+
 1.3.0 (July 2016)
 -----------------
 

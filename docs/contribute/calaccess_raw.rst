@@ -1,7 +1,8 @@
 Contribute to django-calaccess-raw-data
 =======================================
 
-This walkthrough is for developers who want to contribute to `django-calaccess-raw-data <apps/calaccess_raw.html>`_.
+This walkthrough is for developers who want to contribute to :doc:`/apps/calaccess_raw`, a Django app to download, extract
+and load campaign-finance and lobbying-activity data from the California Secretary of State’s CAL-ACCESS database.
 
 It will show you how to install the source code of this application to fix bugs and develop new features.
 

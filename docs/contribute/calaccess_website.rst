@@ -113,7 +113,7 @@ email_user              No                      Gmail account for sending error 
 email_password          No                      Gmail password for sending error emails.
 ======================= ======================= =================================================================================================
 
-If necessary, you can overwrite a specific configuration or append a new one:
+If necessary, you can overwrite a specific setting or append a new one:
 
 .. code-block:: bash
 

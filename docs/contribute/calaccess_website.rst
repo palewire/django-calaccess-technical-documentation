@@ -39,8 +39,8 @@ Next, install the other Python libraries our code depends on.
 ---------------
 
 
-Configuring development settings
---------------------------------
+Configuring settings
+--------------------
 
 Many of the settings in this project vary depending on the environment. For instance, your local installation of the code will
 likely connect to a different database than live website.

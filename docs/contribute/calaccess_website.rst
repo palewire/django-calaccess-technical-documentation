@@ -288,7 +288,7 @@ Filling in .env for the second time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Now you'll want to run our configuration command again, this time filling in the new details from your AWS account, database and server.
-You may want to create a new set of S3 buckets separate from your development buckets. 
+You may want to create a new set of S3 buckets separate from your development buckets.
 
 .. code-block:: bash
 
@@ -308,9 +308,11 @@ will be installed on the server. Chef is used to configure the server and instal
 
 The ``bootstrap`` task also sets up a crontab job to execute run as command every six hours that will automate the collection, extraction and processing of the daily CAL-ACCESS database exports.
 
---------------------------------------------
+---------------
 
 Wrapping up
 -----------
 
-And that's it! You know have a live CAL-ACCESS archive running the cloud.
+And that's it! You know have a live CAL-ACCESS archive running in the cloud.
+
+---------------

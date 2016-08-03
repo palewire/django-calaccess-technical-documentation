@@ -4,7 +4,8 @@ Contribute to django-calaccess-downloads-website
 This walkthrough is for developers who want to contribute to :doc:`/apps/calaccess_downloads_site`, a open-source archive of
 campaign-finance and lobbying-disclosure data from the California Secretary of State's :doc:`CAL-ACCESS </calaccess>` database.
 
-It will show you how to install the source code of this application to fix bugs, develop new features and administer an archive.
+It will show you how to install the source code of this application to fix bugs, develop new features and deploy an archive to the Internet
+using Amazon Web Services.
 
 ---------------
 
@@ -12,25 +13,27 @@ It will show you how to install the source code of this application to fix bugs,
 Preparing a development environment
 -----------------------------------
 
-In order to contribute you first need to set up a local development environment, install the source code and configure a few settings.
+In order to contribute you first need to set up a local development environment by installing the source code and configuring a few settings.
 
 While not required, we recommend that development be done within a contained virtual environment.
 
-One way to accomplish that is with a two related Python packages: ``virtualenv`` and ``virtualenvwrapper``. If you have both of these installed, a new project can be easily set up by invoking:
+One way to accomplish that is with a two related Python packages: ``virtualenv`` and ``virtualenvwrapper``. If you have
+both of these installed, a new project can be easily created like so:
 
 .. code-block:: bash
 
     $ mkproject django-calaccess-downloads-website
 
-That will jump into a new folder in your code directory, where you can clone our
-code repository from `GitHub <https://github.com/california-civic-data-coalition/django-calaccess-downloads-website>`_
-after you make a fork of your own. Don't know what that means? `Read this <https://guides.github.com/activities/forking/>`_.
+That will jump into a new folder in your code directory, where you can fork our
+code repository from `GitHub <https://github.com/california-civic-data-coalition/django-calaccess-downloads-website>`_. Don't know what that means? `Read this <https://guides.github.com/activities/forking/>`_.
+
+Once you've created a fork, you should clone it to your computer.
 
 .. code-block:: bash
 
     $ git clone https://github.com/<YOUR-USERNAME>/django-calaccess-downloads-website.git .
 
-Next, install the other Python libraries our code depends on.
+Next, install the other Python libraries our code depends on, like the `Django web framework <https://www.djangoproject.com/>`_.
 
 .. code-block:: bash
 
@@ -42,16 +45,18 @@ Next, install the other Python libraries our code depends on.
 Configuring settings
 --------------------
 
-Many of the settings in this project vary depending on the environment. For instance, your local installation of the code will
-likely connect to a different database than live website.
+Many of the settings in this project can vary depending on where the code is being run. For instance, your local installation of the code will
+likely connect to a different database than the public website.
 
-To keep these different environments straight and avoid including sensitive passwords in our public repositories we have developed
-a system for storing many of the configuration options in a ``.env`` at the project's root. The file is excluded from tracking by Git.
+To keep these different environments straight and avoid including sensitive passwords in public repositories we have developed
+a system for storing many of the configuration options in a file named ``.env`` at the project's root.
+
+The file is excluded from Git's version control system and needs to be created fresh each time the code is installed.
 
 How .env works
 ~~~~~~~~~~~~~~
 
-The ``.env`` is expected to contain a separate section for each environment, using the structure favored by Python's `ConfigParser module <https://docs.python.org/2/library/configparser.html>`_. Here's a simple example:
+The ``.env`` file is expected to contain a separate section for each environment, using the structure favored by Python's `ConfigParser module <https://docs.python.org/2/library/configparser.html>`_. Here's a simple example:
 
 .. code-block:: ini
 
@@ -64,23 +69,24 @@ The ``.env`` is expected to contain a separate section for each environment, usi
     mysecretpassword=hotpockets
 
 
-By default, the source code will draw settings from a section name ``DEV``. To configure it to use ``PROD`` or any other set of variables,
-set the ``CALACCESS_WEBSITE_ENV`` environment variable.
+By default, the source code will draw settings from a section name ``DEV``. To configure it to use a different set of variables
+(like the``PROD`` section above), you must set the ``CALACCESS_WEBSITE_ENV`` environment variable.
 
 .. code-block:: bash
 
     $ export CALACCESS_WEBSITE_ENV=PROD
 
 If you are using virtualenv and virtualenvwrapper, you could add the above line of code to ``$VIRTUAL_ENV/bin/postactivate`` so that
-whenever you start the project's virtual environment, this variable will be exported automatically whenever you use ``workon`` to
-begin work.
+whenever you start the project's virtual environment, the variable will be exported automatically.
 
-You might also also add this line to your ``$VIRTUAL_ENV/bin/postdeactivate`` script in order to remove the variable
-whenever you deactivate the virtual environment:
+.. note::
 
-.. code-block:: bash
+    You could also add the following line to your ``$VIRTUAL_ENV/bin/postdeactivate`` script to clear the variable
+    whenever you deactivate the virtual environment:
 
-    $ unset CALACCESS_WEBSITE_ENV
+    .. code-block:: bash
+
+        $ unset CALACCESS_WEBSITE_ENV
 
 ---------------
 
@@ -116,9 +122,13 @@ Create the database the PostgreSQL way.
 Creating an archive on Amazon S3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Even a development project needs that will run only on your computer needs an account with Amazon Web Services to
-store archived files in its S3 file service. If you don't already have an AWS account, `make one now <https://aws.amazon.com/>`_. `Request <http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html>`_ a
-key pair that lets you access its services via Python. Then create a new `S3 "bucket" <http://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html>`_
+Even a development project that will run only on your computer needs an account with Amazon Web Services to
+store archived files in its S3 file service.
+
+If you don't already have an AWS account, `make one now <https://aws.amazon.com/>`_ and `request <http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html>`_ a
+key pair that lets you access its services via Python.
+
+Then create a new `S3 "bucket" <http://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html>`_
 to store files archived by this project.
 
 ---------------
@@ -127,14 +137,14 @@ to store files archived by this project.
 Filling in .env for the first time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The current ``CALACCESS_WEBSITE_ENV`` can be configure in ``.env`` by running a `Fabric <http://www.fabfile.org/>`_ task that will ask you to provide a value for all
+The development environment can be created in the ``.env`` file by running a `Fabric <http://www.fabfile.org/>`_ task that will ask you to provide a value for all
 of this project's mandatory settings.
 
 .. code-block:: bash
 
     $ fab createconfig
 
-You will prompted to provide the project's full array of settings, though some of them are only necessary when deploying the code
+You will prompted to provide the project's full list of settings, though some of them are only necessary when deploying the code
 and site with Amazon Web Services.
 
 ======================= ======================= =================================================================================================
@@ -212,7 +222,7 @@ Finally, start the development server and visit `localhost:8000/admin/ <http://l
 Preparing a production server
 -----------------------------
 
-This sections will walk you through going further to deploy the :doc:`downloads website <apps/calaccess_downloads_sit>` on
+This section will walk you through deploy the :doc:`downloads website <apps/calaccess_downloads_site>` on
 the Internet via Amazon Web Services. You will need to have completed the steps above.
 
 Change your environment

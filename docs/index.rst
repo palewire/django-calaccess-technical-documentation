@@ -7,7 +7,7 @@ in California politics. Built using the `Django web framework <https://www.djang
 
 This is a work in progress. It is maintained by the `California Civic Data Coalition <http://www.californiacivicdata.org/about/>`_,
 an open-source team of journalists and computer programmers from news organizations across America. To
-learn more and get involved, read our backstory in :doc:`the FAQ </faq>` and reach out to `our leadership team <http://www.californiacivicdata.org/about/>`_. 
+learn more and get involved, read our backstory in :doc:`the FAQ </faq>` and reach out to `our leadership team <http://www.californiacivicdata.org/about/>`_.
 
 Table of contents
 -----------------
@@ -18,7 +18,5 @@ Table of contents
    howtouseit
    apps
    calaccess
-   faq
    howtocontribute
-
-
+   faq

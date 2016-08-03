@@ -64,7 +64,7 @@ The ``.env`` is expected to contain a separate section for each environment, usi
     mysecretpassword=hotpockets
 
 
-By default, the source code will draw settings from a section name ``DEV``.To configure it to use ``PROD`` or any other set of variables,
+By default, the source code will draw settings from a section name ``DEV``. To configure it to use ``PROD`` or any other set of variables,
 set the ``CALACCESS_WEBSITE_ENV`` environment variable.
 
 .. code-block:: bash
@@ -207,3 +207,110 @@ Finally, start the development server and visit `localhost:8000/admin/ <http://l
     $ python manage.py runserver
 
 ------------------
+
+-----------------------------
+Preparing a production server
+-----------------------------
+
+This sections will walk you through going further to deploy the :doc:`downloads website <apps/calaccess_downloads_sit>` on
+the Internet via Amazon Web Services. You will need to have completed the steps above.
+
+Change your environment
+-----------------------
+
+As described above, the source code will draw settings from a section of the `.env` file named ``DEV``.
+
+To switch to configuring your project for a production environment, you should set the ``CALACCESS_WEBSITE_ENV`` environment
+variable to ``PROD``.
+
+.. code-block:: bash
+
+    $ export CALACCESS_WEBSITE_ENV=PROD
+
+If you are using virtualenv and virtualenvwrapper, you could add the above line of code to ``$VIRTUAL_ENV/bin/postactivate`` so that
+whenever you start the project's virtual environment, this variable will be exported automatically whenever you use ``workon`` to
+begin work.
+
+---------------
+
+Creating an RDS database
+------------------------
+
+You will need to create a hosted database to store the data and keep tabs on the archive over time. Our recommended method
+for doing this is using `Amazon's Relational Database Service <https://aws.amazon.com/rds/>`_.
+
+You can spin up a PostgreSQL server there using our prepackaged Fabric commands. You're only required to provide a
+name like ``download-website``:
+
+.. code-block:: bash
+
+    $ fab createrds:download-website
+
+Then, wait several minutes while the server is provisioned.
+
+By default, the new database server will have 100 GB of disk space allocated on a t2.large RDS `class instance <https://aws.amazon.com/rds/postgresql/details/>`_. If need be, you can override these settings:
+
+.. code-block:: bash
+
+    $ fab createrds:download-website,block_gb_size=80,instance_type=db.m4.large
+
+The address for the RDS host will automatically be added to the configuration for your current environment, which is stored in ``.env``.
+If you already had an RDS host set for your current env, its address will be overwritten.
+
+---------------
+
+Create an EC2 Instance
+----------------------
+
+Next you should create a new Ubuntu 14.04 server on `Amazon's Elastic Compute Cloud <https://aws.amazon.com/ec2/>`_ to host the Django project.
+
+.. code-block:: bash
+
+    $ fab createec2
+
+By default, the server will have 100 GB of disk space allocated on a c3.large `class instance <https://aws.amazon.com/ec2/instance-types/>`_. If need be, you can override these settings:
+
+.. code-block:: bash
+
+    $ fab createec2:block_gb_size=80,instance_type=c3.xlarge
+
+You can also override our default Amazon Machine Image (`AMI <http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html>`_):
+
+.. code-block:: bash
+
+    $ fab createec2:ami=<some-other-ami-id>
+
+As with creating an RDS instance, the address for your new EC2 instance will automatically be added to the configuration for your current environment, which is stored in ``.env``. If you already had an EC2 host set, its address will be overwritten.
+
+---------------
+
+Filling in .env for the second time
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Now you'll want to run our configuration command again, this time filling in the new details from your AWS account, database and server.
+You may want to create a new set of S3 buckets separate from your development buckets. 
+
+.. code-block:: bash
+
+    $ fab createconfig
+
+Bootstrap the Django project
+----------------------------
+
+Finally, you're ready to bootstrap the Django project on the Ubuntu server.
+
+.. code-block:: bash
+
+    $ fab bootstrap
+
+After connecting to your current EC2 instance, a framework called `Chef <https://www.chef.io/chef/>`_ and its dependencies, including Ruby,
+will be installed on the server. Chef is used to configure the server and install the downloads website's code.
+
+The ``bootstrap`` task also sets up a crontab job to execute run as command every six hours that will automate the collection, extraction and processing of the daily CAL-ACCESS database exports.
+
+--------------------------------------------
+
+Wrapping up
+-----------
+
+And that's it! You know have a live CAL-ACCESS archive running the cloud.

@@ -28,6 +28,20 @@ Changelog
 
     * Now storing most recent start and finish times of ``loadcalaccessrawfile`` in ``RawDataFile.load_start_datetime`` and ``RawDataVersionload_finish_datetime``.
 
+  * Expanded file size tracking
+
+    * Renamed ``RawDataVersion.size`` to ``RawDataVersion.expected_size``.
+    * Added ``RawDataVersion.download_zip_size``.
+    * Warn if completed download file size is not the same as expected size.
+    * Added ``RawDataVersion.clean_zip_size``.
+    * Added methods to get a pretty version of each file size field
+
+      * ``RawDataVersion.pretty_expected_size()``
+      * ``RawDataVersion.pretty_download_size()``
+      * ``RawDataVersion.pretty_clean_size()``
+      * ``RawDataFile.pretty_download_file_size()``
+      * ``RawDataFile.pretty_clean_file_size()``
+
 * Added ``extractcalaccessrawfiles`` management command for unzipping and extracting raw data files from downloaded CAL-ACCESS database export.
 
       * Start and finish times stored in ``RawDataVersion.start_extract_datetime`` and ``RawDataVersion.finish_extract_datetime``

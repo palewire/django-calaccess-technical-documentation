@@ -27,7 +27,7 @@ Running the entire routine is as simple as this.
 
 This command will either:
 
-* Update your copy of the CAL-ACCESS data to the version currently available on the California Secretary of State's website
+* Update your copy of the CAL-ACCESS data to the latest snapshot on the California Secretary of State's website
 * Or complete your previously interrputed update, if possible.
 
 You can skip the download's confirmation prompt using Django's standard ``--noinput`` option.
@@ -35,18 +35,6 @@ You can skip the download's confirmation prompt using Django's standard ``--noin
 .. code-block:: sh
 
     $ python manage.py updatecalaccessrawdata --noinput
-
-Individual components of the routine can be skipped with corresponding options.
-
-.. code-block:: sh
-
-    $ python manage.py updatecalaccessrawdata --skip-download
-    # Or...
-    $ python manage.py updatecalaccessrawdata --skip-clean
-    # Or...
-    $ python manage.py updatecalaccessrawdata --skip-load
-    # And feel free to mix and match...
-    $ python manage.py updatecalaccessrawdata --skip-download --skip-clean
 
 The source files downloaded as part of the process will be deleted unless the ``--keep-files``
 option is provided.
@@ -66,9 +54,8 @@ Options
                                             [--settings SETTINGS]
                                             [--pythonpath PYTHONPATH]
                                             [--traceback] [--no-color]
-                                            [--skip-download] [--skip-clean]
-                                            [--skip-load] [--keep-files]
-                                            [--noinput] [--test] [-a APP_NAME]
+                                            [--keep-files] [--noinput] [--test]
+                                            [-a APP_NAME]
 
     Download, unzip, clean and load the latest CAL-ACCESS database ZIP
 
@@ -87,11 +74,8 @@ Options
                             "/home/djangoprojects/myproject".
       --traceback           Raise on CommandError exceptions
       --no-color            Don't colorize the command output.
-      --skip-download       Skip downloading of the ZIP archive
-      --skip-clean          Skip cleaning up the raw data files
-      --skip-load           Skip loading up the raw data files
       --keep-files          Keep zip, unzipped, TSV and CSV files
-      --noinput             Download the ZIP archive without asking permission
+      --noinput             Update or resume previous update without asking permission
       --test, --use-test-data
                             Use sampled test data (skips download, clean a load)
       -a APP_NAME, --app-name APP_NAME
@@ -99,7 +83,7 @@ Options
                             imported (if other not calaccess_raw)
 
 .. note::
-    The ``updatecalaccessrawdata`` command overwrites the previously downloaded, extracted and cleaned files, unless you invoke the ``--keep-files`` option.
+    The ``updatecalaccessrawdata`` command overwrites the previously downloaded, extracted and cleaned files in the 
 
 ----------------------
 
@@ -118,14 +102,14 @@ attempt to find it in the application's download directory.
 
 .. code-block:: sh
 
-    $ python manage.py cleancalaccessrawfile RcptCd.TSV
+    $ python manage.py cleancalaccessrawfile RCPT_CD.TSV
 
-The original file will be deleted in favor of the new CSV unless the ``--keep-files``
+The original .TSV file will be deleted in favor of the new CSV unless the ``--keep-files``
 option is provided.
 
 .. code-block:: sh
 
-    $ python manage.py cleancalaccessrawfile RcptCd.TSV --keep-files
+    $ python manage.py cleancalaccessrawfile RCPT_CD.TSV --keep-files
 
 Options
 ```````
@@ -171,8 +155,7 @@ Options
 downloadcalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download, unzip and prep the latest CAL-ACCESS database ZIP. A component of the
-master ``updatecalaccessrawdata`` command.
+Download the latest CAL-ACCESS database ZIP. A component of the master ``updatecalaccessrawdata`` command.
 
 Examples
 ````````
@@ -183,16 +166,15 @@ Here is how to run the command.
 
     $ python manage.py downloadcalaccessrawdata
 
-You will then see a prompt notifying you about the release date and size of the
-currently available version of the CAL-ACCESS database and how long ago your last download completed.
+You will then see a prompt with the release date and size of the latest zip of raw CAL-ACCESS data files available to download from the California Secretary of State's website.
 
-If your previous download did not complete, and the same version of CAL-ACCESS is still available, you will be prompted to resume you previous download.
+If your previous download did not complete, and the same version of CAL-ACCESS is still available to download, you will be prompted to resume your previous download.
 
 You can skip the download's confirmation prompt using Django's standard ``--noinput`` option.
 
 .. code-block:: sh
 
-    $ python manage.py updatecalaccessrawdata --noinput
+    $ python manage.py downloadcalaccessrawdata --noinput
 
 Options
 ```````
@@ -206,7 +188,58 @@ Options
                                               [--keep-files] [--noinput]
                                               [--force-restart]
 
-    Download, unzip and prep the latest CAL-ACCESS database ZIP
+    Download the latest CAL-ACCESS database ZIP
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      --version             show program's version number and exit
+      -v {0,1,2,3}, --verbosity {0,1,2,3}
+                            Verbosity level; 0=minimal output, 1=normal output,
+                            2=verbose output, 3=very verbose output
+      --settings SETTINGS   The Python path to a settings module, e.g.
+                            "myproject.settings.main". If this isn't provided, the
+                            DJANGO_SETTINGS_MODULE environment variable will be
+                            used.
+      --pythonpath PYTHONPATH
+                            A directory to add to the Python path, e.g.
+                            "/home/djangoprojects/myproject".
+      --traceback           Raise on CommandError exceptions
+      --no-color            Don't colorize the command output.
+      --noinput             Download the ZIP archive without asking permission
+      --force-restart, --restart
+                            Force re-start (overrides auto-resume).
+
+.. note::
+
+    The ``downloadcalaccessrawdata`` command overwrites the previously downloaded zip file.
+
+----------------------
+
+
+extractcalaccessrawfiles
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Extract the CAL-ACCESS raw data files from downloaded ZIP. A component of the
+master ``updatecalaccessrawdata`` command.
+
+The downloaded zip file will be deleted unless the ``--keep-files`` option is provided.
+
+.. code-block:: sh
+
+    $ python manage.py cleancalaccessrawfile RcptCd.TSV --keep-files
+
+Options
+```````
+
+.. code-block:: sh
+
+    usage: manage.py extractcalaccessrawfiles [-h] [--version] [-v {0,1,2,3}]
+                                              [--settings SETTINGS]
+                                              [--pythonpath PYTHONPATH]
+                                              [--traceback] [--no-color]
+                                              [--keep-files]
+
+    Extract the CAL-ACCESS raw data files from the database export ZIP
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -224,13 +257,10 @@ Options
       --traceback           Raise on CommandError exceptions
       --no-color            Don't colorize the command output.
       --keep-files          Keep downloaded zip and unzipped files
-      --noinput             Download the ZIP archive without asking permission
-      --force-restart, --restart
-                            Force re-start (overrides auto-resume).
 
 .. note::
 
-    The ``downloadcalaccessrawdata`` command overwrites the previously downloaded files, unless you invoke the ``--keep-files`` option.
+    The ``extractcalaccessrawfiles`` command overwrites the previously extracted .TSV files.
 
 ----------------------
 
@@ -298,7 +328,7 @@ Options
 
 .. note::
 
-    The ``loadcalaccessrawfile`` command deletes any data previously loaded into the calaccess models before loading in the current data.
+    The ``loadcalaccessrawfile`` command deletes any data previously loaded into the calaccess_raw models before loading in the current data.
 
 ----------------------
 
@@ -391,7 +421,7 @@ Options
 verifycalaccessrawfile
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Compare the number of records in a model against its source CSV
+Logs row count of given model and compares against line count in cleaned CSV.
 
 Examples
 ````````

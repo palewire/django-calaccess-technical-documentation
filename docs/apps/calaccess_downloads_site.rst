@@ -7,9 +7,9 @@ the California Secretary of State's :doc:`CAL-ACCESS </calaccess>` database.
 
 .. toctree::
    :maxdepth: 2
-   
-   calaccess_downloads_site/fab-task-index
 
+   calaccess_downloads_site/managementcommands
+   calaccess_downloads_site/fab-task-index
 
 Open-source resources
 ---------------------

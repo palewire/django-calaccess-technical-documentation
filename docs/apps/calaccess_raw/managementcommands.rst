@@ -168,7 +168,7 @@ Here is how to run the command.
 
 You will then see a prompt with the release date and size of the latest zip of raw CAL-ACCESS data files available to download from the California Secretary of State's website.
 
-If your previous download did not complete, and the same version of CAL-ACCESS is still available to download, you will be prompted to resume your previous download.
+If your previous download did not complete, and the same snapshot is still available to download, you will be prompted to resume your previous download.
 
 You can skip the download's confirmation prompt using Django's standard ``--noinput`` option.
 

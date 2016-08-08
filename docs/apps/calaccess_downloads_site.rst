@@ -4,6 +4,13 @@ django-calaccess-downloads-website
 An open-source archive of campaign finance and lobbying disclosure data from
 the California Secretary of State's :doc:`CAL-ACCESS </calaccess>` database.
 
+
+.. toctree::
+   :maxdepth: 2
+   
+   calaccess_downloads_site/fab-task-index
+
+
 Open-source resources
 ---------------------
 

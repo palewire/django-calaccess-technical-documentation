@@ -146,7 +146,7 @@ The only positional argument is ``cmd``. For example, if you wanted to kickstart
 
 
 ``migrate``
-~~~~~~~~~~
+~~~~~~~~~~~
 
 Migrate the database using Django's built-in ``migrate`` command.
 
@@ -176,7 +176,7 @@ Pull the latest changes from the GitHub repo:
 
 
 ``rmpyc``
-~~~~~~~~
+~~~~~~~~~
 
 Erase .pyc files from the app's code directory.
 

@@ -127,7 +127,7 @@ Now create the tables and get to work.
     $ python manage.py migrate
 
 Once everything is set up, the :ref:`updatecalaccessrawdata` command will download the latest
-bulk data release from `the Secretary of State's website <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_ and load it into your location database.
+bulk data release from `the Secretary of State's website <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_ and load it into your local database.
 
 .. code-block:: bash
 
@@ -142,7 +142,7 @@ bulk data release from `the Secretary of State's website <http://www.sos.ca.gov/
 Exploring the data
 ------------------
 
-Finally, start the development server and visit `localhost:8000/admin/ <http://localhost:8000/admin/>`_ in your browser to inspect the CAL-ACESS data in your Django administration panel.
+Finally, start the development server and visit `localhost:8000/admin/ <http://localhost:8000/admin/>`_ in your browser to inspect the CAL-ACCESS data in your Django administration panel.
 
 .. code-block:: bash
 

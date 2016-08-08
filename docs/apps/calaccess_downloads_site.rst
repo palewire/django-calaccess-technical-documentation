@@ -9,3 +9,6 @@ Open-source resources
 
 * Code: `github.com/california-civic-data-coalition/django-calaccess-downloads-website <https://github.com/california-civic-data-coalition/django-calaccess-downloads-website>`_
 * Issues: `github.com/california-civic-data-coalition/django-calaccess-downloads-website/issues <https://github.com/california-civic-data-coalition/django-calaccess-downloads-website/issues>`_
+* Documentation: `django-calaccess.californiacivicdata.org <http://django-calaccess.californiacivicdata.org>`_
+* Testing: `travis-ci.org/california-civic-data-coalition/django-calaccess-downloads-website <https://travis-ci.org/california-civic-data-coalition/django-calaccess-downloads-website>`_
+* Coverage: `coveralls.io/github/california-civic-data-coalition/django-calaccess-downloads-website <https://coveralls.io/github/california-civic-data-coalition/django-calaccess-downloads-website?branch=master>`_

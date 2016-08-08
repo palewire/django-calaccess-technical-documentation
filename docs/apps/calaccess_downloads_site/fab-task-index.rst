@@ -29,7 +29,7 @@ Spin up a new Ubuntu 14.04 server on Amazon EC2. Returns the id and public addre
 
 .. code-block:: bash
 
-    $ fab createrds
+    $ fab createec2
 
 The address for your new EC2 instance will also be added to your current environment's configuration (stored in ``.env``). If you already have an EC2 host set in your current env, its address will be replaced.
 
@@ -94,12 +94,33 @@ You might execute this task if, for example, you want to replicate the productio
 
 .. code-block:: bash
 
-    $ fab copyrds:prod-db,dev-db
+    $ fab copydb:prod-db,dev-db
 
 The process may take several minutes to complete.
 
 If you would like to create a new snapshot of the source db instance before making a copy, you can pass in ``make_snapshot=True``.
 
+
+``copys3``
+~~~~~~~~~~
+
+Copy objects in the source AWS S3 bucket to the destination S3 bucket.
+
+Ignores source bucket objects with the same name as objects already in the
+destination bucket.
+
+The positional arguments are:
+
+* ``src_bucket``, which identifies the bucket *from* which objects will be copied.
+* ``dest_bucket``, which identifies the bucket *to* which objects will be copied.
+
+You might execute this task if, for example, you want to replicate the production archived data bucket to a dev instance.
+
+.. code-block:: bash
+
+    $ fab copys3:prod-archived-data,dev-archived-data
+
+The process may take several minutes to complete.
 
 --------------------------------------------
 
@@ -363,3 +384,36 @@ By default, you will connect to the instance specified in ``ec2_host`` under you
 .. code-block:: bash
 
     $ fab ssh:<ec2_instance_address>
+
+
+--------------------------------------------
+
+Env
+---
+
+Tasks for temporarily switching environments before running subsequent tasks.
+
+For example, if your OS ``CALACCESS_WEBSITE_ENV`` environment variable is set to ``DEV``, but you want to quickly deploy some recent changes to the production server, you can:
+
+.. code-block:: bash
+
+    $ fab prod deploy
+
+``dev``
+~~~~~~~
+
+Operate on the development environment.
+
+.. code-block:: bash
+
+    $ fab dev <task1> <task2>
+
+
+``prod``
+~~~~~~~
+
+Operate on the production environment.
+
+.. code-block:: bash
+
+    $ fab prod <task1> <task2>

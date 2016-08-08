@@ -1,7 +1,9 @@
 Fab tasks index
 ===============
 
-Below is the complete list of Fabric tasks available for administering the `downloads website <apps/calaccess_downloads_site.html>`_.
+We deploy and manage the `downloads website <apps/calaccess_downloads_site.html>`_ infrastructure using defined via `Fabric <http://www.fabfile.org/>`_. This makes processes like deploying the entire downloads website as simple as invoking a few commands from the command-line.
+
+Below is the complete list of available Fabric tasks.
 
 .. Note::
     

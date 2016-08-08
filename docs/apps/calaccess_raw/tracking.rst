@@ -42,8 +42,6 @@ Versions of CAL-ACCESS raw source data, typically released every day.
     <tbody valign="top">
 
 
-
-
         <tr>
             <td>id</td>
             <td>Integer</td>
@@ -135,6 +133,58 @@ Versions of CAL-ACCESS raw source data, typically released every day.
     </tbody>
     </table>
     </div>
+
+**Instance methods and propertites:**
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+
+
+        <tr>
+            <td><code>RawDataVersion.download_completed</code></td>
+            <td>Check if the download of the version's zip file completed. Return <code>True</code> or <code>False</code>.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.download_stalled</code></td>
+            <td>Check if the download of the version's zip file started but did not complete. Return <code>True</code> or <code>False</code>.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.extract_completed</code></td>
+            <td>Check if the extract of files from the downloaded zip completed. Return <code>True</code> or <code>False</code>.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.extract_stalled</code></td>
+            <td>Check if the extract of files from the downloaded zip started but did not complete. Return <code>True</code> or <code>False</code>.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.update_completed</code></td>
+            <td>Check if the database update to the version completed. Return <code>True</code> or <code>False</code>.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.update_stalled</code></td>
+            <td>Check if the database update to the version started but did not complete. Return <code>True</code> or <code>False</code>.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.pretty_clean_size()</code></td>
+            <td>Returns a prettified version (e.g., "725M") of the zip of clean data files and error logs.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.pretty_download_size()</code></td>
+            <td>Returns a prettified version (e.g., "725M") of the actual size of the downloaded zip.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.pretty_expected_size()</code></td>
+            <td>Returns a prettified version (e.g., "725M") of the expected size of the downloaded zip.</td>
+        </tr>
+
+
+    </tbody>
+    </table>
+    </div>
+
 
 ----------------------
 
@@ -316,3 +366,30 @@ Data files included in the given version of the CAL-ACCESS raw source data.
     </table>
     </div>
 
+
+**Instance methods and propertites:**
+
+.. raw:: html
+
+    <div class="wy-table-responsive">
+    <table border="1" class="docutils">
+    <tbody valign="top">
+
+
+        <tr>
+            <td><code>RawDataVersion.model()</code></td>
+            <td>Returns the RawDataFile's corresponding CalAccess database model object.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.pretty_clean_file_size</code></td>
+            <td>Returns a prettified version of the clean_file_size size.</td>
+        </tr>
+        <tr>
+            <td><code>RawDataVersion.pretty_download_file_size</code></td>
+            <td>Returns a prettified version of the download_file_size size.</td>
+        </tr>
+
+
+    </tbody>
+    </table>
+    </div>

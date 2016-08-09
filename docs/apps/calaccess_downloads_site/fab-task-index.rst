@@ -1,7 +1,7 @@
 Fab tasks index
 ===============
 
-We deploy and manage the `downloads website <apps/calaccess_downloads_site.html>`_ infrastructure using defined via `Fabric <http://www.fabfile.org/>`_. This makes processes like deploying the entire downloads website as simple as invoking a few commands from the command-line.
+We deploy and manage the `downloads website <apps/calaccess_downloads_site.html>`_ infrastructure using `Fabric <http://www.fabfile.org/>`_, which makes processes like deploying the entire downloads website as simple as invoking a few commands from the command-line.
 
 Below is the complete list of available Fabric tasks.
 
@@ -213,7 +213,7 @@ Erase .pyc files from the app's code directory.
 Chef
 ----
 
-Tasks related to installing and executing `Chef <https://www.chef.io/chef/>`_, the Ruby framework we use to set up the Ubuntu server that hosts the Django project.
+Tasks related to installing and executing `Chef <https://www.chef.io/chef/>`_, the Ruby framework we use to set up the Ubuntu server that hosts the downloads website code.
 
 ``bootstrap``
 ~~~~~~~~~~~~~
@@ -356,7 +356,7 @@ Note that these changes will only take effect locally. In order to copy your new
 Dev
 ---
 
-Tasks for connecting to and running the server.
+Tasks for connecting to and running the downloads website server.
 
 ``rs``
 ~~~~~~

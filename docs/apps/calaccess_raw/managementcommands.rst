@@ -13,8 +13,7 @@ As with any Django app management command, these can be invoked on the command l
 updatecalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~
 
-This is the master command. It brings together all of the other update commands to
-download, unzip, clean and load the latest snapshot of the CAL-ACCESS database.
+This is the master command. It brings together all of the other management commands listed below to download, unzip, clean and load the latest snapshot of the CAL-ACCESS database.
 
 Examples
 ````````
@@ -83,7 +82,7 @@ Options
                             imported (if other not calaccess_raw)
 
 .. note::
-    The ``updatecalaccessrawdata`` command overwrites the previously downloaded, extracted and cleaned files in the 
+    The ``updatecalaccessrawdata`` command overwrites the previously downloaded, extracted and cleaned files in the application's download directory.
 
 ----------------------
 
@@ -104,12 +103,12 @@ attempt to find it in the application's download directory.
 
     $ python manage.py cleancalaccessrawfile RCPT_CD.TSV
 
-The original .TSV file will be deleted in favor of the new CSV unless the ``--keep-files``
+The original TSV file will be deleted in favor of the new CSV unless the ``--keep-file``
 option is provided.
 
 .. code-block:: sh
 
-    $ python manage.py cleancalaccessrawfile RCPT_CD.TSV --keep-files
+    $ python manage.py cleancalaccessrawfile RCPT_CD.TSV --keep-file
 
 Options
 ```````
@@ -119,7 +118,7 @@ Options
     usage: manage.py cleancalaccessrawfile [-h] [--version] [-v {0,1,2,3}]
                                            [--settings SETTINGS]
                                            [--pythonpath PYTHONPATH] [--traceback]
-                                           [--no-color] [--keep-files]
+                                           [--no-color] [--keep-file]
                                            file_name
 
     Clean a source CAL-ACCESS TSV file and reformat it as a CSV
@@ -143,11 +142,11 @@ Options
                             "/home/djangoprojects/myproject".
       --traceback           Raise on CommandError exceptions
       --no-color            Don't colorize the command output.
-      --keep-files          Keep original TSV file
+      --keep-file          Keep original TSV file
 
 .. note::
 
-    The ``cleancalaccessrawfile`` command overwrites the .CSV files previously processed from the original .TSV files.
+    The ``cleancalaccessrawfile`` command overwrites the CSV files previously processed from the original TSV files.
 
 ----------------------
 
@@ -166,9 +165,9 @@ Here is how to run the command.
 
     $ python manage.py downloadcalaccessrawdata
 
-You will then see a prompt with the release date and size of the latest zip of raw CAL-ACCESS data files available to download from the California Secretary of State's website.
+You will then see a prompt with the release date and size of the latest zip of raw CAL-ACCESS data files available to download from the California Secretary of State.
 
-If your previous download did not complete, and the same snapshot is still available to download, you will be prompted to resume your previous download.
+If your previous download did not complete *and* the same snapshot is still available to download, you will be prompted to resume your previous download.
 
 You can skip the download's confirmation prompt using Django's standard ``--noinput`` option.
 
@@ -185,8 +184,7 @@ Options
                                               [--settings SETTINGS]
                                               [--pythonpath PYTHONPATH]
                                               [--traceback] [--no-color]
-                                              [--keep-files] [--noinput]
-                                              [--force-restart]
+                                              [--noinput] [--force-restart]
 
     Download the latest CAL-ACCESS database ZIP
 
@@ -222,11 +220,22 @@ extractcalaccessrawfiles
 Extract the CAL-ACCESS raw data files from downloaded ZIP. A component of the
 master ``updatecalaccessrawdata`` command.
 
+Examples
+````````
+
+Here is how to run the command.
+
+.. code-block:: sh
+
+    $ python manage.py extractcalaccessrawfiles
+
+
 The downloaded zip file will be deleted unless the ``--keep-files`` option is provided.
 
 .. code-block:: sh
 
-    $ python manage.py cleancalaccessrawfile RcptCd.TSV --keep-files
+    $ python manage.py extractcalaccessrawfiles --keep-files
+
 
 Options
 ```````
@@ -256,11 +265,11 @@ Options
                             "/home/djangoprojects/myproject".
       --traceback           Raise on CommandError exceptions
       --no-color            Don't colorize the command output.
-      --keep-files          Keep downloaded zip and unzipped files
+      --keep-files          Keep downloaded zipped files
 
 .. note::
 
-    The ``extractcalaccessrawfiles`` command overwrites the previously extracted .TSV files.
+    The ``extractcalaccessrawfiles`` command overwrites the previously extracted TSV files.
 
 ----------------------
 
@@ -295,7 +304,7 @@ Options
     usage: manage.py loadcalaccessrawfile [-h] [--version] [-v {0,1,2,3}]
                                           [--settings SETTINGS]
                                           [--pythonpath PYTHONPATH] [--traceback]
-                                          [--no-color] [--c CSV] [--keep-files]
+                                          [--no-color] [--c CSV] [--keep-file]
                                           [-a APP_NAME]
                                           model_name
 
@@ -321,7 +330,7 @@ Options
       --no-color            Don't colorize the command output.
       --c CSV, --csv CSV    Path to comma-delimited file to be loaded. Defaults to
                             one associated with model.
-      --keep-files          Keep CSV file after loading
+      --keep-file          Keep clean CSV file after loading
       -a APP_NAME, --app-name APP_NAME
                             Name of Django app with models into which data will be
                             imported (if other not calaccess_raw)
@@ -336,7 +345,9 @@ Options
 reportcalaccessrawdata
 ~~~~~~~~~~~~~~~~~~~~~~
 
-Generate report outlining the number / proportion of files / records cleaned and loaded
+Generate report outlining the number / proportion of files / records cleaned and loaded.
+
+The report will be saved as a CSV file in the application's download directory.
 
 Examples
 ````````

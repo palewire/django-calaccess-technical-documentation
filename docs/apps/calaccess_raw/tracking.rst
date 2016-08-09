@@ -382,11 +382,11 @@ Data files included in the given version of the CAL-ACCESS raw source data.
         </tr>
         <tr>
             <td><code>RawDataVersion.pretty_clean_file_size</code></td>
-            <td>Returns a prettified version of the clean_file_size size.</td>
+            <td>Returns a prettified version (e.g., "725M") of the cleaned file's size.</td>
         </tr>
         <tr>
             <td><code>RawDataVersion.pretty_download_file_size</code></td>
-            <td>Returns a prettified version of the download_file_size size.</td>
+            <td>Returns a prettified version (e.g., "725M") of the downloaded file's size.</td>
         </tr>
 
 

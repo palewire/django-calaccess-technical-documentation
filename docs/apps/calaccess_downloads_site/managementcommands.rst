@@ -104,8 +104,8 @@ Options
                                        [--pythonpath PYTHONPATH] [--traceback]
                                        [--no-color]
 
-    Save copies of data files from the most recently completed updatein a latest
-    directory in the Django project's default file storage.
+    Save copies of data files from the most recently completed update in a latest
+    directory in the default file storage of the Django project.
 
     optional arguments:
       -h, --help            show this help message and exit

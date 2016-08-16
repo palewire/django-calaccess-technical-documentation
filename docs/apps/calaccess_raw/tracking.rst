@@ -25,7 +25,8 @@ RawDataVersion
 
 Versions of CAL-ACCESS raw source data, typically released every day.
 
-**Fields:**
+Fields
+******
 
 .. raw:: html
 
@@ -134,7 +135,9 @@ Versions of CAL-ACCESS raw source data, typically released every day.
     </table>
     </div>
 
-**Instance methods and propertites:**
+
+Instance methods and properties
+*******************************
 
 .. raw:: html
 
@@ -144,39 +147,63 @@ Versions of CAL-ACCESS raw source data, typically released every day.
 
 
         <tr>
-            <td><code>RawDataVersion.download_completed</code></td>
+            <td><code>.download_completed</code></td>
             <td>Check if the download of the version's zip file completed. Return <code>True</code> or <code>False</code>.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.download_stalled</code></td>
+            <td><code>.download_stalled</code></td>
             <td>Check if the download of the version's zip file started but did not complete. Return <code>True</code> or <code>False</code>.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.extract_completed</code></td>
+            <td><code>.download_file_count</code></td>
+            <td>Returns the count of files included in the version's downloaded zip.</td>
+        </tr>
+        <tr>
+            <td><code>.download_record_count</code></td>
+            <td>Returns the count of records in the version's downloaded files.</td>
+        </tr>
+        <tr>
+            <td><code>.clean_file_count</code></td>
+            <td>Returns the count of files cleaned in the version.</td>
+        </tr>
+        <tr>
+            <td><code>.clean_record_count</code></td>
+            <td>Returns the count of records in the version's cleaned files.</td>
+        </tr>
+        <tr>
+            <td><code>.error_file_count</code></td>
+            <td>Returns the count of cleaned files with errors in the version.</td>
+        </tr>
+        <tr>
+            <td><code>.error_count</code></td>
+            <td>Returns the count of cleaning errors in the version.</td>
+        </tr>
+        <tr>
+            <td><code>.extract_completed</code></td>
             <td>Check if the extract of files from the downloaded zip completed. Return <code>True</code> or <code>False</code>.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.extract_stalled</code></td>
+            <td><code>.extract_stalled</code></td>
             <td>Check if the extract of files from the downloaded zip started but did not complete. Return <code>True</code> or <code>False</code>.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.update_completed</code></td>
+            <td><code>.update_completed</code></td>
             <td>Check if the database update to the version completed. Return <code>True</code> or <code>False</code>.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.update_stalled</code></td>
+            <td><code>.update_stalled</code></td>
             <td>Check if the database update to the version started but did not complete. Return <code>True</code> or <code>False</code>.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.pretty_clean_size()</code></td>
+            <td><code>.pretty_clean_size()</code></td>
             <td>Returns a prettified version (e.g., "725M") of the zip of clean data files and error logs.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.pretty_download_size()</code></td>
+            <td><code>.pretty_download_size()</code></td>
             <td>Returns a prettified version (e.g., "725M") of the actual size of the downloaded zip.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.pretty_expected_size()</code></td>
+            <td><code>.pretty_expected_size()</code></td>
             <td>Returns a prettified version (e.g., "725M") of the expected size of the downloaded zip.</td>
         </tr>
 
@@ -186,6 +213,20 @@ Versions of CAL-ACCESS raw source data, typically released every day.
     </div>
 
 
+Query set methods
+*****************
+
+``.complete()``
+
+Filters down QuerySet to return only version that have a complete update.
+
+.. code-block:: bash
+
+    $ python manage.py shell
+    >>> from calaccess_raw.models.tracking import RawDataVersion
+    >>> RawDataVersion.objects.completed()
+    <QuerySet [<RawDataVersion: 2016-08-15 11:20:29+00:00>, <RawDataVersion: 2016-08-11 11:20:24+00:00>, <RawDataVersion: 2016-08-09 11:20:49+00:00>, <RawDataVersion: 2016-08-05 11:20:27+00:00>, <RawDataVersion: 2016-08-04 11:20:28+00:00>, <RawDataVersion: 2016-07-31 11:20:29+00:00>, <RawDataVersion: 2016-07-30 11:20:42+00:00>, <RawDataVersion: 2016-07-29 11:20:30+00:00>, <RawDataVersion: 2016-07-28 11:20:30+00:00>, <RawDataVersion: 2016-07-26 11:20:28+00:00>, <RawDataVersion: 2016-07-22 11:20:30+00:00>, <RawDataVersion: 2016-07-05 11:20:30+00:00>, <RawDataVersion: 2016-07-04 11:20:30+00:00>, <RawDataVersion: 2016-06-28 11:20:28+00:00>, <RawDataVersion: 2016-06-14 11:20:49+00:00>, <RawDataVersion: 2016-06-10 11:20:26+00:00>, <RawDataVersion: 2016-06-08 11:20:29+00:00>, <RawDataVersion: 2016-05-27 11:20:28+00:00>, <RawDataVersion: 2016-05-21 15:35:11+00:00>, <RawDataVersion: 2016-05-20 13:59:57+00:00>, '...(remaining elements truncated)...']>
+
 ----------------------
 
 RawDataFile
@@ -193,7 +234,8 @@ RawDataFile
 
 Data files included in the given version of the CAL-ACCESS raw source data.
 
-**Fields:**
+Fields
+******
 
 .. raw:: html
 
@@ -367,7 +409,8 @@ Data files included in the given version of the CAL-ACCESS raw source data.
     </div>
 
 
-**Instance methods and propertites:**
+Instance methods and properties
+*******************************
 
 .. raw:: html
 

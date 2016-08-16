@@ -4,47 +4,66 @@ Changelog
 1.4.0 (August 2016)
 -------------------
 
-* Added zipping up and archiving of cleaned zip files.
+* Added zipping up and archiving of cleaned CSVs and error logs.
 
-  * Added ``RawDataVersion.clean_zip_archive``.
+  * Added ``RawDataVersion.clean_zip_archive`` FileField.
   * Renamed ``RawDataVersion.zip_file_archive`` to ``RawDataVersion.download_zip_archive``.
 
 * Smaller clean data files (removed unnecessary quote characters).
 * Improvements to tracking models
 
-  * Replaced ``RawDataCommand`` model with easier-to-use datetime fields and properties
+  * Replaced ``RawDataCommand`` model with datetime fields and related properties
 
-    * Now storing most recent start and finish times of ``updatecalaccessrawdata`` in ``RawDataVersion.update_start_datetime`` and ``RawDataVersion.update_start_datetime``.
+    * Added to ``RawDataVersion`` instances
 
+      * ``.update_start_datetime`` and ``.update_finish_datetime`` to store version's most recent update start and finish datetimes.
       * ``.update_completed`` returns ``True`` if most recent update to version started and finished.
       * ``.update_stalled`` returns ``True`` if most recent update to version started but did not finish.
-
-    * Now storing most recent start and finish times of ``downlowncalaccessrawdata`` in ``RawDataVersion.download_start_datetime`` and ``RawDataVersion.download_finish_datetime``.
-
+      * ``.download_start_datetime`` and ``.download_finish_datetime`` to store version's most recent download start and finish datetimes.
       * ``.download_completed`` returns ``True`` if most recent download of version started and finished.
       * ``.download_stalled`` returns ``True`` if most recent download version started but did not finish.
 
-    * Now storing most recent start and finish times of ``cleancalaccessrawfile`` in ``RawDataFile.clean_start_datetime`` and ``RawDataVersion.clean_finish_datetime``.
+    * Added ``.completed()`` QuerySet method to ``RawDataVersion`` to get all version where the update completed.
 
-    * Now storing most recent start and finish times of ``loadcalaccessrawfile`` in ``RawDataFile.load_start_datetime`` and ``RawDataVersionload_finish_datetime``.
+    * Added to ``RawDataFile`` instances
+
+      * ``.clean_start_datetime`` and ``.clean_finish_datetime`` to store raw file's most recent clean start and finish datetimes.
+      * ``.load_start_datetime`` and ``.load_finish_datetime`` to store raw file's most recent load start and finish datetimes.
 
   * Expanded file size tracking
 
-    * Renamed ``RawDataVersion.size`` to ``RawDataVersion.expected_size``.
-    * Added ``RawDataVersion.download_zip_size``.
-    * Warn if completed download file size is not the same as expected size.
-    * Added ``RawDataVersion.clean_zip_size``.
-    * Added methods to get a pretty version of each file size field
+    * Renamed ``.size`` to ``.expected_size`` on ``RawDataVersion`` instances.
+    * Added ``.download_zip_size`` to ``RawDataVersion`` instances.
+    * Added ``.clean_zip_size`` to ``RawDataVersion`` instances.
+    * Added methods to get a pretty version (e.g., ``723M``) of each file size field
 
-      * ``RawDataVersion.pretty_expected_size()``
-      * ``RawDataVersion.pretty_download_size()``
-      * ``RawDataVersion.pretty_clean_size()``
-      * ``RawDataFile.pretty_download_file_size()``
-      * ``RawDataFile.pretty_clean_file_size()``
+      * Added to ``RawDataVersion`` instances
+
+        * ``.pretty_expected_size()``
+        * ``.pretty_download_size()``
+        * ``.pretty_clean_size()``
+
+      * Added to ``RawDataFile`` instances
+
+        * ``.pretty_download_file_size()``
+        * ``.pretty_clean_file_size()``
+
+    * Raise ``CommandError`` if completed download file size is not the same as expected size.
+
+    * Added ``RawDataVersion`` properties to calculate file and record counts:
+
+      * ``.download_file_count``
+      * ``.download_record_count``
+      * ``.clean_file_count``
+      * ``.clean_record_count``
+      * ``.error_file_count``
+      * ``.error_count``
 
 * Added ``extractcalaccessrawfiles`` management command for unzipping and extracting raw data files from downloaded CAL-ACCESS database export.
 
-      * Start and finish times stored in ``RawDataVersion.start_extract_datetime`` and ``RawDataVersion.finish_extract_datetime``
+    * Start and finish times stored in ``.start_extract_datetime`` and ``.finish_extract_datetime`` on ``RawDataVersion`` instances.
+
+* Skip download if the size of the local zip file is equal to or bigger than the expected zip file size.
       
 * Support for Django 1.10.
 

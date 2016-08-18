@@ -175,6 +175,14 @@ You can skip the download's confirmation prompt using Django's standard ``--noin
 
     $ python manage.py downloadcalaccessrawdata --noinput
 
+The other options are below.
+
+The server hosting the ZIP doesn't always provide the most up-to-date resource (as we have `documented <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/1487>`_). As such, a ``CommandError`` will be raised under any of the following conditions:
+
+* If ``downloadcalaccessrawdata`` is not called from the command-line (presumably, then, it was called by ``updatecalaccessrawdata``), and the ``RawDataVersion`` instance of the download command doesn't match the most recently started update.
+* If the ``ETag`` in the initial HEAD request made by ``downloadcalaccessrawdata`` does not match the ``ETag`` in the subsequent GET request.
+* If the actual size of the ZIP does not match the value of the ``Content-Length`` in the HEAD response.
+
 Options
 ```````
 

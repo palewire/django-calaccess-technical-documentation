@@ -63,16 +63,18 @@ Changelog
 
     * Start and finish times stored in ``.start_extract_datetime`` and ``.finish_extract_datetime`` on ``RawDataVersion`` instances.
 
-* Patches to ``downloadcalaccessrawdata``.
+* Bug fixes.
 
-  * Skip download if the size of the local zip file is equal to or bigger than the expected zip file size.
+  * In``downloadcalaccessrawdata``, skip download if the size of the local zip file is equal to or bigger than the expected zip file size.
   * Because the server hosting the ZIP doesn’t always provide the most up-to-date resource (as we have `documented <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/1487>`_), a ``CommandError`` will be raised under any of the following conditions:
 
     * If ``downloadcalaccessrawdata`` is not called from the command-line (presumably, then, it was called by ``updatecalaccessrawdata``), and the ``RawDataVersion`` instance of the download command doesn't match the most recently started update.
     * If the ``ETag`` in the initial HEAD request made by ``downloadcalaccessrawdata`` does not match the ``ETag`` in the subsequent GET request.
     * If the actual size of the ZIP does not match the value of the ``Content-Length`` in the HEAD response.
 
-  * If ``downloadcalaccessrawdata`` raise any of the above errors, ``updatecalaccessrawdata`` will wait five minutes and try again.
+  * If ``downloadcalaccessrawdata`` raises any of the above errors, ``updatecalaccessrawdata`` will wait five minutes and try again.
+  * When archiving zips and files, open in binary (``'rb'``) mode.
+  * In ``cleancalaccessrawfile``, fixed skipping of empty lines for Python 3.5.
       
 * Support for Django 1.10.
 

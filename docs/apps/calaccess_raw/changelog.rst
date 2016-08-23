@@ -22,8 +22,7 @@ Changelog
       * ``.download_start_datetime`` and ``.download_finish_datetime`` to store version's most recent download start and finish datetimes.
       * ``.download_completed`` returns ``True`` if most recent download of version started and finished.
       * ``.download_stalled`` returns ``True`` if most recent download version started but did not finish.
-
-    * Added ``.completed()`` QuerySet method to ``RawDataVersion`` to get all version where the update completed.
+      * ``.completed()`` QuerySet method to ``RawDataVersion`` to get all versions where the update completed.
 
     * Added to ``RawDataFile`` instances
 

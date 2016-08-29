@@ -1,7 +1,14 @@
 Changelog
 =========
 
-1.4.0 (August 2016)
+1.4.1 (late-August 2016)
+------------------------
+
+* Increase max character length on ``ReceivedFilingsCd`` fields.
+* Prevent unnecessary download of zip when resuming ``updatecalaccessrawdata``.
+* Include release datetimes in log when ``downloadcalaccessrawdata`` and ``updatecalaccessrawdata`` versions are incompatible.
+
+1.4.0 (mid-August 2016)
 -------------------
 
 * Added zipping up and archiving of cleaned CSVs and error logs.

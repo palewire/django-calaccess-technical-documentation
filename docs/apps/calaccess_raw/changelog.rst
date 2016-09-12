@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.4.5 (September 2016)
+----------------------
+
+* Copyediting of CAL-ACCESS form documentation
+
 1.4.2 (late-August 2016)
 ------------------------
 
@@ -86,7 +91,7 @@ Changelog
   * If ``downloadcalaccessrawdata`` raises any of the above errors, ``updatecalaccessrawdata`` will wait five minutes and try again.
   * When archiving zips and files, open in binary (``'rb'``) mode.
   * In ``cleancalaccessrawfile``, fixed skipping of empty lines for Python 3.5.
-      
+
 * Support for Django 1.10.
 
 
@@ -108,7 +113,7 @@ Changelog
   * Added download_file_size and clean_file_size to RawDataFile.
 
 * Enhancements to CalAccess models
-  
+
   * Added inactive models group for CAL-ACCESS tables that are empty or apparently no longer in use.
   * Added a CalAccessMetaClass to automatically configure meta attributes common to all models.
   * Added a custom admin for every model.
@@ -149,7 +154,7 @@ Changelog
 ----------------
 
 * Enhanced resume behavior
-  
+
   * Allow previously interrupted updates to resume at any stage of the process: downloading, cleaning or loading.
   * Users will be prompted to resume (if possible). User may decline and re-start the entire update.
   * Removed ``--resume-download`` option from ``updatecalaccessrawdata`` and ``downloadcalaccessrawdata`` in favor of prompting the user to resume.
@@ -195,7 +200,7 @@ Changelog
 * Introduced updatecalaccessrawdata, which downloads, cleans and loads data
 * Added --resume-download option in case download is interrupted
 * Added --csv option to loadcalaccessrawfile so that users can load from a file other than the one specified for the given calaccess_raw model
-* Added --keep-files option. Unless the option is invoked downloadcalaccessrawdata, cleancalaccessrawfile, loadcalaccessrawfile and updatecalaccessrawdata now clear out original and intermediate files  
+* Added --keep-files option. Unless the option is invoked downloadcalaccessrawdata, cleancalaccessrawfile, loadcalaccessrawfile and updatecalaccessrawdata now clear out original and intermediate files
 * Support for multiple databases configured in Django DATABASE settings. Users can now load into a specified database using --database option
 * Fixed verifycalaccessrawfile
 * Updated management command options to most recent Django style, using argparse instead of optparse

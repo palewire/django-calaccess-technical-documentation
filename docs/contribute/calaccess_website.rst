@@ -138,7 +138,7 @@ Filling in .env for the first time
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The development environment can be created in the ``.env`` file by running a `Fabric <http://www.fabfile.org/>`_ task that will ask you to provide a value for all
-of this project's mandatory settings.
+of this project's settings.
 
 .. code-block:: bash
 

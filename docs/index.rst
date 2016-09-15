@@ -17,6 +17,5 @@ Table of contents
 
    howtouseit
    apps
-   calaccess
    howtocontribute
    faq

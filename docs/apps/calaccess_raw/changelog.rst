@@ -1,6 +1,14 @@
 Changelog
 =========
 
+1.4.6 (November 2016)
+---------------------
+
+* Upgraded to latest version of django-postgres-copy
+* Small improvements to CAL-ACCESS field documentation
+* Small expansion of unittests
+* Clean up of migrations
+
 1.4.5 (September 2016)
 ----------------------
 

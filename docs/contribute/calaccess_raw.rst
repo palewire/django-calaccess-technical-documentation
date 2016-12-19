@@ -124,14 +124,14 @@ Now create the tables and get to work.
 
 .. code-block:: bash
 
-    $ python manage.py migrate
+    $ python example/manage.py migrate
 
 Once everything is set up, the :ref:`updatecalaccessrawdata` command will download the latest
 bulk data release from `the Secretary of State's website <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_ and load it into your local database.
 
 .. code-block:: bash
 
-    $ python manage.py updatecalaccessrawdata
+    $ python example/manage.py updatecalaccessrawdata
 
 .. warning::
 
@@ -146,13 +146,13 @@ Finally, start the development server and visit `localhost:8000/admin/ <http://l
 
 .. code-block:: bash
 
-    $ python manage.py runserver
+    $ python example/manage.py runserver
 
 If you don't have a super user that can log into the admin you might need to return to the command line and make one.
 
 .. code-block:: bash
 
-    $ python manage.py createsuperuser
+    $ python example/manage.py createsuperuser
 
 ------------------
 

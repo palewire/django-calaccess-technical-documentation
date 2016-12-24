@@ -11,7 +11,7 @@ The steps to follow each time release a new version of a Django package.
 * Update ``requirements.txt`` with any new dependencies
 * Run ``python setup.py sdist bdist_wheel``, make sure their aren't any errors
 * Spotcheck new release package in dist/ to make sure all files made it in.
-* Run ``twine upload dist/ --skip-existing``
+* Run ``twine upload dist/* --skip-existing``
 * Release on GitHub
 
     * ``git commit`` final change and run ``git tag "v#.#.#"`` with whatever the release number is

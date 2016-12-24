@@ -4,7 +4,7 @@ Changelog
 1.4.7 (December 2016)
 ---------------------
 
-* Fixed search field on admins for models with `ForeignKey` fields.
+* Fixed search field on admins for models with ``ForeignKey`` fields.
 
 
 1.4.6 (November 2016)

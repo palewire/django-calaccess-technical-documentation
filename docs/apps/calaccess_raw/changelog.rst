@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.4.8 (January 2017)
+---------------------
+
+* Upgrade to ``csvkit`` version 1.0.
+
 1.4.7 (December 2016)
 ---------------------
 

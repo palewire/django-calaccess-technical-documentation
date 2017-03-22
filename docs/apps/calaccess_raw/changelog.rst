@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.4.9 (March 2017)
+---------------------
+
+* Reset auto-increment fields after truncating database tables in postgres.
+* Add prefixes on tracking model admins.
+* When making requests to sos.ca.gov, log HTTP status code and reason and raise HTTP error if bad status.
+
 1.4.8 (January 2017)
 ---------------------
 
@@ -10,7 +17,6 @@ Changelog
 ---------------------
 
 * Fixed search field on admins for models with ``ForeignKey`` fields.
-
 
 1.4.6 (November 2016)
 ---------------------

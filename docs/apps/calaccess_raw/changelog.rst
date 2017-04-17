@@ -1,6 +1,15 @@
 Changelog
 =========
 
+1.5.0 (April 2017)
+---------------------
+
+* Django 1.11 compatibility.
+* Fix check for existing clean zipped file when resuming.
+* Fix message on response status code log.
+* Skip dropping/re-adding of database table constraints and indexes when loading into MySQL (`transactional DDL statements <https://wiki.postgresql.org/wiki/Transactional_DDL_in_PostgreSQL:_A_Competitive_Analysis>`_ are not supported).
+
+
 1.4.9 (March 2017)
 ---------------------
 
@@ -44,7 +53,7 @@ Changelog
 * Include release datetimes in log when ``downloadcalaccessrawdata`` and ``updatecalaccessrawdata`` versions are incompatible.
 
 1.4.0 (mid-August 2016)
--------------------
+-----------------------
 
 * Added zipping up and archiving of cleaned CSVs and error logs.
 

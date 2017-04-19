@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.5.1 (April 2017)
+---------------------
+
+* Proceed with download of ZIP file as long as last-modified datetimes in ``HEAD`` and ``GET`` requests are within five minutes of each other.
+
+
 1.5.0 (April 2017)
 ---------------------
 

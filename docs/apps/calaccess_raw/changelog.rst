@@ -1,6 +1,15 @@
 Changelog
 =========
 
+1.5.2 (April 2017)
+---------------------
+
+* Fix duplicate updates. Only create a new ``RawDataVersion`` if:
+
+  - ``Content-length`` from ``HEAD`` differs from ``expected_size`` on previous version, or,
+  - ``Last-modified`` is at least five minutes more recent than ``release_datetime`` on previous version.
+
+
 1.5.1 (April 2017)
 ---------------------
 

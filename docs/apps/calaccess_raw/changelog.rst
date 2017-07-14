@@ -1,6 +1,15 @@
 Changelog
 =========
 
+1.6.0 (July 2017)
+---------------------
+
+* Deprecate ``--test, --use-test-data`` options from ``updatecalaccessrawdata`` command.
+* Renamed custom Django project setting ``CALACCESS_DOWNLOAD_DIR`` to ``CALACCESS_DATA_DIR``.
+* Removed ``CALACCESS_TEST_DOWNLOAD_DIR`` project setting.
+* Extract and track any .TSV file regardless of location in download .ZIP directory tree.
+
+
 1.5.2 (April 2017)
 ---------------------
 

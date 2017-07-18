@@ -53,7 +53,7 @@ Options
                                             [--settings SETTINGS]
                                             [--pythonpath PYTHONPATH]
                                             [--traceback] [--no-color]
-                                            [--keep-files] [--noinput] [--test]
+                                            [--keep-files] [--noinput]
                                             [-a APP_NAME]
 
     Download, unzip, clean and load the latest CAL-ACCESS database ZIP
@@ -74,12 +74,11 @@ Options
       --traceback           Raise on CommandError exceptions
       --no-color            Don't colorize the command output.
       --keep-files          Keep zip, unzipped, TSV and CSV files
-      --noinput             Update or resume previous update without asking permission
-      --test, --use-test-data
-                            Use sampled test data (skips download, clean a load)
+      --noinput             Update or resume previous update without asking
+                            permission
       -a APP_NAME, --app-name APP_NAME
                             Name of Django app with models into which data will be
-                            imported (if other not calaccess_raw)
+                            imported (if not calaccess_raw)
 
 .. note::
     The ``updatecalaccessrawdata`` command overwrites the previously downloaded, extracted and cleaned files in the application's download directory.

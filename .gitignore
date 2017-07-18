@@ -12,3 +12,4 @@ docs/_build
 .tox/
 example/settings_local.py
 data/
+.python-version

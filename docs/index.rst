@@ -16,6 +16,7 @@ Table of contents
    :maxdepth: 2
 
    howtouseit
+   settings
    apps
    howtocontribute
    faq

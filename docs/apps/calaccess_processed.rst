@@ -1,9 +1,15 @@
 django-calaccess-processed-data
 ===============================
 
-A Django app to clean, transform and refine campaign finance and lobbysist disclosure
-data from the California Secretary of State’s :doc:`CAL-ACCESS </calaccess>`
-database.
+A Django app to clean, transform and refine campaign finance and lobbysist disclosure data from the California Secretary of State’s :doc:`CAL-ACCESS </calaccess>` database.
+
+.. toctree::
+   :maxdepth: 2
+
+   calaccess_processed/managementcommands
+   calaccess_processed/tracking
+   calaccess_processed/changelog
+
 
 Open-source resources
 ---------------------

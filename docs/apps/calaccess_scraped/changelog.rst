@@ -6,8 +6,10 @@ Changelog
 
 * Initial release of management commands and models for scraping:
 
-  * Ballot propositions
-  * "Certified" candidates and the committees linked to them during the most recent cycle in which they ran
-  * Incumbent officeholders
+  * Ballot propositions (see `scrapecalaccesspropositions <managementcommands.html#scrapecalaccesspropositions>`_)
+  * "Certified" candidates  (see `scrapecalaccesscandidates <managementcommands.html#scrapecalaccesscandidates>`_)
+  * Committees linked to certified candidates in each candidate's most recent election cycle  (see `scrapecalaccesscandidatecommittees <managementcommands.html#scrapecalaccesscandidatecommittees>`_)
+  * Incumbent officeholders (see `scrapecalaccessincumbents <managementcommands.html#scrapecalaccessincumbents>`_)
+  * The entire routine (see `scrapecalaccess <managementcommands.html#scrapecalaccess>`_)
 
 * Includes admin panels for previewing any scraped data

@@ -420,15 +420,15 @@ Instance methods and properties
 
 
         <tr>
-            <td><code>RawDataVersion.model()</code></td>
+            <td><code>.model()</code></td>
             <td>Returns the RawDataFile's corresponding CalAccess database model object.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.pretty_clean_file_size</code></td>
+            <td><code>.pretty_clean_file_size</code></td>
             <td>Returns a prettified version (e.g., "725M") of the cleaned file's size.</td>
         </tr>
         <tr>
-            <td><code>RawDataVersion.pretty_download_file_size</code></td>
+            <td><code>.pretty_download_file_size</code></td>
             <td>Returns a prettified version (e.g., "725M") of the downloaded file's size.</td>
         </tr>
 

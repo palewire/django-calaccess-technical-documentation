@@ -65,7 +65,7 @@ Fields
             <td>expected_size</td>
             <td>Integer</td>
             <td>No</td>
-            <td>The expected size of the downloaded CAL-ACCESS zip, as specified in the content-length field in HTTP response header
+            <td>The expected size of the downloaded CAL-ACCESS zip, as specified in the content-length field in HTTP response header</td>
         </tr>
 
 

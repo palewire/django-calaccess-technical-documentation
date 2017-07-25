@@ -5,7 +5,7 @@ The processed-data app includes the following commands for refining the raw CAL-
 
 * ``Filing`` models that surface the most recent version of data included on a campaign-finance filing form, schedule or line item (e.g., a `Form 460`_, its Schedule A or Line 1 on that schedule).
 * ``FilingVersion`` models that surface every version of campaign-finance filing form, schedule or line item.
-* Models that implement the core data types of the `Open Civic Data specification`_ (e.g., ``Person``, ``Organization``, ``Post`` and `Membership``).
+* Models that implement the core data types of the `Open Civic Data specification`_ (e.g., ``Person``, ``Organization``, ``Post`` and ``Membership``).
 *  Models that implement election-related data types that have been `provisionally included`_ in the Open Civic Data specification (e.g., `Election`, `CandidateContest` and `Candidacy`).
 
 As with any Django app management command, these can be invoked on the command line or `called within your Python code <https://docs.djangoproject.com/en/1.10/ref/django-admin/#running-management-commands-from-your-code>`_.
@@ -31,7 +31,7 @@ processcalaccessdata
 
 This is the master command. It brings together all of the other management commands listed below to load data into processed CAL-ACCESS models.
 
-This command also exports a csv file for each model it loads, if you're Django project is configured for archiving (`read more`_).
+If your Django project is configured for archiving (`details here`_), this command will also exports a csv file for each model it loads.
 
 Examples
 ````````
@@ -79,7 +79,6 @@ Options
       --no-color            Don't colorize the command output.
       --force-restart, --restart
                             Force re-start (overrides auto-resume).
-      --no-scrape           Skip scraping.
 
 
 ----------------------
@@ -91,24 +90,17 @@ Export and archive a .csv file for a given model.
 
 Examples
 ````````
-
-You must pass in the ``app_name`` and ``model_name`` as the first two positional arguments. For example, here's how you archive the ``Form460Filing`` model:
-
-.. code-block:: none
-
-    $ python manage.py archivecalaccessprocessedfile calaccess_processed Form460Filing
-
-Or the ``Person`` model, which is one Open Civic Data's core data types:
+You must provide the ``model_name`` as the first and only positional argument. For example, here's how you archive the ``Form460Filing`` model:
 
 .. code-block:: none
 
-    $ python manage.py archivecalaccessprocessedfile core Person
+    $ python manage.py archivecalaccessprocessedfile Form460Filing
 
-Pass ``elections`` for the OCD election-related data types (e.g., ``Candidacy``):
+Or the ``Candidacy`` model, which is one Open Civic Data's election-related data types:
 
 .. code-block:: none
 
-    $ python manage.py archivecalaccessprocessedfile elections Candidacy
+    $ python manage.py archivecalaccessprocessedfile Candidacy
 
 
 Options
@@ -120,12 +112,11 @@ Options
                                                    [--settings SETTINGS]
                                                    [--pythonpath PYTHONPATH]
                                                    [--traceback] [--no-color]
-                                                   app_name model_name
+                                                   model_name
 
     Export and archive a .csv file for a given model.
 
     positional arguments:
-      app_name              Name of the app with the model
       model_name            Name of the model to archive
 
     optional arguments:
@@ -151,7 +142,7 @@ loadcalaccessfilings
 
 Load the CAL-ACCESS ``Filing`` and ``FilingVersion`` models.
 
-This command also exports a csv file for each model it loads, if you're Django project is configured for archiving (`read more`_).
+If your Django project is configured for archiving (`details here`_), this command will also exports a csv file for each model it loads.
 
 Examples
 ````````
@@ -219,7 +210,7 @@ This command runs the following management commands, in order:
 #. ``mergeocdpersonsbycontestandname``
 #. ``loadocdincumbentofficeholders``
 
-This command also exports a csv file for each model it loads, if you're Django project is configured for archiving (`read more`_).
+If your Django project is configured for archiving (`details here`_), this command will also exports a csv file for each model it loads.
 
 Examples
 ````````
@@ -599,7 +590,7 @@ Options
 mergeocdpersonsbycontestandname
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Find and merge ``Person`` records linked that share a name and ``CandidateContest``.
+Find and merge ``Person`` records that share a name and ``CandidateContest``.
 
 
 Examples
@@ -645,7 +636,7 @@ Options
 mergeocdpersonsbyfilerid
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Find and merge `Person` records that share the same CAL-ACCESS filer_id.
+Find and merge ``Person`` records that share the same CAL-ACCESS filer_id.
 
 Examples
 ````````
@@ -690,4 +681,4 @@ Options
 .. _Form 497: https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f497/
 .. _Open Civic Data specification: https://opencivicdata.readthedocs.io/en/latest/#
 .. _provisionally included: https://opencivicdata.readthedocs.io/en/latest/proposals/drafts/elections.html
-.. _read more: /settings.html#calaccess-store-archive
+.. _details here: /settings.html#calaccess-store-archive

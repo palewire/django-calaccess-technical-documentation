@@ -1,5 +1,5 @@
 Contribute to django-calaccess-processed-data
-=======================================
+=============================================
 
 This walkthrough is for developers who want to contribute to :doc:`/apps/calaccess_processed`, a Django app to transform and refine campaign-finance and lobbying-activity data from the California Secretary of State’s CAL-ACCESS database.
 
@@ -113,49 +113,12 @@ Once the raw CAL-ACCESS data is loaded and the scrape has finished, you can tran
 
 ---------------
 
-Exploring the data
-------------------
+Welcome aboard!
+---------------
 
-Finally, start the development server and visit `localhost:8000/admin/ <http://localhost:8000/admin/>`_ in your browser to inspect the CAL-ACCESS data in your Django administration panel.
+Now that your development environment is set up, check out the `GitHub issue tracker`_ where plenty of work awaits.
 
-.. code-block:: bash
-
-    $ python example/manage.py runserver
-
-If you don't have a super user that can log into the admin you might need to return to the command line and make one.
-
-.. code-block:: bash
-
-    $ python example/manage.py createsuperuser
-
-------------------
-
-Testing
--------
-
-Our code is tested using `Django's built-in unittesting`_ system via the TravisCI_ continuous integration service.
-
-In addition, prior to the Django unittests, code is evaluated using Python's
-pep8_ and pyflakes_ style-guide enforcement tools.
-
-When a commit or pull request is made with our repository, those tests are
-rerun with the latest code. We try not to be too uptight, but we generally
-expect the tests to be pass before we will merge a request.
-
-------------------
-
-Now what?
----------
-
-You now have a complete copy of the database at your fingertips, more than 35 million records chronicling money in California politics back to the year 2000.
-
-To figure where to work on the raw data application, check out the `GitHub issue tracker`_ where plenty of work awaits.
-
-You might also consider contributing to other components of our project:
-
-* While it's more or less in maintenance mode, you might :doc:`contribute to django-calaccess-raw-data </contribute/calaccess_raw>`, the app that downloads, extracts and loads the nightly exports of raw CAL-ACCESS data.
-* Interested in web scraping? Check out how to :doc:`contribute to django-calaccess-scraped-data </contribute/calaccess_scraped>` and help us fill in the gaps we've found in the nightly raw data exports.
-* We also maintain an online archive that saves and republishes every day's dump. If you want to move on to get involved with those efforts, check out our guide on how to :doc:`contribute to django-calaccess-downloads-website </contribute/calaccess_website>`.
+As you submit your work, please pay attention to the results of our `integration tests`_ (more details :doc:`here </contribute/testing>`).
 
 
 
@@ -168,6 +131,5 @@ You might also consider contributing to other components of our project:
 .. _scrapecalaccess: /apps/calaccess_scraped/managementcommands.html#scrapecalaccess
 .. _processcalaccessdata: /apps/calaccess_processed/managementcommands.html#_processcalaccessdata
 .. _CAL-ACCESS website: http://cal-access.sos.ca.gov/Campaign/
-.. _pep8: https://pypi.python.org/pypi/pep8
-.. _pyflakes: https://pypi.python.org/pypi/pyflakes
 .. _Github issue tracker: https://github.com/california-civic-data-coalition/django-calaccess-processed-data/issues
+.. _integration tests: https://travis-ci.org/california-civic-data-coalition/django-calaccess-raw-data

@@ -15,6 +15,7 @@ What developers can do
    contribute/calaccess_scraped
    contribute/calaccess_processed
    contribute/calaccess_website
+   contribute/testing
 
 What anyone can do
 ------------------

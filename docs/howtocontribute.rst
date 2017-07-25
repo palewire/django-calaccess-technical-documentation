@@ -12,6 +12,8 @@ What developers can do
    :maxdepth: 2
 
    contribute/calaccess_raw
+   contribute/calaccess_scraped
+   contribute/calaccess_processed
    contribute/calaccess_website
 
 What anyone can do

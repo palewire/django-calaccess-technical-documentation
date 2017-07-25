@@ -15,9 +15,9 @@ scrapecalaccess
 
 This command runs the following management commands, in order:
 
-1. ``scrapecalaccesspropositions``
-2. ``scrapecalaccesscandidates``
-3. ``scrapecalaccessincumbents``
+#. ``scrapecalaccesspropositions``
+#. ``scrapecalaccesscandidates``
+#. ``scrapecalaccessincumbents``
 
 These commands are defined in more detail below.
 

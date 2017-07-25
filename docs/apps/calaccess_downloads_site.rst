@@ -1,7 +1,7 @@
 django-calaccess-downloads-website
 ==================================
 
-An open-source archive of campaign finance and lobbying disclosure data from
+An open-source archive of campaign-finance and lobbying-activity data from
 the California Secretary of State's :doc:`CAL-ACCESS </calaccess>` database.
 
 

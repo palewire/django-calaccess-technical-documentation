@@ -285,7 +285,7 @@ Changelog
 * Support for PostgreSQL database backends
 * Upgraded to Django 1.7
 * Prettified management command output and logging
-* Improved docs, admins and configuration for some campaign finance models
+* Improved docs, admins and configuration for some campaign-finance models
 * Numerous small bug fixes and documentation corrections
 
 

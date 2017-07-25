@@ -46,7 +46,6 @@ and Microsoft SQL Server. But we haven't got there yet.
 
 ----------------------
 
-.. _faq-multi-databases:
 
 Do I have to load the CAL-ACCESS data into my default database?
 ---------------------------------------------------------------

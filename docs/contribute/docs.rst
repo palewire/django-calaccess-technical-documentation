@@ -24,46 +24,6 @@ Generally, you should be editing the ``.rst`` files in ``docs/`` directory, rath
 ---------------
 
 
-Editing Database Tables or Filing Forms Docs
---------------------------------------------
-
-The docs inside the `Database tables <calaccess/dbtables.html>`_ and `Filing forms <filingforms.html>`_ sections are generated programmatically, rather than being typed out. So, for instance, if you make a change to ``./docs/calaccess/db_tablescampaign_tables.rst``, that change will be over-written the next time the document is generated.
-
-Probably your edit will require a change to either the template file (found in ``./src/toolbox/templates/``) used to render the document or the `raw-data <https://github.com/california-civic-data-coalition/django-calaccess-raw-data>`_ app. If you can't figure it out on your own, feel free to `file an issue <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation/issues>`_ with us, and we'll get on it.
-
-(If you interested in how this works, check out the management commands in ``src/toolbox`` inside the `technical documentation <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_ repo).
-
----------------
-
-
-Preparing a local environment
------------------------------
-
-If you want to work on changes to the documentation on your own machine (as opposed to making edits via GitHub's interface), this guide will walk you through the setup process.
-
-As is the case with `app developers <calaccess_raw.html#preparing-a-development-environment>`_, we recommend you work on these docs in a virtual environment.
-
-One way to accomplish is with Python's ``virtualenv`` tool and its helpful companion ``virtualenvwrapper``. If you have that installed a new project can be started with the following:
-
-.. code-block:: bash
-
-    $ mkproject django-calaccess-technical-documentation
-
-That will jump into a new folder in your code directory, where you can clone our code repository from `GitHub <https://github.com/california-civic-data-coalition/django-calaccess-technical-documentation>`_ after you make a fork of your own. Don't know what that means? `Read this <https://guides.github.com/activities/forking/>`_.
-
-.. code-block:: bash
-
-    $ git clone https://github.com/<YOUR-USERNAME>/django-calaccess-technical-documentation.git .
-
-Next install the other Python libraries our code depends on.
-
-.. code-block:: bash
-
-    $ pip install -r requirements.txt
-
----------------
-
-
 Viewing changes locally
 -----------------------
 

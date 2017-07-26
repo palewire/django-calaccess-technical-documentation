@@ -6,9 +6,9 @@ The processed-data app includes the following commands for refining the raw CAL-
 * ``Filing`` models that surface the most recent version of data included on a campaign-finance filing form, schedule or line item (e.g., a `Form 460`_, its Schedule A or Line 1 on that schedule).
 * ``FilingVersion`` models that surface every version of campaign-finance filing form, schedule or line item.
 * Models that implement the core data types of the `Open Civic Data specification`_ (e.g., ``Person``, ``Organization``, ``Post`` and ``Membership``).
-*  Models that implement election-related data types that have been `provisionally included`_ in the Open Civic Data specification (e.g., `Election`, `CandidateContest` and `Candidacy`).
+*  Models that implement election-related data types that have been `provisionally included`_ in the Open Civic Data specification (e.g., ``Election``, ``CandidateContest`` and ``Candidacy``).
 
-As with any Django app management command, these can be invoked on the command line or `called within your Python code <https://docs.djangoproject.com/en/1.10/ref/django-admin/#running-management-commands-from-your-code>`_.
+As with any Django app management command, these can be invoked on the command line or `called within your Python code`_.
 
 .. note::
 
@@ -18,7 +18,7 @@ As with any Django app management command, these can be invoked on the command l
 
       $ python manage.py updatecalaccessrawdata
 
-    And scraped supplementary data from the CAL-ACCESS website:
+    And scrape supplementary data from the CAL-ACCESS website:
 
     .. code-block:: none
 
@@ -42,7 +42,7 @@ Running the entire routine is as simple as this.
 
     $ python manage.py processcalaccessdata
 
-If a previous processing attempt stalled for any reason, ``processcalaccessdata`` will pick up wherever you left off. You can override this behavior by invoking the ``force-restart`` option.
+If a previous processing job stalled for any reason, ``processcalaccessdata`` will pick up wherever you left off. You can override this behavior by invoking the ``force-restart`` option.
 
 .. code-block:: none
 
@@ -140,7 +140,8 @@ Options
 loadcalaccessfilings
 ~~~~~~~~~~~~~~~~~~~~
 
-Load the CAL-ACCESS ``Filing`` and ``FilingVersion`` models.
+Load the CAL-ACCESS ``Filing`` and ``FilingVersion`` models. A component of the
+master ``processcalaccessdata`` command.
 
 If your Django project is configured for archiving (`details here`_), this command will also exports a csv file for each model it loads.
 
@@ -154,7 +155,7 @@ Here is how to run the command.
     $ python manage.py loadcalaccessfilings
 
 
-This command will skip any `Filing` or `FilingVersion` models already loaded with raw data from the current CAL-ACCESS snapshot. You can override this behavior by invoking the ``force-restart`` option.
+This command will skip any ``Filing`` or ``FilingVersion`` models already loaded with raw data from the current CAL-ACCESS snapshot. You can override this behavior by invoking the ``force-restart`` option.
 
 .. code-block:: none
 
@@ -196,7 +197,7 @@ Options
 loadocdelections
 ~~~~~~~~~~~~~~~~
 
-Load data extracted from scraped and raw data snapshot into OCD elections models.
+Load OCD elections models with raw/scraped CAL-ACCESS data. A component of the master ``processcalaccessdata`` command.
 
 This command runs the following management commands, in order:
 
@@ -232,7 +233,7 @@ Options
                                       [--pythonpath PYTHONPATH] [--traceback]
                                       [--no-color]
 
-    Load data extracted from scrape and raw data snapshot into OCD elections models.
+    Load OCD elections models with raw/scraped CAL-ACCESS data.
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -256,7 +257,7 @@ Options
 loadocdballotmeasurecontests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load the OCD ``BallotMeasureContest`` and related models with data scraped from the CAL-ACCESS website.
+Load the OCD ``BallotMeasureContest`` and related models with data scraped from the CAL-ACCESS website. A component of the ``loadocdelections`` command.
 
 Examples
 ````````
@@ -304,7 +305,7 @@ Options
 loadocdcandidateelections
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load OCD ``Election`` models with candidate-related data scraped from the CAL-ACCESS website.
+Load OCD ``Election`` models with candidate-related data scraped from the CAL-ACCESS website. A component of the ``loadocdelections`` command.
 
 Examples
 ````````
@@ -328,7 +329,7 @@ Options
                                                [--traceback] [--no-color]
                                                [--flush]
 
-    Load OCD Election models with data scraped from the CAL-ACCESS website.
+    Load the OCD Election model with data from the ScrapedCandidateElection model.
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -353,7 +354,7 @@ Options
 loadocdcandidatecontests
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load the OCD ``CandidateContest`` and related models with data scraped from the CAL-ACCESS website.
+Load the OCD ``CandidateContest`` and related models with scraped CAL-ACCESS data. A component of the ``loadocdelections`` command.
 
 .. note::
 
@@ -379,7 +380,7 @@ Options
                                               [--pythonpath PYTHONPATH]
                                               [--traceback] [--no-color] [--flush]
 
-    Load CandidateContest and related models with data scraped from the CAL-ACCESS website.
+    Load the OCD CandidateContest and related models with scraped CAL-ACCESS data.
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -404,9 +405,9 @@ Options
 loadocdcandidaciesfrom501s
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load the OCD ``Candidacy`` model from records extracted from ``Form501Filing`` records.
+Load the OCD ``Candidacy`` model from records extracted from ``Form501Filing`` records. A component of the ``loadocdelections`` command.
 
-This command fills in `Candidacy` records with data missing on the CAL-ACCESS website (e.g., the candidate's party in each contest). It also adds additional `Candidacy` records.
+This command fills in ``Candidacy`` records with data missing on the CAL-ACCESS website (e.g., the candidate's party in each contest). It also adds additional ``Candidacy`` records.
 
 Examples
 ````````
@@ -452,7 +453,7 @@ Options
 loadocdincumbentofficeholders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load incumbent candidate data scraped from the CAL-ACCESS website into OCD models.
+Load incumbent candidate data scraped from the CAL-ACCESS website into OCD models. A component of the ``loadocdelections`` command.
 
 Examples
 ````````
@@ -498,7 +499,7 @@ Options
 loadocdretentioncontests
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load OCD RetentionContest and related models with data scraped from the CAL-ACCESS website.
+Load OCD ``RetentionContest`` and related models with data scraped from the CAL-ACCESS website. A component of the ``loadocdelections`` command.
 
 Examples
 ````````
@@ -545,7 +546,7 @@ Options
 loadocdparties
 ~~~~~~~~~~~~~~
 
-Load OCD ``Organization`` model with political parties from ``LOOKUP_CODES_CD`` table in raw CAL-ACCESS data.
+Load OCD ``Organization`` model with parties extracted from raw CAL-ACCESS data.. A component of the ``loadocdelections`` command.
 
 Examples
 ````````
@@ -567,7 +568,7 @@ Options
                                     [--pythonpath PYTHONPATH] [--traceback]
                                     [--no-color] [--flush]
 
-    Load OCD Party model from LOOKUP_CODES_CD table in raw CAL-ACCESS data
+    Load OCD Organization model with parties extracted from raw CAL-ACCESS data.
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -590,7 +591,7 @@ Options
 mergeocdpersonsbycontestandname
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Find and merge ``Person`` records that share a name and ``CandidateContest``.
+Find and merge OCD ``Person`` records that share a name and ``CandidateContest``. A component of the ``loadocdelections`` command.
 
 
 Examples
@@ -614,7 +615,7 @@ Options
                                                      [--pythonpath PYTHONPATH]
                                                      [--traceback] [--no-color]
 
-    Merge duplicate Candidacies within the same CandidateContest.
+    Find and merge OCD Person records that share a name and CandidateContest.
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -636,7 +637,7 @@ Options
 mergeocdpersonsbyfilerid
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Find and merge ``Person`` records that share the same CAL-ACCESS filer_id.
+Find and merge OCD ``Person`` records that share the same CAL-ACCESS filer_id. A component of the ``loadocdelections`` command.
 
 Examples
 ````````
@@ -658,7 +659,7 @@ Options
                                               [--pythonpath PYTHONPATH]
                                               [--traceback] [--no-color]
 
-    Merge Persons that share the same CAL-ACCESS filer_id
+    Find and merge OCD Person records that share the same CAL-ACCESS filer_id.
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -677,6 +678,7 @@ Options
       --no-color            Don't colorize the command output.
 
 
+.. _called within your Python code: https://docs.djangoproject.com/en/1.10/ref/django-admin/#running-management-commands-from-your-code
 .. _Form 460: https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f460/
 .. _Form 497: https://calaccess.californiacivicdata.org/documentation/calaccess-forms/f497/
 .. _Open Civic Data specification: https://opencivicdata.readthedocs.io/en/latest/#

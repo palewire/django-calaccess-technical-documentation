@@ -1,11 +1,11 @@
 Management commands
 ===================
 
-The scraped-data app includes the following commands for scraping campaign finance data from the `CAL-ACCESS <http://www.sos.ca.gov/prd/cal-access/>`__ website.
+The scraped-data app includes the following commands for scraping campaign finance data from the `CAL-ACCESS website`_.
 
-As with any Django app management command, these can be invoked on the command line or `called within your Python code <https://docs.djangoproject.com/en/1.10/ref/django-admin/#running-management-commands-from-your-code>`_.
+As with any Django app management command, these can be invoked on the command line or `called within your Python code`_.
 
-Raw content downloaded from CAL-ACCESS is stored in ``.scraper_cache/``, found in the directory specified by ``BASE_DIR`` in your Django project's `settings <https://docs.djangoproject.com/en/1.11/topics/settings/>`_.
+Raw content downloaded from CAL-ACCESS is stored in ``.scraper_cache/``, found in the directory specified by ``BASE_DIR`` in your Django project's settings_.
 
 ----------------------
 
@@ -90,7 +90,7 @@ scrapecalaccesscandidates
 
 Scrape certified candidates for each election on the CAL-ACCESS site. A component of the ``scrapecalaccess`` command.
 
-This command requests and parses content from the "certified" view of the ``Campaign/Candidates/list.aspx`` page (e.g., the `2016 General <http://cal-access.sos.ca.gov/Campaign/Candidates/list.aspx?view=certified&electNav=65>`_ certified candidates). Data parsed from these pages are saved in the ``CandidateElection`` and ``Candidate`` models.
+This command requests and parses content from the "certified" view of the ``Campaign/Candidates/list.aspx`` page (e.g., the `2016 General`_ certified candidates). Data parsed from these pages are saved in the ``CandidateElection`` and ``Candidate`` models.
 
 Examples
 ````````
@@ -144,9 +144,9 @@ Options
 scrapecalaccesscandidatecommittees
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Scrape each candidate's committees from the CAL-ACCESS site. 
+Scrape each candidate's committees from the CAL-ACCESS site.
 
-This command requests and parses content from the "general" view of the ``Campaign/Candidates/Detail.aspx`` page for candidate's most recent "session" (e.g., `Edward T. Gaines <http://cal-access.sos.ca.gov/Campaign/Candidates/Detail.aspx?id=1265444&view=general&session=2017>`_ general information leading up to the 2016 General election). Data parsed from these pages are saved in the ``CandidateCommittee`` model.
+This command requests and parses content from the "general" view of the ``Campaign/Candidates/Detail.aspx`` page for candidate's most recent "session" (e.g., `Edward T. Gaines`_ general information leading up to the 2016 General election). Data parsed from these pages are saved in the ``CandidateCommittee`` model.
 
 .. note::
 
@@ -209,7 +209,7 @@ scrapecalaccessincumbents
 
 Scrape list of incumbent state officials for each election on CAL-ACCESS site. A component of the ``scrapecalaccess`` command.
 
-This command requests and parses content from the "incumbent" view of the ``Campaign/Candidates/list.aspx`` page (e.g., the `2017-2018 General <http://cal-access.sos.ca.gov/Campaign/Candidates/list.aspx?view=incumbent&session=2017>`_ incumbents). Data parsed from these pages are saved in the ``IncumbentElection`` and ``Incumbent`` models.
+This command requests and parses content from the "incumbent" view of the ``Campaign/Candidates/list.aspx`` page (e.g., the `2017-2018 General`_ incumbents). Data parsed from these pages are saved in the ``IncumbentElection`` and ``Incumbent`` models.
 
 Examples
 ````````
@@ -265,7 +265,7 @@ scrapecalaccesspropositions
 
 Scrape links between filers and propositions from the official CAL-ACCESS site. A component of the ``scrapecalaccess`` command.
 
-This command requests and parses content from the ``Campaign/Measures/list.aspx`` page (e.g., the `2015-2016 <http://cal-access.sos.ca.gov/Campaign/Measures/list.aspx?session=2015>`_ propositions and ballot measures) and "general" view of each propositions ``Campaign/Measures/Detail.aspx`` page (e.g., `Prop 60 <http://cal-access.sos.ca.gov/Campaign/Measures/Detail.aspx?id=1376195&session=2015&view=general>`_'s general information). Data parsed from these pages are saved in the ``PropositionElection``, ``Proposition`` and ``PropositionCommittee`` models.
+This command requests and parses content from the ``Campaign/Measures/list.aspx`` page (e.g., the `2015-2016`_ propositions and ballot measures) and "general" view of each propositions ``Campaign/Measures/Detail.aspx`` page (e.g., `Prop 60's`_ general information). Data parsed from these pages are saved in the ``PropositionElection``, ``Proposition`` and ``PropositionCommittee`` models.
 
 Examples
 ````````
@@ -312,3 +312,13 @@ Options
                             cached
       --cache-only          Skip the scraper's update checks. Use only cached
                             files.
+
+
+.. _CAL-ACCESS website: http://cal-access.sos.ca.gov/campaign/
+.. _called within your Python code: https://docs.djangoproject.com/en/1.10/ref/django-admin/#running-management-commands-from-your-code
+.. _settings: https://docs.djangoproject.com/en/1.11/topics/settings/
+.. _2016 General: http://cal-access.sos.ca.gov/Campaign/Candidates/list.aspx?view=certified&electNav=65
+.. _Edward T. Gaines: http://cal-access.sos.ca.gov/Campaign/Candidates/Detail.aspx?id=1265444&view=general&session=2017
+.. _2017-2018 General: http://cal-access.sos.ca.gov/Campaign/Candidates/list.aspx?view=incumbent&session=2017
+.. _2015-2016: http://cal-access.sos.ca.gov/Campaign/Measures/list.aspx?session=2015
+.. _Prop 60's: http://cal-access.sos.ca.gov/Campaign/Measures/Detail.aspx?id=1376195&session=2015&view=general

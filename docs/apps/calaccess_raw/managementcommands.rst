@@ -1,9 +1,9 @@
 Management commands
 ===================
 
-The raw-data app includes the following commands for processing and verifying the raw data released in the CAL-ACCESS `nightly exports <http://www.sos.ca.gov/campaign-lobbying/cal-access-resources/raw-data-campaign-finance-and-lobbying-activity/>`_.
+The raw-data app includes the following commands for processing and verifying the raw data released in the CAL-ACCESS `nightly exports`_.
 
-As with any Django app management command, these can be invoked on the command line or `called within your Python code <https://docs.djangoproject.com/en/1.10/ref/django-admin/#running-management-commands-from-your-code>`_.
+As with any Django app management command, these can be invoked on the command line or `called within your Python code`_.
 
 ----------------------
 
@@ -174,11 +174,10 @@ You can skip the download's confirmation prompt using Django's standard ``--noin
 
 The other options are below.
 
-The server hosting the ZIP doesn't always provide the most up-to-date resource (as we have `documented <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/1487>`_). As such, a ``CommandError`` will be raised under any of the following conditions:
+The server hosting the ZIP doesn't always provide the most up-to-date resource (as we have `documented <https://github.com/california-civic-data-coalition/django-calaccess-raw-data/issues/1487>`_). As such, a ``CommandError`` will be raised under either of the following conditions:
 
-* If ``downloadcalaccessrawdata`` is not called from the command-line (presumably, then, it was called by ``updatecalaccessrawdata``), and the ``RawDataVersion`` instance of the download command doesn't match the most recently started update.
-* If the ``ETag`` in the initial HEAD request made by ``downloadcalaccessrawdata`` does not match the ``ETag`` in the subsequent GET request.
 * If the actual size of the ZIP does not match the value of the ``Content-Length`` in the HEAD response.
+* If the ``Last-modified`` of HEAD and GET are more than five minutes apart.
 
 Options
 ```````
@@ -483,3 +482,7 @@ Options
       -a APP_NAME, --app-name APP_NAME
                             Name of Django app with models into which data will be
                             imported (if other not calaccess_raw)
+
+
+.. _CAL-ACCESS website: http://cal-access.sos.ca.gov/campaign/
+.. _called within your Python code: https://docs.djangoproject.com/en/1.10/ref/django-admin/#running-management-commands-from-your-code

@@ -22,7 +22,7 @@ The latest version of the application can be installed from the Python Package I
     $ pip install django-calaccess-processed-data
 
 Like most Django applications, the app then needs to be added to the
-``INSTALLED_APPS`` in your ``settings.py`` configuration file, along with the other Django apps it depends on:
+``INSTALLED_APPS`` in your ``settings.py`` configuration file. You also need to include other Django apps it depends on:
 
 .. code-block:: python
 
@@ -47,7 +47,7 @@ A little more about these dependencies:
     This app includes Django models and admin panels for the core data types of the `Open Civic Data`_ specification, including ``Person``, ``Organization``, ``Post`` and ``Membership``.
 
 ``opencivicdata.elections``
-    This app includes Django models and admins panels for additional election-related data types that have been `provisionally included`_ in the Open Civic Data specification.
+    This app includes Django models and admins panels for election-related data types that have been `provisionally included`_ in the Open Civic Data specification.
 
 ------------------
 
@@ -62,7 +62,7 @@ Also in the ``settings.py`` file, you will need to configure Django so it can co
     Unlike a typical Django project, this application only supports PostgreSQL database backends. This is because we enlist specialized tools to load the immense amount of source data more quickly than Django typically allows. We haven't developed those routines for SQLite and the other Django backends yet, but we might someday.
 
 
-Before you begin, make sure you have a PostgreSQL server installed. If you don't, now is the time to hit Google and figure out how. The `official PostgreSQL documentation`_ is a good place to start.
+Before you begin, make sure you have a PostgreSQL server installed. If you don't, now is the time to hit Google and figure out how. The `official PostgreSQL documentation`_ is another good place to start.
 
 Once that's handled, add a database connection string like this to your ``settings.py``.
 
@@ -118,7 +118,7 @@ Because the nightly raw export is incomplete, we have to scrape additional data 
 
     $ python manage.py scrapecalaccess
 
-Once the raw CAL-ACCESS data is loaded and the scrape has finished, you can transform all this messy data you've collected into our easy-to-understand, well-documented models with the processcalaccessdata_ command:
+Once the raw CAL-ACCESS data is loaded and the scrape has finished, you can transform all this messy data and load into a more simplified structure with the processcalaccessdata_ command:
 
 .. code-block:: bash
 
@@ -135,5 +135,5 @@ Once the raw CAL-ACCESS data is loaded and the scrape has finished, you can tran
 .. _multiple databases: /faq.html#do-i-have-to-load-the-cal-access-data-into-my-default-database
 .. _updatecalaccessrawdata: apps/calaccess_raw/managementcommands.html#updatecalaccessrawdata
 .. _scrapecalaccess: /apps/calaccess_scraped/managementcommands.html#scrapecalaccess
-.. _processcalaccessdata: /apps/calaccess_processed/managementcommands.html#_processcalaccessdata
+.. _processcalaccessdata: /apps/calaccess_processed/managementcommands.html#processcalaccessdata
 .. _CAL-ACCESS website: http://cal-access.sos.ca.gov/Campaign/

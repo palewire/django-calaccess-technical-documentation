@@ -410,7 +410,7 @@ This command loads data from the ``IncumbentElection`` and ``CandidateElection``
 
 .. note::
 
-    Use ``loadocdcandidateelections`` before using ``loadocdcandidatecontests``.
+    Use ``loadocdcandidateelections`` and ``loadocdparties`` before using ``loadocdcandidatecontests``.
 
 Examples
 ````````

@@ -1,10 +1,10 @@
 Management commands
 ===================
 
-The processed-data app includes the following commands for refining the raw CAL-ACCESS data. Specifically, the raw data is loaded into the following types of models:
+The processed-data app includes the following commands for refining data extracted and scraped from CAL-ACCESS. Specifically, the raw data is loaded into the following types of models:
 
 * ``Filing`` models that surface the most recent version of data included on a campaign-finance filing form, schedule or line item (e.g., a `Form 460`_, its Schedule A or Line 1 on that schedule).
-* ``FilingVersion`` models that surface every version of campaign-finance filing form, schedule or line item.
+* ``FilingVersion`` models that surface every version of a campaign-finance filing form, schedule or line item.
 * Models that implement the core data types of the `Open Civic Data specification`_ (e.g., ``Person``, ``Organization``, ``Post`` and ``Membership``).
 *  Models that implement election-related data types that have been `provisionally included`_ in the Open Civic Data specification (e.g., ``Election``, ``CandidateContest`` and ``Candidacy``).
 
@@ -31,7 +31,7 @@ processcalaccessdata
 
 This is the master command. It brings together all of the other management commands listed below to load data into processed CAL-ACCESS models.
 
-If your Django project is configured for archiving (`details here`_), this command will also exports a csv file for each model it loads.
+If your Django project is configured for archiving (`details here`_), this command also will export a csv file for each loaded model.
 
 Examples
 ````````
@@ -140,10 +140,9 @@ Options
 loadcalaccessfilings
 ~~~~~~~~~~~~~~~~~~~~
 
-Load the CAL-ACCESS ``Filing`` and ``FilingVersion`` models. A component of the
-master ``processcalaccessdata`` command.
+Load the CAL-ACCESS ``Filing`` and ``FilingVersion`` models. A component of the master ``processcalaccessdata`` command.
 
-If your Django project is configured for archiving (`details here`_), this command will also exports a csv file for each model it loads.
+If your Django project is configured for archiving (`details here`_), this command also will export a csv file for each loaded model.
 
 Examples
 ````````
@@ -197,11 +196,12 @@ Options
 loadocdelections
 ~~~~~~~~~~~~~~~~
 
-Load OCD elections models with raw/scraped CAL-ACCESS data. A component of the master ``processcalaccessdata`` command.
+Load OCD elections models with data extracted and scraped from CAL-ACCESS. A component of the master ``processcalaccessdata`` command.
 
 This command runs the following management commands, in order:
 
 #. ``loadocdparties``
+#. ``loadocdballotmeasureelections``
 #. ``loadocdballotmeasurecontests``
 #. ``loadocdretentioncontests``
 #. ``loadocdcandidateelections``
@@ -211,7 +211,7 @@ This command runs the following management commands, in order:
 #. ``mergeocdpersonsbycontestandname``
 #. ``loadocdincumbentofficeholders``
 
-If your Django project is configured for archiving (`details here`_), this command will also exports a csv file for each model it loads.
+If your Django project is configured for archiving (`details here`_), this command also will export a csv file for each loaded model.
 
 Examples
 ````````
@@ -233,7 +233,53 @@ Options
                                       [--pythonpath PYTHONPATH] [--traceback]
                                       [--no-color]
 
-    Load OCD elections models with raw/scraped CAL-ACCESS data.
+    Load OCD elections models with data extracted and scraped from CAL-ACCESS.
+
+    optional arguments:
+      -h, --help            show this help message and exit
+      --version             show program's version number and exit
+      -v {0,1,2,3}, --verbosity {0,1,2,3}
+                            Verbosity level; 0=minimal output, 1=normal output,
+                            2=verbose output, 3=very verbose output
+      --settings SETTINGS   The Python path to a settings module, e.g.
+                            "myproject.settings.main". If this isn't provided, the
+                            DJANGO_SETTINGS_MODULE environment variable will be
+                            used.
+      --pythonpath PYTHONPATH
+                            A directory to add to the Python path, e.g.
+                            "/home/djangoprojects/myproject".
+      --traceback           Raise on CommandError exceptions
+      --no-color            Don't colorize the command output.
+
+
+----------------------
+
+loadocdballotmeasureelections
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Load the OCD ``Election`` model from the scraped ``PropositionElection`` model. A component of the ``loadocdelections`` command.
+
+Examples
+````````
+
+Here is how to run the command.
+
+.. code-block:: none
+
+    $ python manage.py loadocdballotmeasureelections
+
+
+Options
+```````
+
+.. code-block:: none
+
+    usage: manage.py loadocdballotmeasureelections [-h] [--version] [-v {0,1,2,3}]
+                                                   [--settings SETTINGS]
+                                                   [--pythonpath PYTHONPATH]
+                                                   [--traceback] [--no-color]
+
+    Load the OCD Election model from the scraped PropositionElection model
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -257,7 +303,11 @@ Options
 loadocdballotmeasurecontests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load the OCD ``BallotMeasureContest`` and related models with data scraped from the CAL-ACCESS website. A component of the ``loadocdelections`` command.
+Load OCD ``BallotMeasureContest`` and related models with scraped CAL-ACCESS data. A component of the ``loadocdelections`` command.
+
+.. note::
+
+    Use ``loadocdballotmeasureelections`` before using ``loadocdballotmeasurecontests``.
 
 Examples
 ````````
@@ -280,7 +330,7 @@ Options
                                                   [--traceback] [--no-color]
                                                   [--flush]
 
-    Load OCD BallotMeasureContest and related models with data scraped from the CAL-ACCESS website
+    Load OCD BallotMeasureContest and related models with scraped CAL-ACCESS data
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -305,7 +355,7 @@ Options
 loadocdcandidateelections
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load OCD ``Election`` models with candidate-related data scraped from the CAL-ACCESS website. A component of the ``loadocdelections`` command.
+Load the OCD ``Election`` model with data from the scraped ``CandidateElection`` model. A component of the ``loadocdelections`` command.
 
 Examples
 ````````
@@ -329,7 +379,7 @@ Options
                                                [--traceback] [--no-color]
                                                [--flush]
 
-    Load the OCD Election model with data from the ScrapedCandidateElection model.
+    Load the OCD Election model with data from the scraped CandidateElection model.
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -356,6 +406,8 @@ loadocdcandidatecontests
 
 Load the OCD ``CandidateContest`` and related models with scraped CAL-ACCESS data. A component of the ``loadocdelections`` command.
 
+This command loads data from the ``IncumbentElection`` and ``CandidateElection`` models in ``calaccess_scraped``.
+
 .. note::
 
     Use ``loadocdcandidateelections`` before using ``loadocdcandidatecontests``.
@@ -380,7 +432,7 @@ Options
                                               [--pythonpath PYTHONPATH]
                                               [--traceback] [--no-color] [--flush]
 
-    Load the OCD CandidateContest and related models with scraped CAL-ACCESS data.
+    Load the OCD CandidateContest and related models with scraped CAL-ACCESS data
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -405,7 +457,7 @@ Options
 loadocdcandidaciesfrom501s
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load the OCD ``Candidacy`` model from records extracted from ``Form501Filing`` records. A component of the ``loadocdelections`` command.
+Load the OCD ``Candidacy`` model with data extracted from the ``Form501Filing`` model. A component of the ``loadocdelections`` command.
 
 This command fills in ``Candidacy`` records with data missing on the CAL-ACCESS website (e.g., the candidate's party in each contest). It also adds additional ``Candidacy`` records.
 
@@ -429,7 +481,7 @@ Options
                                                 [--pythonpath PYTHONPATH]
                                                 [--traceback] [--no-color]
 
-    Load the Candidacy models from records extracted from Form501Filings.
+    Load the OCD Candidacy model with data extracted from the Form501Filing model.
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -453,7 +505,11 @@ Options
 loadocdincumbentofficeholders
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load incumbent candidate data scraped from the CAL-ACCESS website into OCD models. A component of the ``loadocdelections`` command.
+Load the OCD ``Membership`` model with data from the scraped Incumbent model. A component of the ``loadocdelections`` command.
+
+.. note::
+
+    Use ``loadocdcandidateelections`` before using ``loadocdincumbentofficeholders``.
 
 Examples
 ````````
@@ -475,7 +531,7 @@ Options
                                                    [--pythonpath PYTHONPATH]
                                                    [--traceback] [--no-color]
 
-    Load incumbent candidate data scraped from the CAL-ACCESS website into OCD models.
+    Load the OCD Membership model with data from the scraped Incumbent model
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -499,7 +555,11 @@ Options
 loadocdretentioncontests
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Load OCD ``RetentionContest`` and related models with data scraped from the CAL-ACCESS website. A component of the ``loadocdelections`` command.
+Load OCD ``RetentionContest`` and related models with data scraped from CAL-ACCESS. A component of the ``loadocdelections`` command.
+
+.. note::
+
+    Use ``loadballotmeasureelections`` before using ``loadocdretentioncontests``.
 
 Examples
 ````````
@@ -521,7 +581,7 @@ Options
                                               [--pythonpath PYTHONPATH]
                                               [--traceback] [--no-color] [--flush]
 
-    Load OCD RetentionContest and related models with data scraped from the CAL-ACCESS website.
+    Load OCD RetentionContest and related models with data scraped from CAL-ACCESS
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -546,7 +606,7 @@ Options
 loadocdparties
 ~~~~~~~~~~~~~~
 
-Load OCD ``Organization`` model with parties extracted from raw CAL-ACCESS data.. A component of the ``loadocdelections`` command.
+Load OCD ``Organization`` model with parties extracted from raw CAL-ACCESS data. A component of the ``loadocdelections`` command.
 
 Examples
 ````````
@@ -615,7 +675,7 @@ Options
                                                      [--pythonpath PYTHONPATH]
                                                      [--traceback] [--no-color]
 
-    Find and merge OCD Person records that share a name and CandidateContest.
+    Find and merge OCD Person records that share a name and CandidateContest
 
     optional arguments:
       -h, --help            show this help message and exit
@@ -659,7 +719,7 @@ Options
                                               [--pythonpath PYTHONPATH]
                                               [--traceback] [--no-color]
 
-    Find and merge OCD Person records that share the same CAL-ACCESS filer_id.
+    Find and merge OCD Person records that share the same CAL-ACCESS filer_id
 
     optional arguments:
       -h, --help            show this help message and exit

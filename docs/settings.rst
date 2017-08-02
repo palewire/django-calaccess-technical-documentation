@@ -18,10 +18,6 @@ You can change this location — say to the ``tmp/`` directory at your file syst
 
     CALACCESS_DATA_DIR = '/tmp/'
 
-.. note::
-
-    If you modify this setting, make sure the directory you specify is one to which all users have write and execute permissions.
-
 
 CALACCESS_STORE_ARCHIVE
 ---------------------------

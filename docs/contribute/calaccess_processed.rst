@@ -102,13 +102,13 @@ Because the nightly raw export is incomplete, we have to scrape additional data 
 
 .. code-block:: sh
 
-    $ python manage.py scrapecalaccess
+    $ python example/manage.py scrapecalaccess
 
 Once the raw CAL-ACCESS data is loaded and the scrape has finished, you can transform all this messy data you've collected into our easy-to-understand, well-documented models with the processcalaccessdata_ command:
 
 .. code-block:: bash
 
-    $ python manage.py processcalaccessdata
+    $ python example/manage.py processcalaccessdata
 
 
 ---------------

@@ -5,6 +5,8 @@ Changelog
 ----------------------
 
 * Upgrade to v2.0.0 of django-postgres-copy and refactor export commands accordingly
+* Require Django 1.10 or above
+* Correct documentation for a number of fields
 
 1.6.0 (July 2017)
 ---------------------

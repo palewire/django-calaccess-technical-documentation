@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.6.1 (September 2017)
+----------------------
+
+* Upgrade to v2.0.0 of django-postgres-copy and refactor export commands accordingly
+
 1.6.0 (July 2017)
 ---------------------
 

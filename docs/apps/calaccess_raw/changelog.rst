@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.6.2 (October 2017)
+--------------------
+
+* Renamed raw data zipfile as `raw.zip` to match the language on our revamped downloads page
+
 1.6.1 (September 2017)
 ----------------------
 

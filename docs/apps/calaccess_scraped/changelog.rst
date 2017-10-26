@@ -1,8 +1,8 @@
 Changelog
 =========
 
-0.1.1 (October 2017
--------------------
+0.1.1 (October 2017)
+--------------------
 
 * Updated dependencies
 * Added fixtures to distribution

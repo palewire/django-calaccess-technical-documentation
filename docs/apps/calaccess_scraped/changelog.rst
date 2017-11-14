@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.1.2 (November 2017)
+---------------------
+
+* Added five second timeout to requests made to CAL-ACCESS
+
 0.1.1 (October 2017)
 --------------------
 

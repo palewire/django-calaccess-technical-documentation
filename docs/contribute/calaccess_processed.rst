@@ -11,18 +11,15 @@ It will show you how to install the source code of this application to fix bugs 
 Preparing a development environment
 -----------------------------------
 
-It is not required, but it is recommended that development of the library be
-done from within a contained virtual environment.
+It is not required, but it is recommended that development of the library be done from within a contained virtual environment.
 
-One way to accomplish that is with Python's ``virtualenv`` tool and its helpful companion ``virtualenvwrapper``.
-If you have that installed, a new project can be started with the following:
+One way to accomplish that is with Python's ``virtualenv`` tool and its helpful companion ``virtualenvwrapper``. If you have that installed, a new project can be started with the following:
 
 .. code-block:: bash
 
     $ mkproject django-calaccess-processed-data
 
-That will jump into a new folder in your code directory, where you can clone our
-code repository from GitHub_ after you make a fork of your own. Don't know what that means? `Read this`_.
+That will jump into a new folder in your code directory, where you can clone our code repository from GitHub_ after you make a fork of your own. Don't know what that means? `Read this`_.
 
 .. code-block:: bash
 
@@ -40,13 +37,7 @@ Next install the other Python libraries our code depends on.
 Connecting to a local database
 ------------------------------
 
-Unlike a typical Django project, this application only supports the MySQL and
-PostgreSQL database backends. This is because we enlist specialized tools to load
-the immense amount of source data more quickly than Django typically allows.
-
-.. note::
-
-    Unlike a typical Django project, this application only supports PostgreSQL database backends. This is because we enlist specialized tools to load the immense amount of source data more quickly than Django typically allows. We haven't developed those routines for SQLite and the other Django backends yet, but we might someday.
+Unlike a typical Django project, this application only supports PostgreSQL version 9.6 and above as a database backend. This is because we enlist specialized tools to load the immense amount of source data. We haven't developed those routines for SQLite and the other Django backends yet, but we might someday.
 
 ~~~~~~~~~~~~
 

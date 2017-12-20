@@ -94,21 +94,7 @@ whenever you start the project's virtual environment, the variable will be expor
 Connecting to a local database
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Unlike a typical Django project, this application only supports the MySQL and
-PostgreSQL database backends. This is because we enlist specialized tools to load
-the immense amount of source data more quickly than Django typically allows.
-
-If you choose MySQL
-```````````````````
-
-Create a new database named ``calaccess_website`` like this:
-
-.. code-block:: bash
-
-    mysqladmin -h localhost -u root -p create calaccess_website
-
-If you choose PostgreSQL
-````````````````````````
+Unlike a typical Django project, this application only supports PostgreSQL version 9.6 and above as a database backend. This is because we enlist specialized tools to load the immense amount of source data more quickly than Django typically allows.
 
 Create the database the PostgreSQL way.
 

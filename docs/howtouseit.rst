@@ -31,6 +31,10 @@ Like most Django applications, the app then needs to be added to the
         'calaccess_raw',
         'calaccess_scraped',
         'calaccess_processed',
+        'calaccess_processed_filings',
+        'calaccess_processed_elections',
+        'calaccess_processed_flatfiles',
+        'calaccess_processed_campaignfinance',
         'opencivicdata.core.apps.BaseConfig',
         'opencivicdata.elections.apps.BaseConfig',
     )

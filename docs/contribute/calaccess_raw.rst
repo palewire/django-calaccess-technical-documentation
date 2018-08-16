@@ -11,8 +11,7 @@ It will show you how to install the source code of this application to fix bugs 
 Preparing a development environment
 -----------------------------------
 
-It is not required, but it is recommended that development of the library be
-done from within a contained virtual environment.
+It is not required, but it is recommended that development of the library be done from within a contained virtual environment.
 
 One way to accomplish that is with Python's ``virtualenv`` tool and its helpful companion ``virtualenvwrapper``. If you have that installed, a new project can be started with the following:
 
@@ -39,49 +38,12 @@ Next install the other Python libraries our code depends on.
 Connecting to a local database
 ------------------------------
 
-Unlike a typical Django project, this application only supports the MySQL and
-PostgreSQL database backends. This is because we enlist specialized tools to load
+Unlike a typical Django project, this application only supports the
+PostgreSQL database backend. This is because we enlist specialized tools to load
 the immense amount of source data more quickly than Django typically allows.
 
-.. note::
-
-    We haven't developed similar routines for SQLite and the other Django backends yet, but we're working on it. This might be something you could work on!
-
-~~~~~~~~~~~~
-
-
-If you choose MySQL
-~~~~~~~~~~~~~~~~~~~
-
-Create a new database named ``calaccess_raw`` like this:
-
-.. code-block:: bash
-
-    mysqladmin -h localhost -u root -p create calaccess_raw
-
-Create a file at ``example/settings_local.py`` to save your custom database credentials. That might look something like this.
-
-.. code-block:: python
-
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': 'calaccess_raw',
-            'USER': 'yourusername', # <-- Change this
-            'PASSWORD': 'yourpassword', # <-- And this
-            'HOST': 'localhost',
-            'PORT': '3306',
-            'OPTIONS': {
-                'local_infile': 1,
-            }
-        }
-    }
-
-~~~~~~~~~~~~
-
-
-If you choose PostgreSQL
-~~~~~~~~~~~~~~~~~~~~~~~~
+Creating your database
+~~~~~~~~~~~~~~~~~~~~~~
 
 Create the database the PostgreSQL way.
 

@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+Sphinx = "*"
+sphinx_rtd_theme = "*"
+sphinx-autobuild = "*"
+Django = "*"
+django-calaccess-raw-data = {git = "https://github.com/california-civic-data-coalition/django-calaccess-raw-data.git", editable = true, ref = "HEAD"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"

@@ -1,10 +1,20 @@
 Changelog
 =========
 
+2.0.0 (August 2018)
+-------------------
+
+* Dropped MySQL support
+* Refactored clean and loading commands for readability
+* Added Django 2.1 support
+* Added Python 3.7 support
+
+
 1.6.2 (October 2017)
 --------------------
 
 * Renamed raw data zipfile as `raw.zip` to match the language on our revamped downloads page
+
 
 1.6.1 (September 2017)
 ----------------------
